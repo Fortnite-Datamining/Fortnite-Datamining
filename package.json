@@ -1,0 +1,26 @@
+{
+  "name": "fortnite-datamining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "fetch": "tsx src/fetch.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fortnite-Datamining/Fortnite-Datamining.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fortnite-Datamining/Fortnite-Datamining/issues"
+  },
+  "homepage": "https://github.com/Fortnite-Datamining/Fortnite-Datamining#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
