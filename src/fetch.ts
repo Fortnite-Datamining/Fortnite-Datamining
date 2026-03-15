@@ -198,6 +198,47 @@ interface ChangeInfo {
   description: string;
   itemsBefore: number;
   itemsAfter: number;
+  newItemNames: string[];
+  removedItemNames: string[];
+}
+
+function diffItemNames(
+  relPath: string,
+  newData: unknown,
+  sortKey: string,
+): { newNames: string[]; removedNames: string[] } {
+  const absPath = join(ROOT, relPath);
+  const getItems = (obj: unknown): Map<string, string> => {
+    const map = new Map<string, string>();
+    const d = (obj as Record<string, unknown>)?.data;
+    if (!Array.isArray(d)) return map;
+    for (const item of d) {
+      const id = String(item?.[sortKey] ?? "");
+      const name = String(item?.name ?? item?.title ?? id);
+      if (id) map.set(id, name);
+    }
+    return map;
+  };
+
+  const newItems = getItems(newData);
+  if (!existsSync(absPath)) return { newNames: [...newItems.values()], removedNames: [] };
+
+  try {
+    const oldData = JSON.parse(readFileSync(absPath, "utf-8"));
+    const oldItems = getItems(oldData);
+
+    const newNames: string[] = [];
+    const removedNames: string[] = [];
+    for (const [id, name] of newItems) {
+      if (!oldItems.has(id)) newNames.push(name);
+    }
+    for (const [id, name] of oldItems) {
+      if (!newItems.has(id)) removedNames.push(name);
+    }
+    return { newNames, removedNames };
+  } catch {
+    return { newNames: [], removedNames: [] };
+  }
 }
 
 function formatCommitMessage(changes: ChangeInfo[]): string {
@@ -226,6 +267,14 @@ function formatCommitMessage(changes: ChangeInfo[]): string {
       lines.push(`- ${c.file} (${diff} items, ${c.itemsAfter} total)`);
     } else {
       lines.push(`- ${c.file}`);
+    }
+    if (c.newItemNames.length > 0) {
+      const names = c.newItemNames.slice(0, 10);
+      lines.push(`  Added: ${names.join(", ")}${c.newItemNames.length > 10 ? ` (+${c.newItemNames.length - 10} more)` : ""}`);
+    }
+    if (c.removedItemNames.length > 0) {
+      const names = c.removedItemNames.slice(0, 10);
+      lines.push(`  Removed: ${names.join(", ")}${c.removedItemNames.length > 10 ? ` (+${c.removedItemNames.length - 10} more)` : ""}`);
     }
   }
 
@@ -271,10 +320,19 @@ async function sendDiscordNotification(changes: ChangeInfo[]): Promise<void> {
     .filter((c) => c.file !== "data/meta/build_info.json")
     .map((c) => {
       const diff = c.itemsAfter - c.itemsBefore;
-      let value = "Content changed";
-      if (c.itemsBefore > 0 && diff > 0) value = `+${diff} new (${c.itemsAfter} total)`;
-      else if (c.itemsBefore > 0 && diff < 0) value = `${diff} removed (${c.itemsAfter} total)`;
-      return { name: c.description, value, inline: true };
+      const lines: string[] = [];
+      if (c.itemsBefore > 0 && diff > 0) lines.push(`+${diff} new (${c.itemsAfter} total)`);
+      else if (c.itemsBefore > 0 && diff < 0) lines.push(`${diff} removed (${c.itemsAfter} total)`);
+      else lines.push("Content changed");
+      if (c.newItemNames.length > 0) {
+        const names = c.newItemNames.slice(0, 5);
+        lines.push(`**New:** ${names.join(", ")}${c.newItemNames.length > 5 ? ` +${c.newItemNames.length - 5} more` : ""}`);
+      }
+      if (c.removedItemNames.length > 0) {
+        const names = c.removedItemNames.slice(0, 5);
+        lines.push(`**Removed:** ${names.join(", ")}${c.removedItemNames.length > 5 ? ` +${c.removedItemNames.length - 5} more` : ""}`);
+      }
+      return { name: c.description, value: lines.join("\n"), inline: false };
     });
 
   const embed = {
@@ -308,13 +366,17 @@ function buildTweetText(changes: ChangeInfo[]): string {
     parts.push(`New Fortnite update detected! (${version})`);
   }
 
+  // Collect all new cosmetic names across all cosmetic endpoints
   const cosmetics = changes.filter((c) => c.file.startsWith("data/cosmetics/"));
-  const totalNew = cosmetics.reduce((sum, c) => {
-    const diff = c.itemsAfter - c.itemsBefore;
-    return sum + (diff > 0 ? diff : 0);
-  }, 0);
+  const allNewNames = cosmetics.flatMap((c) => c.newItemNames);
+  const totalNew = allNewNames.length;
+
   if (totalNew > 0) {
-    parts.push(`${totalNew} new cosmetic${totalNew === 1 ? "" : "s"} added to the files`);
+    parts.push(`${totalNew} new cosmetic${totalNew === 1 ? "" : "s"} found in the files:`);
+    // List names, fitting within tweet limit
+    const namesList = allNewNames.slice(0, 8).join(", ");
+    const extra = totalNew > 8 ? ` +${totalNew - 8} more` : "";
+    parts.push(namesList + extra);
   }
 
   const shopChange = changes.find((c) => c.description === "Item Shop");
@@ -331,7 +393,16 @@ function buildTweetText(changes: ChangeInfo[]): string {
 
   if (parts.length === 0) parts.push("Fortnite data updated");
 
-  return parts.join("\n\n") + "\n\n#Fortnite #FortniteLeaks #FortniteSeason3";
+  const hashtags = "#Fortnite #FortniteLeaks";
+  const body = parts.join("\n");
+
+  // Ensure we fit in 280 chars
+  if ((body + "\n\n" + hashtags).length <= 280) {
+    return body + "\n\n" + hashtags;
+  }
+  // Trim body to fit
+  const maxBody = 280 - hashtags.length - 4; // 4 for \n\n padding
+  return body.slice(0, maxBody).trimEnd() + "\n\n" + hashtags;
 }
 
 function oauthSign(
@@ -435,6 +506,16 @@ async function fetchAll(): Promise<ChangeInfo[]> {
     successCount++;
 
     const itemsBefore = countItems(endpoint.output);
+
+    // Diff item names before saving (so we can compare old vs new)
+    let newItemNames: string[] = [];
+    let removedItemNames: string[] = [];
+    if (endpoint.sortKey) {
+      const diff = diffItemNames(endpoint.output, data, endpoint.sortKey);
+      newItemNames = diff.newNames;
+      removedItemNames = diff.removedNames;
+    }
+
     const changed = saveJson(data, endpoint.output, endpoint.sortKey);
 
     if (changed) {
@@ -444,8 +525,13 @@ async function fetchAll(): Promise<ChangeInfo[]> {
         description: endpoint.description,
         itemsBefore,
         itemsAfter,
+        newItemNames,
+        removedItemNames,
       });
       console.log(`  ${endpoint.description} -> Changed`);
+      if (newItemNames.length > 0) {
+        console.log(`    New: ${newItemNames.slice(0, 5).join(", ")}${newItemNames.length > 5 ? ` (+${newItemNames.length - 5} more)` : ""}`);
+      }
     } else {
       console.log(`  ${endpoint.description} -> No changes`);
     }
@@ -458,6 +544,8 @@ async function fetchAll(): Promise<ChangeInfo[]> {
           description: "Build Info",
           itemsBefore: 0,
           itemsAfter: 0,
+          newItemNames: [],
+          removedItemNames: [],
         });
       }
     }
