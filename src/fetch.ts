@@ -31,7 +31,7 @@ const ENDPOINTS: Record<string, Endpoint> = {
     description: "News",
   },
   playlists: {
-    url: "https://fortnite-api.com/v2/playlists",
+    url: "https://fortnite-api.com/v1/playlists",
     output: "data/playlists/current.json",
     description: "Playlists",
     sortKey: "id",
@@ -115,10 +115,10 @@ function extractBuildInfo(aesData: unknown): boolean {
   const data = obj?.data as Record<string, unknown> | undefined;
   if (!data) return false;
 
+  // Only include build and version — no timestamp to avoid noise diffs
   const buildInfo = {
     build: data.build ?? null,
     version: data.version ?? null,
-    updated: new Date().toISOString(),
   };
 
   return saveJson(buildInfo, "data/meta/build_info.json");
