@@ -1,3 +1,4 @@
+import { createHmac } from "crypto";
 import { execSync } from "child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join } from "path";
@@ -91,6 +92,10 @@ const ENDPOINTS: Record<string, Endpoint> = {
 };
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
+const TWITTER_API_KEY = process.env.TWITTER_API_KEY;
+const TWITTER_API_SECRET = process.env.TWITTER_API_SECRET;
+const TWITTER_ACCESS_TOKEN = process.env.TWITTER_ACCESS_TOKEN;
+const TWITTER_ACCESS_SECRET = process.env.TWITTER_ACCESS_SECRET;
 
 function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
@@ -292,6 +297,120 @@ async function sendDiscordNotification(changes: ChangeInfo[]): Promise<void> {
   }
 }
 
+function buildTweetText(changes: ChangeInfo[]): string {
+  const buildInfoPath = join(ROOT, "data/meta/build_info.json");
+  const buildChange = changes.find((c) => c.file === "data/meta/build_info.json");
+  const parts: string[] = [];
+
+  if (buildChange && existsSync(buildInfoPath)) {
+    const info = JSON.parse(readFileSync(buildInfoPath, "utf-8"));
+    const version = String(info.build ?? "").replace(/\+\+Fortnite\+Release-/, "v").replace(/-CL-.*/, "");
+    parts.push(`New Fortnite update detected! (${version})`);
+  }
+
+  const cosmetics = changes.filter((c) => c.file.startsWith("data/cosmetics/"));
+  const totalNew = cosmetics.reduce((sum, c) => {
+    const diff = c.itemsAfter - c.itemsBefore;
+    return sum + (diff > 0 ? diff : 0);
+  }, 0);
+  if (totalNew > 0) {
+    parts.push(`${totalNew} new cosmetic${totalNew === 1 ? "" : "s"} added to the files`);
+  }
+
+  const shopChange = changes.find((c) => c.description === "Item Shop");
+  if (shopChange) parts.push("Item Shop has rotated");
+
+  const newsChange = changes.find((c) => c.description === "News");
+  if (newsChange) parts.push("In-game news updated");
+
+  const playlistChange = changes.find((c) => c.description === "Playlists");
+  if (playlistChange) parts.push("Playlists/gamemodes changed");
+
+  const aesChange = changes.find((c) => c.description === "AES Keys");
+  if (aesChange && !buildChange) parts.push("New AES encryption keys");
+
+  if (parts.length === 0) parts.push("Fortnite data updated");
+
+  return parts.join("\n\n") + "\n\n#Fortnite #FortniteLeaks #FortniteSeason3";
+}
+
+function oauthSign(
+  method: string,
+  url: string,
+  params: Record<string, string>,
+  consumerSecret: string,
+  tokenSecret: string,
+): string {
+  const baseString =
+    method.toUpperCase() +
+    "&" +
+    encodeURIComponent(url) +
+    "&" +
+    encodeURIComponent(
+      Object.keys(params)
+        .sort()
+        .map((k) => `${encodeURIComponent(k)}=${encodeURIComponent(params[k])}`)
+        .join("&"),
+    );
+  const signingKey = encodeURIComponent(consumerSecret) + "&" + encodeURIComponent(tokenSecret);
+  return createHmac("sha1", signingKey).update(baseString).digest("base64");
+}
+
+async function postTweet(changes: ChangeInfo[]): Promise<void> {
+  if (!TWITTER_API_KEY || !TWITTER_API_SECRET || !TWITTER_ACCESS_TOKEN || !TWITTER_ACCESS_SECRET) {
+    return;
+  }
+
+  const text = buildTweetText(changes);
+  if (text.length > 280) {
+    console.warn(`Tweet too long (${text.length} chars), truncating...`);
+  }
+
+  const url = "https://api.twitter.com/2/tweets";
+  const oauthNonce = Math.random().toString(36).substring(2);
+  const oauthTimestamp = Math.floor(Date.now() / 1000).toString();
+
+  const oauthParams: Record<string, string> = {
+    oauth_consumer_key: TWITTER_API_KEY,
+    oauth_nonce: oauthNonce,
+    oauth_signature_method: "HMAC-SHA1",
+    oauth_timestamp: oauthTimestamp,
+    oauth_token: TWITTER_ACCESS_TOKEN,
+    oauth_version: "1.0",
+  };
+
+  const signature = oauthSign("POST", url, oauthParams, TWITTER_API_SECRET, TWITTER_ACCESS_SECRET);
+  oauthParams.oauth_signature = signature;
+
+  const authHeader =
+    "OAuth " +
+    Object.keys(oauthParams)
+      .sort()
+      .map((k) => `${encodeURIComponent(k)}="${encodeURIComponent(oauthParams[k])}"`)
+      .join(", ");
+
+  try {
+    const res = await fetch(url, {
+      method: "POST",
+      headers: {
+        Authorization: authHeader,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ text: text.slice(0, 280) }),
+    });
+
+    if (!res.ok) {
+      const body = await res.text();
+      console.warn(`Twitter API error (${res.status}): ${body}`);
+      return;
+    }
+
+    console.log("Tweet posted.");
+  } catch (err) {
+    console.warn(`Twitter post failed: ${err instanceof Error ? err.message : err}`);
+  }
+}
+
 async function fetchAll(): Promise<ChangeInfo[]> {
   const changes: ChangeInfo[] = [];
   let successCount = 0;
@@ -365,6 +484,7 @@ async function main() {
   console.log(`\n${changes.length} file(s) changed.`);
   gitCommit(changes);
   await sendDiscordNotification(changes);
+  await postTweet(changes);
 }
 
 main().catch((err) => {
