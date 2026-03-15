@@ -1,12 +1,12 @@
 # Fortnite Datamining
 
-Automated tracking of changes to Fortnite through public API data. Datamining is done by periodically fetching JSON data from [fortnite-api.com](https://fortnite-api.com/) and committing changes to this repository — **git diffs between commits reveal what changed.**
+> This project is not affiliated with or endorsed by Epic Games.
 
-> **Note:** This project is not affiliated with or endorsed by Epic Games. It is purely for educational and informational purposes.
+Automated tracking of changes to Fortnite through public API data. Datamining is done by periodically fetching JSON data from [fortnite-api.com](https://fortnite-api.com/) and committing changes to this repository. Git diffs between commits reveal what changed
 
 ## How It Works
 
-A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes to fetch data from Fortnite's public APIs. When data changes (new cosmetics, shop rotation, build updates, etc.), the differences are committed to this repo. You can browse the [commit history](../../commits/main) to see exactly what changed and when.
+A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes to fetch data from Fortnite's public APIs. When data changes (new cosmetics, shop rotation, build updates, etc), the differences are committed to this repo. You can browse the [commit history](../../commits/main) to see exactly what changed and when
 
 ## Tracked Data
 
@@ -46,4 +46,4 @@ npm run fetch
 
 ## Credits
 
-Data sourced from [fortnite-api.com](https://fortnite-api.com/).
+Data sourced from [fortnite-api.com](https://fortnite-api.com/)
