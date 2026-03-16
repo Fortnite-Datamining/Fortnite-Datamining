@@ -6,7 +6,7 @@ Automated tracking of changes to Fortnite through public API data. Datamining is
 
 ## How It Works
 
-A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes to fetch data from Fortnite's public APIs. When data changes (new cosmetics, shop rotation, build updates, etc), the differences are committed to this repo. You can browse the [commit history](../../commits/main) to see exactly what changed and when
+A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes to fetch data from Fortnite's public APIs. When data changes (new cosmetics, shop rotation, build updates, etc), the differences are committed to this repo. You can browse the [commit history](../../commits/main) to see exactly what changed and when or check [Twitter](https://x.com/FortDatamining)
 
 ## Tracked Data
 
