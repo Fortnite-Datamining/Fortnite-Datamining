@@ -4185,6 +4185,38 @@
       }
     },
     {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "Get hoppin'.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_BrineGleam",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_brinegleam/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_brinegleam/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Bunny Hops",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2026-03-19T06:29:28Z",
       "description": "Fit for a chilling ruler.",
       "id": "Backpack_BriskReign",
@@ -30557,6 +30589,38 @@
         "backendValue": "QuietMetal",
         "text": "Part of the Silence is Golden set.",
         "value": "Silence is Golden"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "I claim this planet, in the name of the Earth.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_NotchGnarl",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_notchgnarl/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_notchgnarl/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Duck Dodgers' Rocket",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -101670,6 +101734,60 @@
       ]
     },
     {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "Don't ever call her 'doll'.",
+      "dynamicPakId": "1018",
+      "id": "Character_BrineGleam",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_brinegleam/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_brinegleam/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_brinegleam/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_brinegleam/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lola Bunny",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_brinegleam/variants/material/mat1.png",
+              "name": "Lola Bunny",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_brinegleam/variants/material/mat2.png",
+              "name": "Tune Squad Lola",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2026-02-05T15:01:36Z",
       "description": "Kneel for your king.",
       "id": "Character_BriskReign",
@@ -138801,6 +138919,63 @@
             }
           ],
           "type": "style"
+        }
+      ]
+    },
+    {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "Despicable.",
+      "dynamicPakId": "1018",
+      "id": "Character_NotchGnarl",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_notchgnarl/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_notchgnarl/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_notchgnarl/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_notchgnarl/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.Special.Large"
+      ],
+      "name": "Daffy Duck",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Progressive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_notchgnarl/variants/progressive/stage1.png",
+              "name": "Daffy Duck",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_notchgnarl/variants/progressive/stage2.png",
+              "name": "Tune Squad Daffy",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
         }
       ]
     },
@@ -313628,6 +313803,38 @@
       }
     },
     {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "Absolutely daffy.",
+      "dynamicPakId": "1018",
+      "id": "EID_NotchGnarl",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_notchgnarl/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_notchgnarl/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Quacking Up",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:42Z",
       "description": "Not today, my friend.",
       "id": "EID_NotToday",
@@ -357327,6 +357534,37 @@
         "backendValue": "FNCS",
         "text": "Part of the FNCS set.",
         "value": "FNCS"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1018",
+      "id": "Emoticon_FNCSPrawnTwine",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_fncsprawntwine/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Looney Debate",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -541847,6 +542085,41 @@
         "backendValue": "FNCS",
         "text": "Part of the FNCS set.",
         "value": "FNCS"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-03-24T16:00:55Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1018",
+      "id": "Spray_FNCSPrawnTwine",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_fncsprawntwine/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_fncsprawntwine/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_fncsprawntwine/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "That's all Folks!",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
       },
       "type": {
         "backendValue": "AthenaSpray",
