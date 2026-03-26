@@ -1918,6 +1918,38 @@
       "vehicleId": "VCID_CarBody_Shark"
     },
     {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Adventure-ready.",
+      "id": "CarBody_SheepBolt",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_sheepbolt/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_sheepbolt/small.png"
+      },
+      "name": "Rivian R1S",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_SheepBolt"
+    },
+    {
       "added": "2024-08-16T03:00:00Z",
       "description": "Geared up muscle coupe.",
       "id": "CarBody_Sixty",
@@ -12408,6 +12440,48 @@
       "vehicleId": "VCID_SkinOctaneLowrider"
     },
     {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneLuminousAirplane01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneluminousairplane01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneluminousairplane01/small.png"
+      },
+      "name": "Air Jordan 1 \"Chicago\"",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneLuminousAirplane01"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneLuminousAirplaneLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneluminousairplanelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneluminousairplanelte01/small.png"
+      },
+      "name": "Jordan Joga Sinistro",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneLuminousAirplaneLTE01"
+    },
+    {
       "added": "2025-12-11T10:20:11Z",
       "description": "Chanoir original Octane custom decal.",
       "id": "CarSkin_OctaneModernArtGraffiti01",
@@ -15755,6 +15829,230 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_SharkWings"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SheepBoltFlames"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltlightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltlightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SheepBoltLightning"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Adventure approved. Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltlivery01/small.png"
+      },
+      "name": "R.A.D.",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkinSheepBoltLivery01"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltLuminousAirplane01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltluminousairplane01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltluminousairplane01/small.png"
+      },
+      "name": "Air Jordan 6 Infrared",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SheepBoltLuminousAirplane01"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltLuminousAirplane02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltluminousairplane02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltluminousairplane02/small.png"
+      },
+      "name": "Air Jordan 4 \"White Cement\"",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SheepBoltLuminousAirplane02"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltstripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SheepBoltStripes"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Rivian R1S custom decal.",
+      "id": "CarSkin_SheepBoltWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sheepboltwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SheepBoltWings"
     },
     {
       "added": "2024-08-16T03:00:00Z",
@@ -20933,6 +21231,27 @@
         "value": "booster"
       },
       "vehicleId": "VCID_Booster_LPFire"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Drive is everything.",
+      "id": "ID_Booster_LuminousAirplaneLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_luminousairplanelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_luminousairplanelte01/small.png"
+      },
+      "name": "Jordan Joga Sinistro",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_LuminousAirplaneLTE01"
     },
     {
       "added": "2025-06-07T19:00:27Z",
@@ -29086,6 +29405,48 @@
       "vehicleId": "VCID_Wheel_Lionsmane01"
     },
     {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Jump into action.",
+      "id": "Wheel_LuminousAirplane01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_luminousairplane01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_luminousairplane01/small.png"
+      },
+      "name": "Air Jordan",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_LuminousAirplane01"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Fly free.",
+      "id": "Wheel_LuminousAirplaneLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_luminousairplanelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_luminousairplanelte01/small.png"
+      },
+      "name": "Jordan Joga Sinistro",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_LuminousAirplaneLTE01"
+    },
+    {
       "added": "2025-09-10T15:10:13Z",
       "description": "Performance, polish, and precision.",
       "id": "Wheel_Macht01",
@@ -32368,6 +32729,38 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Shazbot"
+    },
+    {
+      "added": "2026-03-26T13:00:50Z",
+      "description": "Reinvented.",
+      "id": "Wheel_Sheepbolt01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sheepbolt01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sheepbolt01/small.png"
+      },
+      "name": "Rivian R1S",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Rivian",
+        "colors": [
+          "ffffffff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff",
+          "feb201ff"
+        ],
+        "value": "RIVIAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Sheepbolt01"
     },
     {
       "added": "2025-03-11T08:32:04Z",
