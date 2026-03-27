@@ -15626,6 +15626,39 @@
       }
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "Drink every last drop.",
+      "dynamicPakId": "1011",
+      "id": "Backpack_FlickLedge",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_flickledge/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_flickledge/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_flickledge/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Underworld Poison",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2026-03-12T09:00:38Z",
       "description": "Let's go find Suisei.",
       "id": "Backpack_FlintTwirl",
@@ -24875,6 +24908,39 @@
       }
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "Don't be alarmed if it starts singing to you.",
+      "dynamicPakId": "1011",
+      "id": "Backpack_LadderDoor",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_ladderdoor/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_ladderdoor/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_ladderdoor/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Muse's Amphora",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-04-22T15:52:48Z",
       "description": "Throwing star catching circle. ",
       "id": "Backpack_LadyShinobi",
@@ -31811,6 +31877,39 @@
         "backendValue": "GlowingCheese",
         "text": "Part of the Radiant Moon set.",
         "value": "Radiant Moon"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "From Zero to Hero.",
+      "dynamicPakId": "1011",
+      "id": "Backpack_ParadeLotusCape",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_paradelotuscape/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_paradelotuscape/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_paradelotuscape/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Herc's Mantle",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -117427,6 +117526,46 @@
       ]
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "builtInEmoteIds": [
+        "EID_FlickLedge"
+      ],
+      "description": "Small underworld, huh?",
+      "dynamicPakId": "1011",
+      "id": "Character_FlickLedge",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_flickledge/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_flickledge/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_flickledge/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_flickledge/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_flickledge/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Hades (Lord of the Dead)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2026-03-12T09:00:38Z",
       "description": "A shooting star that appeared from diamonds in the rough.",
       "id": "Character_FlintTwirl",
@@ -131307,6 +131446,43 @@
       }
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "She's a damsel. She's in distress. She can handle this.",
+      "dynamicPakId": "1011",
+      "id": "Character_LadderDoor",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_ladderdoor/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_ladderdoor/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_ladderdoor/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_ladderdoor/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_ladderdoor/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Megara",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2025-04-22T15:52:48Z",
       "description": "Save the world with grace and power. ",
       "id": "Character_LadyShinobi",
@@ -140467,6 +140643,43 @@
           "type": "Mask"
         }
       ]
+    },
+    {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "A True Hero.",
+      "dynamicPakId": "1011",
+      "id": "Character_ParadeLotus",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_paradelotus/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_paradelotus/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_paradelotus/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_paradelotus/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_paradelotus/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Hercules",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2023-09-12T08:00:00Z",
@@ -295395,6 +295608,38 @@
       }
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "It's cool. It's fine.",
+      "dynamicPakId": "1011",
+      "id": "EID_FlickLedge",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_flickledge/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_flickledge/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Underworld Anger",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2022-10-26T00:00:00Z",
       "description": "Defy gravity at the ball game.",
       "id": "EID_FlipIt",
@@ -315528,6 +315773,39 @@
         "value": "Icon Series"
       },
       "showcaseVideo": "NCoLcfaZuLQ",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "That's Phil's boy.",
+      "dynamicPakId": "1011",
+      "id": "EID_ParadeLotus",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_paradelotus/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_paradelotus/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_paradelotus/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Herc's Feats",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -443886,6 +444164,39 @@
       }
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "Used by Hades at his full-time gig.",
+      "dynamicPakId": "1011",
+      "id": "Pickaxe_FlickLedge",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_flickledge/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_flickledge/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_flickledge/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Hades' Staff",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2026-03-12T09:00:38Z",
       "description": "A stellar sketch.",
       "id": "Pickaxe_FlintTwirl",
@@ -484839,6 +485150,39 @@
       }
     },
     {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "Don't say it.",
+      "dynamicPakId": "1011",
+      "id": "Pickaxe_LadderDoor",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ladderdoor/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ladderdoor/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ladderdoor/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Blooming Cherub",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-04-22T15:52:48Z",
       "description": "It rules. It swords.",
       "id": "Pickaxe_LadyShinobi",
@@ -491401,6 +491745,39 @@
         "backendValue": "GlowingCheese",
         "text": "Part of the Radiant Moon set.",
         "value": "Radiant Moon"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-03-27T13:00:19Z",
+      "description": "It goes the distance.",
+      "dynamicPakId": "1011",
+      "id": "Pickaxe_ParadeLotus",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_paradelotus/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_paradelotus/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_paradelotus/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Olympian's Shield",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ColorSpray",
+        "text": "Part of the Disney’s Hercules set.",
+        "value": "Disney’s Hercules"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
