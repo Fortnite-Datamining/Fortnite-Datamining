@@ -271301,6 +271301,50 @@
       ]
     },
     {
+      "added": "2026-04-01T00:00:00Z",
+      "description": "He's meat!",
+      "dynamicPakId": "1005",
+      "id": "Companion_MummyPast",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_mummypast/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_mummypast/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_mummypast/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Super Meat Boy",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "BrickBranch",
+        "text": "Part of the Super Meat Boy 3D set.",
+        "value": "Super Meat Boy 3D"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2025-12-18T10:38:26Z",
       "description": "The fox that started it all.",
       "id": "Companion_MuzzleSwish",
