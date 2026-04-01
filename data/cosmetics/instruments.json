@@ -5799,6 +5799,38 @@
       }
     },
     {
+      "added": "2026-04-01T08:41:08Z",
+      "description": "Drop the bass... and the anchor.",
+      "id": "Sparks_PiratePeak_Bass",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_piratepeak_bass/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_piratepeak_bass/small.png"
+      },
+      "name": "Burnin' Anchor",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Lava Series",
+        "value": "lava"
+      },
+      "series": {
+        "backendValue": "LavaSeries",
+        "colors": [
+          "face36ff",
+          "dc240fff",
+          "9a0035ff",
+          "5d005eff",
+          "3f0043ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/lavaseries.png",
+        "value": "Lava Series"
+      },
+      "type": {
+        "backendValue": "SparksBass",
+        "displayValue": "Bass",
+        "value": "bass"
+      }
+    },
+    {
       "added": "2025-10-09T18:35:18Z",
       "description": "Painted black.",
       "id": "Sparks_PolkaSkate_Bass",
