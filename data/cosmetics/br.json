@@ -4091,6 +4091,38 @@
       }
     },
     {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "A happy time toy.",
+      "dynamicPakId": "1019",
+      "id": "Backpack_BrawnGraze",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Ducky Momo Plushie",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-08-25T17:49:31Z",
       "description": "Sprinkle that on your tank, pal.",
       "id": "Backpack_BrawnyBass",
@@ -33261,6 +33293,39 @@
         "backendValue": "TumbleCourt",
         "text": "Part of the TMNT set.",
         "value": "TMNT"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "Dr. Doofenshmirtz's best friend.",
+      "dynamicPakId": "1019",
+      "id": "Backpack_PeaceScarf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_peacescarf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_peacescarf/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_peacescarf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Balloony",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -102165,6 +102230,42 @@
       ]
     },
     {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "A platypus? BUFF Perry the Platypus?!",
+      "dynamicPakId": "1019",
+      "id": "Character_BrawnGraze",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_brawngraze/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_brawngraze/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_brawngraze/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_brawngraze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Agent P",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2023-08-25T17:49:31Z",
       "description": "More ripped than the tide.",
       "id": "Character_BrawnyBass",
@@ -142658,6 +142759,43 @@
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Character",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "He's going to take over the entire Fortnite Area!",
+      "dynamicPakId": "1019",
+      "id": "Character_PeaceScarf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_peacescarf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_peacescarf/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_peacescarf/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_peacescarf/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_peacescarf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Dr. Doofenshmirtz",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
         "value": "outfit"
       }
     },
@@ -318028,6 +318166,39 @@
       }
     },
     {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "Doof does Broadway.",
+      "dynamicPakId": "1019",
+      "id": "EID_PeaceScarf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_peacescarf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_peacescarf/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_peacescarf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Doof's High Kicks",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-10-10T00:00:00Z",
       "description": "Do you have a pen? Or an apple?",
       "id": "EID_PearPencil",
@@ -359727,6 +359898,37 @@
         "backendValue": "BuddyCop",
         "text": "Part of the Feline Friend set.",
         "value": "Feline Friend"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1019",
+      "id": "Emoticon_FNCSBrawnGraze",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_fncsbrawngraze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Perry the Platypus",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -545486,6 +545688,41 @@
         "backendValue": "FNCS",
         "text": "Part of the FNCS set.",
         "value": "FNCS"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-04-02T16:00:41Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1019",
+      "id": "Spray_FNCSBrawnGraze",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_fncsbrawngraze/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_fncsbrawngraze/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_fncsbrawngraze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Perry vs Doof",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "TopCloud",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaSpray",
