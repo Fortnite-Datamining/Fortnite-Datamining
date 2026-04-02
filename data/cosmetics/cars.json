@@ -695,6 +695,38 @@
       "vehicleId": "VCID_Body_Frog"
     },
     {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Rocket-powered and fired up.",
+      "id": "CarBody_Fuego",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_fuego/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_fuego/small.png"
+      },
+      "name": "Fast & Furious Pontiac Fiero",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Fuego"
+    },
+    {
       "added": "2025-03-11T08:32:04Z",
       "description": "The electrifying flex of pure muscle.",
       "id": "CarBody_Futura",
@@ -6850,6 +6882,198 @@
         "value": "skin"
       },
       "vehicleId": "VCID_CarSkin_FrogColorized"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Fast & Furious Pontiac Fiero custom decal.",
+      "id": "CarSkin_FuegoBubbly",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegobubbly/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegobubbly/small.png"
+      },
+      "name": "Reel Life",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_FuegoBubbly"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Fast & Furious Pontiac Fiero custom decal.",
+      "id": "CarSkin_FuegoFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegoflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegoflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_FuegoFlames"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Fast & Furious Pontiac Fiero custom decal.",
+      "id": "CarSkin_FuegoLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegolightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegolightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_FuegoLightning"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Fast & Furious Pontiac Fiero custom decal.",
+      "id": "CarSkin_FuegoOutlines",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegooutlines/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegooutlines/small.png"
+      },
+      "name": "Circuit Pro",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_FuegoOutlines"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Fast & Furious Pontiac Fiero custom decal.",
+      "id": "CarSkin_FuegoStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegostripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegostripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_FuegoStripes"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Fast & Furious Pontiac Fiero custom decal.",
+      "id": "CarSkin_FuegoWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegowings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fuegowings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_FuegoWings"
     },
     {
       "added": "2025-03-11T08:32:04Z",
@@ -27970,6 +28194,70 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Frog2LTE"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Ready for launch.",
+      "id": "Wheel_Fuego",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_fuego/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_fuego/small.png"
+      },
+      "name": "Fast & Furious Pontiac Fiero",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Fuego"
+    },
+    {
+      "added": "2026-04-02T13:00:56Z",
+      "description": "Make space.",
+      "id": "Wheel_FuegoB",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_fuegob/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_fuegob/small.png"
+      },
+      "name": "Fast & Furious Pontiac Fiero",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Pontiac",
+        "colors": [
+          "ffffffff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff",
+          "c72830ff"
+        ],
+        "value": "PONTIAC SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_FuegoB"
     },
     {
       "added": "2024-09-25T23:11:28Z",
