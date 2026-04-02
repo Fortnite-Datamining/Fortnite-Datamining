@@ -335816,6 +335816,84 @@
       }
     },
     {
+      "added": "2026-04-02T00:00:00Z",
+      "description": "Duck! Rabbit! Duck! Rabbit!",
+      "dynamicPakId": "1017",
+      "id": "EID_TrowelRake",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Rabbit Season",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
+      },
+      "showcaseVideo": "lsMKn_p9a3Y",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-04-02T00:00:00Z",
+      "description": "null",
+      "dynamicPakId": "1017",
+      "id": "EID_TrowelRake_Joiner",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake_joiner/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake_joiner/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake_joiner/smallicon.png"
+      },
+      "name": "null",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-04-02T00:00:00Z",
+      "description": "null",
+      "dynamicPakId": "1017",
+      "id": "EID_TrowelRake_Leader",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake_leader/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake_leader/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_trowelrake_leader/smallicon.png"
+      },
+      "name": "null",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2020-02-21T16:27:07Z",
       "description": "Comin' through! ",
       "id": "EID_TruckerHorn",
@@ -604252,6 +604330,39 @@
         "backendValue": "BananaFury",
         "text": "Part of the Peelverine set.",
         "value": "Peelverine"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-04-02T00:00:00Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1017",
+      "id": "Wrap_TrowelRake",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_trowelrake/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_trowelrake/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_trowelrake/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Screwy, ain't it?",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlueGrass",
+        "text": "Part of the Looney Tunes set.",
+        "value": "Looney Tunes"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
