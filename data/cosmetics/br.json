@@ -4096,6 +4096,7 @@
       "dynamicPakId": "1019",
       "id": "Backpack_BrawnGraze",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_brawngraze/smallicon.png"
       },
@@ -102268,6 +102269,7 @@
       "dynamicPakId": "1019",
       "id": "Character_BrawnGraze",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_brawngraze/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_brawngraze/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_brawngraze/large.png",
@@ -102292,6 +102294,7 @@
         "text": "Part of the Set_01 set.",
         "value": "Set_01"
       },
+      "showcaseVideo": "KRw7qkDGPSE",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -123429,7 +123432,6 @@
       "description": "Gnarly to the bone. ",
       "id": "Character_GrindRex",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_grindrex/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_grindrex/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_grindrex/large.png",
@@ -142828,6 +142830,7 @@
         "text": "Part of the Set_01 set.",
         "value": "Set_01"
       },
+      "showcaseVideo": "1qmb1l49Tvc",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -280782,6 +280785,47 @@
       }
     },
     {
+      "added": "2026-04-05T00:00:00Z",
+      "description": "You're the king here.",
+      "dynamicPakId": "1015",
+      "id": "EID_BaggyBop",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_baggybop/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_baggybop/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_baggybop/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Come Baby Come",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "showcaseVideo": "2UcRvdGYTS4",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-07-18T00:00:00Z",
       "description": "Don't let them down.",
       "id": "EID_BaggyPants",
@@ -318227,6 +318271,7 @@
         "text": "Part of the Set_01 set.",
         "value": "Set_01"
       },
+      "showcaseVideo": "g9X9rMsGzHM",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
