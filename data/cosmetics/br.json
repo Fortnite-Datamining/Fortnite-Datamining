@@ -301173,6 +301173,90 @@
       }
     },
     {
+      "added": "2026-04-09T00:00:00Z",
+      "description": "Kaboom!",
+      "dynamicPakId": "1026",
+      "id": "EID_GoodGravy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Bazooka",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-04-09T00:00:00Z",
+      "description": "null",
+      "dynamicPakId": "1026",
+      "id": "EID_GoodGravy_Joiner",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy_joiner/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy_joiner/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy_joiner/smallicon.png"
+      },
+      "name": "null",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-04-09T00:00:00Z",
+      "description": "null",
+      "dynamicPakId": "1026",
+      "id": "EID_GoodGravy_Leader",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy_leader/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy_leader/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_goodgravy_leader/smallicon.png"
+      },
+      "name": "null",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:44Z",
       "description": "It's also a great exercise move.",
       "id": "EID_GoodVibes",
