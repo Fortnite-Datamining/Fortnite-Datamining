@@ -1,6 +1,6 @@
 {
   "data": {
-    "date": "2026-04-15T18:00:00Z",
+    "date": "2026-04-15T19:00:00Z",
     "entries": [
       {
         "brItems": [
@@ -10734,6 +10734,598 @@
         "regularPrice": 1200,
         "sortPriority": -2,
         "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "Low",
+          "value": "3300 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "To infinity and beyond!",
+            "dynamicPakId": "1022",
+            "id": "Character_TaperSlink",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_taperslink/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_taperslink/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Buzz Lightyear",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Epic",
+              "value": "epic"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "showcaseVideo": "dv7OCfuWJFU",
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/variants/material/mat1.png",
+                    "name": "off",
+                    "tag": "Mat1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/variants/material/mat2.png",
+                    "name": "on",
+                    "tag": "Mat2"
+                  }
+                ],
+                "type": "helmet"
+              },
+              {
+                "channel": "Emissive",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/variants/emissive/emissive1.png",
+                    "name": "on",
+                    "tag": "Emissive1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_taperslink/variants/emissive/emissive2.png",
+                    "name": "off",
+                    "tag": "Emissive2"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Wait a minute... I just lit a rocket. Rockets explode!",
+            "dynamicPakId": "1022",
+            "id": "Backpack_TaperSlink",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "The Big One",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Onward Space Ranger!",
+            "dynamicPakId": "1025",
+            "id": "Pickaxe_TaperSlink",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Buzz Blastaxe",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Falling. With style. ",
+            "dynamicPakId": "1022",
+            "id": "Glider_TaperSlink",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/glider_taperslink/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_taperslink/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Lightyear Wings",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Epic",
+              "value": "epic"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "type": {
+              "backendValue": "AthenaGlider",
+              "displayValue": "Glider",
+              "value": "glider"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "and beyond!",
+            "dynamicPakId": "1022",
+            "id": "EID_TaperSlink",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_taperslink/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_taperslink/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_taperslink/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "To infinity...",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "showcaseVideo": "FWHZTAj6_HM",
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Arch enemy of Buzz Lightyear.",
+            "dynamicPakId": "1022",
+            "id": "Character_DandyFlare",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_dandyflare/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_dandyflare/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_dandyflare/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_dandyflare/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_dandyflare/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Emperor Zurg",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Epic",
+              "value": "epic"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "showcaseVideo": "1W09Ml64xWQ",
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Extra foam balls to pelt you with.",
+            "dynamicPakId": "1025",
+            "id": "Backpack_DandyFlare",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dandyflare/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_dandyflare/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_dandyflare/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Zurg Blaster Pack",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "AngryWheel",
+              "text": "Part of the T.Rux set.",
+              "value": "T.Rux"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Evil rules!",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_DandyFlare",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dandyflare/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dandyflare/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dandyflare/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Zurg Blastaxe",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Destroy Buzz Lightyear!",
+            "dynamicPakId": "1022",
+            "id": "EID_DandyFlare",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_dandyflare/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_dandyflare/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_dandyflare/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Destroy Buzz",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "showcaseVideo": "Tts7zG-QYow",
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Buzz Lightyear to Star Command. Come in, Star Command... Is this thing on?",
+            "dynamicPakId": "1025",
+            "id": "Backpack_TaperSlink_Mic",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink_mic/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Buzz Lightyear Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Emissive",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink_mic/variants/emissive/emissive1.png",
+                    "name": "on",
+                    "tag": "Emissive1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_taperslink_mic/variants/emissive/emissive2.png",
+                    "name": "off",
+                    "tag": "Emissive2"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Buzz Lightyear to Star Command. Come in, Star Command... Is this thing on?",
+            "dynamicPakId": "1025",
+            "id": "Pickaxe_TaperSlink_Mic",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink_mic/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 40,
+              "chapter": "7",
+              "season": "2",
+              "text": "Introduced in Chapter 7, Season 2."
+            },
+            "name": "Buzz Lightyear Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "BlueInk",
+              "text": "Part of the Toy Story set.",
+              "value": "Toy Story"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Emissive",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink_mic/variants/emissive/emissive1.png",
+                    "name": "on",
+                    "tag": "Emissive1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taperslink_mic/variants/emissive/emissive2.png",
+                    "name": "off",
+                    "tag": "Emissive2"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff5464d2a31db99a/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Buzz Lightyear & Emperor Zurg Bundle"
+        },
+        "colors": {
+          "color1": "b4d78cff",
+          "color2": "7db63dff",
+          "color3": "99c764ff",
+          "textBackgroundColor": "84c042ff"
+        },
+        "devName": "[VIRTUAL]1 x Buzz Lightyear, 1 x The Big One, 1 x Buzz Blastaxe, 1 x Lightyear Wings, 1 x To infinity..., 1 x Emperor Zurg, 1 x Zurg Blaster Pack, 1 x Zurg Blastaxe, 1 x Destroy Buzz, 1 x EmptyName, 1 x EmptyName, 1 x EmptyName for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_TaperSlink_Bundle",
+        "finalPrice": 3400,
+        "giftable": true,
+        "inDate": "2026-04-11T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-04-08T17:00:32Z",
+            "description": "Buzz Lightyear to Star Command. Come in, Star Command... Is this thing on?",
+            "id": "Sparks_TaperSlink_Mic",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_taperslink_mic/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_taperslink_mic/small.png"
+            },
+            "name": "Buzz Lightyear Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Common",
+              "value": "common"
+            },
+            "type": {
+              "backendValue": "SparksMic",
+              "displayValue": "Microphone",
+              "value": "mic"
+            }
+          }
+        ],
+        "layout": {
+          "displayType": "billboard",
+          "id": "ToyStory",
+          "index": 12,
+          "name": "Toy Story",
+          "rank": 195,
+          "showIneligibleOffers": "always",
+          "stringMetadata": [
+            {
+              "key": "alignment",
+              "value": "left"
+            },
+            {
+              "key": "highlightEnabled",
+              "value": "true"
+            },
+            {
+              "key": "parallaxEnabled",
+              "value": "true"
+            },
+            {
+              "key": "titleColorA",
+              "value": "FFFFFF"
+            },
+            {
+              "key": "titleColorB",
+              "value": "FFFFFF"
+            },
+            {
+              "key": "billboardExperiment",
+              "value": "allowshopbillboardoffergroups_158"
+            }
+          ],
+          "textMetadata": [
+            {
+              "key": "cta",
+              "value": "View Offer"
+            },
+            {
+              "key": "title",
+              "value": "Buzz Lightyear & Emperor Zurg"
+            }
+          ],
+          "textureMetadata": [
+            {
+              "key": "background",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_BG-1a078d83.png"
+            },
+            {
+              "key": "foreground",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_Character-87aed4a7.png"
+            },
+            {
+              "key": "banner",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_Logo-24d11952.png"
+            },
+            {
+              "key": "foreground_juno",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_Figure-31f4056c.png"
+            },
+            {
+              "key": "bodyImage",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_Itemstack-7cf78bf0.png"
+            }
+          ],
+          "useWidePreview": false
+        },
+        "layoutId": "ToyStory.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_TaperSlink",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "T_AthenaBundles_TaperSlink",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff5464d2a31db99a/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "T_AthenaBundles_TaperSlink_02",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff5464d2a31db99a/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "T_AthenaBundles_TaperSlink_03",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff5464d2a31db99a/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "T_AthenaBundles_TaperSlink",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff5464d2a31db99a/renderimage_3.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S40/DAv2_Bundle_Featured_TaperSlink",
+        "offerId": "v2:/0f36565e0332678d7999de93d68613a129d5a71991916a783d2652ccc6bd82c9",
+        "outDate": "2026-04-24T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 6700,
+        "sortPriority": -1,
+        "tileSize": "Size_4_x_1"
       },
       {
         "brItems": [
@@ -23357,7 +23949,7 @@
         "tileSize": "Size_1_x_1"
       }
     ],
-    "hash": "21a86fca7e8ad2c9",
+    "hash": "bf2042ce944fcced",
     "vbuckIcon": "https://fortnite-api.com/images/vbuck.png"
   },
   "status": 200
