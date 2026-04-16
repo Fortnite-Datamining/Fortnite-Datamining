@@ -2418,6 +2418,26 @@
       }
     },
     {
+      "added": "2026-04-16T08:20:44Z",
+      "description": "Statuesque, Pian-ish.",
+      "id": "Sparks_GoldenFlash_Keytar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_goldenflash_keytar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_goldenflash_keytar/small.png"
+      },
+      "name": "Granite Grand",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksKeyboard",
+        "displayValue": "Keytar",
+        "value": "keyboard"
+      }
+    },
+    {
       "added": "2025-06-07T19:00:25Z",
       "description": "Straight outta mowtown. ",
       "id": "Sparks_GoneFishing_Guitar",
@@ -3932,6 +3952,66 @@
       }
     },
     {
+      "added": "2026-04-16T08:20:44Z",
+      "description": "Ring out in the darkness.",
+      "id": "Sparks_HollowSignal_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_hollowsignal_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_hollowsignal_guitar/small.png"
+      },
+      "name": "Grand Midnight",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
+      "added": "2026-04-16T08:20:44Z",
+      "description": "Strike a powerful chord.",
+      "id": "Sparks_HollowSignal_Keytar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_hollowsignal_keytar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_hollowsignal_keytar/small.png"
+      },
+      "name": "Grand Keyano",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksKeyboard",
+        "displayValue": "Keytar",
+        "value": "keyboard"
+      }
+    },
+    {
+      "added": "2026-04-16T08:20:44Z",
+      "description": "Set the streets alight.",
+      "id": "Sparks_HollowSignal_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_hollowsignal_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_hollowsignal_mic/small.png"
+      },
+      "name": "Lantera",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
+      }
+    },
+    {
       "added": "2025-06-18T09:05:13Z",
       "description": "Never out of your depth. ",
       "id": "Sparks_HydroBeam_Bass",
@@ -3989,6 +4069,70 @@
         "backendValue": "SparksDrum",
         "displayValue": "Drums",
         "value": "drum"
+      }
+    },
+    {
+      "added": "2026-04-16T08:20:44Z",
+      "description": "Tougher than it lucks.",
+      "id": "Sparks_IndoorLace_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_indoorlace_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_indoorlace_guitar/small.png"
+      },
+      "name": "Lucky Guitar",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
+      "added": "2026-04-16T08:20:44Z",
+      "description": "Find the silver lining.",
+      "id": "Sparks_IndoorLace_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_indoorlace_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_indoorlace_mic/small.png"
+      },
+      "name": "Silver Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
       }
     },
     {
@@ -6240,6 +6384,26 @@
         "backendValue": "SparksBass",
         "displayValue": "Bass",
         "value": "bass"
+      }
+    },
+    {
+      "added": "2025-12-18T10:36:34Z",
+      "description": "Play again.",
+      "id": "Sparks_VintageConsole_Keytar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_vintageconsole_keytar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_vintageconsole_keytar/small.png"
+      },
+      "name": "Keytarcade",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksKeyboard",
+        "displayValue": "Keytar",
+        "value": "keyboard"
       }
     },
     {

@@ -1828,6 +1828,24 @@
     {
       "category": "BattleRoyale",
       "description": "A new icon for your banner. Assign it in the Locker.",
+      "devName": "S40_RankedReload",
+      "fullUsageRights": true,
+      "id": "Banner_S40_RankedReload",
+      "images": {
+        "icon": "https://fortnite-api.com/images/banners/banner_s40_rankedreload/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/banners/banner_s40_rankedreload/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Banner Icon"
+    },
+    {
+      "category": "BattleRoyale",
+      "description": "A new icon for your banner. Assign it in the Locker.",
       "devName": "S9DryEraseToro",
       "fullUsageRights": true,
       "id": "Banner_S9DryErase",
@@ -1935,6 +1953,29 @@
         "backendValue": "WildJaunt",
         "text": "Part of the NIKE Swooshman set.",
         "value": "NIKE Swooshman"
+      }
+    },
+    {
+      "category": "BattleRoyale",
+      "description": "A new icon for your banner. Assign it in the Locker.",
+      "devName": "SesameWarp",
+      "fullUsageRights": true,
+      "id": "banner_sesamewarp",
+      "images": {
+        "icon": "https://fortnite-api.com/images/banners/banner_sesamewarp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/banners/banner_sesamewarp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "LivePaper",
+        "text": "Part of the Shinobi Shiba set.",
+        "value": "Shinobi Shiba"
       }
     },
     {
@@ -5391,7 +5432,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs22_candor/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs22_candor/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "MobPatrol",
+        "text": "Part of the Syndicate Scout set.",
+        "value": "Syndicate Scout"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5426,7 +5472,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs22_chillcat_face/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs22_chillcat_face/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "IceFeline",
+        "text": "Part of the Cali-Cool set.",
+        "value": "Cali-Cool"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5468,7 +5519,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs22_meteorwomen/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs22_meteorwomen/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "Asteroid",
+        "text": "Part of the The Seven set.",
+        "value": "The Seven"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5722,7 +5778,12 @@
         "season": "1",
         "text": "Introduced in Chapter 4, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "VeryDangerous",
+        "text": "Part of the Most Wanted set.",
+        "value": "Most Wanted"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6116,7 +6177,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs24_inferno/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs24_inferno/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "Calamity",
+        "text": "Part of the Cataclysm 2.0 set.",
+        "value": "Cataclysm 2.0"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7408,7 +7474,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "MainReturn",
+        "text": "Part of the Jones's Revenge set.",
+        "value": "Jones's Revenge"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7656,7 +7727,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HarshPat",
+        "text": "Part of the Avatar set.",
+        "value": "Avatar"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7692,7 +7768,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "SnakeRock",
+        "text": "Part of the The Serpentstone set.",
+        "value": "The Serpentstone"
+      }
     },
     {
       "category": "BattleRoyale",
