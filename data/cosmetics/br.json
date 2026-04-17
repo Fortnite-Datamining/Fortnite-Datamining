@@ -280829,6 +280829,46 @@
       }
     },
     {
+      "added": "2026-04-17T00:00:00Z",
+      "description": "Tell your story.",
+      "dynamicPakId": "1020",
+      "id": "EID_AfterHours",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_afterhours/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_afterhours/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_afterhours/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "12 to 12",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-05-27T00:00:00Z",
       "description": "Let the disco move through you.",
       "id": "EID_Afterparty",
