@@ -324070,6 +324070,47 @@
       }
     },
     {
+      "added": "2026-04-19T00:00:00Z",
+      "description": "This is what you wanted.",
+      "dynamicPakId": "1012",
+      "id": "EID_QuatroAir",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_quatroair/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_quatroair/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_quatroair/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Fear",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "showcaseVideo": "6jRXRFLnLIQ",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-11-02T00:00:00Z",
       "description": "Ay caramba!",
       "id": "EID_QueenTruth",
