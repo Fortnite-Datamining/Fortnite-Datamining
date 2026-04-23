@@ -2786,6 +2786,39 @@
       }
     },
     {
+      "added": "2026-04-23T13:00:57Z",
+      "description": "Creator of the Omnitrix, sculptor of worlds, and smartest being in 5 galaxies.",
+      "dynamicPakId": "1022",
+      "id": "Backpack_BiomeHose",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_biomehose/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_biomehose/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_biomehose/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Azmuth",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-07-15T08:18:07Z",
       "description": "Swipe what isn't yours.",
       "id": "Backpack_BionicKitty",
@@ -53670,6 +53703,57 @@
       }
     },
     {
+      "added": "2026-04-23T13:00:57Z",
+      "description": "Legible only to those with magic powers.",
+      "dynamicPakId": "1022",
+      "id": "Backpack_WordUnity",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_wordunity/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_wordunity/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_wordunity/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Gwen's Grimoire",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_wordunity/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_wordunity/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
+    },
+    {
       "added": "2025-02-08T00:00:00Z",
       "description": "Inspired by Mahito's domain expansion technique.",
       "id": "Backpack_WormChalk",
@@ -101569,6 +101653,69 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-04-23T13:00:57Z",
+      "builtInEmoteIds": [
+        "EID_BiomeHose"
+      ],
+      "description": "It's hero time.",
+      "dynamicPakId": "1022",
+      "id": "Character_BiomeHose",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_biomehose/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_biomehose/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Ben Tennyson",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/variants/parts/stage1.png",
+              "name": "Ben Tennyson",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/variants/parts/stage2.png",
+              "name": "Heatblast",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/variants/parts/stage3.png",
+              "name": "Alien X",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "style"
+        }
+      ]
     },
     {
       "added": "2025-07-15T08:18:07Z",
@@ -180100,6 +180247,64 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-04-23T13:00:57Z",
+      "builtInEmoteIds": [
+        "EID_WordUnity"
+      ],
+      "description": "She's not about to let anyone down.",
+      "dynamicPakId": "1022",
+      "id": "Character_WordUnity",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_wordunity/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_wordunity/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_wordunity/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_wordunity/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_wordunity/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Gwen Tennyson",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_wordunity/variants/parts/stage0.png",
+              "name": "Gwen Tennyson",
+              "tag": "Stage0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_wordunity/variants/parts/stage1.png",
+              "name": "Anodite",
+              "tag": "Stage1"
+            }
+          ],
+          "type": "style"
+        }
+      ]
     },
     {
       "added": "2025-02-08T00:00:00Z",
@@ -285685,6 +285890,41 @@
       }
     },
     {
+      "added": "2026-04-23T13:00:57Z",
+      "builtInEmoteIds": [
+        "EID_BiomeHose"
+      ],
+      "description": "Unlock the power of the Omnitrix.",
+      "dynamicPakId": "1022",
+      "id": "EID_BiomeHose",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_biomehose/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_biomehose/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Omnitrix Activated",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2026-02-19T10:00:25Z",
       "description": "New look, no shade.",
       "id": "EID_BirchPalace",
@@ -342222,6 +342462,38 @@
         "value": "uncommon"
       },
       "showcaseVideo": "LEQoM3Mt6K0",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-04-23T13:00:57Z",
+      "description": "Wield mana responsibly.",
+      "dynamicPakId": "1022",
+      "id": "EID_WordUnity",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_wordunity/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_wordunity/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Anodite Evolution",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -438795,6 +439067,62 @@
       }
     },
     {
+      "added": "2026-04-23T13:00:57Z",
+      "description": "Not what Azmuth had in mind...",
+      "dynamicPakId": "1022",
+      "id": "Pickaxe_BiomeHose",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Omnitrix Pick",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Mesh",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/variants/mesh/stage1.png",
+              "name": "Default",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/variants/mesh/stage3.png",
+              "name": "Gravattack",
+              "tag": "Stage3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/variants/mesh/stage2.png",
+              "name": "Ampfibian",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-07-15T08:18:07Z",
       "description": "Designed for felonious felines.",
       "id": "Pickaxe_BionicKitty",
@@ -517750,6 +518078,39 @@
       }
     },
     {
+      "added": "2026-04-23T13:00:57Z",
+      "description": "Ready for magical melee.",
+      "dynamicPakId": "1022",
+      "id": "Pickaxe_WordUnity",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_wordunity/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_wordunity/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_wordunity/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mana Orbs",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-02-08T00:00:00Z",
       "description": "Cut through the soul.",
       "id": "Pickaxe_WormChalk",
@@ -518965,8 +519326,8 @@
       },
       "set": {
         "backendValue": "YouBook",
-        "text": "Part of the Set_05 set.",
-        "value": "Set_05"
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -592286,6 +592647,39 @@
         "value": "Iron Man"
       },
       "showcaseVideo": "RqglCW1875I",
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-04-23T13:00:57Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1022",
+      "id": "Wrap_BiomeHose",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_biomehose/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_biomehose/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_biomehose/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Omnitrix Upgrade",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "YouBook",
+        "text": "Part of the Ben 10 set.",
+        "value": "Ben 10"
+      },
       "type": {
         "backendValue": "AthenaItemWrap",
         "displayValue": "Wrap",
