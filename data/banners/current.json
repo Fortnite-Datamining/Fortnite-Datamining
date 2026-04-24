@@ -569,6 +569,40 @@
     {
       "category": "BattleRoyale",
       "description": "A new icon for your banner. Assign it in the Locker.",
+      "devName": "EdibleCable",
+      "fullUsageRights": true,
+      "id": "banner_ediblecable",
+      "images": {
+        "icon": "https://fortnite-api.com/images/banners/banner_ediblecable/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/banners/banner_ediblecable/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Banner Icon",
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "TellHunger",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      }
+    },
+    {
+      "category": "BattleRoyale",
+      "description": "A new icon for your banner. Assign it in the Locker.",
       "devName": "EggBawk",
       "fullUsageRights": true,
       "id": "Banner_EggBawk",

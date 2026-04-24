@@ -275138,6 +275138,57 @@
       }
     },
     {
+      "added": "2026-04-24T00:00:00Z",
+      "description": "The OG Bloon-poppin' monkey.",
+      "dynamicPakId": "1023",
+      "id": "Companion_EdibleCable",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_ediblecable/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_ediblecable/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Dart Monkey",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      },
+      "variants": [
+        {
+          "channel": "Emote",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_ediblecable/variants/emote/companionemote0.png",
+              "name": "Bloon Popper",
+              "tag": "CompanionEmote0"
+            }
+          ],
+          "type": "Sidekick Emote"
+        }
+      ]
+    },
+    {
       "added": "2025-12-11T16:07:07Z",
       "description": "Rule the roost(er).",
       "id": "Companion_EggBawk",
