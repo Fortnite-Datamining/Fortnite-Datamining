@@ -366,14 +366,12 @@ function buildTweetText(changes: ChangeInfo[]): string {
     parts.push(`New Fortnite update detected! (${version})`);
   }
 
-  // Collect all new cosmetic names across all cosmetic endpoints
   const cosmetics = changes.filter((c) => c.file.startsWith("data/cosmetics/"));
   const allNewNames = cosmetics.flatMap((c) => c.newItemNames);
   const totalNew = allNewNames.length;
 
   if (totalNew > 0) {
     parts.push(`${totalNew} new cosmetic${totalNew === 1 ? "" : "s"} found in the files:`);
-    // List names, fitting within tweet limit
     const namesList = allNewNames.slice(0, 8).join(", ");
     const extra = totalNew > 8 ? ` +${totalNew - 8} more` : "";
     parts.push(namesList + extra);
@@ -396,12 +394,10 @@ function buildTweetText(changes: ChangeInfo[]): string {
   const hashtags = "#Fortnite #FortniteLeaks";
   const body = parts.join("\n");
 
-  // Ensure we fit in 280 chars
   if ((body + "\n\n" + hashtags).length <= 280) {
     return body + "\n\n" + hashtags;
   }
-  // Trim body to fit
-  const maxBody = 280 - hashtags.length - 4; // 4 for \n\n padding
+  const maxBody = 280 - hashtags.length - 4;
   return body.slice(0, maxBody).trimEnd() + "\n\n" + hashtags;
 }
 
@@ -487,7 +483,6 @@ async function fetchAll(): Promise<ChangeInfo[]> {
   let successCount = 0;
   const entries = Object.entries(ENDPOINTS);
 
-  // Fetch all endpoints in parallel
   const results = await Promise.allSettled(
     entries.map(async ([name, endpoint]) => {
       console.log(`Fetching ${endpoint.description}...`);
@@ -507,7 +502,6 @@ async function fetchAll(): Promise<ChangeInfo[]> {
 
     const itemsBefore = countItems(endpoint.output);
 
-    // Diff item names before saving (so we can compare old vs new)
     let newItemNames: string[] = [];
     let removedItemNames: string[] = [];
     if (endpoint.sortKey) {

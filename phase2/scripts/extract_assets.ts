@@ -1,12 +1,3 @@
-/**
- * Phase 2 Stub: Extract game assets using AES keys from Phase 1 data.
- *
- * This will eventually:
- * 1. Read AES keys from data/aes/current.json
- * 2. Locate Fortnite .pak/.ucas files
- * 3. Decrypt and extract assets
- * 4. Export to trackable formats
- */
 
 import { readFileSync } from "fs";
 import { join, dirname } from "path";
@@ -28,7 +19,6 @@ function extractPakFile(_path: string, _key: string): void {
   throw new Error("Not implemented - requires CUE4Parse or similar library");
 }
 
-// Entry point
 const keys = getAesKeys();
 console.log(`Build: ${keys.build}`);
 console.log(`Main AES Key: ${keys.mainKey}`);
