@@ -28057,6 +28057,51 @@
       }
     },
     {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "A perfect replica of General Anakin Skywalker's ship.",
+      "dynamicPakId": "1009",
+      "id": "Backpack_MaltBurger",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_maltburger/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_maltburger/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_maltburger/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Model Delta-7B Aethersprite",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-05-22T01:55:14Z",
       "description": "Shimmer as you show off.",
       "id": "Backpack_MarbleShimmer_Keytar",
@@ -28498,6 +28543,51 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Stinky.",
+      "dynamicPakId": "1009",
+      "id": "Backpack_MasalaRail",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_masalarail/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_masalarail/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_masalarail/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Rotta the Huttlet",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -138426,6 +138516,55 @@
       }
     },
     {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Jedi General in the Grand Army of the Republic.",
+      "dynamicPakId": "1009",
+      "id": "Character_MaltBurger",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_maltburger/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_maltburger/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_maltburger/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_maltburger/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_maltburger/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Anakin Skywalker (Clone Wars)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2025-05-16T08:50:37Z",
       "description": "Keep your eye on the prize.",
       "id": "Character_ManicRufus",
@@ -138779,6 +138918,55 @@
           "type": "super level"
         }
       ]
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "A strong-willed Padawan fighting for the Republic.",
+      "dynamicPakId": "1009",
+      "id": "Character_MasalaRail",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_masalarail/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_masalarail/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_masalarail/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_masalarail/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_masalarail/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Ahsoka Tano (Clone Wars)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2022-11-01T13:50:36Z",
@@ -495270,6 +495458,39 @@
       ]
     },
     {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Execute total control.",
+      "dynamicPakId": "1009",
+      "id": "Pickaxe_MaltBurger",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_maltburger/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_maltburger/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_maltburger/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mortis Dagger",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-05-22T01:55:14Z",
       "description": "Shimmer as you show off.",
       "id": "Pickaxe_MarbleShimmer_Keytar",
@@ -495590,6 +495811,39 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Used by Ahsoka in the Battle on Carlac.",
+      "dynamicPakId": "1009",
+      "id": "Pickaxe_MasalaRail",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_masalarail/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_masalarail/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_masalarail/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Improvised Battle Staff",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -520282,6 +520536,39 @@
       }
     },
     {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_BasisAdaptGlare",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_basisadaptglare/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_basisadaptglare/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_basisadaptglare/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Converse Chuck 70 Canvas 'Black'",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "AppleMat",
+        "text": "Part of the Converse Shoes set.",
+        "value": "Converse Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2025-12-02T06:46:00Z",
       "description": "Show 'em off.",
       "id": "Shoes_BeachClaw",
@@ -523697,6 +523984,39 @@
       ]
     },
     {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_GuppyThrillJudge",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_guppythrilljudge/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_guppythrilljudge/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_guppythrilljudge/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "PUMA H-Street OG ‘Fizzy Green/Silver’",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "FastCrane",
+        "text": "Part of the PUMA Shoes set.",
+        "value": "PUMA Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2026-02-07T00:00:02Z",
       "description": "Show 'em off.",
       "id": "Shoes_HarvestJusticeSwirl",
@@ -524046,6 +524366,72 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_IcingCaddyRelax",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyrelax/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyrelax/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyrelax/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Air Jordan 10 Retro OG 'Double Nickel'",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "WildDepot",
+        "text": "Part of the Jordan Shoes set.",
+        "value": "Jordan Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_IcingCaddySlept",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyslept/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyslept/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyslept/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Air Jordan 12 Retro OG ‘Vivid Pink’",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "WildDepot",
+        "text": "Part of the Jordan Shoes set.",
+        "value": "Jordan Shoes"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -525232,6 +525618,51 @@
       }
     },
     {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_MaltBurgerGrab",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_maltburgergrab/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_maltburgergrab/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_maltburgergrab/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Stormtrooper Slippies",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "AluminumFlea",
+        "text": "Part of the The Clone Wars set.",
+        "value": "The Clone Wars"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2026-02-21T00:00:00Z",
       "description": "Show 'em off.",
       "id": "Shoes_MapleBacon",
@@ -526183,6 +526614,38 @@
         "backendValue": "TealChicken",
         "text": "Part of the adidas Shoes set.",
         "value": "adidas Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_PandaSpeakAsh",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_pandaspeakash/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_pandaspeakash/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Slider Slippers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "CarDoor",
+        "text": "Part of the Bob's Burgers set.",
+        "value": "Bob's Burgers"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -529959,6 +530422,52 @@
         "displayValue": "Shoes",
         "value": "shoe"
       }
+    },
+    {
+      "added": "2026-04-30T13:00:51Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1013",
+      "id": "Shoes_WaveLaces",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_wavelaces/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_wavelaces/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_wavelaces/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Splashy Steppers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/shoes_wavelaces/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/shoes_wavelaces/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
     },
     {
       "added": "2025-11-02T20:05:32Z",
