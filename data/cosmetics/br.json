@@ -47685,6 +47685,50 @@
       }
     },
     {
+      "added": "2026-04-30T14:43:15Z",
+      "description": "A key that can open many doors.",
+      "dynamicPakId": "1007",
+      "id": "Backpack_SwampRate",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_swamprate/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_swamprate/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Sith Holocron",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "AppealDistant",
+        "text": "Part of the The Prequel Trilogy set.",
+        "value": "The Prequel Trilogy"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-09-04T14:57:46Z",
       "description": "Sweet as a berry, tough as a bear.",
       "id": "Backpack_SweetCuddle",
@@ -50628,6 +50672,38 @@
         "backendValue": "ViralWheels",
         "text": "Part of the UT set.",
         "value": "UT"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-04-30T14:43:15Z",
+      "description": "Bounties exist across the galaxy.",
+      "dynamicPakId": "1007",
+      "id": "Backpack_TrafficBlab",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_trafficblab/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_trafficblab/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Carbonite Fishstick",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -514002,6 +514078,38 @@
         "backendValue": "RedFlowers",
         "text": "Part of the The Bride's Revenge set.",
         "value": "The Bride's Revenge"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-04-30T14:43:15Z",
+      "description": "Wielded by an elite class of Clone Trooper.",
+      "dynamicPakId": "1007",
+      "id": "Pickaxe_SwampRate",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_swamprate/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_swamprate/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Shock Trooper Electrostaff",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AppealDistant",
+        "text": "Part of the The Prequel Trilogy set.",
+        "value": "The Prequel Trilogy"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
