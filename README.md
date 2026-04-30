@@ -18,7 +18,7 @@ A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes t
 | `/v1/playlists` | `data/playlists/current.json` | Available playlists & gamemodes |
 | `/v2/aes` | `data/aes/current.json` | AES encryption keys |
 | `/v1/banners` | `data/banners/current.json` | Player banners |
-| - | `data/meta/build_info.json` | Extracted build version metadata |
+| (derived from `/v2/aes`) | `data/meta/build_info.json` | Extracted build version metadata |
 
 ## Reading the Data
 
