@@ -4,9 +4,9 @@ This phase will add direct extraction of Fortnite game assets (.pak/.ucas/.utoc 
 
 ## Planned Approach
 
-1. **AES Keys** — Already tracked in `data/aes/current.json` by the automated fetch script
-2. **Asset Extraction** — Use [FModel](https://fmodel.app/) or a CUE4Parse-based tool to decrypt and extract game files
-3. **Asset Processing** — Export textures, meshes, data tables, and other assets for diffing
+1. **AES Keys** - Already tracked in `data/aes/current.json` by the automated fetch script
+2. **Asset Extraction** - Use [FModel](https://fmodel.app/) or a CUE4Parse-based tool to decrypt and extract game files
+3. **Asset Processing** - Export textures, meshes, data tables, and other assets for diffing
 
 ## Requirements
 
@@ -16,4 +16,4 @@ This phase will add direct extraction of Fortnite game assets (.pak/.ucas/.utoc 
 
 ## Current Status
 
-Stubs are in `scripts/` — implementation pending.
+Stubs are in `scripts/` - implementation pending.

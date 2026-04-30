@@ -25,7 +25,7 @@ function getAesKeys(): { build: string; mainKey: string; dynamicKeys: string[] }
 }
 
 function extractPakFile(_path: string, _key: string): void {
-  throw new Error("Not implemented — requires CUE4Parse or similar library");
+  throw new Error("Not implemented - requires CUE4Parse or similar library");
 }
 
 // Entry point
