@@ -2788,7 +2788,6 @@
     {
       "added": "2026-04-23T13:00:57Z",
       "description": "Creator of the Omnitrix, sculptor of worlds, and smartest being in 5 galaxies.",
-      "dynamicPakId": "1022",
       "id": "Backpack_BiomeHose",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_biomehose/featured.png",
@@ -2947,7 +2946,6 @@
       "description": "A bear-like curse used for Yuji's training.",
       "id": "Backpack_BirdNest",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_birdnest/featured.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_birdnest/smallicon.png"
       },
       "introduction": {
@@ -9437,7 +9435,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "It's Stone Cold's... What? Smoking Skull... What?",
-      "dynamicPakId": "1016",
       "id": "Backpack_CrossWiper",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_crosswiper/featured.png",
@@ -10429,8 +10426,8 @@
       },
       "set": {
         "backendValue": "AngryWheel",
-        "text": "Part of the T.Rux set.",
-        "value": "T.Rux"
+        "text": "Part of the T.Rux Shredder set.",
+        "value": "T.Rux Shredder"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -18020,6 +18017,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -19119,7 +19121,6 @@
       "description": "Cloak yourself in chaos. Dry-clean only.",
       "id": "Backpack_GatorCeladon",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gatorceladon/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gatorceladon/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gatorceladon/smallicon.png"
       },
@@ -19163,7 +19164,6 @@
       "description": "Made in Stoke.",
       "id": "Backpack_GatorCeladon_Bass",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gatorceladon_bass/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gatorceladon_bass/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gatorceladon_bass/smallicon.png"
       },
@@ -20390,6 +20390,7 @@
       "description": "Standard-issue gear for the Republic's clones.",
       "id": "Backpack_GrandScheme",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_grandscheme/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_grandscheme/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_grandscheme/smallicon.png"
       },
@@ -20692,6 +20693,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "AngryWheel",
+        "text": "Part of the T.Rux Shredder set.",
+        "value": "T.Rux Shredder"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -22146,7 +22152,7 @@
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_hollowsignal_guitar/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_hollowsignal_guitar/smallicon.png"
       },
-      "name": "Grand Midnight",
+      "name": "Lux Midnight",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
@@ -22163,12 +22169,12 @@
           "options": [
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hollowsignal_guitar/variants/material/mat0.png",
-              "name": "Grand Midnight",
+              "name": "Lux Midnight",
               "tag": "Mat0"
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hollowsignal_guitar/variants/material/mat1.png",
-              "name": "Onyx Guild",
+              "name": "Grand Midnight",
               "tag": "Mat1"
             }
           ],
@@ -30305,7 +30311,6 @@
       "description": "Now taking requests.\r\nReactive: Glows in the dark",
       "id": "Backpack_Muertos_Guitar",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_muertos_guitar/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_muertos_guitar/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_muertos_guitar/smallicon.png"
       },
@@ -31160,6 +31165,92 @@
         "displayValue": "Back Bling",
         "value": "backpack"
       }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Set in stone for good reason.",
+      "id": "Backpack_NickelScan",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Crystalline Eye",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "GoldWolf",
+        "text": "Part of the All-Seeing set.",
+        "value": "All-Seeing"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/variants/material/mat1.png",
+              "name": "Crystalline Eye",
+              "tag": "Mat1",
+              "unlockRequirements": "Crystalline Eye"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/variants/material/mat2.png",
+              "name": "Saltstone Legacy",
+              "tag": "Mat2",
+              "unlockRequirements": "Crystalline Eye"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/variants/material/mat3.png",
+              "name": "Auric Legacy",
+              "tag": "Mat3",
+              "unlockRequirements": "Crystalline Eye"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/variants/material/mat4.png",
+              "name": "Phase Legacy",
+              "tag": "Mat4",
+              "unlockRequirements": "Crystalline Eye"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/variants/material/mat5.png",
+              "name": "Rimebound Legacy",
+              "tag": "Mat5",
+              "unlockRequirements": "Crystalline Eye"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_nickelscan/variants/material/mat6.png",
+              "name": "Cosmic Legacy",
+              "tag": "Mat6",
+              "unlockRequirements": "Crystalline Eye"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2023-04-11T08:00:00Z",
@@ -46136,6 +46227,7 @@
       "description": "Find where you belong.",
       "id": "Backpack_StrayManta",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_straymanta/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_straymanta/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_straymanta/smallicon.png"
       },
@@ -50080,7 +50172,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "Let it watch your back.",
-      "dynamicPakId": "1016",
       "id": "Backpack_ToothGreek",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_toothgreek/featured.png",
@@ -51938,6 +52029,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -53705,7 +53801,6 @@
     {
       "added": "2026-04-23T13:00:57Z",
       "description": "Legible only to those with magic powers.",
-      "dynamicPakId": "1022",
       "id": "Backpack_WordUnity",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_wordunity/featured.png",
@@ -60655,6 +60750,7 @@
       "description": "Keep your enemies close.",
       "id": "BID_125_ScarecrowFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_125_scarecrowfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_125_scarecrowfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_125_scarecrowfemale/smallicon.png"
       },
@@ -61011,6 +61107,7 @@
       "description": "Bare bones fashion.\r\nReactive: Glows in the dark",
       "id": "BID_135_MuertosFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_135_muertosfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_135_muertosfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_135_muertosfemale/smallicon.png"
       },
@@ -61042,6 +61139,7 @@
       "description": "Find your spirit.\r\nReactive: Glows in the dark",
       "id": "BID_136_MuertosMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_136_muertosmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_136_muertosmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_136_muertosmale/smallicon.png"
       },
@@ -61275,6 +61373,7 @@
       "description": "Wings with edge.",
       "id": "BID_142_SamuraiUltra",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_142_samuraiultra/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_142_samuraiultra/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_142_samuraiultra/smallicon.png"
       },
@@ -61307,6 +61406,7 @@
       "description": "Rusty and trusty.",
       "id": "BID_143_MadCommanderMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_143_madcommandermale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_143_madcommandermale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_143_madcommandermale/smallicon.png"
       },
@@ -61338,6 +61438,7 @@
       "description": "Crusty and musty.",
       "id": "BID_144_MadCommanderFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_144_madcommanderfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_144_madcommanderfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_144_madcommanderfemale/smallicon.png"
       },
@@ -61658,6 +61759,7 @@
       "description": "Pack a tasty snack on your back.",
       "id": "BID_151_SushiChefFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_151_sushicheffemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_151_sushicheffemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_151_sushicheffemale/smallicon.png"
       },
@@ -61690,6 +61792,7 @@
       "description": "Tufted and tusked.",
       "id": "BID_152_HornedMaskMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_152_hornedmaskmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_152_hornedmaskmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_152_hornedmaskmale/smallicon.png"
       },
@@ -61722,6 +61825,7 @@
       "description": "Fearsome and fanged.",
       "id": "BID_153_HornedMaskFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_153_hornedmaskfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_153_hornedmaskfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_153_hornedmaskfemale/smallicon.png"
       },
@@ -61786,6 +61890,7 @@
       "description": "Geared for long distance.",
       "id": "BID_155_SniperHoodMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_155_sniperhoodmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_155_sniperhoodmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_155_sniperhoodmale/smallicon.png"
       },
@@ -61886,6 +61991,7 @@
       "description": "Retracted & ready.",
       "id": "BID_157_MothMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_157_mothmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_157_mothmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_157_mothmale/smallicon.png"
       },
@@ -62104,6 +62210,7 @@
       "description": "Prone to meltdowns.",
       "id": "BID_164_SnowmanMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_164_snowmanmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_164_snowmanmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_164_snowmanmale/smallicon.png"
       },
@@ -62131,6 +62238,7 @@
       "description": "Uplink secured.\r\nReactive: Changes color based on damage dealt to opponents.",
       "id": "BID_165_BlueBadassFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_165_bluebadassfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_165_bluebadassfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_165_bluebadassfemale/smallicon.png"
       },
@@ -62323,6 +62431,7 @@
       "description": "Boot up.",
       "id": "BID_170_MathFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_170_mathfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_170_mathfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_170_mathfemale/smallicon.png"
       },
@@ -62601,6 +62710,7 @@
       "description": "Hard to handle.",
       "id": "BID_181_SnowNinjaMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_181_snowninjamale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_181_snowninjamale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_181_snowninjamale/smallicon.png"
       },
@@ -62715,6 +62825,7 @@
       "description": "A chill is in the air.",
       "id": "BID_184_SnowFairyFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_184_snowfairyfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_184_snowfairyfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_184_snowfairyfemale/smallicon.png"
       },
@@ -62742,6 +62853,7 @@
       "description": "Light up the night.",
       "id": "BID_185_GnomeMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_185_gnomemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_185_gnomemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_185_gnomemale/smallicon.png"
       },
@@ -62835,6 +62947,7 @@
       "description": "Illuminate the room.",
       "id": "BID_188_FortniteDJFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_188_fortnitedjfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_188_fortnitedjfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_188_fortnitedjfemale/smallicon.png"
       },
@@ -65099,6 +65212,7 @@
       "description": "Perfectly cut.",
       "id": "BID_254_ShinyMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_254_shinymale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_254_shinymale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_254_shinymale/smallicon.png"
       },
@@ -65593,6 +65707,7 @@
       "description": "Burn through the firewall. ",
       "id": "BID_268_CyberScavengerFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_268_cyberscavengerfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_268_cyberscavengerfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_268_cyberscavengerfemale/smallicon.png"
       },
@@ -65624,6 +65739,7 @@
       "description": "High flying. ",
       "id": "BID_269_RaptorFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_269_raptorfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_269_raptorfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_269_raptorfemale/smallicon.png"
       },
@@ -65699,6 +65815,7 @@
       "description": "Ready for anything.",
       "id": "BID_271_AssassinSuitMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_271_assassinsuitmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_271_assassinsuitmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_271_assassinsuitmale/smallicon.png"
       },
@@ -66085,6 +66202,7 @@
       "description": "Holographically enhanced battle bag.",
       "id": "BID_279_CyberRunner",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_279_cyberrunner/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_279_cyberrunner/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_279_cyberrunner/smallicon.png"
       },
@@ -66178,6 +66296,7 @@
       "description": "Everything you need.",
       "id": "BID_282_UrbanScavenger",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_282_urbanscavenger/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_282_urbanscavenger/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_282_urbanscavenger/smallicon.png"
       },
@@ -67741,6 +67860,7 @@
       "description": "Trust your instincts.",
       "id": "BID_325_BoneWasp",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_325_bonewasp/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_325_bonewasp/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_325_bonewasp/smallicon.png"
       },
@@ -67772,6 +67892,7 @@
       "description": "One for the ages.",
       "id": "BID_326_Bronto",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_326_bronto/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_326_bronto/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_326_bronto/smallicon.png"
       },
@@ -67831,6 +67952,7 @@
       "description": "Set it off.",
       "id": "BID_328_WildWest",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_328_wildwest/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_328_wildwest/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_328_wildwest/smallicon.png"
       },
@@ -67894,6 +68016,7 @@
       "description": "Suspiciously glitchy.",
       "id": "BID_330_AstronautEvilUpgrade",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_330_astronautevilupgrade/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_330_astronautevilupgrade/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_330_astronautevilupgrade/smallicon.png"
       },
@@ -68024,6 +68147,7 @@
       "description": "Live loud. ",
       "id": "BID_333_Reverb",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_333_reverb/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_333_reverb/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_333_reverb/smallicon.png"
       },
@@ -68101,6 +68225,7 @@
       "description": "Sly and spikey. ",
       "id": "BID_335_Lopex",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_335_lopex/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_335_lopex/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_335_lopex/smallicon.png"
       },
@@ -68132,6 +68257,7 @@
       "description": "Beefy. ",
       "id": "BID_336_MascotMilitiaBurger",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_336_mascotmilitiaburger/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_336_mascotmilitiaburger/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_336_mascotmilitiaburger/smallicon.png"
       },
@@ -68163,6 +68289,7 @@
       "description": "Savory field radio. ",
       "id": "BID_337_MascotMilitiaTomato",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_337_mascotmilitiatomato/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_337_mascotmilitiatomato/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_337_mascotmilitiatomato/smallicon.png"
       },
@@ -68194,6 +68321,7 @@
       "description": "The fate of the galaxy rests on your shoulders. ",
       "id": "BID_338_StarWalker",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_338_starwalker/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_338_starwalker/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_338_starwalker/smallicon.png"
       },
@@ -68225,6 +68353,7 @@
       "description": "Always carry a spare. ",
       "id": "BID_339_Syko",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_339_syko/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_339_syko/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_339_syko/smallicon.png"
       },
@@ -68274,6 +68403,7 @@
       "description": "Sharp and steady. ",
       "id": "BID_340_WiseMaster",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_340_wisemaster/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_340_wisemaster/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_340_wisemaster/smallicon.png"
       },
@@ -68347,6 +68477,7 @@
       "description": "Sleek and refreshing. ",
       "id": "BID_342_LemonLime",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_342_lemonlime/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_342_lemonlime/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_342_lemonlime/smallicon.png"
       },
@@ -68477,6 +68608,7 @@
       "description": "Prepared for all nine lives.",
       "id": "BID_345_ToxicKitty",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_345_toxickitty/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_345_toxickitty/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_345_toxickitty/smallicon.png"
       },
@@ -68605,6 +68737,7 @@
       "description": "Strong and ready.",
       "id": "BID_348_PaddedArmor",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_348_paddedarmor/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_348_paddedarmor/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_348_paddedarmor/smallicon.png"
       },
@@ -68636,6 +68769,7 @@
       "description": "Battle rated containment system. ",
       "id": "BID_349_RaptorBlackOps",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_349_raptorblackops/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_349_raptorblackops/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_349_raptorblackops/smallicon.png"
       },
@@ -68700,6 +68834,7 @@
       "description": "Durable and dangerous. ",
       "id": "BID_351_FutureBikerWhite",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_351_futurebikerwhite/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_351_futurebikerwhite/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_351_futurebikerwhite/smallicon.png"
       },
@@ -68731,6 +68866,7 @@
       "description": "Soar on.",
       "id": "BID_352_CupidFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_352_cupidfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_352_cupidfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_352_cupidfemale/smallicon.png"
       },
@@ -68762,6 +68898,7 @@
       "description": "Make a wish.",
       "id": "BID_353_StreetGothCandy",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_353_streetgothcandy/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_353_streetgothcandy/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_353_streetgothcandy/smallicon.png"
       },
@@ -68788,6 +68925,7 @@
       "description": "Let 'em know what's up.",
       "id": "BID_354_StreetFashionRed",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_354_streetfashionred/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_354_streetfashionred/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_354_streetfashionred/smallicon.png"
       },
@@ -68842,6 +68980,7 @@
       "description": "DO NOT TOUCH!",
       "id": "BID_355_Jumpstart",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_355_jumpstart/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_355_jumpstart/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_355_jumpstart/smallicon.png"
       },
@@ -68873,6 +69012,7 @@
       "description": "Fight like a moose. ",
       "id": "BID_356_Punchy",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_356_punchy/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_356_punchy/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_356_punchy/smallicon.png"
       },
@@ -68922,6 +69062,7 @@
       "description": "Share the dream. ",
       "id": "BID_357_Sleepytime",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_357_sleepytime/smallicon.png"
       },
@@ -68971,6 +69112,7 @@
       "description": "A hard look to pull off. ",
       "id": "BID_358_StreetUrchin",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_358_streeturchin/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_358_streeturchin/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_358_streeturchin/smallicon.png"
       },
@@ -69089,6 +69231,7 @@
       "description": "The purrfect prize. ",
       "id": "BID_361_BlackMondayFemale_R0P2N",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_361_blackmondayfemale_r0p2n/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_361_blackmondayfemale_r0p2n/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_361_blackmondayfemale_r0p2n/smallicon.png"
       },
@@ -69175,6 +69318,7 @@
       "description": "The swirling flame of the great beyond.",
       "id": "BID_363_Kurohomura",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_363_kurohomura/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_363_kurohomura/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_363_kurohomura/smallicon.png"
       },
@@ -69261,6 +69405,7 @@
       "description": "Smother them with love.",
       "id": "BID_365_MascotMilitiaCuddle",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_365_mascotmilitiacuddle/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_365_mascotmilitiacuddle/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_365_mascotmilitiacuddle/smallicon.png"
       },
@@ -69621,6 +69766,7 @@
       "description": "One singularity sensation.",
       "id": "BID_373_HauntLensFlare",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_373_hauntlensflare/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_373_hauntlensflare/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_373_hauntlensflare/smallicon.png"
       },
@@ -69726,6 +69872,7 @@
       "description": "Ready for any job.",
       "id": "BID_376_CODSquad_Plaid",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_376_codsquad_plaid/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_376_codsquad_plaid/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_376_codsquad_plaid/smallicon.png"
       },
@@ -69757,6 +69904,7 @@
       "description": "Geared up for any range.",
       "id": "BID_377_CODSquad_Plaid_Female",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_377_codsquad_plaid_female/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_377_codsquad_plaid_female/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_377_codsquad_plaid_female/smallicon.png"
       },
@@ -69788,6 +69936,7 @@
       "description": "Catch and release.",
       "id": "BID_378_FishermanFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_378_fishermanfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_378_fishermanfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_378_fishermanfemale/smallicon.png"
       },
@@ -69837,6 +69986,7 @@
       "description": "The pack's got your back. ",
       "id": "BID_379_RedRidingRemix",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_379_redridingremix/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_379_redridingremix/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_379_redridingremix/smallicon.png"
       },
@@ -69868,6 +70018,7 @@
       "description": "Stuffed with sadness.",
       "id": "BID_380_CuddleTeamDark",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_380_cuddleteamdark/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_380_cuddleteamdark/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_380_cuddleteamdark/smallicon.png"
       },
@@ -69899,6 +70050,7 @@
       "description": "Burn rubber.",
       "id": "BID_381_RustyRaiderMotor",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_381_rustyraidermotor/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_381_rustyraidermotor/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_381_rustyraidermotor/smallicon.png"
       },
@@ -69930,6 +70082,7 @@
       "description": "A little dark around the edges.",
       "id": "BID_382_DarkDinoMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_382_darkdinomale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_382_darkdinomale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_382_darkdinomale/smallicon.png"
       },
@@ -69991,6 +70144,7 @@
       "description": "A mystery from prehistory.",
       "id": "BID_383_DarkDinoFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_383_darkdinofemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_383_darkdinofemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_383_darkdinofemale/smallicon.png"
       },
@@ -70052,6 +70206,7 @@
       "description": "Perfectly stabilized for Nosh entrapment.",
       "id": "BID_384_NoshHunter",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_384_noshhunter/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_384_noshhunter/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_384_noshhunter/smallicon.png"
       },
@@ -70083,6 +70238,7 @@
       "description": "The snack that bites back.",
       "id": "BID_385_Nosh",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_385_nosh/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_385_nosh/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_385_nosh/smallicon.png"
       },
@@ -70199,6 +70355,7 @@
       "description": "The underworld beckons.",
       "id": "BID_388_DevilRockMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_388_devilrockmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_388_devilrockmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_388_devilrockmale/smallicon.png"
       },
@@ -70230,6 +70387,7 @@
       "description": "Make them see.",
       "id": "BID_389_GoatRobe",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_389_goatrobe/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_389_goatrobe/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_389_goatrobe/smallicon.png"
       },
@@ -70323,6 +70481,7 @@
       "description": "Grant us wisdom. ",
       "id": "BID_392_Freak",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_392_freak/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_392_freak/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_392_freak/smallicon.png"
       },
@@ -70399,6 +70558,7 @@
       "description": "Contain yourself.",
       "id": "BID_394_Mastermind",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_394_mastermind/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_394_mastermind/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_394_mastermind/smallicon.png"
       },
@@ -70430,6 +70590,7 @@
       "description": "Time is running out.",
       "id": "BID_395_Phantom",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_395_phantom/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_395_phantom/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_395_phantom/smallicon.png"
       },
@@ -70517,6 +70678,7 @@
       "description": "It's watching you...",
       "id": "BID_397_SkeletonHunter",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_397_skeletonhunter/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_397_skeletonhunter/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_397_skeletonhunter/smallicon.png"
       },
@@ -70679,6 +70841,7 @@
       "description": "Fiercely adorable. Obsessed with cookies and sandwiches.",
       "id": "BID_401_Razor",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_401_razor/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_401_razor/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_401_razor/smallicon.png"
       },
@@ -70710,6 +70873,7 @@
       "description": "Keep your skills sharp.",
       "id": "BID_402_TourBus",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_402_tourbus/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_402_tourbus/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_402_tourbus/smallicon.png"
       },
@@ -70753,6 +70917,7 @@
       "description": "Almost waterproof. ",
       "id": "BID_403_JetSkiFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_403_jetskifemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_403_jetskifemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_403_jetskifemale/smallicon.png"
       },
@@ -70784,6 +70949,7 @@
       "description": "Gas up and go. ",
       "id": "BID_404_JetSkiMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_404_jetskimale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_404_jetskimale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_404_jetskimale/smallicon.png"
       },
@@ -70815,6 +70981,7 @@
       "description": "Stylishly dreary. ",
       "id": "BID_405_ModernWitch",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_405_modernwitch/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_405_modernwitch/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_405_modernwitch/smallicon.png"
       },
@@ -71125,6 +71292,7 @@
       "description": "High contrast angularity. ",
       "id": "BID_412_CavalryBandit",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_412_cavalrybandit/smallicon.png"
       },
@@ -71174,6 +71342,7 @@
       "description": "The latest in fall fashion. ",
       "id": "BID_413_ForestQueen",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_413_forestqueen/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_413_forestqueen/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_413_forestqueen/smallicon.png"
       },
@@ -71205,6 +71374,7 @@
       "description": "Pitch perfect. ",
       "id": "BID_414_ForestDwellerMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_414_forestdwellermale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_414_forestdwellermale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_414_forestdwellermale/smallicon.png"
       },
@@ -71267,6 +71437,7 @@
       "description": "Slurp Juice not included. ",
       "id": "BID_416_BigChuggus",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_416_bigchuggus/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_416_bigchuggus/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_416_bigchuggus/smallicon.png"
       },
@@ -71309,6 +71480,7 @@
       "description": "For when you have a bone to pick. ",
       "id": "BID_417_BoneSnake",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_417_bonesnake/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_417_bonesnake/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_417_bonesnake/smallicon.png"
       },
@@ -71340,6 +71512,7 @@
       "description": "It's open season on the open water.",
       "id": "BID_418_BulletBlueMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_418_bulletbluemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_418_bulletbluemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_418_bulletbluemale/smallicon.png"
       },
@@ -71371,6 +71544,7 @@
       "description": "Circle your prey and pick your moment.",
       "id": "BID_419_Frogman",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_419_frogman/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_419_frogman/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_419_frogman/smallicon.png"
       },
@@ -71402,6 +71576,7 @@
       "description": "Ready for the trenches. \r\nReactive: Sings songs for those you eliminate.",
       "id": "BID_421_TeriyakiWarrior",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_421_teriyakiwarrior/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_421_teriyakiwarrior/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_421_teriyakiwarrior/smallicon.png"
       },
@@ -71433,6 +71608,7 @@
       "description": "Cold and cuddly. ",
       "id": "BID_422_SnufflesLeader",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_422_snufflesleader/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_422_snufflesleader/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_422_snufflesleader/smallicon.png"
       },
@@ -71464,6 +71640,7 @@
       "description": "It sees you when you're sleeping.",
       "id": "BID_423_HolidayTime",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_423_holidaytime/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_423_holidaytime/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_423_holidaytime/smallicon.png"
       },
@@ -71495,6 +71672,7 @@
       "description": "Wearable winter wonderland. ",
       "id": "BID_424_SnowGlobe",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_424_snowglobe/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_424_snowglobe/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_424_snowglobe/smallicon.png"
       },
@@ -71544,6 +71722,7 @@
       "description": "Delicious and dangerous.",
       "id": "BID_425_Kane",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_425_kane/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_425_kane/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_425_kane/smallicon.png"
       },
@@ -71575,6 +71754,7 @@
       "description": "First Order battle cape.",
       "id": "BID_426_GalileoKayak_NS67T",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_426_galileokayak_ns67t/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_426_galileokayak_ns67t/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_426_galileokayak_ns67t/smallicon.png"
       },
@@ -71636,6 +71816,7 @@
       "description": "Weapon of the army of elite First Order soldiers.",
       "id": "BID_427_GalileoSled_ZDWOV",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_427_galileosled_zdwov/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_427_galileosled_zdwov/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_427_galileosled_zdwov/smallicon.png"
       },
@@ -71679,6 +71860,7 @@
       "description": "Symbol of the Resistance.",
       "id": "BID_428_GalileoFerry_28UZ3",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_428_galileoferry_28uz3/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_428_galileoferry_28uz3/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_428_galileoferry_28uz3/smallicon.png"
       },
@@ -71722,6 +71904,7 @@
       "description": "Force-wielders devoted to the light side.",
       "id": "BID_429_GalileoRocket_ZD0AF",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_429_galileorocket_zd0af/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_429_galileorocket_zd0af/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_429_galileorocket_zd0af/smallicon.png"
       },
@@ -71851,6 +72034,7 @@
       "description": "High tech and high stakes.",
       "id": "BID_433_NeonAnimal",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_433_neonanimal/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_433_neonanimal/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_433_neonanimal/smallicon.png"
       },
@@ -71909,6 +72093,7 @@
       "description": "Advanced construction for maximum heart.",
       "id": "BID_434_NeonAnimalFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_434_neonanimalfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_434_neonanimalfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_434_neonanimalfemale/smallicon.png"
       },
@@ -71967,6 +72152,7 @@
       "description": "Follow the way.",
       "id": "BID_435_Constellation",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_435_constellation/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_435_constellation/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_435_constellation/smallicon.png"
       },
@@ -71998,6 +72184,7 @@
       "description": "Chilled to the gills.",
       "id": "BID_436_TacticalBear",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_436_tacticalbear/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_436_tacticalbear/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_436_tacticalbear/smallicon.png"
       },
@@ -72106,6 +72293,7 @@
       "description": "Deck your back.",
       "id": "BID_438_SweaterWeather",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_438_sweaterweather/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_438_sweaterweather/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_438_sweaterweather/smallicon.png"
       },
@@ -72168,6 +72356,7 @@
       "description": "Mountain upward and style forward.",
       "id": "BID_440_MsAlpine",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_440_msalpine/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_440_msalpine/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_440_msalpine/smallicon.png"
       },
@@ -72275,6 +72464,7 @@
       "description": "Frozen fury.",
       "id": "BID_443_WingedFury",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_443_wingedfury/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_443_wingedfury/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_443_wingedfury/smallicon.png"
       },
@@ -73886,6 +74076,7 @@
       "description": "Futuristic agility is in your bones. ",
       "id": "BID_481_GraffitiFuture",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_481_graffitifuture/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_481_graffitifuture/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_481_graffitifuture/smallicon.png"
       },
@@ -75738,6 +75929,7 @@
       "description": "We're number one!",
       "id": "BID_531_HardcoreSportzFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_531_hardcoresportzfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_531_hardcoresportzfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_531_hardcoresportzfemale/smallicon.png"
       },
@@ -75769,6 +75961,7 @@
       "description": "Two kinds of dangerous in one convenient package. ",
       "id": "BID_532_HardcoreSportzMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_532_hardcoresportzmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_532_hardcoresportzmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_532_hardcoresportzmale/smallicon.png"
       },
@@ -75928,6 +76121,7 @@
       "description": "Give it a moment to sink in.",
       "id": "BID_536_Beacon",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_536_beacon/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_536_beacon/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_536_beacon/smallicon.png"
       },
@@ -76124,6 +76318,7 @@
       "description": "Gator-tough swamp original.",
       "id": "BID_541_Gator",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_541_gator/smallicon.png"
       },
@@ -76321,6 +76516,7 @@
       "description": "Warning: Contents of firestarter may be hot.",
       "id": "BID_545_RenegadeRaiderFire",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_545_renegaderaiderfire/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_545_renegaderaiderfire/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_545_renegaderaiderfire/smallicon.png"
       },
@@ -76511,6 +76707,7 @@
       "description": "No! The other way!",
       "id": "BID_549_Dummeez",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/smallicon.png"
       },
@@ -76560,6 +76757,7 @@
       "description": "Packed with beefy goodness.",
       "id": "BID_550_JonesyVagabond",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_550_jonesyvagabond/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_550_jonesyvagabond/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_550_jonesyvagabond/smallicon.png"
       },
@@ -76609,6 +76807,7 @@
       "description": "Heartbreakingly flappy.",
       "id": "BID_551_CupidDarkFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_551_cupiddarkfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_551_cupiddarkfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_551_cupiddarkfemale/smallicon.png"
       },
@@ -76819,6 +77018,7 @@
       "description": "Drape yourself in sharky goodness.",
       "id": "BID_557_SharkSuitFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_557_sharksuitfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_557_sharksuitfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_557_sharksuitfemale/smallicon.png"
       },
@@ -79264,8 +79464,9 @@
     {
       "added": "2020-09-23T08:28:55Z",
       "description": "Protected by an unbreakable vow.",
-      "id": "BID_614_Myth",
+      "id": "bid_614_myth",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/smallicon.png"
       },
@@ -79315,6 +79516,7 @@
       "description": "Look, but don't touch.",
       "id": "BID_615_Backspin_KA0K2",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_615_backspin_ka0k2/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_615_backspin_ka0k2/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_615_backspin_ka0k2/smallicon.png"
       },
@@ -82269,6 +82471,7 @@
       "description": "There is no fate but what we make for ourselves.",
       "id": "BID_690_TyphoonFemale_1NBFZ",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_690_typhoonfemale_1nbfz/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_690_typhoonfemale_1nbfz/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_690_typhoonfemale_1nbfz/smallicon.png"
       },
@@ -83905,6 +84108,7 @@
       "description": "The sun's light will guide you.",
       "id": "BID_733_TheGoldenSkeletonFemale_SG4HF",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_733_thegoldenskeletonfemale_sg4hf/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_733_thegoldenskeletonfemale_sg4hf/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_733_thegoldenskeletonfemale_sg4hf/smallicon.png"
       },
@@ -90993,6 +91197,7 @@
       "description": "A shuriken with fearsome curved blades.",
       "id": "BID_904_HeadbandSMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_904_headbandsmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_904_headbandsmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_904_headbandsmale/smallicon.png"
       },
@@ -93138,6 +93343,7 @@
       "description": "Who knows how much loot she could have stashed in there?",
       "id": "BID_954_Rover_0FV73",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_954_rover_0fv73/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_954_rover_0fv73/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_954_rover_0fv73/smallicon.png"
       },
@@ -94246,6 +94452,7 @@
       "description": "Outshine 'em all.",
       "id": "BID_976_LittleEgg_Female_4EJ99",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_976_littleegg_female_4ej99/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_976_littleegg_female_4ej99/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_976_littleegg_female_4ej99/smallicon.png"
       },
@@ -95620,6 +95827,7 @@
       "description": "Unlock the mysteries of every star in the galaxy.",
       "id": "BID_A_013_EternalVanguardFemale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_a_013_eternalvanguardfemale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_a_013_eternalvanguardfemale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_a_013_eternalvanguardfemale/smallicon.png"
       },
@@ -96234,6 +96442,7 @@
       "description": "Wear it with honor.",
       "id": "BID_A_030_EnsembleMaskMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_a_030_ensemblemaskmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_a_030_ensemblemaskmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_a_030_ensemblemaskmale/smallicon.png"
       },
@@ -96324,6 +96533,7 @@
       "description": "Best for carrying chakra-infused sand.",
       "id": "BID_A_032_EnsembleMaroonMale",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_a_032_ensemblemaroonmale/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_a_032_ensemblemaroonmale/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_a_032_ensemblemaroonmale/smallicon.png"
       },
@@ -101608,6 +101818,7 @@
       "description": "Loyal captain of the First Order.",
       "id": "Character_BinGrass",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_bingrass/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_bingrass/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_bingrass/large.png",
@@ -101659,7 +101870,6 @@
         "EID_BiomeHose"
       ],
       "description": "It's hero time.",
-      "dynamicPakId": "1022",
       "id": "Character_BiomeHose",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_biomehose/featured.png",
@@ -104756,6 +104966,60 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Sentinel of the flames.",
+      "id": "Character_BurnLeer",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_burnleer/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_burnleer/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lady Flamespark",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
     },
     {
       "added": "2024-10-12T06:22:57Z",
@@ -110694,7 +110958,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "The Texas Rattlesnake who doesn't trust anybody.",
-      "dynamicPakId": "1016",
       "id": "Character_CrossWiper",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_crosswiper/featured.png",
@@ -112802,7 +113065,6 @@
     {
       "added": "2026-04-22T00:00:00Z",
       "description": "Such is our calling.",
-      "dynamicPakId": "1021",
       "id": "Character_DemureIgloo",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_demureigloo/featured.png",
@@ -118151,10 +118413,6 @@
       "id": "Character_FastRabbit",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_fastrabbit/icon.png",
-        "lego": {
-          "large": "https://fortnite-api.com/images/cosmetics/lego/character_fastrabbit/large.png",
-          "small": "https://fortnite-api.com/images/cosmetics/lego/character_fastrabbit/small.png"
-        },
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_fastrabbit/smallicon.png"
       },
       "introduction": {
@@ -124576,6 +124834,7 @@
       "description": "The backbone of Republic warfare.",
       "id": "Character_GrandScheme",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_grandscheme/large.png",
@@ -124677,6 +124936,7 @@
       "description": "Named for their beloved commander, Wolffe.",
       "id": "Character_GrandScheme_Grey",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme_grey/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme_grey/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_grandscheme_grey/large.png",
@@ -124746,6 +125006,7 @@
       "description": "Led by legendary Commander Rex and Ahsoka Tano.",
       "id": "Character_GrandScheme_Orange",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme_orange/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme_orange/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_grandscheme_orange/large.png",
@@ -124796,6 +125057,7 @@
       "description": "Troopers sworn to defend the Galactic Republic.",
       "id": "Character_GrandScheme_Red",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme_red/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_grandscheme_red/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_grandscheme_red/large.png",
@@ -125357,8 +125619,8 @@
       },
       "set": {
         "backendValue": "AngryWheel",
-        "text": "Part of the T.Rux set.",
-        "value": "T.Rux"
+        "text": "Part of the T.Rux Shredder set.",
+        "value": "T.Rux Shredder"
       },
       "type": {
         "backendValue": "AthenaCharacter",
@@ -126215,6 +126477,10 @@
           "small": "https://fortnite-api.com/images/cosmetics/beans/bean_harborsnow/small.png"
         },
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_harborsnow/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_harborsnow/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_harborsnow/small.png"
+        },
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_harborsnow/smallicon.png"
       },
       "introduction": {
@@ -140324,6 +140590,60 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Protector of the ocean.",
+      "id": "Character_MistyBead",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_mistybead/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_mistybead/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lady Waveflow",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
+    },
+    {
       "added": "2022-10-04T09:01:34Z",
       "description": "Sweet. And a little bitter.",
       "id": "Character_Mochi",
@@ -142059,6 +142379,112 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Seer of the unseen.",
+      "id": "Character_NickelScan",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_nickelscan/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_nickelscan/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Damon",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "GoldWolf",
+        "text": "Part of the All-Seeing set.",
+        "value": "All-Seeing"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/material/mat1.png",
+              "name": "Damon",
+              "tag": "Mat1",
+              "unlockRequirements": "Damon"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/material/mat2.png",
+              "name": "Saltstone Legacy",
+              "tag": "Mat2",
+              "unlockRequirements": "Damon"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/material/mat3.png",
+              "name": "Auric Legacy",
+              "tag": "Mat3",
+              "unlockRequirements": "Damon"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/material/mat4.png",
+              "name": "Phase Legacy",
+              "tag": "Mat4",
+              "unlockRequirements": "Damon"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/material/mat5.png",
+              "name": "Rimebound Legacy",
+              "tag": "Mat5",
+              "unlockRequirements": "Damon"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/material/mat6.png",
+              "name": "Cosmic Legacy",
+              "tag": "Mat6",
+              "unlockRequirements": "Damon"
+            }
+          ],
+          "type": "style"
+        },
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/particle/particle1.png",
+              "name": "on",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_nickelscan/variants/particle/particle2.png",
+              "name": "off",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "fx"
+        }
+      ]
     },
     {
       "added": "2023-04-11T08:00:00Z",
@@ -157651,7 +158077,7 @@
         "season": "2",
         "text": "Introduced in Chapter 7, Season 2."
       },
-      "name": "Thor Odinsson",
+      "name": "Thor, the Terrible",
       "rarity": {
         "backendValue": "EFortRarity::Epic",
         "displayValue": "Epic",
@@ -166448,6 +166874,7 @@
           "large": "https://fortnite-api.com/images/cosmetics/beans/bean_straymanta/large.png",
           "small": "https://fortnite-api.com/images/cosmetics/beans/bean_straymanta/small.png"
         },
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_straymanta/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_straymanta/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_straymanta/large.png",
@@ -173738,7 +174165,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "Watch her.",
-      "dynamicPakId": "1016",
       "id": "Character_ToothGreek",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_toothgreek/featured.png",
@@ -180257,7 +180683,6 @@
         "EID_WordUnity"
       ],
       "description": "She's not about to let anyone down.",
-      "dynamicPakId": "1022",
       "id": "Character_WordUnity",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_wordunity/featured.png",
@@ -253040,6 +253465,7 @@
           "large": "https://fortnite-api.com/images/cosmetics/beans/bean_lars/large.png",
           "small": "https://fortnite-api.com/images/cosmetics/beans/bean_lars/small.png"
         },
+        "featured": "https://fortnite-api.com/images/cosmetics/br/cid_a_186_athena_commando_m_lars/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/cid_a_186_athena_commando_m_lars/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/cid_a_186_athena_commando_m_lars/large.png",
@@ -253535,6 +253961,11 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_195_athena_commando_m_crisis/variants/parts/stage2.png",
               "name": "Trespasser Cubed",
               "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_195_athena_commando_m_crisis/variants/parts/stage3.png",
+              "name": "Trespasser Unknown",
+              "tag": "Stage3"
             }
           ],
           "type": "style"
@@ -273597,6 +274028,25 @@
       ]
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "null",
+      "id": "CID_Empty",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/cid_empty/icon.png"
+      },
+      "name": "null",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "null",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2023-01-18T13:30:34Z",
       "builtInEmoteIds": [
         "EID_Canary"
@@ -274759,6 +275209,33 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Glug glug! Bark bark!",
+      "id": "Companion_BandSoda",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_bandsoda/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_bandsoda/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_bandsoda/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Slurp Puppy",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2026-03-19T06:29:28Z",
       "description": "What a cute lil' storm beast.",
       "id": "Companion_BarrelWimp",
@@ -275144,7 +275621,6 @@
     {
       "added": "2026-04-24T00:00:00Z",
       "description": "The OG Bloon-poppin' monkey.",
-      "dynamicPakId": "1023",
       "id": "Companion_EdibleCable",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/companion_ediblecable/icon.png",
@@ -275947,6 +276423,38 @@
           "type": "Sidekick Emote"
         }
       ]
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "A crafty, cunning kit.",
+      "id": "Companion_SniffRust",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_sniffrust/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_sniffrust/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_sniffrust/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Dodger",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "OrchidGray",
+        "text": "Part of the Outfoxed set.",
+        "value": "Outfoxed"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
     },
     {
       "added": "2026-04-16T08:20:44Z",
@@ -281148,7 +281656,6 @@
     {
       "added": "2026-04-17T00:00:00Z",
       "description": "Tell your story.",
-      "dynamicPakId": "1020",
       "id": "EID_AfterHours",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_afterhours/featured.png",
@@ -285071,8 +285578,20 @@
       "name": "Bend Back",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "type": {
         "backendValue": "AthenaDance",
@@ -285905,6 +286424,7 @@
       "description": "Perfect for desert environments.",
       "id": "EID_BinGrass",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_bingrass/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bingrass/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_bingrass/smallicon.png"
       },
@@ -285950,7 +286470,6 @@
         "EID_BiomeHose"
       ],
       "description": "Unlock the power of the Omnitrix.",
-      "dynamicPakId": "1022",
       "id": "EID_BiomeHose",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_biomehose/icon.png",
@@ -292684,8 +293203,20 @@
       "name": "JUST DANCE 2",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "showcaseVideo": "aAmTlNLRCuo",
       "type": {
@@ -292712,8 +293243,20 @@
       "name": "Atmosphere",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "type": {
         "backendValue": "AthenaDance",
@@ -293411,7 +293954,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "And that's the bottom line, 'cause Stone Cold said so!",
-      "dynamicPakId": "1016",
       "id": "EID_CrossWiper",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_crosswiper/featured.png",
@@ -300848,6 +301390,38 @@
         "value": "Disney Villains"
       },
       "showcaseVideo": "xiEnEzKcsiA",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Power, at your feet.",
+      "id": "EID_FlowingFlames",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_flowingflames/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_flowingflames/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_flowingflames/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Elemental Balance",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -324420,7 +324994,6 @@
     {
       "added": "2026-04-19T00:00:00Z",
       "description": "This is what you wanted.",
-      "dynamicPakId": "1012",
       "id": "EID_QuatroAir",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_quatroair/featured.png",
@@ -330327,8 +330900,20 @@
       "name": "LA CHONA",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "showcaseVideo": "vf4pDOSdviA",
       "type": {
@@ -332365,8 +332950,20 @@
       "name": "Pop 'n Lockdown",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "showcaseVideo": "ewMTW2UX9c8",
       "type": {
@@ -342528,7 +343125,6 @@
     {
       "added": "2026-04-23T13:00:57Z",
       "description": "Wield mana responsibly.",
-      "dynamicPakId": "1022",
       "id": "EID_WordUnity",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_wordunity/icon.png",
@@ -362358,6 +362954,47 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_BandSoda",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_bandsoda/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Hi Slurp Puppy!",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Slurp Series",
+        "value": "slurp"
+      },
+      "series": {
+        "backendValue": "SlurpSeries",
+        "colors": [
+          "1df9f7ff",
+          "37daadff",
+          "00c3f1ff",
+          "1b91ffff",
+          "1c8bdaff"
+        ],
+        "value": "Slurp Series"
+      },
+      "set": {
+        "backendValue": "DubstepTuna",
+        "text": "Part of the Barrel o' Barks set.",
+        "value": "Barrel o' Barks"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_BentBaton",
@@ -363184,7 +363821,7 @@
         "season": "2",
         "text": "Introduced in Chapter 7, Season 2."
       },
-      "name": "Perry the Platypus",
+      "name": "Agent P",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -365842,7 +366479,7 @@
     {
       "added": "2026-04-16T08:20:44Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_StW_F2P",
+      "id": "Emoticon_STW_F2P",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_stw_f2p/smallicon.png"
       },
@@ -387331,8 +387968,20 @@
       "name": "Eternal Driftwood",
       "rarity": {
         "backendValue": "EFortRarity::Epic",
-        "displayValue": "Epic",
-        "value": "epic"
+        "displayValue": "Lava Series",
+        "value": "lava"
+      },
+      "series": {
+        "backendValue": "LavaSeries",
+        "colors": [
+          "face36ff",
+          "dc240fff",
+          "9a0035ff",
+          "5d005eff",
+          "3f0043ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/lavaseries.png",
+        "value": "Lava Series"
       },
       "set": {
         "backendValue": "OrangePane",
@@ -392144,6 +392793,35 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "The galaxy is worth fighting for.",
+      "id": "LoadingScreen_AkitaKeyArt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_akitakeyart/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_akitakeyart/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_akitakeyart/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Unleash the Force",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
       "added": "2024-10-01T08:27:32Z",
       "description": "When the time comes, you will all fall to Doom. \r\n\r\nArt by Pepe Laraz.",
       "id": "LoadingScreen_AnglePatch",
@@ -392651,6 +393329,51 @@
         "backendValue": "GnarlBear",
         "text": "Part of the Growlin' Grriz set.",
         "value": "Growlin' Grriz"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Start slurpin'!",
+      "id": "LoadingScreen_BandSoda",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_bandsoda/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_bandsoda/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_bandsoda/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Slurp Family Meal",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Slurp Series",
+        "value": "slurp"
+      },
+      "series": {
+        "backendValue": "SlurpSeries",
+        "colors": [
+          "1df9f7ff",
+          "37daadff",
+          "00c3f1ff",
+          "1b91ffff",
+          "1c8bdaff"
+        ],
+        "value": "Slurp Series"
+      },
+      "set": {
+        "backendValue": "DubstepTuna",
+        "text": "Part of the Barrel o' Barks set.",
+        "value": "Barrel o' Barks"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -406233,6 +406956,35 @@
         "text": "Introduced in Chapter 7, Season 2."
       },
       "name": "The Seven, Reforged",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Only the most dangerous dare to attack the Elites.",
+      "id": "LoadingScreen_S40Narrative2",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative2/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative2/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Harvester's Theft",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -438496,6 +439248,37 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Cut a path forward.",
+      "id": "Pickaxe_BarbShiv",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_barbshiv/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_barbshiv/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Daigo's Hunting Knife",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BetterPeople",
+        "text": "Part of the The Elites set.",
+        "value": "The Elites"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2022-12-13T10:43:37Z",
       "description": "This demonic blade is powered by stolen velocity.",
       "id": "Pickaxe_BariumDemon",
@@ -439086,6 +439869,7 @@
       "description": "Phasma's personal melee weapon.",
       "id": "Pickaxe_BinGrass",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bingrass/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bingrass/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bingrass/smallicon.png"
       },
@@ -439127,7 +439911,6 @@
     {
       "added": "2026-04-23T13:00:57Z",
       "description": "Not what Azmuth had in mind...",
-      "dynamicPakId": "1022",
       "id": "Pickaxe_BiomeHose",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_biomehose/featured.png",
@@ -441035,6 +441818,38 @@
         "backendValue": "WhiteCity",
         "text": "Part of the BLEACH: TYBW set.",
         "value": "BLEACH: TYBW"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Revenge burns.",
+      "id": "Pickaxe_BurnLeer",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_burnleer/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_burnleer/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_burnleer/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Fire's Sharp Wrath",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -444965,7 +445780,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "Stomp a mudhole and break for a drink.",
-      "dynamicPakId": "1016",
       "id": "Pickaxe_CrossWiper",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_crosswiper/featured.png",
@@ -445882,6 +446696,7 @@
       "description": "You don't wanna see the things it's flayed.",
       "id": "Pickaxe_DangerMojo",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangermojo/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangermojo/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangermojo/smallicon.png"
       },
@@ -454422,8 +455237,8 @@
       },
       "set": {
         "backendValue": "AngryWheel",
-        "text": "Part of the T.Rux set.",
-        "value": "T.Rux"
+        "text": "Part of the T.Rux Shredder set.",
+        "value": "T.Rux Shredder"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -455698,12 +456513,12 @@
           "options": [
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hollowsignal_guitar/variants/particle/particle1.png",
-              "name": "Grand Midnight",
+              "name": "Lux Midnight",
               "tag": "Particle1"
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hollowsignal_guitar/variants/particle/particle2.png",
-              "name": "Onyx Guild",
+              "name": "Grand Midnight",
               "tag": "Particle2"
             }
           ],
@@ -496003,6 +496818,38 @@
       ]
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "The depths will always collect their debts.",
+      "id": "Pickaxe_MistyBead",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mistybead/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mistybead/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mistybead/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Ocean's Riptide",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2022-10-04T09:01:34Z",
       "description": "Not as soft as it looks.",
       "id": "Pickaxe_Mochi",
@@ -497448,6 +498295,92 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_newschool_mic/variants/particle/particle1.png",
               "name": "Default",
               "tag": "Particle1"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Ill portents follow...",
+      "id": "Pickaxe_NickelScan",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Spear of Vision",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "GoldWolf",
+        "text": "Part of the All-Seeing set.",
+        "value": "All-Seeing"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/variants/particle/particle1.png",
+              "name": "Spear of Vision",
+              "tag": "Particle1",
+              "unlockRequirements": "Spear of Vision"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/variants/particle/particle2.png",
+              "name": "Saltstone Legacy",
+              "tag": "Particle2",
+              "unlockRequirements": "Spear of Vision"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/variants/particle/particle3.png",
+              "name": "Auric Legacy",
+              "tag": "Particle3",
+              "unlockRequirements": "Spear of Vision"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/variants/particle/particle4.png",
+              "name": "Phase Legacy",
+              "tag": "Particle4",
+              "unlockRequirements": "Spear of Vision"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/variants/particle/particle5.png",
+              "name": "Rimebound Legacy",
+              "tag": "Particle5",
+              "unlockRequirements": "Spear of Vision"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_nickelscan/variants/particle/particle6.png",
+              "name": "Cosmic Legacy",
+              "tag": "Particle6",
+              "unlockRequirements": "Spear of Vision"
             }
           ],
           "type": "Style"
@@ -500526,8 +501459,20 @@
       "name": "Hot Hook",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Lava Series",
+        "value": "lava"
+      },
+      "series": {
+        "backendValue": "LavaSeries",
+        "colors": [
+          "face36ff",
+          "dc240fff",
+          "9a0035ff",
+          "5d005eff",
+          "3f0043ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/lavaseries.png",
+        "value": "Lava Series"
       },
       "set": {
         "backendValue": "OrangePane",
@@ -506897,9 +507842,9 @@
         "value": "rare"
       },
       "set": {
-        "backendValue": "BetterPeople",
-        "text": "Part of the The Elites set.",
-        "value": "The Elites"
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -506944,6 +507889,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -511875,6 +512825,7 @@
       "description": "Cut away the past.",
       "id": "Pickaxe_StrayManta",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_straymanta/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_straymanta/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_straymanta/smallicon.png"
       },
@@ -514780,7 +515731,6 @@
     {
       "added": "2026-04-16T19:01:22Z",
       "description": "The perfect tool for a revenge tour.",
-      "dynamicPakId": "1016",
       "id": "Pickaxe_ToothGreek",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_toothgreek/featured.png",
@@ -516540,9 +517490,9 @@
         "value": "rare"
       },
       "set": {
-        "backendValue": "BetterPeople",
-        "text": "Part of the The Elites set.",
-        "value": "The Elites"
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -518138,7 +519088,6 @@
     {
       "added": "2026-04-23T13:00:57Z",
       "description": "Ready for magical melee.",
-      "dynamicPakId": "1022",
       "id": "Pickaxe_WordUnity",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_wordunity/featured.png",
@@ -518641,7 +519590,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_AlignLapelLump",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_alignlapellump/featured.png",
@@ -518692,7 +519640,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_AlignLapelThought",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_alignlapelthought/featured.png",
@@ -519364,7 +520311,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_BiomeHoseWorry",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_biomehoseworry/featured.png",
@@ -521193,7 +522139,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_DraughtWhetNerve",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_draughtwhetnerve/featured.png",
@@ -521226,7 +522171,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_DraughtWhetPan",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_draughtwhetpan/featured.png",
@@ -521277,7 +522221,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_DraughtWhetRazz",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_draughtwhetrazz/featured.png",
@@ -521310,7 +522253,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_DraughtWhetReap",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_draughtwhetreap/featured.png",
@@ -522498,7 +523440,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_GoodGrubs",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_goodgrubs/featured.png",
@@ -524814,7 +525755,6 @@
     {
       "added": "2026-04-18T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1026",
       "id": "Shoes_NorthStompers",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_northstompers/featured.png",
@@ -524827,7 +525767,7 @@
         "season": "2",
         "text": "Introduced in Chapter 7, Season 2."
       },
-      "name": "Valhallans",
+      "name": "Longboat Stompers",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -545547,6 +546487,35 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Leave your mark.",
+      "id": "Spray_Akita",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_akita/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_akita/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_akita/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Rebel Tauntaun",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2026-04-16T08:20:44Z",
       "description": "Leave your mark.",
       "id": "Spray_AlderOptic",
@@ -549451,6 +550420,35 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Leave your mark.",
+      "id": "Spray_ElitesCC",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_elitescc/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_elitescc/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_elitescc/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Elites Emblem",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2026-04-16T08:20:44Z",
       "description": "Leave your mark.",
       "id": "Spray_EmberYearn",
@@ -551022,7 +552020,7 @@
         "season": "2",
         "text": "Introduced in Chapter 7, Season 2."
       },
-      "name": "Perry vs Doof",
+      "name": "Buff Perry vs Doof",
       "rarity": {
         "backendValue": "EFortRarity::Epic",
         "displayValue": "Epic",
@@ -573907,6 +574905,9 @@
         "displayValue": "Epic",
         "value": "epic"
       },
+      "searchTags": [
+        "Umbrella"
+      ],
       "type": {
         "backendValue": "AthenaGlider",
         "displayValue": "Glider",
@@ -592715,7 +593716,6 @@
     {
       "added": "2026-04-23T13:00:57Z",
       "description": "Show your style.",
-      "dynamicPakId": "1022",
       "id": "Wrap_BiomeHose",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_biomehose/featured.png",
@@ -593685,6 +594685,38 @@
         "backendValue": "FortuneClaw",
         "text": "Part of the Luckypaw set.",
         "value": "Luckypaw"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Show your style.",
+      "id": "Wrap_BurnLeer",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_burnleer/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_burnleer/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_burnleer/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Inferno Pulse",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -597441,9 +598473,9 @@
         "value": "rare"
       },
       "set": {
-        "backendValue": "ScratchPen",
-        "text": "Part of the Brainrot set.",
-        "value": "Brainrot"
+        "backendValue": "DragonNinja",
+        "text": "Part of the Brood set.",
+        "value": "Brood"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -602608,6 +603640,38 @@
       }
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Show your style.",
+      "id": "Wrap_MistyBead",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_mistybead/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_mistybead/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_mistybead/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Placid Shore",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "AllBall",
+        "text": "Part of the Elemental Court set.",
+        "value": "Elemental Court"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
       "added": "2024-10-01T08:27:32Z",
       "description": "Show your style.",
       "id": "Wrap_Mitosis",
@@ -604082,8 +605146,20 @@
       "name": "Captain's Tally",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Lava Series",
+        "value": "lava"
+      },
+      "series": {
+        "backendValue": "LavaSeries",
+        "colors": [
+          "face36ff",
+          "dc240fff",
+          "9a0035ff",
+          "5d005eff",
+          "3f0043ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/lavaseries.png",
+        "value": "Lava Series"
       },
       "set": {
         "backendValue": "OrangePane",

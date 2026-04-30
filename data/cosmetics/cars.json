@@ -1117,6 +1117,27 @@
       "vehicleId": "VCID_Body_Keanu"
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "null",
+      "id": "CarBody_LawnAero",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_lawnaero/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_lawnaero/small.png"
+      },
+      "name": "LawnAero",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_LawnAero"
+    },
+    {
       "added": "2026-01-03T00:00:00Z",
       "description": "Never back down.",
       "id": "CarBody_Lawrence",
@@ -2268,6 +2289,27 @@
       "vehicleId": "VCID_Body_SuperOmega"
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarBody_TagTiger",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_tagtiger/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_tagtiger/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_TagTiger"
+    },
+    {
       "added": "2024-04-09T08:37:33Z",
       "description": "It's lit!",
       "id": "CarBody_Thrice",
@@ -2455,6 +2497,38 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_ZakuT1"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Sleek reinvention of a powerful classic.",
+      "id": "CarBody_ZedThirty",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_zedthirty/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_zedthirty/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_ZedThirty"
     },
     {
       "added": "2025-11-12T00:00:00Z",
@@ -17963,6 +18037,111 @@
       "vehicleId": "VCID_Skin_SuperOmegaWings"
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_TagTiger01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtiger01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtiger01/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TagTiger01"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_TagTiger02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtiger02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtiger02/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TagTiger02"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_TagTiger03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtiger03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtiger03/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TagTiger03"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_TagTigerFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtigerflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtigerflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TagTigerFlames"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_TagTigerWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtigerwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tagtigerwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TagTigerWings"
+    },
+    {
       "added": "2024-04-09T08:37:33Z",
       "description": "Fuse custom decal.",
       "id": "CarSkin_ThriceFlamesAll",
@@ -19358,6 +19537,198 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_ZakuT2Wings"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_ZedThirtyFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtyflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtyflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ZedThirtyFlames"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_ZedThirtyLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtylightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtylightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ZedThirtyLightning"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_ZedThirtyLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtylivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtylivery01/small.png"
+      },
+      "name": "N-23",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ZedThirtyLivery01"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_ZedThirtyLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtylivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtylivery02/small.png"
+      },
+      "name": "Mean Street",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ZedThirtyLivery02"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_ZedThirtyStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtystripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtystripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ZedThirtyStripes"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "CarSkin_ZedThirtyWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtywings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_zedthirtywings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ZedThirtyWings"
     },
     {
       "added": "2025-11-02T20:02:48Z",
@@ -34216,6 +34587,27 @@
       "vehicleId": "VCID_Wheel_Swish"
     },
     {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Blank",
+      "id": "Wheel_TagTiger01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_tagtiger01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_tagtiger01/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_TagTiger01"
+    },
+    {
       "added": "2025-10-02T12:09:47Z",
       "description": "Reminiscence of an icon.",
       "id": "Wheel_Ten",
@@ -34694,6 +35086,38 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Yuzo"
+    },
+    {
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Meet the road.",
+      "id": "Wheel_ZedThirty01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_zedthirty01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_zedthirty01/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Nissan",
+        "colors": [
+          "d7dcedff",
+          "c2c7d6ff",
+          "a2a6b4ff",
+          "0d4994ff",
+          "00264fff"
+        ],
+        "value": "NISSAN SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_ZedThirty01"
     },
     {
       "added": "2025-12-11T10:20:11Z",

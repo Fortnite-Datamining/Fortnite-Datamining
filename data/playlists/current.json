@@ -365,6 +365,118 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.LTM",
+        "Athena.Playlist.Duo",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_BlueCheese_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": -1,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_BlueCheese_Duos",
+      "ratingType": "fun",
+      "subName": "Duos"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Solo",
+        "Athena.Playlist.LTM",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_BlueCheese_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_BlueCheese_Solo",
+      "ratingType": "fun",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.LTM",
+        "Athena.Playlist.Squad",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_BlueCheese_Squads",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_BlueCheese_Squads",
+      "ratingType": "fun",
+      "subName": "Squads"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.LTM",
+        "Athena.Playlist.Trios",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_BlueCheese_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_BlueCheese_Trios",
+      "ratingType": "fun",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2020-09-25T22:30:59Z",
       "description": "Pair up with a buddy and take everyone else down.",
       "gameType": "EFortGameType::BR",
@@ -7291,6 +7403,176 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Testing mode no build",
+      "gameType": "EFortGameType::ForbiddenFruit",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Plugin.Playlist.ForbiddenFruit",
+        "Product.ForbiddenFruit.NoBuild",
+        "Athena.Playlist.ForbiddenFruit.BRLoot",
+        "Athena.Playlist.NoBuildBR.Duo",
+        "LoadingScreen.IsForPreview",
+        "Athena.Playlist.Duo",
+        "Athena.Playlist.ForbiddenFruit.NoBuildDuo",
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+      ],
+      "id": "Playlist_ForbiddenFruitOldNoBuildBRDuo",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 32,
+      "maxSquadSize": 2,
+      "maxSquads": -1,
+      "maxTeamSize": 2,
+      "maxTeams": 36,
+      "minPlayers": -1,
+      "name": "Blitz Royale - Duo",
+      "path": "FortniteGame/Plugins/GameFeatures/ForbiddenFruitPlaylists/Content/Playlists/Playlist_ForbiddenFruitOldNoBuildBRDuo",
+      "ratingType": "nobuild"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Testing mode no build",
+      "gameType": "EFortGameType::ForbiddenFruit",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Plugin.Playlist.ForbiddenFruit",
+        "Product.ForbiddenFruit.NoBuild",
+        "Athena.Playlist.Solo",
+        "Athena.Playlist.NoBuildBR.Solo",
+        "Athena.Playlist.ForbiddenFruit.NoBuildSolo",
+        "Athena.Playlist.ForbiddenFruit.BRLoot",
+        "LoadingScreen.IsForPreview",
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+      ],
+      "id": "Playlist_ForbiddenFruitOldNoBuildBRSolo",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 32,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 36,
+      "minPlayers": -1,
+      "name": "Blitz Royale - Solo",
+      "path": "FortniteGame/Plugins/GameFeatures/ForbiddenFruitPlaylists/Content/Playlists/Playlist_ForbiddenFruitOldNoBuildBRSolo",
+      "ratingType": "nobuild"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Testing mode no build",
+      "gameType": "EFortGameType::ForbiddenFruit",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Plugin.Playlist.ForbiddenFruit",
+        "Product.ForbiddenFruit.NoBuild",
+        "Athena.Playlist.ForbiddenFruit.BRLoot",
+        "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
+        "Athena.Playlist.NoBuildBR.Squad",
+        "LoadingScreen.IsForPreview",
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+      ],
+      "id": "Playlist_ForbiddenFruitOldNoBuildBRSquad",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 32,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 4,
+      "maxTeams": 36,
+      "minPlayers": -1,
+      "name": "Blitz Royale - Squad",
+      "path": "FortniteGame/Plugins/GameFeatures/ForbiddenFruitPlaylists/Content/Playlists/Playlist_ForbiddenFruitOldNoBuildBRSquad",
+      "ratingType": "nobuild"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Testing mode no build",
+      "gameType": "EFortGameType::ForbiddenFruit",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Plugin.Playlist.ForbiddenFruit",
+        "Product.ForbiddenFruit.NoBuild",
+        "Athena.Playlist.ForbiddenFruit.BRLoot",
+        "LoadingScreen.IsForPreview",
+        "Athena.Playlist.NoBuildBR.Trios",
+        "Athena.Playlist.SixStack",
+        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+      ],
+      "id": "Playlist_ForbiddenFruitOldNoBuildBRStack",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 30,
+      "maxSquadSize": 6,
+      "maxSquads": -1,
+      "maxTeamSize": 6,
+      "maxTeams": 30,
+      "minPlayers": 26,
+      "name": "Blitz Royale - Six Stack",
+      "path": "FortniteGame/Plugins/GameFeatures/ForbiddenFruitPlaylists/Content/Playlists/Playlist_ForbiddenFruitOldNoBuildBRStack",
+      "ratingType": "nobuild"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Testing mode no build",
+      "gameType": "EFortGameType::ForbiddenFruit",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Plugin.Playlist.ForbiddenFruit",
+        "Athena.Playlist.ForbiddenFruit.BRLoot",
+        "LoadingScreen.IsForPreview",
+        "Athena.Playlist.NoBuildBR.Trios",
+        "Product.ForbiddenFruit.NoBuild.PureChaos",
+        "Athena.Playlist.SixStack",
+        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+      ],
+      "id": "Playlist_ForbiddenFruitOldNoBuildBRStackPC",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 30,
+      "maxSquadSize": 6,
+      "maxSquads": -1,
+      "maxTeamSize": 6,
+      "maxTeams": 30,
+      "minPlayers": 26,
+      "name": "Blitz Royale - Six Stack (Pure Chaos)",
+      "path": "FortniteGame/Plugins/GameFeatures/ForbiddenFruitPlaylists/Content/Playlists/Playlist_ForbiddenFruitOldNoBuildBRStackPC",
+      "ratingType": "nobuild"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2025-11-29T20:57:03Z",
       "description": "Group up and outlast all of the other squads gunning for victory.",
       "gameType": "EFortGameType::BR",
@@ -7351,93 +7633,6 @@
       "minPlayers": -1,
       "name": "Foxtrot Squads ALT",
       "path": "FortniteGame/Plugins/GameFeatures/Foxtrot/Content/Playlists/Playlist_FoxtrotSquad_Alt",
-      "ratingType": "fun"
-    },
-    {
-      "accumulateToProfileStats": false,
-      "added": "2025-11-29T20:57:03Z",
-      "description": "Players start with a full kit of up coming Prototype items in a Team Rumble match",
-      "gameType": "EFortGameType::BRLTM",
-      "gameplayTags": [
-        "Athena.Playlist.IsALargeTeamMode",
-        "Athena.Playlist.DefaultXP",
-        "Athena.Playlist.ItemsTest",
-        "Athena.Playlist.Default"
-      ],
-      "id": "Playlist_FutureMapItemTest",
-      "isDefault": false,
-      "isLargeTeamGame": true,
-      "isLimitedTimeMode": false,
-      "isTournament": false,
-      "maxPlayers": 40,
-      "maxSquadSize": 2,
-      "maxSquads": -1,
-      "maxTeamSize": 2,
-      "maxTeams": 40,
-      "minPlayers": 24,
-      "name": "Prototype Testing",
-      "path": "FortniteGame/Plugins/GameFeatures/FutureMapTesting/Content/Playlists/Playlist_FutureMapItemTest",
-      "ratingType": "largeTeam",
-      "subName": "Duo"
-    },
-    {
-      "accumulateToProfileStats": false,
-      "added": "2025-11-29T20:57:03Z",
-      "description": "Go it alone in a battle to be the last one standing.",
-      "gameType": "EFortGameType::BR",
-      "gameplayTags": [
-        "Athena.Playlist.DefaultXP",
-        "Athena.Playlist.Default",
-        "Athena.Playlist.Core",
-        "Athena.Playlist.Solo",
-        "Athena.Plugin.GameMod.Gasket",
-        "Athena.Quests.NoBuild.Exclude",
-        "Behavior.Playlist.UseTimeSlicedWorldReady",
-        "Athena.Playlist.FutureMap"
-      ],
-      "id": "Playlist_FutureMapSolo",
-      "isDefault": true,
-      "isLargeTeamGame": false,
-      "isLimitedTimeMode": false,
-      "isTournament": false,
-      "maxPlayers": 100,
-      "maxSquadSize": 1,
-      "maxSquads": -1,
-      "maxTeamSize": 1,
-      "maxTeams": 100,
-      "minPlayers": -1,
-      "name": "Solo",
-      "path": "FortniteGame/Plugins/GameFeatures/FutureMapTesting/Content/Playlists/Playlist_FutureMapSolo",
-      "ratingType": "fun"
-    },
-    {
-      "accumulateToProfileStats": false,
-      "added": "2025-11-29T20:57:03Z",
-      "description": "Group up and outlast all of the other squads gunning for victory.",
-      "gameType": "EFortGameType::BR",
-      "gameplayTags": [
-        "Athena.Playlist.DefaultXP",
-        "Athena.Playlist.Default",
-        "Athena.Playlist.Core",
-        "Athena.Playlist.Squad",
-        "Athena.Plugin.GameMod.Gasket",
-        "Athena.Quests.NoBuild.Exclude",
-        "Behavior.Playlist.UseTimeSlicedWorldReady",
-        "Athena.Playlist.FutureMap"
-      ],
-      "id": "Playlist_FutureMapSquad",
-      "isDefault": true,
-      "isLargeTeamGame": false,
-      "isLimitedTimeMode": false,
-      "isTournament": false,
-      "maxPlayers": 100,
-      "maxSquadSize": 4,
-      "maxSquads": -1,
-      "maxTeamSize": 4,
-      "maxTeams": 100,
-      "minPlayers": -1,
-      "name": "Squads",
-      "path": "FortniteGame/Plugins/GameFeatures/FutureMapTesting/Content/Playlists/Playlist_FutureMapSquad",
       "ratingType": "fun"
     },
     {
@@ -8524,8 +8719,7 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.Sunflower",
         "Athena.Playlist.Habanero",
-        "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Product.BR.BlastBerry.Habanero"
       ],
       "id": "Playlist_Habanero_NoBuild_Sunflower_Solo",
       "isDefault": true,
@@ -8540,7 +8734,7 @@
       "minPlayers": -1,
       "name": "Ranked Reload - Zero Build Solo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Habanero/Playlist_Habanero_NoBuild_Sunflower_Solo",
-      "ratingType": "ranked_blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -9189,8 +9383,7 @@
         "Athena.Playlist.Habanero",
         "Athena.Playlist.Sunflower",
         "Product.BlastBerry.Build",
-        "Product.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Product.BlastBerry.Habanero"
       ],
       "id": "Playlist_Habanero_Sunflower_Duos",
       "isDefault": true,
@@ -9205,7 +9398,7 @@
       "minPlayers": -1,
       "name": "Ranked Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Habanero/Playlist_Habanero_Sunflower_Duos",
-      "ratingType": "ranked_blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -9223,8 +9416,7 @@
         "Product.BlastBerry.Build",
         "Athena.Playlist.Sunflower",
         "Product.BlastBerry.Habanero",
-        "Athena.Playlist.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.Habanero"
       ],
       "id": "Playlist_Habanero_Sunflower_Solo",
       "isDefault": true,
@@ -9239,7 +9431,7 @@
       "minPlayers": -1,
       "name": "Ranked Reload - Solo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Habanero/Playlist_Habanero_Sunflower_Solo",
-      "ratingType": "ranked_blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -9257,8 +9449,7 @@
         "Athena.Playlist.Habanero",
         "Athena.Playlist.Sunflower",
         "Product.BlastBerry.Build",
-        "Product.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Product.BlastBerry.Habanero"
       ],
       "id": "Playlist_Habanero_Sunflower_Squads",
       "isDefault": true,
@@ -9273,7 +9464,7 @@
       "minPlayers": -1,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Habanero/Playlist_Habanero_Sunflower_Squads",
-      "ratingType": "ranked_blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12536,7 +12727,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_BlastBerry_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12569,7 +12760,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_DashBerry_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12635,7 +12826,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_MatchMist_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12668,7 +12859,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_PiperBoot_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12701,7 +12892,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_PunchBerry_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12733,7 +12924,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_SourSpawn_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12766,7 +12957,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_SunflowerDuos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12799,7 +12990,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_TimberStake_Duos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -12879,6 +13070,126 @@
       "minPlayers": 90,
       "name": "Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Playlist_Showdown_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Plugin.Playlist.Arena",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Showdown.NPCServices",
+        "Athena.Playlist.Showdown.Crafting",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownAlt_BlueCheese_Icon_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 60,
+      "name": "Late Game - Icons Arena",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownAlt_BlueCheese_Icon_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-09-28T08:28:08Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Plugin.Playlist.Arena",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Showdown.NPCServices",
+        "Athena.Playlist.Showdown.Crafting",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownAlt_BlueCheese_Regular_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 60,
+      "minPlayers": 60,
+      "name": "Late Game Arena",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownAlt_BlueCheese_Regular_Solo",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-09-28T08:28:08Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Plugin.Playlist.Arena",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Showdown.NPCServices",
+        "Athena.Playlist.Showdown.Crafting",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownAlt_BlueCheese_Regular_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 60,
+      "name": "Late Game Arena",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownAlt_BlueCheese_Regular_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Plugin.Playlist.Arena",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Showdown.NPCServices",
+        "Athena.Playlist.Showdown.Crafting",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownAlt_BlueCheese_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 21,
+      "name": "Bugha's Late Game Arena",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownAlt_BlueCheese_Trios",
       "subName": "Trios"
     },
     {
@@ -13344,7 +13655,6 @@
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_Architect_Duos",
@@ -13560,7 +13870,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryDuo_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13766,7 +14076,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryNoBuildDuo_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13899,6 +14209,392 @@
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerrySquad_NoFill",
       "ratingType": "fun"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": -1,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Duos",
+      "subName": "Duos"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description TEST",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Duos_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": -1,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Duos_Test",
+      "ratingType": "fun",
+      "subName": "Duos"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Icon_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 60,
+      "name": "Late Game - Icons",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Icon_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Icon_Trios_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 60,
+      "name": "[PH] Late Game - Icons Test",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Icon_Trios_Test",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-09-28T08:28:08Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Regular_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 60,
+      "name": "Late Game",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Regular_Solo",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-09-28T08:28:08Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Regular_Solo_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 60,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 60,
+      "name": "[PH] Late Game Evergreen Test",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Regular_Solo_Test",
+      "ratingType": "fun",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-09-28T08:28:08Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Regular_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 60,
+      "name": "Late Game",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Regular_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-09-28T08:28:08Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese",
+        "Athena.Playlist.Core",
+        "Athena.Playlist.Default",
+        "Athena.Playlist.LTM"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Regular_Trios_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 60,
+      "minPlayers": 60,
+      "name": "[PH] Late Game Evergreen Test",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Regular_Trios_Test",
+      "ratingType": "fun",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Solo",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Solo_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "Bugha's Late Game",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Solo_Test",
+      "ratingType": "fun",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Squads",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Squads",
+      "subName": "Squads"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "[PH] BlueCheese Description TEST",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Squads_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Squads_Test",
+      "ratingType": "fun",
+      "subName": "Squads"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 20,
+      "minPlayers": 21,
+      "name": "Bugha's Late Game",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2021-07-20T07:26:55Z",
+      "description": "A competitive mode, designed to be intense whether you’re cranking 90’s or hiding in a bush.\r\n\r\nEarn Hype by achieving placements or eliminating opponents. As you gain Hype, you’ll compete against tougher opponents with a similar skill level.",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Tournament",
+        "Athena.Playlist.BountiesOff",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_BlueCheese_Trios_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 60,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 60,
+      "minPlayers": -1,
+      "name": "Bugha's Late Game TEST",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/Playlist_ShowdownTournament_BlueCheese_Trios_Test",
+      "ratingType": "fun",
+      "subName": "Trios"
     },
     {
       "accumulateToProfileStats": false,
@@ -14102,7 +14798,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryDuo_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14240,7 +14936,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryNoBuildDuo_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14422,7 +15118,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Duo",
         "Athena.Playlist.Default",
         "Athena.Playlist.Core"
@@ -14666,7 +15361,6 @@
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Athena.MapDiscoverability.Disable"
       ],
@@ -14751,6 +15445,480 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Plugin.Playlist.Tournament",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": 100,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_Duos",
+      "subName": "Duos"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Athena.Playlist.NoBuildBR.Duo",
+        "Athena.Playlist.Duo",
+        "Athena.Playlist.NoBuildBR.Comp",
+        "Plugin.Playlist.Arena",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NoBuildBR_RC_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": 100,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Duos Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_FN_NoBuildBR_RC_Duos",
+      "ratingType": "ranked-br-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Solo",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Athena.Playlist.NoBuildBR.Solo",
+        "Plugin.Playlist.Tournament",
+        "Athena.Playlist.NoBuildBR.Comp",
+        "Plugin.Playlist.Arena",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NoBuildBR_RC_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": 100,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Solo Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_FN_NoBuildBR_RC_Solo",
+      "ratingType": "ranked-br-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.NoBuildingMaterials",
+        "Plugin.Playlist.Tournament",
+        "Athena.Playlist.NoBuildBR.Squad",
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.NoBuildBR.Comp",
+        "Plugin.Playlist.Arena",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NoBuildBR_RC_Squads",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": 100,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Squads Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_FN_NoBuildBR_RC_Squads",
+      "ratingType": "ranked-br-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Plugin.Playlist.Tournament",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NPM_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": 100,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_NPM_Duos",
+      "subName": "Duos"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NPM_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": 100,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_NPM_Solo",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NPM_Squads",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": 100,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_NPM_Squads",
+      "subName": "Squads"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_NPM_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 99,
+      "maxSquadSize": 3,
+      "maxSquads": 99,
+      "maxTeamSize": 3,
+      "maxTeams": 99,
+      "minPlayers": 99,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_NPM_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Tournament",
+        "Athena.Playlist.Showdown.Crafting",
+        "Plugin.Playlist.Arena",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_RC_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 2,
+      "maxSquads": 100,
+      "maxTeamSize": 2,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_FN_RC_Duos",
+      "ratingType": "ranked-br-combined",
+      "subName": "Duos"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Showdown.Crafting",
+        "Plugin.Playlist.Arena",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_RC_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": 100,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_FN_RC_Solo",
+      "ratingType": "ranked-br-combined",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Showdown.Crafting",
+        "Plugin.Playlist.Arena",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_RC_Squads",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": 100,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_FN_RC_Squads",
+      "ratingType": "ranked-br-combined",
+      "subName": "Squads"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": 100,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_Solo",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_Solo_QA",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_Solo_QA",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_Solo_Test",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 1,
+      "maxSquads": 100,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_Solo_Test",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_Squads",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 100,
+      "maxSquadSize": 4,
+      "maxSquads": 100,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": 100,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_Squads",
+      "subName": "Squads"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
+      "gameType": "EFortGameType::BRArena",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Plugin.GameMod.Gasket",
+        "Plugin.Playlist.Arena",
+        "Athena.Playlist.Showdown.Crafting",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_FN_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 99,
+      "maxSquadSize": 3,
+      "maxSquads": 99,
+      "maxTeamSize": 3,
+      "maxTeams": 99,
+      "minPlayers": 99,
+      "name": "Tournament",
+      "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/Playlist_ShowdownTournament_FN_Trios",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2026-04-16T08:20:44Z",
       "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
       "gameType": "EFortGameType::BRArena",
@@ -14760,7 +15928,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Athena.MapDiscoverability.Disable"
       ],
@@ -14790,7 +15957,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Athena.MapDiscoverability.Disable"
       ],
@@ -14851,7 +16017,6 @@
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_FNCS_Duos_JIP",
@@ -14910,7 +16075,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_FNCS_NPM_Trios",
@@ -15212,7 +16376,6 @@
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_Gen_Duos",
@@ -15241,7 +16404,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_Gen_Solo",
@@ -15270,7 +16432,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_Gen_Squads",
@@ -15299,7 +16460,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_Gen_Trios",
@@ -15319,6 +16479,92 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.LTM",
+        "Athena.Playlist.Trios",
+        "athena.playlist.bluecheese",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_LG_Duos",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 2,
+      "maxSquads": -1,
+      "maxTeamSize": 2,
+      "maxTeams": 60,
+      "minPlayers": 60,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/LateGameTournament/Playlist_ShowdownTournament_LG_Duos",
+      "ratingType": "fun",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Solo",
+        "Athena.Playlist.LTM",
+        "athena.playlist.bluecheese",
+        "Athena.MapDiscoverability.Disable"
+      ],
+      "id": "Playlist_ShowdownTournament_LG_Solo",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 60,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 60,
+      "minPlayers": 60,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/LateGameTournament/Playlist_ShowdownTournament_LG_Solo",
+      "ratingType": "fun",
+      "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-04-30T09:17:44Z",
+      "description": "[PH] BlueCheese Description",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.33",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.LTM",
+        "Athena.Playlist.Trios",
+        "athena.playlist.bluecheese"
+      ],
+      "id": "Playlist_ShowdownTournament_LG_Trios",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 100,
+      "maxSquadSize": 3,
+      "maxSquads": -1,
+      "maxTeamSize": 3,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "[PH] BlueCheese",
+      "path": "FortniteGame/Plugins/GameFeatures/LTM/BlueCheese/Content/Playlists/LateGameTournament/Playlist_ShowdownTournament_LG_Trios",
+      "ratingType": "fun",
+      "subName": "Trios"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2022-05-03T08:42:09Z",
       "description": "Prove your skill in this competitive mode!  During each match, you'll earn points by either achieving high placements or eliminating multiple opponents.  As you gain points, you'll compete against tougher opponents with similar scores.",
       "gameType": "EFortGameType::BRArena",
@@ -15329,7 +16575,6 @@
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Plugin.Playlist.LSCup"
       ],
@@ -15359,7 +16604,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Plugin.Playlist.LSCup",
         "Plugin.Playlist.Tournament"
@@ -15747,7 +16991,7 @@
       "minPlayers": 100,
       "name": "Duos Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_NoBuildBR_RC_Duos",
-      "ratingType": "ranked-zb"
+      "ratingType": "ranked-br-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -15778,7 +17022,7 @@
       "minPlayers": 100,
       "name": "Solo Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_NoBuildBR_RC_Solo",
-      "ratingType": "ranked-zb"
+      "ratingType": "ranked-br-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -15809,7 +17053,7 @@
       "minPlayers": 100,
       "name": "Squads Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_NoBuildBR_RC_Squads",
-      "ratingType": "ranked-zb"
+      "ratingType": "ranked-br-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -15825,7 +17069,6 @@
         "Plugin.Playlist.Arena",
         "Athena.Playlist.NoBuildBR.Comp",
         "Athena.MapDiscoverability.Disable",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_NoBuildBR_Solo",
@@ -16308,7 +17551,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootDuos_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16488,7 +17731,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootNoBuildDuos_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16656,7 +17899,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryDuo_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16794,7 +18037,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryNoBuildDuo_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16862,7 +18105,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_RC_DashBerryDuo_NoFill",
-      "ratingType": "ranked_blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16875,7 +18118,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Plugin.Playlist.Arena",
         "Athena.MapDiscoverability.Disable"
@@ -16893,7 +18135,7 @@
       "minPlayers": 100,
       "name": "Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_RC_Duos",
-      "ratingType": "ranked-br",
+      "ratingType": "ranked-br-combined",
       "subName": "Duos"
     },
     {
@@ -16929,7 +18171,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_RC_PunchBerryDuo_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16941,7 +18183,6 @@
         "Athena.Playlist.IsALargeTeamMode",
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Plugin.Playlist.Arena",
         "Athena.MapDiscoverability.Disable"
@@ -16959,7 +18200,7 @@
       "minPlayers": 100,
       "name": "Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_RC_Solo",
-      "ratingType": "ranked-br",
+      "ratingType": "ranked-br-combined",
       "subName": "Solo"
     },
     {
@@ -16972,7 +18213,6 @@
         "Athena.Playlist.IsALargeTeamMode",
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Plugin.Playlist.Arena",
         "Athena.MapDiscoverability.Disable"
@@ -16990,7 +18230,7 @@
       "minPlayers": 100,
       "name": "Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Tournament/RankedCups/Playlist_ShowdownTournament_RC_Squads",
-      "ratingType": "ranked-br",
+      "ratingType": "ranked-br-combined",
       "subName": "Squads"
     },
     {
@@ -17026,7 +18266,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_RC_SunflowerDuo_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17060,7 +18300,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_RC_TimberStakeDuo_NoFill",
-      "ratingType": "ranked_blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17224,7 +18464,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistDuos_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17395,7 +18635,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_PunchBerryNoBuildDuo_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17555,7 +18795,7 @@
       "minPlayers": 16,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Arenas/Playlist_ShowdownTournament_RE_SquareClubDuos_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17661,7 +18901,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting"
       ],
       "id": "Playlist_ShowdownTournament_Solo_QA",
@@ -17690,7 +18929,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Arena",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Athena.MapDiscoverability.Disable"
       ],
@@ -17872,7 +19110,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnDuos_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18047,7 +19285,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnNoBuildDuos_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18387,41 +19625,6 @@
     },
     {
       "accumulateToProfileStats": false,
-      "added": "2025-06-18T09:05:39Z",
-      "description": "Testing mode duo",
-      "gameType": "EFortGameType::BlastBerry",
-      "gameplayTags": [
-        "Athena.Playlist.DefaultXP",
-        "Athena.Playlist.Default",
-        "Athena.Playlist.Core",
-        "Athena.Plugin.GameMod.Gasket",
-        "Athena.Quests.NoBuild.Exclude",
-        "Athena.Playlist.BlastBerry.Duo",
-        "Plugin.Playlist.BlastBerry",
-        "Athena.Playlist.Duo",
-        "Product.BlastBerry.Build",
-        "Plugin.Playlist.Tournament",
-        "Athena.Playlist.TimberStake",
-        "Athena.MapDiscoverability.Disable",
-        "Athena.Playlist.BlastBerry.Tournament"
-      ],
-      "id": "Playlist_ShowdownTournament_TimberStakeDuo_NoFill",
-      "isDefault": true,
-      "isLargeTeamGame": false,
-      "isLimitedTimeMode": false,
-      "isTournament": true,
-      "maxPlayers": 40,
-      "maxSquadSize": 2,
-      "maxSquads": 40,
-      "maxTeamSize": 2,
-      "maxTeams": 40,
-      "minPlayers": 40,
-      "name": "Reload - Duo",
-      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_TimberStakeDuo_NoFill",
-      "ratingType": "blastberry_build"
-    },
-    {
-      "accumulateToProfileStats": false,
       "added": "2025-11-29T20:57:03Z",
       "description": "Testing mode duo",
       "gameType": "EFortGameType::BlastBerry",
@@ -18519,7 +19722,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeDuo_RC",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18657,7 +19860,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeNoBuildDuo_RC",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18699,7 +19902,6 @@
         "Athena.Playlist.DefaultXP",
         "Athena.Plugin.GameMod.Gasket",
         "Plugin.Playlist.Tournament",
-        "Athena.Playlist.Showdown.NPCServices",
         "Athena.Playlist.Showdown.Crafting",
         "Plugin.Playlist.ZFCup",
         "Plugin.Playlist.Arena"
