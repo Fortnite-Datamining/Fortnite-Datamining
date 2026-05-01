@@ -304481,6 +304481,46 @@
       }
     },
     {
+      "added": "2026-05-01T00:00:00Z",
+      "description": "Ready for the victory tour.",
+      "dynamicPakId": "1008",
+      "id": "EID_GoldenGlory",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_goldenglory/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_goldenglory/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_goldenglory/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Stateside",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:44Z",
       "description": "Good show. Good show.",
       "id": "EID_GolfClap",
