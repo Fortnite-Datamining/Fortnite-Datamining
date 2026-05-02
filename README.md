@@ -6,7 +6,11 @@ Automated tracking of changes to Fortnite through public API data. Datamining is
 
 ## How It Works
 
-A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes to fetch data from Fortnite's public APIs. When data changes (new cosmetics, shop rotation, build updates, etc), the differences are committed to this repo. You can browse the [commit history](../../commits/main) to see exactly what changed and when or invite the [Discord bot](https://github.com/fortnite-datamining/bot)
+A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes to fetch data from Fortnite's public APIs. When data changes (new cosmetics, shop rotation, build updates, etc), the differences are committed to this repo. To follow updates you can:
+
+- Read [`CHANGELOG.md`](CHANGELOG.md) - human-readable timeline of every change, most recent first
+- Browse the [commit history](../../commits/main) for the raw diffs
+- Invite the [Discord bot](https://github.com/fortnite-datamining/bot) for live notifications in your server
 
 ## Tracked Data
 
@@ -19,6 +23,15 @@ A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes t
 | `/v2/aes` | `data/aes/current.json` | AES encryption keys |
 | `/v1/banners` | `data/banners/current.json` | Player banners |
 | (derived from `/v2/aes`) | `data/meta/build_info.json` | Extracted build version metadata |
+
+### Derived Data
+
+| File | Description |
+|------|-------------|
+| `CHANGELOG.md` | Auto-generated timeline of every fetch run that produced changes |
+| `data/items/registry.json` | Per-item lifetime data: first seen, metadata, every shop appearance with price |
+| `data/shop/history/YYYY-MM-DD.json` | Daily snapshot of the shop, kept forever |
+| `data/news/history/YYYY-MM-DD.json` | Daily snapshot of news, kept forever |
 
 ## Reading the Data
 
