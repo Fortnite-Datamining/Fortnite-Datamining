@@ -469,7 +469,9 @@ function gitCommit(changes: ChangeInfo[], extraPaths: string[]): void {
     );
   }
 
-  const fullMsg = formatCommitMessage(changes);
+  const fullMsg = changes.length > 0
+    ? formatCommitMessage(changes)
+    : `Initialize derived data\n\nGenerated:\n${extraPaths.map(p => `- ${p}`).join("\n")}`;
 
   for (const c of changes) {
     execSync(`git add ${c.file}`, { cwd: ROOT });
@@ -737,35 +739,38 @@ async function main() {
   console.log("Fortnite Datamining - Fetching data...\n");
 
   const changes = await fetchAll();
-
-  if (changes.length === 0) {
-    console.log("\nNo changes detected.");
-    return;
-  }
-
-  console.log(`\n${changes.length} file(s) changed.`);
-
   const extras: string[] = [];
-
-  const snapshots = writeDailySnapshots(changes);
-  if (snapshots.length > 0) {
-    console.log(`Wrote ${snapshots.length} daily snapshot(s).`);
-    extras.push(...snapshots);
-  }
 
   if (updateItemRegistry()) {
     console.log("Item registry updated.");
     extras.push("data/items/registry.json");
   }
 
-  if (updateChangelog(changes)) {
-    console.log("CHANGELOG.md updated.");
-    extras.push("CHANGELOG.md");
+  if (changes.length > 0) {
+    const snapshots = writeDailySnapshots(changes);
+    if (snapshots.length > 0) {
+      console.log(`Wrote ${snapshots.length} daily snapshot(s).`);
+      extras.push(...snapshots);
+    }
+
+    if (updateChangelog(changes)) {
+      console.log("CHANGELOG.md updated.");
+      extras.push("CHANGELOG.md");
+    }
   }
 
+  if (changes.length === 0 && extras.length === 0) {
+    console.log("\nNo changes detected.");
+    return;
+  }
+
+  console.log(`\n${changes.length} API file(s), ${extras.length} derived file(s) changed.`);
   gitCommit(changes, extras);
-  await sendDiscordNotification(changes);
-  await postTweet(changes);
+
+  if (changes.length > 0) {
+    await sendDiscordNotification(changes);
+    await postTweet(changes);
+  }
 }
 
 main().catch((err) => {
