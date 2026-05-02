@@ -281,7 +281,184 @@ function formatCommitMessage(changes: ChangeInfo[]): string {
   return `${title}\n\nTracked changes:\n${lines.join("\n")}`;
 }
 
-function gitCommit(changes: ChangeInfo[]): void {
+function todayUTC(): string {
+  return new Date().toISOString().split("T")[0];
+}
+
+function nowUTCTime(): string {
+  return new Date().toISOString().slice(11, 16);
+}
+
+const DAILY_SNAPSHOT_FILES: Record<string, string> = {
+  "data/shop/current.json": "data/shop/history",
+  "data/news/current.json": "data/news/history",
+};
+
+function writeDailySnapshots(changes: ChangeInfo[]): string[] {
+  const written: string[] = [];
+  const today = todayUTC();
+  for (const c of changes) {
+    const historyDir = DAILY_SNAPSHOT_FILES[c.file];
+    if (!historyDir) continue;
+    const src = join(ROOT, c.file);
+    if (!existsSync(src)) continue;
+    const destAbs = join(ROOT, historyDir, `${today}.json`);
+    if (!existsSync(dirname(destAbs))) mkdirSync(dirname(destAbs), { recursive: true });
+    writeFileSync(destAbs, readFileSync(src, "utf-8"));
+    written.push(`${historyDir}/${today}.json`);
+  }
+  return written;
+}
+
+interface ItemRegistryEntry {
+  name: string;
+  type?: string;
+  rarity?: string;
+  series?: string;
+  set?: string;
+  introduction?: { chapter?: string; season?: string };
+  image?: string;
+  source: string;
+  first_seen: string;
+  last_seen: string;
+  shop_appearances?: { date: string; price: number; regular_price?: number }[];
+}
+
+const COSMETIC_SOURCES: Array<{ file: string; source: string }> = [
+  { file: "data/cosmetics/br.json", source: "br" },
+  { file: "data/cosmetics/cars.json", source: "cars" },
+  { file: "data/cosmetics/instruments.json", source: "instruments" },
+  { file: "data/cosmetics/lego.json", source: "lego" },
+  { file: "data/cosmetics/lego_kits.json", source: "lego_kits" },
+  { file: "data/cosmetics/tracks.json", source: "tracks" },
+  { file: "data/cosmetics/beans.json", source: "beans" },
+];
+
+function updateItemRegistry(): boolean {
+  const today = todayUTC();
+  const registryPath = join(ROOT, "data/items/registry.json");
+  let registry: Record<string, ItemRegistryEntry> = {};
+  if (existsSync(registryPath)) {
+    try { registry = JSON.parse(readFileSync(registryPath, "utf-8")); } catch {}
+  }
+
+  for (const src of COSMETIC_SOURCES) {
+    const abs = join(ROOT, src.file);
+    if (!existsSync(abs)) continue;
+    let parsed: any;
+    try { parsed = JSON.parse(readFileSync(abs, "utf-8")); } catch { continue; }
+    const items = Array.isArray(parsed?.data) ? parsed.data : [];
+    for (const item of items) {
+      const id = String(item?.id ?? "");
+      if (!id) continue;
+      const existing = registry[id];
+      const entry: ItemRegistryEntry = existing ?? {
+        name: "",
+        source: src.source,
+        first_seen: today,
+        last_seen: today,
+      };
+      entry.name = String(item?.name ?? item?.title ?? entry.name ?? id);
+      entry.type = item?.type?.displayValue ?? item?.type ?? entry.type;
+      entry.rarity = item?.rarity?.displayValue ?? entry.rarity;
+      entry.series = item?.series?.value ?? entry.series;
+      entry.set = item?.set?.value ?? entry.set;
+      if (item?.introduction) {
+        entry.introduction = {
+          chapter: item.introduction.chapter ?? entry.introduction?.chapter,
+          season: item.introduction.season ?? entry.introduction?.season,
+        };
+      }
+      const img = item?.images?.featured ?? item?.images?.icon ?? item?.images?.smallIcon;
+      if (img) entry.image = String(img);
+      entry.source = src.source;
+      entry.last_seen = today;
+      registry[id] = entry;
+    }
+  }
+
+  const shopPath = join(ROOT, "data/shop/current.json");
+  if (existsSync(shopPath)) {
+    try {
+      const shop = JSON.parse(readFileSync(shopPath, "utf-8"));
+      const entries = shop?.data?.entries ?? [];
+      for (const e of entries) {
+        const items = e?.brItems ?? [];
+        for (const i of items) {
+          const id = String(i?.id ?? "");
+          if (!id || !registry[id]) continue;
+          const r = registry[id];
+          r.shop_appearances = r.shop_appearances ?? [];
+          if (!r.shop_appearances.some((a) => a.date === today)) {
+            r.shop_appearances.push({
+              date: today,
+              price: Number(e?.finalPrice ?? 0),
+              regular_price: Number(e?.regularPrice ?? 0),
+            });
+          }
+        }
+      }
+    } catch {}
+  }
+
+  return saveJson(registry, "data/items/registry.json");
+}
+
+function formatChangelogLine(changes: ChangeInfo[]): string {
+  const time = nowUTCTime();
+  const buildChange = changes.find((c) => c.file === "data/meta/build_info.json");
+  const buildInfoPath = join(ROOT, "data/meta/build_info.json");
+
+  if (buildChange && existsSync(buildInfoPath)) {
+    const info = JSON.parse(readFileSync(buildInfoPath, "utf-8"));
+    return `- **${time}** Build update: \`${info.build ?? "Unknown"}\``;
+  }
+
+  const descs = [...new Set(changes.map((c) => c.description))]
+    .filter((d) => d !== "Build Info");
+  const newCount = changes.reduce((s, c) => s + c.newItemNames.length, 0);
+  const removedCount = changes.reduce((s, c) => s + c.removedItemNames.length, 0);
+
+  const parts: string[] = [];
+  parts.push(`**${time}** ${descs.join(", ")}`);
+  if (newCount > 0) {
+    const allNew = changes.flatMap((c) => c.newItemNames);
+    const sample = allNew.slice(0, 5).join(", ");
+    parts.push(`+${newCount} new${allNew.length > 0 ? ` (${sample}${allNew.length > 5 ? `, +${allNew.length - 5} more` : ""})` : ""}`);
+  }
+  if (removedCount > 0) parts.push(`-${removedCount} removed`);
+
+  return `- ${parts.join(" - ")}`;
+}
+
+function updateChangelog(changes: ChangeInfo[]): boolean {
+  const path = join(ROOT, "CHANGELOG.md");
+  const today = todayUTC();
+  const newLine = formatChangelogLine(changes);
+
+  let existing = "";
+  if (existsSync(path)) existing = readFileSync(path, "utf-8");
+
+  const header = "# Changelog\n\nAuto-generated from each fetch run. Most recent first.\n\n";
+
+  let body = existing.startsWith("# Changelog") ? existing.slice(header.length) : existing;
+  body = body.trimStart();
+
+  const todaySection = `## ${today}\n`;
+  if (body.startsWith(todaySection)) {
+    const after = body.slice(todaySection.length);
+    body = `${todaySection}${newLine}\n${after}`;
+  } else {
+    body = `${todaySection}${newLine}\n\n${body}`;
+  }
+
+  const next = `${header}${body}`.trimEnd() + "\n";
+  if (next === existing) return false;
+  writeFileSync(path, next);
+  return true;
+}
+
+function gitCommit(changes: ChangeInfo[], extraPaths: string[]): void {
   const isCI = !!process.env.GITHUB_ACTIONS;
 
   if (isCI) {
@@ -296,6 +473,9 @@ function gitCommit(changes: ChangeInfo[]): void {
 
   for (const c of changes) {
     execSync(`git add ${c.file}`, { cwd: ROOT });
+  }
+  for (const p of extraPaths) {
+    execSync(`git add ${p}`, { cwd: ROOT });
   }
   execSync(`git commit -m ${JSON.stringify(fullMsg)}`, { cwd: ROOT });
   console.log(`Committed: ${fullMsg.split("\n")[0]}`);
@@ -564,7 +744,26 @@ async function main() {
   }
 
   console.log(`\n${changes.length} file(s) changed.`);
-  gitCommit(changes);
+
+  const extras: string[] = [];
+
+  const snapshots = writeDailySnapshots(changes);
+  if (snapshots.length > 0) {
+    console.log(`Wrote ${snapshots.length} daily snapshot(s).`);
+    extras.push(...snapshots);
+  }
+
+  if (updateItemRegistry()) {
+    console.log("Item registry updated.");
+    extras.push("data/items/registry.json");
+  }
+
+  if (updateChangelog(changes)) {
+    console.log("CHANGELOG.md updated.");
+    extras.push("CHANGELOG.md");
+  }
+
+  gitCommit(changes, extras);
   await sendDiscordNotification(changes);
   await postTweet(changes);
 }
