@@ -746,6 +746,16 @@ async function main() {
     extras.push("data/items/registry.json");
   }
 
+  const changelogPath = join(ROOT, "CHANGELOG.md");
+  if (!existsSync(changelogPath)) {
+    writeFileSync(
+      changelogPath,
+      "# Changelog\n\nAuto-generated from each fetch run. Most recent first.\n",
+    );
+    console.log("CHANGELOG.md initialized.");
+    extras.push("CHANGELOG.md");
+  }
+
   if (changes.length > 0) {
     const snapshots = writeDailySnapshots(changes);
     if (snapshots.length > 0) {
@@ -755,7 +765,7 @@ async function main() {
 
     if (updateChangelog(changes)) {
       console.log("CHANGELOG.md updated.");
-      extras.push("CHANGELOG.md");
+      if (!extras.includes("CHANGELOG.md")) extras.push("CHANGELOG.md");
     }
   }
 
