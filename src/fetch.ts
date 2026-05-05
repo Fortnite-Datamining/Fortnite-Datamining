@@ -530,6 +530,7 @@ async function sendDiscordNotification(changes: ChangeInfo[]): Promise<void> {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ embeds: [embed] }),
+      signal: AbortSignal.timeout(15_000),
     });
     console.log("Discord notification sent.");
   } catch (err) {
@@ -646,6 +647,7 @@ async function postTweet(changes: ChangeInfo[]): Promise<void> {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ text: text.slice(0, 280) }),
+      signal: AbortSignal.timeout(15_000),
     });
 
     if (!res.ok) {
