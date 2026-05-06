@@ -241,6 +241,69 @@ function diffItemNames(
   }
 }
 
+function diffShopItems(
+  relPath: string,
+  newData: unknown,
+): { newNames: string[]; removedNames: string[] } {
+  const absPath = join(ROOT, relPath);
+  const getItems = (obj: unknown): Map<string, string> => {
+    const map = new Map<string, string>();
+    const entries = (obj as any)?.data?.entries;
+    if (!Array.isArray(entries)) return map;
+    for (const entry of entries) {
+      const item = entry?.brItems?.[0];
+      if (!item?.id) continue;
+      const name = entry?.bundle?.name ?? item?.name ?? String(item.id);
+      map.set(String(item.id), String(name));
+    }
+    return map;
+  };
+  const newItems = getItems(newData);
+  if (!existsSync(absPath)) return { newNames: [...newItems.values()], removedNames: [] };
+  try {
+    const oldData = JSON.parse(readFileSync(absPath, "utf-8"));
+    const oldItems = getItems(oldData);
+    const newNames: string[] = [];
+    const removedNames: string[] = [];
+    for (const [id, name] of newItems) if (!oldItems.has(id)) newNames.push(name);
+    for (const [id, name] of oldItems) if (!newItems.has(id)) removedNames.push(name);
+    return { newNames, removedNames };
+  } catch {
+    return { newNames: [], removedNames: [] };
+  }
+}
+
+function diffNewsMotds(
+  relPath: string,
+  newData: unknown,
+): { newNames: string[]; removedNames: string[] } {
+  const absPath = join(ROOT, relPath);
+  const getItems = (obj: unknown): Map<string, string> => {
+    const map = new Map<string, string>();
+    const data = (obj as any)?.data;
+    if (!data) return map;
+    const motds = [...(data.br?.motds ?? []), ...(data.stw?.motds ?? [])];
+    for (const m of motds) {
+      if (!m?.id) continue;
+      map.set(String(m.id), String(m.title ?? m.id));
+    }
+    return map;
+  };
+  const newItems = getItems(newData);
+  if (!existsSync(absPath)) return { newNames: [...newItems.values()], removedNames: [] };
+  try {
+    const oldData = JSON.parse(readFileSync(absPath, "utf-8"));
+    const oldItems = getItems(oldData);
+    const newNames: string[] = [];
+    const removedNames: string[] = [];
+    for (const [id, name] of newItems) if (!oldItems.has(id)) newNames.push(name);
+    for (const [id, name] of oldItems) if (!newItems.has(id)) removedNames.push(name);
+    return { newNames, removedNames };
+  } catch {
+    return { newNames: [], removedNames: [] };
+  }
+}
+
 function formatCommitMessage(changes: ChangeInfo[]): string {
   const buildChange = changes.find((c) => c.file === "data/meta/build_info.json");
   const buildInfoPath = join(ROOT, "data/meta/build_info.json");
@@ -688,7 +751,15 @@ async function fetchAll(): Promise<ChangeInfo[]> {
 
     let newItemNames: string[] = [];
     let removedItemNames: string[] = [];
-    if (endpoint.sortKey) {
+    if (endpoint.output === "data/shop/current.json") {
+      const diff = diffShopItems(endpoint.output, data);
+      newItemNames = diff.newNames;
+      removedItemNames = diff.removedNames;
+    } else if (endpoint.output === "data/news/current.json") {
+      const diff = diffNewsMotds(endpoint.output, data);
+      newItemNames = diff.newNames;
+      removedItemNames = diff.removedNames;
+    } else if (endpoint.sortKey) {
       const diff = diffItemNames(endpoint.output, data, endpoint.sortKey);
       newItemNames = diff.newNames;
       removedItemNames = diff.removedNames;
