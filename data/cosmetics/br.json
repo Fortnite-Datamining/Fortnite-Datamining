@@ -33002,6 +33002,39 @@
       }
     },
     {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Suns out buns out. ",
+      "dynamicPakId": "1001",
+      "id": "Backpack_PandaSpeak",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pandaspeak/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pandaspeak/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_pandaspeak/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Polka Dot Bunkini",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CarDoor",
+        "text": "Part of the Bob's Burgers set.",
+        "value": "Bob's Burgers"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "Carved from moonlight.",
       "id": "Backpack_PaperBlaze",
@@ -36805,6 +36838,57 @@
         "displayValue": "Back Bling",
         "value": "backpack"
       }
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Ho yeah!",
+      "dynamicPakId": "1001",
+      "id": "Backpack_PrizeTray",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_prizetray/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_prizetray/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_prizetray/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Backboard Blackboard",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "HospitalLogic",
+        "text": "Part of the King of the Hill set.",
+        "value": "King of the Hill"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_prizetray/variants/parts/stage1.png",
+              "name": "On",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_prizetray/variants/parts/stage2.png",
+              "name": "Off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Reactivity"
+        }
+      ]
     },
     {
       "added": "2023-09-12T09:40:36Z",
@@ -45746,6 +45830,39 @@
         "backendValue": "WalletBat",
         "text": "Part of the In the Pocket set.",
         "value": "In the Pocket"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "You won't like me when I'm groceries. ",
+      "dynamicPakId": "1001",
+      "id": "Backpack_StairGummy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_stairgummy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_stairgummy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_stairgummy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lois' Groceries",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ShoutCause",
+        "text": "Part of the Family Guy set.",
+        "value": "Family Guy"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -144675,6 +144792,39 @@
       }
     },
     {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Life of the party with a sizzling sense of humor. ",
+      "dynamicPakId": "1001",
+      "id": "Character_PandaSpeak",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_pandaspeak/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_pandaspeak/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_pandaspeak/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Linda Belcher",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "CarDoor",
+        "text": "Part of the Bob's Burgers set.",
+        "value": "Bob's Burgers"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "Burn with ancient knowledge.",
       "id": "Character_PaperBlaze",
@@ -153041,6 +153191,39 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "It's Spapeggy time.",
+      "dynamicPakId": "1001",
+      "id": "Character_PrizeTray",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_prizetray/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_prizetray/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_prizetray/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Peggy Hill",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "HospitalLogic",
+        "text": "Part of the King of the Hill set.",
+        "value": "King of the Hill"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2023-09-12T09:40:36Z",
@@ -166165,6 +166348,33 @@
           "type": "super levels"
         }
       ]
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Who wants chowdah?",
+      "dynamicPakId": "1001",
+      "id": "Character_StairGummy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_stairgummy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_stairgummy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_stairgummy/smallicon.png"
+      },
+      "name": "Lois Griffin",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ShoutCause",
+        "text": "Part of the Family Guy set.",
+        "value": "Family Guy"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2022-11-02T11:37:49Z",
@@ -321680,6 +321890,39 @@
       }
     },
     {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Spread the word.",
+      "dynamicPakId": "1001",
+      "id": "EID_PandaSpeak",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_pandaspeak/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_pandaspeak/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_pandaspeak/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Save The Bird",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "CarDoor",
+        "text": "Part of the Bob's Burgers set.",
+        "value": "Bob's Burgers"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-03-04T00:00:00Z",
       "description": "Be everywhere.",
       "id": "EID_Panoramic",
@@ -324474,6 +324717,39 @@
         "backendValue": "LectureRange",
         "text": "Part of the The Pumpkin King set.",
         "value": "The Pumpkin King"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Don't mess with Peggy",
+      "dynamicPakId": "1001",
+      "id": "EID_PrizeTray",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_prizetray/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_prizetray/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_prizetray/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "HOYEAH!",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "HospitalLogic",
+        "text": "Part of the King of the Hill set.",
+        "value": "King of the Hill"
       },
       "type": {
         "backendValue": "AthenaDance",
@@ -334477,6 +334753,39 @@
         "value": "In the Pocket"
       },
       "showcaseVideo": "FhiwwborXH4",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Every opening number needs a piano. ",
+      "dynamicPakId": "1001",
+      "id": "EID_StairGummy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_stairgummy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_stairgummy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_stairgummy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Piano Woman",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ShoutCause",
+        "text": "Part of the Family Guy set.",
+        "value": "Family Guy"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -500309,6 +500618,39 @@
       }
     },
     {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Top you up, hon?",
+      "dynamicPakId": "1001",
+      "id": "Pickaxe_PandaSpeak",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pandaspeak/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pandaspeak/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pandaspeak/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Linda's Coffee Pot",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CarDoor",
+        "text": "Part of the Bob's Burgers set.",
+        "value": "Bob's Burgers"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "Carry the night sky with you.",
       "id": "Pickaxe_Paper",
@@ -503661,6 +504003,39 @@
         "value": "The Pumpkin King"
       },
       "showcaseVideo": "aYHgZ-gMwDo",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Three years running!",
+      "dynamicPakId": "1001",
+      "id": "Pickaxe_PrizeTray",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_prizetray/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_prizetray/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_prizetray/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Peggy's Trophy",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "HospitalLogic",
+        "text": "Part of the King of the Hill set.",
+        "value": "King of the Hill"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -512720,6 +513095,39 @@
         "backendValue": "WalletBat",
         "text": "Part of the In the Pocket set.",
         "value": "In the Pocket"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Baby, you knock me out!",
+      "dynamicPakId": "1001",
+      "id": "Pickaxe_StairGummy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stairgummy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stairgummy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stairgummy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lois' Boxing Gloves",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ShoutCause",
+        "text": "Part of the Family Guy set.",
+        "value": "Family Guy"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -606363,6 +606771,39 @@
         "value": "wrap"
       },
       "unlockRequirements": "Complete 14 Perseus Quests\r\n(Available with Week 2's quest drop April 30 10:00AM ET)"
+    },
+    {
+      "added": "2026-05-07T13:01:12Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1001",
+      "id": "Wrap_PrizeTray",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_prizetray/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_prizetray/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_prizetray/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Pencil Snapper",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "HospitalLogic",
+        "text": "Part of the King of the Hill set.",
+        "value": "King of the Hill"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
     },
     {
       "added": "2023-09-12T09:40:36Z",
