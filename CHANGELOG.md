@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-08
+- **01:16** Item Shop - +58 new (Pizza Party , Ella Slurp, Scorpion's Flaming Skull, Illuminator of the Ice, Crustina, +53 more) - -52 removed
+
 ## 2026-05-07
 - **17:15** Cars, News - +1 new (Power Hours this Saturday, May 9) - -1 removed
 - **15:12** BR Cosmetics, Item Shop, AES Keys - +13 new (Polka Dot Bunkini, Backboard Blackboard, Lois' Groceries, Linda Belcher, Peggy Hill, +8 more)
