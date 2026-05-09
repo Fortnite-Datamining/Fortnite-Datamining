@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-09
+- **02:53** BR Cosmetics, Item Shop, News, AES Keys - +46 new (Beggin', Venom Fang & Knight Killer, Linda Belcher Bundle, Moniker, Bull Shark, +41 more) - -48 removed
+
 ## 2026-05-08
 - **19:54** News - +1 new (Complete Quests to Unlock Jess and more!) - -1 removed
 - **16:51** Item Shop

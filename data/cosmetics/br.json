@@ -323757,6 +323757,46 @@
       }
     },
     {
+      "added": "2026-05-09T00:00:00Z",
+      "description": "Pleasepleasepleasepleasepleaseplease...",
+      "dynamicPakId": "1003",
+      "id": "EID_PleaseHelp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_pleasehelp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_pleasehelp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_pleasehelp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Beggin'",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2023-05-02T12:59:13Z",
       "description": "Now THIS is podracing!",
       "id": "EID_PlotTwist",
