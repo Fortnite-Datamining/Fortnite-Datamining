@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-10
+- **10:45** BR Cosmetics, Item Shop
 - **04:31** News - +1 new (The Showdown) - -1 removed
 - **00:11** Item Shop - +37 new (Taro, Convergence Captain, Killian, Magmatix, Jar Jar Binks, +32 more) - -59 removed
 
