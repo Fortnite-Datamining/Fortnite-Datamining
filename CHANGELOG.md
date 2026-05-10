@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-10
+- **00:11** Item Shop - +37 new (Taro, Convergence Captain, Killian, Magmatix, Jar Jar Binks, +32 more) - -59 removed
+
 ## 2026-05-09
 - **23:13** News - +1 new (Live - Bak Mobile Cup) - -1 removed
 - **19:04** News - +1 new (Settle the Score) - -1 removed
