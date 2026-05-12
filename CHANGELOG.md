@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-12
+- **03:59** Item Shop - +37 new (Rex, Branded Brawler, Mogul Master, Aniyah, Tigress, +32 more) - -38 removed
+
 ## 2026-05-11
 - **23:59** Item Shop
 - **01:22** Item Shop - +45 new (Kick it!, Boo'd Up Groove, Skybound Longboard, Protowave, Party Hips, +40 more) - -46 removed
