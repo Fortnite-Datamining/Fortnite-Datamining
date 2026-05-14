@@ -3835,6 +3835,37 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "A little bit plucky, a lotta bit slap-happy.",
+      "id": "Backpack_BombaToon_Bass",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_bombatoon_bass/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_bombatoon_bass/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Four String Frankie",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-05-21T00:00:00Z",
       "description": "Send flowers.",
       "id": "Backpack_BoneMarrow",
@@ -7079,6 +7110,7 @@
       "description": "A multi-use spy droid used by the Sith.",
       "id": "Backpack_CirrusVine",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cirrusvine/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_cirrusvine/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_cirrusvine/smallicon.png"
       },
@@ -7712,6 +7744,32 @@
         "backendValue": "RootWater",
         "text": "Part of the Avatar: Warriors of Pandora set.",
         "value": "Avatar: Warriors of Pandora"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "An omen of frigid doom.",
+      "id": "Backpack_ColdGrain",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_coldgrain/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_coldgrain/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Cold Caged Mantle",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -14703,6 +14761,51 @@
         "backendValue": "ScreamingSun",
         "text": "Part of the Shrieking Star set.",
         "value": "Shrieking Star"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "The blade of the North Dragon.",
+      "id": "Backpack_FacetBlom",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_facetblom/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_facetblom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.FacetBlom"
+      ],
+      "name": "Ryū Ichimonji",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -27452,6 +27555,49 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Inert, for your safety.",
+      "id": "Backpack_LooseCreep",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_loosecreep/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_loosecreep/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_loosecreep/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Tracer's Pulse Bomb",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-11-02T17:09:31Z",
       "description": "The perfect pack for prowling.",
       "id": "Backpack_LopexDale",
@@ -28059,7 +28205,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "A perfect replica of General Anakin Skywalker's ship.",
-      "dynamicPakId": "1009",
       "id": "Backpack_MaltBurger",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_maltburger/featured.png",
@@ -28553,7 +28698,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Stinky.",
-      "dynamicPakId": "1009",
       "id": "Backpack_MasalaRail",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_masalarail/featured.png",
@@ -33004,7 +33148,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Suns out buns out. ",
-      "dynamicPakId": "1001",
       "id": "Backpack_PandaSpeak",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pandaspeak/featured.png",
@@ -33713,6 +33856,48 @@
         "backendValue": "WorkMisdeed",
         "text": "Part of the Toil & Trouble set.",
         "value": "Toil & Trouble"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "The cutest little onion-octopus you'll ever see.",
+      "id": "Backpack_PaverYoung",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_paveryoung/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_paveryoung/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Pachimari Plush",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -36781,6 +36966,7 @@
       "description": "Brace for total bruination.",
       "id": "Backpack_PrisonBreak",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_prisonbreak/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_prisonbreak/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_prisonbreak/smallicon.png"
       },
@@ -36842,7 +37028,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Ho yeah!",
-      "dynamicPakId": "1001",
       "id": "Backpack_PrizeTray",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_prizetray/featured.png",
@@ -41988,6 +42173,70 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Don't let them crash!",
+      "id": "Backpack_ShadeToll",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_shadetoll/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_shadetoll/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_shadetoll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Night Shift Monitor",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "CLEAR!",
+      "id": "Backpack_ShadeToll_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_shadetoll_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_shadetoll_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_shadetoll_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "ElectroCardioJammer",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-12-05T14:17:00Z",
       "description": "Crank it up and make sure they hear you!",
       "id": "Backpack_ShakeCrunch",
@@ -42326,6 +42575,68 @@
         "backendValue": "FungusNinja",
         "text": "Part of the Mushroom Shinobi set.",
         "value": "Mushroom Shinobi"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "All vital signs, stable!",
+      "id": "Backpack_ShinToll",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_shintoll/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_shintoll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Day Shift Monitor",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Beats per minute rising...",
+      "id": "Backpack_ShinToll_Keytar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_shintoll_keytar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_shintoll_keytar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Pacemaker",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -43188,6 +43499,49 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "For all your mech model needs.",
+      "id": "Backpack_SkiffGrind",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_skiffgrind/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_skiffgrind/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_skiffgrind/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Travel Tokki Model",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
     },
     {
       "added": "2025-07-15T08:18:07Z",
@@ -44919,6 +45273,83 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Stuffed with love.",
+      "id": "Backpack_Sparrow_01",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_01/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_01/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_01/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 25,
+        "chapter": "4",
+        "season": "3",
+        "text": "Introduced in Chapter 4, Season 3."
+      },
+      "name": "Nanner Buddy",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_01/variants/material/mat1.png",
+              "name": "Nanner Buddy",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_01/variants/material/mat2.png",
+              "name": "Tropical",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "style"
+        }
+      ]
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Gesundheit.",
+      "id": "Backpack_Sparrow_02",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_02/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_02/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_sparrow_02/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 23,
+        "chapter": "4",
+        "season": "1",
+        "text": "Introduced in Chapter 4, Season 1."
+      },
+      "name": "Fa-la-la-Llama",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ColderCompete",
+        "text": "Part of the Winterfest 2022 set.",
+        "value": "Winterfest 2022"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Ride the rezz.",
       "id": "Backpack_SpatialTravel",
@@ -45840,7 +46271,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "You won't like me when I'm groceries. ",
-      "dynamicPakId": "1001",
       "id": "Backpack_StairGummy",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_stairgummy/featured.png",
@@ -47804,7 +48234,6 @@
     {
       "added": "2026-04-30T14:43:15Z",
       "description": "A key that can open many doors.",
-      "dynamicPakId": "1007",
       "id": "Backpack_SwampRate",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_swamprate/icon.png",
@@ -49383,6 +49812,108 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Dance like lightning.",
+      "id": "Backpack_ThunderBallet",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Stormwings",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "FrigidWings",
+        "text": "Part of the Storm Dancer set.",
+        "value": "Storm Dancer"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reativity"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/material/mat1.png",
+              "name": "Stormwings",
+              "tag": "Mat1",
+              "unlockRequirements": "Stormwings"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/material/mat2.png",
+              "name": "Dawnlight Legacy",
+              "tag": "Mat2",
+              "unlockRequirements": "Stormwings"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/material/mat3.png",
+              "name": "Auric Legacy",
+              "tag": "Mat3",
+              "unlockRequirements": "Stormwings"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/material/mat4.png",
+              "name": "Phase Legacy",
+              "tag": "Mat4",
+              "unlockRequirements": "Stormwings"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/material/mat5.png",
+              "name": "Rimebound Legacy",
+              "tag": "Mat5",
+              "unlockRequirements": "Stormwings"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_thunderballet/variants/material/mat6.png",
+              "name": "Cosmic Legacy",
+              "tag": "Mat6",
+              "unlockRequirements": "Stormwings"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-12-11T09:00:00Z",
       "description": "Cold as sleet and twice as sharp.",
       "id": "Backpack_TicketPoke",
@@ -50754,6 +51285,67 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "A symbol of hope on the battlefield.",
+      "id": "Backpack_TrackWaver",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_trackwaver/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Valkyrie Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_trackwaver/variants/parts/stage1.png",
+              "name": "Mercy's Valkyrie Wings",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_trackwaver/variants/parts/stage2.png",
+              "name": "Mercy's Devil Wings",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "style"
+        }
+      ]
+    },
+    {
       "added": "2024-12-01T03:58:22Z",
       "description": "The remains of a Liandri Mining Corporation robot.",
       "id": "Backpack_TractorFair",
@@ -50799,7 +51391,6 @@
     {
       "added": "2026-04-30T14:43:15Z",
       "description": "Bounties exist across the galaxy.",
-      "dynamicPakId": "1007",
       "id": "Backpack_TrafficBlab",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_trafficblab/icon.png",
@@ -50814,8 +51405,20 @@
       "name": "Carbonite Fishstick",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
       },
       "set": {
         "backendValue": "AllBall",
@@ -54136,6 +54739,7 @@
       "description": "Inspired by Mahito's domain expansion technique.",
       "id": "Backpack_WormChalk",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_wormchalk/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_wormchalk/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_wormchalk/smallicon.png"
       },
@@ -70584,6 +71188,7 @@
       "description": "Forged in eternal fire. ",
       "id": "BID_387_PunkDevil",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_387_punkdevil/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_387_punkdevil/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_387_punkdevil/smallicon.png"
       },
@@ -73096,6 +73701,7 @@
       "description": "Perfectly balanced for victory.",
       "id": "BID_452_BandageNinjaBlue",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/bid_452_bandageninjablue/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_452_bandageninjablue/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_452_bandageninjablue/smallicon.png"
       },
@@ -79747,7 +80353,7 @@
     {
       "added": "2020-09-23T08:28:55Z",
       "description": "Protected by an unbreakable vow.",
-      "id": "bid_614_myth",
+      "id": "BID_614_Myth",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/icon.png",
@@ -103593,6 +104199,42 @@
       ]
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "The future's bright in black and white!",
+      "id": "Character_BombaToon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_bombatoon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_bombatoon/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_bombatoon/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_bombatoon/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_bombatoon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Toon Bomber",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2023-05-21T00:00:00Z",
       "description": "Never skip a beat.",
       "id": "Character_BoneMarrow",
@@ -105253,6 +105895,7 @@
       "description": "Sentinel of the flames.",
       "id": "Character_BurnLeer",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_burnleer/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_burnleer/large.png",
@@ -118165,6 +118808,53 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Cyborg ninja of legend.",
+      "id": "Character_FacetBlom",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_facetblom/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_facetblom/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_facetblom/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_facetblom/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_facetblom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Genji",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-06-22T08:21:26Z",
       "description": "The dreaded queen of the Underworld.",
       "id": "Character_FairyFlex",
@@ -121941,6 +122631,11 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt/variants/progressive/stage5.png",
               "name": "Icebreaker Foundation",
               "tag": "Stage5"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt/variants/progressive/stage7.png",
+              "name": "Business Casual",
+              "tag": "Stage7"
             }
           ],
           "type": "Style"
@@ -137608,6 +138303,53 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Blink and you'll miss her.",
+      "id": "Character_LooseCreep",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_loosecreep/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_loosecreep/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_loosecreep/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_loosecreep/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_loosecreep/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Tracer",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2023-02-03T01:02:06Z",
       "description": "The sly, wild leader of the Winter Tricksters.",
       "id": "Character_LopexSnow",
@@ -138700,7 +139442,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Jedi General in the Grand Army of the Republic.",
-      "dynamicPakId": "1009",
       "id": "Character_MaltBurger",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_maltburger/featured.png",
@@ -139103,7 +139844,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "A strong-willed Padawan fighting for the Republic.",
-      "dynamicPakId": "1009",
       "id": "Character_MasalaRail",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_masalarail/featured.png",
@@ -140964,6 +141704,7 @@
       "description": "Protector of the ocean.",
       "id": "Character_MistyBead",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_mistybead/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_mistybead/large.png",
@@ -144791,7 +145532,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Life of the party with a sizzling sense of humor. ",
-      "dynamicPakId": "1001",
       "id": "Character_PandaSpeak",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_pandaspeak/icon.png",
@@ -153192,7 +153932,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "It's Spapeggy time.",
-      "dynamicPakId": "1001",
       "id": "Character_PrizeTray",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_prizetray/icon.png",
@@ -160749,6 +161488,42 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Night Shift's most merciful caretaker.",
+      "id": "Character_ShadeToll",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_shadetoll/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_shadetoll/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_shadetoll/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_shadetoll/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_shadetoll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Nurse Miyako",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-12-05T14:17:00Z",
       "description": "Earth 138's very own arachnid anarchist.",
       "id": "Character_ShakeCrunch",
@@ -161177,6 +161952,42 @@
         "value": "Exalted Aeronaut"
       },
       "showcaseVideo": "3yNE_pLoDNs",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Day Shift's brightest healer.",
+      "id": "Character_ShinToll",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_shintoll/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_shintoll/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_shintoll/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_shintoll/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_shintoll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Nurse Hikari",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -162413,6 +163224,53 @@
         "backendValue": "EFortRarity::Epic",
         "displayValue": "Epic",
         "value": "epic"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "MEKA Squad's shooting star.",
+      "id": "Character_SkiffGrind",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_skiffgrind/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_skiffgrind/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_skiffgrind/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_skiffgrind/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_skiffgrind/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "D.Va",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaCharacter",
@@ -166349,7 +167207,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Who wants chowdah?",
-      "dynamicPakId": "1001",
       "id": "Character_StairGummy",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_stairgummy/icon.png",
@@ -172572,6 +173429,107 @@
       ]
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Watch the dancing of the storm.",
+      "id": "Character_ThunderBallet",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_thunderballet/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_thunderballet/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Corascana",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/material/mat1.png",
+              "name": "Corascana",
+              "tag": "Mat1",
+              "unlockRequirements": "Corascana"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/material/mat2.png",
+              "name": "Dawnlight Legacy",
+              "tag": "Mat2",
+              "unlockRequirements": "Corascana"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/material/mat3.png",
+              "name": "Auric Legacy",
+              "tag": "Mat3",
+              "unlockRequirements": "Corascana"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/material/mat4.png",
+              "name": "Phase Legacy",
+              "tag": "Mat4",
+              "unlockRequirements": "Corascana"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/material/mat5.png",
+              "name": "Rimebound Legacy",
+              "tag": "Mat5",
+              "unlockRequirements": "Corascana"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_thunderballet/variants/material/mat6.png",
+              "name": "Cosmic Legacy",
+              "tag": "Mat6",
+              "unlockRequirements": "Corascana"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-12-11T09:00:00Z",
       "description": "Never mess with a Nindroid.",
       "id": "Character_TicketPoke",
@@ -174974,6 +175932,70 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Overwatch's guardian angel in the field.",
+      "id": "Character_TrackWaver",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_trackwaver/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_trackwaver/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_trackwaver/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_trackwaver/variants/parts/stage1.png",
+              "name": "Mercy",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_trackwaver/variants/parts/stage2.png",
+              "name": "Devil Mercy",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "style"
+        }
+      ]
     },
     {
       "added": "2024-12-01T03:58:22Z",
@@ -179213,6 +180235,26 @@
         "value": "Regular Show"
       },
       "showcaseVideo": "ow9QTpj_HIs",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "TBD",
+      "id": "Character_VoyagerCuboid",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_voyagercuboid/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_voyagercuboid/smallicon.png"
+      },
+      "name": "TBD",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -275925,6 +276967,50 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "That's one cartoony kitty!",
+      "id": "Companion_ComicTabby",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_comictabby/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_comictabby/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_comictabby/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Toony Tabby",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      },
+      "variants": [
+        {
+          "channel": "Emote",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_comictabby/variants/emote/companionemoteempty.png",
+              "tag": "CompanionEmoteEmpty"
+            }
+          ],
+          "type": "Sidekick Emote"
+        }
+      ]
+    },
+    {
       "added": "2025-11-07T14:02:24Z",
       "description": "One clever carnivore.",
       "id": "Companion_CrescentNail",
@@ -276106,6 +277192,11 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "TellHunger",
+        "text": "Part of the Bloons TD 6 set.",
+        "value": "Bloons TD 6"
       },
       "type": {
         "backendValue": "CosmeticCompanion",
@@ -287959,6 +289050,58 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Get goin', now.",
+      "id": "EID_BombaToon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_bombatoon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bombatoon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_bombatoon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Toony Stride",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "null",
+      "id": "EID_BombaToonFollower",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bombatoonfollower/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_bombatoonfollower/smallicon.png"
+      },
+      "name": "null",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:45Z",
       "description": "Beyond bendy.",
       "id": "EID_Boneless",
@@ -298791,7 +299934,6 @@
     {
       "added": "2026-05-05T00:00:00Z",
       "description": "You're just peachy.",
-      "dynamicPakId": "1005",
       "id": "EID_EightUp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_eightup/featured.png",
@@ -304719,7 +305861,6 @@
     {
       "added": "2026-05-01T00:00:00Z",
       "description": "Ready for the victory tour.",
-      "dynamicPakId": "1008",
       "id": "EID_GoldenGlory",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_goldenglory/featured.png",
@@ -305445,7 +306586,6 @@
     {
       "added": "2026-05-03T00:00:00Z",
       "description": "Have a lil' cry over by the veggies.",
-      "dynamicPakId": "1006",
       "id": "EID_GroceryGroove",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_grocerygroove/featured.png",
@@ -315748,6 +316888,49 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Warm up for battle, just like Tracer.",
+      "id": "EID_LooseCreep",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_loosecreep/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_loosecreep/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_loosecreep/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Blinkin' Amazing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-03-11T08:32:47Z",
       "description": "Show off your cache.",
       "id": "EID_LootFlex",
@@ -321890,7 +323073,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Spread the word.",
-      "dynamicPakId": "1001",
       "id": "EID_PandaSpeak",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_pandaspeak/featured.png",
@@ -323761,7 +324943,6 @@
     {
       "added": "2026-05-09T00:00:00Z",
       "description": "Pleasepleasepleasepleasepleaseplease...",
-      "dynamicPakId": "1003",
       "id": "EID_PleaseHelp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_pleasehelp/featured.png",
@@ -324767,7 +325948,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Don't mess with Peggy",
-      "dynamicPakId": "1001",
       "id": "EID_PrizeTray",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_prizetray/featured.png",
@@ -331220,6 +332400,38 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "I will take care of you!",
+      "id": "EID_ShinToll",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_shintoll/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_shintoll/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_shintoll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Big Bandage Chase",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:42Z",
       "description": "Utterly dominated.",
       "id": "EID_Shiny",
@@ -332238,6 +333450,49 @@
         "value": "rare"
       },
       "showcaseVideo": "8em5KjY0JBA",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "A mini mech for you lil' battle needs.",
+      "id": "EID_SkiffGrind",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_skiffgrind/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_skiffgrind/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_skiffgrind/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lil' Tokki",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -334803,7 +336058,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Every opening number needs a piano. ",
-      "dynamicPakId": "1001",
       "id": "EID_StairGummy",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_stairgummy/featured.png",
@@ -339939,6 +341193,49 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "She's here to help.",
+      "id": "EID_TrackWaver",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_trackwaver/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Reach",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2022-04-05T08:21:07Z",
       "description": "This battlefield requires a lil' landscaping.",
       "id": "EID_Traction",
@@ -340448,6 +341745,7 @@
       "description": "There's something down there!",
       "id": "EID_Troops",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_troops/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_troops/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_troops/smallicon.png"
       },
@@ -364073,6 +365371,36 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_ComicTabby",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_comictabby/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Tabby Cattitude",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-11-02T20:05:32Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_CoolSlice",
@@ -365235,6 +366563,556 @@
         "backendValue": "WideThought",
         "text": "Part of the Conspiracy Boarder set.",
         "value": "Conspiracy Boarder"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t01",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t01/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "1K FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T02",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t02/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "EL BARRIO",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T03",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t03/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "JIJANTES FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t04",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t04/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "LA CAPITAL",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t05",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t05/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "LOS TRONCOS FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T06",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t06/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "PIO FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T07",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t07/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "PORCINOS FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t08",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t08/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "RAYO BCN",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T09",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t09/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "SAIYANS FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t10",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t10/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "SKULL FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t11",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t11/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "ULTIMATE MOSTOLES",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t12",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t12/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "XBUYER TEAM",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t13",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t13/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "CAPIM FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t14",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t14/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "DENDELE FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t15",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t15/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "DESIMPAIN",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T16",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t16/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "DIBRADOS FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t17",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t17/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "FLUXO FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t18",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t18/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "FURIA FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T19",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t19/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "G3X FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T20",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t20/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "LOUD SC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "emoticon_metricspoon_t21",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t21/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "NYVELADOS FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_MetricSpoon_T22",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t22/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "PODPAH FC",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -367454,6 +369332,88 @@
         "backendValue": "PlayDay",
         "text": "Part of the The Games set.",
         "value": "The Games"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_TrackWaver",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Be Uplifted",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_TrackWaver2",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_trackwaver2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Overwatch",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -388475,6 +390435,48 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Ready to save the world, hero?",
+      "id": "Glider_PaverYoung",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_paveryoung/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_paveryoung/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "MV-261 Orca",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      }
+    },
+    {
       "added": "2024-02-08T07:29:35Z",
       "description": "Constructed by Donnie as a way to quickly traverse the city.",
       "id": "Glider_PeacefulPoemRemix",
@@ -390385,6 +392387,60 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Prepare a masterful play.",
+      "id": "Glider_Season_40Master",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_season_40master/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_season_40master/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Rivalry Master 'Brella",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "RainGold",
+        "text": "Part of the Mastery 'Brellas set.",
+        "value": "Mastery 'Brellas"
+      },
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/glider_season_40master/variants/particle/particle1.png",
+              "name": "Master",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/glider_season_40master/variants/particle/particle2.png",
+              "name": "Grandmaster",
+              "tag": "Particle2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/glider_season_40master/variants/particle/particle3.png",
+              "name": "GOAT",
+              "tag": "Particle3"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "Fly straight. Fly true.",
       "id": "Glider_SeleneCobra",
@@ -391983,6 +394039,66 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "A symbol of hope on the battlefield.",
+      "id": "Glider_TrackWaver",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Valkyrie Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      },
+      "variants": [
+        {
+          "channel": "Mesh",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/variants/mesh/stage1.png",
+              "name": "Mercy's Valkyrie Wings",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/variants/mesh/stage2.png",
+              "name": "Mercy's Devil Wings",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-02-21T12:17:00Z",
       "description": "Cumulonimb-tastic!",
       "id": "Glider_TrafficHat",
@@ -393539,6 +395655,52 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Rage: the only emotion that counts.",
+      "id": "LoadingScreen_AmpleSeller",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ampleseller/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ampleseller/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ampleseller/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Bricks and Batarangs",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "HardWing",
+        "text": "Part of the Set_03 set.",
+        "value": "Set_03"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -407722,6 +409884,64 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "This fight's going to take everything we've got.",
+      "id": "LoadingScreen_S40Narrative3",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative3/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative3/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative3/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Sanctuary SITREP",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "The Voyager's victory is coming together...",
+      "id": "LoadingScreen_S40Narrative4",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative4/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative4/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s40narrative4/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "The Shards United",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
       "added": "2022-09-18T10:05:15Z",
       "description": "You're gonna love it here.",
       "id": "LoadingScreen_S4CH3KeyArt",
@@ -412024,6 +414244,51 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Dr. Ziegler's got a treatment plan. Art by Fahmi Fauzi.",
+      "id": "LoadingScreen_TrackWaver",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_trackwaver/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_trackwaver/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Medkit",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
       "added": "2025-02-21T12:17:00Z",
       "description": "Science is always better than magic. \r\n\r\nArt by Ricardo Lopez Ortiz.",
       "id": "LoadingScreen_TrafficHat",
@@ -412449,6 +414714,51 @@
         "backendValue": "LateGroove",
         "text": "Part of the Midnight Grind set.",
         "value": "Midnight Grind"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Time to save the world, hero!",
+      "id": "LoadingScreen_VenisonKeyArt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_venisonkeyart/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_venisonkeyart/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_venisonkeyart/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Answer the Call",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -438578,6 +440888,49 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "A gold coated Batarang for special occasions.",
+      "id": "Pickaxe_AmpleSeller",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ampleseller/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ampleseller/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Golden Batarang Knucks",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "HardWing",
+        "text": "Part of the Set_03 set.",
+        "value": "Set_03"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-09-10T08:18:34Z",
       "description": "Vengeance for the forest's fallen.",
       "id": "Pickaxe_AncientLeer",
@@ -441634,6 +443987,70 @@
         "backendValue": "WhiskerTelevision",
         "text": "Part of the Cat Gamer set.",
         "value": "Cat Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Play pretend for real.",
+      "id": "Pickaxe_BombaToon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bombatoon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bombatoon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bombatoon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Llamacorn Rider",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "A little bit plucky, a lotta bit slap-happy.",
+      "id": "Pickaxe_BombaToon_Bass",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bombatoon_bass/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bombatoon_bass/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_bombatoon_bass/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Four String Frankie",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -445061,6 +447478,50 @@
         "displayValue": "Pickaxe",
         "value": "pickaxe"
       }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": " A frozen curse to wield.",
+      "id": "Pickaxe_ColdGrain",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_coldgrain/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_coldgrain/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Chilling Scepter",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_coldgrain/variants/particle/particle1.png",
+              "name": "On",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_coldgrain/variants/particle/particle2.png",
+              "name": "Off",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Glow"
+        }
+      ]
     },
     {
       "added": "2025-04-17T19:17:39Z",
@@ -451170,6 +453631,49 @@
         "backendValue": "ScreamingSun",
         "text": "Part of the Shrieking Star set.",
         "value": "Shrieking Star"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "The blade of the North Dragon.",
+      "id": "Pickaxe_FacetBlom",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_facetblom/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_facetblom/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_facetblom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Ryū Ichimonji",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -495340,6 +497844,49 @@
       }
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Crafted with chronal technology.",
+      "id": "Pickaxe_LooseCreep",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_loosecreep/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_loosecreep/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_loosecreep/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Tracer's Pulse Knives",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2023-02-03T01:02:06Z",
       "description": "Strike with the force of a winter storm.",
       "id": "Pickaxe_LopexSnow",
@@ -495997,7 +498544,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Execute total control.",
-      "dynamicPakId": "1009",
       "id": "Pickaxe_MaltBurger",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_maltburger/featured.png",
@@ -496013,8 +498559,20 @@
       "name": "Mortis Dagger",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
       },
       "set": {
         "backendValue": "AluminumFlea",
@@ -496358,7 +498916,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Used by Ahsoka in the Battle on Carlac.",
-      "dynamicPakId": "1009",
       "id": "Pickaxe_MasalaRail",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_masalarail/featured.png",
@@ -496374,8 +498931,20 @@
       "name": "Improvised Battle Staff",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
       },
       "set": {
         "backendValue": "AluminumFlea",
@@ -500662,7 +503231,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Top you up, hon?",
-      "dynamicPakId": "1001",
       "id": "Pickaxe_PandaSpeak",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pandaspeak/featured.png",
@@ -501075,6 +503643,48 @@
         "value": "Toil & Trouble"
       },
       "showcaseVideo": "-7Sq4zjak4Y",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Strike 'em down. Together.",
+      "id": "Pickaxe_PaverYoung",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_paveryoung/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_paveryoung/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Reinhardt's Rocket Hammer",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -504054,7 +506664,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Three years running!",
-      "dynamicPakId": "1001",
       "id": "Pickaxe_PrizeTray",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_prizetray/featured.png",
@@ -509109,6 +511718,37 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "CLEAR!",
+      "id": "Pickaxe_ShadeToll_Mic",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_shadetoll_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_shadetoll_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "ElectroCardioJammer",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-02-24T00:00:00Z",
       "description": "Used for crime-fighting and underground shows.",
       "id": "Pickaxe_ShakeCrunch_Guitar",
@@ -509408,6 +512048,37 @@
         "backendValue": "FungusNinja",
         "text": "Part of the Mushroom Shinobi set.",
         "value": "Mushroom Shinobi"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Beats per minute rising...",
+      "id": "Pickaxe_ShinToll_Keytar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_shintoll_keytar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_shintoll_keytar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Pacemaker",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -510338,6 +513009,49 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Always ready to hit some-bunny.",
+      "id": "Pickaxe_SkiffGrind",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_skiffgrind/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_skiffgrind/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_skiffgrind/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Tokki's Slicer",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
     },
     {
       "added": "2025-07-15T08:18:07Z",
@@ -513147,7 +515861,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Baby, you knock me out!",
-      "dynamicPakId": "1001",
       "id": "Pickaxe_StairGummy",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stairgummy/featured.png",
@@ -514648,7 +517361,6 @@
     {
       "added": "2026-04-30T14:43:15Z",
       "description": "Wielded by an elite class of Clone Trooper.",
-      "dynamicPakId": "1007",
       "id": "Pickaxe_SwampRate",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_swamprate/icon.png",
@@ -514663,8 +517375,20 @@
       "name": "Shock Trooper Electrostaff",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
       },
       "set": {
         "backendValue": "AppealDistant",
@@ -515970,6 +518694,92 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Strike from the sky.",
+      "id": "Pickaxe_ThunderBallet",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Bolt Blade",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "FrigidWings",
+        "text": "Part of the Storm Dancer set.",
+        "value": "Storm Dancer"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/variants/particle/particle1.png",
+              "name": "Bolt Blade",
+              "tag": "Particle1",
+              "unlockRequirements": "Bolt Blade"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/variants/particle/particle2.png",
+              "name": "Dawnlight Legacy",
+              "tag": "Particle2",
+              "unlockRequirements": "Bolt Blade"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/variants/particle/particle3.png",
+              "name": "Auric Legacy",
+              "tag": "Particle3",
+              "unlockRequirements": "Bolt Blade"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/variants/particle/particle4.png",
+              "name": "Phase Legacy",
+              "tag": "Particle4",
+              "unlockRequirements": "Bolt Blade"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/variants/particle/particle5.png",
+              "name": "Rimebound Legacy",
+              "tag": "Particle5",
+              "unlockRequirements": "Bolt Blade"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thunderballet/variants/particle/particle6.png",
+              "name": "Cosmic Legacy",
+              "tag": "Particle6",
+              "unlockRequirements": "Bolt Blade"
+            }
+          ],
+          "type": "style"
+        }
+      ]
+    },
+    {
       "added": "2025-12-11T09:00:00Z",
       "description": "Cold as sleet and twice as sharp.",
       "id": "Pickaxe_TicketPoke",
@@ -516955,6 +519765,65 @@
         "displayValue": "Pickaxe",
         "value": "pickaxe"
       }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Your support has arrived.",
+      "id": "Pickaxe_TrackWaver",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Caduceus Pickaxe",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trackwaver/variants/material/mat0.png",
+              "name": "Caduceus Pickaxe",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trackwaver/variants/material/mat1.png",
+              "name": "Devil Caduceus Pickaxe",
+              "tag": "Mat1"
+            }
+          ]
+        }
+      ]
     },
     {
       "added": "2024-12-01T03:58:22Z",
@@ -521206,7 +524075,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_BasisAdaptGlare",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_basisadaptglare/featured.png",
@@ -524654,7 +527522,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_GuppyThrillJudge",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_guppythrilljudge/featured.png",
@@ -525044,7 +527911,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_IcingCaddyRelax",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyrelax/featured.png",
@@ -525077,7 +527943,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_IcingCaddySlept",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_icingcaddyslept/featured.png",
@@ -526288,7 +529153,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_MaltBurgerGrab",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_maltburgergrab/featured.png",
@@ -527292,7 +530156,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_PandaSpeakAsh",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_pandaspeakash/featured.png",
@@ -531095,7 +533958,6 @@
     {
       "added": "2026-04-30T13:00:51Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1013",
       "id": "Shoes_WaveLaces",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_wavelaces/featured.png",
@@ -569285,6 +572147,141 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Leave your mark.",
+      "id": "Spray_TrackWaver",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_trackwaver/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_trackwaver/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Crest",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Leave your mark.",
+      "id": "Spray_TrackWaver2",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_trackwaver2/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_trackwaver2/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_trackwaver2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Rise",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Leave your mark.",
+      "id": "Spray_TrackWaverCC",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_trackwavercc/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_trackwavercc/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_trackwavercc/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Overwatch Emblem",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2025-02-21T12:17:00Z",
       "description": "Leave your mark.",
       "id": "Spray_TrafficHat",
@@ -589401,6 +592398,7 @@
       "description": "Show your style.",
       "id": "Wrap_379_Pliant",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_379_pliant/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_379_pliant/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_379_pliant/smallicon.png"
       },
@@ -594574,14 +597572,26 @@
       "description": "Show your style.",
       "id": "Wrap_BamBoom",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_bamboom/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_bamboom/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_bamboom/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Bamboo Blast",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "TinyFriend",
+        "text": "Part of the Pocket P.A.N.D.A. set.",
+        "value": "Pocket P.A.N.D.A."
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -595346,6 +598356,38 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Show your style.",
+      "id": "Wrap_BombaToon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_bombatoon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_bombatoon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_bombatoon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Inky Fun",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BlotGroup",
+        "text": "Part of the Inkville Gang set.",
+        "value": "Inkville Gang"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
       "added": "2023-05-21T00:00:00Z",
       "description": "Show your style.",
       "id": "Wrap_BoneMarrow",
@@ -595472,6 +598514,7 @@
       "description": "Show your style.",
       "id": "Wrap_BounceRain",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_bouncerain/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_bouncerain/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_bouncerain/smallicon.png"
       },
@@ -599281,6 +602324,7 @@
       "description": "Show your style.",
       "id": "Wrap_DefectGlitch",
       "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_defectglitch/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_defectglitch/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_defectglitch/smallicon.png"
       },
@@ -606818,7 +609862,6 @@
     {
       "added": "2026-05-07T13:01:12Z",
       "description": "Show your style.",
-      "dynamicPakId": "1001",
       "id": "Wrap_PrizeTray",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_prizetray/featured.png",
@@ -609273,6 +612316,38 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Show your style.",
+      "id": "Wrap_ShinToll",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_shintoll/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_shintoll/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_shintoll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Day and Night",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LatePirate",
+        "text": "Part of the Hospital Emergency set.",
+        "value": "Hospital Emergency"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -612634,6 +615709,32 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Show your style.",
+      "id": "Wrap_ToadBark",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_toadbark/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_toadbark/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Neon Monster",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
       "added": "2026-03-22T00:00:00Z",
       "description": "Show your style.",
       "id": "Wrap_TopicProud",
@@ -612735,6 +615836,49 @@
         "value": "Packed For Adventure"
       },
       "showcaseVideo": "DPdPmlMr_O8",
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Show your style.",
+      "id": "Wrap_TrackWaver",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_trackwaver/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mark of Mercy",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      },
       "type": {
         "backendValue": "AthenaItemWrap",
         "displayValue": "Wrap",

@@ -2525,6 +2525,40 @@
     {
       "category": "BattleRoyale",
       "description": "A new icon for your banner. Assign it in the Locker.",
+      "devName": "TrackWaver",
+      "fullUsageRights": true,
+      "id": "Banner_TrackWaver",
+      "images": {
+        "icon": "https://fortnite-api.com/images/banners/banner_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/banners/banner_trackwaver/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Banner Icon",
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
+      }
+    },
+    {
+      "category": "BattleRoyale",
+      "description": "A new icon for your banner. Assign it in the Locker.",
       "devName": "Icon_VileSting",
       "fullUsageRights": true,
       "id": "Banner_VileSting",
@@ -4615,7 +4649,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs18_darktrio/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs18_darktrio/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "BreachDog",
+        "text": "Part of the The First Shadows set.",
+        "value": "The First Shadows"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5040,7 +5079,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs20_cadetcat/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs20_cadetcat/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "KnockoutBoss",
+        "text": "Part of the K.O. Captain set.",
+        "value": "K.O. Captain"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5069,7 +5113,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs20_cubeking/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs20_cubeking/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "Asteroid",
+        "text": "Part of the The Seven set.",
+        "value": "The Seven"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5081,7 +5130,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs20_cyberarmor/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs20_cyberarmor/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "CyberKarate",
+        "text": "Part of the Kata Tech set.",
+        "value": "Kata Tech"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5121,7 +5175,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs20_knightcat/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs20_knightcat/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HopeWatcher",
+        "text": "Part of the Wish Guardian set.",
+        "value": "Wish Guardian"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5133,12 +5192,7 @@
         "icon": "https://fortnite-api.com/images/banners/brs20_lyrical/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs20_lyrical/smallicon.png"
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "ThemeAgile",
-        "text": "Part of the Wu Wear set.",
-        "value": "Wu Wear"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -5161,11 +5215,6 @@
           "280102ff"
         ],
         "value": "MARVEL SERIES"
-      },
-      "set": {
-        "backendValue": "ProperPastel",
-        "text": "Part of the Doctor Strange set.",
-        "value": "Doctor Strange"
       }
     },
     {
@@ -5220,7 +5269,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs20_orderguard/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs20_orderguard/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "NewHotness",
+        "text": "Part of the IO Inquest set.",
+        "value": "IO Inquest"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5243,6 +5297,11 @@
           "280102ff"
         ],
         "value": "MARVEL SERIES"
+      },
+      "set": {
+        "backendValue": "JokeAngel",
+        "text": "Part of the Prowler set.",
+        "value": "Prowler"
       }
     },
     {
@@ -5272,7 +5331,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs21_canary/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs21_canary/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "SeatRelax",
+        "text": "Part of the Indiana Jones set.",
+        "value": "Indiana Jones"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5318,7 +5382,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs21_fuchsia/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs21_fuchsia/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "LizardDriver",
+        "text": "Part of the The Dragon Rider set.",
+        "value": "The Dragon Rider"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5417,7 +5486,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs21_staminaemblem/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs21_staminaemblem/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "WordRemark",
+        "text": "Part of the Dragon Ball set.",
+        "value": "Dragon Ball"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5429,7 +5503,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs22_badbear/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs22_badbear/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "GnarlBear",
+        "text": "Part of the Growlin' Grriz set.",
+        "value": "Growlin' Grriz"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5585,11 +5664,6 @@
           "280102ff"
         ],
         "value": "MARVEL SERIES"
-      },
-      "set": {
-        "backendValue": "FairGlory",
-        "text": "Part of the Spider-Gwen set.",
-        "value": "Spider-Gwen"
       }
     },
     {
@@ -5674,7 +5748,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs22_theherald/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs22_theherald/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "NeverAlways",
+        "text": "Part of the Nothing's Forever set.",
+        "value": "Nothing's Forever"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5686,7 +5765,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs23_apprentice/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs23_apprentice/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "KindaAhead",
+        "text": "Part of the Sight Beyond set.",
+        "value": "Sight Beyond"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -5766,6 +5850,11 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "OldThreat",
+        "text": "Part of the School of the Wolf set.",
+        "value": "School of the Wolf"
       }
     },
     {
@@ -5852,6 +5941,11 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "OldThreat",
+        "text": "Part of the School of the Wolf set.",
+        "value": "School of the Wolf"
       }
     },
     {
@@ -5881,6 +5975,11 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "OldThreat",
+        "text": "Part of the School of the Wolf set.",
+        "value": "School of the Wolf"
       }
     },
     {
@@ -5910,11 +6009,6 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
-      },
-      "set": {
-        "backendValue": "OldThreat",
-        "text": "Part of the School of the Wolf set.",
-        "value": "School of the Wolf"
       }
     },
     {
@@ -5972,6 +6066,11 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "TinLake",
+        "text": "Part of the Ultra-Nightmare set.",
+        "value": "Ultra-Nightmare"
       }
     },
     {
@@ -5990,7 +6089,12 @@
         "season": "1",
         "text": "Introduced in Chapter 4, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HairyFreeze",
+        "text": "Part of the Winter's Trickster set.",
+        "value": "Winter's Trickster"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6002,7 +6106,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs23_sharpfang/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs23_sharpfang/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "ChaseMonster",
+        "text": "Part of the Let's Hunt Vampires set.",
+        "value": "Let's Hunt Vampires"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6055,6 +6164,11 @@
         ],
         "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
         "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TruthTenant",
+        "text": "Part of the The Kid LAROI set.",
+        "value": "The Kid LAROI"
       }
     },
     {
@@ -6067,7 +6181,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs23_sunlit/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs23_sunlit/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HeroAct",
+        "text": "Part of the Star of the Show set.",
+        "value": "Star of the Show"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6114,7 +6233,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs24_dazzle/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs24_dazzle/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "OldRemake",
+        "text": "Part of the Retro Redux set.",
+        "value": "Retro Redux"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6143,7 +6267,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs24_inferno/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs24_inferno/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "Calamity",
+        "text": "Part of the Cataclysm 2.0 set.",
+        "value": "Cataclysm 2.0"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6178,7 +6307,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs24_nebula/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs24_nebula/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "AdventureGroup",
+        "text": "Part of the The Luminaries set.",
+        "value": "The Luminaries"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6190,7 +6324,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs24_nitroflow/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs24_nitroflow/smallicon.png"
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "WaterWatch",
+        "text": "Part of the River Guard set.",
+        "value": "River Guard"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6334,12 +6473,7 @@
         "season": "2",
         "text": "Introduced in Chapter 4, Season 2."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "PenRatio",
-        "text": "Part of the Coachella set.",
-        "value": "Coachella"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -6351,12 +6485,7 @@
         "icon": "https://fortnite-api.com/images/banners/brs24_vitalpsych/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs24_vitalpsych/smallicon.png"
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "AnarchyExpert",
-        "text": "Part of the Chaos Artist set.",
-        "value": "Chaos Artist"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -6374,7 +6503,12 @@
         "season": "3",
         "text": "Introduced in Chapter 4, Season 3."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "WhizLucha",
+        "text": "Part of the Dynamo Voladora set.",
+        "value": "Dynamo Voladora"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6392,7 +6526,12 @@
         "season": "3",
         "text": "Introduced in Chapter 4, Season 3."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "TouchCat",
+        "text": "Part of the Taste of Purradise set.",
+        "value": "Taste of Purradise"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6410,7 +6549,12 @@
         "season": "3",
         "text": "Introduced in Chapter 4, Season 3."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "StoneRover",
+        "text": "Part of the Rock Ranger set.",
+        "value": "Rock Ranger"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6428,7 +6572,12 @@
         "season": "3",
         "text": "Introduced in Chapter 4, Season 3."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HeroicRascal",
+        "text": "Part of the Intrepid Scoundrel set.",
+        "value": "Intrepid Scoundrel"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6446,7 +6595,12 @@
         "season": "3",
         "text": "Introduced in Chapter 4, Season 3."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "CleanWard",
+        "text": "Part of the Jujutsu Kaisen set.",
+        "value": "Jujutsu Kaisen"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6500,12 +6654,7 @@
         "season": "3",
         "text": "Introduced in Chapter 4, Season 3."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "TorchSour",
-        "text": "Part of the Transformers set.",
-        "value": "Transformers"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -6534,6 +6683,11 @@
           "0d0027ff"
         ],
         "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AwareLesson",
+        "text": "Part of the Silver & Sorcery set.",
+        "value": "Silver & Sorcery"
       }
     },
     {
@@ -6721,7 +6875,12 @@
         "season": "4",
         "text": "Introduced in Chapter 4, Season 4."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "RadicalBrain",
+        "text": "Part of the Maverick Mastermind set.",
+        "value": "Maverick Mastermind"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6827,11 +6986,6 @@
         ],
         "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
         "value": "Star Wars Series"
-      },
-      "set": {
-        "backendValue": "SitRuin",
-        "text": "Part of the Ahsoka Tano set.",
-        "value": "Ahsoka Tano"
       }
     },
     {
@@ -6850,7 +7004,12 @@
         "season": "OG",
         "text": "Introduced in Chapter 4, Season OG."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "RainyHunter",
+        "text": "Part of the Storm Scavenger Lynx set.",
+        "value": "Storm Scavenger Lynx"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6868,7 +7027,12 @@
         "season": "OG",
         "text": "Introduced in Chapter 4, Season OG."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "BrightChampion",
+        "text": "Part of the Prismatic Knight set.",
+        "value": "Prismatic Knight"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -6932,7 +7096,12 @@
         "season": "OG",
         "text": "Introduced in Chapter 4, Season OG."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "BrightChampion",
+        "text": "Part of the Prismatic Knight set.",
+        "value": "Prismatic Knight"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7030,12 +7199,7 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "FendOff",
-        "text": "Part of the En Garde set.",
-        "value": "En Garde"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -7053,7 +7217,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "Perfection",
+        "text": "Part of the Flawless set.",
+        "value": "Flawless"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7071,7 +7240,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "TumbleCourt",
+        "text": "Part of the TMNT set.",
+        "value": "TMNT"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7089,12 +7263,7 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "FireMoney",
-        "text": "Part of the Flame & Fortune set.",
-        "value": "Flame & Fortune"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -7153,7 +7322,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "ScrapePlace",
+        "text": "Part of the Skratch Company set.",
+        "value": "Skratch Company"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7171,7 +7345,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "ScrapePlace",
+        "text": "Part of the Skratch Company set.",
+        "value": "Skratch Company"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7212,7 +7391,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "ScrapePlace",
+        "text": "Part of the Skratch Company set.",
+        "value": "Skratch Company"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7271,7 +7455,12 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "ScrapePlace",
+        "text": "Part of the Skratch Company set.",
+        "value": "Skratch Company"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7289,12 +7478,7 @@
         "season": "1",
         "text": "Introduced in Chapter 5, Season 1."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "ScrapePlace",
-        "text": "Part of the Skratch Company set.",
-        "value": "Skratch Company"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -7417,7 +7601,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HarshPat",
+        "text": "Part of the Avatar set.",
+        "value": "Avatar"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7435,7 +7624,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "MorbidWatch",
+        "text": "Part of the Grim Gatekeeper set.",
+        "value": "Grim Gatekeeper"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7453,12 +7647,7 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "HarshPat",
-        "text": "Part of the Avatar set.",
-        "value": "Avatar"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -7494,12 +7683,7 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon",
-      "set": {
-        "backendValue": "HarshPat",
-        "text": "Part of the Avatar set.",
-        "value": "Avatar"
-      }
+      "name": "Banner Icon"
     },
     {
       "category": "BattleRoyale",
@@ -7517,7 +7701,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HarshPat",
+        "text": "Part of the Avatar set.",
+        "value": "Avatar"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7535,7 +7724,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "QueenLove",
+        "text": "Part of the Goddess of the Heart set.",
+        "value": "Goddess of the Heart"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7553,7 +7747,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "HarshPat",
+        "text": "Part of the Avatar set.",
+        "value": "Avatar"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7589,7 +7788,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "SnakeRock",
+        "text": "Part of the The Serpentstone set.",
+        "value": "The Serpentstone"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -7671,7 +7875,12 @@
         "season": "2",
         "text": "Introduced in Chapter 5, Season 2."
       },
-      "name": "Banner Icon"
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "RoyalGods",
+        "text": "Part of the King of Olympus set.",
+        "value": "King of Olympus"
+      }
     },
     {
       "category": "Special",
@@ -10112,7 +10321,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs9cattus/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs9cattus/smallicon.png"
       },
-      "name": "Monster Team Banner"
+      "name": "Monster Team Banner",
+      "set": {
+        "backendValue": "TeamShowdown",
+        "text": "Part of the Final Showdown set.",
+        "value": "Final Showdown"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -10309,7 +10523,12 @@
         "icon": "https://fortnite-api.com/images/banners/brs9worldcup2019/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/brs9worldcup2019/smallicon.png"
       },
-      "name": "World Cup 2019 Banner"
+      "name": "World Cup 2019 Banner",
+      "set": {
+        "backendValue": "WorldCup2019",
+        "text": "Part of the World Cup 2019 set.",
+        "value": "World Cup 2019"
+      }
     },
     {
       "category": "BattleRoyale",
@@ -14569,7 +14788,12 @@
         "icon": "https://fortnite-api.com/images/banners/starlightbanner1/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/starlightbanner1/smallicon.png"
       },
-      "name": "Homebase Banner"
+      "name": "Homebase Banner",
+      "set": {
+        "backendValue": "SaveTheWorld",
+        "text": "Part of the Save the World set.",
+        "value": "Save the World"
+      }
     },
     {
       "category": "Special",
@@ -14593,7 +14817,12 @@
         "icon": "https://fortnite-api.com/images/banners/starlightbanner3/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/starlightbanner3/smallicon.png"
       },
-      "name": "Homebase Banner"
+      "name": "Homebase Banner",
+      "set": {
+        "backendValue": "SaveTheWorld",
+        "text": "Part of the Save the World set.",
+        "value": "Save the World"
+      }
     },
     {
       "category": "Special",
@@ -14605,7 +14834,12 @@
         "icon": "https://fortnite-api.com/images/banners/starlightbanner4/icon.png",
         "smallIcon": "https://fortnite-api.com/images/banners/starlightbanner4/smallicon.png"
       },
-      "name": "Homebase Banner"
+      "name": "Homebase Banner",
+      "set": {
+        "backendValue": "SaveTheWorld",
+        "text": "Part of the Save the World set.",
+        "value": "Save the World"
+      }
     },
     {
       "category": "Special",

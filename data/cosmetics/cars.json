@@ -223,6 +223,37 @@
       "vehicleId": "VCID_Body_BB"
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Supercar style, electric design",
+      "id": "CarBody_BlueTorque",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_bluetorque/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_bluetorque/small.png"
+      },
+      "name": "Porsche Cayenne Turbo Electric",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Porsche",
+        "colors": [
+          "c2cdd6ff",
+          "a2acb4ff",
+          "ebd698ff",
+          "222626ff"
+        ],
+        "value": "PORSCHE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_BlueTorque"
+    },
+    {
       "added": "2024-09-17T08:30:11Z",
       "description": "Cutting edge agility and style.",
       "id": "CarBody_Bober",
@@ -1969,6 +2000,27 @@
         "value": "body"
       },
       "vehicleId": "VCID_CarBody_Sassy"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "The speedway king.",
+      "id": "CarBody_ScarB",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_scarb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_scarb/small.png"
+      },
+      "name": "NASCAR Next Gen Chevrolet Camaro",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_ScarB"
     },
     {
       "added": "2024-12-22T14:02:12Z",
@@ -3940,6 +3992,161 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_BBWings"
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "In the Blink of an eye. Porsche Cayenne Turbo Electric custom decal.",
+      "id": "CarSkin_BlueTorque01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque01/small.png"
+      },
+      "name": "Tracer",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_GamingLegends",
+        "colors": [
+          "e7f4ffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "222626ff"
+        ],
+        "value": "GAMING LEGENDS SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BlueTorque01"
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Heals on wheels. Porsche Cayenne Turbo Electric custom decal.",
+      "id": "CarSkin_BlueTorque02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque02/small.png"
+      },
+      "name": "Mercy",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_GamingLegends",
+        "colors": [
+          "e7f4ffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "222626ff"
+        ],
+        "value": "GAMING LEGENDS SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BlueTorque02"
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "It's no mech, but it'll do. Porsche Cayenne Turbo Electric custom decal.",
+      "id": "CarSkin_BlueTorque03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque03/small.png"
+      },
+      "name": "D.Va",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_GamingLegends",
+        "colors": [
+          "e7f4ffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "222626ff"
+        ],
+        "value": "GAMING LEGENDS SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BlueTorque03"
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Almost as fast as a dragon. Porsche Cayenne Turbo Electric custom decal.",
+      "id": "CarSkin_BlueTorque04",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque04/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque04/small.png"
+      },
+      "name": "Genji",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_GamingLegends",
+        "colors": [
+          "e7f4ffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "222626ff"
+        ],
+        "value": "GAMING LEGENDS SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BlueTorque04"
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Porsche Cayenne Turbo Electric custom decal.",
+      "id": "CarSkin_BlueTorqueLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorquelivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorquelivery01/small.png"
+      },
+      "name": "Psych Wave",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Porsche",
+        "colors": [
+          "c2cdd6ff",
+          "a2acb4ff",
+          "ebd698ff",
+          "222626ff"
+        ],
+        "value": "PORSCHE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BlueTorqueLivery01"
     },
     {
       "added": "2024-09-17T08:30:11Z",
@@ -13109,6 +13316,27 @@
       "vehicleId": "VCID_CarSkin_OctaneModernArtGraffiti01"
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Taking art to the streets. Octane custom decal.",
+      "id": "CarSkin_OctaneModernArtGraffiti02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanemodernartgraffiti02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanemodernartgraffiti02/small.png"
+      },
+      "name": "Hello My Name Is Brainwash",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_OctaneModernArtGraffiti02"
+    },
+    {
       "added": "2024-09-17T08:30:11Z",
       "description": "He's just a moth, man. Octane custom decal.",
       "id": "CarSkin_OctaneMothman",
@@ -16127,6 +16355,216 @@
         "value": "skin"
       },
       "vehicleId": "VCID_CarSkin_SassyWings"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Elegance isn't negotiable. NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarB05",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarb05/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarb05/small.png"
+      },
+      "name": "NASCAR Next Gen Chevrolet Camaro ZL1",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarB05"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarBAmerivet",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbamerivet/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbamerivet/small.png"
+      },
+      "name": "AmeriVet",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarBAmerivet"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Classic for a reason. NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarBDefault",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbdefault/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbdefault/small.png"
+      },
+      "name": "RL Classic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarBDefault"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarBHaasFactory",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbhaasfactory/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbhaasfactory/small.png"
+      },
+      "name": "Haas",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarBHaasFactory"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarBHendrick",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbhendrick/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbhendrick/small.png"
+      },
+      "name": "Hendrick Motorsport",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarBHendrick"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarbJoeyGase",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbjoeygase/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbjoeygase/small.png"
+      },
+      "name": "Joey Gase Motorsports",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarbJoeyGase"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarBJRM",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbjrm/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbjrm/small.png"
+      },
+      "name": "JR Motorsports",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarBJRM"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarbRCR",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbrcr/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbrcr/small.png"
+      },
+      "name": "Richard Childress Racing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarbRCR"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarbSmithHyak",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbsmithhyak/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbsmithhyak/small.png"
+      },
+      "name": "Hyak Motorsports",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarbSmithHyak"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "NASCAR Next Gen Chevrolet Camaro custom decal.",
+      "id": "CarSkin_ScarbTrackhouse",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbtrackhouse/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_scarbtrackhouse/small.png"
+      },
+      "name": "Trackhouse Racing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ScarbTrackhouse"
     },
     {
       "added": "2024-12-22T14:02:12Z",
@@ -22996,6 +23434,27 @@
       "vehicleId": "VCID_Booster_S21RLCS"
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Absolutely fierce.",
+      "id": "ID_Booster_S22RLCS01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_s22rlcs01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_s22rlcs01/small.png"
+      },
+      "name": "Slaymaker",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_S22RLCS01"
+    },
+    {
       "added": "2024-04-23T08:25:21Z",
       "description": "Don't get blinded.",
       "id": "ID_Booster_SandstormOnline",
@@ -27413,6 +27872,68 @@
       "vehicleId": "VCID_Wheel_Blossom"
     },
     {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "The beauty of perfection.",
+      "id": "Wheel_BlueTorque01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_bluetorque01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_bluetorque01/small.png"
+      },
+      "name": "Porsche Cayenne Turbo Electric",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Porsche",
+        "colors": [
+          "c2cdd6ff",
+          "a2acb4ff",
+          "ebd698ff",
+          "222626ff"
+        ],
+        "value": "PORSCHE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_BlueTorque01"
+    },
+    {
+      "added": "2026-05-14T09:00:00Z",
+      "description": "Ninja approved.",
+      "id": "Wheel_BlueTorque02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_bluetorque02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_bluetorque02/small.png"
+      },
+      "name": "Shimada Spinners",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_GamingLegends",
+        "colors": [
+          "e7f4ffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "222626ff"
+        ],
+        "value": "GAMING LEGENDS SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_BlueTorque02"
+    },
+    {
       "added": "2025-09-10T08:17:24Z",
       "description": "Time to split. ",
       "id": "Wheel_Bowling",
@@ -31065,6 +31586,27 @@
       "vehicleId": "VCID_Wheel_PixelMelon"
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "8-Bit? Ate bites.",
+      "id": "Wheel_PixelPizza",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_pixelpizza/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_pixelpizza/small.png"
+      },
+      "name": "Pixelated Pizza",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_PixelPizza"
+    },
+    {
       "added": "2024-09-25T23:11:28Z",
       "description": "Perfectly polished precision.",
       "id": "Wheel_Precision",
@@ -32730,6 +33272,48 @@
       "vehicleId": "VCID_Wheel_RL251SE"
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Competition goes down the drain.",
+      "id": "Wheel_RL252",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl252/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl252/small.png"
+      },
+      "name": "Disposer",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL252"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Hot to the touch.",
+      "id": "Wheel_RL262",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl262/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl262/small.png"
+      },
+      "name": "Heat Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL262"
+    },
+    {
       "added": "2026-03-19T06:29:28Z",
       "description": "Keep watch.",
       "id": "Wheel_RL264",
@@ -33517,6 +34101,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Savagebound"
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Unmatched for the track.",
+      "id": "Wheel_Scar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_scar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_scar/small.png"
+      },
+      "name": "Next Gen Goodyear Racing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Scar"
     },
     {
       "added": "2024-12-22T14:02:12Z",

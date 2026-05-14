@@ -875,6 +875,26 @@
       }
     },
     {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "A little bit plucky, a lotta bit slap-happy.",
+      "id": "Sparks_BombaToon_Bass",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_bombatoon_bass/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_bombatoon_bass/small.png"
+      },
+      "name": "Four String Frankie",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksBass",
+        "displayValue": "Bass",
+        "value": "bass"
+      }
+    },
+    {
       "added": "2026-04-03T13:00:30Z",
       "description": "Stay sharp, Agent P.",
       "id": "Sparks_BrawnGraze_Guitar",
@@ -6072,6 +6092,46 @@
         "backendValue": "SparksGuitar",
         "displayValue": "Guitar",
         "value": "guitar"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "CLEAR!",
+      "id": "Sparks_ShadeToll_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_shadetoll_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_shadetoll_mic/small.png"
+      },
+      "name": "ElectroCardioJammer",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
+      }
+    },
+    {
+      "added": "2026-05-14T10:11:56Z",
+      "description": "Beats per minute rising...",
+      "id": "Sparks_ShinToll_Keytar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_shintoll_keytar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_shintoll_keytar/small.png"
+      },
+      "name": "Pacemaker",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksKeyboard",
+        "displayValue": "Keytar",
+        "value": "keyboard"
       }
     },
     {
