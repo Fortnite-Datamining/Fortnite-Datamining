@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-14
+- **00:00** Item Shop - +28 new (Diamond Star, Hunter, Innovator Slone, Joltara, Backlash, +23 more) - -33 removed
+
 ## 2026-05-13
 - **03:32** Item Shop - +33 new (Imagined Override, Gold Digger, Gurney Gear, Airlift, Bizcochito, +28 more) - -46 removed
 
