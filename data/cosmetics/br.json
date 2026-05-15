@@ -47251,6 +47251,96 @@
       }
     },
     {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Smokey Settings.",
+      "dynamicPakId": "1013",
+      "id": "Backpack_StuffRasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Grimhaul Bag",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Yerno thaaaa",
+      "dynamicPakId": "1013",
+      "id": "Backpack_StuffRasp_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mace Der",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "High voltage protector.",
       "id": "Backpack_StunningMountain",
@@ -168732,6 +168822,72 @@
       ]
     },
     {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Young, lit and handsome.",
+      "dynamicPakId": "1013",
+      "id": "Character_StuffRasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "EsDeeKid",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/variants/parts/stage1.png",
+              "name": "EsDeeKid",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/variants/parts/stage2.png",
+              "name": "EsDeeKid (chains off)",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/variants/parts/stage3.png",
+              "name": "hood down",
+              "tag": "Stage3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/variants/parts/stage4.png",
+              "name": "SkullDeeKid",
+              "tag": "Stage4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/variants/parts/stage5.png",
+              "name": "Phantom SkullDeeKid",
+              "tag": "Stage5"
+            }
+          ],
+          "type": " Outfit"
+        }
+      ]
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "Warrior-king of the gods.",
       "id": "Character_StunningMountain_Armor",
@@ -277679,6 +277835,50 @@
       }
     },
     {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Canine crew.",
+      "dynamicPakId": "1013",
+      "id": "Companion_PolarBlind",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_polarblind/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_polarblind/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "EsDeeKid's Cerberus",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2026-01-31T00:00:00Z",
       "description": "Yuh yah!",
       "id": "Companion_PromDutch",
@@ -310287,6 +310487,7 @@
         "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
         "value": "Icon Series"
       },
+      "showcaseVideo": "uX_8Q4unjMo",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -336946,6 +337147,51 @@
         "value": "Cowboy Bebop"
       },
       "showcaseVideo": "OZccERdY9Kc",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "What is says on the tin La.",
+      "dynamicPakId": "1013",
+      "id": "EID_StuffRasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_stuffrasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_stuffrasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_stuffrasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Scouse Stepper",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -413279,6 +413525,53 @@
         "backendValue": "BleakFeather",
         "text": "Part of the Daft Punk set.",
         "value": "Daft Punk"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Lord of the hounds.",
+      "dynamicPakId": "1013",
+      "id": "LoadingScreen_StuffRaspKeyArt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_stuffraspkeyart/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_stuffraspkeyart/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_stuffraspkeyart/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "New Royalty",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -516788,6 +517081,111 @@
       }
     },
     {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Throw down the gauntlet.",
+      "dynamicPakId": "1013",
+      "id": "Pickaxe_StuffRasp",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Canine Claws",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp/variants/material/mat0.png",
+              "name": "Canine Claws",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp/variants/material/mat1.png",
+              "name": "Rebel Smoke",
+              "tag": "Mat1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Yerno thaaaa",
+      "dynamicPakId": "1013",
+      "id": "Pickaxe_StuffRasp_Mic",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mace Der",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2024-03-08T13:32:49Z",
       "description": "Charge into battle.",
       "id": "Pickaxe_StunningMountain",
@@ -614261,6 +614659,51 @@
         "backendValue": "AnotherMeeting",
         "text": "Part of the Cowboy Bebop set.",
         "value": "Cowboy Bebop"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-05-15T13:01:18Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1013",
+      "id": "Wrap_StuffRasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_stuffrasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_stuffrasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_stuffrasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Medieval Metal",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DistantAngler",
+        "text": "Part of the EsDeeKid set.",
+        "value": "EsDeeKid"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
