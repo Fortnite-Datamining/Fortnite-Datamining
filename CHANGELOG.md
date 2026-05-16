@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-16
+- **19:38** News - +1 new (Settle the Score) - -1 removed
 - **17:09** News - +1 new (Star Wars Droid Tycoon Limited-Time Event) - -1 removed
 - **15:58** BR Cosmetics, Item Shop
 - **04:52** Item Shop, Banners
