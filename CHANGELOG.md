@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-17
+- **21:27** Item Shop, News, AES Keys - +1 new (Reload Elite Series - NAC - Legends Landing) - -1 removed
 - **20:12** News - +1 new (The Showdown) - -1 removed
 - **17:32** BR Cosmetics, Item Shop, News - +1 new (Settle the Score) - -1 removed
 - **14:57** News - +1 new (Reload Elite Series - EU - Legends Landing) - -1 removed
