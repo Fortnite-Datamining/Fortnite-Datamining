@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-17
+- **17:32** BR Cosmetics, Item Shop, News - +1 new (Settle the Score) - -1 removed
 - **14:57** News - +1 new (Reload Elite Series - EU - Legends Landing) - -1 removed
 - **03:33** Item Shop - +38 new (Maximum Glove, Day Shift Monitor, Party Diva, Charon, The Squabble, +33 more) - -33 removed
 
