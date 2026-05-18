@@ -6571,6 +6571,96 @@
       ]
     },
     {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "A nearly-indestructible symbol of Mandalore.",
+      "dynamicPakId": "1019",
+      "id": "Backpack_ChiliAbide",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Beskar Mythosaur",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "A six-string built for a bounty hunter.",
+      "dynamicPakId": "1019",
+      "id": "Backpack_ChiliAbide_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Modified Beskar Hallikset",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2022-09-18T10:05:15Z",
       "description": "Savor the explosive flavor of Meowscles Morsels.",
       "id": "Backpack_ChillCat",
@@ -108429,6 +108519,55 @@
           "type": "reactivity"
         }
       ]
+    },
+    {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "A bounty hunter on a new kind of mission.",
+      "dynamicPakId": "1019",
+      "id": "Character_ChiliAbide",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_chiliabide/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_chiliabide/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_chiliabide/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_chiliabide/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_chiliabide/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "The Mandalorian (Pen & Ink)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2022-09-18T10:05:15Z",
@@ -292698,6 +292837,51 @@
       }
     },
     {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "Hitch a ride on the Empire's dime.",
+      "dynamicPakId": "1019",
+      "id": "EID_ChiliAbide",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_chiliabide/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_chiliabide/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_chiliabide/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "TIE Fighter Tow",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2022-09-18T10:05:15Z",
       "description": "You'll catch it this time.",
       "id": "EID_ChillCat",
@@ -365637,6 +365821,37 @@
       }
     },
     {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1019",
+      "id": "Emoticon_ChiliAbideFNCS",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_chiliabidefncs/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "This is the Way",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-08-07T09:33:19Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_ClaimReflect",
@@ -397898,6 +398113,36 @@
         "text": "Introduced in Chapter 5, Season 2."
       },
       "name": "Stygian Temptation",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "A patch of peace in a warring galaxy.",
+      "dynamicPakId": "1019",
+      "id": "LoadingScreen_ChiliAbide",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_chiliabide/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_chiliabide/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_chiliabide/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mandalorian Sanctuary",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -446915,6 +447160,96 @@
           "type": "reactivity"
         }
       ]
+    },
+    {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "An iconic Mandalorian weapon.",
+      "dynamicPakId": "1019",
+      "id": "Pickaxe_ChiliAbide",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Beskar Spear",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "A six-string built for a bounty hunter.",
+      "dynamicPakId": "1019",
+      "id": "Pickaxe_ChiliAbide_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Modified Beskar Hallikset",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
     },
     {
       "added": "2022-09-18T10:05:15Z",
@@ -553156,6 +553491,41 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1019",
+      "id": "Spray_ChiliAbideFNCS",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_chiliabidefncs/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_chiliabidefncs/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_chiliabidefncs/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Menacing Mando",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ProcessNotebook",
+        "text": "Part of the The Mandalorian set.",
+        "value": "The Mandalorian"
       },
       "type": {
         "backendValue": "AthenaSpray",

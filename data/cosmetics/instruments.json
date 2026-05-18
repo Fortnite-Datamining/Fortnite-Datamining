@@ -979,6 +979,38 @@
       }
     },
     {
+      "added": "2026-05-18T16:00:58Z",
+      "description": "A six-string built for a bounty hunter.",
+      "id": "Sparks_ChiliAbide_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_chiliabide_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_chiliabide_guitar/small.png"
+      },
+      "name": "Modified Beskar Hallikset",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
       "added": "2025-11-29T20:56:33Z",
       "description": "Make 'em wanna rap.",
       "id": "Sparks_ChimeCurl_Mic",
