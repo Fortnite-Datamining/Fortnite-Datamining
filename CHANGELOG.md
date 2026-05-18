@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-18
+- **03:47** Item Shop, News - +40 new (Mariana, Lotus Star, Kaeru, Kaigara Core, Gaze, +35 more) - -35 removed
+
 ## 2026-05-17
 - **21:27** Item Shop, News, AES Keys - +1 new (Reload Elite Series - NAC - Legends Landing) - -1 removed
 - **20:12** News - +1 new (The Showdown) - -1 removed
