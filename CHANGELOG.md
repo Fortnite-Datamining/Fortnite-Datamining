@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-20
+- **01:30** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys - +29 new (Batman's Cape (Pen & Ink), Batman (Pen & Ink), Batarang Knucks, JIDO_Character_DriftFable, Luna Snow, +24 more) - -22 removed
+
 ## 2026-05-19
 - **23:02** Item Shop
 - **21:54** News - +1 new (Step Up. Stand Out.) - -1 removed

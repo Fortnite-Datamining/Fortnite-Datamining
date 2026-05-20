@@ -12837,6 +12837,64 @@
       }
     },
     {
+      "added": "2026-05-20T00:00:00Z",
+      "description": "Shroud yourself in the night.",
+      "dynamicPakId": "1012",
+      "id": "Backpack_DriftFable",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_driftfable/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_driftfable/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_driftfable/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Batman's Cape (Pen & Ink)",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "HardWing",
+        "text": "Part of the Gotham City (Pen & Ink) set.",
+        "value": "Gotham City (Pen & Ink)"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_driftfable/variants/material/mat1.png",
+              "name": "universal",
+              "tag": "Mat1"
+            }
+          ],
+          "type": "temp toggle"
+        }
+      ]
+    },
+    {
       "added": "2023-11-03T09:12:39Z",
       "description": "Protect your secrets across space and time.",
       "id": "Backpack_DriftSwat",
@@ -116153,6 +116211,55 @@
           "type": "FX"
         }
       ]
+    },
+    {
+      "added": "2026-05-20T00:00:00Z",
+      "description": "Gotham City's Dark Knight of vengeance.",
+      "dynamicPakId": "1012",
+      "id": "Character_DriftFable",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_driftfable/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_driftfable/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_driftfable/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_driftfable/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_driftfable/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Batman (Pen & Ink)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "HardWing",
+        "text": "Part of the Gotham City (Pen & Ink) set.",
+        "value": "Gotham City (Pen & Ink)"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2023-11-03T09:12:39Z",
@@ -396251,8 +396358,8 @@
       },
       "set": {
         "backendValue": "HardWing",
-        "text": "Part of the Set_03 set.",
-        "value": "Set_03"
+        "text": "Part of the Gotham City (Pen & Ink) set.",
+        "value": "Gotham City (Pen & Ink)"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -441550,8 +441657,8 @@
       },
       "set": {
         "backendValue": "HardWing",
-        "text": "Part of the Set_03 set.",
-        "value": "Set_03"
+        "text": "Part of the Gotham City (Pen & Ink) set.",
+        "value": "Gotham City (Pen & Ink)"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -452570,6 +452677,51 @@
         "backendValue": "EndlessFlow",
         "text": "Part of the Infinite Drift set.",
         "value": "Infinite Drift"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-20T00:00:00Z",
+      "description": "The Dark Knight's all-purpose tool for crime fighting.",
+      "dynamicPakId": "1012",
+      "id": "Pickaxe_DriftFable",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_driftfable/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_driftfable/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_driftfable/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Batarang Knucks",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "HardWing",
+        "text": "Part of the Gotham City (Pen & Ink) set.",
+        "value": "Gotham City (Pen & Ink)"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
