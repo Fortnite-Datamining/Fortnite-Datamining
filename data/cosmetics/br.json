@@ -277118,6 +277118,63 @@
       }
     },
     {
+      "added": "2026-05-20T13:04:28Z",
+      "description": "An explorer droid with some combat abilities.",
+      "dynamicPakId": "1024",
+      "id": "Companion_AbruptSudden",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_abruptsudden/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_abruptsudden/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_abruptsudden/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "BDX Droid",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "PaperRoll",
+        "text": "Part of the Galaxy's Edge set.",
+        "value": "Galaxy's Edge"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      },
+      "variants": [
+        {
+          "channel": "Emote",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_abruptsudden/variants/emote/companionemoteempty.png",
+              "tag": "CompanionEmoteEmpty"
+            }
+          ],
+          "type": "Sidekick Emote"
+        }
+      ]
+    },
+    {
       "added": "2026-04-30T09:17:44Z",
       "description": "Glug glug! Bark bark!",
       "id": "Companion_BandSoda",
@@ -365537,6 +365594,49 @@
         "backendValue": "PopWind",
         "text": "Part of the Ooh wee! Squanchy! set.",
         "value": "Ooh wee! Squanchy!"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-05-20T13:04:28Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1024",
+      "id": "Emoticon_AbruptSudden",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_abruptsudden/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "BD-Glee",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Star Wars Series",
+        "value": "starwars"
+      },
+      "series": {
+        "backendValue": "ColumbusSeries",
+        "colors": [
+          "ffd800ff",
+          "2555b2ff",
+          "0a1833ff",
+          "040a14ff",
+          "050500ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/columbusseries.png",
+        "value": "Star Wars Series"
+      },
+      "set": {
+        "backendValue": "PaperRoll",
+        "text": "Part of the Galaxy's Edge set.",
+        "value": "Galaxy's Edge"
       },
       "type": {
         "backendValue": "AthenaEmoji",
