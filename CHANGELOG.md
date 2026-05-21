@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-21
+- **00:08** Item Shop, News - +38 new (Victoria Saint, Skybound Longboard, Madcap, Titan, Bello Bag, +33 more) - -27 removed
+
 ## 2026-05-20
 - **16:25** BR Cosmetics, Item Shop, AES Keys - +2 new (BDX Droid, BD-Glee)
 - **01:30** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys - +29 new (Batman's Cape (Pen & Ink), Batman (Pen & Ink), Batarang Knucks, JIDO_Character_DriftFable, Luna Snow, +24 more) - -22 removed
