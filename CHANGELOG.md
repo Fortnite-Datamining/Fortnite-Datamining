@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-22
+- **17:52** News - +1 new (Community Day Rewards - May 30) - -1 removed
 - **09:26** BR Cosmetics, Item Shop, Banners
 - **01:28** BR Cosmetics, Item Shop - +23 new (Malice Wings, The Mandalorian (Pen & Ink), Verge, Grogu, Shooting Star, +18 more) - -66 removed
 
