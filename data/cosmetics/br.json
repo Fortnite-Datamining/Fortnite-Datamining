@@ -325501,6 +325501,46 @@
       }
     },
     {
+      "added": "2026-05-23T00:00:00Z",
+      "description": "Everybody wants to move like you.",
+      "dynamicPakId": "1011",
+      "id": "EID_PlayLoud",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_playloud/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_playloud/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_playloud/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "The Rakai Emote",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-09-18T13:08:36Z",
       "description": "Go beyond the stars.",
       "id": "EID_PleasedPunch",
