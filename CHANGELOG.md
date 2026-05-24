@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-24
+- **20:05** News - +1 new (Star Wars Droid Tycoon Mandalorian Event Leaving Soon) - -1 removed
 - **04:22** Item Shop - +29 new (Snapshot Pack, Caper, Star Assassin, Nike Blazer Mid '1972', Reddy Wings, +24 more) - -32 removed
 
 ## 2026-05-23
