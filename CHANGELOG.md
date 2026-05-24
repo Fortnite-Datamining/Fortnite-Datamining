@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-24
+- **04:22** Item Shop - +29 new (Snapshot Pack, Caper, Star Assassin, Nike Blazer Mid '1972', Reddy Wings, +24 more) - -32 removed
+
 ## 2026-05-23
 - **16:30** News - +1 new (The Future is Decided in Fortnite: Shattered) - -1 removed
 - **04:24** BR Cosmetics, Item Shop
