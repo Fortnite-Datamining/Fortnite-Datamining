@@ -37635,6 +37635,116 @@
       }
     },
     {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "George and Charlie protect the loot.",
+      "dynamicPakId": "1006",
+      "id": "Backpack_QuarterClasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Heist Duffel",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Not your typical backpack.",
+      "dynamicPakId": "1020",
+      "id": "Backpack_QuarterClaspJoin",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Typical Backpack",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Guff, undercover.",
+      "dynamicPakId": "1006",
+      "id": "Backpack_QuarterClaspJoin_How",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin_how/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin_how/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin_how/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Gifford Shuffle",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2022-10-18T23:49:57Z",
       "description": "The end of everything takes a little backbone.",
       "id": "Backpack_Quartz",
@@ -155003,6 +155113,239 @@
             }
           ],
           "type": "headphones"
+        }
+      ]
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Forever duo.",
+      "dynamicPakId": "1006",
+      "id": "Character_QuarterClaspJoin",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_quarterclaspjoin/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_quarterclaspjoin/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Redway Ruby",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/variants/parts/stage1.png",
+              "name": "Baseball Cap",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/variants/parts/stage2.png",
+              "name": "Cowboy Hat",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Hat"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/variants/material/mat1.png",
+              "name": "Redway Ruby",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/variants/material/mat2.png",
+              "name": "Blueway Ruby",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "style"
+        }
+      ]
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "What's up everybody!",
+      "dynamicPakId": "1006",
+      "id": "Character_QuarterClaspZoom",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_quarterclaspzoom/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_quarterclaspzoom/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Typical Gamer",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/parts/stage1.png",
+              "name": "Typical Gamer",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/parts/stage2.png",
+              "name": "Heist TG",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "style"
+        },
+        {
+          "channel": "Mesh",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/mesh/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/mesh/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        },
+        {
+          "channel": "Outfit",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/outfit/stage0.png",
+              "name": "Typical Gamer",
+              "tag": "Stage0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/outfit/stage1.png",
+              "name": "Charlie",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/outfit/stage2.png",
+              "name": "Sheriff",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/outfit/stage3.png",
+              "name": "Phantom",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "Mask"
+        },
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/particle/stage0.png",
+              "name": "white",
+              "tag": "Stage0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/particle/stage1.png",
+              "name": "Gaming Glasses",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/particle/stage2.png",
+              "name": "Off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Glasses"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/material/mat1.png",
+              "name": "Off",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/material/mat2.png",
+              "name": "On",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Headphones"
+        },
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/emissive/emissive1.png",
+              "name": "red",
+              "tag": "Emissive1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/emissive/emissive2.png",
+              "name": "blue",
+              "tag": "Emissive2"
+            }
+          ],
+          "type": "color"
         }
       ]
     },
@@ -327504,6 +327847,72 @@
       }
     },
     {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Let's get some W's in chat!",
+      "dynamicPakId": "1006",
+      "id": "EID_QuarterClaspJoin",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspjoin/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspjoin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspjoin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Go Live",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Pick a colour.",
+      "dynamicPakId": "1006",
+      "id": "EID_QuarterClaspZoom",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspzoom/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspzoom/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspzoom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Random Challenge",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2026-04-19T00:00:00Z",
       "description": "This is what you wanted.",
       "id": "EID_QuatroAir",
@@ -407993,6 +408402,41 @@
         "backendValue": "DesperateRoar",
         "text": "Part of the Ghost Face set.",
         "value": "Ghost Face"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Save the best for last.",
+      "dynamicPakId": "1006",
+      "id": "LoadingScreen_QuarterClasp",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_quarterclasp/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_quarterclasp/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_quarterclasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "The Ultimate Heist",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -508165,6 +508609,96 @@
       }
     },
     {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Smash in style.",
+      "dynamicPakId": "1006",
+      "id": "Pickaxe_QuarterClaspAbove",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspabove/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspabove/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspabove/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Stealth Breaker",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "I'm ready to slice.",
+      "dynamicPakId": "1006",
+      "id": "Pickaxe_QuarterClaspJoin",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspjoin/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspjoin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspjoin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Stealth Slicer",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2022-10-18T23:49:57Z",
       "description": "Stop the flow of reality.",
       "id": "Pickaxe_Quartz",
@@ -565542,6 +566076,41 @@
       }
     },
     {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1006",
+      "id": "Spray_QuarterClasp",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_quarterclasp/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_quarterclasp/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_quarterclasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "TG Tag",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2026-03-05T15:29:53Z",
       "description": "Leave your mark.",
       "id": "Spray_QuartzSqueak",
@@ -611450,6 +612019,51 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-05-24T21:01:00Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1006",
+      "id": "Wrap_QuarterClaspZoom",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_quarterclaspzoom/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_quarterclaspzoom/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_quarterclaspzoom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Energy Burn",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "BrightTailor",
+        "text": "Part of the Typical Gamer set.",
+        "value": "Typical Gamer"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
