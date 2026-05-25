@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-25
+- **04:45** Item Shop, News - +50 new (Envoy, Echoic Disruptor, Wallace Organization Bundle, Tiny Totem, Pick Axis, +45 more) - -23 removed
+
 ## 2026-05-24
 - **21:28** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys, Banners - +15 new (Heist Duffel, Typical Backpack, Gifford Shuffle, Redway Ruby, Typical Gamer, +10 more)
 - **20:05** News - +1 new (Star Wars Droid Tycoon Mandalorian Event Leaving Soon) - -1 removed
