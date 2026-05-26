@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-26
+- **00:06** Item Shop - +43 new (Step It Up, Spirit Tamer Harmonie, Fennec's Ship, Boba Fett, Hutt Clan Symbol, +38 more) - -50 removed
+
 ## 2026-05-25
 - **04:45** Item Shop, News - +50 new (Envoy, Echoic Disruptor, Wallace Organization Bundle, Tiny Totem, Pick Axis, +45 more) - -23 removed
 
