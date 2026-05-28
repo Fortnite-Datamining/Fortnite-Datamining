@@ -6573,7 +6573,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "A nearly-indestructible symbol of Mandalore.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Backpack_ChiliAbide",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide/featured.png",
@@ -6618,7 +6618,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "A six-string built for a bounty hunter.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Backpack_ChiliAbide_Guitar",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_chiliabide_guitar/featured.png",
@@ -12839,7 +12839,7 @@
     {
       "added": "2026-05-20T00:00:00Z",
       "description": "Shroud yourself in the night.",
-      "dynamicPakId": "1012",
+      "dynamicPakId": "1014",
       "id": "Backpack_DriftFable",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_driftfable/featured.png",
@@ -37637,7 +37637,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "George and Charlie protect the loot.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Backpack_QuarterClasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclasp/featured.png",
@@ -37682,7 +37682,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Not your typical backpack.",
-      "dynamicPakId": "1020",
+      "dynamicPakId": "1025",
       "id": "Backpack_QuarterClaspJoin",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin/icon.png",
@@ -37714,7 +37714,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Guff, undercover.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Backpack_QuarterClaspJoin_How",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_quarterclaspjoin_how/featured.png",
@@ -45095,7 +45095,7 @@
     {
       "added": "2026-05-27T00:00:00Z",
       "description": "Ready for any threat born of the Abyss' broken balance.",
-      "dynamicPakId": "1010",
+      "dynamicPakId": "1011",
       "id": "Backpack_SolveSolid",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_solvesolid/featured.png",
@@ -47555,7 +47555,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Smokey Settings.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Backpack_StuffRasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp/featured.png",
@@ -47600,7 +47600,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Yerno thaaaa",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Backpack_StuffRasp_Mic",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_stuffrasp_mic/featured.png",
@@ -108735,7 +108735,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "A bounty hunter on a new kind of mission.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Character_ChiliAbide",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_chiliabide/featured.png",
@@ -116370,7 +116370,7 @@
     {
       "added": "2026-05-20T00:00:00Z",
       "description": "Gotham City's Dark Knight of vengeance.",
-      "dynamicPakId": "1012",
+      "dynamicPakId": "1014",
       "id": "Character_DriftFable",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_driftfable/featured.png",
@@ -123162,6 +123162,135 @@
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt/variants/emissive/emissive6.png",
+              "name": "Full Power",
+              "tag": "Emissive6"
+            }
+          ],
+          "type": "visors"
+        }
+      ]
+    },
+    {
+      "added": "2026-05-28T22:47:57Z",
+      "builtInEmoteIds": [
+        "EID_FoundKelpHelm"
+      ],
+      "description": "He will lead us to victory. One of the Seven.",
+      "id": "Character_FoundKelp_Bolt_V2",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "The Foundation (Reforged)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/particle/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/particle/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/particle/stage3.png",
+              "name": "On Broken",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "Helmet"
+        },
+        {
+          "channel": "Progressive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/progressive/stage1.png",
+              "name": "The Foundation (Reforged)",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/progressive/stage2.png",
+              "name": "New Classic Foundation",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/progressive/stage3.png",
+              "name": "Frost-Ready Foundation",
+              "tag": "Stage3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/progressive/stage4.png",
+              "name": "Stealth Tech Foundation",
+              "tag": "Stage4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/progressive/stage6.png",
+              "name": "Ice-Touched Foundation",
+              "tag": "Stage6"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/progressive/stage5.png",
+              "name": "Icebreaker Foundation",
+              "tag": "Stage5"
+            }
+          ],
+          "type": "Style"
+        },
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/emissive/emissive1.png",
+              "name": "At Ease",
+              "tag": "Emissive1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/emissive/emissive2.png",
+              "name": "Combat Elite",
+              "tag": "Emissive2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/emissive/emissive3.png",
+              "name": "Target Locked",
+              "tag": "Emissive3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/emissive/emissive4.png",
+              "name": "Battle Ready",
+              "tag": "Emissive4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/emissive/emissive5.png",
+              "name": "Action Check",
+              "tag": "Emissive5"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_foundkelp_bolt_v2/variants/emissive/emissive6.png",
               "name": "Full Power",
               "tag": "Emissive6"
             }
@@ -155163,7 +155292,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Forever duo.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Character_QuarterClaspJoin",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspjoin/featured.png",
@@ -155234,7 +155363,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "What's up everybody!",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Character_QuarterClaspZoom",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/featured.png",
@@ -155380,12 +155509,12 @@
           "options": [
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/emissive/emissive1.png",
-              "name": "red",
+              "name": "zoom",
               "tag": "Emissive1"
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_quarterclaspzoom/variants/emissive/emissive2.png",
-              "name": "blue",
+              "name": "how",
               "tag": "Emissive2"
             }
           ],
@@ -169460,7 +169589,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Young, lit and handsome.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Character_StuffRasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_stuffrasp/featured.png",
@@ -277508,7 +277637,7 @@
     {
       "added": "2026-05-20T13:04:28Z",
       "description": "An explorer droid with some combat abilities.",
-      "dynamicPakId": "1024",
+      "dynamicPakId": "1029",
       "id": "Companion_AbruptSudden",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/companion_abruptsudden/featured.png",
@@ -278531,7 +278660,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Canine crew.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Companion_PolarBlind",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/companion_polarblind/icon.png",
@@ -293392,7 +293521,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "Hitch a ride on the Empire's dime.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "EID_ChiliAbide",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_chiliabide/featured.png",
@@ -311197,7 +311326,7 @@
     {
       "added": "2026-05-15T00:00:00Z",
       "description": "Keep it low.",
-      "dynamicPakId": "1009",
+      "dynamicPakId": "1010",
       "id": "EID_HoopDreams",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_hoopdreams/featured.png",
@@ -325890,7 +326019,7 @@
     {
       "added": "2026-05-23T00:00:00Z",
       "description": "Everybody wants to move like you.",
-      "dynamicPakId": "1011",
+      "dynamicPakId": "1013",
       "id": "EID_PlayLoud",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_playloud/featured.png",
@@ -327893,7 +328022,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Let's get some W's in chat!",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "EID_QuarterClaspJoin",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspjoin/featured.png",
@@ -327926,7 +328055,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Pick a colour.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "EID_QuarterClaspZoom",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_quarterclaspzoom/featured.png",
@@ -338005,7 +338134,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "What is says on the tin La.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "EID_StuffRasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/eid_stuffrasp/featured.png",
@@ -342204,7 +342333,7 @@
     {
       "added": "2026-05-14T14:00:20Z",
       "description": "Show off your star power.",
-      "dynamicPakId": "1025",
+      "dynamicPakId": "1030",
       "id": "EID_TouchLine",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_touchline/icon.png",
@@ -366101,7 +366230,7 @@
     {
       "added": "2026-05-20T13:04:28Z",
       "description": "Express yourself on the battlefield.",
-      "dynamicPakId": "1024",
+      "dynamicPakId": "1029",
       "id": "Emoticon_AbruptSudden",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_abruptsudden/smallicon.png"
@@ -366527,7 +366656,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "Express yourself on the battlefield.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Emoticon_ChiliAbideFNCS",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_chiliabidefncs/smallicon.png"
@@ -367829,7 +367958,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t01",
+      "id": "Emoticon_MetricSpoon_T01",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t01/smallicon.png"
       },
@@ -367879,7 +368008,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T03",
+      "id": "emoticon_metricspoon_t03",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t03/smallicon.png"
       },
@@ -367904,7 +368033,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t04",
+      "id": "Emoticon_MetricSpoon_T04",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t04/smallicon.png"
       },
@@ -367929,7 +368058,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t05",
+      "id": "Emoticon_MetricSpoon_T05",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t05/smallicon.png"
       },
@@ -368004,7 +368133,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t08",
+      "id": "Emoticon_MetricSpoon_T08",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t08/smallicon.png"
       },
@@ -368029,7 +368158,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T09",
+      "id": "emoticon_metricspoon_t09",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t09/smallicon.png"
       },
@@ -368054,7 +368183,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t10",
+      "id": "Emoticon_MetricSpoon_T10",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t10/smallicon.png"
       },
@@ -368179,7 +368308,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t15",
+      "id": "Emoticon_MetricSpoon_T15",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t15/smallicon.png"
       },
@@ -368204,7 +368333,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T16",
+      "id": "emoticon_metricspoon_t16",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t16/smallicon.png"
       },
@@ -368279,7 +368408,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T19",
+      "id": "emoticon_metricspoon_t19",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t19/smallicon.png"
       },
@@ -370134,7 +370263,7 @@
     {
       "added": "2026-05-27T00:00:00Z",
       "description": "Express yourself on the battlefield.",
-      "dynamicPakId": "1010",
+      "dynamicPakId": "1011",
       "id": "Emoticon_SolveSolid",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_solvesolid/smallicon.png"
@@ -398873,7 +399002,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "A patch of peace in a warring galaxy.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "LoadingScreen_ChiliAbide",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_chiliabide/icon.png",
@@ -408498,7 +408627,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Save the best for last.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "LoadingScreen_QuarterClasp",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_quarterclasp/icon.png",
@@ -414566,7 +414695,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Lord of the hounds.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "LoadingScreen_StuffRaspKeyArt",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_stuffraspkeyart/icon.png",
@@ -447945,7 +448074,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "An iconic Mandalorian weapon.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Pickaxe_ChiliAbide",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide/featured.png",
@@ -447990,7 +448119,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "A six-string built for a bounty hunter.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Pickaxe_ChiliAbide_Guitar",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chiliabide_guitar/featured.png",
@@ -453361,7 +453490,7 @@
     {
       "added": "2026-05-20T00:00:00Z",
       "description": "The Dark Knight's all-purpose tool for crime fighting.",
-      "dynamicPakId": "1012",
+      "dynamicPakId": "1014",
       "id": "Pickaxe_DriftFable",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_driftfable/featured.png",
@@ -508697,7 +508826,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Smash in style.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Pickaxe_QuarterClaspAbove",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspabove/featured.png",
@@ -508742,7 +508871,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "I'm ready to slice.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Pickaxe_QuarterClaspJoin",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_quarterclaspjoin/featured.png",
@@ -516036,7 +516165,7 @@
     {
       "added": "2026-05-27T00:00:00Z",
       "description": "Wielded with a warrior's power, carried with a Greymane's honor.",
-      "dynamicPakId": "1010",
+      "dynamicPakId": "1011",
       "id": "Pickaxe_SolveSolid",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_solvesolid/featured.png",
@@ -518383,7 +518512,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Throw down the gauntlet.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Pickaxe_StuffRasp",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp/icon.png",
@@ -518444,7 +518573,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Yerno thaaaa",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Pickaxe_StuffRasp_Mic",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_stuffrasp_mic/icon.png",
@@ -525918,7 +526047,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_BetaThrewFocus",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_betathrewfocus/featured.png",
@@ -525951,7 +526080,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_BetaThrewGear",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_betathrewgear/featured.png",
@@ -525984,7 +526113,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_BetaThrewRegal",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_betathrewregal/featured.png",
@@ -528306,7 +528435,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_ExtraTerrestrial",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_extraterrestrial/featured.png",
@@ -529659,7 +529788,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_HeavyPlunge",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_heavyplunge/featured.png",
@@ -533054,7 +533183,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_RuralPumpTeeth",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_ruralpumpteeth/featured.png",
@@ -533407,7 +533536,7 @@
     {
       "added": "2026-05-16T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1008",
+      "dynamicPakId": "1009",
       "id": "Shoes_SoleVapor",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_solevapor/featured.png",
@@ -554461,7 +554590,7 @@
     {
       "added": "2026-05-18T16:00:58Z",
       "description": "Leave your mark.",
-      "dynamicPakId": "1019",
+      "dynamicPakId": "1023",
       "id": "Spray_ChiliAbideFNCS",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/spray_chiliabidefncs/icon.png",
@@ -566208,7 +566337,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Leave your mark.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Spray_QuarterClasp",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/spray_quarterclasp/icon.png",
@@ -571477,7 +571606,7 @@
     {
       "added": "2026-05-27T00:00:00Z",
       "description": "Leave your mark.",
-      "dynamicPakId": "1010",
+      "dynamicPakId": "1011",
       "id": "Spray_SolveSolid",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/spray_solvesolid/icon.png",
@@ -581060,6 +581189,52 @@
         "displayValue": "Glider",
         "value": "glider"
       }
+    },
+    {
+      "added": "2026-05-28T22:47:57Z",
+      "description": "Squad up, together. ",
+      "id": "Umbrella_MatteBlack",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/umbrella_matteblack/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/umbrella_matteblack/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Community 'Brella",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "searchTags": [
+        "Umbrella"
+      ],
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/umbrella_matteblack/variants/material/mat1.png",
+              "name": "Community 'Brella",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/umbrella_matteblack/variants/material/mat2.png",
+              "name": "Prime (May 30)",
+              "tag": "Mat2"
+            }
+          ]
+        }
+      ]
     },
     {
       "added": "2023-02-14T10:24:42Z",
@@ -612205,7 +612380,7 @@
     {
       "added": "2026-05-24T21:01:00Z",
       "description": "Show your style.",
-      "dynamicPakId": "1006",
+      "dynamicPakId": "1007",
       "id": "Wrap_QuarterClaspZoom",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_quarterclaspzoom/featured.png",
@@ -616346,7 +616521,7 @@
     {
       "added": "2026-05-15T13:01:18Z",
       "description": "Show your style.",
-      "dynamicPakId": "1013",
+      "dynamicPakId": "1015",
       "id": "Wrap_StuffRasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_stuffrasp/featured.png",
