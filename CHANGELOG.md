@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-29
+- **22:12** News - +1 new (The Showdown) - -1 removed
 - **17:33** News - +1 new (Live - FNCS Major 1 Summit) - -1 removed
 - **13:44** Cars, Item Shop, AES Keys - +6 new (GMC Sierra 2500 AT4X, Professional Gray, Off-Road, Urban Camo, GMC Sierra 2500 AT4X, +1 more)
 - **06:14** Item Shop
