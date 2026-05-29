@@ -454,6 +454,27 @@
       "vehicleId": "VCID_Body_Claw"
     },
     {
+      "added": "2026-05-29T13:00:26Z",
+      "description": "For the road less taken, or when there is no road.",
+      "id": "CarBody_CondorMotor",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_condormotor/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_condormotor/small.png"
+      },
+      "name": "GMC Sierra 2500 AT4X",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_CondorMotor"
+    },
+    {
       "added": "2025-06-18T09:05:14Z",
       "description": "Its time has come.",
       "id": "CarBody_Crikey",
@@ -5933,6 +5954,69 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_ClawWheelman"
+    },
+    {
+      "added": "2026-05-29T13:00:26Z",
+      "description": "Sleek as a shadow. GMC Sierra 2500 AT4X custom decal.",
+      "id": "CarSkin_CondorMotorLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery01/small.png"
+      },
+      "name": "Professional Gray",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CondorMotorLivery01"
+    },
+    {
+      "added": "2026-05-29T13:00:26Z",
+      "description": "No road is off-limits. GMC Sierra 2500 AT4X custom decal.",
+      "id": "CarSkin_CondorMotorLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery02/small.png"
+      },
+      "name": "Off-Road",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CondorMotorLivery02"
+    },
+    {
+      "added": "2026-05-29T13:00:26Z",
+      "description": "No road is off-limits. GMC Sierra 2500 AT4X custom decal.",
+      "id": "CarSkin_CondorMotorLivery03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery03/small.png"
+      },
+      "name": "Urban Camo",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CondorMotorLivery03"
     },
     {
       "added": "2025-06-18T09:05:14Z",
@@ -28428,6 +28512,48 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Claw"
+    },
+    {
+      "added": "2026-05-29T13:00:26Z",
+      "description": "Absolutely gripping.",
+      "id": "Wheel_CondorMotor01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_condormotor01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_condormotor01/small.png"
+      },
+      "name": "GMC Sierra 2500 AT4X",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_CondorMotor01"
+    },
+    {
+      "added": "2026-05-29T13:00:26Z",
+      "description": "Time for a mud bath.",
+      "id": "Wheel_CondorMotor02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_condormotor02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_condormotor02/small.png"
+      },
+      "name": "GMC Sierra 2500 AT4X (Off-Road)",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_CondorMotor02"
     },
     {
       "added": "2024-12-01T03:57:20Z",
