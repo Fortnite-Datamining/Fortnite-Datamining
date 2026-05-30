@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-30
+- **03:30** Item Shop - +54 new (Bear Brained, Toon Meowscles, Brilliant Bomber, Indigo Kama, Ghoul Trooper, +49 more) - -31 removed
+
 ## 2026-05-29
 - **22:12** News - +1 new (The Showdown) - -1 removed
 - **17:33** News - +1 new (Live - FNCS Major 1 Summit) - -1 removed
