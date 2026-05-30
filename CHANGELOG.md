@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-30
+- **20:09** News - +2 new (Star Wars Droid Tycoon Limited-Time Event, The Future is Decided in Fortnite: Shattered) - -2 removed
 - **15:46** News - +2 new (Settle the Score, The Showdown) - -2 removed
 - **14:13** News - +2 new (Live - FNCS Major 1 Summit, Community Day Is Live Now) - -2 removed
 - **12:06** BR Cosmetics, Item Shop
