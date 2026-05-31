@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-31
+- **21:31** Item Shop, Playlists, Banners - +1026 new (CREATIVE MATCHMAKING, Reload - Zero Build Squads, Blitz Royale - Six Stack, Blitz Royale - Six Stack (Pure Chaos), Blitz Royale - Duo, +1021 more)
 - **20:09** News - +2 new (The Showdown, Runners Drop In on June 6) - -2 removed
 - **14:17** News - +2 new (Live - FNCS Major 1 Summit, Star Wars Droid Tycoon Limited-Time Event) - -2 removed
 - **05:01** News - +1 new (The Showdown) - -1 removed
