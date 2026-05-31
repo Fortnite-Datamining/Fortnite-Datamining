@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-31
+- **20:09** News - +2 new (The Showdown, Runners Drop In on June 6) - -2 removed
 - **14:17** News - +2 new (Live - FNCS Major 1 Summit, Star Wars Droid Tycoon Limited-Time Event) - -2 removed
 - **05:01** News - +1 new (The Showdown) - -1 removed
 - **00:09** Item Shop - +55 new (Barrier Breaker, My World, Oathbound Royalty Bundle, ISuperSpeed, Rosalind's Rose Bag, +50 more) - -39 removed
