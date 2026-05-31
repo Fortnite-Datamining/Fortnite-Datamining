@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-05-31
+- **05:01** News - +1 new (The Showdown) - -1 removed
 - **00:09** Item Shop - +55 new (Barrier Breaker, My World, Oathbound Royalty Bundle, ISuperSpeed, Rosalind's Rose Bag, +50 more) - -39 removed
 
 ## 2026-05-30
