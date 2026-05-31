@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-05-31
+- **00:09** Item Shop - +55 new (Barrier Breaker, My World, Oathbound Royalty Bundle, ISuperSpeed, Rosalind's Rose Bag, +50 more) - -39 removed
+
 ## 2026-05-30
 - **20:09** News - +2 new (Star Wars Droid Tycoon Limited-Time Event, The Future is Decided in Fortnite: Shattered) - -2 removed
 - **15:46** News - +2 new (Settle the Score, The Showdown) - -2 removed
