@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-06-01
+- **01:38** Item Shop - +34 new (Vibrodagger & Personal Shield, Snow Striker, Alias, Beskar Forge, Arctic Intel, +29 more) - -43 removed
+
 ## 2026-05-31
 - **21:31** Item Shop, Playlists, Banners - +1026 new (CREATIVE MATCHMAKING, Reload - Zero Build Squads, Blitz Royale - Six Stack, Blitz Royale - Six Stack (Pure Chaos), Blitz Royale - Duo, +1021 more)
 - **20:09** News - +2 new (The Showdown, Runners Drop In on June 6) - -2 removed
