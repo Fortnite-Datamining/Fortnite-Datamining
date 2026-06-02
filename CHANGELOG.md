@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-06-02
+- **22:33** News - +1 new (Runners Drop In on June 6) - -1 removed
 - **04:04** Item Shop - +51 new (TiK ToK, Leelah, Tahna, Gogo Yubari Bundle, Siren, +46 more) - -71 removed
 
 ## 2026-06-01
