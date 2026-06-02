@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-06-02
+- **04:04** Item Shop - +51 new (TiK ToK, Leelah, Tahna, Gogo Yubari Bundle, Siren, +46 more) - -71 removed
+
 ## 2026-06-01
 - **23:50** Item Shop
 - **01:38** Item Shop - +34 new (Vibrodagger & Personal Shield, Snow Striker, Alias, Beskar Forge, Arctic Intel, +29 more) - -43 removed
