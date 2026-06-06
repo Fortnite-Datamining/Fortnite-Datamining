@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-06-06
+- **00:06** Item Shop, News, AES Keys - +3 new (The Showdown Begins Now!, The Showdown, Earn Battle Pass Rewards Before the Season Ends) - -3 removed
+
 ## 2026-06-05
 - **22:42** Item Shop, News - +4 new (Get More With V-Bucks, Go Live Emote, GMC Sierra Denali, FIGHT THE BRAINROT) - -4 removed
 - **21:07** News - +1 new (Typical Gamer Outfit) - -1 removed
