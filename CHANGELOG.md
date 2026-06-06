@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-06-06
+- **07:45** News - +2 new (Fortnite: Runners Is Here!, Baba Yaga Hits the Scene) - -2 removed
 - **04:36** Build update: `++Fortnite+Release-41.00-CL-54618515`
 - **00:06** Item Shop, News, AES Keys - +3 new (The Showdown Begins Now!, The Showdown, Earn Battle Pass Rewards Before the Season Ends) - -3 removed
 
