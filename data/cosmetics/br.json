@@ -37297,6 +37297,57 @@
       }
     },
     {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "A truly evil cape.",
+      "dynamicPakId": "1024",
+      "id": "Backpack_PrismGlee",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_prismglee/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_prismglee/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_prismglee/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Skeletor's Cape",
+      "rarity": {
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "Legendary",
+        "value": "legendary"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_prismglee/variants/material/mat1.png",
+              "name": "Cel",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_prismglee/variants/material/mat2.png",
+              "name": "Gradient",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "style"
+        }
+      ]
+    },
+    {
       "added": "2024-02-22T11:00:40Z",
       "description": "Fashion-grade BluGlonium.",
       "id": "Backpack_PrismParticle",
@@ -39651,6 +39702,127 @@
         "displayValue": "Back Bling",
         "value": "backpack"
       }
+    },
+    {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "You have the power.",
+      "dynamicPakId": "1024",
+      "id": "Backpack_RebelTempo",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.RebelTempo"
+      ],
+      "name": "Power Scabbard",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/variants/parts/stage1.png",
+              "name": "Power Sword",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/variants/parts/stage2.png",
+              "name": "Power Axe",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "style"
+        },
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/variants/particle/particle1.png",
+              "name": "cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo/variants/particle/particle2.png",
+              "name": "gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Shader"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "I have the BACKBEAT!",
+      "dynamicPakId": "1024",
+      "id": "Backpack_RebelTempo_DrumStick",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo_drumstick/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo_drumstick/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo_drumstick/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Sticks of Eternia",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo_drumstick/variants/material/mat0.png",
+              "name": "Cel",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_rebeltempo_drumstick/variants/material/mat1.png",
+              "name": "Gradient",
+              "tag": "Mat1"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2023-09-12T08:00:00Z",
@@ -52126,6 +52298,60 @@
         "displayValue": "Back Bling",
         "value": "backpack"
       }
+    },
+    {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "Stand in your power.",
+      "dynamicPakId": "1024",
+      "id": "Backpack_TrickCrateCape",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_trickcratecape/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_trickcratecape/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_trickcratecape/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.Metatags.TrickCrate"
+      ],
+      "name": "She-Ra's Cape",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_trickcratecape/variants/material/mat1.png",
+              "name": "Cel",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_trickcratecape/variants/material/mat2.png",
+              "name": "Gradient",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2025-04-08T08:41:18Z",
@@ -157395,6 +157621,57 @@
       }
     },
     {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "By the Power of Grayskull!",
+      "dynamicPakId": "1024",
+      "id": "Character_RebelTempo",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_rebeltempo/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_rebeltempo/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_rebeltempo/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "He-Man",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_rebeltempo/variants/material/mat1.png",
+              "name": "Cel",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_rebeltempo/variants/material/mat2.png",
+              "name": "Gradient",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "style"
+        }
+      ]
+    },
+    {
       "added": "2022-11-01T13:50:36Z",
       "description": "Know your surroundings. Secure the win.",
       "id": "Character_ReconExpert_FNCS",
@@ -177340,6 +177617,55 @@
             }
           ],
           "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "For the Honor of Grayskull!",
+      "dynamicPakId": "1024",
+      "id": "Character_TrickCrate",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_trickcrate/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_trickcrate/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_trickcrate/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.Metatags.TrickCrate"
+      ],
+      "name": "She-Ra",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_trickcrate/variants/parts/stage1.png",
+              "name": "cel",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_trickcrate/variants/parts/stage2.png",
+              "name": "gradient",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "style"
         }
       ]
     },
@@ -327321,6 +327647,39 @@
       }
     },
     {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "Oh, why do I surround myself with fools?",
+      "dynamicPakId": "1024",
+      "id": "EID_PrismGlee",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_prismglee/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_prismglee/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_prismglee/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Seat of Defeat",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2023-10-24T00:00:00Z",
       "description": "Travel on clawfoot.",
       "id": "EID_PrivateJet",
@@ -329328,6 +329687,39 @@
         "value": "Storm Scavenger Lynx"
       },
       "showcaseVideo": "fqU0GxhXveA",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "Reveal a fabulous secret power.",
+      "dynamicPakId": "1024",
+      "id": "EID_RebelTempo",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_rebeltempo/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_rebeltempo/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_rebeltempo/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Laugh of Power",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -511679,6 +512071,127 @@
       }
     },
     {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "Wield your power.",
+      "dynamicPakId": "1024",
+      "id": "Pickaxe_RebelTempo",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.RebelTempo"
+      ],
+      "name": "He-Man's Weaponry",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Mesh",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/variants/mesh/stage1.png",
+              "name": "Power Sword",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/variants/mesh/stage2.png",
+              "name": "Power Axe",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
+        },
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/variants/particle/particle1.png",
+              "name": "cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Shader"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "I have the BACKBEAT!",
+      "dynamicPakId": "1024",
+      "id": "Pickaxe_RebelTempo_DrumStick",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo_drumstick/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo_drumstick/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo_drumstick/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Sticks of Eternia",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo_drumstick/variants/particle/particle1.png",
+              "name": "Cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rebeltempo_drumstick/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2023-09-12T08:00:00Z",
       "description": "A very melty slasher.",
       "id": "Pickaxe_RecordScratch",
@@ -523004,6 +523517,57 @@
       }
     },
     {
+      "added": "2026-06-06T13:01:18Z",
+      "description": "Defend the Crystal Castle.",
+      "dynamicPakId": "1024",
+      "id": "Pickaxe_TrickCrate",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trickcrate/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trickcrate/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trickcrate/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Sword of Protection",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GearSoap",
+        "text": "Part of the Set_05 set.",
+        "value": "Set_05"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trickcrate/variants/particle/particle1.png",
+              "name": "Cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trickcrate/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Shader"
+        }
+      ]
+    },
+    {
       "added": "2025-04-08T08:41:18Z",
       "description": "This dino's a little hungry...",
       "id": "Pickaxe_TrickyDino",
@@ -528340,6 +528904,39 @@
       }
     },
     {
+      "added": "2026-06-06T12:51:15Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1019",
+      "id": "Shoes_ClerkDiffer",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_clerkdiffer/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_clerkdiffer/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_clerkdiffer/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Crocs Roy ‘Chrome’",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "WateryLeaves",
+        "text": "Part of the Crocs Shoes set.",
+        "value": "Crocs Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2024-11-21T21:02:17Z",
       "description": "Show 'em off.",
       "id": "Shoes_CleverBite",
@@ -528848,6 +529445,39 @@
         "backendValue": "TealChicken",
         "text": "Part of the adidas Shoes set.",
         "value": "adidas Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-06-06T12:51:15Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1019",
+      "id": "Shoes_DentistBind",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_dentistbind/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_dentistbind/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_dentistbind/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Converse Chuck Taylor ‘Golden Palm’",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "AppleMat",
+        "text": "Part of the Converse Shoes set.",
+        "value": "Converse Shoes"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -529986,6 +530616,34 @@
         "backendValue": "UnmarkedLeather",
         "text": "Part of the NIKE Shoes set.",
         "value": "NIKE Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-06-06T12:51:15Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1019",
+      "id": "Shoes_FuzzyRaider",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_fuzzyraider/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_fuzzyraider/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_fuzzyraider/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Guff Grippers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -533527,6 +534185,39 @@
       }
     },
     {
+      "added": "2026-06-06T12:51:15Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1019",
+      "id": "Shoes_PuttyChangeBegun",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_puttychangebegun/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_puttychangebegun/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_puttychangebegun/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "PUMA King Indoor ‘Black/Warm White’",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "FastCrane",
+        "text": "Part of the PUMA Shoes set.",
+        "value": "PUMA Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2025-10-04T03:58:20Z",
       "description": "Show 'em off.",
       "id": "Shoes_QuillJaxBrash",
@@ -536855,6 +537546,38 @@
         "backendValue": "AppleMat",
         "text": "Part of the Converse Shoes set.",
         "value": "Converse Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-06-06T12:51:15Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1019",
+      "id": "Shoes_VoyagerCuboid",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_voyagercuboid/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_voyagercuboid/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Dark Cubic Sneakers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GlacierRoll",
+        "text": "Part of the Voyager's Chaos set.",
+        "value": "Voyager's Chaos"
       },
       "type": {
         "backendValue": "CosmeticShoes",
