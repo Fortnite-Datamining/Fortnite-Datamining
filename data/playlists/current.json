@@ -1065,6 +1065,38 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode squads",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Playlist.Squad",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.BlastBerry.Squad",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.PunchBerry",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.CakePen"
+      ],
+      "id": "Playlist_CakePenSquad",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 40,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 4,
+      "maxTeams": 40,
+      "minPlayers": -1,
+      "name": "Reload - Squads",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerry/Content/Playlists/Events/Playlist_CakePenSquad",
+      "ratingType": "blastberry_build"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2023-07-29T05:32:35Z",
       "description": "CREATIVE MATCHMAKING",
       "gameType": "EFortGameType::CreativeLTM",
@@ -1133,7 +1165,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.DashBerry"
+        "Athena.Playlist.DashBerry",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_DashBerryNoBuildDuo",
       "isDefault": true,
@@ -1165,7 +1199,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.DashBerry"
+        "Athena.Playlist.DashBerry",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_DashBerryNoBuildSolo",
       "isDefault": true,
@@ -1197,7 +1233,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.DashBerry"
+        "Athena.Playlist.DashBerry",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_DashBerryNoBuildSquad",
       "isDefault": true,
@@ -6040,6 +6078,39 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.IsALargeTeamMode",
+        "Athena.Playlist.BountiesOff",
+        "LoadingScreen.IsForPreview",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Playlist.Core",
+        "SpecialEvent.SkyMango",
+        "SkyMango",
+        "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
+        "Athena.Accolade.Exclude.FirstLanding",
+        "Athena.Accolade.Exclude.ReachedNewCircle",
+        "Athena.Playlist.SpecialEvent.SkyMango",
+        "Behavior.Playlist.UseTimeSlicedWorldReady",
+        "Product.SkyMango"
+      ],
+      "id": "Playlist_EventSandbox",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 24,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 24,
+      "maxTeams": 2,
+      "minPlayers": 1,
+      "name": "[PH] Event Sandbox",
+      "path": "FortniteGame/Plugins/GameFeatures/SpecialEvent/PreEventSandbox/Content/Playlist/Playlist_EventSandbox"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2025-11-20T17:18:55Z",
       "description": "Testing An Event",
       "gameType": "EFortGameType::BRLTM",
@@ -6179,6 +6250,36 @@
       "path": "FortniteGame/Plugins/GameFeatures/Figment/FigmentPlaylists/Content/Playlists/LTM/Playlist_Figment_CloseEncounters",
       "ratingType": "fun",
       "subName": "Solo"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Group up and outlast all of the other squads gunning for victory.",
+      "gameType": "EFortGameType::Figment",
+      "gameplayTags": [
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Figment",
+        "Product.Figment.Build",
+        "Athena.Playlist.Squad",
+        "Plugin.Playlist.Exclude.BattleRoyaleGameUI"
+      ],
+      "id": "Playlist_Figment_Doofy",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 32,
+      "maxSquadSize": 4,
+      "maxSquads": -1,
+      "maxTeamSize": 4,
+      "maxTeams": 100,
+      "minPlayers": -1,
+      "name": "Squads",
+      "path": "FortniteGame/Plugins/GameFeatures/Figment/FigmentPlaylists/Content/Playlists/Events/Playlist_Figment_Doofy",
+      "ratingType": "fun",
+      "subName": "Squads"
     },
     {
       "accumulateToProfileStats": false,
@@ -6781,7 +6882,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.Duo",
         "Athena.Playlist.ForbiddenFruit.NoBuildDuo",
-        "Athena.Playlist.ForbiddenFruit.CalmSambucus"
+        "Athena.Playlist.ForbiddenFruit.CalmSambucus",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_CalmSambucusBRDuo",
       "isDefault": true,
@@ -6814,7 +6916,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildSolo",
         "Athena.Playlist.ForbiddenFruit.BRLoot",
         "LoadingScreen.IsForPreview",
-        "Athena.Playlist.ForbiddenFruit.CalmSambucus"
+        "Athena.Playlist.ForbiddenFruit.CalmSambucus",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_CalmSambucusBRSolo",
       "isDefault": true,
@@ -6847,7 +6950,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.ForbiddenFruit.CalmSambucus",
-        "Athena.Playlist.Squad"
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_CalmSambucusBRSquad",
       "isDefault": true,
@@ -6880,7 +6984,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.ForbiddenFruit.CalmSambucus",
         "Athena.Playlist.SixStack",
-        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack"
+        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_CalmSambucusBRStack",
       "isDefault": true,
@@ -6913,7 +7018,9 @@
         "Product.ForbiddenFruit.NoBuild.PureChaos",
         "Athena.Playlist.ForbiddenFruit.CalmSambucus",
         "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
-        "Athena.Playlist.SixStack"
+        "Athena.Playlist.SixStack",
+        "Athena.Playlist.TrapsInNoBuild",
+        "Product.ForbiddenFruit.NoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_CalmSambucusBRStackPC",
       "isDefault": true,
@@ -6946,7 +7053,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.Duo",
         "Athena.Playlist.ForbiddenFruit.NoBuildDuo",
-        "Athena.Playlist.ForbiddenFruit.PlunderFlop"
+        "Athena.Playlist.ForbiddenFruit.PlunderFlop",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_PlunderFlopBRDuo",
       "isDefault": true,
@@ -6979,7 +7087,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildSolo",
         "Athena.Playlist.ForbiddenFruit.BRLoot",
         "LoadingScreen.IsForPreview",
-        "Athena.Playlist.ForbiddenFruit.PlunderFlop"
+        "Athena.Playlist.ForbiddenFruit.PlunderFlop",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_PlunderFlopBRSolo",
       "isDefault": true,
@@ -7012,7 +7121,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.ForbiddenFruit.PlunderFlop",
-        "Athena.Playlist.Squad"
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_PlunderFlopBRSquad",
       "isDefault": true,
@@ -7045,7 +7155,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.ForbiddenFruit.NoBuildTrio",
         "Athena.Playlist.ForbiddenFruit.PlunderFlop",
-        "Athena.Playlist.Squad"
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_PlunderFlopBRStack",
       "isDefault": true,
@@ -7078,7 +7189,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildTrio",
         "Product.ForbiddenFruit.NoBuild.PureChaos",
         "Athena.Playlist.ForbiddenFruit.PlunderFlop",
-        "Athena.Playlist.Squad"
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_PlunderFlopBRStackPC",
       "isDefault": true,
@@ -7112,7 +7224,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildDuo",
         "Athena.Playlist.ForbiddenFruit.TensePotato",
         "Product.ForbiddenFruit.TensePotato",
-        "Product.ForbiddenFruit.NoBuild"
+        "Product.ForbiddenFruit.NoBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_TensePotatoBRDuo",
       "isDefault": true,
@@ -7146,7 +7259,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.ForbiddenFruit.TensePotato",
         "Product.ForbiddenFruit.TensePotato",
-        "Product.ForbiddenFruit.NoBuild"
+        "Product.ForbiddenFruit.NoBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_TensePotatoBRSolo",
       "isDefault": true,
@@ -7180,7 +7294,8 @@
         "Athena.Playlist.ForbiddenFruit.TensePotato",
         "Product.ForbiddenFruit.TensePotato",
         "Product.ForbiddenFruit.NoBuild",
-        "Athena.Playlist.Squad"
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_TensePotatoBRSquad",
       "isDefault": true,
@@ -7214,7 +7329,8 @@
         "Product.ForbiddenFruit.TensePotato",
         "Product.ForbiddenFruit.NoBuild",
         "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
-        "Athena.Playlist.SixStack"
+        "Athena.Playlist.SixStack",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_TensePotatoBRStack",
       "isDefault": true,
@@ -7248,7 +7364,8 @@
         "Product.ForbiddenFruit.TensePotato",
         "Product.ForbiddenFruit.NoBuild",
         "Athena.Playlist.SixStack",
-        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack"
+        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruit_TensePotatoBRStackPC",
       "isDefault": true,
@@ -7281,7 +7398,8 @@
         "Athena.Playlist.ForbiddenFruit.BRLoot",
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.Duo",
-        "Athena.Playlist.ForbiddenFruit.NoBuildDuo"
+        "Athena.Playlist.ForbiddenFruit.NoBuildDuo",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitNoBuildBRDuo",
       "isDefault": true,
@@ -7314,7 +7432,8 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.ForbiddenFruit.NoBuildSolo",
         "Athena.Playlist.ForbiddenFruit.BRLoot",
-        "LoadingScreen.IsForPreview"
+        "LoadingScreen.IsForPreview",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitNoBuildBRSolo",
       "isDefault": true,
@@ -7347,7 +7466,8 @@
         "Athena.Playlist.ForbiddenFruit.BRLoot",
         "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
         "LoadingScreen.IsForPreview",
-        "Athena.Playlist.Squad"
+        "Athena.Playlist.Squad",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitNoBuildBRSquad",
       "isDefault": true,
@@ -7380,7 +7500,8 @@
         "Athena.Playlist.ForbiddenFruit.BRLoot",
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.SixStack",
-        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack"
+        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitNoBuildBRStack",
       "isDefault": true,
@@ -7413,7 +7534,8 @@
         "LoadingScreen.IsForPreview",
         "Product.ForbiddenFruit.NoBuild.PureChaos",
         "Athena.Playlist.SixStack",
-        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack"
+        "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitNoBuildBRStackPC",
       "isDefault": true,
@@ -7446,7 +7568,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.Duo",
         "Athena.Playlist.ForbiddenFruit.NoBuildDuo",
-        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitOldNoBuildBRDuo",
       "isDefault": true,
@@ -7479,7 +7602,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildSolo",
         "Athena.Playlist.ForbiddenFruit.BRLoot",
         "LoadingScreen.IsForPreview",
-        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitOldNoBuildBRSolo",
       "isDefault": true,
@@ -7512,7 +7636,8 @@
         "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.Squad",
-        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitOldNoBuildBRSquad",
       "isDefault": true,
@@ -7545,7 +7670,8 @@
         "LoadingScreen.IsForPreview",
         "Athena.Playlist.SixStack",
         "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
-        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitOldNoBuildBRStack",
       "isDefault": true,
@@ -7578,7 +7704,8 @@
         "Product.ForbiddenFruit.NoBuild.PureChaos",
         "Athena.Playlist.SixStack",
         "Athena.Playlist.ForbiddenFruit.NoBuildSixStack",
-        "Athena.Playlist.ForbiddenFruit.BlastBerryOld"
+        "Athena.Playlist.ForbiddenFruit.BlastBerryOld",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_ForbiddenFruitOldNoBuildBRStackPC",
       "isDefault": true,
@@ -7996,7 +8123,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.NoBuildingMaterials",
-        "Product.BR.BlastBerry.Habanero"
+        "Product.BR.BlastBerry.Habanero",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_DashBerry_Duos",
       "isDefault": true,
@@ -8030,7 +8159,9 @@
         "Athena.Playlist.NoBuildingMaterials",
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Habanero",
-        "Product.BR.BlastBerry.Habanero"
+        "Product.BR.BlastBerry.Habanero",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_DashBerry_Solo",
       "isDefault": true,
@@ -8064,7 +8195,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.NoBuildBR.Squad",
         "Athena.Playlist.NoBuildingMaterials",
-        "Product.BR.BlastBerry.Habanero"
+        "Product.BR.BlastBerry.Habanero",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_DashBerry_Squads",
       "isDefault": true,
@@ -8220,7 +8353,9 @@
         "Athena.Playlist.NoBuildingMaterials",
         "Athena.Playlist.MatchMist",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_MatchMist_Duos",
       "isDefault": true,
@@ -8255,7 +8390,9 @@
         "Athena.Playlist.MatchMist",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_MatchMist_Solo",
       "isDefault": true,
@@ -8290,7 +8427,9 @@
         "Athena.Playlist.NoBuildingMaterials",
         "Athena.Playlist.MatchMist",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_MatchMist_Squads",
       "isDefault": true,
@@ -8324,7 +8463,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.NoBuildingMaterials",
         "Athena.Playlist.PiperBoot",
-        "Product.BR.BlastBerry.Habanero"
+        "Product.BR.BlastBerry.Habanero",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_PiperBoot_Duos",
       "isDefault": true,
@@ -8359,7 +8500,9 @@
         "Athena.Playlist.PiperBoot",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_PiperBoot_Solo",
       "isDefault": true,
@@ -8394,7 +8537,9 @@
         "Athena.Playlist.NoBuildingMaterials",
         "Athena.Playlist.PiperBoot",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_PiperBoot_Squads",
       "isDefault": true,
@@ -8429,7 +8574,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_PunchBerry_Duos",
       "isDefault": true,
@@ -8464,7 +8611,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_PunchBerry_Solo",
       "isDefault": true,
@@ -8499,7 +8648,9 @@
         "Athena.Playlist.PunchBerry",
         "Product.BlastBerry.NoBuild",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_PunchBerry_Squads",
       "isDefault": true,
@@ -8534,7 +8685,9 @@
         "Athena.Playlist.SourSpawn",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_SourSpawn_Duos",
       "isDefault": true,
@@ -8569,7 +8722,9 @@
         "Athena.Playlist.SourSpawn",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_SourSpawn_Solo",
       "isDefault": true,
@@ -8604,7 +8759,9 @@
         "Athena.Playlist.SourSpawn",
         "Product.BlastBerry.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_SourSpawn_Squads",
       "isDefault": true,
@@ -8638,7 +8795,9 @@
         "Athena.Playlist.NoBuildingMaterials",
         "Plugin.Playlist.BlastBerry",
         "Athena.Playlist.SquareClub",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_SquareClub_Duos",
       "isDefault": true,
@@ -8671,7 +8830,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Plugin.Playlist.BlastBerry",
         "Athena.Playlist.SquareClub",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_SquareClub_Solo",
       "isDefault": true,
@@ -8706,7 +8867,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.Habanero",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_Sunflower_Duos",
       "isDefault": true,
@@ -8740,7 +8903,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.Sunflower",
         "Athena.Playlist.Habanero",
-        "Product.BR.BlastBerry.Habanero"
+        "Product.BR.BlastBerry.Habanero",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_Sunflower_Solo",
       "isDefault": true,
@@ -8775,7 +8940,9 @@
         "Athena.Playlist.Sunflower",
         "Product.BlastBerry.NoBuild",
         "Product.BR.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_Sunflower_Squads",
       "isDefault": true,
@@ -8924,7 +9091,9 @@
         "Athena.Playlist.TimberStake",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.Habanero",
-        "Athena.Playlist.BlastBerry.Ranked"
+        "Athena.Playlist.BlastBerry.Ranked",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_TimberStake_Duos",
       "isDefault": true,
@@ -8959,7 +9128,9 @@
         "Athena.Playlist.Habanero",
         "Product.BlastBerry.Habanero",
         "Athena.Playlist.BlastBerry.Ranked",
-        "Athena.Playlist.NoBuildBR.Solo"
+        "Athena.Playlist.NoBuildBR.Solo",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_TimberStake_Solo",
       "isDefault": true,
@@ -8994,7 +9165,9 @@
         "Athena.Playlist.NoBuildingMaterials",
         "Athena.Playlist.TimberStake",
         "Athena.Playlist.BlastBerry.Ranked",
-        "Product.BlastBerry.Habanero"
+        "Product.BlastBerry.Habanero",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_Habanero_NoBuild_TimberStake_Squads",
       "isDefault": true,
@@ -9899,12 +10072,12 @@
       "isLargeTeamGame": false,
       "isLimitedTimeMode": false,
       "isTournament": false,
-      "maxPlayers": 100,
+      "maxPlayers": 2,
       "maxSquadSize": 1,
       "maxSquads": -1,
       "maxTeamSize": 1,
       "maxTeams": 100,
-      "minPlayers": -1,
+      "minPlayers": 2,
       "name": "Hoplite",
       "path": "FortniteGame/Plugins/GameFeatures/LACombatRecording/Content/Playlist_Hoplite",
       "ratingType": "nobuild"
@@ -10127,7 +10300,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.MatchMist"
+        "Athena.Playlist.MatchMist",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_MatchMistNoBuildDuo",
       "isDefault": true,
@@ -10159,7 +10334,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.MatchMist"
+        "Athena.Playlist.MatchMist",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_MatchMistNoBuildSolo",
       "isDefault": true,
@@ -10191,7 +10368,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.MatchMist"
+        "Athena.Playlist.MatchMist",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_MatchMistNoBuildSquad",
       "isDefault": true,
@@ -10882,7 +11061,8 @@
         "Athena.Playlist.Duo",
         "Athena.Playlist.NoBuildBR.Comp",
         "Plugin.Playlist.ZeroBuild",
-        "Athena.Playlist.TrapsInNoBuild"
+        "Athena.Playlist.TrapsInNoBuild",
+        "Athena.Playlist.NoBuildBR.PluginLoot"
       ],
       "id": "Playlist_NoBuildBR_Habanero_Duo",
       "isDefault": true,
@@ -10916,7 +11096,8 @@
         "Athena.MapDiscoverability.Disable",
         "Athena.Playlist.NoBuildBR.Comp",
         "Plugin.Playlist.ZeroBuild",
-        "Athena.Playlist.TrapsInNoBuild"
+        "Athena.Playlist.TrapsInNoBuild",
+        "Athena.Playlist.NoBuildBR.PluginLoot"
       ],
       "id": "Playlist_NoBuildBR_Habanero_Solo",
       "isDefault": true,
@@ -10947,9 +11128,7 @@
         "Plugin.Playlist.Arena",
         "Athena.MapDiscoverability.Disable",
         "Athena.Playlist.NoBuildBR.Squad",
-        "Athena.Playlist.Squad",
-        "Plugin.Playlist.ZeroBuild",
-        "Athena.Playlist.TrapsInNoBuild"
+        "Athena.Playlist.Squad"
       ],
       "id": "Playlist_NoBuildBR_Habanero_Squad",
       "isDefault": true,
@@ -10980,9 +11159,7 @@
         "Plugin.Playlist.Arena",
         "Athena.MapDiscoverability.Disable",
         "Athena.Playlist.Trios",
-        "Athena.Playlist.NoBuildBR.Trios",
-        "Plugin.Playlist.ZeroBuild",
-        "Athena.Playlist.TrapsInNoBuild"
+        "Athena.Playlist.NoBuildBR.Trios"
       ],
       "id": "Playlist_NoBuildBR_Habanero_Trio",
       "isDefault": true,
@@ -11549,7 +11726,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.PiperBoot"
+        "Athena.Playlist.PiperBoot",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PiperBootNoBuildDuo",
       "isDefault": true,
@@ -11580,7 +11759,9 @@
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.PiperBoot",
         "Athena.Playlist.BlastBerry.NoBuildSugarClip",
-        "Athena.Playlist.SugarClip"
+        "Athena.Playlist.SugarClip",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PiperBootNoBuildOctet",
       "isDefault": true,
@@ -11612,7 +11793,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.PiperBoot"
+        "Athena.Playlist.PiperBoot",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PiperBootNoBuildSolo",
       "isDefault": true,
@@ -11644,7 +11827,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.PiperBoot"
+        "Athena.Playlist.PiperBoot",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PiperBootNoBuildSquad",
       "isDefault": true,
@@ -11872,7 +12057,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Athena.Playlist.PunchBerry",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PunchBerryNoBuildDuo",
       "isDefault": true,
@@ -11904,7 +12091,9 @@
         "Athena.Playlist.PunchBerry",
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.BlastBerry.NoBuildSugarClip",
-        "Athena.Playlist.SugarClip"
+        "Athena.Playlist.SugarClip",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PunchBerryNoBuildOctet",
       "isDefault": true,
@@ -11936,7 +12125,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Athena.Playlist.PunchBerry",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PunchBerryNoBuildSolo",
       "isDefault": true,
@@ -11968,7 +12159,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Athena.Playlist.PunchBerry",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PunchBerryNoBuildSquad",
       "isDefault": true,
@@ -12000,7 +12193,9 @@
         "Athena.Playlist.Trios",
         "Athena.Playlist.NoBuildBR.Trios",
         "Athena.Playlist.PunchBerry",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_PunchBerryNoBuildTrio",
       "isDefault": true,
@@ -12326,7 +12521,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.RusticPepper"
+        "Athena.Playlist.RusticPepper",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_RusticPepperNoBuildDuo",
       "isDefault": true,
@@ -12358,7 +12555,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.RusticPepper"
+        "Athena.Playlist.RusticPepper",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_RusticPepperNoBuildSolo",
       "isDefault": true,
@@ -12390,7 +12589,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.RusticPepper"
+        "Athena.Playlist.RusticPepper",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_RusticPepperNoBuildSquad",
       "isDefault": true,
@@ -12468,6 +12669,29 @@
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Events/Playlist_RusticPepperSquad",
       "ratingType": "blastberry_build"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "gameType": "EFortGameType::ShootersFTUE",
+      "gameplayTags": [
+        "Athena.Playlist.ShootersFTUE",
+        "Athena.Playlist.Default"
+      ],
+      "id": "Playlist_ShootersFTUE_Solo",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 1,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 100,
+      "minPlayers": 1,
+      "name": "Solo",
+      "path": "FortniteGame/Plugins/GameFeatures/ShootersFTUE/Content/Playlists/Playlist_ShootersFTUE_Solo",
+      "ratingType": "fun"
     },
     {
       "accumulateToProfileStats": false,
@@ -12627,7 +12851,9 @@
         "Athena.Playlist.Duo",
         "Athena.Playlist.NoBuildBR.Comp",
         "Athena.MapDiscoverability.Disable",
-        "Plugin.Playlist.ZeroBuild"
+        "Plugin.Playlist.ZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild",
+        "Athena.Playlist.NoBuildBR.PluginLoot"
       ],
       "id": "Playlist_Showdown_NoBuildBR_CTS_Duos",
       "isDefault": false,
@@ -12659,7 +12885,9 @@
         "Plugin.Playlist.Arena",
         "Athena.Playlist.NoBuildBR.Comp",
         "Athena.MapDiscoverability.Disable",
-        "Plugin.Playlist.ZeroBuild"
+        "Plugin.Playlist.ZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild",
+        "Athena.Playlist.NoBuildBR.PluginLoot"
       ],
       "id": "Playlist_Showdown_NoBuildBR_CTS_Solo",
       "isDefault": false,
@@ -12691,7 +12919,9 @@
         "Athena.Playlist.Squad",
         "Athena.Playlist.NoBuildBR.Comp",
         "Athena.MapDiscoverability.Disable",
-        "Plugin.Playlist.ZeroBuild"
+        "Plugin.Playlist.ZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild",
+        "Athena.Playlist.NoBuildBR.PluginLoot"
       ],
       "id": "Playlist_Showdown_NoBuildBR_CTS_Squads",
       "isDefault": false,
@@ -12723,7 +12953,9 @@
         "Athena.Playlist.NoBuildBR.Trios",
         "Athena.Playlist.NoBuildBR.Comp",
         "Athena.MapDiscoverability.Disable",
-        "Plugin.Playlist.ZeroBuild"
+        "Plugin.Playlist.ZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild",
+        "Athena.Playlist.NoBuildBR.PluginLoot"
       ],
       "id": "Playlist_Showdown_NoBuildBR_CTS_Trios",
       "isDefault": false,
@@ -12937,6 +13169,39 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_PunchBerry_Duos",
+      "ratingType": "ranked-blastberry-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode duo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.BlastBerry.Duo",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.Duo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.RopeSmile",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_Showdown_RE_CTS_RopeSmile_Duos",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 40,
+      "maxSquadSize": 2,
+      "maxSquads": 40,
+      "maxTeamSize": 2,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Duo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/CTS/Playlist_Showdown_RE_CTS_RopeSmile_Duos",
       "ratingType": "ranked-blastberry-combined"
     },
     {
@@ -13748,7 +14013,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryDuo_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13781,7 +14046,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerryDuo_Fill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13814,7 +14079,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerryDuo_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13848,7 +14113,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryDuo_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13881,7 +14146,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryDuo_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13949,7 +14214,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryNoBuildDuo_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -13983,7 +14248,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerryNoBuildDuo_Fill",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14017,7 +14282,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerryNoBuildDuo_NoFill",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14052,7 +14317,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryNoBuildDuo_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14086,7 +14351,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_BlastBerryNoBuildDuo_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14155,7 +14420,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerryNoBuildSquad_Fill",
-      "ratingType": "nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14189,7 +14454,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerryNoBuildSquad_NoFill",
-      "ratingType": "nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14220,7 +14485,7 @@
       "minPlayers": 36,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerrySquad_Fill",
-      "ratingType": "fun"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14253,7 +14518,7 @@
       "minPlayers": 40,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_BlastBerrySquad_NoFill",
-      "ratingType": "fun"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14672,7 +14937,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryDuo_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14707,7 +14972,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_DashBerryDuo_Fill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14742,7 +15007,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_DashBerryDuo_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14776,7 +15041,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryDuo_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14809,7 +15074,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryDuo_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14877,7 +15142,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryNoBuildDuo_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14912,7 +15177,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryNoBuildDuo_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -14946,7 +15211,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_DashBerryNoBuildDuo_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -15015,7 +15280,7 @@
       "minPlayers": 16,
       "name": "Reload - Zero Build Solo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/MES/Playlist_ShowdownTournament_DashBerryNoBuildSolo_NPM_MES",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -15049,7 +15314,7 @@
       "minPlayers": 16,
       "name": "Reload - Zero Build Solo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/MES/Playlist_ShowdownTournament_DashBerryNoBuildSolo_PBM_MES",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -16346,21 +16611,22 @@
       "accumulateToProfileStats": false,
       "added": "2025-07-29T08:28:22Z",
       "description": "Testing mode no build",
-      "gameType": "EFortGameType::ForbiddenFruit",
+      "gameType": "EFortGameType::BlastBerry",
       "gameplayTags": [
         "Athena.Playlist.DefaultXP",
         "Athena.Playlist.Core",
         "Athena.Plugin.GameMod.Gasket",
         "Athena.Playlist.NoBuildingMaterials",
-        "Product.ForbiddenFruit.NoBuild",
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
-        "Athena.Playlist.ForbiddenFruit.NoBuildSolo",
-        "Athena.Playlist.ForbiddenFruit.BRLoot",
         "LoadingScreen.IsForPreview",
         "Athena.MapDiscoverability.Disable",
-        "Plugin.Playlist.ForbiddenFruit.CalmSambucus",
-        "Athena.Playlist.ForbiddenFruit.CalmSambucus"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.BlastBerryOld",
+        "Athena.Playlist.BlastBerry.NoBuildSolo",
+        "Athena.Playlist.BlastBerry.Tournament",
+        "Plugin.Playlist.BlastBerry"
       ],
       "id": "Playlist_ShowdownTournament_ForbiddenFruitNoBuildSolo",
       "isDefault": true,
@@ -16374,7 +16640,7 @@
       "maxTeams": 16,
       "minPlayers": 16,
       "name": "Blitz Royale - Solo Showdown NoBuild",
-      "path": "FortniteGame/Plugins/GameFeatures/ForbiddenFruitPlaylists/Content/Playlists/Showdown/Playlist_ShowdownTournament_ForbiddenFruitNoBuildSolo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/Playlists/Showdown/Playlist_ShowdownTournament_ForbiddenFruitNoBuildSolo",
       "ratingType": "nobuild"
     },
     {
@@ -16760,7 +17026,7 @@
       "minPlayers": 6,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_ML_Test",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17464,7 +17730,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootDuos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17499,7 +17765,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootDuos_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17534,7 +17800,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootDuos_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17569,7 +17835,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootDuos_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17640,7 +17906,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootNoBuildDuos",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17676,7 +17942,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootNoBuildDuos_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17712,7 +17978,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootNoBuildDuos_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17748,7 +18014,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Playlist_ShowdownTournament_PiperBootNoBuildDuos_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17817,7 +18083,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryDuo_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17851,7 +18117,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_PunchBerryDuo_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17885,7 +18151,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryDuo_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17918,7 +18184,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryDuo_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -17986,7 +18252,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryNoBuildDuo_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18021,7 +18287,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryNoBuildDuo_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18055,7 +18321,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_PunchBerryNoBuildDuo_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18124,7 +18390,7 @@
       "minPlayers": 40,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_PunchBerrySquad_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18385,7 +18651,7 @@
       "minPlayers": 40,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_RE_BlastBerrySquad_Fill",
-      "ratingType": "fun"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18418,7 +18684,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistDuos_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18451,7 +18717,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistDuos_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18484,7 +18750,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistDuos_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18521,6 +18787,138 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode solo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.BlastBerry.Solo",
+        "Athena.Playlist.Solo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.MatchMist",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_MatchMistSolo_CR",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Solo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistSolo_CR",
+      "ratingType": "ranked-blastberry-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode solo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.BlastBerry.Solo",
+        "Athena.Playlist.Solo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.MatchMist",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_MatchMistSolo_NPM",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Solo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistSolo_NPM",
+      "ratingType": "ranked-blastberry-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode solo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.BlastBerry.Solo",
+        "Athena.Playlist.Solo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.MatchMist",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_MatchMistSolo_PBM",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Solo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistSolo_PBM",
+      "ratingType": "ranked-blastberry-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode solo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.BlastBerry.Solo",
+        "Athena.Playlist.Solo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.MatchMist",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_MatchMistSolo_RC",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 1,
+      "maxSquads": -1,
+      "maxTeamSize": 1,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Solo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_MatchMistSolo_RC",
+      "ratingType": "ranked-blastberry-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2026-04-01T08:41:08Z",
       "description": "Testing mode duo",
       "gameType": "EFortGameType::BlastBerry",
@@ -18550,7 +18948,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_PunchBerryDuo_Icon",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18584,7 +18982,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_PunchBerryNoBuildDuo_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18619,7 +19017,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_PunchBerryNoBuildDuo_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18653,7 +19051,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_PunchBerryNoBuildDuo_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18692,6 +19090,135 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode duo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.BlastBerry.Duo",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.Duo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.RopeSmile",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_RopeSmileDuos_CR",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 2,
+      "maxSquads": 40,
+      "maxTeamSize": 2,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Duo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_RopeSmileDuos_CR"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode duo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.BlastBerry.Duo",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.Duo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.RopeSmile",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_RopeSmileDuos_NPM",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 2,
+      "maxSquads": 40,
+      "maxTeamSize": 2,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Duo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_RopeSmileDuos_NPM"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode duo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.BlastBerry.Duo",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.Duo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.RopeSmile",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_RopeSmileDuos_PBM",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 2,
+      "maxSquads": 40,
+      "maxTeamSize": 2,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Duo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_RopeSmileDuos_PBM"
+    },
+    {
+      "accumulateToProfileStats": false,
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Testing mode duo",
+      "gameType": "EFortGameType::BlastBerry",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Core",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Athena.Playlist.BlastBerry.Duo",
+        "Plugin.Playlist.BlastBerry",
+        "Athena.Playlist.Duo",
+        "Product.BlastBerry.Build",
+        "Athena.Playlist.RopeSmile",
+        "Athena.MapDiscoverability.Disable",
+        "Athena.Playlist.BlastBerry.Tournament"
+      ],
+      "id": "Playlist_ShowdownTournament_RE_RopeSmileDuos_RC",
+      "isDefault": true,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": true,
+      "maxPlayers": 40,
+      "maxSquadSize": 2,
+      "maxSquads": 40,
+      "maxTeamSize": 2,
+      "maxTeams": 40,
+      "minPlayers": 40,
+      "name": "Reload - Duo",
+      "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_RE_RopeSmileDuos_RC",
+      "ratingType": "ranked-blastberry-combined"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2026-02-05T15:01:19Z",
       "description": "Testing mode duo",
       "gameType": "EFortGameType::BlastBerry",
@@ -18720,7 +19247,7 @@
       "minPlayers": 16,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Arenas/Playlist_ShowdownTournament_RE_SquareClubDuos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18752,7 +19279,7 @@
       "minPlayers": 16,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Arenas/Playlist_ShowdownTournament_RE_SquareClubDuos_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18784,7 +19311,7 @@
       "minPlayers": 16,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Arenas/Playlist_ShowdownTournament_RE_SquareClubDuos_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18816,7 +19343,7 @@
       "minPlayers": 16,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Arenas/Playlist_ShowdownTournament_RE_SquareClubDuos_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18882,7 +19409,7 @@
       "minPlayers": 16,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Arenas/Playlist_ShowdownTournament_RE_SquareClubNoBuildDuos",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -18912,7 +19439,7 @@
       "minPlayers": 6,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_REML_Test",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19031,7 +19558,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnDuos",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19064,7 +19591,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnDuos_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19097,7 +19624,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnDuos_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19130,7 +19657,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnDuos_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19198,7 +19725,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnNoBuildDuos",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19233,7 +19760,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnNoBuildDuos_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19268,7 +19795,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnNoBuildDuos_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19303,7 +19830,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SourSpawnNoBuildDuos_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19400,7 +19927,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerDuo_Fill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19434,7 +19961,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerDuo_NoFill",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19468,7 +19995,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerNoBuildDuo_Fill",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19503,7 +20030,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerNoBuildDuo_NoFill",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19538,7 +20065,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerNoBuildSquad_Fill",
-      "ratingType": "nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19573,7 +20100,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerNoBuildSquad_NoFill",
-      "ratingType": "nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19607,7 +20134,7 @@
       "minPlayers": 40,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerSquad_Fill",
-      "ratingType": "fun"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19641,7 +20168,7 @@
       "minPlayers": 40,
       "name": "Reload - Squads",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/Comp/Playlist_ShowdownTournament_SunflowerSquad_NoFill",
-      "ratingType": "fun"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19674,7 +20201,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeDuo_CR",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19708,7 +20235,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeDuo_NPM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19741,7 +20268,7 @@
       "minPlayers": 40,
       "name": "Reload - Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeDuo_PBM",
-      "ratingType": "blastberry_build"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19809,7 +20336,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeNoBuildDuo_CR",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19844,7 +20371,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeNoBuildDuo_NPM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19878,7 +20405,7 @@
       "minPlayers": 40,
       "name": "Reload - Zero Build Duo",
       "path": "FortniteGame/Plugins/GameFeatures/BlastBerryPlaylists/Content/BlastBerry/Playlists/ChampsRoad/Playlist_ShowdownTournament_TimberStakeNoBuildDuo_PBM",
-      "ratingType": "blastberry_nobuild"
+      "ratingType": "ranked-blastberry-combined"
     },
     {
       "accumulateToProfileStats": false,
@@ -19973,42 +20500,6 @@
       "name": "Tournament",
       "path": "FortniteGame/Plugins/GameFeatures/BRPlaylists/Content/Athena/Playlists/Showdown/Lightning/Playlist_ShowdownTournament_ZF_Duos",
       "subName": "Duos"
-    },
-    {
-      "accumulateToProfileStats": false,
-      "added": "2026-06-05T18:00:50Z",
-      "gameType": "EFortGameType::BRLTM",
-      "gameplayTags": [
-        "Athena.Playlist.IsALargeTeamMode",
-        "Athena.Playlist.BountiesOff",
-        "LoadingScreen.IsForPreview",
-        "Athena.Plugin.GameMod.Gasket",
-        "Athena.Playlist.Core",
-        "Athena.Playlist.ForbiddenFruit.NoBuildSquad",
-        "Athena.Accolade.Exclude.FirstLanding",
-        "Athena.Accolade.Exclude.ReachedNewCircle",
-        "Athena.Playlist.SpecialEvent.SkyMango",
-        "Behavior.Playlist.UseTimeSlicedWorldReady",
-        "SpecialEvent.SmartTuna",
-        "Athena.Playlist.SpecialEvent",
-        "Product.SmartTuna",
-        "Athena.MapDiscoverability.Disable",
-        "Plugin.Playlist.Zipline.DoNotAddPawnComponent",
-        "Plugin.Playlist.Exclude.Piggyback"
-      ],
-      "id": "Playlist_SmartTunaPre",
-      "isDefault": false,
-      "isLargeTeamGame": false,
-      "isLimitedTimeMode": false,
-      "isTournament": false,
-      "maxPlayers": 24,
-      "maxSquadSize": 4,
-      "maxSquads": 24,
-      "maxTeamSize": 12,
-      "maxTeams": 2,
-      "minPlayers": 1,
-      "name": "[PH] SmartTuna",
-      "path": "FortniteGame/Plugins/GameFeatures/SpecialEvent/SmartTunaPre/Content/Playlist/Playlist_SmartTunaPre"
     },
     {
       "accumulateToProfileStats": false,
@@ -20184,7 +20675,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.SourSpawn"
+        "Athena.Playlist.SourSpawn",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SourSpawnNoBuildDuo",
       "isDefault": true,
@@ -20216,7 +20709,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.SourSpawn"
+        "Athena.Playlist.SourSpawn",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SourSpawnNoBuildSolo",
       "isDefault": true,
@@ -20248,7 +20743,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.SourSpawn"
+        "Athena.Playlist.SourSpawn",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SourSpawnNoBuildSquad",
       "isDefault": true,
@@ -20415,7 +20912,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.SquareClub"
+        "Athena.Playlist.SquareClub",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SquareClubNoBuildDuo",
       "isDefault": true,
@@ -20447,7 +20946,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.SquareClub"
+        "Athena.Playlist.SquareClub",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SquareClubNoBuildSolo",
       "isDefault": true,
@@ -20660,7 +21161,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Athena.Playlist.Sunflower",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SunflowerNoBuildDuo",
       "isDefault": true,
@@ -20691,7 +21194,9 @@
         "Athena.Playlist.Sunflower",
         "Product.BlastBerry.NoBuild",
         "Athena.Playlist.BlastBerry.NoBuildSugarClip",
-        "Athena.Playlist.SugarClip"
+        "Athena.Playlist.SugarClip",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SunflowerNoBuildOctet",
       "isDefault": true,
@@ -20723,7 +21228,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Athena.Playlist.Sunflower",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SunflowerNoBuildSolo",
       "isDefault": true,
@@ -20755,7 +21262,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Athena.Playlist.Sunflower",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SunflowerNoBuildSquad",
       "isDefault": true,
@@ -20787,7 +21296,9 @@
         "Athena.Playlist.Trios",
         "Athena.Playlist.NoBuildBR.Trios",
         "Athena.Playlist.Sunflower",
-        "Product.BlastBerry.NoBuild"
+        "Product.BlastBerry.NoBuild",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_SunflowerNoBuildTrio",
       "isDefault": true,
@@ -21193,7 +21704,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.TigerRanch"
+        "Athena.Playlist.TigerRanch",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_TigerRanchNoBuildDuo",
       "isDefault": true,
@@ -21225,7 +21738,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.TigerRanch"
+        "Athena.Playlist.TigerRanch",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_TigerRanchNoBuildSolo",
       "isDefault": true,
@@ -21257,7 +21772,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.TigerRanch"
+        "Athena.Playlist.TigerRanch",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_TigerRanchNoBuildSquad",
       "isDefault": true,
@@ -21382,7 +21899,9 @@
         "Athena.Playlist.NoBuildBR.Duo",
         "Athena.Playlist.Duo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.TimberStake"
+        "Athena.Playlist.TimberStake",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_TimberStakeNoBuildDuo",
       "isDefault": true,
@@ -21414,7 +21933,9 @@
         "Athena.Playlist.Solo",
         "Athena.Playlist.NoBuildBR.Solo",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.TimberStake"
+        "Athena.Playlist.TimberStake",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_TimberStakeNoBuildSolo",
       "isDefault": true,
@@ -21446,7 +21967,9 @@
         "Athena.Playlist.BlastBerry.NoBuildSquad",
         "Plugin.Playlist.BlastBerry",
         "Product.BlastBerry.NoBuild",
-        "Athena.Playlist.TimberStake"
+        "Athena.Playlist.TimberStake",
+        "Plugin.Playlist.BlastBerryZeroBuild",
+        "Athena.Playlist.TrapsInNoBuild"
       ],
       "id": "Playlist_TimberStakeNoBuildSquad",
       "isDefault": true,

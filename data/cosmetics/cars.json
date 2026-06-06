@@ -1075,6 +1075,27 @@
       "vehicleId": "VCID_Body_Interceptor"
     },
     {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "CarBody_IvoryCascade",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_ivorycascade/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_ivorycascade/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_IvoryCascade"
+    },
+    {
       "added": "2024-11-17T14:01:21Z",
       "description": "Remain unbeatable.",
       "id": "CarBody_Jam",
@@ -1167,27 +1188,6 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_Keanu"
-    },
-    {
-      "added": "2026-04-30T09:17:44Z",
-      "description": "null",
-      "id": "CarBody_LawnAero",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_lawnaero/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_lawnaero/small.png"
-      },
-      "name": "LawnAero",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Body",
-        "displayValue": "Body",
-        "value": "body"
-      },
-      "vehicleId": "VCID_Body_LawnAero"
     },
     {
       "added": "2026-01-03T00:00:00Z",
@@ -2374,6 +2374,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Body",
@@ -4078,7 +4089,7 @@
     },
     {
       "added": "2026-05-14T09:00:00Z",
-      "description": "It's no mech, but it'll do. Porsche Cayenne Turbo Electric custom decal.",
+      "description": "It’s not Tokki, but it’ll do. Porsche Cayenne Turbo Electric custom decal.",
       "id": "CarSkin_BlueTorque03",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque03/large.png",
@@ -4109,7 +4120,7 @@
     },
     {
       "added": "2026-05-14T09:00:00Z",
-      "description": "Almost as fast as a dragon. Porsche Cayenne Turbo Electric custom decal.",
+      "description": "Swift as a dragon’s strike. Porsche Cayenne Turbo Electric custom decal.",
       "id": "CarSkin_BlueTorque04",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_bluetorque04/large.png",
@@ -6175,6 +6186,40 @@
         "value": "skin"
       },
       "vehicleId": "VCID_CarSkin_Cutie01"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Sports car default decal.",
+      "id": "CarSkin_DefaultSportsCar",
+      "name": "Default Decal",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_DefaultSportsCar"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Sports car default decal.",
+      "id": "CarSkin_DefaultSUV",
+      "name": "Default Decal",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_DefaultSUV"
     },
     {
       "added": "2026-01-30T00:00:00Z",
@@ -9075,6 +9120,111 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_InterceptorTribal"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "CarSkin_IvoryCascade05",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade05/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade05/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_IvoryCascade05"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "CarSkin_IvoryCascade06",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade06/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade06/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_IvoryCascade06"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "CarSkin_IvoryCascade07",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade07/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade07/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_IvoryCascade07"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "CarSkin_IvoryCascade08",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade08/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade08/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_IvoryCascade08"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "CarSkin_IvoryCascade09",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade09/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade09/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_IvoryCascade09"
     },
     {
       "added": "2025-05-02T13:15:04Z",
@@ -18593,6 +18743,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -18613,6 +18774,17 @@
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
         "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -18635,6 +18807,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -18656,6 +18839,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -18676,6 +18870,17 @@
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
         "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -21216,6 +21421,23 @@
         "value": "booster"
       },
       "vehicleId": "VCID_Booster_CelestialSpark"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "null",
+      "id": "ID_Booster_CherryBlossom",
+      "name": "TBD",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_CherryBlossom"
     },
     {
       "added": "2025-12-11T10:20:11Z",
@@ -25603,6 +25825,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_PulsedEnergy"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Unleash the spirit of victory.",
+      "id": "ID_DriftTrail_RageUnleashed",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_rageunleashed/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_rageunleashed/small.png"
+      },
+      "name": "Spiritus",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_RageUnleashed"
     },
     {
       "added": "2025-12-11T10:20:11Z",
@@ -30413,6 +30656,27 @@
       "vehicleId": "VCID_Wheel_Hanzawa"
     },
     {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "HardPoint description",
+      "id": "Wheel_HardPoint",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpoint/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpoint/small.png"
+      },
+      "name": "HardPoint",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_HardPoint"
+    },
+    {
       "added": "2024-06-13T08:00:00Z",
       "description": "Strike First.",
       "id": "Wheel_HeavyA",
@@ -30667,6 +30931,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Inn"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Blank",
+      "id": "Wheel_IvoryCascade01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_ivorycascade01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_ivorycascade01/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_IvoryCascade01"
     },
     {
       "added": "2024-12-01T03:57:20Z",
@@ -31563,6 +31848,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Olan"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Custom Wheel",
+      "id": "Wheel_OneTrue_Negative",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_onetrue_negative/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_onetrue_negative/small.png"
+      },
+      "name": "Torque TX: Inverted",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_OneTrue_Negative"
     },
     {
       "added": "2024-12-01T03:57:20Z",
@@ -33251,6 +33557,27 @@
       "vehicleId": "VCID_Wheel_RL197A"
     },
     {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "RL200 description",
+      "id": "Wheel_RL200",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl200/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl200/small.png"
+      },
+      "name": "RL200",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL200"
+    },
+    {
       "added": "2025-09-18T13:07:46Z",
       "description": "Take the wheel.",
       "id": "Wheel_RL205",
@@ -33503,6 +33830,27 @@
       "vehicleId": "VCID_Wheel_RL252"
     },
     {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Wheel_RL255 description",
+      "id": "Wheel_RL255",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl255/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl255/small.png"
+      },
+      "name": "Wheel_RL255",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL255"
+    },
+    {
       "added": "2026-05-14T10:11:56Z",
       "description": "Hot to the touch.",
       "id": "Wheel_RL262",
@@ -33543,6 +33891,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_RL264"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Wheel_RL269 description",
+      "id": "Wheel_RL269",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl269/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl269/small.png"
+      },
+      "name": "Wheel_RL269",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL269"
     },
     {
       "added": "2026-03-19T06:29:28Z",
@@ -33606,6 +33975,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_RL273SE"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Wheel_RL275 description",
+      "id": "Wheel_RL275",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275/small.png"
+      },
+      "name": "Wheel_RL275",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL275"
     },
     {
       "added": "2024-09-25T23:11:28Z",
@@ -35414,6 +35804,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Chrysler",
+        "colors": [
+          "e3e8edff",
+          "17254cff",
+          "17254cff",
+          "17254cff",
+          "17254cff"
+        ],
+        "value": "CHRYSLER SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Wheel",
