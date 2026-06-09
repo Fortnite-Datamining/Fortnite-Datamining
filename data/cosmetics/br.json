@@ -5724,6 +5724,39 @@
       ]
     },
     {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Watch your back out there!",
+      "dynamicPakId": "1010",
+      "id": "Backpack_CanyonVale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_canyonvale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_canyonvale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Shield of the Greatest",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Charge into combat.",
       "id": "Backpack_CarbideWeld",
@@ -107516,6 +107549,67 @@
             }
           ],
           "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "GO GOATED!",
+      "dynamicPakId": "1010",
+      "id": "Character_CanyonVale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "THE GOAT",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/variants/material/mat0.png",
+              "name": "Gray",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/variants/material/mat1.png",
+              "name": "Dark Brown",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/variants/material/mat2.png",
+              "name": "Light Brown",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_canyonvale/variants/material/mat3.png",
+              "name": "White",
+              "tag": "Mat3"
+            }
+          ],
+          "type": "Fur Color"
         }
       ]
     },
@@ -293304,6 +293398,39 @@
       }
     },
     {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "BAHHH!!",
+      "dynamicPakId": "1010",
+      "id": "EID_CanyonVale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_canyonvale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_canyonvale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Bahhh",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2023-06-27T12:21:59Z",
       "description": "It's got important llamas on it.",
       "id": "EID_Capital",
@@ -367278,6 +367405,68 @@
         "backendValue": "LoneSound",
         "text": "Part of the Awoooo set.",
         "value": "Awoooo"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1010",
+      "id": "Emoticon_CanyonVale",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Go Goated",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1010",
+      "id": "Emoticon_CanyonVale2",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_canyonvale2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Good Gamers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -449044,6 +449233,66 @@
         "displayValue": "Pickaxe",
         "value": "pickaxe"
       }
+    },
+    {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Harvesting Wins",
+      "dynamicPakId": "1010",
+      "id": "Pickaxe_CanyonVale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Axe of All Time",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/variants/material/mat0.png",
+              "name": "Default",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/variants/material/mat1.png",
+              "name": "Red",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/variants/material/mat2.png",
+              "name": "Purple",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_canyonvale/variants/material/mat3.png",
+              "name": "Yellow",
+              "tag": "Mat3"
+            }
+          ]
+        }
+      ]
     },
     {
       "added": "2025-06-07T19:01:48Z",
@@ -556199,6 +556448,41 @@
       }
     },
     {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1010",
+      "id": "Spray_CanyonVale",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_canyonvale/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_canyonvale/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Good Game, GOAT!",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Leave your mark.",
       "id": "Spray_CarbideWeld",
@@ -604125,6 +604409,72 @@
         "backendValue": "ScatterBan",
         "text": "Part of the Welcome to the Melloverse set.",
         "value": "Welcome to the Melloverse"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1010",
+      "id": "Wrap_CanyonVale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_canyonvale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_canyonvale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_canyonvale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Combat Counter",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-06-09T17:00:37Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1010",
+      "id": "Wrap_CanyonValeClash",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_canyonvaleclash/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_canyonvaleclash/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_canyonvaleclash/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Go Galactic",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ComposeSunrise",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaItemWrap",

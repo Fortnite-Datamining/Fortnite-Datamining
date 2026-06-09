@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-06-09
+- **19:13** BR Cosmetics, AES Keys, Banners - +11 new (Shield of the Greatest, THE GOAT, Bahhh, Go Goated, Good Gamers, +6 more)
 - **16:38** Jam Tracks - +1 new (DAISIES)
 - **13:59** Build update: `++Fortnite+Release-41.00-CL-54872343`
 - **03:36** BR Cosmetics, Item Shop, Banners - +39 new (Holo-pack, Aquatic Wings, Cuddle Bow, Saura, Bad Luck Claws, +34 more) - -62 removed
