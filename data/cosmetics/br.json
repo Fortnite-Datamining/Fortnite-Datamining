@@ -6523,6 +6523,96 @@
       }
     },
     {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Packed for the pitch.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_ChewyStaveCurve",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_chewystavecurve/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_chewystavecurve/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_chewystavecurve/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Vini's Game Day Gear",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Become a footballer with flair.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_ChewyStaveGerm",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_chewystavegerm/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_chewystavegerm/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_chewystavegerm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "VJR Glow",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-09-26T14:25:42Z",
       "description": "Enchanted for roving relic research.",
       "id": "Backpack_ChicleVeil",
@@ -80898,7 +80988,7 @@
     {
       "added": "2020-09-23T08:28:55Z",
       "description": "Protected by an unbreakable vow.",
-      "id": "bid_614_myth",
+      "id": "BID_614_Myth",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/smallicon.png"
@@ -108573,6 +108663,122 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Ready to 'Baila Vini'?",
+      "dynamicPakId": "1018",
+      "id": "Character_ChewyStaveCurve",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_chewystavecurve/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_chewystavecurve/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_chewystavecurve/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_chewystavecurve/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_chewystavecurve/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Vini Jr.",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "A true fashion Forward.",
+      "dynamicPakId": "1018",
+      "id": "Character_ChewyStaveGerm",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_chewystavegerm/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_chewystavegerm/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_chewystavegerm/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_chewystavegerm/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_chewystavegerm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Vini Fashion Flow",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_chewystavegerm/variants/parts/stage1.png",
+              "name": "On",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_chewystavegerm/variants/parts/stage2.png",
+              "name": "Off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Sunglasses"
+        }
+      ]
     },
     {
       "added": "2023-09-26T14:25:42Z",
@@ -291782,6 +291988,51 @@
       }
     },
     {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Let 'em know you're right on target.",
+      "dynamicPakId": "1018",
+      "id": "EID_Bullseye",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_bullseye/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bullseye/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_bullseye/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "On Target",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2020-03-31T06:11:29Z",
       "description": "Without the hippity there can be no hoppity.",
       "id": "EID_BunnyFlop",
@@ -368548,7 +368799,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T01",
+      "id": "emoticon_metricspoon_t01",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t01/smallicon.png"
       },
@@ -368573,7 +368824,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T02",
+      "id": "emoticon_metricspoon_t02",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t02/smallicon.png"
       },
@@ -368598,7 +368849,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t03",
+      "id": "Emoticon_MetricSpoon_T03",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t03/smallicon.png"
       },
@@ -368623,7 +368874,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t04",
+      "id": "Emoticon_MetricSpoon_T04",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t04/smallicon.png"
       },
@@ -368673,7 +368924,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T06",
+      "id": "emoticon_metricspoon_t06",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t06/smallicon.png"
       },
@@ -368698,7 +368949,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T07",
+      "id": "emoticon_metricspoon_t07",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t07/smallicon.png"
       },
@@ -368723,7 +368974,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T08",
+      "id": "emoticon_metricspoon_t08",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t08/smallicon.png"
       },
@@ -368798,7 +369049,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T11",
+      "id": "emoticon_metricspoon_t11",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t11/smallicon.png"
       },
@@ -368848,7 +369099,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t13",
+      "id": "Emoticon_MetricSpoon_T13",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t13/smallicon.png"
       },
@@ -368898,7 +369149,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t15",
+      "id": "Emoticon_MetricSpoon_T15",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t15/smallicon.png"
       },
@@ -368973,7 +369224,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T18",
+      "id": "emoticon_metricspoon_t18",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t18/smallicon.png"
       },
@@ -369023,7 +369274,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "emoticon_metricspoon_t20",
+      "id": "Emoticon_MetricSpoon_T20",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t20/smallicon.png"
       },
@@ -369073,7 +369324,7 @@
     {
       "added": "2026-05-14T10:11:56Z",
       "description": "Express yourself on the battlefield.",
-      "id": "Emoticon_MetricSpoon_T22",
+      "id": "emoticon_metricspoon_t22",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_metricspoon_t22/smallicon.png"
       },
@@ -449569,6 +449820,96 @@
         "value": "Loki"
       },
       "showcaseVideo": "4s0gb5Ioffs",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Favored by strikers everywhere.",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_ChewyStaveCurve",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chewystavecurve/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chewystavecurve/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chewystavecurve/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Vini's Football Maces",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Ready for the hook turn.",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_ChewyStaveGerm",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chewystavegerm/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chewystavegerm/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_chewystavegerm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Vini's 7 Striker",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -556191,6 +556532,53 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-06-09T13:00:53Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1018",
+      "id": "Spray_ChewyStave",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_chewystave/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_chewystave/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_chewystave/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "VJR Icon",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TalentedThinker",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
       },
       "type": {
         "backendValue": "AthenaSpray",
