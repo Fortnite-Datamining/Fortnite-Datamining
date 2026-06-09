@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first.
 
+## 2026-06-09
+- **03:36** BR Cosmetics, Item Shop, Banners - +39 new (Holo-pack, Aquatic Wings, Cuddle Bow, Saura, Bad Luck Claws, +34 more) - -62 removed
+
 ## 2026-06-08
 - **23:46** Item Shop
 - **22:09** Item Shop, AES Keys
