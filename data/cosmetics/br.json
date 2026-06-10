@@ -335404,6 +335404,46 @@
       }
     },
     {
+      "added": "2026-06-10T00:00:00Z",
+      "description": "Take it.",
+      "dynamicPakId": "1021",
+      "id": "EID_SimplyServed",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_simplyserved/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_simplyserved/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_simplyserved/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Tá OK",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2020-12-08T19:08:39Z",
       "description": "C'mon, you know the words!",
       "id": "EID_SingAlong",
