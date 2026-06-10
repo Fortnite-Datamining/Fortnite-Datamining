@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first.
 
 ## 2026-06-10
+- **23:25** Item Shop, News, Banners - +1 new (Live - Vini Jr. Icon Cup) - -1 removed
 - **04:57** BR Cosmetics, Item Shop
 - **00:20** BR Cosmetics, Item Shop, AES Keys - +23 new (Tá OK, King's Khopesh, Darkest Edge, LISA, Dare, +18 more) - -12 removed
 
