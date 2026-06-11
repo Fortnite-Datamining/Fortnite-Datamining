@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-06-11T02:23:41.152Z",
+  "lastModified": "2026-06-11T15:55:30.681Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -36526,7 +36526,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-10T16:10:16.148Z",
+    "lastModified": "2026-06-11T15:55:30.681Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -38267,14 +38267,7 @@
       "customTextReplacements": [
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "Temporary_CTR",
-          "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "a new Star Wars update came to LEGO Fortnite Odyssey",
-              "textID": "a new Star Wars update came to LEGO Fortnite Odyssey"
-            }
-          ]
+          "textReplacementTag": "Temporary_CTR"
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
@@ -39741,53 +39734,6 @@
         },
         {
           "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Creative_and_Ecosystem_Playlists",
-            "High_Global_Modular_Rate",
-            "Global_Cooldown",
-            "Seasonal_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 3,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Were you aware that {Temporary_CTR}?",
-                  "textID": "Were you aware that {Temporary_CTR}?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Yes",
-                    "textID": "Yes"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "No",
-                    "textID": "No"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "I'm not sure",
-                    "textID": "I'm not sure"
-                  }
-                ],
-                "type": "SingleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_General_Awareness_TEMPORARY",
-          "surveyTags": [
-            "Seasonal_Modular_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
             "FNBR_Playlists",
@@ -39846,8 +39792,8 @@
                 "numberOfOptions": 9,
                 "questionText": {
                   "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Which of the following platforms have you played Rocket League on? Please select all that apply. If you have not played Rocket League, please skip the question.",
-                  "textID": "Which of the following platforms have you played Rocket League on? Please select all that apply. If you have not played Rocket League, please skip the question."
+                  "localizedText": "Which of the following platforms have you played Rocket League (not Rocket Racing) on? Please select all that apply. If you have not played Rocket League, please skip the question.",
+                  "textID": "Which of the following platforms have you played Rocket League (not Rocket Racing) on? Please select all that apply. If you have not played Rocket League, please skip the question."
                 },
                 "responses": [
                   {
@@ -39869,11 +39815,6 @@
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Nintendo Switch",
                     "textID": "Nintendo Switch"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Mobile or Tablet",
-                    "textID": "Mobile or Tablet"
                   }
                 ],
                 "type": "MultipleChoice"
