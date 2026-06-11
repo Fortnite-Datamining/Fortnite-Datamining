@@ -1,18 +1,23 @@
 {
   "name": "fortnite-datamining",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Automated tracking of Fortnite changes from public API data",
   "type": "module",
   "scripts": {
-    "fetch": "tsx src/fetch.ts"
+    "fetch": "tsx src/fetch.ts",
+    "check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Fortnite-Datamining/Fortnite-Datamining.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "fortnite",
+    "datamining",
+    "fortnite-api",
+    "tracker"
+  ],
+  "author": "ArhanCodes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Fortnite-Datamining/Fortnite-Datamining/issues"
