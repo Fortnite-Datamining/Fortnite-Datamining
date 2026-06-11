@@ -596,16 +596,55 @@ async function sendDiscordNotification(changes: ChangeInfo[]): Promise<void> {
   };
 
   try {
-    await fetch(DISCORD_WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ embeds: [embed] }),
-      signal: AbortSignal.timeout(15_000),
-    });
-    console.log("Discord notification sent.");
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const res = await fetch(DISCORD_WEBHOOK_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ embeds: [embed] }),
+        signal: AbortSignal.timeout(15_000),
+      });
+      if (res.ok) {
+        console.log("Discord notification sent.");
+        return;
+      }
+      if (res.status === 429 && attempt === 0) {
+        const body = (await res.json().catch(() => null)) as { retry_after?: number } | null;
+        const waitMs = Math.min(Math.ceil((body?.retry_after ?? 2) * 1000), 30_000);
+        console.warn(`Discord rate limited, retrying in ${waitMs}ms...`);
+        await sleep(waitMs);
+        continue;
+      }
+      console.warn(`Discord webhook failed: HTTP ${res.status} ${await res.text().catch(() => "")}`);
+      return;
+    }
   } catch (err) {
     console.warn(`Discord webhook failed: ${err instanceof Error ? err.message : err}`);
   }
+}
+
+// Twitter counts most Latin-range code points as 1 and everything else
+// (emoji, CJK, symbols) as 2 — String.length undercounts those
+function tweetWeight(text: string): number {
+  let len = 0;
+  for (const ch of text) {
+    const cp = ch.codePointAt(0) ?? 0;
+    const light =
+      cp <= 0x10ff ||
+      (cp >= 0x2000 && cp <= 0x200d) ||
+      (cp >= 0x2010 && cp <= 0x201f) ||
+      (cp >= 0x2032 && cp <= 0x2037);
+    len += light ? 1 : 2;
+  }
+  return len;
+}
+
+function truncateTweet(body: string, suffix: string, limit = 280): string {
+  if (tweetWeight(body + suffix) <= limit) return body + suffix;
+  let chars = [...body];
+  while (chars.length > 0 && tweetWeight(chars.join("") + suffix) > limit) {
+    chars = chars.slice(0, -1);
+  }
+  return chars.join("").trimEnd() + suffix;
 }
 
 function buildTweetText(changes: ChangeInfo[]): string {
@@ -642,16 +681,19 @@ function buildTweetText(changes: ChangeInfo[]): string {
   const aesChange = changes.find((c) => c.description === "AES Keys");
   if (aesChange && !buildChange) parts.push("New AES encryption keys");
 
-  if (parts.length === 0) parts.push("Fortnite data updated");
+  // nothing tweet-worthy (e.g. only banner or content-page churn) — skip
+  if (parts.length === 0) return "";
 
   const hashtags = "#Fortnite #FortniteLeaks";
-  const body = parts.join("\n");
+  return truncateTweet(parts.join("\n"), "\n\n" + hashtags);
+}
 
-  if ((body + "\n\n" + hashtags).length <= 280) {
-    return body + "\n\n" + hashtags;
-  }
-  const maxBody = 280 - hashtags.length - 4;
-  return body.slice(0, maxBody).trimEnd() + "\n\n" + hashtags;
+// OAuth 1.0a requires strict RFC 3986 encoding; encodeURIComponent leaves !'()* bare
+function rfc3986(s: string): string {
+  return encodeURIComponent(s).replace(
+    /[!'()*]/g,
+    (c) => "%" + c.charCodeAt(0).toString(16).toUpperCase(),
+  );
 }
 
 function oauthSign(
@@ -664,15 +706,15 @@ function oauthSign(
   const baseString =
     method.toUpperCase() +
     "&" +
-    encodeURIComponent(url) +
+    rfc3986(url) +
     "&" +
-    encodeURIComponent(
+    rfc3986(
       Object.keys(params)
         .sort()
-        .map((k) => `${encodeURIComponent(k)}=${encodeURIComponent(params[k])}`)
+        .map((k) => `${rfc3986(k)}=${rfc3986(params[k])}`)
         .join("&"),
     );
-  const signingKey = encodeURIComponent(consumerSecret) + "&" + encodeURIComponent(tokenSecret);
+  const signingKey = rfc3986(consumerSecret) + "&" + rfc3986(tokenSecret);
   return createHmac("sha1", signingKey).update(baseString).digest("base64");
 }
 
@@ -682,9 +724,7 @@ async function postTweet(changes: ChangeInfo[]): Promise<void> {
   }
 
   const text = buildTweetText(changes);
-  if (text.length > 280) {
-    console.warn(`Tweet too long (${text.length} chars), truncating...`);
-  }
+  if (!text) return;
 
   const url = "https://api.twitter.com/2/tweets";
   const oauthNonce = Math.random().toString(36).substring(2);
@@ -706,7 +746,7 @@ async function postTweet(changes: ChangeInfo[]): Promise<void> {
     "OAuth " +
     Object.keys(oauthParams)
       .sort()
-      .map((k) => `${encodeURIComponent(k)}="${encodeURIComponent(oauthParams[k])}"`)
+      .map((k) => `${rfc3986(k)}="${rfc3986(oauthParams[k])}"`)
       .join(", ");
 
   try {
@@ -716,7 +756,7 @@ async function postTweet(changes: ChangeInfo[]): Promise<void> {
         Authorization: authHeader,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ text: text.slice(0, 280) }),
+      body: JSON.stringify({ text }),
       signal: AbortSignal.timeout(15_000),
     });
 
