@@ -557,6 +557,15 @@ function gitCommit(changes: ChangeInfo[], extraPaths: string[]): void {
   console.log(`Committed: ${fullMsg.split("\n")[0]}`);
 }
 
+// push before notifying — a failed push would otherwise re-notify the same
+// changes on the next run
+function gitPush(): void {
+  if (!process.env.GITHUB_ACTIONS) return;
+  git(["pull", "--rebase", "origin", "main"]);
+  git(["push", "origin", "main"]);
+  console.log("Pushed to origin/main.");
+}
+
 async function sendDiscordNotification(changes: ChangeInfo[]): Promise<void> {
   if (!DISCORD_WEBHOOK_URL) return;
 
@@ -915,6 +924,7 @@ async function main() {
 
   console.log(`\n${changes.length} API file(s), ${extras.length} derived file(s) changed.`);
   gitCommit(changes, extras);
+  gitPush();
 
   if (changes.length > 0) {
     await sendDiscordNotification(changes);
