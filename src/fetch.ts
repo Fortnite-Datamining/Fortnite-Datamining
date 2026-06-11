@@ -449,6 +449,9 @@ function updateItemRegistry(): boolean {
       const entries = shop?.data?.entries ?? [];
       for (const e of entries) {
         const items = e?.brItems ?? [];
+        // entry price covers the whole offer; flag it when the offer is a
+        // bundle so per-item price history is not misread
+        const isBundle = !!e?.bundle || items.length > 1;
         for (const i of items) {
           const id = String(i?.id ?? "");
           if (!id || !registry[id]) continue;
@@ -459,6 +462,7 @@ function updateItemRegistry(): boolean {
               date: today,
               price: Number(e?.finalPrice ?? 0),
               regular_price: Number(e?.regularPrice ?? 0),
+              ...(isBundle ? { bundle: true } : {}),
             });
           }
         }
