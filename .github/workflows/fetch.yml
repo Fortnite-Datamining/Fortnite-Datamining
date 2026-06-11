@@ -15,15 +15,21 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+
+      - name: Checkout history branch
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        with:
+          ref: history
+          path: history
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
         with:
-          node-version: '22'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install dependencies
@@ -38,5 +44,26 @@ jobs:
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
 
-      - name: Push changes
-        run: git push
+      - name: Push history snapshots
+        working-directory: history
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "fortnite-datamining[bot]"
+            git config user.email "fortnite-datamining[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "snapshot $(date -u +%Y-%m-%d)"
+            git pull --rebase origin history
+            git push origin history
+          fi
+
+      - name: Alert on failure
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            curl -sS -X POST -H 'Content-Type: application/json' \
+              -d "{\"content\":\"fetch workflow failed: $RUN_URL\"}" \
+              "$DISCORD_WEBHOOK_URL" || true
+          fi
