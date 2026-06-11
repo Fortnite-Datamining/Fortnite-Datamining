@@ -383,8 +383,7 @@ interface ItemRegistryEntry {
   image?: string;
   source: string;
   first_seen: string;
-  last_seen: string;
-  shop_appearances?: { date: string; price: number; regular_price?: number }[];
+  shop_appearances?: { date: string; price: number; regular_price?: number; bundle?: boolean }[];
 }
 
 const COSMETIC_SOURCES: Array<{ file: string; source: string }> = [
@@ -404,6 +403,11 @@ function updateItemRegistry(): boolean {
   if (existsSync(registryPath)) {
     try { registry = JSON.parse(readFileSync(registryPath, "utf-8")); } catch {}
   }
+  // last_seen was always "today" (cosmetics endpoints return every item forever),
+  // which rewrote the whole file once per UTC day; strip it from older data
+  for (const v of Object.values(registry)) {
+    delete (v as unknown as Record<string, unknown>).last_seen;
+  }
 
   for (const src of COSMETIC_SOURCES) {
     const abs = join(ROOT, src.file);
@@ -419,7 +423,6 @@ function updateItemRegistry(): boolean {
         name: "",
         source: src.source,
         first_seen: today,
-        last_seen: today,
       };
       entry.name = String(item?.name ?? item?.title ?? entry.name ?? id);
       entry.type = item?.type?.displayValue ?? item?.type ?? entry.type;
@@ -435,7 +438,6 @@ function updateItemRegistry(): boolean {
       const img = item?.images?.featured ?? item?.images?.icon ?? item?.images?.smallIcon;
       if (img) entry.image = String(img);
       entry.source = src.source;
-      entry.last_seen = today;
       registry[id] = entry;
     }
   }
