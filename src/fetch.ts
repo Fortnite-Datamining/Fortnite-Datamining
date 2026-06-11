@@ -356,10 +356,14 @@ function nowUTCTime(): string {
   return new Date().toISOString().slice(11, 16);
 }
 
+// snapshots live on the orphan `history` branch (checked out at ./history in
+// CI and committed by the workflow) so main stays small
 const DAILY_SNAPSHOT_FILES: Record<string, string> = {
-  "data/shop/current.json": "data/shop/history",
-  "data/news/current.json": "data/news/history",
+  "data/shop/current.json": "shop",
+  "data/news/current.json": "news",
 };
+
+const HISTORY_ROOT = join(ROOT, "history");
 
 function writeDailySnapshots(changes: ChangeInfo[]): string[] {
   const written: string[] = [];
@@ -369,7 +373,7 @@ function writeDailySnapshots(changes: ChangeInfo[]): string[] {
     if (!historyDir) continue;
     const src = join(ROOT, c.file);
     if (!existsSync(src)) continue;
-    const destAbs = join(ROOT, historyDir, `${today}.json`);
+    const destAbs = join(HISTORY_ROOT, historyDir, `${today}.json`);
     if (!existsSync(dirname(destAbs))) mkdirSync(dirname(destAbs), { recursive: true });
     writeFileSync(destAbs, readFileSync(src, "utf-8"));
     written.push(`${historyDir}/${today}.json`);
@@ -907,8 +911,7 @@ async function main() {
   if (changes.length > 0) {
     const snapshots = writeDailySnapshots(changes);
     if (snapshots.length > 0) {
-      console.log(`Wrote ${snapshots.length} daily snapshot(s).`);
-      extras.push(...snapshots);
+      console.log(`Wrote ${snapshots.length} daily snapshot(s) to history/.`);
     }
 
     if (updateChangelog(changes)) {
