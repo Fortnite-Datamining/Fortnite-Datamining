@@ -1,4 +1,4 @@
-import { createHmac } from "crypto";
+import { createHash, createHmac } from "crypto";
 import { execFileSync } from "child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join } from "path";
@@ -491,6 +491,133 @@ function updateItemRegistry(): boolean {
   return saveJson(registry, "data/items/registry.json");
 }
 
+const STATS_SOURCES: Array<{ label: string; file: string }> = [
+  { label: "BR Cosmetics", file: "data/cosmetics/br.json" },
+  { label: "Cars", file: "data/cosmetics/cars.json" },
+  { label: "Instruments", file: "data/cosmetics/instruments.json" },
+  { label: "LEGO Cosmetics", file: "data/cosmetics/lego.json" },
+  { label: "LEGO Kits", file: "data/cosmetics/lego_kits.json" },
+  { label: "Jam Tracks", file: "data/cosmetics/tracks.json" },
+  { label: "Beans", file: "data/cosmetics/beans.json" },
+  { label: "Banners", file: "data/banners/current.json" },
+  { label: "Playlists", file: "data/playlists/current.json" },
+];
+
+function updateReadmeStats(): string[] {
+  const changed: string[] = [];
+  const counts: Record<string, number> = {};
+  for (const s of STATS_SOURCES) counts[s.label] = countItems(s.file);
+
+  let build: string | null = null;
+  let version: string | null = null;
+  const buildInfoPath = join(ROOT, "data/meta/build_info.json");
+  if (existsSync(buildInfoPath)) {
+    try {
+      const info = JSON.parse(readFileSync(buildInfoPath, "utf-8"));
+      build = info.build ?? null;
+      version = info.version ?? null;
+    } catch {}
+  }
+
+  if (saveJson({ build, version, counts }, "data/meta/stats.json")) {
+    changed.push("data/meta/stats.json");
+  }
+
+  const readmePath = join(ROOT, "README.md");
+  if (!existsSync(readmePath)) return changed;
+  const readme = readFileSync(readmePath, "utf-8");
+  const start = "<!-- stats:start -->";
+  const end = "<!-- stats:end -->";
+  const si = readme.indexOf(start);
+  const ei = readme.indexOf(end);
+  if (si === -1 || ei === -1 || ei < si) return changed;
+
+  const rows = STATS_SOURCES.filter((s) => counts[s.label] > 0).map(
+    (s) => `| ${s.label} | ${counts[s.label].toLocaleString("en-US")} |`,
+  );
+  const lines = [
+    ...(build ? [`Current build: \`${build}\``, ""] : []),
+    "| Category | Items |",
+    "|----------|-------|",
+    ...rows,
+  ];
+  const next =
+    readme.slice(0, si + start.length) + "\n" + lines.join("\n") + "\n" + readme.slice(ei);
+  if (next !== readme) {
+    writeFileSync(readmePath, next);
+    changed.push("README.md");
+  }
+  return changed;
+}
+
+function escapeXml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// RSS feed derived from CHANGELOG.md so it stays deterministic per run
+function updateFeed(): boolean {
+  const changelogPath = join(ROOT, "CHANGELOG.md");
+  if (!existsSync(changelogPath)) return false;
+  const text = readFileSync(changelogPath, "utf-8");
+
+  const items: { date: string; time: string; text: string }[] = [];
+  let currentDate = "";
+  for (const line of text.split("\n")) {
+    const dateMatch = line.match(/^## (\d{4}-\d{2}-\d{2})$/);
+    if (dateMatch) {
+      currentDate = dateMatch[1];
+      continue;
+    }
+    const entryMatch = line.match(/^- \*\*(\d{2}:\d{2})\*\* (.*)$/);
+    if (entryMatch && currentDate) {
+      const clean = entryMatch[2].replace(/\*\*/g, "").replace(/`/g, "");
+      items.push({ date: currentDate, time: entryMatch[1], text: clean });
+      if (items.length >= 40) break;
+    }
+  }
+  if (items.length === 0) return false;
+
+  const repoUrl = "https://github.com/Fortnite-Datamining/Fortnite-Datamining";
+  const xmlItems = items
+    .map((it) => {
+      const pubDate = new Date(`${it.date}T${it.time}:00Z`).toUTCString();
+      const guid = createHash("sha1")
+        .update(`${it.date}T${it.time} ${it.text}`)
+        .digest("hex")
+        .slice(0, 16);
+      return [
+        "    <item>",
+        `      <title>${escapeXml(it.text)}</title>`,
+        `      <link>${repoUrl}/commits/main</link>`,
+        `      <guid isPermaLink="false">${guid}</guid>`,
+        `      <pubDate>${pubDate}</pubDate>`,
+        "    </item>",
+      ].join("\n");
+    })
+    .join("\n");
+
+  const latest = items[0];
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Fortnite Datamining</title>
+    <link>${repoUrl}</link>
+    <description>Automated tracking of Fortnite API changes</description>
+    <lastBuildDate>${new Date(`${latest.date}T${latest.time}:00Z`).toUTCString()}</lastBuildDate>
+${xmlItems}
+  </channel>
+</rss>
+`;
+  const feedPath = join(ROOT, "feed.xml");
+  if (existsSync(feedPath) && readFileSync(feedPath, "utf-8") === xml) return false;
+  writeFileSync(feedPath, xml);
+  return true;
+}
+
 function formatChangelogLine(changes: ChangeInfo[]): string {
   const time = nowUTCTime();
   const buildChange = changes.find((c) => c.file === "data/meta/build_info.json");
@@ -518,7 +645,49 @@ function formatChangelogLine(changes: ChangeInfo[]): string {
   return `- ${parts.join(" - ")}`;
 }
 
-function updateChangelog(changes: ChangeInfo[]): boolean {
+// move day sections from earlier months into changelog/YYYY-MM.md so the
+// top-level changelog stays bounded
+function archiveChangelogMonths(body: string): { body: string; archived: string[] } {
+  const currentMonth = todayUTC().slice(0, 7);
+  const sections = body
+    .split(/(?=^## \d{4}-\d{2}-\d{2}$)/m)
+    .map((s) => s.trimEnd())
+    .filter((s) => s.trim().length > 0);
+
+  const keep: string[] = [];
+  const byMonth = new Map<string, string[]>();
+  for (const s of sections) {
+    const m = s.match(/^## (\d{4}-\d{2})-\d{2}/);
+    if (!m || m[1] === currentMonth) {
+      keep.push(s);
+      continue;
+    }
+    const list = byMonth.get(m[1]) ?? [];
+    list.push(s);
+    byMonth.set(m[1], list);
+  }
+
+  const archived: string[] = [];
+  for (const [month, secs] of byMonth) {
+    const rel = `changelog/${month}.md`;
+    const abs = join(ROOT, rel);
+    if (!existsSync(dirname(abs))) mkdirSync(dirname(abs), { recursive: true });
+    const archHeader = `# Changelog ${month}\n\n`;
+    let existingBody = "";
+    if (existsSync(abs)) {
+      const prev = readFileSync(abs, "utf-8");
+      existingBody = prev.startsWith(archHeader) ? prev.slice(archHeader.length) : prev;
+    }
+    // sections leaving CHANGELOG.md are newer than anything already archived
+    const content =
+      `${archHeader}${secs.join("\n\n")}\n\n${existingBody}`.trimEnd() + "\n";
+    writeFileSync(abs, content);
+    archived.push(rel);
+  }
+  return { body: keep.join("\n\n"), archived };
+}
+
+function updateChangelog(changes: ChangeInfo[]): string[] {
   const path = join(ROOT, "CHANGELOG.md");
   const today = todayUTC();
   const newLine = formatChangelogLine(changes);
@@ -526,23 +695,33 @@ function updateChangelog(changes: ChangeInfo[]): boolean {
   let existing = "";
   if (existsSync(path)) existing = readFileSync(path, "utf-8");
 
-  const header = "# Changelog\n\nAuto-generated from each fetch run. Most recent first.\n\n";
+  const header =
+    "# Changelog\n\nAuto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).\n\n";
 
-  let body = existing.startsWith("# Changelog") ? existing.slice(header.length) : existing;
-  body = body.trimStart();
+  // strip any previous header; the body starts at the first day section
+  const idx = existing.indexOf("\n## ");
+  let body = idx >= 0 ? existing.slice(idx + 1).trimStart() : "";
 
-  const todaySection = `## ${today}\n`;
-  if (body.startsWith(todaySection)) {
-    const after = body.slice(todaySection.length);
-    body = `${todaySection}${newLine}\n${after}`;
+  const { body: kept, archived } = archiveChangelogMonths(body);
+  body = kept;
+
+  const todaySection = `## ${today}`;
+  if (body.startsWith(`${todaySection}\n`)) {
+    const after = body.slice(todaySection.length + 1);
+    body = `${todaySection}\n${newLine}\n${after}`;
   } else {
-    body = `${todaySection}${newLine}\n\n${body}`;
+    body = body.length > 0
+      ? `${todaySection}\n${newLine}\n\n${body}`
+      : `${todaySection}\n${newLine}`;
   }
 
   const next = `${header}${body}`.trimEnd() + "\n";
-  if (next === existing) return false;
-  writeFileSync(path, next);
-  return true;
+  const changedPaths = [...archived];
+  if (next !== existing) {
+    writeFileSync(path, next);
+    changedPaths.push("CHANGELOG.md");
+  }
+  return changedPaths;
 }
 
 function git(args: string[]): void {
@@ -911,14 +1090,9 @@ async function main() {
     extras.push("data/items/registry.json");
   }
 
-  const changelogPath = join(ROOT, "CHANGELOG.md");
-  if (!existsSync(changelogPath)) {
-    writeFileSync(
-      changelogPath,
-      "# Changelog\n\nAuto-generated from each fetch run. Most recent first.\n",
-    );
-    console.log("CHANGELOG.md initialized.");
-    extras.push("CHANGELOG.md");
+  for (const p of updateReadmeStats()) {
+    console.log(`${p} updated.`);
+    extras.push(p);
   }
 
   if (changes.length > 0) {
@@ -927,10 +1101,15 @@ async function main() {
       console.log(`Wrote ${snapshots.length} daily snapshot(s) to history/.`);
     }
 
-    if (updateChangelog(changes)) {
-      console.log("CHANGELOG.md updated.");
-      if (!extras.includes("CHANGELOG.md")) extras.push("CHANGELOG.md");
+    for (const p of updateChangelog(changes)) {
+      console.log(`${p} updated.`);
+      if (!extras.includes(p)) extras.push(p);
     }
+  }
+
+  if (updateFeed()) {
+    console.log("feed.xml updated.");
+    extras.push("feed.xml");
   }
 
   if (changes.length === 0 && extras.length === 0) {
