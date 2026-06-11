@@ -89,6 +89,16 @@ const ENDPOINTS: Record<string, Endpoint> = {
     description: "Banner Colors",
     sortKey: "id",
   },
+  map: {
+    url: "https://fortnite-api.com/v1/map",
+    output: "data/map/current.json",
+    description: "Map & POIs",
+  },
+  epic_content: {
+    url: "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game",
+    output: "data/epic/content.json",
+    description: "Epic Content Pages",
+  },
 };
 
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
@@ -694,6 +704,9 @@ function buildTweetText(changes: ChangeInfo[]): string {
 
   const playlistChange = changes.find((c) => c.description === "Playlists");
   if (playlistChange) parts.push("Playlists/gamemodes changed");
+
+  const mapChange = changes.find((c) => c.description === "Map & POIs");
+  if (mapChange) parts.push("Map / POIs updated");
 
   const aesChange = changes.find((c) => c.description === "AES Keys");
   if (aesChange && !buildChange) parts.push("New AES encryption keys");
