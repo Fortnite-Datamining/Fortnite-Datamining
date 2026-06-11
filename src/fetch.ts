@@ -103,20 +103,24 @@ function sleep(ms: number): Promise<void> {
 
 async function fetchWithRetry(
   url: string,
-  retries = 1,
+  retries = 2,
 ): Promise<unknown> {
   for (let attempt = 0; attempt <= retries; attempt++) {
     try {
       const res = await fetch(url, {
-        headers: { "User-Agent": "Fortnite-Datamining/1.0" },
+        headers: {
+          "User-Agent":
+            "Fortnite-Datamining/1.0 (+https://github.com/Fortnite-Datamining/Fortnite-Datamining)",
+        },
         signal: AbortSignal.timeout(30_000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
     } catch (err) {
       if (attempt < retries) {
-        console.log(`  -> Retrying (${err instanceof Error ? err.message : err})...`);
-        await sleep(3000);
+        const waitMs = 3000 * (attempt + 1);
+        console.log(`  -> Retrying in ${waitMs}ms (${err instanceof Error ? err.message : err})...`);
+        await sleep(waitMs);
       } else {
         throw err;
       }
@@ -785,9 +789,13 @@ async function fetchAll(): Promise<ChangeInfo[]> {
     }),
   );
 
-  for (const result of results) {
+  const failures: string[] = [];
+  for (let i = 0; i < results.length; i++) {
+    const result = results[i];
     if (result.status === "rejected") {
-      console.warn(`  -> Failed: ${result.reason}`);
+      const [, endpoint] = entries[i];
+      failures.push(`${endpoint.description}: ${result.reason}`);
+      console.warn(`  -> ${endpoint.description} failed: ${result.reason}`);
       continue;
     }
 
@@ -844,6 +852,17 @@ async function fetchAll(): Promise<ChangeInfo[]> {
           removedItemNames: [],
         });
       }
+    }
+  }
+
+  if (failures.length > 0) {
+    const summaryPath = process.env.GITHUB_STEP_SUMMARY;
+    if (summaryPath) {
+      writeFileSync(
+        summaryPath,
+        `### Endpoint failures\n\n${failures.map((f) => `- ${f}`).join("\n")}\n`,
+        { flag: "a" },
+      );
     }
   }
 
