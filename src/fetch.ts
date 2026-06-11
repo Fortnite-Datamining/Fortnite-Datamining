@@ -1,5 +1,5 @@
 import { createHmac } from "crypto";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
@@ -521,15 +521,16 @@ function updateChangelog(changes: ChangeInfo[]): boolean {
   return true;
 }
 
+function git(args: string[]): void {
+  execFileSync("git", args, { cwd: ROOT, stdio: "inherit" });
+}
+
 function gitCommit(changes: ChangeInfo[], extraPaths: string[]): void {
   const isCI = !!process.env.GITHUB_ACTIONS;
 
   if (isCI) {
-    execSync(`git config user.name "fortnite-datamining[bot]"`, { cwd: ROOT });
-    execSync(
-      `git config user.email "fortnite-datamining[bot]@users.noreply.github.com"`,
-      { cwd: ROOT },
-    );
+    git(["config", "user.name", "fortnite-datamining[bot]"]);
+    git(["config", "user.email", "fortnite-datamining[bot]@users.noreply.github.com"]);
   }
 
   const fullMsg = changes.length > 0
@@ -537,12 +538,12 @@ function gitCommit(changes: ChangeInfo[], extraPaths: string[]): void {
     : `Initialize derived data\n\nGenerated:\n${extraPaths.map(p => `- ${p}`).join("\n")}`;
 
   for (const c of changes) {
-    execSync(`git add ${c.file}`, { cwd: ROOT });
+    git(["add", c.file]);
   }
   for (const p of extraPaths) {
-    execSync(`git add ${p}`, { cwd: ROOT });
+    git(["add", p]);
   }
-  execSync(`git commit -m ${JSON.stringify(fullMsg)}`, { cwd: ROOT });
+  git(["commit", "-m", fullMsg]);
   console.log(`Committed: ${fullMsg.split("\n")[0]}`);
 }
 
