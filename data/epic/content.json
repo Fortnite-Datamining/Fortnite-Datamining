@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-06-11T23:05:56.009Z",
+  "lastModified": "2026-06-12T20:48:26.929Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -10686,7 +10686,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-06-10T16:14:20.673Z",
+    "lastModified": "2026-06-12T20:16:00.891Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -24968,6 +24968,16 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Gold Sprites",
+              "textID": "Gold Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Gummy Sprites",
+              "textID": "Gummy Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Portable Extractor",
               "textID": "Portable Extractor"
             },
@@ -36797,7 +36807,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-11T15:55:30.681Z",
+    "lastModified": "2026-06-12T20:48:26.929Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -38901,6 +38911,26 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Battle Pass first-week bonus was the Gold Huntress Dylan style",
+              "textID": "the Battle Pass first-week bonus was the Gold Huntress Dylan style"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there was a bonus style for buying the Battle Pass in the first week",
+              "textID": "there was a bonus style for buying the Battle Pass in the first week"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Battle Pass has a Sprite Mech outfit",
+              "textID": "the Battle Pass has a Sprite Mech outfit"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can customize the Sprite Mech outfit using your Sprites",
+              "textID": "you can customize the Sprite Mech outfit using your Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "when you use the setting to hide your Sprite, it only disappears from your own screen (other players can still see it on your back)",
               "textID": "when you use the setting to hide your Sprite, it only disappears from your own screen (other players can still see it on your back)"
             },
@@ -39094,6 +39124,16 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite's Mastery Monday is happening on June 15",
+              "textID": "Fortnite's Mastery Monday is happening on June 15"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is a Golden Hour (with a better chance to find Gold Sprite variants) on Saturday, June 13",
+              "textID": "there is a Golden Hour (with a better chance to find Gold Sprite variants) on Saturday, June 13"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Fortnite Crew now grants 800 V-Bucks per month",
               "textID": "Fortnite Crew now grants 800 V-Bucks per month"
             },
@@ -39223,6 +39263,76 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Agreement",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I like that I can customize my own Sprite Mech.",
+              "textID": "I like that I can customize my own Sprite Mech."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The coolest Sprites are my favorites.",
+              "textID": "The coolest Sprites are my favorites."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The cutest Sprites are my favorites.",
+              "textID": "The cutest Sprites are my favorites."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The most powerful Sprites are my favorites.",
+              "textID": "The most powerful Sprites are my favorites."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I’m interested in seeing Sprites in more game modes in addition to Fortnite Battle Royale.",
+              "textID": "I’m interested in seeing Sprites in more game modes in addition to Fortnite Battle Royale."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The risk of losing my Sprite before I can extract it makes matches more stressful.",
+              "textID": "The risk of losing my Sprite before I can extract it makes matches more stressful."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The risk of losing my Sprite before I can extract it makes matches more exciting.",
+              "textID": "The risk of losing my Sprite before I can extract it makes matches more exciting."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprites are cute.",
+              "textID": "Sprites are cute."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "My Sprite feels like my companion.",
+              "textID": "My Sprite feels like my companion."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I understand how to get a Gold Sprite.",
+              "textID": "I understand how to get a Gold Sprite."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I understand how to get a Gummy Sprite.",
+              "textID": "I understand how to get a Gummy Sprite."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I have shared Sprites with other players.",
+              "textID": "I have shared Sprites with other players."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I have traded Sprites with other players.",
+              "textID": "I have traded Sprites with other players."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I want to complete my whole Sprite collection.",
+              "textID": "I want to complete my whole Sprite collection."
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I would rather show my backbling on my back than my Sprite.",

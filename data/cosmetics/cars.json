@@ -2467,6 +2467,27 @@
       "vehicleId": "VCID_Body_Topple"
     },
     {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Electric.",
+      "id": "CarBody_TurtleModem",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_turtlemodem/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_turtlemodem/small.png"
+      },
+      "name": "Hyundai Ioniq 6",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_TurtleModem"
+    },
+    {
       "added": "2025-08-07T08:15:39Z",
       "description": "Double down and roll out.",
       "id": "CarBody_Twinzer",
@@ -19381,6 +19402,111 @@
       "vehicleId": "VCID_Skin_ToppleWings"
     },
     {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Hyundai Ioniq 6 custom decal.",
+      "id": "CarSkin_TurtleModemFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TurtleModemFlames"
+    },
+    {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Hyundai Ioniq 6 custom decal.",
+      "id": "CarSkin_TurtleModemLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemlightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemlightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TurtleModemLightning"
+    },
+    {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Hyundai Ioniq 6 custom decal.",
+      "id": "CarSkin_TurtleModemLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemlivery01/small.png"
+      },
+      "name": "La Mode",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TurtleModemLivery01"
+    },
+    {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Hyundai Ioniq 6 custom decal.",
+      "id": "CarSkin_TurtleModemStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemstripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TurtleModemStripes"
+    },
+    {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Hyundai Ioniq 6 custom decal.",
+      "id": "CarSkin_TurtleModemWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_turtlemodemwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TurtleModemWings"
+    },
+    {
       "added": "2025-08-07T08:15:39Z",
       "description": "Twinzer custom decal.",
       "id": "CarSkin_TwinzerMonster",
@@ -36113,6 +36239,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Turek"
+    },
+    {
+      "added": "2026-06-12T20:29:11Z",
+      "description": "Electric.",
+      "id": "Wheel_TurtleModem01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_turtlemodem01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_turtlemodem01/small.png"
+      },
+      "name": "Hyundai Ioniq 6",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_TurtleModem01"
     },
     {
       "added": "2025-02-21T12:16:05Z",
