@@ -118232,6 +118232,49 @@
       }
     },
     {
+      "added": "2026-06-12T23:00:58Z",
+      "description": "Tough but fair.",
+      "dynamicPakId": "1013",
+      "id": "Character_EclairAche",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_eclairache/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_eclairache/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_eclairache/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_eclairache/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_eclairache/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Coach Gabi",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2023-10-10T11:59:07Z",
       "description": "A purrnicious monster from a cursed shadow realm.",
       "id": "Character_EctoCat",
@@ -285515,6 +285558,7 @@
         "text": "Part of the Set_03 set.",
         "value": "Set_03"
       },
+      "showcaseVideo": "faqYyHh1-L4",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
