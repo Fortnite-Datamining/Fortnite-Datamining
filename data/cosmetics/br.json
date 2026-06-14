@@ -338904,6 +338904,47 @@
       }
     },
     {
+      "added": "2026-06-14T00:00:00Z",
+      "description": "Keep it heavy.",
+      "dynamicPakId": "1020",
+      "id": "EID_StopTraffic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_stoptraffic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_stoptraffic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_stoptraffic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Omote",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "showcaseVideo": "DZMm_Q3OB8I",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-04-08T08:41:18Z",
       "description": "Almost... Almost....",
       "id": "EID_Stopwatch",
