@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-17
+- **03:38** Item Shop - +26 new (Toy Story Alien Bundle, Destroy Buzz, Buzz Lightyear Mic, Lachlan Bundle, Chance, +21 more) - -32 removed
+
 ## 2026-06-16
 - **22:08** Item Shop, Epic Content Pages
 - **16:09** Jam Tracks, Epic Content Pages - +2 new (He Gets Me So High, I miss you, I'm sorry)
