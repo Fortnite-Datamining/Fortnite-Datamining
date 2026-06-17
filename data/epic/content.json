@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-06-17T13:53:01.031Z",
+  "lastModified": "2026-06-17T19:03:14.236Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -37888,7 +37888,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-15T13:43:45.764Z",
+    "lastModified": "2026-06-17T19:03:14.236Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40205,6 +40205,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is a Gummy Hour (with a better chance to find Gummy Sprite variants) on Saturday, June 20",
+              "textID": "there is a Gummy Hour (with a better chance to find Gummy Sprite variants) on Saturday, June 20"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Fortnite's Mastery Monday is happening on June 15",
               "textID": "Fortnite's Mastery Monday is happening on June 15"
             },
@@ -41495,58 +41500,6 @@
           "surveyID": "FNBR_StormShapes_Rating",
           "surveyTags": [
             "FNBR_Modular_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": false,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "Global_Main_Rate",
-            "Global_Cooldown",
-            "GameModes_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": true,
-                "numberOfOptions": 9,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Which of the following platforms have you played Rocket League (not Rocket Racing) on? Please select all that apply. If you have not played Rocket League, please skip the question.",
-                  "textID": "Which of the following platforms have you played Rocket League (not Rocket Racing) on? Please select all that apply. If you have not played Rocket League, please skip the question."
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "PlayStation",
-                    "textID": "PlayStation"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Xbox",
-                    "textID": "Xbox"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "PC",
-                    "textID": "PC"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Nintendo Switch",
-                    "textID": "Nintendo Switch"
-                  }
-                ],
-                "type": "MultipleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_PlatformsPlayed_RocketLeague_MC",
-          "surveyTags": [
-            "Ecosystem_Main_Surveys"
           ]
         },
         {
