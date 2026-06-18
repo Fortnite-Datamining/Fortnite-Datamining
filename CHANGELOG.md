@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-18
+- **18:07** BR Cosmetics, Item Shop, Epic Content Pages
 - **14:58** BR Cosmetics, Item Shop, AES Keys - +6 new (Rambo's Quiver, John Rambo, Prepare for Battle, Gunship, Rambo's Combat Knife, +1 more)
 - **02:00** Item Shop - +50 new (Chigusa, Vibrant Llama, Renard Stuffie, Rebel Authority, Night King, +45 more) - -68 removed
 
