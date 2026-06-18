@@ -39181,6 +39181,39 @@
       }
     },
     {
+      "added": "2026-06-18T13:01:07Z",
+      "description": "Silent... until the boom.",
+      "dynamicPakId": "1022",
+      "id": "Backpack_RaisinHunt_Rag",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Rambo's Quiver",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DarkFire",
+        "text": "Part of the Rambo set.",
+        "value": "Rambo"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-05-02T12:59:13Z",
       "description": "Noodles to go.",
       "id": "Backpack_Ramen",
@@ -157217,6 +157250,73 @@
             }
           ],
           "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-18T13:01:07Z",
+      "description": "He never fought a battle he couldn't win.",
+      "dynamicPakId": "1022",
+      "id": "Character_RaisinHunt_Rag",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "John Rambo",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DarkFire",
+        "text": "Part of the Rambo set.",
+        "value": "Rambo"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/variants/parts/stage1.png",
+              "name": "John Rambo",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/variants/parts/stage2.png",
+              "name": "First Blood",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "style"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/variants/material/mat1.png",
+              "name": "On",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/variants/material/mat2.png",
+              "name": "Off",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "bandolier"
         }
       ]
     },
@@ -330158,6 +330258,39 @@
       }
     },
     {
+      "added": "2026-06-18T13:01:07Z",
+      "description": "Give 'em a war they won't believe.",
+      "dynamicPakId": "1022",
+      "id": "EID_RaisinHunt",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Prepare for Battle",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DarkFire",
+        "text": "Part of the Rambo set.",
+        "value": "Rambo"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2026-02-19T09:26:27Z",
       "description": "ARISE!",
       "id": "EID_RampCanal",
@@ -394654,6 +394787,39 @@
         "backendValue": "ColdRats",
         "text": "Part of the Brotherhood of Steel set.",
         "value": "Brotherhood of Steel"
+      },
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      }
+    },
+    {
+      "added": "2026-06-18T13:01:07Z",
+      "description": "Get in. Get out. Survive.",
+      "dynamicPakId": "1022",
+      "id": "Glider_RaisinHunt_Rag",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Gunship",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DarkFire",
+        "text": "Part of the Rambo set.",
+        "value": "Rambo"
       },
       "type": {
         "backendValue": "AthenaGlider",
@@ -512214,6 +512380,39 @@
       }
     },
     {
+      "added": "2026-06-18T13:01:07Z",
+      "description": "What's it for? Hunting.",
+      "dynamicPakId": "1022",
+      "id": "Pickaxe_RaisinHunt_Rag",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Rambo's Combat Knife",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DarkFire",
+        "text": "Part of the Rambo set.",
+        "value": "Rambo"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2026-04-16T08:20:44Z",
       "description": "Starve 'em out.",
       "id": "Pickaxe_RampageDiva",
@@ -616096,6 +616295,39 @@
         "backendValue": "QueenOcean",
         "text": "Part of the Belle of the Beach set.",
         "value": "Belle of the Beach"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-06-18T13:01:07Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1022",
+      "id": "Wrap_RaisinHunt",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Rambo's War",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DarkFire",
+        "text": "Part of the Rambo set.",
+        "value": "Rambo"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
