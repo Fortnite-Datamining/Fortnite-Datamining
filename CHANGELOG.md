@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-18
+- **22:54** Item Shop, News, Epic Content Pages - +1 new (New Galaxy Sprites Have Arrived!) - -1 removed
 - **20:43** Epic Content Pages
 - **18:07** BR Cosmetics, Item Shop, Epic Content Pages
 - **14:58** BR Cosmetics, Item Shop, AES Keys - +6 new (Rambo's Quiver, John Rambo, Prepare for Battle, Gunship, Rambo's Combat Knife, +1 more)
