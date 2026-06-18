@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-18
+- **02:00** Item Shop - +50 new (Chigusa, Vibrant Llama, Renard Stuffie, Rebel Authority, Night King, +45 more) - -68 removed
+
 ## 2026-06-17
 - **23:00** Item Shop, Epic Content Pages
 - **19:22** Epic Content Pages
