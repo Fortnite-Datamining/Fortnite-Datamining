@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-19
+- **16:30** News - +1 new (Gummy Hour June 20) - -1 removed
 - **13:53** News - +1 new (Jax Outfit) - -1 removed
 - **00:23** Item Shop - +35 new (GHOST Skimboard, Gilded Shadow, Spacefarer Lightscythe, Goal Getter, Golden Sands Bundle, +30 more) - -38 removed
 
