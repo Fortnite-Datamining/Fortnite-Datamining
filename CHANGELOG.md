@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-20
+- **00:05** Item Shop - +50 new (Chomp Bundle, Bodies, Lawncore Bundle, Valkyrie, Laser Chomp, +45 more) - -33 removed
+
 ## 2026-06-19
 - **21:43** Item Shop
 - **20:25** Item Shop, Epic Content Pages
