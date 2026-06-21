@@ -1648,27 +1648,15 @@
     }
   },
   "emergencynoticev2": {
-    "_activeDate": "2026-03-23T12:30:00.000Z",
+    "_activeDate": "2026-06-21T01:30:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices",
-      "emergencynotices": [
-        {
-          "_type": "CommonUI Emergency Notice Base",
-          "body": "Touch input may not respond on Starter Island or the Battle Bus until the event message appears and clears.",
-          "hidden": false,
-          "platforms": [
-            "IOS",
-            "Android"
-          ],
-          "title": "Unresponsive Buttons at Match Start"
-        }
-      ]
+      "_type": "Emergency Notices"
     },
-    "lastModified": "2026-06-20T17:09:29.245Z"
+    "lastModified": "2026-06-20T17:56:57.170Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
