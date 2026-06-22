@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-06-21T21:01:51.186Z",
+  "lastModified": "2026-06-22T17:36:16.331Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -11966,7 +11966,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-06-17T21:16:33.317Z",
+    "lastModified": "2026-06-22T17:36:16.331Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -18397,7 +18397,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0136",
+                              "comparisonValue": "0.0272",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18420,7 +18420,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0438",
+                              "comparisonValue": "0.0876",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18438,7 +18438,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0408",
+                              "comparisonValue": "0.0816",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18456,7 +18456,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0204",
+                              "comparisonValue": "0.0408",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18474,7 +18474,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0838",
+                              "comparisonValue": "0.1676",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18492,7 +18492,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0560",
+                              "comparisonValue": "0.1120",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18532,7 +18532,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0126",
+                              "comparisonValue": "0.0252",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18555,7 +18555,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0298",
+                              "comparisonValue": "0.0596",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18573,7 +18573,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0410",
+                              "comparisonValue": "0.0820",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18591,7 +18591,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0410",
+                              "comparisonValue": "0.0820",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18609,7 +18609,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.10",
+                              "comparisonValue": "0.20",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18627,7 +18627,7 @@
                             },
                             {
                               "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.022",
+                              "comparisonValue": "0.044",
                               "operation": "LessThan",
                               "type": "Random"
                             }
@@ -18694,28 +18694,6 @@
               "comparisonValue": "0",
               "operation": "LessThan",
               "type": "Random"
-            }
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Condition Group",
-          "conditionGroupID": "FNBR_Heartbeats_PlatformSwitch",
-          "conditions": [
-            {
-              "_type": "Player Survey V2 - Condition Level 1",
-              "conditionInfo": [
-                "PS4",
-                "PS5",
-                "XSX",
-                "XboxOne",
-                "Windows",
-                "Switch",
-                "Android",
-                "iOS",
-                "XboxOneGDK",
-                "XB1"
-              ],
-              "type": "Platform"
             }
           ]
         },
@@ -27563,7 +27541,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -27978,7 +27955,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "UGC_HeartbeatsOnly_Cooldown",
             "UGC_Heartbeats_Platform_Exp_RateSwitch",
             "UGC",
@@ -28558,7 +28534,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_ModularOnly_Cooldown",
             "Delulu_Modular_Platform_Exp_RateSwitch",
             "Delulu_All",
@@ -28606,7 +28581,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_ModularOnly_Cooldown",
             "Delulu_Modular_Platform_Exp_RateSwitch",
             "Delulu_All",
@@ -28747,7 +28721,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_Heartbeats_Platform_Exp_RateSwitch",
             "Blastberry_HeartbeatsOnly_Cooldown",
             "Blastberry_All",
@@ -28790,7 +28763,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_All",
@@ -28833,7 +28805,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_Heartbeats_Platform_Exp_RateSwitch",
             "Delulu_HeartbeatsOnly_Cooldown",
             "Delulu_All",
@@ -28876,7 +28847,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_ModularOnly_Cooldown",
             "Delulu_Modular_Platform_Exp_RateSwitch",
             "Delulu_All",
@@ -29101,7 +29071,6 @@
           "conditionGroupIDs": [
             "Delulu_Modular_Platform_Exp_RateSwitch",
             "Delulu_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_All",
             "Global_Cooldown"
           ],
@@ -29280,7 +29249,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_ModularOnly_Cooldown",
             "Delulu_Modular_Platform_Exp_RateSwitch",
             "Delulu_All",
@@ -29328,7 +29296,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_HeartbeatsOnly_Cooldown",
             "Delulu_Heartbeats_Platform_Exp_RateSwitch",
             "Delulu_All",
@@ -29376,7 +29343,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_Heartbeats_Platform_Exp_RateSwitch",
             "Delulu_HeartbeatsOnly_Cooldown",
             "Delulu_All",
@@ -29419,7 +29385,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Delulu_HeartbeatsOnly_Cooldown",
             "Delulu_Heartbeats_Platform_Exp_RateSwitch",
             "Delulu_All",
@@ -29462,7 +29427,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_ModularOnly_Cooldown",
             "ForbiddenFruit_Modular_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -29695,7 +29659,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_ModularOnly_Cooldown",
             "Figment_Modular_Platform_Exp_RateSwitch",
             "Figment_All",
@@ -29918,7 +29881,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_ModularOnly_Cooldown",
             "Blastberry_Modular_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -30166,7 +30128,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_RankedAll",
@@ -30409,7 +30370,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -30632,7 +30592,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_ModularOnly_Cooldown",
             "ForbiddenFruit_Modular_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -30755,7 +30714,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_HeartbeatsOnly_Cooldown",
             "ForbiddenFruit_Heartbeats_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -30798,7 +30756,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_Heartbeats_Platform_Exp_RateSwitch",
             "ForbiddenFruit_HeartbeatsOnly_Cooldown",
             "ForbiddenFruit_All",
@@ -30841,7 +30798,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_HeartbeatsOnly_Cooldown",
             "ForbiddenFruit_Heartbeats_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -30889,7 +30845,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_ModularOnly_Cooldown",
             "ForbiddenFruit_Modular_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -30939,7 +30894,6 @@
           "conditionGroupIDs": [
             "ForbiddenFruit_Modular_Platform_Exp_RateSwitch",
             "ForbiddenFruit_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_All",
             "Global_Cooldown"
           ],
@@ -31113,7 +31067,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_ModularOnly_Cooldown",
             "ForbiddenFruit_Modular_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -31254,7 +31207,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "ForbiddenFruit_ModularOnly_Cooldown",
             "ForbiddenFruit_Modular_Platform_Exp_RateSwitch",
             "ForbiddenFruit_All",
@@ -31587,7 +31539,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "UGC_HeartbeatsOnly_Cooldown",
             "UGC_Heartbeats_Platform_Exp_RateSwitch",
             "UGC",
@@ -31665,7 +31616,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sprout_Heartbeats_Platform_Exp_RateSwitch",
             "Sprout_HeartbeatsOnly_Cooldown",
             "Sprout_All",
@@ -31710,7 +31660,6 @@
           "conditionGroupIDs": [
             "Sprout_Modular_Platform_Exp_RateSwitch",
             "Sprout_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sprout_All",
             "Global_Cooldown"
           ],
@@ -31836,7 +31785,6 @@
           "conditionGroupIDs": [
             "Sprout_Modular_Platform_Exp_RateSwitch",
             "Sprout_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sprout_All",
             "Global_Cooldown"
           ],
@@ -32055,7 +32003,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_ModularOnly_Cooldown",
             "Figment_Modular_Platform_Exp_RateSwitch",
             "Figment_All",
@@ -32103,7 +32050,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_ModularOnly_Cooldown",
             "Figment_Modular_Platform_Exp_RateSwitch",
             "Figment_All",
@@ -32246,7 +32192,6 @@
           "conditionGroupIDs": [
             "Figment_Modular_Platform_Exp_RateSwitch",
             "Figment_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_All",
             "Global_Cooldown"
           ],
@@ -32490,7 +32435,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_ModularOnly_Cooldown",
             "Figment_Modular_Platform_Exp_RateSwitch",
             "Figment_All",
@@ -32538,7 +32482,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_HeartbeatsOnly_Cooldown",
             "Figment_Heartbeats_Platform_Exp_RateSwitch",
             "Figment_All",
@@ -32586,7 +32529,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_Heartbeats_Platform_Exp_RateSwitch",
             "Figment_HeartbeatsOnly_Cooldown",
             "Figment_All",
@@ -32629,7 +32571,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Figment_HeartbeatsOnly_Cooldown",
             "Figment_Heartbeats_Platform_Exp_RateSwitch",
             "Figment_All",
@@ -32674,7 +32615,6 @@
           "conditionGroupIDs": [
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_RankedAll",
             "Global_Cooldown"
           ],
@@ -33033,7 +32973,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_RankedAll",
@@ -33081,7 +33020,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_RankedAll",
@@ -33222,7 +33160,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_Heartbeats_Platform_Exp_RateSwitch",
             "Blastberry_HeartbeatsOnly_Cooldown",
             "Blastberry_All",
@@ -33265,7 +33202,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_HeartbeatsOnly_Cooldown",
             "Blastberry_Heartbeats_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -33308,7 +33244,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_HeartbeatsOnly_Cooldown",
             "Blastberry_Heartbeats_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -33356,7 +33291,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_ModularOnly_Cooldown",
             "Blastberry_Modular_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -33406,7 +33340,6 @@
           "conditionGroupIDs": [
             "Blastberry_Modular_Platform_Exp_RateSwitch",
             "Blastberry_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_All",
             "Global_Cooldown"
           ],
@@ -33695,7 +33628,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_ModularOnly_Cooldown",
             "Blastberry_Modular_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -33836,7 +33768,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_ModularOnly_Cooldown",
             "Blastberry_Modular_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -34045,7 +33976,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Blastberry_ModularOnly_Cooldown",
             "Blastberry_Modular_Platform_Exp_RateSwitch",
             "Blastberry_All",
@@ -34093,7 +34023,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_HeartbeatsOnly_Cooldown",
             "Sparks_BattleStage_Heartbeats_Platform_Exp_RateSwitch",
             "Sparks_BattleStage",
@@ -34141,7 +34070,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_ModularOnly_Cooldown",
             "Sparks_BattleStage_Modular_Platform_Exp_RateSwitch",
             "Sparks_BattleStage",
@@ -34189,7 +34117,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_BattleStage_Heartbeats_Platform_Exp_RateSwitch",
             "Sparks_HeartbeatsOnly_Cooldown",
             "Sparks_BattleStage",
@@ -34234,7 +34161,6 @@
           "conditionGroupIDs": [
             "Sparks_BattleStage_Modular_Platform_Exp_RateSwitch",
             "Sparks_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_BattleStage",
             "Global_Cooldown"
           ],
@@ -34458,7 +34384,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "UGC_HeartbeatsOnly_Cooldown",
             "UGC_Heartbeats_Platform_Exp_RateSwitch",
             "UGC",
@@ -34506,7 +34431,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "UGC_HeartbeatsOnly_Cooldown",
             "UGC_Heartbeats_Platform_Exp_RateSwitch",
             "UGC",
@@ -34549,7 +34473,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "UGC_Heartbeats_Platform_Exp_RateSwitch",
             "UGC_HeartbeatsOnly_Cooldown",
             "UGC",
@@ -34593,7 +34516,6 @@
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
             "Juno_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Juno_All",
             "Global_Cooldown",
             "Global_Modular"
@@ -34768,7 +34690,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "AllProducts_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "Global_Cooldown"
@@ -34838,7 +34759,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -34988,7 +34908,6 @@
           "conditionGroupIDs": [
             "Sparks_Main_Modular_Platform_Exp_RateSwitch",
             "Sparks_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_MainStage",
             "Global_Cooldown"
           ],
@@ -35192,7 +35111,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_ModularOnly_Cooldown",
             "Sparks_Main_Modular_Platform_Exp_RateSwitch",
             "Sparks_MainStage",
@@ -35240,7 +35158,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_HeartbeatsOnly_Cooldown",
             "Sparks_Main_Heartbeats_Platform_Exp_RateSwitch",
             "Sparks_MainStage",
@@ -35288,7 +35205,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_HeartbeatsOnly_Cooldown",
             "Sparks_Main_Heartbeats_Platform_Exp_RateSwitch",
             "Sparks_All",
@@ -35331,7 +35247,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Sparks_Main_Heartbeats_Platform_Exp_RateSwitch",
             "Sparks_HeartbeatsOnly_Cooldown",
             "Sparks_MainStage",
@@ -35376,7 +35291,6 @@
           "conditionGroupIDs": [
             "DelMar_Modular_Platform_Exp_RateSwitch",
             "DelMar_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "DelMar_All",
             "Global_Cooldown"
           ],
@@ -35655,7 +35569,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "DelMar_ModularOnly_Cooldown",
             "DelMar_Modular_Platform_Exp_RateSwitch",
             "DelMar_All",
@@ -35703,7 +35616,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "DelMar_HeartbeatsOnly_Cooldown",
             "DelMar_Heartbeats_Platform_Exp_RateSwitch",
             "DelMar_All",
@@ -35752,7 +35664,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "DelMar_HeartbeatsOnly_Cooldown",
             "DelMar_Heartbeats_Platform_Exp_RateSwitch",
             "DelMar_All",
@@ -35796,7 +35707,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "DelMar_Heartbeats_Platform_Exp_RateSwitch",
             "DelMar_HeartbeatsOnly_Cooldown",
             "DelMar_All",
@@ -35840,7 +35750,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Juno_ModularOnly_Cooldown",
             "Juno_All",
             "Global_Modular",
@@ -35888,7 +35797,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Juno_HeartbeatsOnly_Cooldown",
             "Juno_All",
             "Global_Heartbeat",
@@ -35937,7 +35845,6 @@
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
             "Juno_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "Juno_All",
             "Global_Modular",
             "Global_Cooldown"
@@ -36287,7 +36194,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Juno_HeartbeatsOnly_Cooldown",
             "Juno_Sprout_All",
             "Global_Heartbeat",
@@ -36330,7 +36236,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "Juno_HeartbeatsOnly_Cooldown",
             "Juno_All",
             "Global_Heartbeat",
@@ -36373,7 +36278,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_ZeroBuildAll",
@@ -36452,7 +36356,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "AllProducts_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "Global_Cooldown"
@@ -36499,7 +36402,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -36718,7 +36620,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_RankedAll",
@@ -36865,7 +36766,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "AllProducts_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "Global_Cooldown"
@@ -36965,7 +36865,6 @@
           "conditionGroupIDs": [
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_ModularOnly_Cooldown",
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_All",
             "Global_Cooldown"
           ],
@@ -37324,7 +37223,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_NoRanked",
@@ -37372,7 +37270,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_BuildAll",
@@ -37482,7 +37379,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -37530,7 +37426,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -37573,7 +37468,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_Heartbeats_Platform_Exp_RateSwitch",
             "FNBR_HeartbeatsOnly_Cooldown",
             "FNBR_All",
@@ -37616,7 +37510,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -37757,7 +37650,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_NoRanked",
@@ -37898,7 +37790,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_All",
@@ -37946,7 +37837,6 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
-            "FNBR_Heartbeats_PlatformSwitch",
             "FNBR_ModularOnly_Cooldown",
             "FNBR_Modular_Platform_Exp_RateSwitch",
             "FNBR_NoRanked",
@@ -38092,7 +37982,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-19T19:43:34.119Z",
+    "lastModified": "2026-06-22T16:58:44.672Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -41486,9 +41376,9 @@
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
             "Ecosystem_Playlists",
-            "Global_Main_Rate",
+            "High_Global_Main_Rate",
             "Global_Cooldown",
-            "Ecosystem_Cooldown"
+            "Seasonal_Cooldown"
           ],
           "questions": [
             {
