@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-22
+- **23:07** Item Shop, Epic Content Pages
 - **18:55** News, Epic Content Pages - +1 new (Summer Hits the Island June 25) - -1 removed
 - **15:21** News - +1 new (Mastery Monday Live Now) - -1 removed
 - **09:45** Epic Content Pages
