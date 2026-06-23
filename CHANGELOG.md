@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-23
+- **21:41** Item Shop, Epic Content Pages
 - **19:55** Epic Content Pages
 - **15:36** News, Epic Content Pages - +1 new (Aura, Boss, Grim Reaper, Fishy & Striker Sprites) - -1 removed
 - **01:29** Item Shop - +35 new (Cyberdyne Salute, HK Skynet Uplink, Scrappy, Glumbo, Pretzel Protector, +30 more) - -31 removed
