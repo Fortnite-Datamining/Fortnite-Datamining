@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-06-23T21:01:07.354Z",
+  "lastModified": "2026-06-23T22:27:58.440Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -37606,7 +37606,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-22T16:58:44.672Z",
+    "lastModified": "2026-06-23T22:27:58.440Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40677,93 +40677,6 @@
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "BPCrew_Likert_Importance",
-          "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Battle Pass includes outfits that are part of Fortnite's story.",
-              "textID": "The Battle Pass includes outfits that are part of Fortnite's story."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "You can earn cosmetics other than outfits with each Battle Pass.",
-              "textID": "You can earn cosmetics other than outfits with each Battle Pass."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "You can earn a large number of cosmetics with the Battle Pass (100+).",
-              "textID": "You can earn a large number of cosmetics with the Battle Pass (100+)."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "You can earn 7 or more outfits with each Battle Pass.",
-              "textID": "You can earn 7 or more outfits with each Battle Pass."
-            }
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "BPCrew_Likert_Agreement",
-          "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Battle Pass rewards feel exciting to unlock.",
-              "textID": "Battle Pass rewards feel exciting to unlock."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Crew rewards feel exciting to unlock.",
-              "textID": "Crew rewards feel exciting to unlock."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "I often earn rewards I don't like.",
-              "textID": "I often earn rewards I don't like."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "There are too many cosmetic rewards in the current Battle Pass.",
-              "textID": "There are too many cosmetic rewards in the current Battle Pass."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "There are too few cosmetic rewards in the current Battle Pass.",
-              "textID": "There are too few cosmetic rewards in the current Battle Pass."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "There are too many cosmetic rewards available in Crew right now.",
-              "textID": "There are too many cosmetic rewards available in Crew right now."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "There are too few cosmetic rewards available in Crew right now.",
-              "textID": "There are too few cosmetic rewards available in Crew right now."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Battle Pass is valuable for Battle Royale players.",
-              "textID": "The Battle Pass is valuable for Battle Royale players."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Battle Pass is valuable for non-Battle Royale players.",
-              "textID": "The Battle Pass is valuable for non-Battle Royale players."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Crew is valuable for Battle Royale players.",
-              "textID": "Crew is valuable for Battle Royale players."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Crew is valuable for non-Battle Royale players.",
-              "textID": "Crew is valuable for non-Battle Royale players."
-            }
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Ecosystem_Likert",
           "textReplacementValues": [
             {
@@ -40995,48 +40908,6 @@
         }
       ],
       "surveys": [
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": false,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "High_Global_Main_Rate",
-            "Global_Cooldown",
-            "Seasonal_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "If you used Fortnite’s in-game voice chat in your last match, how was the quality? If you did not use it, please skip the question.",
-                  "textID": "If you used Fortnite’s in-game voice chat in your last match, how was the quality? If you did not use it, please skip the question."
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Very bad",
-                    "textID": "Very bad"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Very good",
-                    "textID": "Very good"
-                  }
-                ],
-                "type": "Rating"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_VoiceChatQuality",
-          "surveyTags": [
-            "Ecosystem_Main_Surveys"
-          ]
-        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
