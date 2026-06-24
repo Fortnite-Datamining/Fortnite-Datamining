@@ -59,7 +59,7 @@ Current build: `++Fortnite+Release-41.00-CL-54872343`
 | `data/meta/stats.json` | Current item counts and build version |
 | [`history` branch](../../tree/history) | Daily snapshots of the shop and news, kept forever |
 
-Daily snapshots live on the orphan [`history`](../../tree/history) branch so `main` stays small and fast to clone.
+Daily snapshots live on the orphan [`history`](../../tree/history) branch so `main` stays small and fast to clone
 
 ## Reading the Data
 
@@ -98,12 +98,4 @@ npm install
 npm run fetch
 ```
 
-Without `GITHUB_ACTIONS` set, the script commits locally but never pushes, and notification secrets (`DISCORD_WEBHOOK_URL`, `TWITTER_*`) are optional.
-
-## Roadmap
-
-- **Phase 2** ([`phase2/`](phase2/)): direct extraction of game assets (.pak/.ucas/.utoc) using the tracked AES keys — planned, not yet implemented
-
-## License & Attribution
-
-Code is [ISC licensed](LICENSE). The tracked data is the property of Epic Games, Inc., mirrored from [fortnite-api.com](https://fortnite-api.com/) (thanks!) and Epic's public content API for archival and research purposes.
+Without `GITHUB_ACTIONS` set, the script commits locally but never pushes, and notification secrets (`DISCORD_WEBHOOK_URL`, `TWITTER_*`) are optional
