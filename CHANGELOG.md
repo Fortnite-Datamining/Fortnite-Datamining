@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-24
+- **01:23** Item Shop - +21 new (Wanna Dance?, Bull Shield, Lola Bunny, Diamond Grid, LLion, +16 more) - -69 removed
+
 ## 2026-06-23
 - **23:05** Epic Content Pages
 - **21:41** Item Shop, Epic Content Pages
