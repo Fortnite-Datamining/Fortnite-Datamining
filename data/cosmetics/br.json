@@ -23405,6 +23405,51 @@
       ]
     },
     {
+      "added": "2026-06-25T17:01:16Z",
+      "description": "Ruthless & Feared.",
+      "dynamicPakId": "1002",
+      "id": "Backpack_HonestWasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_honestwasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_honestwasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_honestwasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Lobo's Logo",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "SaltIgnite",
+        "text": "Part of the Supergirl set.",
+        "value": "Supergirl"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-05-19T00:00:00Z",
       "description": "Bright and buzzy with a sugary sting. ",
       "id": "Backpack_HoneyBear_Drum",
@@ -110046,6 +110091,7 @@
         "text": "Part of the High Stakes Summer set.",
         "value": "High Stakes Summer"
       },
+      "showcaseVideo": "pIlGukIvOLc",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -125845,6 +125891,7 @@
         "text": "Part of the Hopper Extraordinaire set.",
         "value": "Hopper Extraordinaire"
       },
+      "showcaseVideo": "yrI7KFtcts8",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -130913,6 +130960,55 @@
           "type": "fx"
         }
       ]
+    },
+    {
+      "added": "2026-06-25T17:01:16Z",
+      "description": "A notorious mercenary from the planet Czarnia.",
+      "dynamicPakId": "1002",
+      "id": "Character_HonestWasp",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_honestwasp/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_honestwasp/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_honestwasp/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_honestwasp/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_honestwasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Lobo",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "SaltIgnite",
+        "text": "Part of the Supergirl set.",
+        "value": "Supergirl"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2025-12-25T00:00:00Z",
@@ -146318,6 +146414,7 @@
         "text": "Part of the Garden of Night set.",
         "value": "Garden of Night"
       },
+      "showcaseVideo": "5zyubz7Em2I",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -149277,6 +149374,7 @@
         "text": "Part of the Olivia Rodrigo set.",
         "value": "Olivia Rodrigo"
       },
+      "showcaseVideo": "kEGbRDpqXO4",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -149359,6 +149457,7 @@
         "text": "Part of the Olivia Rodrigo set.",
         "value": "Olivia Rodrigo"
       },
+      "showcaseVideo": "mvTgOyW4mwA",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -168688,6 +168787,7 @@
         "text": "Part of the High Stakes Summer set.",
         "value": "High Stakes Summer"
       },
+      "showcaseVideo": "-EvEnFWQTp0",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -183065,6 +183165,7 @@
         "text": "Part of the High Stakes Summer set.",
         "value": "High Stakes Summer"
       },
+      "showcaseVideo": "GGq4pKamqUQ",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -184005,6 +184106,7 @@
         "text": "Part of the Supergirl set.",
         "value": "Supergirl"
       },
+      "showcaseVideo": "yqrzGsGr1zI",
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -296919,6 +297021,7 @@
         "text": "Part of the High Stakes Summer set.",
         "value": "High Stakes Summer"
       },
+      "showcaseVideo": "RJzPcU075WM",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -328259,6 +328362,7 @@
         "text": "Part of the Olivia Rodrigo set.",
         "value": "Olivia Rodrigo"
       },
+      "showcaseVideo": "n3N3wpOfhCI",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -328304,6 +328408,7 @@
         "text": "Part of the Olivia Rodrigo set.",
         "value": "Olivia Rodrigo"
       },
+      "showcaseVideo": "l-5r-OC_n7M",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -348659,6 +348764,7 @@
         "text": "Part of the Supergirl set.",
         "value": "Supergirl"
       },
+      "showcaseVideo": "PLK72mua5mU",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -466981,6 +467087,53 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-06-25T17:01:16Z",
+      "description": "Lobo's melee weapon of choice.",
+      "dynamicPakId": "1002",
+      "id": "Pickaxe_HonestWasp",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_honestwasp/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_honestwasp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.Metatags.HonestWasp"
+      ],
+      "name": "Czarnian Scythe",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "SaltIgnite",
+        "text": "Part of the Supergirl set.",
+        "value": "Supergirl"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
     },
     {
       "added": "2025-05-19T00:00:00Z",

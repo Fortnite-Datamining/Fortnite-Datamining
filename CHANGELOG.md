@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-25
+- **18:31** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys, Epic Content Pages - +4 new (Lobo's Logo, Lobo, Czarnian Scythe, JIDO_Character_HonestWasp)
 - **16:20** BR Cosmetics
 - **13:34** BR Cosmetics, Instruments, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Map & POIs, Epic Content Pages - +92 new (Neo Tech Kit, Cooler the Red, Slone's Extraction Frame, Cluster's Ex-quack-tion Frame, The Guardian's Friend Frame!, +87 more) - -11 removed
 - **11:14** Build update: `++Fortnite+Release-41.10-CL-55227503`
