@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-25
+- **13:34** BR Cosmetics, Instruments, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Map & POIs, Epic Content Pages - +92 new (Neo Tech Kit, Cooler the Red, Slone's Extraction Frame, Cluster's Ex-quack-tion Frame, The Guardian's Friend Frame!, +87 more) - -11 removed
 - **11:14** Build update: `++Fortnite+Release-41.10-CL-55227503`
 - **08:20** Epic Content Pages
 - **04:43** News - +1 new (Aura, Boss, Grim Reaper, Fishy & Striker Sprites) - -1 removed

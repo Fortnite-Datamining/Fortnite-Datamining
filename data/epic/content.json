@@ -8980,12 +8980,12 @@
     }
   },
   "playersurveyv2": {
-    "_activeDate": "2026-06-06T08:00:00.000Z",
+    "_activeDate": "2026-06-25T12:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-06-22T17:36:16.331Z",
+    "lastModified": "2026-06-22T22:37:58.866Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -22332,8 +22332,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Supply Llamas",
-              "textID": "Supply Llamas"
+              "localizedText": "Llama",
+              "textID": "Llama"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -22410,11 +22410,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Deadeye DMR",
               "textID": "Deadeye DMR"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Holorush SMG",
-              "textID": "Holorush SMG"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23200,6 +23195,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Extractaganza",
+              "textID": "Extractaganza"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Duck Yacht Dancefloor",
               "textID": "Duck Yacht Dancefloor"
             },
@@ -23262,11 +23262,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Portable Extractor",
               "textID": "Portable Extractor"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Extraction Site Booster",
-              "textID": "Extraction Site Booster"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23566,13 +23561,13 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cyber Samurai",
-              "textID": "Cyber Samurai"
+              "localizedText": "Voidblade",
+              "textID": "Voidblade"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cyber Dog",
-              "textID": "Cyber Dog"
+              "localizedText": "Wolfe",
+              "textID": "Wolfe"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23712,6 +23707,41 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "ITEMDC",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Boss Sprite",
+              "textID": "Boss Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Striker Sprite",
+              "textID": "Striker Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Seven Sprite",
+              "textID": "Seven Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fishy Sprite",
+              "textID": "Fishy Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Aura Sprite",
+              "textID": "Aura Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Quack Snacks",
+              "textID": "Quack Snacks"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Shock Rock",
+              "textID": "Shock Rock"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Zero Point Sprite",
@@ -34996,12 +35026,12 @@
     }
   },
   "playersurveyv2Additions": {
-    "_activeDate": "2026-06-06T08:00:00.000Z",
+    "_activeDate": "2026-06-25T12:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-23T22:27:58.440Z",
+    "lastModified": "2026-06-23T23:35:46.184Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -37353,6 +37383,16 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite Battle Royale is available to play on mobile devices",
+              "textID": "Fortnite Battle Royale is available to play on mobile devices"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite is available to play on mobile devices",
+              "textID": "Fortnite is available to play on mobile devices"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "you can get the Spirit Blade pickaxe for free in the Chapter 7 Season 3 Battle Pass whether or not you purchased the Battle Pass",
               "textID": "you can get the Spirit Blade pickaxe for free in the Chapter 7 Season 3 Battle Pass whether or not you purchased the Battle Pass"
             },
@@ -37375,101 +37415,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Battle Pass has a free reward track that you can claim whether or not you purchase the Battle Pass",
               "textID": "the Battle Pass has a free reward track that you can claim whether or not you purchase the Battle Pass"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "weapons in Fortnite come in different rarities",
-              "textID": "weapons in Fortnite come in different rarities"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sprites are now in Fortnite Battle Royale",
-              "textID": "Sprites are now in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Zero Build is a similar mode to Fortnite Battle Royale, but does not include building",
-              "textID": "Zero Build is a similar mode to Fortnite Battle Royale, but does not include building"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite has chapters",
-              "textID": "Fortnite has chapters"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite has seasons",
-              "textID": "Fortnite has seasons"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "players do not respawn automatically after being eliminated in Fortnite Battle Royale",
-              "textID": "players do not respawn automatically after being eliminated in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the items available in Fortnite's Item Shop change over time",
-              "textID": "the items available in Fortnite's Item Shop change over time"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite has an Item Shop",
-              "textID": "Fortnite has an Item Shop"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "there is a Gummy Hour (with a better chance to find Gummy Sprite variants) on Saturday, June 20",
-              "textID": "there is a Gummy Hour (with a better chance to find Gummy Sprite variants) on Saturday, June 20"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite's Mastery Monday is happening on June 15",
-              "textID": "Fortnite's Mastery Monday is happening on June 15"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite's Galaxy Day is happening on June 18",
-              "textID": "Fortnite's Galaxy Day is happening on June 18"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "there is a Golden Hour (with a better chance to find Gold Sprite variants) on Saturday, June 13",
-              "textID": "there is a Golden Hour (with a better chance to find Gold Sprite variants) on Saturday, June 13"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite Crew now grants 800 V-Bucks per month",
-              "textID": "Fortnite Crew now grants 800 V-Bucks per month"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite Battle Royale is available to play on PC",
-              "textID": "Fortnite Battle Royale is available to play on PC"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fortnite Battle Royale has a Zero Build mode",
-              "textID": "Fortnite Battle Royale has a Zero Build mode"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) no longer shows footsteps from players far away.",
-              "textID": "the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) no longer shows footsteps from players far away."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) now fade based on how far away a sound is.",
-              "textID": "the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) now fade based on how far away a sound is."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the new season of Fortnite Battle Royale went live on June 5, 2026",
-              "textID": "the new season of Fortnite Battle Royale went live on June 5, 2026"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Shattered live event took place in Fortnite Battle Royale on June 5, 2026",
-              "textID": "the Shattered live event took place in Fortnite Battle Royale on June 5, 2026"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
