@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-25
+- **00:06** Item Shop, News, Epic Content Pages - +29 new (Robo-Ray, Pack-sune Miku, BluGlo Injector, Miku Live, The Widowmaker, +24 more) - -51 removed
+
 ## 2026-06-24
 - **22:45** News, Epic Content Pages - +1 new (Live - Supergirl Cup) - -1 removed
 - **01:23** Item Shop - +21 new (Wanna Dance?, Bull Shield, Lola Bunny, Diamond Grid, LLion, +16 more) - -69 removed
