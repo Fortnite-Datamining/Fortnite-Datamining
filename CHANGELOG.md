@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-25
+- **11:14** Build update: `++Fortnite+Release-41.10-CL-55227503`
 - **08:20** Epic Content Pages
 - **04:43** News - +1 new (Aura, Boss, Grim Reaper, Fishy & Striker Sprites) - -1 removed
 - **00:06** Item Shop, News, Epic Content Pages - +29 new (Robo-Ray, Pack-sune Miku, BluGlo Injector, Miku Live, The Widowmaker, +24 more) - -51 removed

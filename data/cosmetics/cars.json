@@ -1085,8 +1085,19 @@
       "name": "Lamborghini Temerario GT3",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Body",
@@ -1607,6 +1618,27 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_NeoCar"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Easy on the eyes, ruthless on the road.",
+      "id": "CarBody_NeptuneShell",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_neptuneshell/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_neptuneshell/small.png"
+      },
+      "name": "Maserati Stradale",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_NeptuneShell"
     },
     {
       "added": "2025-01-15T14:05:09Z",
@@ -2500,6 +2532,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Body",
@@ -9174,8 +9217,19 @@
       "name": "Il Vanto",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -9195,8 +9249,19 @@
       "name": "Neochrome",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -9216,8 +9281,19 @@
       "name": "Limitless",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -9237,8 +9313,19 @@
       "name": "96 Star",
       "rarity": {
         "backendValue": "EFortRarity::Common",
-        "displayValue": "Common",
-        "value": "common"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -9258,8 +9345,19 @@
       "name": "Iced Chrome",
       "rarity": {
         "backendValue": "EFortRarity::Common",
-        "displayValue": "Common",
-        "value": "common"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -12284,6 +12382,111 @@
       "vehicleId": "VCID_CarSkin_NeoCarTrack"
     },
     {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Maserati Stradale custom decal.",
+      "id": "CarSkin_NeptuneShellFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshellflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshellflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeptuneShellFlames"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Maserati Stradale custom decal.",
+      "id": "CarSkin_NeptuneShellLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeptuneShellLightning"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Maserati Stradale custom decal.",
+      "id": "CarSkin_NeptuneShellLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery01/small.png"
+      },
+      "name": "Blu Emozione",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeptuneShellLivery01"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Maserati Stradale custom decal.",
+      "id": "CarSkin_NeptuneShellLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery02/small.png"
+      },
+      "name": "Neon Stream",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeptuneShellLivery02"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Maserati Stradale custom decal.",
+      "id": "CarSkin_NeptuneShellLivery03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery03/small.png"
+      },
+      "name": "Sporty Spots",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeptuneShellLivery03"
+    },
+    {
       "added": "2025-01-15T14:05:09Z",
       "description": "Charge into the Monsterverse. Nissan Skyline GT-R (R32) custom decal.",
       "id": "CarSkin_NerdBig01",
@@ -13903,6 +14106,1010 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_OctaneSpeedlines"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp01/small.png"
+      },
+      "name": "Mexico",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp01"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp02/small.png"
+      },
+      "name": "South Africa",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp02"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp03/small.png"
+      },
+      "name": "Korea Republic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp03"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp04",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp04/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp04/small.png"
+      },
+      "name": "Czechia",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp04"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp05",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp05/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp05/small.png"
+      },
+      "name": "Canada",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp05"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp06",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp06/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp06/small.png"
+      },
+      "name": "Qatar",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp06"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp07",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp07/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp07/small.png"
+      },
+      "name": "Switzerland",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp07"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp08",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp08/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp08/small.png"
+      },
+      "name": "Bosnia and Herzegovina",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp08"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp09",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp09/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp09/small.png"
+      },
+      "name": "Brazil",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp09"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp10",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp10/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp10/small.png"
+      },
+      "name": "Morocco",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp10"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp11",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp11/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp11/small.png"
+      },
+      "name": "Haiti",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp11"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp12",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp12/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp12/small.png"
+      },
+      "name": "Scotland",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp12"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp13",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp13/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp13/small.png"
+      },
+      "name": "USA",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp13"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp14",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp14/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp14/small.png"
+      },
+      "name": "Paraguay",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp14"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp15",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp15/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp15/small.png"
+      },
+      "name": "Australia",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp15"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp16",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp16/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp16/small.png"
+      },
+      "name": "TÜRKİYE",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp16"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp17",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp17/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp17/small.png"
+      },
+      "name": "Germany",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp17"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp18",
+      "name": "Curaçao",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp18"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp19",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp19/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp19/small.png"
+      },
+      "name": "Côte d'Ivoire",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp19"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp20",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp20/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp20/small.png"
+      },
+      "name": "Ecuador",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp20"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp21",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp21/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp21/small.png"
+      },
+      "name": "Netherlands",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp21"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp22",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp22/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp22/small.png"
+      },
+      "name": "Japan",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp22"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp23",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp23/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp23/small.png"
+      },
+      "name": "Tunisia",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp23"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp24",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp24/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp24/small.png"
+      },
+      "name": "Sweden",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp24"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp25",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp25/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp25/small.png"
+      },
+      "name": "Belgium",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp25"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp26",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp26/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp26/small.png"
+      },
+      "name": "Egypt",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp26"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp27",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp27/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp27/small.png"
+      },
+      "name": "Iran",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp27"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp28",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp28/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp28/small.png"
+      },
+      "name": "New Zealand",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp28"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp29",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp29/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp29/small.png"
+      },
+      "name": "Spain",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp29"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp30",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp30/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp30/small.png"
+      },
+      "name": "Cabo Verde",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp30"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp31",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp31/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp31/small.png"
+      },
+      "name": "Saudi Arabia",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp31"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp32",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp32/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp32/small.png"
+      },
+      "name": "Uruguay",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp32"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp33",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp33/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp33/small.png"
+      },
+      "name": "Iraq",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp33"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp34",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp34/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp34/small.png"
+      },
+      "name": "France",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp34"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp35",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp35/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp35/small.png"
+      },
+      "name": "Senegal",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp35"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp36",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp36/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp36/small.png"
+      },
+      "name": "Norway",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp36"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp37",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp37/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp37/small.png"
+      },
+      "name": "Argentina",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp37"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp38",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp38/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp38/small.png"
+      },
+      "name": "Algeria",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp38"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp39",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp39/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp39/small.png"
+      },
+      "name": "Austria",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp39"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp40",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp40/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp40/small.png"
+      },
+      "name": "Jordan",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp40"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp41",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp41/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp41/small.png"
+      },
+      "name": "Congo DR",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp41"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp42",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp42/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp42/small.png"
+      },
+      "name": "Portugal",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp42"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp43",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp43/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp43/small.png"
+      },
+      "name": "Uzbekistan",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp43"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp44",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp44/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp44/small.png"
+      },
+      "name": "Colombia",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneSphereGulp44"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp45",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp45/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp45/small.png"
+      },
+      "name": "England",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp45"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp46",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp46/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp46/small.png"
+      },
+      "name": "Croatia",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp46"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp47",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp47/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp47/small.png"
+      },
+      "name": "Ghana",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp47"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSphereGulp48",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp48/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanespheregulp48/small.png"
+      },
+      "name": "Panama",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_SkinOctaneSphereGulp48"
     },
     {
       "added": "2024-10-18T16:01:34Z",
@@ -19709,6 +20916,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -19729,6 +20947,17 @@
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
         "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -19751,6 +20980,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -19772,6 +21012,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -19792,6 +21043,17 @@
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
         "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -31370,27 +32632,6 @@
       "vehicleId": "VCID_Wheel_Hanzawa"
     },
     {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "HardPoint description",
-      "id": "Wheel_HardPoint",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpoint/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpoint/small.png"
-      },
-      "name": "HardPoint",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Wheel",
-        "displayValue": "Wheel",
-        "value": "wheel"
-      },
-      "vehicleId": "VCID_Wheel_HardPoint"
-    },
-    {
       "added": "2024-06-13T08:00:00Z",
       "description": "Strike First.",
       "id": "Wheel_HeavyA",
@@ -31657,8 +32898,19 @@
       "name": "Lamborghini Temerario GT3",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "LAMBORGHINI SERIES",
+        "value": "lamborghini"
+      },
+      "series": {
+        "backendValue": "Series_Lamborghini",
+        "colors": [
+          "ddd7edff",
+          "c7c2d6ff",
+          "a7a2b3ff",
+          "320761ff",
+          "110128ff"
+        ],
+        "value": "LAMBORGHINI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Wheel",
@@ -32446,6 +33698,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Mudpie02"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Without equal.",
+      "id": "Wheel_NeptuneShell01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_neptuneshell01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_neptuneshell01/small.png"
+      },
+      "name": "Maserati Stradale",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_NeptuneShell01"
     },
     {
       "added": "2025-09-18T13:07:46Z",
@@ -34355,27 +35628,6 @@
       "vehicleId": "VCID_Wheel_RL198"
     },
     {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "RL200 description",
-      "id": "Wheel_RL200",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl200/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl200/small.png"
-      },
-      "name": "RL200",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Wheel",
-        "displayValue": "Wheel",
-        "value": "wheel"
-      },
-      "vehicleId": "VCID_Wheel_RL200"
-    },
-    {
       "added": "2025-09-18T13:07:46Z",
       "description": "Take the wheel.",
       "id": "Wheel_RL205",
@@ -34733,27 +35985,6 @@
       "vehicleId": "VCID_Wheel_RL252"
     },
     {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "Wheel_RL255 description",
-      "id": "Wheel_RL255",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl255/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl255/small.png"
-      },
-      "name": "Wheel_RL255",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Wheel",
-        "displayValue": "Wheel",
-        "value": "wheel"
-      },
-      "vehicleId": "VCID_Wheel_RL255"
-    },
-    {
       "added": "2026-06-15T18:22:53Z",
       "description": "GOOOAAAAAL!",
       "id": "Wheel_RL259",
@@ -34838,27 +36069,6 @@
       "vehicleId": "VCID_Wheel_RL264"
     },
     {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "Wheel_RL269 description",
-      "id": "Wheel_RL269",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl269/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl269/small.png"
-      },
-      "name": "Wheel_RL269",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Wheel",
-        "displayValue": "Wheel",
-        "value": "wheel"
-      },
-      "vehicleId": "VCID_Wheel_RL269"
-    },
-    {
       "added": "2026-03-19T06:29:28Z",
       "description": "Lock in.",
       "id": "Wheel_RL271",
@@ -34920,27 +36130,6 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_RL273SE"
-    },
-    {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "Wheel_RL275 description",
-      "id": "Wheel_RL275",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275/small.png"
-      },
-      "name": "Wheel_RL275",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Wheel",
-        "displayValue": "Wheel",
-        "value": "wheel"
-      },
-      "vehicleId": "VCID_Wheel_RL275"
     },
     {
       "added": "2026-06-15T18:22:53Z",
@@ -35130,6 +36319,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_rl66"
+    },
+    {
+      "added": "2026-06-25T10:49:09Z",
+      "description": "Boost the best.",
+      "id": "Wheel_RL68Booster",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl68booster/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl68booster/small.png"
+      },
+      "name": "Slotted",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL68Booster"
     },
     {
       "added": "2024-09-25T23:11:28Z",
@@ -37177,6 +38387,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Hyundai",
+        "colors": [
+          "d7e3edff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff",
+          "0e1d51ff"
+        ],
+        "value": "HYUNDAI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Wheel",

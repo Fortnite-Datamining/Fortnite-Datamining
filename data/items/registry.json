@@ -82474,7 +82474,8 @@
   "CarBody_IvoryCascade": {
     "first_seen": "2026-06-06",
     "name": "Lamborghini Temerario GT3",
-    "rarity": "Uncommon",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Body"
   },
@@ -82635,6 +82636,13 @@
   "CarBody_NeoCar": {
     "first_seen": "2026-05-02",
     "name": "Masamune",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Body"
+  },
+  "CarBody_NeptuneShell": {
+    "first_seen": "2026-06-25",
+    "name": "Maserati Stradale",
     "rarity": "Uncommon",
     "source": "cars",
     "type": "Body"
@@ -82891,6 +82899,7 @@
     "first_seen": "2026-06-12",
     "name": "Hyundai Ioniq 6",
     "rarity": "Uncommon",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Body"
   },
@@ -84787,35 +84796,40 @@
   "CarSkin_IvoryCascade05": {
     "first_seen": "2026-06-06",
     "name": "Il Vanto",
-    "rarity": "Uncommon",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Skin"
   },
   "CarSkin_IvoryCascade06": {
     "first_seen": "2026-06-06",
     "name": "Neochrome",
-    "rarity": "Uncommon",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Skin"
   },
   "CarSkin_IvoryCascade07": {
     "first_seen": "2026-06-06",
     "name": "Limitless",
-    "rarity": "Uncommon",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Skin"
   },
   "CarSkin_IvoryCascade08": {
     "first_seen": "2026-06-06",
     "name": "96 Star",
-    "rarity": "Common",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Skin"
   },
   "CarSkin_IvoryCascade09": {
     "first_seen": "2026-06-06",
     "name": "Iced Chrome",
-    "rarity": "Common",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Skin"
   },
@@ -85736,6 +85750,41 @@
     "source": "cars",
     "type": "Skin"
   },
+  "CarSkin_NeptuneShellFlames": {
+    "first_seen": "2026-06-25",
+    "name": "Flames",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_NeptuneShellLightning": {
+    "first_seen": "2026-06-25",
+    "name": "Lightning",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_NeptuneShellLivery01": {
+    "first_seen": "2026-06-25",
+    "name": "Blu Emozione",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_NeptuneShellLivery02": {
+    "first_seen": "2026-06-25",
+    "name": "Neon Stream",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_NeptuneShellLivery03": {
+    "first_seen": "2026-06-25",
+    "name": "Sporty Spots",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
   "CarSkin_NerdBig01": {
     "first_seen": "2026-05-02",
     "name": "Godzilla",
@@ -86259,6 +86308,342 @@
     "first_seen": "2026-05-02",
     "name": "Tenured",
     "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp01": {
+    "first_seen": "2026-06-25",
+    "name": "Mexico",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp02": {
+    "first_seen": "2026-06-25",
+    "name": "South Africa",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp03": {
+    "first_seen": "2026-06-25",
+    "name": "Korea Republic",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp04": {
+    "first_seen": "2026-06-25",
+    "name": "Czechia",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp05": {
+    "first_seen": "2026-06-25",
+    "name": "Canada",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp06": {
+    "first_seen": "2026-06-25",
+    "name": "Qatar",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp07": {
+    "first_seen": "2026-06-25",
+    "name": "Switzerland",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp08": {
+    "first_seen": "2026-06-25",
+    "name": "Bosnia and Herzegovina",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp09": {
+    "first_seen": "2026-06-25",
+    "name": "Brazil",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp10": {
+    "first_seen": "2026-06-25",
+    "name": "Morocco",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp11": {
+    "first_seen": "2026-06-25",
+    "name": "Haiti",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp12": {
+    "first_seen": "2026-06-25",
+    "name": "Scotland",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp13": {
+    "first_seen": "2026-06-25",
+    "name": "USA",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp14": {
+    "first_seen": "2026-06-25",
+    "name": "Paraguay",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp15": {
+    "first_seen": "2026-06-25",
+    "name": "Australia",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp16": {
+    "first_seen": "2026-06-25",
+    "name": "TÜRKİYE",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp17": {
+    "first_seen": "2026-06-25",
+    "name": "Germany",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp18": {
+    "first_seen": "2026-06-25",
+    "name": "Curaçao",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp19": {
+    "first_seen": "2026-06-25",
+    "name": "Côte d'Ivoire",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp20": {
+    "first_seen": "2026-06-25",
+    "name": "Ecuador",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp21": {
+    "first_seen": "2026-06-25",
+    "name": "Netherlands",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp22": {
+    "first_seen": "2026-06-25",
+    "name": "Japan",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp23": {
+    "first_seen": "2026-06-25",
+    "name": "Tunisia",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp24": {
+    "first_seen": "2026-06-25",
+    "name": "Sweden",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp25": {
+    "first_seen": "2026-06-25",
+    "name": "Belgium",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp26": {
+    "first_seen": "2026-06-25",
+    "name": "Egypt",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp27": {
+    "first_seen": "2026-06-25",
+    "name": "Iran",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp28": {
+    "first_seen": "2026-06-25",
+    "name": "New Zealand",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp29": {
+    "first_seen": "2026-06-25",
+    "name": "Spain",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp30": {
+    "first_seen": "2026-06-25",
+    "name": "Cabo Verde",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp31": {
+    "first_seen": "2026-06-25",
+    "name": "Saudi Arabia",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp32": {
+    "first_seen": "2026-06-25",
+    "name": "Uruguay",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp33": {
+    "first_seen": "2026-06-25",
+    "name": "Iraq",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp34": {
+    "first_seen": "2026-06-25",
+    "name": "France",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp35": {
+    "first_seen": "2026-06-25",
+    "name": "Senegal",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp36": {
+    "first_seen": "2026-06-25",
+    "name": "Norway",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp37": {
+    "first_seen": "2026-06-25",
+    "name": "Argentina",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp38": {
+    "first_seen": "2026-06-25",
+    "name": "Algeria",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp39": {
+    "first_seen": "2026-06-25",
+    "name": "Austria",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp40": {
+    "first_seen": "2026-06-25",
+    "name": "Jordan",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp41": {
+    "first_seen": "2026-06-25",
+    "name": "Congo DR",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp42": {
+    "first_seen": "2026-06-25",
+    "name": "Portugal",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp43": {
+    "first_seen": "2026-06-25",
+    "name": "Uzbekistan",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp44": {
+    "first_seen": "2026-06-25",
+    "name": "Colombia",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp45": {
+    "first_seen": "2026-06-25",
+    "name": "England",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp46": {
+    "first_seen": "2026-06-25",
+    "name": "Croatia",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp47": {
+    "first_seen": "2026-06-25",
+    "name": "Ghana",
+    "rarity": "Common",
+    "source": "cars",
+    "type": "Skin"
+  },
+  "CarSkin_OctaneSphereGulp48": {
+    "first_seen": "2026-06-25",
+    "name": "Panama",
+    "rarity": "Common",
     "source": "cars",
     "type": "Skin"
   },
@@ -87871,6 +88256,7 @@
     "first_seen": "2026-06-12",
     "name": "Flames",
     "rarity": "Common",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Skin"
   },
@@ -87878,6 +88264,7 @@
     "first_seen": "2026-06-12",
     "name": "Lightning",
     "rarity": "Common",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Skin"
   },
@@ -87885,6 +88272,7 @@
     "first_seen": "2026-06-12",
     "name": "La Mode",
     "rarity": "Common",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Skin"
   },
@@ -87892,6 +88280,7 @@
     "first_seen": "2026-06-12",
     "name": "Stripes",
     "rarity": "Common",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Skin"
   },
@@ -87899,6 +88288,7 @@
     "first_seen": "2026-06-12",
     "name": "Wings",
     "rarity": "Common",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Skin"
   },
@@ -175441,48 +175831,56 @@
   "JBSID_ASST_Bazaar_01": {
     "first_seen": "2026-05-14",
     "name": "Mos Espa Bazaar Pavilion",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASST_Castle_01": {
     "first_seen": "2026-05-14",
     "name": "Mos Espa Manor",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASST_Farm_01": {
     "first_seen": "2026-05-14",
     "name": "Mos Espa Moisture Farm",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASST_Garage_01": {
     "first_seen": "2026-05-14",
     "name": "Mos Espa Speeder Garage",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASVS_GB_Anubis_Hauler_01": {
     "first_seen": "2026-05-14",
     "name": "Ubrikkian Cargo Speeder",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASVS_GB_Anubis_Sedan_01": {
     "first_seen": "2026-05-14",
     "name": "SoroSuub Landspeeder",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASVS_GB_Anubis_Sedan_Lut_01": {
     "first_seen": "2026-05-14",
     "name": "SoroSuub Deluxe Landspeeder",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
   "JBSID_ASVS_GB_Anubis_Speeder_01": {
     "first_seen": "2026-05-14",
     "name": "Aratech Civilian Speeder Bike",
+    "series": "Star Wars Series",
     "source": "lego_kits",
     "type": "Build"
   },
@@ -182791,6 +183189,11 @@
     "name": "",
     "source": "lego"
   },
+  "JIDO_Character_BerryFlight": {
+    "first_seen": "2026-06-25",
+    "name": "",
+    "source": "lego"
+  },
   "JIDO_Character_BestDressedFNCS": {
     "first_seen": "2026-05-02",
     "name": "",
@@ -183208,6 +183611,11 @@
   },
   "JIDO_Character_ChemPencil": {
     "first_seen": "2026-05-02",
+    "name": "",
+    "source": "lego"
+  },
+  "JIDO_Character_CherryKnot": {
+    "first_seen": "2026-06-25",
     "name": "",
     "source": "lego"
   },
@@ -184306,6 +184714,11 @@
     "name": "",
     "source": "lego"
   },
+  "JIDO_Character_FutureRabbit": {
+    "first_seen": "2026-06-25",
+    "name": "",
+    "source": "lego"
+  },
   "JIDO_Character_FuzzyClaw": {
     "first_seen": "2026-05-02",
     "name": "",
@@ -185276,6 +185689,11 @@
     "name": "",
     "source": "lego"
   },
+  "JIDO_Character_MasakoReign": {
+    "first_seen": "2026-06-25",
+    "name": "",
+    "source": "lego"
+  },
   "JIDO_Character_MasalaRail": {
     "first_seen": "2026-05-02",
     "name": "",
@@ -185566,6 +185984,11 @@
     "name": "",
     "source": "lego"
   },
+  "JIDO_Character_NightBloom": {
+    "first_seen": "2026-06-25",
+    "name": "",
+    "source": "lego"
+  },
   "JIDO_Character_NigiriNinja": {
     "first_seen": "2026-05-02",
     "name": "",
@@ -185783,6 +186206,11 @@
   },
   "JIDO_Character_PeacefulPoemPumped": {
     "first_seen": "2026-05-02",
+    "name": "",
+    "source": "lego"
+  },
+  "JIDO_Character_PearlTaffyVista": {
+    "first_seen": "2026-06-25",
     "name": "",
     "source": "lego"
   },
@@ -187081,6 +187509,11 @@
     "name": "",
     "source": "lego"
   },
+  "JIDO_Character_SolarDusk": {
+    "first_seen": "2026-06-25",
+    "name": "",
+    "source": "lego"
+  },
   "JIDO_Character_SolidMist": {
     "first_seen": "2026-05-02",
     "name": "",
@@ -187463,6 +187896,11 @@
   },
   "JIDO_Character_TacticalRed_Disco": {
     "first_seen": "2026-05-02",
+    "name": "",
+    "source": "lego"
+  },
+  "JIDO_Character_TallChore": {
+    "first_seen": "2026-06-25",
     "name": "",
     "source": "lego"
   },
@@ -187866,6 +188304,11 @@
     "name": "",
     "source": "lego"
   },
+  "JIDO_Character_VibrantShell": {
+    "first_seen": "2026-06-25",
+    "name": "",
+    "source": "lego"
+  },
   "JIDO_Character_VileSting_Crude": {
     "first_seen": "2026-05-02",
     "name": "",
@@ -187923,6 +188366,11 @@
   },
   "JIDO_Character_VouchTrig": {
     "first_seen": "2026-05-02",
+    "name": "",
+    "source": "lego"
+  },
+  "JIDO_Character_VowelSleep": {
+    "first_seen": "2026-06-25",
     "name": "",
     "source": "lego"
   },
@@ -254932,7 +255380,7 @@
   },
   "Sparks_GoneFishing_Mic": {
     "first_seen": "2026-05-02",
-    "name": "Smoothie Singer",
+    "name": "The Angler",
     "rarity": "Common",
     "source": "instruments",
     "type": "Microphone"
@@ -255968,6 +256416,13 @@
     "rarity": "Common",
     "source": "instruments",
     "type": "Guitar"
+  },
+  "Sparks_NightBloom_Keytar": {
+    "first_seen": "2026-06-25",
+    "name": "Lotus Lash",
+    "rarity": "Common",
+    "source": "instruments",
+    "type": "Keytar"
   },
   "Sparks_NineBulbs_Keytar": {
     "first_seen": "2026-05-02",
@@ -269981,7 +270436,8 @@
   "Wheel_IvoryCascade01": {
     "first_seen": "2026-06-06",
     "name": "Lamborghini Temerario GT3",
-    "rarity": "Uncommon",
+    "rarity": "LAMBORGHINI SERIES",
+    "series": "LAMBORGHINI SERIES",
     "source": "cars",
     "type": "Wheel"
   },
@@ -270211,6 +270667,13 @@
     "name": "Jeep Wrangler Rubicon (Off-Road)",
     "rarity": "Uncommon",
     "series": "JEEP SERIES",
+    "source": "cars",
+    "type": "Wheel"
+  },
+  "Wheel_NeptuneShell01": {
+    "first_seen": "2026-06-25",
+    "name": "Maserati Stradale",
+    "rarity": "Uncommon",
     "source": "cars",
     "type": "Wheel"
   },
@@ -270920,6 +271383,13 @@
     "source": "cars",
     "type": "Wheel"
   },
+  "Wheel_RL68Booster": {
+    "first_seen": "2026-06-25",
+    "name": "Slotted",
+    "rarity": "Uncommon",
+    "source": "cars",
+    "type": "Wheel"
+  },
   "Wheel_RL72": {
     "first_seen": "2026-05-02",
     "name": "Tri-Cast",
@@ -271620,6 +272090,7 @@
     "first_seen": "2026-06-12",
     "name": "Hyundai Ioniq 6",
     "rarity": "Uncommon",
+    "series": "HYUNDAI SERIES",
     "source": "cars",
     "type": "Wheel"
   },
