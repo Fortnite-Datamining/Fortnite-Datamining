@@ -93,7 +93,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -178,7 +178,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -219,7 +219,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -304,7 +304,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -312,6 +312,7 @@
         },
         "layoutId": "Balenciaga.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_396_TextileGold_GC2TL",
           "id": "DAv2_Wrap_396_TextileGold_GC2TL",
           "materialInstances": [],
           "renderImages": [
@@ -423,7 +424,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -512,7 +513,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -553,7 +554,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -602,7 +603,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -651,7 +652,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -845,7 +846,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -936,7 +937,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -1031,7 +1032,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1127,7 +1128,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -1135,6 +1136,7 @@
         },
         "layoutId": "Hatsune1.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_JadeTowel_Gloss",
           "id": "DAv2_EID_JadeTowel",
           "materialInstances": [],
           "renderImages": [
@@ -1167,7 +1169,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1216,7 +1218,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1257,8 +1259,10 @@
           {
             "added": "2026-06-06T03:03:15Z",
             "description": "Skill decides everything.",
+            "dynamicPakId": "1031",
             "id": "Character_WoodsPrice",
             "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_woodsprice/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_woodsprice/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_woodsprice/smallicon.png"
             },
@@ -1293,7 +1297,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "WoodsPrice",
-          "index": 12,
+          "index": 5,
           "name": "Goals",
           "rank": 186,
           "showIneligibleOffers": "always",
@@ -1306,7 +1310,7 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__T_AthenaSoldiers_WoodsPrice.png",
+              "fileName": "T_AthenaSoldiers_WoodsPrice",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fd379ff276b40eb2/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -1370,7 +1374,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -1411,7 +1415,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1460,7 +1464,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1503,7 +1507,6 @@
             "description": "He'll be back.",
             "id": "EID_Typhoon_VO9OF",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_typhoon_vo9of/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_typhoon_vo9of/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_typhoon_vo9of/smallicon.png"
             },
@@ -1543,7 +1546,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -1551,12 +1554,11 @@
         },
         "layoutId": "Terminator1.97",
         "newDisplayAsset": {
-          "cosmeticId": "EID_Typhoon_VO9OF",
           "id": "DAv2_EID_Typhoon_VO9OF",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T-Icon-Emotes-E-Typhoon-L",
+              "fileName": "cosmo__T-Icon-Emotes-E-Typhoon-L_OfferCatalog.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f67f923d80d90ee6/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -1583,7 +1585,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1636,7 +1638,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -1682,10 +1684,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "He never fought a battle he couldn't win.",
-            "dynamicPakId": "1022",
             "id": "Character_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/smallicon.png"
             },
@@ -1750,10 +1750,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Silent... until the boom.",
-            "dynamicPakId": "1022",
             "id": "Backpack_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/smallicon.png"
             },
@@ -1783,10 +1781,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Get in. Get out. Survive.",
-            "dynamicPakId": "1022",
             "id": "Glider_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/smallicon.png"
             },
@@ -1816,10 +1812,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "What's it for? Hunting.",
-            "dynamicPakId": "1022",
             "id": "Pickaxe_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/smallicon.png"
             },
@@ -1849,10 +1843,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Give 'em a war they won't believe.",
-            "dynamicPakId": "1022",
             "id": "EID_RaisinHunt",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/smallicon.png"
             },
@@ -1882,10 +1874,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Show your style.",
-            "dynamicPakId": "1022",
             "id": "Wrap_RaisinHunt",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/smallicon.png"
             },
@@ -1932,7 +1922,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Rambo",
-          "index": 25,
+          "index": 11,
           "name": "Rambo",
           "rank": 192,
           "showIneligibleOffers": "always",
@@ -1944,17 +1934,17 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaBundles_RaisinHunt_03",
+              "fileName": "cosmo__T_AthenaBundles_RaisinHunt_03.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/954eb639ffabb4d8/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_AthenaBundles_RaisinHunt_02",
+              "fileName": "cosmo__T_AthenaBundles_RaisinHunt_02.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/954eb639ffabb4d8/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_AthenaBundles_RaisinHunt",
+              "fileName": "cosmo__T_AthenaBundles_RaisinHunt.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/954eb639ffabb4d8/renderimage_2.png",
               "productTag": "Product.BR"
             }
@@ -2047,7 +2037,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -2055,6 +2045,7 @@
         },
         "layoutId": "BR062526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_FlameBride",
           "id": "DAv2_Pickaxe_FlameBride",
           "materialInstances": [],
           "renderImages": [
@@ -2086,7 +2077,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -2181,7 +2172,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -2189,6 +2180,7 @@
         },
         "layoutId": "Hatsune1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Contrail_JadeTowel",
           "id": "DAv2_Contrail_JadeTowel",
           "materialInstances": [],
           "renderImages": [
@@ -2370,7 +2362,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -2488,7 +2480,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -2697,7 +2689,7 @@
           "category": "Start Your Engines",
           "displayType": "tileGrid",
           "id": "RipperCar",
-          "index": 8,
+          "index": 0,
           "name": "Ripper",
           "rank": 181,
           "showIneligibleOffers": "always",
@@ -2793,7 +2785,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -2888,7 +2880,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -2929,7 +2921,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -2978,7 +2970,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -3138,7 +3130,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -3183,7 +3175,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -3232,7 +3224,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -3424,7 +3416,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -3499,7 +3491,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -3507,6 +3499,7 @@
         },
         "layoutId": "BR062526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_FlameBride",
           "id": "DAv2_Wrap_FlameBride",
           "materialInstances": [],
           "renderImages": [
@@ -3538,7 +3531,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -3587,7 +3580,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -3824,7 +3817,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -3832,17 +3825,16 @@
         },
         "layoutId": "BR062526.94",
         "newDisplayAsset": {
-          "cosmeticId": "Character_BlobRock",
           "id": "DAv2_Character_BlobRock",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-blobrock-2048x2048-09a51d0d63a2.png",
+              "fileName": "cosmo__T_AthenaSoldiers_BlobRock.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ef94f152d2054ebe/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-ui-featured-figure-blobrock-2048x2048-fd63eadf31f9.png",
+              "fileName": "cosmo__T_UI_Featured_Figure_BlobRock.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ef94f152d2054ebe/renderimage_1.png",
               "productTag": "Product.Juno"
             }
@@ -3967,7 +3959,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -4016,7 +4008,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -4101,7 +4093,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -4109,6 +4101,7 @@
         },
         "layoutId": "Balenciaga.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_316_TextileMale_3S90R",
           "id": "DAv2_Glider_ID_316_TextileMale_3S90R",
           "materialInstances": [],
           "renderImages": [
@@ -4173,7 +4166,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -4181,6 +4174,7 @@
         },
         "layoutId": "Terminator1.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_PowerFarmer",
           "id": "DAv2_EID_PowerFarmer",
           "materialInstances": [],
           "renderImages": [
@@ -4329,7 +4323,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -4380,7 +4374,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -4550,7 +4544,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "FND0625",
-          "index": 4,
+          "index": 10,
           "name": "Fortnite Drops",
           "rank": 185,
           "showIneligibleOffers": "always",
@@ -4558,6 +4552,7 @@
         },
         "layoutId": "FND0625.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_BadCat",
           "id": "DAv2_Character_BadCat",
           "materialInstances": [],
           "renderImages": [
@@ -4599,7 +4594,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -4648,7 +4643,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -4697,7 +4692,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -4781,7 +4776,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -4789,6 +4784,7 @@
         },
         "layoutId": "SpaceBeth1.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_387_RuckusMini_6I5DM",
           "id": "DAv2_Wrap_387_RuckusMini_6I5DM",
           "materialInstances": [],
           "renderImages": [
@@ -5098,7 +5094,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -5240,7 +5236,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -5290,7 +5286,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -5433,7 +5429,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -5488,7 +5484,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -5539,7 +5535,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -5590,7 +5586,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -5751,7 +5747,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -5796,7 +5792,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -5944,7 +5940,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -6300,7 +6296,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -6355,7 +6351,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -6404,7 +6400,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -6453,7 +6449,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -6679,7 +6675,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -6723,7 +6719,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -6805,7 +6801,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -6813,6 +6809,7 @@
         },
         "layoutId": "SpaceBeth1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BirthMitten",
           "id": "DAv2_Companion_BirthMitten",
           "materialInstances": [],
           "renderImages": [
@@ -6854,7 +6851,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -6936,7 +6933,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -6944,6 +6941,7 @@
         },
         "layoutId": "SpaceBeth1.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_LentilAnise",
           "id": "DAv2_EID_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -7011,7 +7009,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -7019,6 +7017,7 @@
         },
         "layoutId": "SpaceBeth1.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_659_RuckusMini_O051M",
           "id": "DAv2_Pickaxe_ID_659_RuckusMini_O051M",
           "materialInstances": [],
           "renderImages": [
@@ -7106,7 +7105,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -7114,6 +7113,7 @@
         },
         "layoutId": "BR062526.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_FlameBride",
           "id": "DAv2_Character_FlameBride",
           "materialInstances": [],
           "renderImages": [
@@ -7195,7 +7195,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -7236,7 +7236,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -7285,7 +7285,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -7369,7 +7369,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -7377,6 +7377,7 @@
         },
         "layoutId": "BR062526.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_FlameBride",
           "id": "DAv2_EID_FlameBride",
           "materialInstances": [],
           "renderImages": [
@@ -7408,7 +7409,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -7575,7 +7576,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -7665,7 +7666,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -7673,6 +7674,7 @@
         },
         "layoutId": "BR062526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_MarshCityIbex",
           "id": "DAv2_Shoes_MarshCityIbex",
           "materialInstances": [],
           "renderImages": [
@@ -7797,7 +7799,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -7805,6 +7807,7 @@
         },
         "layoutId": "Looney1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_BrineGleam",
           "id": "DAv2_Character_BrineGleam",
           "materialInstances": [],
           "renderImages": [
@@ -7846,7 +7849,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -7940,7 +7943,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -7981,7 +7984,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -8030,7 +8033,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -8123,7 +8126,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -8131,6 +8134,7 @@
         },
         "layoutId": "BR062526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Character_StreetBee",
           "id": "DAv2_Character_StreetBee",
           "materialInstances": [],
           "renderImages": [
@@ -8289,7 +8293,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -8345,7 +8349,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -8394,7 +8398,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -8542,7 +8546,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -8588,7 +8592,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -8747,7 +8751,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -8965,7 +8969,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -9014,7 +9018,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -9063,7 +9067,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -9201,7 +9205,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -9259,7 +9263,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -9586,7 +9590,6 @@
             "description": "He'll be back.",
             "id": "EID_Typhoon_VO9OF",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_typhoon_vo9of/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_typhoon_vo9of/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_typhoon_vo9of/smallicon.png"
             },
@@ -9632,7 +9635,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -9676,7 +9679,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -9725,7 +9728,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -9872,7 +9875,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -9925,7 +9928,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10008,7 +10011,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -10016,6 +10019,7 @@
         },
         "layoutId": "SpaceBeth1.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_RuckusMini_HW9YF",
           "id": "DAv2_EID_RuckusMini_HW9YF",
           "materialInstances": [],
           "renderImages": [
@@ -10052,7 +10056,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10101,7 +10105,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10402,7 +10406,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -10503,7 +10507,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -10620,7 +10624,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -10709,7 +10713,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -10750,7 +10754,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10799,7 +10803,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10848,7 +10852,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10897,7 +10901,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -10989,7 +10993,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -10997,6 +11001,7 @@
         },
         "layoutId": "BR062526.96",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CataclysmTower",
           "id": "DAv2_Character_CataclysmTower",
           "materialInstances": [],
           "renderImages": [
@@ -11033,7 +11038,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -11115,7 +11120,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -11123,6 +11128,7 @@
         },
         "layoutId": "Looney1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_NotchGnarl",
           "id": "DAv2_Backpack_NotchGnarl",
           "materialInstances": [],
           "renderImages": [
@@ -11154,7 +11160,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -11254,7 +11260,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -11294,7 +11300,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -11343,7 +11349,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -11386,7 +11392,6 @@
             "description": "Put your back into it.",
             "id": "EID_ArmUpDance",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_armupdance/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_armupdance/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_armupdance/smallicon.png"
             },
@@ -11423,7 +11428,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -11431,12 +11436,11 @@
         },
         "layoutId": "SS263.97",
         "newDisplayAsset": {
-          "cosmeticId": "EID_ArmUpDance",
           "id": "DAv2_EID_ArmUpDance",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T-Icon-Emotes-E-ArmUpDance-L",
+              "fileName": "cosmo__T-Icon-Emotes-E-ArmUpDance-L_OfferCatalog.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c41cf9f065f5f628/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -11464,7 +11468,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -11555,7 +11559,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -11563,6 +11567,7 @@
         },
         "layoutId": "VV0624.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Terrier",
           "id": "DAv2_EID_Terrier",
           "materialInstances": [],
           "renderImages": [
@@ -11594,7 +11599,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -11825,7 +11830,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -11878,7 +11883,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -12016,7 +12021,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -12075,7 +12080,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -12160,7 +12165,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -12301,7 +12306,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -12309,6 +12314,7 @@
         },
         "layoutId": "Terminator1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_PowerFarmer",
           "id": "DAv2_Character_PowerFarmer",
           "materialInstances": [],
           "renderImages": [
@@ -12395,7 +12401,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -12436,7 +12442,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -12485,7 +12491,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -12534,7 +12540,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -12637,7 +12643,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -12723,7 +12729,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -12764,7 +12770,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -12862,7 +12868,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -12903,7 +12909,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13110,7 +13116,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -13155,7 +13161,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13204,7 +13210,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13253,7 +13259,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13302,7 +13308,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13392,7 +13398,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -13400,6 +13406,7 @@
         },
         "layoutId": "VV0624.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_StopLight",
           "id": "DAv2_EID_StopLight",
           "materialInstances": [],
           "renderImages": [
@@ -13431,7 +13438,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13480,7 +13487,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13529,7 +13536,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13578,7 +13585,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -13672,7 +13679,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -13781,7 +13788,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -13958,7 +13965,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -14110,7 +14117,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -14118,6 +14125,7 @@
         },
         "layoutId": "VV0624.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Dignified",
           "id": "DAv2_EID_Dignified",
           "materialInstances": [],
           "renderImages": [
@@ -14248,7 +14256,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -14294,7 +14302,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -14604,7 +14612,7 @@
           "category": "Start Your Engines",
           "displayType": "tileGrid",
           "id": "NASCARChevy",
-          "index": 24,
+          "index": 2,
           "name": "NASCAR Chevrolet Camaro",
           "rank": 182,
           "showIneligibleOffers": "always",
@@ -14708,7 +14716,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -14907,7 +14915,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -14915,6 +14923,7 @@
         },
         "layoutId": "BR062526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_GoblinPennyClove",
           "id": "DAv2_Shoes_GoblinPennyClove",
           "materialInstances": [],
           "renderImages": [
@@ -14946,7 +14955,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -14995,7 +15004,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -15044,7 +15053,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -15181,7 +15190,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -15189,6 +15198,7 @@
         },
         "layoutId": "Looney1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_BrineGleam",
           "id": "DAv2_Pickaxe_BrineGleam",
           "materialInstances": [],
           "renderImages": [
@@ -15316,7 +15326,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -15324,6 +15334,7 @@
         },
         "layoutId": "Looney1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_NotchGnarl",
           "id": "DAv2_Character_NotchGnarl",
           "materialInstances": [],
           "renderImages": [
@@ -15400,7 +15411,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -15408,6 +15419,7 @@
         },
         "layoutId": "Terminator1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_PowerFarmer",
           "id": "DAv2_Glider_PowerFarmer",
           "materialInstances": [],
           "renderImages": [
@@ -15439,7 +15451,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -15613,7 +15625,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -15653,10 +15665,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Show your style.",
-            "dynamicPakId": "1022",
             "id": "Wrap_RaisinHunt",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_raisinhunt/smallicon.png"
             },
@@ -15697,7 +15707,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Rambo",
-          "index": 25,
+          "index": 11,
           "name": "Rambo",
           "rank": 192,
           "showIneligibleOffers": "always",
@@ -15705,12 +15715,11 @@
         },
         "layoutId": "Rambo.98",
         "newDisplayAsset": {
-          "cosmeticId": "Wrap_RaisinHunt",
           "id": "DAv2_Wrap_RaisinHunt",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_Featured_Wraps_RaisinHunt",
+              "fileName": "cosmo__T_Featured_Wraps_RaisinHunt.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/aaecc85948584ede/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -15737,7 +15746,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -15899,7 +15908,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -15916,14 +15925,14 @@
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T-UI-Featured-Figure-ScrapyardB",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cbcad97d0b2a5673/renderimage_2.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__T-AthenaSoldiers-CID-335-Athena-Commando-F-Scrapyard-Ink.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cbcad97d0b2a5673/renderimage_1.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "T-UI-Featured-Figure-ScrapyardB",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cbcad97d0b2a5673/renderimage_2.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -15949,7 +15958,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -15999,7 +16008,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -16090,7 +16099,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -16098,6 +16107,7 @@
         },
         "layoutId": "VV0624.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ChipDip",
           "id": "DAv2_EID_ChipDip",
           "materialInstances": [],
           "renderImages": [
@@ -16126,10 +16136,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "He never fought a battle he couldn't win.",
-            "dynamicPakId": "1022",
             "id": "Character_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_raisinhunt_rag/smallicon.png"
             },
@@ -16194,10 +16202,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Silent... until the boom.",
-            "dynamicPakId": "1022",
             "id": "Backpack_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_raisinhunt_rag/smallicon.png"
             },
@@ -16244,7 +16250,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Rambo",
-          "index": 25,
+          "index": 11,
           "name": "Rambo",
           "rank": 192,
           "showIneligibleOffers": "always",
@@ -16252,22 +16258,21 @@
         },
         "layoutId": "Rambo.99",
         "newDisplayAsset": {
-          "cosmeticId": "Character_RaisinHunt_Rag",
           "id": "DAv2_Character_RaisinHunt_Rag",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaSoldiers_RaisinHunt_Rag",
+              "fileName": "cosmo__T_AthenaSoldiers_RaisinHunt_Rag.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e8e231cd75a690ef/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_AthenaSoldiers_RaisinHunt_Rag_chainsOff",
+              "fileName": "cosmo__T_AthenaSoldiers_RaisinHunt_Rag_chainsOff.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e8e231cd75a690ef/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_AthenaSoldiers_RaisinHunt_Layer",
+              "fileName": "cosmo__T_AthenaSoldiers_RaisinHunt_Layer.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e8e231cd75a690ef/renderimage_2.png",
               "productTag": "Product.BR"
             }
@@ -16410,7 +16415,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -16427,14 +16432,14 @@
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T-UI-Featured-Figure-ToyMonkeyB",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1bb4fc9cd1cc222e/renderimage_2.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__T-AthenaSoldiers-CID-658-Athena-Commando-F-ToyMonkey-02.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1bb4fc9cd1cc222e/renderimage_1.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "T-UI-Featured-Figure-ToyMonkeyB",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1bb4fc9cd1cc222e/renderimage_2.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -16493,7 +16498,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -16578,7 +16583,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -16655,7 +16660,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -16700,7 +16705,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -16749,7 +16754,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -16836,7 +16841,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -16844,6 +16849,7 @@
         },
         "layoutId": "Looney1.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_NotchGnarl",
           "id": "DAv2_EID_NotchGnarl",
           "materialInstances": [],
           "renderImages": [
@@ -16875,7 +16881,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -16966,7 +16972,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -16974,6 +16980,7 @@
         },
         "layoutId": "VV0624.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Gilded",
           "id": "DAv2_EID_Gilded",
           "materialInstances": [],
           "renderImages": [
@@ -17041,7 +17048,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -17082,7 +17089,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -17315,7 +17322,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -17359,7 +17366,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -17481,7 +17488,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -17604,7 +17611,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -17612,6 +17619,7 @@
         },
         "layoutId": "Balenciaga.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_675_TextilePupMale_96JZF",
           "id": "DAv2_Pickaxe_ID_675_TextilePupMale_96JZF",
           "materialInstances": [],
           "renderImages": [
@@ -17781,7 +17789,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -17836,7 +17844,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -17927,7 +17935,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -17935,6 +17943,7 @@
         },
         "layoutId": "VV0624.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CouchCushion",
           "id": "DAv2_EID_CouchCushion",
           "materialInstances": [],
           "renderImages": [
@@ -17966,7 +17975,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -18015,7 +18024,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -18344,7 +18353,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -18430,7 +18439,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -18560,7 +18569,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -18601,10 +18610,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Give 'em a war they won't believe.",
-            "dynamicPakId": "1022",
             "id": "EID_RaisinHunt",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_raisinhunt/smallicon.png"
             },
@@ -18645,7 +18652,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Rambo",
-          "index": 25,
+          "index": 11,
           "name": "Rambo",
           "rank": 192,
           "showIneligibleOffers": "always",
@@ -18653,12 +18660,11 @@
         },
         "layoutId": "Rambo.98",
         "newDisplayAsset": {
-          "cosmeticId": "EID_RaisinHunt",
           "id": "DAv2_EID_RaisinHunt",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaEmotes_RaisinHunt_emote",
+              "fileName": "cosmo__T_AthenaEmotes_RaisinHunt_emote.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1cd069f15e18174f/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -18778,7 +18784,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -18827,7 +18833,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -18991,7 +18997,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -19071,7 +19077,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -19079,6 +19085,7 @@
         },
         "layoutId": "Balenciaga.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_395_TextileBlack_DBVU2",
           "id": "DAv2_Wrap_395_TextileBlack_DBVU2",
           "materialInstances": [],
           "renderImages": [
@@ -19353,7 +19360,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -19487,7 +19494,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -19560,7 +19567,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -19568,6 +19575,7 @@
         },
         "layoutId": "BR062526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_PunkDevilSummer",
           "id": "DAv2_Wrap_PunkDevilSummer",
           "materialInstances": [],
           "renderImages": [
@@ -19599,7 +19607,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -19677,7 +19685,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -19685,6 +19693,7 @@
         },
         "layoutId": "Balenciaga.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_ChariotGlamPrime",
           "id": "DAv2_Shoes_ChariotGlamPrime",
           "materialInstances": [],
           "renderImages": [
@@ -19919,7 +19928,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -19998,7 +20007,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -20006,6 +20015,7 @@
         },
         "layoutId": "Terminator1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_PowerFarmer",
           "id": "DAv2_Pickaxe_PowerFarmer",
           "materialInstances": [],
           "renderImages": [
@@ -20150,7 +20160,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -20195,10 +20205,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "Get in. Get out. Survive.",
-            "dynamicPakId": "1022",
             "id": "Glider_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_raisinhunt_rag/smallicon.png"
             },
@@ -20239,7 +20247,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Rambo",
-          "index": 25,
+          "index": 11,
           "name": "Rambo",
           "rank": 192,
           "showIneligibleOffers": "always",
@@ -20247,12 +20255,11 @@
         },
         "layoutId": "Rambo.98",
         "newDisplayAsset": {
-          "cosmeticId": "Glider_RaisinHunt_Rag",
           "id": "DAv2_Glider_RaisinHunt_Rag",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_Featured_Glider_RaisinHunt_Rag",
+              "fileName": "cosmo__T_Featured_Glider_RaisinHunt_Rag.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/97f9db637a83acf1/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -20279,7 +20286,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -20328,7 +20335,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -20377,7 +20384,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -20548,7 +20555,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -20596,7 +20603,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -20675,7 +20682,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -20683,6 +20690,7 @@
         },
         "layoutId": "BR062526.94",
         "newDisplayAsset": {
+          "cosmeticId": "EID_TPose",
           "id": "DAv2_EID_TPose",
           "materialInstances": [],
           "renderImages": [
@@ -20769,7 +20777,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -20852,7 +20860,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -20860,6 +20868,7 @@
         },
         "layoutId": "Terminator1.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_543_TyphoonRobotMale_S4B4M",
           "id": "DAv2_Pickaxe_ID_543_TyphoonRobotMale_S4B4M",
           "materialInstances": [],
           "renderImages": [
@@ -20944,7 +20953,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -21199,7 +21208,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Terminator1",
-          "index": 27,
+          "index": 9,
           "name": "Terminator",
           "rank": 193,
           "showIneligibleOffers": "always",
@@ -21410,7 +21419,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -21453,7 +21462,6 @@
             "description": "Take it all the way around.",
             "id": "EID_WindmillFloss",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_windmillfloss/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_windmillfloss/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_windmillfloss/smallicon.png"
             },
@@ -21490,7 +21498,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "NS0623",
-          "index": 11,
+          "index": 1,
           "name": "No Sweat",
           "rank": 191,
           "showIneligibleOffers": "always",
@@ -21498,12 +21506,11 @@
         },
         "layoutId": "NS0623.99",
         "newDisplayAsset": {
-          "cosmeticId": "EID_WindmillFloss",
           "id": "DAv2_EID_WindMillFloss",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T-Icon-Emotes-E-WindmillFloss-L",
+              "fileName": "cosmo__T-Icon-Emotes-E-WindmillFloss-L_OfferCatalog.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/581d245eaba21a51/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -21530,7 +21537,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -21621,7 +21628,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -21629,6 +21636,7 @@
         },
         "layoutId": "VV0624.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_LevitateSnow",
           "id": "DAv2_EID_LevitateSnow",
           "materialInstances": [],
           "renderImages": [
@@ -21699,7 +21707,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "FND0625",
-          "index": 4,
+          "index": 10,
           "name": "Fortnite Drops",
           "rank": 185,
           "showIneligibleOffers": "always",
@@ -21707,6 +21715,7 @@
         },
         "layoutId": "FND0625.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BuffCut",
           "id": "DAv2_Companion_BuffCut",
           "materialInstances": [],
           "renderImages": [
@@ -22074,7 +22083,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -22134,7 +22143,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -22216,7 +22225,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -22224,6 +22233,7 @@
         },
         "layoutId": "SpaceBeth1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_LentilAnise",
           "id": "DAv2_Backpack_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -22256,7 +22266,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -22493,7 +22503,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -22594,7 +22604,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -22722,7 +22732,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -22766,7 +22776,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -22815,7 +22825,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -22935,7 +22945,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -22943,6 +22953,7 @@
         },
         "layoutId": "SpaceBeth1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_LentilAnise",
           "id": "DAv2_Character_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -22975,7 +22986,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -23053,7 +23064,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -23061,6 +23072,7 @@
         },
         "layoutId": "BR062526.96",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_GildHide",
           "id": "DAv2_Shoes_GildHide",
           "materialInstances": [],
           "renderImages": [
@@ -23125,7 +23137,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SpaceBeth1",
-          "index": 6,
+          "index": 20,
           "name": "Rick and Morty",
           "rank": 190,
           "showIneligibleOffers": "always",
@@ -23133,6 +23145,7 @@
         },
         "layoutId": "SpaceBeth1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_LentilAnise",
           "id": "DAv2_Pickaxe_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -23332,7 +23345,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "BR062526",
-          "index": 3,
+          "index": 7,
           "name": "Battle Ready",
           "rank": 184,
           "showIneligibleOffers": "always",
@@ -23412,7 +23425,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -23453,7 +23466,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -23497,10 +23510,8 @@
           {
             "added": "2026-06-18T13:01:07Z",
             "description": "What's it for? Hunting.",
-            "dynamicPakId": "1022",
             "id": "Pickaxe_RaisinHunt_Rag",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_raisinhunt_rag/smallicon.png"
             },
@@ -23541,7 +23552,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Rambo",
-          "index": 25,
+          "index": 11,
           "name": "Rambo",
           "rank": 192,
           "showIneligibleOffers": "always",
@@ -23549,12 +23560,11 @@
         },
         "layoutId": "Rambo.98",
         "newDisplayAsset": {
-          "cosmeticId": "Pickaxe_RaisinHunt_Rag",
           "id": "DAv2_Pickaxe_RaisinHunt_Rag",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_Featured_Pickaxes_RaisinHunt_Rag",
+              "fileName": "cosmo__T_Featured_Pickaxes_RaisinHunt_Rag.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3fd6043f442b8721/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -23693,7 +23703,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -23701,6 +23711,7 @@
         },
         "layoutId": "Hatsune1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_JadeTowelGloss",
           "id": "DAv2_Character_JadeTowelGloss",
           "materialInstances": [],
           "renderImages": [
@@ -23743,7 +23754,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -23833,7 +23844,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "VV0624",
-          "index": 5,
+          "index": 15,
           "name": "Hype Squad",
           "rank": 196,
           "showIneligibleOffers": "always",
@@ -23841,6 +23852,7 @@
         },
         "layoutId": "VV0624.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ChaosTheory",
           "id": "DAv2_EID_ChaosTheory",
           "materialInstances": [],
           "renderImages": [
@@ -23918,7 +23930,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "FND0625",
-          "index": 4,
+          "index": 10,
           "name": "Fortnite Drops",
           "rank": 185,
           "showIneligibleOffers": "always",
@@ -23962,7 +23974,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -24047,7 +24059,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Balenciaga",
-          "index": 14,
+          "index": 8,
           "name": "Balenciaga",
           "rank": 194,
           "showIneligibleOffers": "always",
@@ -24055,6 +24067,7 @@
         },
         "layoutId": "Balenciaga.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_394_TextileSilver_ZUH63",
           "id": "DAv2_Wrap_394_TextileSilver_ZUH63",
           "materialInstances": [],
           "renderImages": [
@@ -24179,7 +24192,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "MidMidas1",
-          "index": 21,
+          "index": 3,
           "name": "Midas",
           "rank": 188,
           "showIneligibleOffers": "always",
@@ -24416,7 +24429,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "SS263",
-          "index": 13,
+          "index": 18,
           "name": "Heatwave",
           "rank": 187,
           "showIneligibleOffers": "always",
@@ -24471,7 +24484,7 @@
         "layout": {
           "displayType": "expandableList",
           "id": "JT0619",
-          "index": 2,
+          "index": 13,
           "name": "Jam Tracks",
           "rank": 183,
           "showIneligibleOffers": "always",
@@ -24890,7 +24903,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "KPDH-062026",
-          "index": 0,
+          "index": 21,
           "name": "KPop Demon Hunters",
           "rank": 189,
           "showIneligibleOffers": "always",
@@ -24978,7 +24991,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -24986,6 +24999,7 @@
         },
         "layoutId": "Looney1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_NotchGnarl",
           "id": "DAv2_Pickaxe_NotchGnarl",
           "materialInstances": [],
           "renderImages": [
@@ -25050,7 +25064,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Looney1",
-          "index": 22,
+          "index": 14,
           "name": "Looney Tunes",
           "rank": 195,
           "showIneligibleOffers": "always",
@@ -25058,6 +25072,7 @@
         },
         "layoutId": "Looney1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_BrineGleam",
           "id": "DAv2_Backpack_BrineGleam",
           "materialInstances": [],
           "renderImages": [
@@ -25557,7 +25572,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "Hatsune1",
-          "index": 26,
+          "index": 16,
           "name": "Hatsune Miku",
           "rank": 198,
           "showIneligibleOffers": "always",
@@ -25581,6 +25596,11 @@
             {
               "fileName": "cosmo__T_AthenaBundles_JadeTowel.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/07cba06fb0be769c/renderimage_2.png",
+              "productTag": "Product.Juno"
+            },
+            {
+              "fileName": "cosmo__T_AthenaBundles_JadeTowel_02.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/07cba06fb0be769c/renderimage_3.png",
               "productTag": "Product.Juno"
             }
           ]
@@ -25667,7 +25687,7 @@
         "layout": {
           "displayType": "tileGrid",
           "id": "FND0625",
-          "index": 4,
+          "index": 10,
           "name": "Fortnite Drops",
           "rank": 185,
           "showIneligibleOffers": "always",
@@ -25675,6 +25695,7 @@
         },
         "layoutId": "FND0625.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_EggBawk",
           "id": "DAv2_Companion_EggBawk",
           "materialInstances": [],
           "renderImages": [
