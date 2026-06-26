@@ -35638,7 +35638,7 @@
     },
     {
       "added": "2026-06-25T12:03:20Z",
-      "description": "Keep away from open flame.",
+      "description": "You're a spark in the dark... time to dance in the flames.",
       "dynamicPakId": "1032",
       "id": "Backpack_PearlTaffyOpera",
       "images": {
@@ -54993,6 +54993,96 @@
         "backendValue": "ValidBiscuit",
         "text": "Part of the High Stakes Summer set.",
         "value": "High Stakes Summer"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "The friendliest alien around",
+      "dynamicPakId": "1018",
+      "id": "Backpack_VigorKnackDill",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackdill/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackdill/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackdill/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Mongraalien",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "Keeping score, one elimination at a time.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_VigorKnackGolf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackgolf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackgolf/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackgolf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Counter",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -183276,6 +183366,180 @@
             }
           ],
           "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "The King has arrived.",
+      "dynamicPakId": "1018",
+      "id": "Character_VigorKnackDill",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_vigorknackdill/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_vigorknackdill/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.VigorKnackDill"
+      ],
+      "name": "Mongraal",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/parts/stage1.png",
+              "name": "Mongraal",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/parts/stage2.png",
+              "name": "Mongraal (masked)",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/parts/stage3.png",
+              "name": "Alien Suit Mongraal",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "Style"
+        },
+        {
+          "channel": "MaterialParamSets4",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/materialparamsets4/mat0.png",
+              "name": "On",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/materialparamsets4/mat1.png",
+              "name": "Off",
+              "tag": "Mat1"
+            }
+          ],
+          "type": "Flag"
+        },
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/emissive/emissive0.png",
+              "name": "On",
+              "tag": "Emissive0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/variants/emissive/emissive1.png",
+              "name": "Off",
+              "tag": "Emissive1"
+            }
+          ],
+          "type": "Reactivity"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "From Sidcup to the Shadows.",
+      "dynamicPakId": "1018",
+      "id": "Character_VigorKnackGolf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_vigorknackgolf/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_vigorknackgolf/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Elite Mongraal",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/variants/parts/stage0.png",
+              "name": "On",
+              "tag": "Stage0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/variants/parts/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            }
+          ],
+          "type": "Mask"
         }
       ]
     },
@@ -348537,6 +348801,51 @@
       }
     },
     {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "Shing your way to victory, or not.",
+      "dynamicPakId": "1018",
+      "id": "EID_VigorKnack",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_vigorknack/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_vigorknack/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_vigorknack/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Shing Shing Shing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:41Z",
       "description": "Heed the call.",
       "id": "EID_VikingHorn",
@@ -412782,7 +413091,7 @@
         "season": "3",
         "text": "Introduced in Chapter 7, Season 3."
       },
-      "name": "The Duality of Olivia",
+      "name": "Pretty Sad/Girl So In Love Olivia",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Icon Series",
@@ -529532,6 +529841,96 @@
       }
     },
     {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "A lucky swing goes a long way.",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_VigorKnackDill",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackdill/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackdill/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackdill/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Lucky Clover",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "Reap what you sow.",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_VigorKnackGolf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackgolf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackgolf/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackgolf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Harvester",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2026-03-19T06:29:28Z",
       "description": "Designed with versatility in mind.",
       "id": "Pickaxe_VileSting",
@@ -582481,6 +582880,100 @@
       }
     },
     {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1018",
+      "id": "Spray_VigorKnack",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknack/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknack/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknack/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "GGs Bro!",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1018",
+      "id": "Spray_VigorKnackFNCS",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknackfncs/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknackfncs/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknackfncs/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Clovert Ops",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2026-03-19T06:29:28Z",
       "description": "Leave your mark.",
       "id": "Spray_VileSting",
@@ -626562,6 +627055,51 @@
         "backendValue": "LateGroove",
         "text": "Part of the Midnight Grind set.",
         "value": "Midnight Grind"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-06-26T15:30:37Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1018",
+      "id": "Wrap_VigorKnackGolf",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_vigorknackgolf/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_vigorknackgolf/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_vigorknackgolf/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Clover Crush",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "SharkHelmet",
+        "text": "Part of the Mongraal set.",
+        "value": "Mongraal"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
