@@ -54648,6 +54648,50 @@
       }
     },
     {
+      "added": "2026-06-26T00:00:00Z",
+      "description": "A diving essential.",
+      "dynamicPakId": "1022",
+      "id": "Backpack_ValueEnjoy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_valueenjoy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_valueenjoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_valueenjoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Dave's Oxygen Tank",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "FieldRock",
+        "text": "Part of the Dave the Diver set.",
+        "value": "Dave the Diver"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-07-23T17:53:01Z",
       "description": "Watch them twinkle in the starlight... if you dare.",
       "id": "Backpack_VampireHunter_Galaxy",
@@ -182557,6 +182601,50 @@
       ]
     },
     {
+      "added": "2026-06-26T00:00:00Z",
+      "description": "Diver by day, sushi hustler by night.",
+      "dynamicPakId": "1022",
+      "id": "Character_ValueEnjoy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_valueenjoy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_valueenjoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_valueenjoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Dave the Diver",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "FieldRock",
+        "text": "Part of the Dave the Diver set.",
+        "value": "Dave the Diver"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-07-23T17:53:01Z",
       "description": "Born of shadows. Cast in starlight.",
       "id": "Character_VampireHunter_Galaxy",
@@ -292520,6 +292608,46 @@
       }
     },
     {
+      "added": "2026-06-26T00:00:00Z",
+      "description": "Pee-yew.",
+      "dynamicPakId": "1001",
+      "id": "EID_BigSnorkel",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_bigsnorkel/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bigsnorkel/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_bigsnorkel/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "SCUBA JUKE (IT STANKKK)",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-05-03T00:00:00Z",
       "description": "Step it up.",
       "id": "EID_BigStepper",
@@ -375465,20 +375593,43 @@
     },
     {
       "added": "2024-01-23T13:34:48Z",
-      "description": "null",
+      "description": "Technically an unmanned combat air vehicle. Technically.",
       "id": "Glider_AbstractMirror",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_abstractmirror/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_abstractmirror/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_abstractmirror/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 28,
+        "chapter": "5",
+        "season": "1",
+        "text": "Introduced in Chapter 5, Season 1."
+      },
+      "name": "Slider",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "HidingTime",
+        "text": "Part of the Sneaking set.",
+        "value": "Sneaking"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       }
     },
@@ -375970,20 +376121,32 @@
     },
     {
       "added": "2026-06-25T12:03:20Z",
-      "description": "null",
+      "description": "Fly on winds of change.",
       "id": "Glider_BerryFlight",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_berryflight/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_berryflight/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_berryflight/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Neo Rider",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ManualVest",
+        "text": "Part of the Space Style set.",
+        "value": "Space Style"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       },
       "variants": [
@@ -377058,21 +377221,36 @@
     },
     {
       "added": "2024-04-23T08:26:50Z",
-      "description": "null",
+      "description": "Fly past the rest.",
       "id": "Glider_CoatCheck",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_coatcheck/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_coatcheck/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_coatcheck/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 29,
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.CoatCheck"
+      ],
+      "name": "Winged Victory",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "PinFail",
+        "text": "Part of the Nike Victory set.",
+        "value": "Nike Victory"
       },
       "showcaseVideo": "BzSSjigf0UU",
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       },
       "variants": [
@@ -378776,20 +378954,47 @@
     },
     {
       "added": "2025-12-22T00:00:00Z",
-      "description": "null",
+      "description": "Retractable wings created by Bruce Wayne.",
       "id": "Glider_GuideQuiz",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_guidequiz/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_guidequiz/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_guidequiz/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 39,
+        "chapter": "7",
+        "season": "1",
+        "text": "Introduced in Chapter 7, Season 1."
+      },
+      "metaTags": [
+        "Cosmetics.Metatags.GuideQuiz"
+      ],
+      "name": "Batman Beyond Wings",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "SunsetFighter",
+        "text": "Part of the Batman Beyond set.",
+        "value": "Batman Beyond"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       }
     },
@@ -395325,20 +395530,46 @@
     },
     {
       "added": "2024-08-22T14:07:51Z",
-      "description": "null",
+      "description": "Spider-Man swings, the Iron Spider can fly... with the help of a jetpack.",
       "id": "Glider_MiddleSock",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_middlesock/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_middlesock/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_middlesock/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 31,
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.MiddleSock"
+      ],
+      "name": "Arachno-Jets",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "MARVEL SERIES",
+        "value": "marvel"
+      },
+      "series": {
+        "backendValue": "MarvelSeries",
+        "colors": [
+          "ed1c24ff",
+          "d60203ff",
+          "b30102ff",
+          "610709ff",
+          "280102ff"
+        ],
+        "value": "MARVEL SERIES"
+      },
+      "set": {
+        "backendValue": "BeardMosaic",
+        "text": "Part of the Iron Spider set.",
+        "value": "Iron Spider"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       }
     },
@@ -395627,20 +395858,43 @@
     },
     {
       "added": "2024-08-17T06:38:59Z",
-      "description": "null",
+      "description": "The wings are not necessary but they look really cool, right?",
       "id": "Glider_MoosePorch",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_mooseporch/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_mooseporch/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_mooseporch/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 31,
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4."
+      },
+      "name": "War Force Wings",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "MARVEL SERIES",
+        "value": "marvel"
+      },
+      "series": {
+        "backendValue": "MarvelSeries",
+        "colors": [
+          "ed1c24ff",
+          "d60203ff",
+          "b30102ff",
+          "610709ff",
+          "280102ff"
+        ],
+        "value": "MARVEL SERIES"
+      },
+      "set": {
+        "backendValue": "AsylumBar",
+        "text": "Part of the War Machine set.",
+        "value": "War Machine"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       },
       "variants": [
@@ -395993,39 +396247,52 @@
     },
     {
       "added": "2024-12-01T03:58:22Z",
-      "description": "null",
+      "description": "Wings of a hero.",
       "id": "Glider_OysterKnock",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_oysterknock/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_oysterknock/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_oysterknock/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 33,
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1."
+      },
+      "name": "Baymax Wings",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "Legendary",
+        "value": "legendary"
+      },
+      "set": {
+        "backendValue": "StandardGrid",
+        "text": "Part of the Big Hero 6 set.",
+        "value": "Big Hero 6"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       }
     },
     {
       "added": "2024-12-01T03:58:22Z",
-      "description": "null",
+      "description": "TBD",
       "id": "Glider_OysterKnockUniversal",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_oysterknockuniversal/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_oysterknockuniversal/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_oysterknockuniversal/smallicon.png"
       },
-      "name": "null",
+      "name": "TBD",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "Legendary",
+        "value": "legendary"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       }
     },
@@ -399058,20 +399325,44 @@
     },
     {
       "added": "2025-06-07T19:01:48Z",
-      "description": "null",
+      "description": "Crafted by Tim Drake as a means to glide around Gotham City faster.",
       "id": "Glider_SquidGlistenLiftDairy",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_squidglistenliftdairy/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_squidglistenliftdairy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_squidglistenliftdairy/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 36,
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4."
+      },
+      "name": "Red Robin's Wings",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Legendary",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "AutomaticDuke",
+        "text": "Part of the Teen Titans set.",
+        "value": "Teen Titans"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       },
       "variants": [
@@ -399576,20 +399867,32 @@
     },
     {
       "added": "2026-04-08T17:00:32Z",
-      "description": "null",
+      "description": "Falling. With style. ",
       "id": "Glider_TaperSlink",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_taperslink/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_taperslink/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_taperslink/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Lightyear Wings",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BlueInk",
+        "text": "Part of the Toy Story set.",
+        "value": "Toy Story"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       }
     },
@@ -399709,20 +400012,43 @@
     },
     {
       "added": "2026-05-14T09:00:00Z",
-      "description": "null",
+      "description": "A symbol of hope on the battlefield.",
       "id": "Glider_TrackWaver",
       "images": {
-        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/icon.png"
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_trackwaver/smallicon.png"
       },
-      "name": "null",
+      "introduction": {
+        "backendValue": 40,
+        "chapter": "7",
+        "season": "2",
+        "text": "Introduced in Chapter 7, Season 2."
+      },
+      "name": "Mercy's Valkyrie Wings",
       "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "AlpineSaturn",
+        "text": "Part of the Overwatch set.",
+        "value": "Overwatch"
       },
       "type": {
         "backendValue": "AthenaGlider",
-        "displayValue": "null",
+        "displayValue": "Glider",
         "value": "glider"
       },
       "variants": [
