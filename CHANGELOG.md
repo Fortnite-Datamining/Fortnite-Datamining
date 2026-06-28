@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-28
+- **18:02** BR Cosmetics, Item Shop
 - **15:04** News - +1 new (Reload Elite Series - EU - Legends Landing) - -1 removed
 - **06:14** News - +1 new (Olivia Rodrigo Outfits) - -1 removed
 - **01:32** Item Shop, Epic Content Pages - +57 new (The Counter, Elite Mongraal, Nike Air Force 1 'Linen', Malcore, PPAP (Pen Pineapple Apple Pen), +52 more) - -42 removed
