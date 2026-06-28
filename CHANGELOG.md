@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-28
+- **20:57** News - +1 new (Reload Elite Series - NAC - Legends Landing) - -1 removed
 - **19:52** News - +1 new (Olivia Rodrigo Outfits) - -1 removed
 - **18:02** BR Cosmetics, Item Shop
 - **15:04** News - +1 new (Reload Elite Series - EU - Legends Landing) - -1 removed
