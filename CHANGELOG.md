@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-28
+- **01:32** Item Shop, Epic Content Pages - +57 new (The Counter, Elite Mongraal, Nike Air Force 1 'Linen', Malcore, PPAP (Pen Pineapple Apple Pen), +52 more) - -42 removed
+
 ## 2026-06-27
 - **20:37** Item Shop, Banners
 - **19:14** News
