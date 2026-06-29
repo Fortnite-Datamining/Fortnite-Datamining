@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-06-28T23:07:53.288Z",
+  "lastModified": "2026-06-29T15:56:14.101Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -11982,7 +11982,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-06-25T20:17:23.983Z",
+    "lastModified": "2026-06-29T15:56:14.101Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -26726,6 +26726,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Portable Extractor",
+              "textID": "Portable Extractor"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Grim Reaper Sprite",
               "textID": "Grim Reaper Sprite"
             },
@@ -27233,11 +27238,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Agile Aiming Boon",
               "textID": "Agile Aiming Boon"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Tracking Shot Boon",
-              "textID": "Tracking Shot Boon"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -38048,7 +38048,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-25T19:10:09.573Z",
+    "lastModified": "2026-06-29T15:52:37.142Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40152,6 +40152,21 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Gizmo you collect is a consumable that stays with you between matches (even after being eliminated)",
+              "textID": "the Gizmo you collect is a consumable that stays with you between matches (even after being eliminated)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Gizmo you collect go away at the end of the season",
+              "textID": "the Gizmo you collect go away at the end of the season"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is an item called the Portable Extractor (which lets you extract your equipped Sprite from anywhere on the island)",
+              "textID": "there is an item called the Portable Extractor (which lets you extract your equipped Sprite from anywhere on the island)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "some Sprite Mastery Pod Back Blings (available through the Battle Pass) unlock a patch later than the Sprite itself",
               "textID": "some Sprite Mastery Pod Back Blings (available through the Battle Pass) unlock a patch later than the Sprite itself"
             },
@@ -40242,8 +40257,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "you can spend Sprite Dust at the start of a match to summon a Sprite",
-              "textID": "you can spend Sprite Dust at the start of a match to summon a Sprite"
+              "localizedText": "you can spend Sprite Dust before the match starts to summon a Sprite",
+              "textID": "you can spend Sprite Dust before the match starts to summon a Sprite"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -41047,6 +41062,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Olivia Rodrigo",
+              "textID": "Olivia Rodrigo"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "KPop Demon Hunters",
               "textID": "KPop Demon Hunters"
             }
@@ -41285,6 +41305,130 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Global_Main_Rate",
+            "Global_Cooldown",
+            "Seasonal_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 7,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "In Fortnite's story, who shot Jonesy? ",
+                  "textID": "In Fortnite's story, who shot Jonesy? "
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Geno",
+                    "textID": "Geno"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Doctor Slone",
+                    "textID": "Doctor Slone"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Midas",
+                    "textID": "Midas"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "The Paradigm",
+                    "textID": "The Paradigm"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Dark Voyager",
+                    "textID": "Dark Voyager"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't know",
+                    "textID": "I don't know"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I didn't know that Jonesy was shot",
+                    "textID": "I didn't know that Jonesy was shot"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_Lore_WhoShotJonesy",
+          "surveyTags": [
+            "Ecosystem_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_Playlists",
+            "FNBR_Main_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How do you decide when to use your Portable Extractor?",
+                  "textID": "How do you decide when to use your Portable Extractor?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Whenever I'm extracting any Sprite",
+                    "textID": "Whenever I'm extracting any Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "When I'm extracting a rare Sprite",
+                    "textID": "When I'm extracting a rare Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I want to avoid being eliminated while extracting",
+                    "textID": "I want to avoid being eliminated while extracting"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I have one but never use it",
+                    "textID": "I have one but never use it"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I have never gotten a Portable Extractor",
+                    "textID": "I have never gotten a Portable Extractor"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "FNBR_PortableExtrarctor_Gizmo_MC",
+          "surveyTags": [
+            "FNBR_Main_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
