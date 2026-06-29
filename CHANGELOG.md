@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-06-29
+- **03:28** Item Shop, News - +64 new (Mysterio's Cloak, Peelverine Wings, Vans Premium Old Skool 'Black/White', Underworld Poison, Illusory Plume, +59 more) - -33 removed
+
 ## 2026-06-28
 - **23:36** Item Shop, Epic Content Pages
 - **22:03** Item Shop, AES Keys
