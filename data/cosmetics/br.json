@@ -282013,6 +282013,33 @@
       ]
     },
     {
+      "added": "2026-06-29T13:01:06Z",
+      "description": "A cute little creature from Neopia with a natural gift for magic!",
+      "dynamicPakId": "1023",
+      "id": "Companion_MinkCalico",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_minkcalico/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_minkcalico/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_minkcalico/smallicon.png"
+      },
+      "name": "Aisha",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "PublicLeaf",
+        "text": "Part of the Set_02 set.",
+        "value": "Set_02"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2026-04-01T00:00:00Z",
       "description": "He's meat!",
       "id": "Companion_MummyPast",
@@ -372907,6 +372934,37 @@
         "backendValue": "EmptyEye",
         "text": "Part of the Void Visionary set.",
         "value": "Void Visionary"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-06-29T13:01:06Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1023",
+      "id": "Emoticon_MinkCalico",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_minkcalico/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Aisha Love",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "PublicLeaf",
+        "text": "Part of the Set_02 set.",
+        "value": "Set_02"
       },
       "type": {
         "backendValue": "AthenaEmoji",

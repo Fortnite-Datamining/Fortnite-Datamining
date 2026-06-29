@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-29
+- **13:03** BR Cosmetics, AES Keys - +2 new (Aisha, Aisha Love)
 - **03:28** Item Shop, News - +64 new (Mysterio's Cloak, Peelverine Wings, Vans Premium Old Skool 'Black/White', Underworld Poison, Illusory Plume, +59 more) - -33 removed
 
 ## 2026-06-28
