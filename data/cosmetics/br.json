@@ -6602,6 +6602,57 @@
       ]
     },
     {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Rack ‘em up.  ",
+      "dynamicPakId": "1014",
+      "id": "Backpack_ChefTartar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Mad Tracker",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/variants/particle/particle1.png",
+              "name": "on",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/variants/particle/particle2.png",
+              "name": "off",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "fx"
+        }
+      ]
+    },
+    {
       "added": "2025-03-25T17:24:52Z",
       "description": "Potent and perilous.",
       "id": "Backpack_ChemPencil",
@@ -110137,6 +110188,266 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Rewrite the Narrative.",
+      "dynamicPakId": "1014",
+      "id": "Character_ChefTartar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Finisher",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/variants/material/mat1.png",
+              "name": "The Finisher",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/variants/material/mat2.png",
+              "name": "Team France",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/variants/material/mat3.png",
+              "name": "Team England",
+              "tag": "Mat3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/variants/material/mat4.png",
+              "name": "Team South Korea",
+              "tag": "Mat4"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Be the plot twist.",
+      "dynamicPakId": "1014",
+      "id": "Character_ChefTartar_B",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_b/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_b/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Star Striker",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/variants/material/mat1.png",
+              "name": "Star Striker",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/variants/material/mat2.png",
+              "name": "Team France",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/variants/material/mat3.png",
+              "name": "Team England",
+              "tag": "Mat3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/variants/material/mat4.png",
+              "name": "Team South Korea",
+              "tag": "Mat4"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Execute your Brilliance.",
+      "dynamicPakId": "1014",
+      "id": "Character_ChefTartar_C",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_c/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_c/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Mastermind",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/variants/material/mat1.png",
+              "name": "The Mastermind",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/variants/material/mat2.png",
+              "name": "Team France",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/variants/material/mat3.png",
+              "name": "Team England",
+              "tag": "Mat3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/variants/material/mat4.png",
+              "name": "Team South Korea",
+              "tag": "Mat4"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Instinct over everything.",
+      "dynamicPakId": "1014",
+      "id": "Character_ChefTartar_D",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_d/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_d/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Rogue Winger",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/variants/material/mat1.png",
+              "name": "Rogue Winger",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/variants/material/mat2.png",
+              "name": "Team France",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/variants/material/mat3.png",
+              "name": "Team England",
+              "tag": "Mat3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/variants/material/mat4.png",
+              "name": "Team South Korea",
+              "tag": "Mat4"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2025-03-25T17:24:52Z",
@@ -297344,6 +297655,39 @@
       }
     },
     {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Looks good at full speed.",
+      "dynamicPakId": "1014",
+      "id": "EID_ChefTartar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_cheftartar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_cheftartar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_cheftartar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Victory Flag",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-07-11T00:00:00Z",
       "description": "It's the honest truth.",
       "id": "EID_ChelseaHotel",
@@ -453955,6 +454299,39 @@
       ]
     },
     {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Unstoppable from the corner.",
+      "dynamicPakId": "1014",
+      "id": "Pickaxe_ChefTartar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cheftartar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cheftartar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cheftartar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Corner Flag",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-03-25T17:24:52Z",
       "description": "Recombined radioactivity.",
       "id": "Pickaxe_ChemPencil",
@@ -610292,6 +610669,39 @@
         "value": "uncommon"
       },
       "showcaseVideo": "F-w3D6ENcb8",
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-06-29T17:01:13Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1014",
+      "id": "Wrap_ChefTartar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_cheftartar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_cheftartar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_cheftartar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Nike Football Glitch",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
       "type": {
         "backendValue": "AthenaItemWrap",
         "displayValue": "Wrap",
