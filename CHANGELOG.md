@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-30
+- **04:19** Item Shop - +48 new (Femininomenon, Social Climber, Mogul Master, Star Wand, The Quick Style, +43 more) - -41 removed
 - **00:00** Item Shop, Epic Content Pages
 
 ## 2026-06-29
