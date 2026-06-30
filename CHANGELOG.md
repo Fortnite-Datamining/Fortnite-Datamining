@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-06-30
+- **13:21** News - +1 new (Catch Up Day: Legendary Sprites) - -1 removed
 - **04:19** Item Shop - +48 new (Femininomenon, Social Climber, Mogul Master, Star Wand, The Quick Style, +43 more) - -41 removed
 - **00:00** Item Shop, Epic Content Pages
 
