@@ -705,6 +705,38 @@
       "vehicleId": "VCID_Body_Endo"
     },
     {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "Behold the legend.",
+      "id": "CarBody_FancyFlake",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_fancyflake/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_fancyflake/small.png"
+      },
+      "name": "Dodge Viper GTS-R",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_FancyFlake"
+    },
+    {
       "added": "2025-06-07T19:00:27Z",
       "description": "Domination drives on.",
       "id": "CarBody_FBRN",
@@ -7252,6 +7284,166 @@
         "value": "skin"
       },
       "vehicleId": "VCID_CarSkin_EndoWings"
+    },
+    {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "Dodge Viper GTS-R custom decal.",
+      "id": "CarSkin_FancyFlakeFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakeflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakeflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_FancyFlakeFlames"
+    },
+    {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "Dodge Viper GTS-R custom decal.",
+      "id": "CarSkin_FancyFlakeLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery01/small.png"
+      },
+      "name": "American Made",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_FancyFlakeLivery01"
+    },
+    {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "Dodge Viper GTS-R custom decal.",
+      "id": "CarSkin_FancyFlakeLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery02/small.png"
+      },
+      "name": "Track Ready",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_FancyFlakeLivery02"
+    },
+    {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "Dodge Viper GTS-R custom decal.",
+      "id": "CarSkin_FancyFlakeLivery03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery03/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_FancyFlakeLivery03"
+    },
+    {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "Dodge Viper GTS-R custom decal.",
+      "id": "CarSkin_FancyFlakeWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakewings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakewings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_FancyFlakeWings"
     },
     {
       "added": "2025-06-07T19:00:27Z",
@@ -31669,6 +31861,38 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_FakeSugar"
+    },
+    {
+      "added": "2026-07-01T13:01:06Z",
+      "description": "How legends are born.",
+      "id": "Wheel_FancyFlake01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_fancyflake01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_fancyflake01/small.png"
+      },
+      "name": "Dodge Viper GTS-R",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Dodge",
+        "colors": [
+          "ffffffff",
+          "c2cdd6ff",
+          "a2acb4ff",
+          "cf2d26ff",
+          "222626ff"
+        ],
+        "value": "DODGE SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_FancyFlake01"
     },
     {
       "added": "2025-06-07T19:00:27Z",
