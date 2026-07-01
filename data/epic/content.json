@@ -345,7 +345,7 @@
     }
   },
   "crewscreendata": {
-    "_activeDate": "2026-06-25T17:00:00.000Z",
+    "_activeDate": "2026-07-01T00:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGameCrewScreenData",
@@ -471,27 +471,27 @@
             },
             {
               "_type": "Crew Tile Data",
-              "bHasNextCrewPackDetails": true,
+              "bHasNextCrewPackDetails": false,
               "crewPackItems": [
-                "AthenaCharacter:character_thunderballet",
-                "AthenaBackpack:backpack_thunderballet",
-                "AthenaPickaxe:pickaxe_thunderballet"
+                "AthenaCharacter:character_futurerabbit",
+                "AthenaBackpack:backpack_futurerabbit",
+                "AthenaPickaxe:pickaxe_futurerabbit"
               ],
               "details": {
                 "_type": "Crew Tile Details Data",
-                "backgroundImageURL": "https://cdn2.unrealengine.com/2026june-crew-benefits-screen---crew-pack-background-texture-1920x1080-5a78b04024e0.png",
-                "color1Hex": "667AEF",
-                "color2Hex": "43A4CB",
+                "backgroundImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-displaytile-1920x1080-1920x1080-a5c9c7d544f5.png",
+                "color1Hex": "5A2786",
+                "color2Hex": "FFDB77",
                 "color3Hex": "",
-                "color4Hex": "4146B1",
+                "color4Hex": "CF902E",
                 "colorA": "",
                 "colorB": "",
                 "colorC": "",
-                "description": "Get the Corascana Outfit, Back Bling, and Pickaxe!",
-                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026june-crew-benefits---recurring-benefits-crew-pack-tile-260x160-61a92da39ffd.png",
+                "description": "Get the Bunnii O'Hare Outfit, Back Bling, and Pickaxe!",
+                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-displaytile-260x160-260x160-6b9554dbb459.png",
                 "tag": "MonthlyBenefit",
-                "tileImageURL": "https://cdn2.unrealengine.com/2026june-crew-benefits---recurring-benefits-crew-pack-tile-260x160-61a92da39ffd.png",
-                "title": "June Crew Pack"
+                "tileImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-displaytile-260x160-260x160-6b9554dbb459.png",
+                "title": "July Crew Pack"
               },
               "nextCrewPackItems": [
                 "AthenaCharacter:character_futurerabbit",
@@ -549,14 +549,14 @@
               "bHasNextCrewPackDetails": false,
               "details": {
                 "_type": "Crew Tile Details Data",
-                "backgroundImageURL": "https://cdn2.unrealengine.com/2026june-crew-benefits-screen---crew-legacy-background-texture-1920x1080-1b350b4206eb.png",
+                "backgroundImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-auric-displaytile-1920x1080-1920x1080-702ca96a0d34.png",
                 "color1Hex": "0744AC",
                 "color2Hex": "45D2F5",
                 "color4Hex": "09081A",
                 "description": "Crew-exclusive cosmetics that unlock a new stage every month that you are an active subscriber to the Fortnite Crew.",
-                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026june-crew-benefits---recurring-benefits-crew-legacy-tile-260x160-b8f40187b526.png",
+                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-auric-displaytile-260x160-260x160-fddd0a683c01.png",
                 "tag": "AvailableUntilBenefit",
-                "tileImageURL": "https://cdn2.unrealengine.com/2026june-crew-benefits---recurring-benefits-crew-legacy-tile-260x160-b8f40187b526.png",
+                "tileImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-auric-displaytile-260x160-260x160-fddd0a683c01.png",
                 "title": "Crew Styles"
               },
               "nextDetails": {
@@ -1230,7 +1230,7 @@
         }
       ]
     },
-    "lastModified": "2026-06-25T13:10:34.644Z",
+    "lastModified": "2026-06-30T18:05:33.887Z",
     "progressiveInfo": {
       "_type": "SubscriptionProgressiveInfo",
       "infoModalEntries": [
@@ -1536,7 +1536,7 @@
             },
             {
               "_type": "Fortnite - Subscription Simple Benefit",
-              "imageUrl": "https://cdn2.unrealengine.com/t-ui-upsellscreen-benefits-crew-4100-88x88-42b98052c1b0.png",
+              "imageUrl": "https://cdn2.unrealengine.com/2026june-t-ui-upsellscreen-benefits-crew-4110-88x88-bc568db8a19c.png",
               "label": "Fortnite Crew Exclusive Outfit"
             },
             {
@@ -1579,7 +1579,7 @@
           "label": "Earn Up To:"
         }
       ],
-      "imageUrl": "https://cdn2.unrealengine.com/2026june-upsell-crew-41-10-jun-560x328-780a02fb5df6.png",
+      "imageUrl": "https://cdn2.unrealengine.com/2026june-upsell-crew-41-10-jul-560x328-bf77fd42e682.png",
       "themeColors": [
         {
           "_type": "Named Color",
