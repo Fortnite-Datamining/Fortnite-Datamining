@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-02
+- **01:30** Item Shop - +42 new (Daft Punk Double-Neck, Push 2 Start, Desdemona, GHOST Enforcer, Around the World, +37 more) - -27 removed
+
 ## 2026-07-01
 - **23:19** Item Shop, Epic Content Pages
 - **21:58** AES Keys
