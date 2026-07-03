@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-03
+- **00:02** Item Shop - +28 new (V6, Aisha, Crossrider, Summitseeker Evie, Icy Peace Axes, +23 more) - -22 removed
+
 ## 2026-07-02
 - **22:35** Item Shop, Epic Content Pages
 - **13:49** BR Cosmetics, Item Shop, AES Keys - +7 new (Klaus Heisler, Threat Level Fridge Magnet, Francine Smith, Stan Smith, Stan's Jam, +2 more)
