@@ -1,6 +1,6 @@
 {
   "data": {
-    "date": "2026-07-03T00:00:00Z",
+    "date": "2026-07-03T18:00:00Z",
     "entries": [
       {
         "colors": {
@@ -24,7 +24,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_536",
         "offerId": "v2:/d84c158461f66bcc5abc2dcddcd7235feafab8dd262a1b6d5e86e7f302e417dd",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -30,
@@ -292,7 +292,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_588",
         "offerId": "v2:/a9eaf0473111f15da1489d624cc7dd4189e7ac391083aaae27f0d8407f63cf24",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -81,
@@ -428,7 +428,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_462",
         "offerId": "v2:/438a774a2b0a276a5562fff6e4e1859e8a3632c58bd6ffc797bb5b3a1298c83e",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -82,
@@ -477,7 +477,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_574",
         "offerId": "v2:/73b20f447107718ad0f28d74125f63179ea7b3d74232f819b92cb5522f1366b8",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -93,
@@ -934,6 +934,92 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "brItems": [
+          {
+            "added": "2025-09-23T15:31:36Z",
+            "description": "Play smarter. ",
+            "id": "Backpack_PineTrimPack",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pinetrimpack/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_pinetrimpack/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 37,
+              "chapter": "6",
+              "season": "5",
+              "text": "Introduced in Chapter 6, Season 5."
+            },
+            "name": "200 IQ",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "HardFight",
+              "text": "Part of the MrSavage set.",
+              "value": "MrSavage"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffca12ff",
+          "color3": "9f1e1eff",
+          "textBackgroundColor": "9f1e1eff"
+        },
+        "devName": "[VIRTUAL]1 x 200 IQ for 300 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_PineTrimPack",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "category": "Icons",
+          "displayType": "tileGrid",
+          "id": "MrSavage",
+          "index": 4,
+          "name": "MrSavage",
+          "rank": 178,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "MrSavage.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_PineTrimPack",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T_AthenaBackpack_PineTrimPack.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/dc6a6c5e7d5362b3/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Backpack_PineTrimPack",
+        "offerId": "v2:/af349e12406dc924474c5f1d768b6d542a76a2504af8f10ff9acdce62d371008",
+        "outDate": "2026-07-03T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -2,
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "banner": {
           "backendValue": "AmountOff",
           "intensity": "Low",
@@ -1260,92 +1346,6 @@
       {
         "brItems": [
           {
-            "added": "2025-09-23T15:31:36Z",
-            "description": "Play smarter. ",
-            "id": "Backpack_PineTrimPack",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pinetrimpack/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_pinetrimpack/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 37,
-              "chapter": "6",
-              "season": "5",
-              "text": "Introduced in Chapter 6, Season 5."
-            },
-            "name": "200 IQ",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "set": {
-              "backendValue": "HardFight",
-              "text": "Part of the MrSavage set.",
-              "value": "MrSavage"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "ffca12ff",
-          "color3": "9f1e1eff",
-          "textBackgroundColor": "9f1e1eff"
-        },
-        "devName": "[VIRTUAL]1 x 200 IQ for 300 MtxCurrency",
-        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_PineTrimPack",
-        "finalPrice": 300,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "category": "Icons",
-          "displayType": "tileGrid",
-          "id": "MrSavage",
-          "index": 4,
-          "name": "MrSavage",
-          "rank": 178,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "MrSavage.98",
-        "newDisplayAsset": {
-          "id": "DAv2_Backpack_PineTrimPack",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T_AthenaBackpack_PineTrimPack.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/dc6a6c5e7d5362b3/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Backpack_PineTrimPack",
-        "offerId": "v2:/af349e12406dc924474c5f1d768b6d542a76a2504af8f10ff9acdce62d371008",
-        "outDate": "2026-07-03T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 300,
-        "sortPriority": -2,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2019-11-20T12:50:28Z",
             "description": "Carve through the competition.",
             "id": "CID_061_Athena_Commando_F_SkiGirl",
@@ -1556,7 +1556,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_761",
         "offerId": "v2:/285a0d0de32ac0ae870bd0a7417d78bfc94cca1f32671275b47ce2a8d3be27b1",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -77,
@@ -1809,7 +1809,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_269",
         "offerId": "v2:/b11cce81c1266e5e6f199f2da083b6a89f87abf3b272dc4e3a7400ea726a190f",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -26,
@@ -1858,7 +1858,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_547",
         "offerId": "v2:/0e0e9f169a512b85e7cd41f6c5614dfe6cffab12bd35a725e10e5cf11eb73abd",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -75,
@@ -1907,7 +1907,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_445",
         "offerId": "v2:/12e131620dfd65845501a9236f293f74ccb6bea7a63ffc698fccf1e5eb67dfdd",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -25,
@@ -1956,7 +1956,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_394",
         "offerId": "v2:/5de06b75c7afeda94635781083075c9bdb01f3ee850e0a033e65064ea600cecf",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -57,
@@ -2234,7 +2234,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_11",
         "offerId": "v2:/e334ab262f137ad0d367293da5d4ea8fd6bfd98d4b62282a2845a3a1e108801c",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -7,
@@ -2287,7 +2287,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_529",
         "offerId": "v2:/6cc55d64d1a081c787e4b6e0c63db440d26f6b9682180b71172e10ee65f370c1",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -99,
@@ -2453,7 +2453,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_62",
         "offerId": "v2:/c3b10ede88c0513985c0e7486a3733318e243781ab54973760907666207bdb63",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -49,
@@ -2502,7 +2502,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_284",
         "offerId": "v2:/fcae3839a08e9e2b82e897b4efd6e6fda2cd515d3b0737c01822239527931096",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -31,
@@ -2810,7 +2810,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_261",
         "offerId": "v2:/733e7de8d7f41bb4c5b752d0830c42d0a4dbd62a2f973935b887cd7a9fcabb3f",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -44,
@@ -3052,7 +3052,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_446",
         "offerId": "v2:/3f5895238bdac7ed35362dc7829d70860d53b16cea37e8c15f2cf0760da17386",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -98,
@@ -3316,7 +3316,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_301",
         "offerId": "v2:/9b62049c01d68d88ab73fc471b3921f55e1e48641729a8c6ca9b7ebb930e4ac5",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -15,
@@ -4474,7 +4474,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_328",
         "offerId": "v2:/ca1126099deb59dcbdb65bbd584f544a16a1db0a35f1aecf4f6517cde67d2180",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -34,
@@ -4662,7 +4662,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_237",
         "offerId": "v2:/97b81ae7b6be1c9efe4cbe9678e471a791b4a40552c11bdd27909c86e5f7c39d",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -41,
@@ -5588,76 +5588,6 @@
       {
         "brItems": [
           {
-            "added": "2022-04-05T08:21:07Z",
-            "description": "This battlefield requires a lil' landscaping.",
-            "id": "EID_Traction",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_traction/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_traction/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 20,
-              "chapter": "3",
-              "season": "2",
-              "text": "Introduced in Chapter 3, Season 2."
-            },
-            "name": "Lil' Mower",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "showcaseVideo": "n8D0MbLovBo",
-            "type": {
-              "backendValue": "AthenaDance",
-              "displayValue": "Emote",
-              "value": "emote"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "cee7f6ff",
-          "color2": "1e76acff",
-          "color3": "76aed1ff",
-          "textBackgroundColor": "1e76acff"
-        },
-        "devName": "[VIRTUAL]1 x Lil' Mower for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-27T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "FND0703",
-          "index": 10,
-          "name": "Fortnite Drops",
-          "rank": 182,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "FND0703.96",
-        "newDisplayAsset": {
-          "cosmeticId": "EID_Traction",
-          "id": "DAv2_EID_Traction",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T-AthenaEmotes-E-Traction.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d53f2018185d5532/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_EID_Traction",
-        "offerId": "v2:/92d161731af8b3207b843a341de15e92944aa3a52093b7f933457ea026eef86a",
-        "outDate": "2026-07-08T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -5,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2025-09-23T15:31:36Z",
             "description": "Honor forged in battle. ",
             "id": "Backpack_PineTrimSurge",
@@ -5739,6 +5669,76 @@
         "refundable": false,
         "regularPrice": 300,
         "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2022-04-05T08:21:07Z",
+            "description": "This battlefield requires a lil' landscaping.",
+            "id": "EID_Traction",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_traction/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_traction/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 20,
+              "chapter": "3",
+              "season": "2",
+              "text": "Introduced in Chapter 3, Season 2."
+            },
+            "name": "Lil' Mower",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "showcaseVideo": "n8D0MbLovBo",
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "cee7f6ff",
+          "color2": "1e76acff",
+          "color3": "76aed1ff",
+          "textBackgroundColor": "1e76acff"
+        },
+        "devName": "[VIRTUAL]1 x Lil' Mower for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-27T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "FND0703",
+          "index": 10,
+          "name": "Fortnite Drops",
+          "rank": 182,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "FND0703.96",
+        "newDisplayAsset": {
+          "cosmeticId": "EID_Traction",
+          "id": "DAv2_EID_Traction",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T-AthenaEmotes-E-Traction.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d53f2018185d5532/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_EID_Traction",
+        "offerId": "v2:/92d161731af8b3207b843a341de15e92944aa3a52093b7f933457ea026eef86a",
+        "outDate": "2026-07-08T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -5,
         "tileSize": "Size_1_x_1"
       },
       {
@@ -6285,7 +6285,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_110",
         "offerId": "v2:/c37f1d88dfd13afbc80ca64cc7a7eb2de078a3f1fe694a5dba6c28fbbb6a6af5",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -8,
@@ -6334,7 +6334,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_636",
         "offerId": "v2:/c587171d18325e930a7d8544c18010d4b996d41f613a39a9404f0974de16fed0",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -52,
@@ -6679,7 +6679,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_582",
         "offerId": "v2:/6109f297fa5ee62b16fe8fe0a8beb860f4f25eddf6e16174fc603fc520a9f71f",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -60,
@@ -6799,7 +6799,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_200",
         "offerId": "v2:/3a50d45b48a40162d4d2266b1f7a731627863e47e206b70862d3c88278640d02",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -36,
@@ -6848,7 +6848,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_19",
         "offerId": "v2:/e36b3ddcfc02206405f22413dabc55236dd0247ab99ad549189fb7df83c5300e",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -62,
@@ -6948,7 +6948,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_281",
         "offerId": "v2:/8faecd0abe413311ef13719b6d05e16763dbead79a5c27abc609135fbeb11cc1",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -58,
@@ -7394,55 +7394,6 @@
         ]
       },
       {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x Uptown Funk for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_71",
-        "offerId": "v2:/be70fabc3610167fa196c4f8624cb148491fc0fcf07ed615e91b24c9821b04a4",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -42,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-07-11T15:13:48Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/81d77e43d69b56cc.jpg",
-            "artist": "Mark Ronson ft. Bruno Mars",
-            "bpm": 115,
-            "devName": "uptownfunk",
-            "difficulty": {
-              "bass": 4,
-              "drums": 3,
-              "guitar": 2,
-              "plasticBass": 3,
-              "plasticDrums": 2,
-              "vocals": 4
-            },
-            "duration": 274,
-            "id": "sid_placeholder_71",
-            "releaseYear": 2014,
-            "title": "Uptown Funk"
-          }
-        ]
-      },
-      {
         "brItems": [
           {
             "added": "2019-11-20T12:50:27Z",
@@ -7531,6 +7482,55 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
+        "devName": "[VIRTUAL]1 x Uptown Funk for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_71",
+        "offerId": "v2:/be70fabc3610167fa196c4f8624cb148491fc0fcf07ed615e91b24c9821b04a4",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -42,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-07-11T15:13:48Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/81d77e43d69b56cc.jpg",
+            "artist": "Mark Ronson ft. Bruno Mars",
+            "bpm": 115,
+            "devName": "uptownfunk",
+            "difficulty": {
+              "bass": 4,
+              "drums": 3,
+              "guitar": 2,
+              "plasticBass": 3,
+              "plasticDrums": 2,
+              "vocals": 4
+            },
+            "duration": 274,
+            "id": "sid_placeholder_71",
+            "releaseYear": 2014,
+            "title": "Uptown Funk"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
         "devName": "[VIRTUAL]1 x DÁKITI for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -7547,7 +7547,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "SparksCMSVisualTest140",
         "offerId": "v2:/5065a6b0279d8389b0b4a2ff7dba27ff96867dec4ea81af2486c81fc385b2854",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -6,
@@ -7789,7 +7789,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_40",
         "offerId": "v2:/27cecd26d90c554283e639fabf0d61cfda79e9f92c5a4f9e447d341d5c69224e",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -12,
@@ -9766,7 +9766,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_419",
         "offerId": "v2:/480db4e9d0365a24f87cc2f95e83f7751dff98f5a5066182a6492f487c33b34d",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -4,
@@ -10221,6 +10221,55 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x Paradise City for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-26T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_270",
+        "offerId": "v2:/bad9f83278907b48344f9dfea5bfb312a65084bb7090a303d9c6718ff97c6a4d",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -53,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-08-09T00:00:00Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/5417a77cd02edd44.jpg",
+            "artist": "Guns N' Roses",
+            "bpm": 100,
+            "devName": "paradisecity",
+            "difficulty": {
+              "bass": 5,
+              "drums": 4,
+              "guitar": 6,
+              "plasticBass": 5,
+              "plasticDrums": 5,
+              "vocals": 4
+            },
+            "duration": 411,
+            "id": "sid_placeholder_270",
+            "releaseYear": 1987,
+            "title": "Paradise City"
+          }
+        ]
+      },
+      {
         "brItems": [
           {
             "added": "2019-11-20T12:48:27Z",
@@ -10304,55 +10353,6 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
-        "devName": "[VIRTUAL]1 x Paradise City for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-26T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_270",
-        "offerId": "v2:/bad9f83278907b48344f9dfea5bfb312a65084bb7090a303d9c6718ff97c6a4d",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -53,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-08-09T00:00:00Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/5417a77cd02edd44.jpg",
-            "artist": "Guns N' Roses",
-            "bpm": 100,
-            "devName": "paradisecity",
-            "difficulty": {
-              "bass": 5,
-              "drums": 4,
-              "guitar": 6,
-              "plasticBass": 5,
-              "plasticDrums": 5,
-              "vocals": 4
-            },
-            "duration": 411,
-            "id": "sid_placeholder_270",
-            "releaseYear": 1987,
-            "title": "Paradise City"
-          }
-        ]
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
         "devName": "[VIRTUAL]1 x CHIHIRO for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -10369,7 +10369,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_218",
         "offerId": "v2:/1dbf9a389270e97057b5fffea3946016595b36fda3424518a4936e33a54dabfd",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -14,
@@ -10469,7 +10469,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_733",
         "offerId": "v2:/109ca3cb816a2534c7e07ba06d1059212e3cd82fcb83b78f38a14179cc3e45ed",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -95,
@@ -10638,7 +10638,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_491",
         "offerId": "v2:/00934c2a1bb9a47fd6f44900c02654badd9904b88da7cb70937337e2adcf4174",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -68,
@@ -10741,7 +10741,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_334",
         "offerId": "v2:/f67aa93c31968247b90525418be867b861ec8f1b93bda53ad3d1bf1170ed580a",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -39,
@@ -11395,7 +11395,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_278",
         "offerId": "v2:/1bf615d6c48ce5777574b293ddb6a9416d74dbc698e9fe1f3247d9b8f47d16ee",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -92,
@@ -11606,90 +11606,6 @@
       {
         "brItems": [
           {
-            "added": "2024-08-17T06:38:59Z",
-            "description": "Show your style.",
-            "id": "Wrap_HerbHutch",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_herbhutch/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_herbhutch/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 31,
-              "chapter": "5",
-              "season": "4",
-              "text": "Introduced in Chapter 5, Season 4."
-            },
-            "name": "Shield and Stripes",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "MARVEL SERIES",
-              "value": "marvel"
-            },
-            "series": {
-              "backendValue": "MarvelSeries",
-              "colors": [
-                "ed1c24ff",
-                "d60203ff",
-                "b30102ff",
-                "610709ff",
-                "280102ff"
-              ],
-              "value": "MARVEL SERIES"
-            },
-            "set": {
-              "backendValue": "TalentedBother",
-              "text": "Part of the Captain Jones set.",
-              "value": "Captain Jones"
-            },
-            "type": {
-              "backendValue": "AthenaItemWrap",
-              "displayValue": "Wrap",
-              "value": "wrap"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "acd8ffff",
-          "color3": "00b7ffff",
-          "textBackgroundColor": "007fadff"
-        },
-        "devName": "[VIRTUAL]1 x Shield and Stripes for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-29T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "MarvelBP-Unvaulted",
-          "index": 32,
-          "name": "Unvaulted",
-          "rank": 188,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "MarvelBP-Unvaulted.90",
-        "newDisplayAsset": {
-          "id": "DAv2_Wrap_AssortedLayer",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_Featured_Wraps_HerbHutch",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6cea8707a5b72ec4/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Wrap_AssortedLayer",
-        "offerId": "v2:/0ecd27ccc29820c8360c7a1858e0bd8319e81bda05c1254e98c8d538932cb053",
-        "outDate": "2026-07-05T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -3,
-        "tileBackgroundMaterial": "ShopTile_ComicTexture",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2019-11-20T12:51:15Z",
             "description": "Protect the queen!",
             "id": "BID_408_WeepingWoods",
@@ -11773,6 +11689,90 @@
         "regularPrice": 300,
         "sortPriority": -3,
         "tileBackgroundMaterial": "ShopTile_Glitter",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2024-08-17T06:38:59Z",
+            "description": "Show your style.",
+            "id": "Wrap_HerbHutch",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_herbhutch/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_herbhutch/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 31,
+              "chapter": "5",
+              "season": "4",
+              "text": "Introduced in Chapter 5, Season 4."
+            },
+            "name": "Shield and Stripes",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "MARVEL SERIES",
+              "value": "marvel"
+            },
+            "series": {
+              "backendValue": "MarvelSeries",
+              "colors": [
+                "ed1c24ff",
+                "d60203ff",
+                "b30102ff",
+                "610709ff",
+                "280102ff"
+              ],
+              "value": "MARVEL SERIES"
+            },
+            "set": {
+              "backendValue": "TalentedBother",
+              "text": "Part of the Captain Jones set.",
+              "value": "Captain Jones"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "acd8ffff",
+          "color3": "00b7ffff",
+          "textBackgroundColor": "007fadff"
+        },
+        "devName": "[VIRTUAL]1 x Shield and Stripes for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-29T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "MarvelBP-Unvaulted",
+          "index": 32,
+          "name": "Unvaulted",
+          "rank": 188,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "MarvelBP-Unvaulted.90",
+        "newDisplayAsset": {
+          "id": "DAv2_Wrap_AssortedLayer",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "T_Featured_Wraps_HerbHutch",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6cea8707a5b72ec4/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Wrap_AssortedLayer",
+        "offerId": "v2:/0ecd27ccc29820c8360c7a1858e0bd8319e81bda05c1254e98c8d538932cb053",
+        "outDate": "2026-07-05T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_ComicTexture",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -12071,55 +12071,6 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
-        "devName": "[VIRTUAL]1 x I Still Haven't Found What I'm Looking For for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_117",
-        "offerId": "v2:/61a0fa5cc8a44ae36ebf6df8dfed3196e8f874dfc20b9085caab55449977c27e",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -9,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-01-25T21:33:56Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/22c6a02632cba642.jpg",
-            "artist": "U2",
-            "bpm": 101,
-            "devName": "istillhaventfound",
-            "difficulty": {
-              "bass": 1,
-              "drums": 3,
-              "guitar": 2,
-              "plasticBass": 1,
-              "plasticDrums": 4,
-              "vocals": 2
-            },
-            "duration": 271,
-            "id": "sid_placeholder_117",
-            "releaseYear": 1987,
-            "title": "I Still Haven't Found What I'm Looking For"
-          }
-        ]
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
         "devName": "[VIRTUAL]1 x Killing In The Name for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -12136,7 +12087,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_202",
         "offerId": "v2:/f9dcd87f4ed094d2e16dc361ff2609f078236620a8370d6fa959a4048216dda3",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -38,
@@ -12160,6 +12111,55 @@
             "id": "sid_placeholder_202",
             "releaseYear": 1992,
             "title": "Killing In The Name"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x I Still Haven't Found What I'm Looking For for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_117",
+        "offerId": "v2:/61a0fa5cc8a44ae36ebf6df8dfed3196e8f874dfc20b9085caab55449977c27e",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -9,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-01-25T21:33:56Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/22c6a02632cba642.jpg",
+            "artist": "U2",
+            "bpm": 101,
+            "devName": "istillhaventfound",
+            "difficulty": {
+              "bass": 1,
+              "drums": 3,
+              "guitar": 2,
+              "plasticBass": 1,
+              "plasticDrums": 4,
+              "vocals": 2
+            },
+            "duration": 271,
+            "id": "sid_placeholder_117",
+            "releaseYear": 1987,
+            "title": "I Still Haven't Found What I'm Looking For"
           }
         ]
       },
@@ -12234,7 +12234,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_649",
         "offerId": "v2:/a330e758aabf1ce8f7d0c09a8e13e33c14c7f4e50e3373cbfe7c6f113aea96e8",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -59,
@@ -12512,7 +12512,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_654",
         "offerId": "v2:/f70bcdbad42782a1dd86eb1662384b5f5dc2cc50d690b1755c9f14156f1c78aa",
-        "outDate": "2026-08-02T23:59:59.999Z",
+        "outDate": "2026-08-20T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -80,
@@ -12817,7 +12817,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_266",
         "offerId": "v2:/a2d9e37e2893095019033ff88346aa7ec331b520c615c87f459f2ca703ebf724",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -21,
@@ -12921,7 +12921,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_53",
         "offerId": "v2:/93505ff24c961d03f6c69f2314a9d60d29ca65ba59fd8a021ba842ace7769380",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -29,
@@ -13093,7 +13093,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "SparksCMSVisualTest132",
         "offerId": "v2:/61a9962a48af3480b8d0d1a810d46963307627fb855d76f565e7b8a9260af81c",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -55,
@@ -13444,55 +13444,6 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
-        "devName": "[VIRTUAL]1 x Give Me Everything for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_249",
-        "offerId": "v2:/696811284e74ffa61c9c9250b75046299fa3510fb1793a1c94ea7a6b9d044350",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -22,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-06-06T13:32:50Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/b7b816cd06f8864a.jpg",
-            "artist": "Pitbull ft. Ne-Yo, Afrojack & Nayer",
-            "bpm": 129,
-            "devName": "givemeeverything",
-            "difficulty": {
-              "bass": 0,
-              "drums": 3,
-              "guitar": 2,
-              "plasticBass": 1,
-              "plasticDrums": 3,
-              "vocals": 4
-            },
-            "duration": 256,
-            "id": "sid_placeholder_249",
-            "releaseYear": 2011,
-            "title": "Give Me Everything"
-          }
-        ]
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
         "devName": "[VIRTUAL]1 x Sexy And I Know It for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -13509,7 +13460,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_260",
         "offerId": "v2:/d8345d97722e18a1985f7bf050a113872e18aafdf6df0976cadf943905e5eab1",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -35,
@@ -13533,6 +13484,55 @@
             "id": "sid_placeholder_260",
             "releaseYear": 2011,
             "title": "Sexy And I Know It"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x Give Me Everything for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_249",
+        "offerId": "v2:/696811284e74ffa61c9c9250b75046299fa3510fb1793a1c94ea7a6b9d044350",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -22,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-06-06T13:32:50Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/b7b816cd06f8864a.jpg",
+            "artist": "Pitbull ft. Ne-Yo, Afrojack & Nayer",
+            "bpm": 129,
+            "devName": "givemeeverything",
+            "difficulty": {
+              "bass": 0,
+              "drums": 3,
+              "guitar": 2,
+              "plasticBass": 1,
+              "plasticDrums": 3,
+              "vocals": 4
+            },
+            "duration": 256,
+            "id": "sid_placeholder_249",
+            "releaseYear": 2011,
+            "title": "Give Me Everything"
           }
         ]
       },
@@ -13612,7 +13612,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_729",
         "offerId": "v2:/ebe2adf05220227bd05589576923a45bec92b65e5bf8a3d8fa16d55046010b44",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -70,
@@ -13880,7 +13880,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_160",
         "offerId": "v2:/5d9a8d0e034ccd80dbb7423d1deb09b3d25fe9c355f6b1ac3b89b039870b083a",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -85,
@@ -13980,7 +13980,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_430",
         "offerId": "v2:/5839dad351cc4b4a96ad7afde06c408fb23c28432d6ee79c505f45f4900479aa",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -40,
@@ -14448,7 +14448,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_100",
         "offerId": "v2:/f2b1687a5e9a76225936dd374cc25c18d4c587a658af35a21b1d509beaf8e968",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -51,
@@ -14497,7 +14497,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_191",
         "offerId": "v2:/d21e8ba68e3276782ab2bc065535005f40a385e130896591552dd1cffd14c26a",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -63,
@@ -15465,7 +15465,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_271",
         "offerId": "v2:/a1af899e6c12f31467327d966169984710ee43a2dd387786fe823af2c92acb72",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -17,
@@ -15489,6 +15489,55 @@
             "id": "sid_placeholder_271",
             "releaseYear": 1987,
             "title": "Sweet Child O' Mine"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_744) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_744",
+        "offerId": "v2:/d735e70b2296521af103fef0c1c7875ee6f0947a7b8016fd797edfc131aa9940",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -2,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2026-02-11T04:45:25Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/78348bd22c5ff36d.jpg",
+            "artist": "Bad Omens",
+            "bpm": 140,
+            "devName": "justpretend",
+            "difficulty": {
+              "bass": 0,
+              "drums": 4,
+              "guitar": 2,
+              "plasticBass": 0,
+              "plasticDrums": 4,
+              "vocals": 2
+            },
+            "duration": 207,
+            "id": "sid_placeholder_744",
+            "releaseYear": 2022,
+            "title": "Just Pretend"
           }
         ]
       },
@@ -15577,55 +15626,6 @@
         "regularPrice": 500,
         "sortPriority": -2,
         "tileSize": "Size_2_x_1"
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_744) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_744",
-        "offerId": "v2:/d735e70b2296521af103fef0c1c7875ee6f0947a7b8016fd797edfc131aa9940",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -2,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2026-02-11T04:45:25Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/78348bd22c5ff36d.jpg",
-            "artist": "Bad Omens",
-            "bpm": 140,
-            "devName": "justpretend",
-            "difficulty": {
-              "bass": 0,
-              "drums": 4,
-              "guitar": 2,
-              "plasticBass": 0,
-              "plasticDrums": 4,
-              "vocals": 2
-            },
-            "duration": 207,
-            "id": "sid_placeholder_744",
-            "releaseYear": 2022,
-            "title": "Just Pretend"
-          }
-        ]
       },
       {
         "brItems": [
@@ -16608,6 +16608,55 @@
         "tileSize": "Size_2_x_1"
       },
       {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x 24K Magic for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_70",
+        "offerId": "v2:/b8754e5c4e2bd8fc7aa2d93f77ff49ba2ee4385e27d338495c7e2246ba1a4fac",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -32,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-06-28T00:00:00Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/e84a64be9c6fe04d.jpg",
+            "artist": "Bruno Mars",
+            "bpm": 107,
+            "devName": "twentyfourkmagic",
+            "difficulty": {
+              "bass": 3,
+              "drums": 2,
+              "guitar": 3,
+              "plasticBass": 3,
+              "plasticDrums": 3,
+              "vocals": 4
+            },
+            "duration": 230,
+            "id": "sid_placeholder_70",
+            "releaseYear": 2016,
+            "title": "24K Magic"
+          }
+        ]
+      },
+      {
         "brItems": [
           {
             "added": "2025-09-25T13:37:50Z",
@@ -16763,104 +16812,6 @@
         "tileSize": "Size_1_x_1"
       },
       {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x 24K Magic for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_70",
-        "offerId": "v2:/b8754e5c4e2bd8fc7aa2d93f77ff49ba2ee4385e27d338495c7e2246ba1a4fac",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -32,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-06-28T00:00:00Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/e84a64be9c6fe04d.jpg",
-            "artist": "Bruno Mars",
-            "bpm": 107,
-            "devName": "twentyfourkmagic",
-            "difficulty": {
-              "bass": 3,
-              "drums": 2,
-              "guitar": 3,
-              "plasticBass": 3,
-              "plasticDrums": 3,
-              "vocals": 4
-            },
-            "duration": 230,
-            "id": "sid_placeholder_70",
-            "releaseYear": 2016,
-            "title": "24K Magic"
-          }
-        ]
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x Get Busy for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_294",
-        "offerId": "v2:/61f4a4f577cc21f03c6cc5a60d6705d6340e9735bd469af2f98de697da8835e9",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -20,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-12-19T21:10:30Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/b65df786960f64d0.jpg",
-            "artist": "Sean Paul",
-            "bpm": 100,
-            "devName": "getbusy",
-            "difficulty": {
-              "bass": 0,
-              "drums": 2,
-              "guitar": 3,
-              "plasticBass": 0,
-              "plasticDrums": 2,
-              "vocals": 3
-            },
-            "duration": 222,
-            "id": "sid_placeholder_294",
-            "releaseYear": 2002,
-            "title": "Get Busy"
-          }
-        ]
-      },
-      {
         "brItems": [
           {
             "added": "2026-06-26T15:30:37Z",
@@ -16955,6 +16906,104 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x Get Busy for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_294",
+        "offerId": "v2:/61f4a4f577cc21f03c6cc5a60d6705d6340e9735bd469af2f98de697da8835e9",
+        "outDate": "2026-08-20T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -20,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-12-19T21:10:30Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/b65df786960f64d0.jpg",
+            "artist": "Sean Paul",
+            "bpm": 100,
+            "devName": "getbusy",
+            "difficulty": {
+              "bass": 0,
+              "drums": 2,
+              "guitar": 3,
+              "plasticBass": 0,
+              "plasticDrums": 2,
+              "vocals": 3
+            },
+            "duration": 222,
+            "id": "sid_placeholder_294",
+            "releaseYear": 2002,
+            "title": "Get Busy"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_688) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-03T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.97",
+        "newDisplayAssetPath": "sid_placeholder_688",
+        "offerId": "v2:/d9a3db1f62648f4faef0cfc60f0e1837e4b9dc02ed086aecd77221e7cf64e159",
+        "outDate": "2026-07-09T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -1,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2025-10-21T23:05:44Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/86b1f6f8fba1ea34.jpg",
+            "artist": "W&W",
+            "bpm": 150,
+            "devName": "oiiaoiia",
+            "difficulty": {
+              "bass": 2,
+              "drums": 4,
+              "guitar": 3,
+              "plasticBass": 1,
+              "plasticDrums": 4,
+              "vocals": 5
+            },
+            "duration": 138,
+            "id": "sid_placeholder_688",
+            "releaseYear": 2025,
+            "title": "OIIA OIIA (Spinning Cat)"
+          }
+        ]
+      },
+      {
         "brItems": [
           {
             "added": "2025-09-23T15:31:36Z",
@@ -17039,55 +17088,6 @@
         "regularPrice": 300,
         "sortPriority": -3,
         "tileSize": "Size_1_x_1"
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_688) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-03T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.97",
-        "newDisplayAssetPath": "sid_placeholder_688",
-        "offerId": "v2:/d9a3db1f62648f4faef0cfc60f0e1837e4b9dc02ed086aecd77221e7cf64e159",
-        "outDate": "2026-07-09T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -1,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2025-10-21T23:05:44Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/86b1f6f8fba1ea34.jpg",
-            "artist": "W&W",
-            "bpm": 150,
-            "devName": "oiiaoiia",
-            "difficulty": {
-              "bass": 2,
-              "drums": 4,
-              "guitar": 3,
-              "plasticBass": 1,
-              "plasticDrums": 4,
-              "vocals": 5
-            },
-            "duration": 138,
-            "id": "sid_placeholder_688",
-            "releaseYear": 2025,
-            "title": "OIIA OIIA (Spinning Cat)"
-          }
-        ]
       },
       {
         "brItems": [
@@ -17196,7 +17196,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_48",
         "offerId": "v2:/1dfbe8979e445a9cb26e12e11996f4d50d8af6054ce50be6707923fd2cde553e",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -61,
@@ -17453,6 +17453,57 @@
       },
       {
         "colors": {
+          "color1": "efca88ff",
+          "color2": "aa8429ff",
+          "color3": "cca758ff",
+          "textBackgroundColor": "aa8429ff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_765) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-30T00:00:00Z",
+        "layout": {
+          "category": "Icons",
+          "displayType": "tileGrid",
+          "id": "Laufey-Icons",
+          "index": 6,
+          "name": "Laufey",
+          "rank": 176,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Laufey-Icons.96",
+        "newDisplayAssetPath": "sid_placeholder_765",
+        "offerId": "v2:/5ed97c52fa9b12fc4ac94909898823335005d9f4e220a24366a3c16eadb6b039",
+        "outDate": "2026-07-04T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2026-04-16T08:01:05Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/d0b1f705cc774175.jpg",
+            "artist": "Laufey",
+            "bpm": 164,
+            "devName": "fromthestart",
+            "difficulty": {
+              "bass": 0,
+              "drums": 2,
+              "guitar": 3,
+              "plasticBass": 0,
+              "plasticDrums": 2,
+              "vocals": 3
+            },
+            "duration": 172,
+            "id": "sid_placeholder_765",
+            "releaseYear": 2023,
+            "title": "From the Start"
+          }
+        ]
+      },
+      {
+        "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
@@ -17473,7 +17524,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_85",
         "offerId": "v2:/322a7e87de81e42086d639234f1385348e730b5ba3a5b6ca6078e9e853b91603",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -97,
@@ -17588,57 +17639,6 @@
         "tileSize": "Size_1_x_1"
       },
       {
-        "colors": {
-          "color1": "efca88ff",
-          "color2": "aa8429ff",
-          "color3": "cca758ff",
-          "textBackgroundColor": "aa8429ff"
-        },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_765) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-30T00:00:00Z",
-        "layout": {
-          "category": "Icons",
-          "displayType": "tileGrid",
-          "id": "Laufey-Icons",
-          "index": 6,
-          "name": "Laufey",
-          "rank": 176,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Laufey-Icons.96",
-        "newDisplayAssetPath": "sid_placeholder_765",
-        "offerId": "v2:/5ed97c52fa9b12fc4ac94909898823335005d9f4e220a24366a3c16eadb6b039",
-        "outDate": "2026-07-04T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -3,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2026-04-16T08:01:05Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/d0b1f705cc774175.jpg",
-            "artist": "Laufey",
-            "bpm": 164,
-            "devName": "fromthestart",
-            "difficulty": {
-              "bass": 0,
-              "drums": 2,
-              "guitar": 3,
-              "plasticBass": 0,
-              "plasticDrums": 2,
-              "vocals": 3
-            },
-            "duration": 172,
-            "id": "sid_placeholder_765",
-            "releaseYear": 2023,
-            "title": "From the Start"
-          }
-        ]
-      },
-      {
         "brItems": [
           {
             "added": "2026-04-30T09:17:44Z",
@@ -17714,7 +17714,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_47",
         "offerId": "v2:/f8020aeadce1d9725ae4cca6a3f8b4a9ab162066b9f720429ad83ffb6dcaaf95",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -74,
@@ -20045,7 +20045,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_541",
         "offerId": "v2:/2efdce017a7b2e2a5502b177f41e595ac60775deb3dcfdf58ea207930a15cb67",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -83,
@@ -20206,7 +20206,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_505",
         "offerId": "v2:/7b6c0c9f8b0ee548f5191cc6b6552af90175e67752a585aba0a74195007fdbd7",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -86,
@@ -20653,7 +20653,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_121",
         "offerId": "v2:/7c05d4e7f3ad240da53ffb85a22daf22c1cfd65f1ac2e533c0e901868227c757",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -65,
@@ -20679,155 +20679,6 @@
             "title": "Welcome to Paradise"
           }
         ]
-      },
-      {
-        "banner": {
-          "backendValue": "New",
-          "intensity": "High",
-          "value": "New"
-        },
-        "cars": [
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "How legends are born.",
-            "id": "Wheel_FancyFlake01",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_fancyflake01/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_fancyflake01/small.png"
-            },
-            "name": "Dodge Viper GTS-R",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Wheel",
-              "displayValue": "Wheel",
-              "value": "wheel"
-            },
-            "vehicleId": "VCID_Wheel_FancyFlake01"
-          }
-        ],
-        "colors": {
-          "color1": "69bbffff",
-          "color3": "000000ff",
-          "textBackgroundColor": "000000ff"
-        },
-        "devName": "[VIRTUAL]1 x Dodge Viper GTS-R for 400 MtxCurrency",
-        "finalPrice": 400,
-        "giftable": true,
-        "inDate": "2026-07-03T00:00:00Z",
-        "layoutId": "alc.0",
-        "newDisplayAsset": {
-          "id": "DAv2_Wheel_FancyFlake01",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_UI_Featured_Wheel_FancyFlake01",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/69d8bf49a4661d61/renderimage_0.png",
-              "productTag": "Product.DelMar"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Wheel_FancyFlake01",
-        "offerId": "v2:/78b4c3e945054601b23def44543a7b105680c2156ed72b9866cfd4d20085d0f2",
-        "outDate": "2026-07-12T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 400,
-        "sortPriority": -1,
-        "tileSize": "Size_3_x_1"
-      },
-      {
-        "brItems": [
-          {
-            "added": "2019-11-20T12:50:16Z",
-            "description": "Hold down the fort.",
-            "id": "CID_218_Athena_Commando_M_GreenBeret",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/cid_218_athena_commando_m_greenberet/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/cid_218_athena_commando_m_greenberet/icon.png",
-              "lego": {
-                "large": "https://fortnite-api.com/images/cosmetics/lego/cid_218_athena_commando_m_greenberet/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/lego/cid_218_athena_commando_m_greenberet/small.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_218_athena_commando_m_greenberet/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 5,
-              "chapter": "1",
-              "season": "5",
-              "text": "Introduced in Chapter 1, Season 5."
-            },
-            "name": "Garrison",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "showcaseVideo": "vDC44ED0mec",
-            "type": {
-              "backendValue": "AthenaCharacter",
-              "displayValue": "Outfit",
-              "value": "outfit"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "cee7f6ff",
-          "color2": "1e76acff",
-          "color3": "76aed1ff",
-          "textBackgroundColor": "1e76acff"
-        },
-        "devName": "[VIRTUAL]1 x Garrison for 800 MtxCurrency",
-        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_218_Athena_Commando_M_GreenBeret",
-        "finalPrice": 800,
-        "giftable": true,
-        "inDate": "2026-06-27T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "FND0703",
-          "index": 10,
-          "name": "Fortnite Drops",
-          "rank": 182,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "FND0703.96",
-        "newDisplayAsset": {
-          "id": "DAv2_CID_218_M_GreenBeret",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T-AthenaSoldiers-CID-218-Athena-Commando-M-GreenBeret",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/509e1483254fc482/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__T_UI_Featured_Figure_GreenBeretA.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/509e1483254fc482/renderimage_1.png",
-              "productTag": "Product.Juno"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_218_M_GreenBeret",
-        "offerId": "v2:/765e5e308c727a7b5d7cbb1cddb162ff9b63e79a19bf47d822f8136624b0b511",
-        "outDate": "2026-07-03T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 800,
-        "sortPriority": -3,
-        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -20992,6 +20843,86 @@
         "regularPrice": 300,
         "sortPriority": -4,
         "tileBackgroundMaterial": "ShopTile_GlowLine",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2019-11-20T12:50:16Z",
+            "description": "Hold down the fort.",
+            "id": "CID_218_Athena_Commando_M_GreenBeret",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/cid_218_athena_commando_m_greenberet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/cid_218_athena_commando_m_greenberet/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/cid_218_athena_commando_m_greenberet/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/cid_218_athena_commando_m_greenberet/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_218_athena_commando_m_greenberet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 5,
+              "chapter": "1",
+              "season": "5",
+              "text": "Introduced in Chapter 1, Season 5."
+            },
+            "name": "Garrison",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "showcaseVideo": "vDC44ED0mec",
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "cee7f6ff",
+          "color2": "1e76acff",
+          "color3": "76aed1ff",
+          "textBackgroundColor": "1e76acff"
+        },
+        "devName": "[VIRTUAL]1 x Garrison for 800 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_218_Athena_Commando_M_GreenBeret",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-06-27T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "FND0703",
+          "index": 10,
+          "name": "Fortnite Drops",
+          "rank": 182,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "FND0703.96",
+        "newDisplayAsset": {
+          "id": "DAv2_CID_218_M_GreenBeret",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "T-AthenaSoldiers-CID-218-Athena-Commando-M-GreenBeret",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/509e1483254fc482/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__T_UI_Featured_Figure_GreenBeretA.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/509e1483254fc482/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_218_M_GreenBeret",
+        "offerId": "v2:/765e5e308c727a7b5d7cbb1cddb162ff9b63e79a19bf47d822f8136624b0b511",
+        "outDate": "2026-07-03T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -3,
         "tileSize": "Size_1_x_1"
       },
       {
@@ -21540,7 +21471,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_598",
         "offerId": "v2:/0610e5dc35f8ec66933a311e64fc10794720d8935bcb8d37dd239f530bcc789b",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -73,
@@ -21615,240 +21546,6 @@
             "title": "Into Oblivion"
           }
         ]
-      },
-      {
-        "brItems": [
-          {
-            "added": "2025-09-12T00:00:00Z",
-            "description": "Truly obsessed.",
-            "id": "EID_SpaceWalk",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spacewalk/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spacewalk/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 37,
-              "chapter": "6",
-              "season": "5",
-              "text": "Introduced in Chapter 6, Season 5."
-            },
-            "name": "like JENNIE",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "type": {
-              "backendValue": "AthenaDance",
-              "displayValue": "Emote",
-              "value": "emote"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "d9bb7fff",
-          "color3": "b47940ff",
-          "textBackgroundColor": "b27744ff"
-        },
-        "devName": "[VIRTUAL]1 x like JENNIE for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-02T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "VV0702",
-          "index": 30,
-          "name": "Groove Moves",
-          "rank": 193,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "VV0702.99",
-        "newDisplayAsset": {
-          "id": "DAv2_EID_SpaceWalk",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T_AthenaEmotes_SpaceWalk.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7aa9c5dd98be42a7/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_EID_SpaceWalk",
-        "offerId": "v2:/90e433152370eecc195a36473d3dcb78dcc1f593b2d109897f2ac6b2aef6656d",
-        "outDate": "2026-07-05T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -3,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
-            "added": "2025-09-25T13:37:50Z",
-            "description": "Build a universe.",
-            "id": "Character_StrideMiceGiant",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/icon.png",
-              "lego": {
-                "large": "https://fortnite-api.com/images/cosmetics/lego/character_stridemicegiant/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/lego/character_stridemicegiant/small.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 37,
-              "chapter": "6",
-              "season": "5",
-              "text": "Introduced in Chapter 6, Season 5."
-            },
-            "name": "TB3",
-            "rarity": {
-              "backendValue": "EFortRarity::Epic",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "set": {
-              "backendValue": "BleakFeather",
-              "text": "Part of the Daft Punk set.",
-              "value": "Daft Punk"
-            },
-            "showcaseVideo": "ze-q5Ir56SQ",
-            "type": {
-              "backendValue": "AthenaCharacter",
-              "displayValue": "Outfit",
-              "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/parts/stage1.png",
-                    "name": "TB3",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/parts/stage2.png",
-                    "name": "Silver TB3",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/parts/stage3.png",
-                    "name": "Lucky TB3",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "Style"
-              },
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/particle/particle1.png",
-                    "name": "on",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/particle/stage2.png",
-                    "name": "off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "reactivity"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "171e46ff",
-          "color2": "448d8fff",
-          "color3": "426887ff",
-          "textBackgroundColor": "448d8fff"
-        },
-        "devName": "[VIRTUAL]1 x TB3 for 1500 MtxCurrency",
-        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_StrideMiceGiant",
-        "finalPrice": 1500,
-        "giftable": true,
-        "inDate": "2026-07-02T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "DPJuno",
-          "index": 13,
-          "name": "Daft Punk",
-          "rank": 190,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "DPJuno.99",
-        "newDisplayAsset": {
-          "id": "DAv2_Character_StrideMiceGiant",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant_04.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_1.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant_02.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_2.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant_03.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_3.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__T_UI_Featured_Figure_StrideMiceGiant.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_4.png",
-              "productTag": "Product.Juno"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Character_StrideMiceGiant",
-        "offerId": "v2:/d1e8cb5a2c7a669f81a0af684b199c15c8f8de17952eafa081200bd96d8addaf",
-        "offerTag": {
-          "id": "musicreactinspect",
-          "text": "Reactive to music!"
-        },
-        "outDate": "2026-07-06T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 1500,
-        "sortPriority": -5,
-        "tileBackgroundMaterial": "ShopTile_GlowLine",
-        "tileSize": "Size_1_x_1"
       },
       {
         "banner": {
@@ -22021,6 +21718,240 @@
         "regularPrice": 1300,
         "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_Water",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2025-09-25T13:37:50Z",
+            "description": "Build a universe.",
+            "id": "Character_StrideMiceGiant",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_stridemicegiant/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_stridemicegiant/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 37,
+              "chapter": "6",
+              "season": "5",
+              "text": "Introduced in Chapter 6, Season 5."
+            },
+            "name": "TB3",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "BleakFeather",
+              "text": "Part of the Daft Punk set.",
+              "value": "Daft Punk"
+            },
+            "showcaseVideo": "ze-q5Ir56SQ",
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/parts/stage1.png",
+                    "name": "TB3",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/parts/stage2.png",
+                    "name": "Silver TB3",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/parts/stage3.png",
+                    "name": "Lucky TB3",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "Style"
+              },
+              {
+                "channel": "Particle",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/particle/particle1.png",
+                    "name": "on",
+                    "tag": "Particle1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_stridemicegiant/variants/particle/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "171e46ff",
+          "color2": "448d8fff",
+          "color3": "426887ff",
+          "textBackgroundColor": "448d8fff"
+        },
+        "devName": "[VIRTUAL]1 x TB3 for 1500 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_StrideMiceGiant",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-07-02T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "DPJuno",
+          "index": 13,
+          "name": "Daft Punk",
+          "rank": 190,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "DPJuno.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_StrideMiceGiant",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant_04.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant_02.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__T_AthenaSoldiers_StrideMiceGiant_03.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_3.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__T_UI_Featured_Figure_StrideMiceGiant.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c9e10c727b30e6c9/renderimage_4.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Character_StrideMiceGiant",
+        "offerId": "v2:/d1e8cb5a2c7a669f81a0af684b199c15c8f8de17952eafa081200bd96d8addaf",
+        "offerTag": {
+          "id": "musicreactinspect",
+          "text": "Reactive to music!"
+        },
+        "outDate": "2026-07-06T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -5,
+        "tileBackgroundMaterial": "ShopTile_GlowLine",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2025-09-12T00:00:00Z",
+            "description": "Truly obsessed.",
+            "id": "EID_SpaceWalk",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spacewalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spacewalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 37,
+              "chapter": "6",
+              "season": "5",
+              "text": "Introduced in Chapter 6, Season 5."
+            },
+            "name": "like JENNIE",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "d9bb7fff",
+          "color3": "b47940ff",
+          "textBackgroundColor": "b27744ff"
+        },
+        "devName": "[VIRTUAL]1 x like JENNIE for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-02T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "VV0702",
+          "index": 30,
+          "name": "Groove Moves",
+          "rank": 193,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "VV0702.99",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_SpaceWalk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T_AthenaEmotes_SpaceWalk.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7aa9c5dd98be42a7/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_EID_SpaceWalk",
+        "offerId": "v2:/90e433152370eecc195a36473d3dcb78dcc1f593b2d109897f2ac6b2aef6656d",
+        "outDate": "2026-07-05T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
         "tileSize": "Size_1_x_1"
       },
       {
@@ -22471,7 +22402,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_176",
         "offerId": "v2:/fd1eb11d497084b3b718e8dbe542d21d4f7eb8733a0b9dd86a36961d9d9bfa79",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-08-20T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -56,
@@ -22709,7 +22640,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_80",
         "offerId": "v2:/06d24882de02dad7e27ed0a868e193b70dcd8d61e64dcdf0f5e3a834de39a219",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -11,
@@ -23471,7 +23402,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_453",
         "offerId": "v2:/b049a3b1acca082663a629c3205a2af65208e2f2ff7f30b8f41ebcc2be83213a",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -79,
@@ -23520,7 +23451,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_300",
         "offerId": "v2:/f6d0f01d8c41514b27235e08d997e84d12df157ebf817101d310f4189960bdee",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -47,
@@ -23929,7 +23860,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_327",
         "offerId": "v2:/66219e1fba2d89bc91e253fd6476d5ce20197da5219c528907639d77c37afe33",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -76,
@@ -24371,7 +24302,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_455",
         "offerId": "v2:/2b9796a63328647641e518d9ae3639470e74c0b405ac25b93142ab27176b089c",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -18,
@@ -25304,6 +25235,55 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x Everybody (Backstreet's Back) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_432",
+        "offerId": "v2:/104f96626f83e7c6e95dcf99659fd6ba6f831b5e7ef69783bc991f916c236c3d",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -37,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-11-27T14:32:37Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/d4ebaa8cd8687d0a.jpg",
+            "artist": "Backstreet Boys",
+            "bpm": 108,
+            "devName": "backstreetsback",
+            "difficulty": {
+              "bass": 2,
+              "drums": 3,
+              "guitar": 2,
+              "plasticBass": 2,
+              "plasticDrums": 2,
+              "vocals": 3
+            },
+            "duration": 228,
+            "id": "sid_placeholder_432",
+            "releaseYear": 1997,
+            "title": "Everybody (Backstreet's Back)"
+          }
+        ]
+      },
+      {
         "brItems": [
           {
             "added": "2019-11-20T12:49:42Z",
@@ -25372,55 +25352,6 @@
         "regularPrice": 200,
         "sortPriority": -1,
         "tileSize": "Size_1_x_1"
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x Everybody (Backstreet's Back) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_432",
-        "offerId": "v2:/104f96626f83e7c6e95dcf99659fd6ba6f831b5e7ef69783bc991f916c236c3d",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -37,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-11-27T14:32:37Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/d4ebaa8cd8687d0a.jpg",
-            "artist": "Backstreet Boys",
-            "bpm": 108,
-            "devName": "backstreetsback",
-            "difficulty": {
-              "bass": 2,
-              "drums": 3,
-              "guitar": 2,
-              "plasticBass": 2,
-              "plasticDrums": 2,
-              "vocals": 3
-            },
-            "duration": 228,
-            "id": "sid_placeholder_432",
-            "releaseYear": 1997,
-            "title": "Everybody (Backstreet's Back)"
-          }
-        ]
       },
       {
         "brItems": [
@@ -25643,57 +25574,6 @@
       },
       {
         "colors": {
-          "color1": "b6cae5ff",
-          "color2": "8ab3ffff",
-          "color3": "8380a8ff",
-          "textBackgroundColor": "8ab3ffff"
-        },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_806) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-26T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "PearlTaffy-2",
-          "index": 14,
-          "name": "Olivia Rodrigo",
-          "rank": 186,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "PearlTaffy-2.96",
-        "newDisplayAssetPath": "sid_placeholder_806",
-        "offerId": "v2:/dc792b2acc8349bb2ea3883c2a5431023d9ec501a781673ca2536eea2874da8c",
-        "outDate": "2026-07-25T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -2,
-        "tileBackgroundMaterial": "ShopTile_CartoonClouds",
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2026-06-25T11:15:53Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/ddf094dd778a3303.jpg",
-            "artist": "Olivia Rodrigo",
-            "bpm": 91,
-            "devName": "dejavu",
-            "difficulty": {
-              "bass": 1,
-              "drums": 3,
-              "guitar": 2,
-              "plasticBass": 1,
-              "plasticDrums": 3,
-              "vocals": 3
-            },
-            "duration": 217,
-            "id": "sid_placeholder_806",
-            "releaseYear": 2021,
-            "title": "deja vu"
-          }
-        ]
-      },
-      {
-        "colors": {
           "color1": "171e46ff",
           "color2": "448d8fff",
           "color3": "426887ff",
@@ -25745,6 +25625,57 @@
       },
       {
         "colors": {
+          "color1": "b6cae5ff",
+          "color2": "8ab3ffff",
+          "color3": "8380a8ff",
+          "textBackgroundColor": "8ab3ffff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_806) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-26T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "PearlTaffy-2",
+          "index": 14,
+          "name": "Olivia Rodrigo",
+          "rank": 186,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "PearlTaffy-2.96",
+        "newDisplayAssetPath": "sid_placeholder_806",
+        "offerId": "v2:/dc792b2acc8349bb2ea3883c2a5431023d9ec501a781673ca2536eea2874da8c",
+        "outDate": "2026-07-25T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_CartoonClouds",
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2026-06-25T11:15:53Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/ddf094dd778a3303.jpg",
+            "artist": "Olivia Rodrigo",
+            "bpm": 91,
+            "devName": "dejavu",
+            "difficulty": {
+              "bass": 1,
+              "drums": 3,
+              "guitar": 2,
+              "plasticBass": 1,
+              "plasticDrums": 3,
+              "vocals": 3
+            },
+            "duration": 217,
+            "id": "sid_placeholder_806",
+            "releaseYear": 2021,
+            "title": "deja vu"
+          }
+        ]
+      },
+      {
+        "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
@@ -25765,7 +25696,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_506",
         "offerId": "v2:/560bf0875a0fe8741e5d2b098f5865b60691eb1b2449dd6ab4850f587be63857",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -28,
@@ -25814,7 +25745,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_405",
         "offerId": "v2:/6aa9a94e6ef0a89db4428bc7d94d8adeb99fab9a9ea93e6c8468590d7d901bd6",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -13,
@@ -26479,7 +26410,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_125",
         "offerId": "v2:/13c466d866afbf887dd0ff66d430cbc9224eca888722272622bebfaf6feebd82",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -66,
@@ -26793,91 +26724,6 @@
       {
         "brItems": [
           {
-            "added": "2026-02-05T09:00:00Z",
-            "description": "A new kind of death drop.",
-            "id": "Contrail_ForestJean",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_forestjean/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_forestjean/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 39,
-              "chapter": "7",
-              "season": "1",
-              "text": "Introduced in Chapter 7, Season 1."
-            },
-            "name": "Pink Pony Plummet",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "set": {
-              "backendValue": "BlueFrame",
-              "text": "Part of the Chappell Roan set.",
-              "value": "Chappell Roan"
-            },
-            "type": {
-              "backendValue": "AthenaSkyDiveContrail",
-              "displayValue": "Contrail",
-              "value": "contrail"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "9e909fff",
-          "color2": "758484ff",
-          "color3": "dfddd4ff",
-          "textBackgroundColor": "5d6074ff"
-        },
-        "devName": "[VIRTUAL]1 x Pink Pony Plummet for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-30T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "ChappellRoan",
-          "index": 16,
-          "name": "Chappell Roan",
-          "rank": 185,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "ChappellRoan.97",
-        "newDisplayAsset": {
-          "id": "DAv2_Contrail_ForestJean",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T_Featured_Contrail_ForestJean.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/83bf5fee03f7b087/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S39/DAv2_Contrail_ForestJean",
-        "offerId": "v2:/5b156b45fba4f6a230b604945a4f2749cfb97ff6a06694d947efb9373a66a11c",
-        "outDate": "2026-07-04T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -1,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2025-09-23T15:31:36Z",
             "description": "Show your style.",
             "id": "Wrap_PineTrim",
@@ -26959,6 +26805,91 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -4,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-02-05T09:00:00Z",
+            "description": "A new kind of death drop.",
+            "id": "Contrail_ForestJean",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_forestjean/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_forestjean/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 39,
+              "chapter": "7",
+              "season": "1",
+              "text": "Introduced in Chapter 7, Season 1."
+            },
+            "name": "Pink Pony Plummet",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "BlueFrame",
+              "text": "Part of the Chappell Roan set.",
+              "value": "Chappell Roan"
+            },
+            "type": {
+              "backendValue": "AthenaSkyDiveContrail",
+              "displayValue": "Contrail",
+              "value": "contrail"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "9e909fff",
+          "color2": "758484ff",
+          "color3": "dfddd4ff",
+          "textBackgroundColor": "5d6074ff"
+        },
+        "devName": "[VIRTUAL]1 x Pink Pony Plummet for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-30T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "ChappellRoan",
+          "index": 16,
+          "name": "Chappell Roan",
+          "rank": 185,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "ChappellRoan.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Contrail_ForestJean",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T_Featured_Contrail_ForestJean.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/83bf5fee03f7b087/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S39/DAv2_Contrail_ForestJean",
+        "offerId": "v2:/5b156b45fba4f6a230b604945a4f2749cfb97ff6a06694d947efb9373a66a11c",
+        "outDate": "2026-07-04T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -1,
         "tileSize": "Size_1_x_1"
       },
       {
@@ -27761,7 +27692,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_431",
         "offerId": "v2:/5d763214d01c2dce7e29e59e8f8a4b5b422bbf0d47e9251a3a66897581c022ce",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -72,
@@ -27810,7 +27741,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_228",
         "offerId": "v2:/ba9c6ceb4c30565958d5af61e73a09d00a215189887811ebf3fcfd5482e4d5c7",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -45,
@@ -27859,7 +27790,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_348",
         "offerId": "v2:/c5eab79e30a241bbc03c01c6c9f50935a4bcf1a75690c1109d39411ca731a59d",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -78,
@@ -28304,7 +28235,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_158",
         "offerId": "v2:/d6f5a5d2b8229a4513e923e774d79a860850fe854526ca278e90ca87cee039b4",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -94,
@@ -28455,7 +28386,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_242",
         "offerId": "v2:/e2989fc05963b86626dc3c53e53cc3e24ab9f9e8b35128b01d6b9d3309de02e5",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -96,
@@ -28479,6 +28410,55 @@
             "id": "sid_placeholder_242",
             "releaseYear": 2020,
             "title": "Savage"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_783) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-03T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.98",
+        "newDisplayAssetPath": "sid_placeholder_783",
+        "offerId": "v2:/fde639d390f3c034e6e885a37b10ae6c0d4dbd26476bd5de7c9798f65c900035",
+        "outDate": "2026-07-09T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -4,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2026-04-28T14:29:12Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/fefead98b1c5659f.jpg",
+            "artist": "Melly Mike",
+            "bpm": 130,
+            "devName": "youngblackandrich",
+            "difficulty": {
+              "bass": 0,
+              "drums": 2,
+              "guitar": 0,
+              "plasticBass": 0,
+              "plasticDrums": 2,
+              "vocals": 2
+            },
+            "duration": 158,
+            "id": "sid_placeholder_783",
+            "releaseYear": 2025,
+            "title": "Young Black & Rich"
           }
         ]
       },
@@ -28588,55 +28568,6 @@
         "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_ComicTexture",
         "tileSize": "Size_1_x_1"
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_783) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-03T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.98",
-        "newDisplayAssetPath": "sid_placeholder_783",
-        "offerId": "v2:/fde639d390f3c034e6e885a37b10ae6c0d4dbd26476bd5de7c9798f65c900035",
-        "outDate": "2026-07-09T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -4,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2026-04-28T14:29:12Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/fefead98b1c5659f.jpg",
-            "artist": "Melly Mike",
-            "bpm": 130,
-            "devName": "youngblackandrich",
-            "difficulty": {
-              "bass": 0,
-              "drums": 2,
-              "guitar": 0,
-              "plasticBass": 0,
-              "plasticDrums": 2,
-              "vocals": 2
-            },
-            "duration": 158,
-            "id": "sid_placeholder_783",
-            "releaseYear": 2025,
-            "title": "Young Black & Rich"
-          }
-        ]
       },
       {
         "brItems": [
@@ -29102,6 +29033,55 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x What Do You Mean? for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_324",
+        "offerId": "v2:/f4a65aac6744abfea45302a5dfe54ae9cc1c93481613e8730a99cc6119bf6d98",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -54,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-09-05T14:24:37Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/5d6ff92039040699.jpg",
+            "artist": "Justin Bieber",
+            "bpm": 125,
+            "devName": "whatdoyoumean",
+            "difficulty": {
+              "bass": 2,
+              "drums": 1,
+              "guitar": 3,
+              "plasticBass": 2,
+              "plasticDrums": 1,
+              "vocals": 4
+            },
+            "duration": 208,
+            "id": "sid_placeholder_324",
+            "releaseYear": 2015,
+            "title": "What Do You Mean?"
+          }
+        ]
+      },
+      {
         "brItems": [
           {
             "added": "2026-04-16T08:20:44Z",
@@ -29247,55 +29227,6 @@
         "tileSize": "Size_1_x_1"
       },
       {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x What Do You Mean? for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_324",
-        "offerId": "v2:/f4a65aac6744abfea45302a5dfe54ae9cc1c93481613e8730a99cc6119bf6d98",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -54,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-09-05T14:24:37Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/5d6ff92039040699.jpg",
-            "artist": "Justin Bieber",
-            "bpm": 125,
-            "devName": "whatdoyoumean",
-            "difficulty": {
-              "bass": 2,
-              "drums": 1,
-              "guitar": 3,
-              "plasticBass": 2,
-              "plasticDrums": 1,
-              "vocals": 4
-            },
-            "duration": 208,
-            "id": "sid_placeholder_324",
-            "releaseYear": 2015,
-            "title": "What Do You Mean?"
-          }
-        ]
-      },
-      {
         "brItems": [
           {
             "added": "2019-11-20T12:50:50Z",
@@ -29428,55 +29359,6 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_561) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_561",
-        "offerId": "v2:/52ec3cb36d0e17ae4e5851ce2a74212a0b299d0bf45f4711e9b32395f51c73af",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -90,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2025-04-11T00:00:00Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/60f2091616b83f50.jpg",
-            "artist": "The Marías",
-            "bpm": 97,
-            "devName": "heavy",
-            "difficulty": {
-              "bass": 2,
-              "drums": 2,
-              "guitar": 2,
-              "plasticBass": 2,
-              "plasticDrums": 2,
-              "vocals": 2
-            },
-            "duration": 254,
-            "id": "sid_placeholder_561",
-            "releaseYear": 2021,
-            "title": "Heavy"
-          }
-        ]
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
         "devName": "[VIRTUAL]1 x Lucid Dreams for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -29521,6 +29403,55 @@
             "id": "sid_placeholder_55",
             "releaseYear": 2018,
             "title": "Lucid Dreams"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_561) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_561",
+        "offerId": "v2:/52ec3cb36d0e17ae4e5851ce2a74212a0b299d0bf45f4711e9b32395f51c73af",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -90,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2025-04-11T00:00:00Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/60f2091616b83f50.jpg",
+            "artist": "The Marías",
+            "bpm": 97,
+            "devName": "heavy",
+            "difficulty": {
+              "bass": 2,
+              "drums": 2,
+              "guitar": 2,
+              "plasticBass": 2,
+              "plasticDrums": 2,
+              "vocals": 2
+            },
+            "duration": 254,
+            "id": "sid_placeholder_561",
+            "releaseYear": 2021,
+            "title": "Heavy"
           }
         ]
       },
@@ -29830,286 +29761,6 @@
         "tileSize": "Size_1_x_1"
       },
       {
-        "banner": {
-          "backendValue": "New",
-          "intensity": "High",
-          "value": "New"
-        },
-        "bundle": {
-          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/589bbfc63af30687/renderimage_0.png",
-          "info": "Bundle",
-          "name": "Dodge Viper GTS-R"
-        },
-        "cars": [
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "Behold the legend.",
-            "id": "CarBody_FancyFlake",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_fancyflake/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_fancyflake/small.png"
-            },
-            "name": "Dodge Viper GTS-R",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Body",
-              "displayValue": "Body",
-              "value": "body"
-            },
-            "vehicleId": "VCID_Body_FancyFlake"
-          },
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "Dodge Viper GTS-R custom decal.",
-            "id": "CarSkin_FancyFlakeLivery01",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery01/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery01/small.png"
-            },
-            "name": "American Made",
-            "rarity": {
-              "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Skin",
-              "displayValue": "Skin",
-              "value": "skin"
-            },
-            "vehicleId": "VCID_CarSkin_FancyFlakeLivery01"
-          },
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "Dodge Viper GTS-R custom decal.",
-            "id": "CarSkin_FancyFlakeLivery02",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery02/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery02/small.png"
-            },
-            "name": "Track Ready",
-            "rarity": {
-              "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Skin",
-              "displayValue": "Skin",
-              "value": "skin"
-            },
-            "vehicleId": "VCID_CarSkin_FancyFlakeLivery02"
-          },
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "Dodge Viper GTS-R custom decal.",
-            "id": "CarSkin_FancyFlakeLivery03",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery03/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakelivery03/small.png"
-            },
-            "name": "Stripes",
-            "rarity": {
-              "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Skin",
-              "displayValue": "Skin",
-              "value": "skin"
-            },
-            "vehicleId": "VCID_CarSkin_FancyFlakeLivery03"
-          },
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "Dodge Viper GTS-R custom decal.",
-            "id": "CarSkin_FancyFlakeWings",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakewings/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakewings/small.png"
-            },
-            "name": "Wings",
-            "rarity": {
-              "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Skin",
-              "displayValue": "Skin",
-              "value": "skin"
-            },
-            "vehicleId": "VCID_CarSkin_FancyFlakeWings"
-          },
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "Dodge Viper GTS-R custom decal.",
-            "id": "CarSkin_FancyFlakeFlames",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakeflames/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_fancyflakeflames/small.png"
-            },
-            "name": "Flames",
-            "rarity": {
-              "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Skin",
-              "displayValue": "Skin",
-              "value": "skin"
-            },
-            "vehicleId": "VCID_CarSkin_FancyFlakeFlames"
-          },
-          {
-            "added": "2026-07-01T13:01:06Z",
-            "description": "How legends are born.",
-            "id": "Wheel_FancyFlake01",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_fancyflake01/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_fancyflake01/small.png"
-            },
-            "name": "Dodge Viper GTS-R",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "series": {
-              "backendValue": "Series_Dodge",
-              "colors": [
-                "ffffffff",
-                "c2cdd6ff",
-                "a2acb4ff",
-                "cf2d26ff",
-                "222626ff"
-              ],
-              "value": "DODGE SERIES"
-            },
-            "type": {
-              "backendValue": "VehicleCosmetics_Wheel",
-              "displayValue": "Wheel",
-              "value": "wheel"
-            },
-            "vehicleId": "VCID_Wheel_FancyFlake01"
-          }
-        ],
-        "colors": {
-          "color1": "69bbffff",
-          "color3": "000000ff",
-          "textBackgroundColor": "000000ff"
-        },
-        "devName": "[VIRTUAL]1 x Dodge Viper GTS-R, 1 x American Made, 1 x Track Ready, 1 x Stripes, 1 x Wings, 1 x Flames, 1 x Dodge Viper GTS-R for -1 MtxCurrency",
-        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_FancyFlake_Bundle",
-        "finalPrice": 2200,
-        "giftable": true,
-        "inDate": "2026-07-03T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "FancyFlake-1",
-          "index": 21,
-          "name": "Dodge Viper GTS-R",
-          "rank": 194,
-          "showIneligibleOffers": "always",
-          "useWidePreview": true
-        },
-        "layoutId": "FancyFlake-1.99",
-        "newDisplayAsset": {
-          "id": "DAv2_Bundle_Featured_FancyFlake",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_UI_Vehicle_Web_FancyFlake_Web",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/589bbfc63af30687/renderimage_0.png",
-              "productTag": "Product.DelMar"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Bundle_Featured_FancyFlake",
-        "offerId": "v2:/f911dcf194c2b323b405d166442dafdce4d446fc83a1749171bb289e34494a49",
-        "offerTag": {
-          "id": "promodesc123",
-          "text": "Decals in this bundle are restricted to the Dodge Viper GTS-R car body."
-        },
-        "outDate": "2026-07-12T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 2200,
-        "sortPriority": -1,
-        "tileSize": "Size_3_x_1"
-      },
-      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -30131,7 +29782,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_563",
         "offerId": "v2:/25d40b1a7e8fbd62e274648f42d73a6bfd920b53a15ba9e6a2d51cd15fd56d49",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -89,
@@ -30180,7 +29831,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_203",
         "offerId": "v2:/4a61527b396e5fe8bdb0dd0bac85add39e8f9de736be95194861f7cdabf6fc39",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -19,
@@ -30719,81 +30370,6 @@
       {
         "brItems": [
           {
-            "added": "2021-10-12T08:35:19Z",
-            "description": "Contains the ash of a thousand tombs and one tiny smoke machine.",
-            "id": "Pickaxe_ID_689_RavenQuillDesertMale",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_689_ravenquilldesertmale/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_689_ravenquilldesertmale/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 18,
-              "chapter": "2",
-              "season": "8",
-              "text": "Introduced in Chapter 2, Season 8."
-            },
-            "name": "Cursed Crescent",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "CarvedBane",
-              "text": "Part of the Graven's Curse set.",
-              "value": "Graven's Curse"
-            },
-            "showcaseVideo": "muzLua3QKjk",
-            "type": {
-              "backendValue": "AthenaPickaxe",
-              "displayValue": "Pickaxe",
-              "value": "pickaxe"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "cee7f6ff",
-          "color2": "1e76acff",
-          "color3": "76aed1ff",
-          "textBackgroundColor": "1e76acff"
-        },
-        "devName": "[VIRTUAL]1 x Cursed Crescent for 800 MtxCurrency",
-        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_689_RavenQuillDesertMale",
-        "finalPrice": 800,
-        "giftable": true,
-        "inDate": "2026-06-28T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "FND0703",
-          "index": 10,
-          "name": "Fortnite Drops",
-          "rank": 182,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "FND0703.97",
-        "newDisplayAsset": {
-          "id": "DAv2_Pickaxe_ID_689_RavenQuillDesertMale",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T-Featured-Pickaxes-RavenQuillDesertPickaxe.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/444e3e700add9e6a/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_Pickaxe_ID_689_RavenQuillDesertMale",
-        "offerId": "v2:/c07c8f7c8c14b7e147a3713cf4cedfc6aa0870ee7b439928f662fc96714e3245",
-        "outDate": "2026-07-04T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 800,
-        "sortPriority": -4,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2024-08-17T06:38:59Z",
             "description": "Nanamantium infused skeleton with a ripen-eration mutant ability.",
             "id": "Character_TroutWrist_Spine",
@@ -30912,6 +30488,81 @@
         "sortPriority": -2,
         "tileBackgroundMaterial": "ShopTile_ComicTexture",
         "tileSize": "Size_2_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2021-10-12T08:35:19Z",
+            "description": "Contains the ash of a thousand tombs and one tiny smoke machine.",
+            "id": "Pickaxe_ID_689_RavenQuillDesertMale",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_689_ravenquilldesertmale/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_689_ravenquilldesertmale/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 18,
+              "chapter": "2",
+              "season": "8",
+              "text": "Introduced in Chapter 2, Season 8."
+            },
+            "name": "Cursed Crescent",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "CarvedBane",
+              "text": "Part of the Graven's Curse set.",
+              "value": "Graven's Curse"
+            },
+            "showcaseVideo": "muzLua3QKjk",
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "cee7f6ff",
+          "color2": "1e76acff",
+          "color3": "76aed1ff",
+          "textBackgroundColor": "1e76acff"
+        },
+        "devName": "[VIRTUAL]1 x Cursed Crescent for 800 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_689_RavenQuillDesertMale",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-06-28T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "FND0703",
+          "index": 10,
+          "name": "Fortnite Drops",
+          "rank": 182,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "FND0703.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_ID_689_RavenQuillDesertMale",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T-Featured-Pickaxes-RavenQuillDesertPickaxe.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/444e3e700add9e6a/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_Pickaxe_ID_689_RavenQuillDesertMale",
+        "offerId": "v2:/c07c8f7c8c14b7e147a3713cf4cedfc6aa0870ee7b439928f662fc96714e3245",
+        "outDate": "2026-07-04T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -4,
+        "tileSize": "Size_1_x_1"
       },
       {
         "banner": {
@@ -32504,7 +32155,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_451",
         "offerId": "v2:/c6440b3a0a89e8753ba37f0828596d8ce21b720899d3ea134ca772fe17dbd4ce",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -5,
@@ -32553,7 +32204,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_291",
         "offerId": "v2:/fa44b1971250321932296dd0b7e42935524a81a08a4e359afeca910a0a519c3c",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -3,
@@ -33250,7 +32901,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_283",
         "offerId": "v2:/ef94011e0ca7dede6e389c65d081b8ce06d7847f9a2fed435cc5c0f4e74a970e",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -24,
@@ -33299,7 +32950,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_189",
         "offerId": "v2:/d153a6a35db580d9bbfb6f2cbd6195daf6808dbfea30459874a58575971b01f8",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -71,
@@ -33348,7 +32999,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_726",
         "offerId": "v2:/075b4c40ff49bd49f47aa70ea894ee8feb9404eea492862b99330c1cec8448de",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -91,
@@ -33374,6 +33025,88 @@
             "title": "Illegal"
           }
         ]
+      },
+      {
+        "brItems": [
+          {
+            "added": "2025-01-01T00:00:00Z",
+            "description": "Prance on 'em. Elegantly.",
+            "id": "EID_Scrolls",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_scrolls/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_scrolls/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 33,
+              "chapter": "6",
+              "season": "1",
+              "text": "Introduced in Chapter 6, Season 1."
+            },
+            "name": "Starting Prance",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "showcaseVideo": "Id8vb-AENrA",
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efca88ff",
+          "color2": "aa8429ff",
+          "color3": "cca758ff",
+          "textBackgroundColor": "aa8429ff"
+        },
+        "devName": "[VIRTUAL]1 x Starting Prance for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-30T00:00:00Z",
+        "layout": {
+          "category": "Icons",
+          "displayType": "tileGrid",
+          "id": "Laufey-Icons",
+          "index": 6,
+          "name": "Laufey",
+          "rank": 176,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Laufey-Icons.96",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_Scrolls",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T_AthenaEmotes_Scrolls.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9c37fca22291f609/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S33/DAv2_EID_Scrolls",
+        "offerId": "v2:/77e2af797fd87f3949ecbab34cd9166f3d9077454f6eba204e1a8db7c67a7767",
+        "outDate": "2026-07-04T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -4,
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -33606,88 +33339,6 @@
       {
         "brItems": [
           {
-            "added": "2025-01-01T00:00:00Z",
-            "description": "Prance on 'em. Elegantly.",
-            "id": "EID_Scrolls",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_scrolls/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_scrolls/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 33,
-              "chapter": "6",
-              "season": "1",
-              "text": "Introduced in Chapter 6, Season 1."
-            },
-            "name": "Starting Prance",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "showcaseVideo": "Id8vb-AENrA",
-            "type": {
-              "backendValue": "AthenaDance",
-              "displayValue": "Emote",
-              "value": "emote"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "efca88ff",
-          "color2": "aa8429ff",
-          "color3": "cca758ff",
-          "textBackgroundColor": "aa8429ff"
-        },
-        "devName": "[VIRTUAL]1 x Starting Prance for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-30T00:00:00Z",
-        "layout": {
-          "category": "Icons",
-          "displayType": "tileGrid",
-          "id": "Laufey-Icons",
-          "index": 6,
-          "name": "Laufey",
-          "rank": 176,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Laufey-Icons.96",
-        "newDisplayAsset": {
-          "id": "DAv2_EID_Scrolls",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T_AthenaEmotes_Scrolls.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9c37fca22291f609/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S33/DAv2_EID_Scrolls",
-        "offerId": "v2:/77e2af797fd87f3949ecbab34cd9166f3d9077454f6eba204e1a8db7c67a7767",
-        "outDate": "2026-07-04T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -4,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2024-08-17T06:38:59Z",
             "description": "An inventive supervillain with illusions of grandeur.",
             "id": "Character_SoilBlend_Haunt",
@@ -33845,7 +33496,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_497",
         "offerId": "v2:/88845e5a23d5f0caa619d2a45b0504ec46d15dcec7a21f72b0b011b637797c43",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -50,
@@ -35235,55 +34886,6 @@
         "tileSize": "Size_1_x_1"
       },
       {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x Welcome To The Jungle for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_272",
-        "offerId": "v2:/54f3500304ee933c8436e178b3d6e21a2bf46b9420111c843aa289d2a7da1701",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -16,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-08-09T00:00:00Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/6cd87c0dbc01e6ba.jpg",
-            "artist": "Guns N' Roses",
-            "bpm": 124,
-            "devName": "welcometothejungle",
-            "difficulty": {
-              "bass": 4,
-              "drums": 4,
-              "guitar": 5,
-              "plasticBass": 4,
-              "plasticDrums": 4,
-              "vocals": 3
-            },
-            "duration": 274,
-            "id": "sid_placeholder_272",
-            "releaseYear": 1987,
-            "title": "Welcome To The Jungle"
-          }
-        ]
-      },
-      {
         "banner": {
           "backendValue": "AmountOff",
           "intensity": "Low",
@@ -35799,6 +35401,55 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
+        "devName": "[VIRTUAL]1 x Welcome To The Jungle for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_272",
+        "offerId": "v2:/54f3500304ee933c8436e178b3d6e21a2bf46b9420111c843aa289d2a7da1701",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -16,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-08-09T00:00:00Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/6cd87c0dbc01e6ba.jpg",
+            "artist": "Guns N' Roses",
+            "bpm": 124,
+            "devName": "welcometothejungle",
+            "difficulty": {
+              "bass": 4,
+              "drums": 4,
+              "guitar": 5,
+              "plasticBass": 4,
+              "plasticDrums": 4,
+              "vocals": 3
+            },
+            "duration": 274,
+            "id": "sid_placeholder_272",
+            "releaseYear": 1987,
+            "title": "Welcome To The Jungle"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
         "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_762) for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -35815,7 +35466,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_762",
         "offerId": "v2:/f38a58f75b765d430367e0b9cb3d3f933de73a8a332d008939c7a62fbdae774c",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -23,
@@ -35996,6 +35647,55 @@
           "color3": "5e40ceff",
           "textBackgroundColor": "694fc3ff"
         },
+        "devName": "[VIRTUAL]1 x MILLION DOLLAR BABY for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT0703-1",
+          "index": 23,
+          "name": "Jam Tracks",
+          "rank": 179,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT0703-1.95",
+        "newDisplayAssetPath": "sid_placeholder_417",
+        "offerId": "v2:/0df758812fbb33be10b4a39aa0f04c2f3d232e7da06f288ea2558ea98f7ea5ec",
+        "outDate": "2026-07-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -33,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2024-11-07T17:50:41Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/7d2f9f7bc6453ca5.jpg",
+            "artist": "Tommy Richman",
+            "bpm": 138,
+            "devName": "milliondollarbaby",
+            "difficulty": {
+              "bass": 3,
+              "drums": 2,
+              "guitar": 1,
+              "plasticBass": 3,
+              "plasticDrums": 2,
+              "vocals": 4
+            },
+            "duration": 126,
+            "id": "sid_placeholder_417",
+            "releaseYear": 2024,
+            "title": "MILLION DOLLAR BABY"
+          }
+        ]
+      },
+      {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
         "devName": "[VIRTUAL]1 x Highway Tune for 500 MtxCurrency",
         "finalPrice": 500,
         "giftable": true,
@@ -36012,7 +35712,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_95",
         "offerId": "v2:/81961d1577f2c24bbd40e03078d5bb24a31d9a5dcb8f0cffcae0b639f1541920",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -64,
@@ -36039,55 +35739,6 @@
             "id": "sid_placeholder_95",
             "releaseYear": 2017,
             "title": "Highway Tune"
-          }
-        ]
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x MILLION DOLLAR BABY for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-07-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT0703-1",
-          "index": 23,
-          "name": "Jam Tracks",
-          "rank": 179,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT0703-1.95",
-        "newDisplayAssetPath": "sid_placeholder_417",
-        "offerId": "v2:/0df758812fbb33be10b4a39aa0f04c2f3d232e7da06f288ea2558ea98f7ea5ec",
-        "outDate": "2026-07-30T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -33,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2024-11-07T17:50:41Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/7d2f9f7bc6453ca5.jpg",
-            "artist": "Tommy Richman",
-            "bpm": 138,
-            "devName": "milliondollarbaby",
-            "difficulty": {
-              "bass": 3,
-              "drums": 2,
-              "guitar": 1,
-              "plasticBass": 3,
-              "plasticDrums": 2,
-              "vocals": 4
-            },
-            "duration": 126,
-            "id": "sid_placeholder_417",
-            "releaseYear": 2024,
-            "title": "MILLION DOLLAR BABY"
           }
         ]
       },
@@ -38197,7 +37848,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_285",
         "offerId": "v2:/d3e9a5443501a6623f32a4cc4938c5ff99f5a46ed73b9931fd26ff8dd5c81da4",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -100,
@@ -38472,108 +38123,6 @@
       {
         "brItems": [
           {
-            "added": "2024-08-17T06:38:59Z",
-            "description": "Justice soars.",
-            "id": "Glider_HerbHutch",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 31,
-              "chapter": "5",
-              "season": "4",
-              "text": "Introduced in Chapter 5, Season 4."
-            },
-            "name": "Captain's Glider",
-            "rarity": {
-              "backendValue": "EFortRarity::Epic",
-              "displayValue": "MARVEL SERIES",
-              "value": "marvel"
-            },
-            "series": {
-              "backendValue": "MarvelSeries",
-              "colors": [
-                "ed1c24ff",
-                "d60203ff",
-                "b30102ff",
-                "610709ff",
-                "280102ff"
-              ],
-              "value": "MARVEL SERIES"
-            },
-            "set": {
-              "backendValue": "TalentedBother",
-              "text": "Part of the Captain Jones set.",
-              "value": "Captain Jones"
-            },
-            "type": {
-              "backendValue": "AthenaGlider",
-              "displayValue": "Glider",
-              "value": "glider"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/variants/particle/particle1.png",
-                    "name": "Captain's Glider",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/variants/particle/particle2.png",
-                    "name": "Stealth",
-                    "tag": "Particle2"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "acd8ffff",
-          "color3": "00b7ffff",
-          "textBackgroundColor": "007fadff"
-        },
-        "devName": "[VIRTUAL]1 x Captain's Glider for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-06-29T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "MarvelBP-Unvaulted",
-          "index": 32,
-          "name": "Unvaulted",
-          "rank": 188,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "MarvelBP-Unvaulted.91",
-        "newDisplayAsset": {
-          "id": "DAv2_Glider_AssortedLayer",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_Featured_Glider_HerbHutch",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/552bbcccf4d73e01/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Glider_AssortedLayer",
-        "offerId": "v2:/7b0ac8d47e6b3b848a71d9e025a03d4cf8b2a07c4c3260bc9abcbfd71a87182f",
-        "outDate": "2026-07-05T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -2,
-        "tileBackgroundMaterial": "ShopTile_ComicTexture",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2020-01-15T09:35:53Z",
             "description": "Two hands of spiky goodness.",
             "id": "Pickaxe_ID_323_PinkTrooperMale1H",
@@ -38678,6 +38227,108 @@
         "refundable": false,
         "regularPrice": 800,
         "sortPriority": -4,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2024-08-17T06:38:59Z",
+            "description": "Justice soars.",
+            "id": "Glider_HerbHutch",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 31,
+              "chapter": "5",
+              "season": "4",
+              "text": "Introduced in Chapter 5, Season 4."
+            },
+            "name": "Captain's Glider",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "MARVEL SERIES",
+              "value": "marvel"
+            },
+            "series": {
+              "backendValue": "MarvelSeries",
+              "colors": [
+                "ed1c24ff",
+                "d60203ff",
+                "b30102ff",
+                "610709ff",
+                "280102ff"
+              ],
+              "value": "MARVEL SERIES"
+            },
+            "set": {
+              "backendValue": "TalentedBother",
+              "text": "Part of the Captain Jones set.",
+              "value": "Captain Jones"
+            },
+            "type": {
+              "backendValue": "AthenaGlider",
+              "displayValue": "Glider",
+              "value": "glider"
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/variants/particle/particle1.png",
+                    "name": "Captain's Glider",
+                    "tag": "Particle1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_herbhutch/variants/particle/particle2.png",
+                    "name": "Stealth",
+                    "tag": "Particle2"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "acd8ffff",
+          "color3": "00b7ffff",
+          "textBackgroundColor": "007fadff"
+        },
+        "devName": "[VIRTUAL]1 x Captain's Glider for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-06-29T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "MarvelBP-Unvaulted",
+          "index": 32,
+          "name": "Unvaulted",
+          "rank": 188,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "MarvelBP-Unvaulted.91",
+        "newDisplayAsset": {
+          "id": "DAv2_Glider_AssortedLayer",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "T_Featured_Glider_HerbHutch",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/552bbcccf4d73e01/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Glider_AssortedLayer",
+        "offerId": "v2:/7b0ac8d47e6b3b848a71d9e025a03d4cf8b2a07c4c3260bc9abcbfd71a87182f",
+        "outDate": "2026-07-05T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_ComicTexture",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -39046,7 +38697,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_349",
         "offerId": "v2:/0c154735fd397c309eb9ba1bb6c77df9894a8367dbb1489dd492e7981f55ce96",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -46,
@@ -40435,7 +40086,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_508",
         "offerId": "v2:/976937f0437988628266fa09a0bd0223414eea24514b5f020177e777fdbf9d7a",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -27,
@@ -40847,7 +40498,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_09",
         "offerId": "v2:/cf208bebe22fd3660bd0fbdc8a78ba6972156842bd9df97655788ed06eb3cbe2",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -1,
@@ -42289,7 +41940,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_118",
         "offerId": "v2:/e42c86d19db7650220a65f3a4bd79296fa8ef8fd4ae3845959ed89ce0ffbf1a9",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -10,
@@ -42495,97 +42146,6 @@
       {
         "brItems": [
           {
-            "added": "2025-09-25T13:37:50Z",
-            "description": "Discover something bold.",
-            "id": "Backpack_StrideMiceDeep",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_stridemicedeep/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_stridemicedeep/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 37,
-              "chapter": "6",
-              "season": "5",
-              "text": "Introduced in Chapter 6, Season 5."
-            },
-            "name": "Gold Battery",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "set": {
-              "backendValue": "BleakFeather",
-              "text": "Part of the Daft Punk set.",
-              "value": "Daft Punk"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "171e46ff",
-          "color2": "448d8fff",
-          "color3": "426887ff",
-          "textBackgroundColor": "448d8fff"
-        },
-        "devName": "[VIRTUAL]1 x Gold Battery for 300 MtxCurrency",
-        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_StrideMiceDeep",
-        "finalPrice": 300,
-        "giftable": true,
-        "inDate": "2026-07-02T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "DPJuno",
-          "index": 13,
-          "name": "Daft Punk",
-          "rank": 190,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "DPJuno.97",
-        "newDisplayAsset": {
-          "id": "DAv2_Backpack_StrideMiceDeep",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__T_AthenaBackpack_StrideMiceDeep.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9c1ed44ac3ad1c9b/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Backpack_StrideMiceDeep",
-        "offerId": "v2:/17684b15a5a0f0d376331e5af64c98413a0a3fbc92530eda13967440ca726774",
-        "offerTag": {
-          "id": "musicreactinspect",
-          "text": "Reactive to music!"
-        },
-        "outDate": "2026-07-06T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 300,
-        "sortPriority": -2,
-        "tileBackgroundMaterial": "ShopTile_GlowLine",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2026-06-29T17:01:13Z",
             "description": "Rack ‘em up.  ",
             "dynamicPakId": "1014",
@@ -42689,6 +42249,97 @@
       {
         "brItems": [
           {
+            "added": "2025-09-25T13:37:50Z",
+            "description": "Discover something bold.",
+            "id": "Backpack_StrideMiceDeep",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_stridemicedeep/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_stridemicedeep/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 37,
+              "chapter": "6",
+              "season": "5",
+              "text": "Introduced in Chapter 6, Season 5."
+            },
+            "name": "Gold Battery",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "BleakFeather",
+              "text": "Part of the Daft Punk set.",
+              "value": "Daft Punk"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "171e46ff",
+          "color2": "448d8fff",
+          "color3": "426887ff",
+          "textBackgroundColor": "448d8fff"
+        },
+        "devName": "[VIRTUAL]1 x Gold Battery for 300 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_StrideMiceDeep",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-07-02T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "DPJuno",
+          "index": 13,
+          "name": "Daft Punk",
+          "rank": 190,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "DPJuno.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_StrideMiceDeep",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__T_AthenaBackpack_StrideMiceDeep.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9c1ed44ac3ad1c9b/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Backpack_StrideMiceDeep",
+        "offerId": "v2:/17684b15a5a0f0d376331e5af64c98413a0a3fbc92530eda13967440ca726774",
+        "offerTag": {
+          "id": "musicreactinspect",
+          "text": "Reactive to music!"
+        },
+        "outDate": "2026-07-06T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_GlowLine",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2022-10-18T23:49:57Z",
             "description": "What a cute little tool for dark magic.",
             "id": "Pickaxe_BoneWand",
@@ -42778,7 +42429,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "SparksCMSVisualTest130",
         "offerId": "v2:/5921a5eebd62667393b611608328bb4299fd6bbac5189f5166ac8c162a98dd32",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -48,
@@ -43106,7 +42757,7 @@
         "layoutId": "JT0703-1.95",
         "newDisplayAssetPath": "sid_placeholder_666",
         "offerId": "v2:/acbe19f7cde0ff190d11453b38461c2557b8e2455f456efb66807fd4e8a2069d",
-        "outDate": "2026-07-30T23:59:59.999Z",
+        "outDate": "2026-07-31T23:59:59.999Z",
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -67,
@@ -43334,7 +42985,7 @@
         "tileSize": "Size_1_x_1"
       }
     ],
-    "hash": "5ea0d5406d554f46",
+    "hash": "40e789a7b36e2d35",
     "vbuckIcon": "https://fortnite-api.com/images/vbuck.png"
   },
   "status": 200
