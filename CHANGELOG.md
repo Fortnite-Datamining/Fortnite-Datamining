@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-03
+- **15:07** News - +1 new (Gold & Gummy Hours: The Mythic Goldfish) - -1 removed
 - **12:54** Epic Content Pages
 - **10:31** Epic Content Pages
 - **00:02** Item Shop - +28 new (V6, Aisha, Crossrider, Summitseeker Evie, Icy Peace Axes, +23 more) - -22 removed
