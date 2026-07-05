@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-05
+- **03:53** Item Shop, News - +45 new (Caper, Hoagie Hitter, Sarah Ravencroft's Spellbook, Shaggy & Scooby-Doo Bundle, Pyro Rocket, +40 more) - -41 removed
+
 ## 2026-07-04
 - **23:58** Item Shop
 - **22:54** Epic Content Pages
