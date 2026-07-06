@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-06
+- **23:03** Item Shop, Epic Content Pages
 - **16:17** News - +1 new (Mastery Monday Live Now) - -1 removed
 - **00:10** Item Shop, Epic Content Pages - +46 new (BB's Beast Bat, Cryptic, Double Agent Stripe, Scout, Double Agent Ooze Unit, +41 more) - -64 removed
 
