@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-06
+- **00:10** Item Shop, Epic Content Pages - +46 new (BB's Beast Bat, Cryptic, Double Agent Stripe, Scout, Double Agent Ooze Unit, +41 more) - -64 removed
+
 ## 2026-07-05
 - **03:53** Item Shop, News - +45 new (Caper, Hoagie Hitter, Sarah Ravencroft's Spellbook, Shaggy & Scooby-Doo Bundle, Pyro Rocket, +40 more) - -41 removed
 
