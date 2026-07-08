@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-08
+- **02:14** Item Shop - +24 new (EVIL J0RDAN, Tiny Totem, Playboi Carti Bundle, Rather Lie, Camille, +19 more) - -26 removed
+
 ## 2026-07-07
 - **23:54** Item Shop, Epic Content Pages
 - **15:24** Jam Tracks, News - +4 new (PASSO BEM SOLTO - Slowed, Well, Whatever It Was, Big Feeling, New Holofoil Sprites Have Arrived) - -1 removed
