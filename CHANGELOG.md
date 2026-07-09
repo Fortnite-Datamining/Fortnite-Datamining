@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-09
+- **01:08** Item Shop, Epic Content Pages - +36 new (Barry Pinkums, Famine & Hunger, Bing Bong, Black Hole, Saltwater Satchel, +31 more) - -31 removed
+
 ## 2026-07-08
 - **02:14** Item Shop - +24 new (EVIL J0RDAN, Tiny Totem, Playboi Carti Bundle, Rather Lie, Camille, +19 more) - -26 removed
 
