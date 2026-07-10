@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-10
+- **20:48** Epic Content Pages
 - **13:24** News - +1 new (Holofoil Hours: July 11) - -1 removed
 - **00:00** Item Shop, Epic Content Pages - +40 new (Feel the Flow, Pterodactyl Coin, Take On Me, Power Bow, Maverick, +35 more) - -59 removed
 
