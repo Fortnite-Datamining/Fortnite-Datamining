@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-11
+- **09:56** Item Shop, Banners
 - **00:05** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys, Epic Content Pages - +38 new (Dark Future Helm, Samurai Jack, Samurai Flourish, Sword of the Gods, Flames of Aku, +33 more) - -37 removed
 
 ## 2026-07-10
