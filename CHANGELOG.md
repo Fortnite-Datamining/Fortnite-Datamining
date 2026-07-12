@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-12
+- **05:41** News - +1 new (Olivia Rodrigo Outfits) - -1 removed
 - **02:21** BR Cosmetics, Item Shop, AES Keys - +30 new (Excalibur, Surging Edge, Let's Go Back, Snowy Song, Excalibur, +25 more) - -29 removed
 
 ## 2026-07-11
