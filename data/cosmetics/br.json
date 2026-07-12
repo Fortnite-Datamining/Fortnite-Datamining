@@ -179800,6 +179800,50 @@
       ]
     },
     {
+      "added": "2026-07-12T00:00:00Z",
+      "description": "A master of gun and blade.",
+      "dynamicPakId": "1006",
+      "id": "Character_ToffeeMood",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_toffeemood/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_toffeemood/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_toffeemood/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Excalibur",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "UnseenParrot",
+        "text": "Part of the Warframe set.",
+        "value": "Warframe"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-12-13T00:00:00Z",
       "description": "Now platinum.",
       "id": "Character_TofuResort",
