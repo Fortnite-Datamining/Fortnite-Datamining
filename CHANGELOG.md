@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-13
+- **23:26** Epic Content Pages
 - **14:24** News - +1 new (Mastery Monday Live Now) - -1 removed
 - **01:01** Item Shop - +24 new (Underdome Megaphone, Air Jordan 12 'Phantom', Pterodactyl, Moxxi's Tip Jar, Mad Moxxi Bundle, +19 more) - -37 removed
 
