@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-13
+- **01:01** Item Shop - +24 new (Underdome Megaphone, Air Jordan 12 'Phantom', Pterodactyl, Moxxi's Tip Jar, Mad Moxxi Bundle, +19 more) - -37 removed
+
 ## 2026-07-12
 - **20:12** Item Shop, Epic Content Pages
 - **05:41** News - +1 new (Olivia Rodrigo Outfits) - -1 removed
