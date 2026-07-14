@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-14
+- **00:52** Item Shop - +43 new (Llama Bell, Portable Playmaker, Aniyah, Enduring Cape, Fancy Futbol, +38 more) - -54 removed
+
 ## 2026-07-13
 - **23:26** Epic Content Pages
 - **14:24** News - +1 new (Mastery Monday Live Now) - -1 removed
