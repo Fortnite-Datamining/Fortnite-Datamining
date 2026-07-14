@@ -29,7 +29,7 @@ Current build: `++Fortnite+Release-41.10-CL-55227503`
 | Instruments | 284 |
 | LEGO Cosmetics | 2,431 |
 | LEGO Kits | 431 |
-| Jam Tracks | 682 |
+| Jam Tracks | 684 |
 | Beans | 1,748 |
 | Banners | 987 |
 | Playlists | 716 |
