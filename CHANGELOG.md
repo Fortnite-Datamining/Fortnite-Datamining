@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-14
+- **23:49** BR Cosmetics, Item Shop, Banners, Epic Content Pages
 - **22:32** Item Shop, Banners, Epic Content Pages
 - **21:29** News - +1 new (New Sprites: Batman, Seven, and More) - -1 removed
 - **18:37** Epic Content Pages
