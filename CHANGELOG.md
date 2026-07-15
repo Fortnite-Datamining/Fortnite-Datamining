@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-15
+- **01:59** BR Cosmetics, Item Shop, Banners - +36 new (Wrist Rocket, Upside Down Alphabet, Vecna, Garrison, Green Toy, +31 more) - -5 removed
+
 ## 2026-07-14
 - **23:49** BR Cosmetics, Item Shop, Banners, Epic Content Pages
 - **22:32** Item Shop, Banners, Epic Content Pages
