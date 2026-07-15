@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-14T23:45:01.696Z",
+  "lastModified": "2026-07-15T16:12:41.050Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -54676,10 +54676,32 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-07-11T14:14:45.605Z",
+    "lastModified": "2026-07-15T16:12:41.050Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-featured-glider-009-1024x1024-0d5e050796a2.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/DAv2_Glider_ID_009_CandyCoat.DAv2_Glider_ID_009"
+        },
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenaemotes-tangle-2048x2048-eb6ae75e7e8b.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S31/DAv2_EID_Tangle.DAv2_EID_Tangle"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [

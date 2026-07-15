@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-15
+- **16:17** Epic Content Pages
 - **14:44** News - +1 new (Hot Bat Summer - July 16) - -1 removed
 - **01:59** BR Cosmetics, Item Shop, Banners - +36 new (Wrist Rocket, Upside Down Alphabet, Vecna, Garrison, Green Toy, +31 more) - -5 removed
 
