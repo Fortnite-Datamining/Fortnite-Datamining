@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-15
+- **22:55** News - +1 new (Live - The Odyssey Cup) - -1 removed
 - **20:31** Epic Content Pages
 - **16:17** Epic Content Pages
 - **14:44** News - +1 new (Hot Bat Summer - July 16) - -1 removed
