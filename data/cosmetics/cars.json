@@ -1659,11 +1659,22 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_neptuneshell/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_neptuneshell/small.png"
       },
-      "name": "Maserati Stradale",
+      "name": "Maserati GT2 Stradale",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Body",
@@ -8665,7 +8676,7 @@
     },
     {
       "added": "2026-04-09T13:00:49Z",
-      "description": "Pizza Planet Delivery Truck custom decal",
+      "description": "Pizza Planet Delivery Truck custom decal.",
       "id": "CarSkin_GreenClaw03",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_greenclaw03/large.png",
@@ -12575,7 +12586,7 @@
     },
     {
       "added": "2026-06-25T10:49:09Z",
-      "description": "Maserati Stradale custom decal.",
+      "description": "Maserati GT2 Stradale custom decal.",
       "id": "CarSkin_NeptuneShellFlames",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshellflames/large.png",
@@ -12587,6 +12598,17 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -12596,7 +12618,7 @@
     },
     {
       "added": "2026-06-25T10:49:09Z",
-      "description": "Maserati Stradale custom decal.",
+      "description": "Maserati GT2 Stradale custom decal.",
       "id": "CarSkin_NeptuneShellLightning",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllightning/large.png",
@@ -12608,6 +12630,17 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -12617,7 +12650,7 @@
     },
     {
       "added": "2026-06-25T10:49:09Z",
-      "description": "Maserati Stradale custom decal.",
+      "description": "Maserati GT2 Stradale custom decal.",
       "id": "CarSkin_NeptuneShellLivery01",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery01/large.png",
@@ -12629,6 +12662,17 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -12638,7 +12682,7 @@
     },
     {
       "added": "2026-06-25T10:49:09Z",
-      "description": "Maserati Stradale custom decal.",
+      "description": "Maserati GT2 Stradale custom decal.",
       "id": "CarSkin_NeptuneShellLivery02",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery02/large.png",
@@ -12650,6 +12694,17 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -12659,7 +12714,7 @@
     },
     {
       "added": "2026-06-25T10:49:09Z",
-      "description": "Maserati Stradale custom decal.",
+      "description": "Maserati GT2 Stradale custom decal.",
       "id": "CarSkin_NeptuneShellLivery03",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neptuneshelllivery03/large.png",
@@ -12670,6 +12725,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -13383,7 +13449,7 @@
     },
     {
       "added": "2024-08-07T15:13:59Z",
-      "description": "Initial Here. Octane custom decal.",
+      "description": "Initial Here.",
       "id": "CarSkin_OctaneAW2",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneaw2/large.png",
@@ -33931,11 +33997,22 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_neptuneshell01/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_neptuneshell01/small.png"
       },
-      "name": "Maserati Stradale",
+      "name": "Maserati GT2 Stradale",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Maserati",
+        "colors": [
+          "d7e3edff",
+          "15284dff",
+          "15284dff",
+          "15284dff",
+          "15284dff"
+        ],
+        "value": "MASERATI SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Wheel",

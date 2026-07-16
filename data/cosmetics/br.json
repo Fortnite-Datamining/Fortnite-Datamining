@@ -5877,6 +5877,32 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Get your C major legs.",
+      "id": "Backpack_CaptainShine_Guitar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_captainshine_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_captainshine_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Helm",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Charge into combat.",
       "id": "Backpack_CarbideWeld",
@@ -6604,10 +6630,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Rack ‘em up.  ",
-      "dynamicPakId": "1014",
       "id": "Backpack_ChefTartar",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_cheftartar/smallicon.png"
       },
@@ -8479,6 +8503,176 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/mat55.png",
               "name": "Quack Zero Point Sprite",
               "tag": "Mat55"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage1.png",
+              "name": "Air Sprite",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage2.png",
+              "name": "Gold Air Sprite",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage3.png",
+              "name": "Gummy Air Sprite",
+              "tag": "Stage3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage4.png",
+              "name": "Galaxy Air Sprite",
+              "tag": "Stage4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage5.png",
+              "name": "Holofoil Air Sprite",
+              "tag": "Stage5"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage6.png",
+              "name": "Fishy Sprite",
+              "tag": "Stage6"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage7.png",
+              "name": "Gold Fishy Sprite",
+              "tag": "Stage7"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage8.png",
+              "name": "Gummy Fishy Sprite",
+              "tag": "Stage8"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage9.png",
+              "name": "Galaxy Fishy Sprite",
+              "tag": "Stage9"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage10.png",
+              "name": "Cube Fishy Sprite",
+              "tag": "Stage10"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage11.png",
+              "name": "Striker Sprite",
+              "tag": "Stage11"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage12.png",
+              "name": "Gold Striker Sprite",
+              "tag": "Stage12"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage13.png",
+              "name": "Gummy Striker Sprite",
+              "tag": "Stage13"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage14.png",
+              "name": "Galaxy Striker Sprite",
+              "tag": "Stage14"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage15.png",
+              "name": "Holofoil Striker Sprite",
+              "tag": "Stage15"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage16.png",
+              "name": "Aura Sprite",
+              "tag": "Stage16"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage17.png",
+              "name": "Gold Aura Sprite",
+              "tag": "Stage17"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage18.png",
+              "name": "Gummy Aura Sprite",
+              "tag": "Stage18"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage19.png",
+              "name": "Galaxy Aura Sprite",
+              "tag": "Stage19"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage20.png",
+              "name": "Gem Aura Sprite",
+              "tag": "Stage20"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage21.png",
+              "name": "Boss Sprite",
+              "tag": "Stage21"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage22.png",
+              "name": "Gold Boss Sprite",
+              "tag": "Stage22"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage23.png",
+              "name": "Gummy Boss Sprite",
+              "tag": "Stage23"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage24.png",
+              "name": "Galaxy Boss Sprite",
+              "tag": "Stage24"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage25.png",
+              "name": "Cube Boss Sprite",
+              "tag": "Stage25"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage26.png",
+              "name": "Seven Sprite",
+              "tag": "Stage26"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage27.png",
+              "name": "Gold Seven Sprite",
+              "tag": "Stage27"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage28.png",
+              "name": "Gummy Seven Sprite",
+              "tag": "Stage28"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage29.png",
+              "name": "Galaxy Seven Sprite",
+              "tag": "Stage29"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage30.png",
+              "name": "Holofoil Seven Sprite",
+              "tag": "Stage30"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage31.png",
+              "name": "Grim Reaper Sprite",
+              "tag": "Stage31"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/stage32.png",
+              "name": "Gold Grim Reaper Sprite",
+              "tag": "Stage32"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/particle1.png",
+              "name": "Gummy Grim Reaper Sprite",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coldtrophy/variants/mesh/particle2.png",
+              "name": "Galaxy Grim Reaper Sprite",
+              "tag": "Particle2"
             }
           ],
           "type": "Sprite"
@@ -8960,6 +9154,11 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coppermoggy_prime/variants/progressive/stage2.png",
               "name": "Lightwave Pack",
               "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_coppermoggy_prime/variants/progressive/stage3.png",
+              "name": "Innovation Pack",
+              "tag": "Stage3"
             }
           ],
           "type": "Style"
@@ -9986,6 +10185,86 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Goes anywhere you do.",
+      "id": "Backpack_CreamDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_creamdecoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_creamdecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Queen's Piece",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Mic checkmate.",
+      "id": "Backpack_CreamDecoy_Mic",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_creamdecoy_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_creamdecoy_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Falsetto Fianchetto",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_creamdecoy_mic/variants/material/mat0.png",
+              "name": "Falsetto Fianchetto",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_creamdecoy_mic/variants/material/mat1.png",
+              "name": "Black Falsetto Fianchetto",
+              "tag": "Mat1"
+            }
+          ],
+          "type": "Paint"
+        }
+      ]
+    },
+    {
       "added": "2025-11-29T20:57:37Z",
       "description": "That new sound you are looking for.",
       "id": "Backpack_CreamSkull_Guitar",
@@ -10009,6 +10288,50 @@
         "backendValue": "OliveRanch",
         "text": "Part of the Back to the Future set.",
         "value": "Back to the Future"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Some extremely fly traps.",
+      "dynamicPakId": "1023",
+      "id": "Backpack_CrimpPerfume",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_crimpperfume/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_crimpperfume/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Summer Snapper",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -12488,6 +12811,38 @@
         "backendValue": "GlimmerFlame",
         "text": "Part of the Shimmering Onibi set.",
         "value": "Shimmering Onibi"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Just one big utility pouch.",
+      "dynamicPakId": "1013",
+      "id": "Backpack_DiscoButler",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_discobutler/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_discobutler/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "G'Norts Summer Tote",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -15568,6 +15923,11 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "set": {
+        "backendValue": "JellyShelter",
+        "text": "Part of the Island's Innovator set.",
+        "value": "Island's Innovator"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -15597,6 +15957,113 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "set": {
+        "backendValue": "CarbonDrift",
+        "text": "Part of the Lucky Duck set.",
+        "value": "Lucky Duck"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "A back bling-mounted seat for Sprites.",
+      "id": "Backpack_ExtractionFrame_HydroDrift",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_extractionframe_hydrodrift/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_extractionframe_hydrodrift/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.Backpack.SupportsExtractionMode"
+      ],
+      "name": "Wolfe's Extraction Frame",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "set": {
+        "backendValue": "ShatteredDrawing",
+        "text": "Part of the Wolfe Hunt set.",
+        "value": "Wolfe Hunt"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "A back bling-mounted seat for Sprites.",
+      "id": "Backpack_ExtractionFrame_LemonWrath",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_extractionframe_lemonwrath/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_extractionframe_lemonwrath/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.Backpack.SupportsExtractionMode"
+      ],
+      "name": "The Voidblade's Extraction Frame",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "set": {
+        "backendValue": "DistinctGrass",
+        "text": "Part of the The Void Unknown set.",
+        "value": "The Void Unknown"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "A back bling-mounted seat for Sprites.",
+      "id": "Backpack_ExtractionFrame_LivelySugar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_extractionframe_livelysugar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_extractionframe_livelysugar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.Backpack.SupportsExtractionMode"
+      ],
+      "name": "Dylan's Extraction Frame",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "set": {
+        "backendValue": "StampCurtain",
+        "text": "Part of the Mercenary Heartbreaker set.",
+        "value": "Mercenary Heartbreaker"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -15625,6 +16092,11 @@
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
         "value": "common"
+      },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -21344,6 +21816,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Play the hits on the go.",
+      "id": "Backpack_GothClaws",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gothclaws/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gothclaws/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "KATS Turntable",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BowText",
+        "text": "Part of the KATS Island Tour set.",
+        "value": "KATS Island Tour"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-11-02T17:09:31Z",
       "description": "A stellar supernatural sound system. ",
       "id": "Backpack_GothDevil",
@@ -21924,10 +22427,8 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "Danuta... Do you eat?",
-      "dynamicPakId": "1013",
       "id": "Backpack_GrowMallet",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_growmallet/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_growmallet/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_growmallet/smallicon.png"
       },
@@ -22230,6 +22731,51 @@
         "value": "Take CTRL"
       },
       "showcaseVideo": "C8SbdB5yPbg",
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Cat's outta the bag.",
+      "dynamicPakId": "1023",
+      "id": "Backpack_HammerVice",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_hammervice/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_hammervice/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_hammervice/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Selina's Treasure Tote",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -23491,7 +24037,7 @@
     {
       "added": "2026-06-25T17:01:16Z",
       "description": "Ruthless & Feared.",
-      "dynamicPakId": "1002",
+      "dynamicPakId": "1001",
       "id": "Backpack_HonestWasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_honestwasp/featured.png",
@@ -23733,6 +24279,38 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Tightly-strung, to a mythic degree.",
+      "dynamicPakId": "1011",
+      "id": "Backpack_HornetBerm",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_hornetberm/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_hornetberm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Odysseus' Bow",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GiantOwl",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-08-11T14:36:17Z",
       "description": "Let your blades light the hunt.",
       "id": "Backpack_HornettaVine",
@@ -23786,6 +24364,50 @@
         "backendValue": "RockZombie",
         "text": "Part of the Punk is Dead set.",
         "value": "Punk is Dead"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "For a little levity.",
+      "dynamicPakId": "1023",
+      "id": "Backpack_HumorShale",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_humorshale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_humorshale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Harley Floatie",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -30110,6 +30732,86 @@
       ]
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Stay out of checkmate.",
+      "id": "Backpack_MatteDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mattedecoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mattedecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "King's Piece",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Give them the L.",
+      "id": "Backpack_MatteDecoy_Guitar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mattedecoy_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mattedecoy_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Knight Fall",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_mattedecoy_guitar/variants/material/mat1.png",
+              "name": "Knight Fall",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_mattedecoy_guitar/variants/material/mat2.png",
+              "name": "White Knight Fall",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Paint"
+        }
+      ]
+    },
+    {
       "added": "2025-10-09T08:45:50Z",
       "description": "Peel out. Play on.",
       "id": "Backpack_MatteScratch_Guitar",
@@ -35635,7 +36337,6 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "I'm so obsessed with your axe.",
-      "dynamicPakId": "1032",
       "id": "Backpack_PearlTaffy_Guitar",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffy_guitar/icon.png",
@@ -35679,7 +36380,6 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "Sing your heart out.",
-      "dynamicPakId": "1032",
       "id": "Backpack_PearlTaffy_Mic",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffy_mic/icon.png",
@@ -35723,10 +36423,8 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "You're a spark in the dark... time to dance in the flames.",
-      "dynamicPakId": "1032",
       "id": "Backpack_PearlTaffyOpera",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffyopera/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffyopera/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffyopera/smallicon.png"
       },
@@ -35786,10 +36484,8 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "Tougher than they look.",
-      "dynamicPakId": "1032",
       "id": "Backpack_PearlTaffyVista",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffyvista/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffyvista/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_pearltaffyvista/smallicon.png"
       },
@@ -45683,6 +46379,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Collapsed and compact.",
+      "id": "Backpack_SkyRuled",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_skyruled/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_skyruled/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Black Star",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GalaxyDog",
+        "text": "Part of the Cosmic Titan set.",
+        "value": "Cosmic Titan"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-01-31T14:25:34Z",
       "description": "Exhaust your foes.",
       "id": "Backpack_SleekRivet",
@@ -47463,6 +48190,32 @@
         "backendValue": "AshtonSaltLake",
         "text": "Part of the Guardians Of The Galaxy set.",
         "value": "Guardians Of The Galaxy"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Frigid and fearsome.",
+      "id": "Backpack_SpecialScroll",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_specialscroll/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_specialscroll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Icy Oni Mask",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -51264,10 +52017,8 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "Something might go down somewhere in some way...",
-      "dynamicPakId": "1013",
       "id": "Backpack_TaxiHeel",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_taxiheel/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_taxiheel/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_taxiheel/smallicon.png"
       },
@@ -52164,6 +52915,51 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Warning: not a justice-preserving device.",
+      "dynamicPakId": "1023",
+      "id": "Backpack_TideCompost",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tidecompost/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_tidecompost/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_tidecompost/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Batman Floatie",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
     },
     {
       "added": "2024-03-08T13:32:49Z",
@@ -53971,10 +54767,8 @@
     {
       "added": "2026-07-11T00:00:00Z",
       "description": "Never forget the future.",
-      "dynamicPakId": "1016",
       "id": "Backpack_TrustFan",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_trustfan/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_trustfan/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_trustfan/smallicon.png"
       },
@@ -54800,10 +55594,8 @@
     {
       "added": "2026-06-26T00:00:00Z",
       "description": "A diving essential.",
-      "dynamicPakId": "1022",
       "id": "Backpack_ValueEnjoy",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_valueenjoy/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_valueenjoy/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_valueenjoy/smallicon.png"
       },
@@ -55153,10 +55945,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "The friendliest alien around",
-      "dynamicPakId": "1018",
       "id": "Backpack_VigorKnackDill",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackdill/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackdill/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackdill/smallicon.png"
       },
@@ -55198,10 +55988,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "Keeping score, one elimination at a time.",
-      "dynamicPakId": "1018",
       "id": "Backpack_VigorKnackGolf",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackgolf/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackgolf/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vigorknackgolf/smallicon.png"
       },
@@ -82500,7 +83288,7 @@
     {
       "added": "2020-09-23T08:28:55Z",
       "description": "Protected by an unbreakable vow.",
-      "id": "BID_614_Myth",
+      "id": "bid_614_myth",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/smallicon.png"
@@ -110291,10 +111079,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Rewrite the Narrative.",
-      "dynamicPakId": "1014",
       "id": "Character_ChefTartar",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar/large.png",
@@ -110356,10 +111142,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Be the plot twist.",
-      "dynamicPakId": "1014",
       "id": "Character_ChefTartar_B",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_b/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_b/large.png",
@@ -110421,10 +111205,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Execute your Brilliance.",
-      "dynamicPakId": "1014",
       "id": "Character_ChefTartar_C",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_c/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_c/large.png",
@@ -110486,10 +111268,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Instinct over everything.",
-      "dynamicPakId": "1014",
       "id": "Character_ChefTartar_D",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_cheftartar_d/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_cheftartar_d/large.png",
@@ -113039,9 +113819,55 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/progressive/stage3.png",
               "name": "Zero Phase Slone",
               "tag": "Stage3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/progressive/stage4.png",
+              "name": "The Innovation",
+              "tag": "Stage4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/progressive/stage5.png",
+              "name": "The Innovation (helmet on)",
+              "tag": "Stage5"
             }
           ],
           "type": "Style"
+        },
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/emissive/emissive1.png",
+              "name": "Target Locked",
+              "tag": "Emissive1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/emissive/emissive2.png",
+              "name": "At Ease",
+              "tag": "Emissive2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/emissive/emissive3.png",
+              "name": "Vanguard",
+              "tag": "Emissive3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/emissive/emissive4.png",
+              "name": "Battle Analytics",
+              "tag": "Emissive4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/emissive/emissive5.png",
+              "name": "Combat Elite",
+              "tag": "Emissive5"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_coppermoggy_swan/variants/emissive/emissive6.png",
+              "name": "CLASSIFIED",
+              "tag": "Emissive6"
+            }
+          ],
+          "type": "Visors"
         },
         {
           "channel": "Material",
@@ -114212,6 +115038,59 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Command the board.",
+      "id": "Character_CreamDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_creamdecoy/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_creamdecoy/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_creamdecoy/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_creamdecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Ivory Queen",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Progressive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_creamdecoy/variants/progressive/mat1.png",
+              "name": "Ivory Queen",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_creamdecoy/variants/progressive/mat2.png",
+              "name": "Checkmate",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-11-29T20:57:37Z",
       "description": "Doc, I'm from the future!",
       "id": "Character_CreamSkull_Dove",
@@ -114277,6 +115156,87 @@
             }
           ],
           "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Blossom under the summer sun.",
+      "id": "Character_CrimpPerfume",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_crimpperfume/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_crimpperfume/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Chlorophyll Ivy",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/variants/parts/stage1.png",
+              "name": "Chlorophyll Ivy",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/variants/parts/stage2.png",
+              "name": "Sunflower Ivy",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/variants/material/mat1.png",
+              "name": "up",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/variants/material/mat2.png",
+              "name": "down",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_crimpperfume/variants/material/mat3.png",
+              "name": "off",
+              "tag": "Mat3"
+            }
+          ],
+          "type": "Glasses"
         }
       ]
     },
@@ -120041,10 +121001,8 @@
     {
       "added": "2026-06-12T23:00:58Z",
       "description": "Tough but fair.",
-      "dynamicPakId": "1012",
       "id": "Character_EclairAche",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_eclairache/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_eclairache/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_eclairache/large.png",
@@ -128420,6 +129378,41 @@
       ]
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Never miss a tour stop.",
+      "id": "Character_GothClaws",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_gothclaws/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_gothclaws/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_gothclaws/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_gothclaws/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Metalhead Meow Skulls",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BowText",
+        "text": "Part of the KATS Island Tour set.",
+        "value": "KATS Island Tour"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-11-02T17:09:31Z",
       "description": "A cursed star shining in darkness.",
       "id": "Character_GothDevil",
@@ -129615,10 +130608,8 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "Things are getting too spicy for the pepper.",
-      "dynamicPakId": "1013",
       "id": "Character_GrowMallet",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_growmallet/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_growmallet/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_growmallet/smallicon.png"
       },
@@ -130154,6 +131145,93 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Boardwalk burglar.",
+      "id": "Character_HammerVice",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_hammervice/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_hammervice/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Coastal Catwoman",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Outfit",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/variants/outfit/stage1.png",
+              "name": "up",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/variants/outfit/stage2.png",
+              "name": "Down",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/variants/outfit/stage3.png",
+              "name": "off",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "glasses"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/variants/material/mat1.png",
+              "name": "On",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hammervice/variants/material/mat2.png",
+              "name": "Off",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "sarong"
+        }
+      ]
     },
     {
       "added": "2025-11-11T09:37:13Z",
@@ -131545,8 +132623,8 @@
     },
     {
       "added": "2026-06-25T17:01:16Z",
-      "description": "DC Comics's notorious mercenary from the planet Czarnia",
-      "dynamicPakId": "1002",
+      "description": "DC Comics' notorious mercenary from the planet Czarnia.",
+      "dynamicPakId": "1001",
       "id": "Character_HonestWasp",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_honestwasp/featured.png",
@@ -131862,6 +132940,72 @@
       ]
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Your journey begins now.",
+      "dynamicPakId": "1011",
+      "id": "Character_HornetBerm",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_hornetberm/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_hornetberm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Odysseus",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "GiantOwl",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hornetberm/variants/parts/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hornetberm/variants/parts/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Helmet"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hornetberm/variants/material/mat1.png",
+              "name": "on",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hornetberm/variants/material/mat2.png",
+              "name": "off",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "cape"
+        }
+      ]
+    },
+    {
       "added": "2023-08-11T14:36:17Z",
       "description": "Clever prowler of the caverns below.",
       "id": "Character_HornettaVine",
@@ -131976,6 +133120,80 @@
             }
           ],
           "type": "style"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Make a smashin' splash.",
+      "id": "Character_HumorShale_Teak",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_humorshale_teak/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_humorshale_teak/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "High Tide Harley",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/variants/parts/stage1.png",
+              "name": "up",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/variants/parts/stage2.png",
+              "name": "down",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/variants/parts/stage3.png",
+              "name": "off",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "Glasses"
+        },
+        {
+          "channel": "Outfit",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/variants/outfit/stage4.png",
+              "name": "off",
+              "tag": "Stage4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_humorshale_teak/variants/outfit/stage5.png",
+              "name": "on",
+              "tag": "Stage5"
+            }
+          ],
+          "type": "shorts"
         }
       ]
     },
@@ -143395,6 +144613,59 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Be the last piece standing.",
+      "id": "Character_MatteDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_mattedecoy/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_mattedecoy/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_mattedecoy/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_mattedecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Obsidian King",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_mattedecoy/variants/material/stage1.png",
+              "name": "Obsidian King",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_mattedecoy/variants/material/stage2.png",
+              "name": "Checkmate",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2023-05-21T09:32:09Z",
       "description": "Fix it on the fly.",
       "id": "Character_MechanicalEngineerRev",
@@ -149916,11 +151187,9 @@
     },
     {
       "added": "2026-06-25T12:03:20Z",
-      "description": "You're doing great. She's doing better.",
-      "dynamicPakId": "1032",
+      "description": "A little sweet. A little SOUR.",
       "id": "Character_PearlTaffyOpera",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_pearltaffyopera/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_pearltaffyopera/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_pearltaffyopera/large.png",
@@ -150000,10 +151269,9 @@
     },
     {
       "added": "2026-06-25T12:03:20Z",
-      "description": "A little sweet. A little sour.",
+      "description": "You seem pretty sad for a girl in Fortnite.",
       "id": "Character_PearlTaffyVista",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_pearltaffyvista/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_pearltaffyvista/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_pearltaffyvista/large.png",
@@ -153948,7 +155216,7 @@
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_pixieparts_lava/variants/clothingcolor/012.png",
-              "name": "Fishstick",
+              "name": "Fishy",
               "tag": "012"
             },
             {
@@ -153958,12 +155226,12 @@
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_pixieparts_lava/variants/clothingcolor/014.png",
-              "name": "Soccer",
+              "name": "Striker",
               "tag": "014"
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_pixieparts_lava/variants/clothingcolor/015.png",
-              "name": "Drifter",
+              "name": "Aura",
               "tag": "015"
             },
             {
@@ -167804,6 +169072,41 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Command the stars to your whims.",
+      "id": "Character_SkyRuled",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_skyruled/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_skyruled/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_skyruled/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_skyruled/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Galaxon",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "GalaxyDog",
+        "text": "Part of the Cosmic Titan set.",
+        "value": "Cosmic Titan"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2025-05-16T08:50:37Z",
       "description": "Set the road on fire.",
       "id": "Character_SleekBiker",
@@ -169093,6 +170396,66 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Yeddy's ready for the play.",
+      "id": "Character_SnowyCoast",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_snowycoast/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_snowycoast/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Kickoff Yeddy",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_snowycoast/variants/parts/mat1.png",
+              "name": "On",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_snowycoast/variants/parts/mat2.png",
+              "name": "Off",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Glasses"
+        },
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_snowycoast/variants/material/mat0.png",
+              "name": "On",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_snowycoast/variants/material/mat1.png",
+              "name": "Off",
+              "tag": "Mat1"
+            }
+          ],
+          "type": "Reactive"
+        }
+      ]
     },
     {
       "added": "2025-12-18T10:38:26Z",
@@ -176930,7 +178293,6 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "They call me Stan the Man! There was a girl in our class named Stan.",
-      "dynamicPakId": "1013",
       "id": "Character_TaxiHeel",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_taxiheel/featured.png",
@@ -178075,6 +179437,108 @@
             }
           ],
           "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Crime's all washed up.",
+      "id": "Character_TideCompost",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_tidecompost/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_tidecompost/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/smallicon.png"
+      },
+      "name": "Beach Bod Batman",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/particle/particle1.png",
+              "name": "On",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/particle/particle2.png",
+              "name": "Off",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Belt"
+        },
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/parts/mat1.png",
+              "name": "Cowl",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/parts/mat2.png",
+              "name": "Glasses Off",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/parts/mat3.png",
+              "name": "Glasses Up",
+              "tag": "Mat3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/parts/mat4.png",
+              "name": "Glasses Down",
+              "tag": "Mat4"
+            }
+          ],
+          "type": "style"
+        },
+        {
+          "channel": "Outfit",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/outfit/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tidecompost/variants/outfit/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Towel"
         }
       ]
     },
@@ -179803,10 +181267,8 @@
     {
       "added": "2026-07-12T00:00:00Z",
       "description": "A master of gun and blade.",
-      "dynamicPakId": "1006",
       "id": "Character_ToffeeMood",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_toffeemood/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_toffeemood/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_toffeemood/smallicon.png"
       },
@@ -181213,10 +182675,8 @@
     {
       "added": "2026-07-11T00:00:00Z",
       "description": "Get back to the past, Samurai Jack.",
-      "dynamicPakId": "1016",
       "id": "Character_TrustFan",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_trustfan/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_trustfan/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_trustfan/large.png",
@@ -183258,10 +184718,8 @@
     {
       "added": "2026-06-26T00:00:00Z",
       "description": "Diver by day, sushi hustler by night.",
-      "dynamicPakId": "1022",
       "id": "Character_ValueEnjoy",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_valueenjoy/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_valueenjoy/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_valueenjoy/smallicon.png"
       },
@@ -183887,8 +185345,8 @@
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_vibrantshell/icon.png",
         "lego": {
-          "large": "https://fortnite-api.com/images/cosmetics/lego/character_vibrantshell/large.png",
-          "small": "https://fortnite-api.com/images/cosmetics/lego/character_vibrantshell/small.png"
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_vibrantshell/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_vibrantshell/wide.png"
         },
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_vibrantshell/smallicon.png"
       },
@@ -183937,10 +185395,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "The King has arrived.",
-      "dynamicPakId": "1018",
       "id": "Character_VigorKnackDill",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackdill/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_vigorknackdill/large.png",
@@ -184045,10 +185501,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "From Sidcup to the Shadows.",
-      "dynamicPakId": "1018",
       "id": "Character_VigorKnackGolf",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_vigorknackgolf/icon.png",
         "lego": {
           "large": "https://fortnite-api.com/images/cosmetics/lego/character_vigorknackgolf/large.png",
@@ -186962,10 +188416,8 @@
     {
       "added": "2026-06-06T03:03:15Z",
       "description": "Skill decides everything.",
-      "dynamicPakId": "1031",
       "id": "Character_WoodsPrice",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/character_woodsprice/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_woodsprice/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_woodsprice/smallicon.png"
       },
@@ -281657,6 +283109,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Cause some panda-monium.",
+      "id": "Companion_BamBoom",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_bamboom/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_bamboom/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "P.A.N.D.A. Team Jr.",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "TinyFriend",
+        "text": "Part of the Pocket P.A.N.D.A. set.",
+        "value": "Pocket P.A.N.D.A."
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2026-04-30T09:17:44Z",
       "description": "Glug glug! Bark bark!",
       "id": "Companion_BandSoda",
@@ -282471,6 +283954,75 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "The Island's fuzziest living nebula.",
+      "id": "Companion_GalaxySwish",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_galaxyswish/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_galaxyswish/smallicon.png"
+      },
+      "name": "Fox Fur Nebula",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DeliverBucket",
+        "text": "Part of the Fox Fur Nebula set.",
+        "value": "Fox Fur Nebula"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      },
+      "variants": [
+        {
+          "channel": "Emote",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_galaxyswish/variants/emote/companionemote0.png",
+              "name": "Constellation Maker",
+              "tag": "CompanionEmote0"
+            }
+          ],
+          "type": "Sidekick Emote"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "A gentle giant.",
+      "id": "Companion_GeneralHound",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_generalhound/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_generalhound/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Dane",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "TurtleFriend",
+        "text": "Part of the Big Dog set.",
+        "value": "Big Dog"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2025-11-29T20:57:37Z",
       "description": "Beware of nibbles.",
       "id": "Companion_HeadWhale",
@@ -282494,6 +284046,31 @@
         "backendValue": "SpaceExplorers",
         "text": "Part of the Space Explorers set.",
         "value": "Space Explorers"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Bzz bzzz bzzzzzzt!",
+      "id": "Companion_HoneySting",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_honeysting/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_honeysting/smallicon.png"
+      },
+      "name": "Beebo",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "NeckQualify",
+        "text": "Part of the Sweetest Honey set.",
+        "value": "Sweetest Honey"
       },
       "type": {
         "backendValue": "CosmeticCompanion",
@@ -282579,10 +284156,8 @@
     {
       "added": "2026-06-29T13:01:06Z",
       "description": "A cute little creature from Neopia with a natural gift for magic!",
-      "dynamicPakId": "1023",
       "id": "Companion_MinkCalico",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_minkcalico/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/companion_minkcalico/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_minkcalico/smallicon.png"
       },
@@ -282933,6 +284508,51 @@
       ]
     },
     {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Batman's Best Friend.",
+      "dynamicPakId": "1023",
+      "id": "Companion_ScoffFrill",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_scofffrill/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_scofffrill/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_scofffrill/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Ace the Bat-Hound",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2025-12-11T16:07:07Z",
       "description": "A CouRageous pup.",
       "id": "Companion_ScrollVessel",
@@ -283218,6 +284838,37 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Welcome to Bobom! Am I your order?",
+      "id": "Companion_TapiTime",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_tapitime/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_tapitime/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Bobomi",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "FarShake",
+        "text": "Part of the Bobom Buddy set.",
+        "value": "Bobom Buddy"
       },
       "type": {
         "backendValue": "CosmeticCompanion",
@@ -293468,10 +295119,8 @@
     {
       "added": "2026-06-26T00:00:00Z",
       "description": "Pee-yew.",
-      "dynamicPakId": "1001",
       "id": "EID_BigSnorkel",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_bigsnorkel/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_bigsnorkel/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_bigsnorkel/smallicon.png"
       },
@@ -297910,10 +299559,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Looks good at full speed.",
-      "dynamicPakId": "1014",
       "id": "EID_ChefTartar",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_cheftartar/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_cheftartar/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_cheftartar/smallicon.png"
       },
@@ -301179,6 +302826,38 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "This plant needs plenty of sun.",
+      "dynamicPakId": "1023",
+      "id": "EID_CrimpPerfume",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_crimpperfume/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_crimpperfume/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Lily Lounger",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaDance",
@@ -307435,10 +309114,8 @@
     {
       "added": "2026-06-27T09:01:16Z",
       "description": "Do a little stepping.",
-      "dynamicPakId": "1024",
       "id": "EID_FiestaFlame",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_fiestaflame/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_fiestaflame/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_fiestaflame/smallicon.png"
       },
@@ -311798,6 +313475,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Feel the beat in your Skulls.",
+      "id": "EID_GothClaws",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_gothclaws/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_gothclaws/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Screamo Boombox",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BowText",
+        "text": "Part of the KATS Island Tour set.",
+        "value": "KATS Island Tour"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:44Z",
       "description": "Let it take over.",
       "id": "EID_GothDance",
@@ -316027,6 +317735,38 @@
         "value": "Omega Harbinger"
       },
       "showcaseVideo": "K_m8BE6kbKI",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Honor your fallen.",
+      "dynamicPakId": "1011",
+      "id": "EID_HornetBerm",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_hornetberm/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_hornetberm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Warrior's Rest",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GiantOwl",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -324372,6 +326112,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Corner your foes.",
+      "id": "EID_MatteDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_mattedecoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_mattedecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Royal Ride",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2022-08-16T10:25:32Z",
       "description": "Amplify your ki.",
       "id": "EID_MaxEnergize",
@@ -329388,10 +331159,8 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "Stay stuck in their head.",
-      "dynamicPakId": "1032",
       "id": "EID_PearlTaffyOpera",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_pearltaffyopera/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_pearltaffyopera/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_pearltaffyopera/smallicon.png"
       },
@@ -329434,10 +331203,8 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "So happy for you! Really!!",
-      "dynamicPakId": "1032",
       "id": "EID_pearltaffyvista",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_pearltaffyvista/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_pearltaffyvista/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_pearltaffyvista/smallicon.png"
       },
@@ -339576,6 +341343,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Ride the event horizon.",
+      "id": "EID_SkyRuled",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_skyruled/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_skyruled/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Black Hole Roller",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GalaxyDog",
+        "text": "Part of the Cosmic Titan set.",
+        "value": "Cosmic Titan"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2022-02-03T20:18:59Z",
       "description": "Do a lil' spin, do it again.",
       "id": "EID_Sleek_S20CU",
@@ -344283,10 +346081,8 @@
     {
       "added": "2026-07-04T00:00:00Z",
       "description": "Just a taste.",
-      "dynamicPakId": "1005",
       "id": "EID_SweetTooth",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_sweettooth/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_sweettooth/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_sweettooth/smallicon.png"
       },
@@ -345341,10 +347137,8 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "This one's for the CIA!",
-      "dynamicPakId": "1013",
       "id": "EID_TaxiHeel",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_taxiheel/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_taxiheel/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_taxiheel/smallicon.png"
       },
@@ -346229,6 +348023,39 @@
         "backendValue": "NeedLight",
         "text": "Part of the Darkest Omen set.",
         "value": "Darkest Omen"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Holy sardine!",
+      "dynamicPakId": "1023",
+      "id": "EID_TideCompost",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_tidecompost/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tidecompost/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_tidecompost/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Surf's Up!",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaDance",
@@ -348082,11 +349909,9 @@
     },
     {
       "added": "2026-07-11T00:00:00Z",
-      "description": "Remember, the sword is only a tool.",
-      "dynamicPakId": "1016",
+      "description": "Undo the evil of Aku.",
       "id": "EID_TrustFan",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_trustfan/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_trustfan/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_trustfan/smallicon.png"
       },
@@ -348096,7 +349921,7 @@
         "season": "3",
         "text": "Introduced in Chapter 7, Season 3."
       },
-      "name": "Samurai Flourish",
+      "name": "Gotta Get Back",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -349580,10 +351405,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "Shing your way to victory, or not.",
-      "dynamicPakId": "1018",
       "id": "EID_VigorKnack",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_vigorknack/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_vigorknack/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_vigorknack/smallicon.png"
       },
@@ -371091,6 +372914,31 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_Arenas",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_arenas/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Box Up",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_AshenMagus",
@@ -372522,6 +374370,36 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_GalaxySwish",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_galaxyswish/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Nebula Bone",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DeliverBucket",
+        "text": "Part of the Fox Fur Nebula set.",
+        "value": "Fox Fur Nebula"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-10-09T08:45:50Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_GnatGala",
@@ -373651,7 +375529,6 @@
     {
       "added": "2026-06-29T13:01:06Z",
       "description": "Express yourself on the battlefield.",
-      "dynamicPakId": "1023",
       "id": "Emoticon_MinkCalico",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_minkcalico/smallicon.png"
@@ -375171,6 +377048,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1023",
+      "id": "Emoticon_ScoffFrill",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_scofffrill/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Loyal Bat-Hound",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-12-11T16:07:07Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_ScrollVessel",
@@ -375957,6 +377865,36 @@
         "backendValue": "FutureCharge",
         "text": "Part of the O.X.R. Lieutenant set.",
         "value": "O.X.R. Lieutenant"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_TapiTime",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_tapitime/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Bobom Bunny",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "FarShake",
+        "text": "Part of the Bobom Buddy set.",
+        "value": "Bobom Buddy"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -379025,6 +380963,41 @@
         "backendValue": "Perfection",
         "text": "Part of the Flawless set.",
         "value": "Flawless"
+      },
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "An onamato-brella.",
+      "dynamicPakId": "1013",
+      "id": "Glider_DiscoButler",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/glider_discobutler/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_discobutler/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Zap-Brella",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "searchTags": [
+        "Umbrella"
+      ],
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaGlider",
@@ -403501,6 +405474,41 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "The gods are watching.",
+      "dynamicPakId": "1011",
+      "id": "LoadingScreen_BeaverStage",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_beaverstage/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_beaverstage/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_beaverstage/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Trojan War",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GiantOwl",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Remember what we fight for. \r\nArt by David Baldeon.",
       "id": "LoadingScreen_BentBaton",
@@ -404579,6 +406587,40 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "The baddies of Gotham are ready to play.",
+      "id": "LoadingScreen_CH7S3_KeyArt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ch7s3_keyart/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ch7s3_keyart/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ch7s3_keyart/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Hot Bat Summer",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -406393,6 +408435,41 @@
         "backendValue": "Perfection",
         "text": "Part of the Flawless set.",
         "value": "Flawless"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "More refreshing than a Lazarus Pit.",
+      "dynamicPakId": "1013",
+      "id": "LoadingScreen_DiscoButler",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_discobutler/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_discobutler/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_discobutler/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Dark Knight Relaxes",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -417907,6 +419984,74 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "A brilliant, dangerous new addition to The Seven.",
+      "id": "LoadingScreen_S41Narrative2",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s41narrative2/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s41narrative2/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s41narrative2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Welcome, The Innovation",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Protect Jones. Protect reality.",
+      "id": "LoadingScreen_S41Narrative3",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s41narrative3/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s41narrative3/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_s41narrative3/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Prophecy's Mission",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "JusticeWall",
+        "text": "Part of the The New Seven set.",
+        "value": "The New Seven"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
       "added": "2022-09-18T10:05:15Z",
       "description": "You're gonna love it here.",
       "id": "LoadingScreen_S4CH3KeyArt",
@@ -421928,6 +424073,40 @@
         "backendValue": "HonestBubble",
         "text": "Part of the Doja Cat set.",
         "value": "Doja Cat"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "How can we help you today?!",
+      "id": "LoadingScreen_TapiTime",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_tapitime/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_tapitime/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_tapitime/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Welcome to Bobom!!",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "FarShake",
+        "text": "Part of the Bobom Buddy set.",
+        "value": "Bobom Buddy"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -453956,6 +456135,32 @@
       ]
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Get your C major legs.",
+      "id": "Pickaxe_CaptainShine_Guitar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_captainshine_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_captainshine_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Helm",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Finish what you start.",
       "id": "Pickaxe_CarbideWeld",
@@ -454664,10 +456869,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Unstoppable from the corner.",
-      "dynamicPakId": "1014",
       "id": "Pickaxe_ChefTartar",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cheftartar/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cheftartar/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cheftartar/smallicon.png"
       },
@@ -456396,6 +458599,11 @@
               "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_coppermoggy_swan/variants/particle/particle2.png",
               "name": "Lightwave Axe",
               "tag": "Particle2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_coppermoggy_swan/variants/particle/particle3.png",
+              "name": "Innovation Axe",
+              "tag": "Particle3"
             }
           ],
           "type": "Style"
@@ -457256,6 +459464,55 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Mic checkmate.",
+      "id": "Pickaxe_CreamDecoy_Mic",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_creamdecoy_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_creamdecoy_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Falsetto Fianchetto",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_creamdecoy_mic/variants/particle/particle1.png",
+              "name": "Falsetto Fianchetto",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_creamdecoy_mic/variants/particle/particle2.png",
+              "name": "Black Falsetto Fianchetto",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-11-29T20:57:37Z",
       "description": "Remember the future.",
       "id": "Pickaxe_CreamSkull_Dove",
@@ -457310,6 +459567,38 @@
         "backendValue": "OliveRanch",
         "text": "Part of the Back to the Future set.",
         "value": "Back to the Future"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Just as deadly, by any other name.",
+      "dynamicPakId": "1023",
+      "id": "Pickaxe_CrimpPerfume",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_crimpperfume/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_crimpperfume/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Carnation of Carnage",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -459367,6 +461656,38 @@
         "backendValue": "HarshPat",
         "text": "Part of the Avatar set.",
         "value": "Avatar"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Courtesy of Wayne Enterprises.",
+      "dynamicPakId": "1013",
+      "id": "Pickaxe_DiscoButler",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_discobutler/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_discobutler/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Caped Cooler-sader",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -467220,10 +469541,8 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "I carry a brick in my purse so I feel like I have something.",
-      "dynamicPakId": "1013",
       "id": "Pickaxe_GrowMallet",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_growmallet/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_growmallet/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_growmallet/smallicon.png"
       },
@@ -467504,6 +469823,42 @@
         "value": "Take CTRL"
       },
       "showcaseVideo": "tq2ktJaTLZA",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Look sharp. Be sharp.",
+      "dynamicPakId": "1023",
+      "id": "Pickaxe_HammerVice",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hammervice/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hammervice/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hammervice/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.HammerVice"
+      ],
+      "name": "Riptide Claws",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -468603,7 +470958,7 @@
     {
       "added": "2026-06-25T17:01:16Z",
       "description": "Lobo's melee weapon of choice.",
-      "dynamicPakId": "1002",
+      "dynamicPakId": "1001",
       "id": "Pickaxe_HonestWasp",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_honestwasp/icon.png",
@@ -468842,6 +471197,41 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "This sword belongs to Nobody.",
+      "dynamicPakId": "1011",
+      "id": "Pickaxe_HornetBerm",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hornetberm/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hornetberm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.HornetBerm"
+      ],
+      "name": "Odysseus' Sword",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GiantOwl",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2023-08-11T14:36:17Z",
       "description": "Crystalline carver.",
       "id": "Pickaxe_HornettaVine",
@@ -468898,6 +471288,38 @@
         "value": "Punk is Dead"
       },
       "showcaseVideo": "6u-gzqj5Kdk",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "For wetwork.",
+      "dynamicPakId": "1023",
+      "id": "Pickaxe_HumorShale",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_humorshale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_humorshale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Harley's Boogie Bat",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -507779,6 +510201,55 @@
       ]
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Give them the L.",
+      "id": "Pickaxe_MatteDecoy_Guitar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mattedecoy_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mattedecoy_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Knight Fall",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mattedecoy_guitar/variants/particle/particle1.png",
+              "name": "Knight Fall",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mattedecoy_guitar/variants/particle/particle2.png",
+              "name": "White Knight Fall",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
       "added": "2025-10-09T08:45:50Z",
       "description": "Peel out. Play on.",
       "id": "Pickaxe_MatteScratch_Guitar",
@@ -510117,6 +512588,32 @@
         "backendValue": "ArtTakeover",
         "text": "Part of the Graffiti Revolution set.",
         "value": "Graffiti Revolution"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "It's the blueprint for pickaxes everywhere.",
+      "id": "Pickaxe_NavyArtisan",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_navyartisan/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_navyartisan/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Blueprint Pick",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -512792,7 +515289,6 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "I'm so obsessed with your axe.",
-      "dynamicPakId": "1032",
       "id": "Pickaxe_PearlTaffy_Guitar",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pearltaffy_guitar/icon.png",
@@ -512836,7 +515332,6 @@
     {
       "added": "2026-06-25T12:03:20Z",
       "description": "Sing your heart out.",
-      "dynamicPakId": "1032",
       "id": "Pickaxe_PearlTaffy_Mic",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pearltaffy_mic/icon.png",
@@ -524255,6 +526750,32 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "A chilling, cursed cleaver.",
+      "id": "Pickaxe_SpecialScroll",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_specialscroll/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_specialscroll/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Oni's Axe",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2023-12-06T23:12:08Z",
       "description": "Cut more than new tracks. ",
       "id": "Pickaxe_SpeedDial",
@@ -527653,10 +530174,8 @@
     {
       "added": "2026-07-02T13:00:56Z",
       "description": "Go Bazooka Sharks!",
-      "dynamicPakId": "1013",
       "id": "Pickaxe_TaxiHeel",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taxiheel/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taxiheel/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_taxiheel/smallicon.png"
       },
@@ -528340,6 +530859,39 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Dark Knight Raft not included.",
+      "dynamicPakId": "1023",
+      "id": "Pickaxe_TideCompost",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tidecompost/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tidecompost/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tidecompost/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Batman Paddle",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
     },
     {
       "added": "2024-03-08T13:32:49Z",
@@ -529730,10 +532282,8 @@
     {
       "added": "2026-07-11T00:00:00Z",
       "description": "Trust not what you see, but what you feel.",
-      "dynamicPakId": "1016",
       "id": "Pickaxe_TrustFan",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trustfan/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trustfan/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_trustfan/smallicon.png"
       },
@@ -529743,7 +532293,7 @@
         "season": "3",
         "text": "Introduced in Chapter 7, Season 3."
       },
-      "name": "Sword of the Gods",
+      "name": "Jack's Katana",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
@@ -530784,10 +533334,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "A lucky swing goes a long way.",
-      "dynamicPakId": "1018",
       "id": "Pickaxe_VigorKnackDill",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackdill/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackdill/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackdill/smallicon.png"
       },
@@ -530829,10 +533377,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "Reap what you sow.",
-      "dynamicPakId": "1018",
       "id": "Pickaxe_VigorKnackGolf",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackgolf/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackgolf/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vigorknackgolf/smallicon.png"
       },
@@ -533426,10 +535972,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_AtlasBrightAttire",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightattire/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightattire/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightattire/smallicon.png"
       },
@@ -533446,9 +535990,9 @@
         "value": "uncommon"
       },
       "set": {
-        "backendValue": "UnmarkedLeather",
-        "text": "Part of the NIKE Shoes set.",
-        "value": "NIKE Shoes"
+        "backendValue": "WildDepot",
+        "text": "Part of the Jordan Shoes set.",
+        "value": "Jordan Shoes"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -533459,10 +536003,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_AtlasBrightMacho",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightmacho/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightmacho/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightmacho/smallicon.png"
       },
@@ -533492,10 +536034,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_AtlasBrightShield",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightshield/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightshield/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_atlasbrightshield/smallicon.png"
       },
@@ -534032,10 +536572,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_BlazeWise",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_blazewise/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_blazewise/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_blazewise/smallicon.png"
       },
@@ -535508,6 +538046,39 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1006",
+      "id": "Shoes_CometNova",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_cometnova/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_cometnova/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_cometnova/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "adidas Samba OG ‘Burgundy’",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "TealChicken",
+        "text": "Part of the adidas Shoes set.",
+        "value": "adidas Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2025-09-10T11:24:45Z",
       "description": "Show 'em off.",
       "id": "Shoes_ConfettiWagon",
@@ -535616,10 +538187,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_CrimsonSolace",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_crimsonsolace/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_crimsonsolace/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_crimsonsolace/smallicon.png"
       },
@@ -535719,6 +538288,72 @@
         "backendValue": "TealChicken",
         "text": "Part of the adidas Shoes set.",
         "value": "adidas Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1006",
+      "id": "Shoes_DareBergAdmit",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadmit/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadmit/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadmit/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Nike Cryoshot Mercurial Vapor R9",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "UnmarkedLeather",
+        "text": "Part of the NIKE Shoes set.",
+        "value": "NIKE Shoes"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1006",
+      "id": "Shoes_DareBergAdorn",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadorn/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadorn/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadorn/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Nike Air Force 1 'Galaxy'",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "UnmarkedLeather",
+        "text": "Part of the NIKE Shoes set.",
+        "value": "NIKE Shoes"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -535838,10 +538473,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_DoeViking",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_doeviking/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_doeviking/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_doeviking/smallicon.png"
       },
@@ -538218,10 +540851,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_JuggleFledBuff",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_jugglefledbuff/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_jugglefledbuff/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_jugglefledbuff/smallicon.png"
       },
@@ -538246,7 +540877,6 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_JuggleFledNexus",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_juggleflednexus/icon.png",
@@ -538273,10 +540903,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_JuggleFledWash",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_jugglefledwash/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_jugglefledwash/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_jugglefledwash/smallicon.png"
       },
@@ -541025,6 +543653,34 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1006",
+      "id": "Shoes_RoostStep",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_rooststep/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_rooststep/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_rooststep/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Talon'd Toesies",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2025-04-14T16:35:39Z",
       "description": "Show 'em off.",
       "id": "Shoes_RugbyTrunkCricket",
@@ -541459,6 +544115,39 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1006",
+      "id": "Shoes_SilverTempo",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Board Walkers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -542104,10 +544793,8 @@
     {
       "added": "2026-06-27T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1004",
       "id": "Shoes_StickyCroak",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_stickycroak/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_stickycroak/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_stickycroak/smallicon.png"
       },
@@ -542743,6 +545430,51 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-07-16T08:00:00Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1006",
+      "id": "Shoes_TideCompostZoo",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_tidecompostzoo/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_tidecompostzoo/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_tidecompostzoo/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Beach Bats",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "DC SERIES",
+        "value": "dc"
+      },
+      "series": {
+        "backendValue": "DCUSeries",
+        "colors": [
+          "007af1ff",
+          "0053a9ff",
+          "003f82ff",
+          "003169ff",
+          "001f47ff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/dcuseries.png",
+        "value": "DC SERIES"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "CosmeticShoes",
@@ -561078,6 +563810,35 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "id": "Spray_Arenas",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_arenas/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_arenas/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_arenas/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Crankin' 90s",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "Leave your mark.",
       "id": "Spray_AshenMagnus",
@@ -562704,6 +565465,40 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "id": "Spray_ChefTartar",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_cheftartar/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_cheftartar/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_cheftartar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Top Bins",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DogConductor",
+        "text": "Part of the Nike Football set.",
+        "value": "Nike Football"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2026-06-09T13:00:53Z",
       "description": "Leave your mark.",
       "id": "Spray_ChewyStave",
@@ -563938,6 +566733,41 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1023",
+      "id": "Spray_CrimpPerfume",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_crimpperfume/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_crimpperfume/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_crimpperfume/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Beach Blossom Ivy",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2023-06-12T21:47:52Z",
       "description": "Leave your mark.",
       "id": "Spray_CrispRover",
@@ -564559,6 +567389,41 @@
         "backendValue": "Perfection",
         "text": "Part of the Flawless set.",
         "value": "Flawless"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1013",
+      "id": "Spray_DiscoButler",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_discobutler/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_discobutler/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_discobutler/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "The Decked Knight",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaSpray",
@@ -568132,6 +570997,41 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1023",
+      "id": "Spray_HammerVice",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_hammervice/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_hammervice/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_hammervice/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Swim-n-Swipe",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2025-08-07T09:33:19Z",
       "description": "Leave your mark.",
       "id": "Spray_HangSpec",
@@ -568534,6 +571434,76 @@
         "backendValue": "AlphaOmen",
         "text": "Part of the Omega Harbinger set.",
         "value": "Omega Harbinger"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1011",
+      "id": "Spray_HornetBerm",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_hornetberm/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_hornetberm/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_hornetberm/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "King's Helm",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "GiantOwl",
+        "text": "Part of the Set_04 set.",
+        "value": "Set_04"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1023",
+      "id": "Spray_HumorShale",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_humorshale/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_humorshale/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_humorshale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Wipeout Harley",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "RiverFall",
+        "text": "Part of the Gotham City Summer set.",
+        "value": "Gotham City Summer"
       },
       "type": {
         "backendValue": "AthenaSpray",
@@ -584150,7 +587120,6 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "Leave your mark.",
-      "dynamicPakId": "1018",
       "id": "Spray_VigorKnack",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknack/icon.png",
@@ -584197,7 +587166,6 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "Leave your mark.",
-      "dynamicPakId": "1018",
       "id": "Spray_VigorKnackFNCS",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/spray_vigorknackfncs/icon.png",
@@ -589711,6 +592679,35 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Gentle as falling ash.",
+      "id": "Umbrella_BlazePuff",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/umbrella_blazepuff/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/umbrella_blazepuff/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Fire Sprite Shade",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "searchTags": [
+        "Umbrella"
+      ],
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      }
+    },
+    {
       "added": "2019-11-20T12:50:59Z",
       "description": "The fabled victory umbrella.",
       "id": "Umbrella_Bronze",
@@ -589719,6 +592716,35 @@
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/umbrella_bronze/smallicon.png"
       },
       "name": "The Umbrella",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "searchTags": [
+        "Umbrella"
+      ],
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Splash down.",
+      "id": "Umbrella_BubblePuff",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/umbrella_bubblepuff/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/umbrella_bubblepuff/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Water Sprite Shade",
       "rarity": {
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
@@ -589959,6 +592985,35 @@
         "text": "Part of the The Simpsons set.",
         "value": "The Simpsons"
       },
+      "type": {
+        "backendValue": "AthenaGlider",
+        "displayValue": "Glider",
+        "value": "glider"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Born to be airborne.",
+      "id": "Umbrella_CloudPuff",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/umbrella_cloudpuff/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/umbrella_cloudpuff/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Air Sprite Shade",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "searchTags": [
+        "Umbrella"
+      ],
       "type": {
         "backendValue": "AthenaGlider",
         "displayValue": "Glider",
@@ -611140,10 +614195,8 @@
     {
       "added": "2026-06-29T17:01:13Z",
       "description": "Show your style.",
-      "dynamicPakId": "1014",
       "id": "Wrap_ChefTartar",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_cheftartar/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_cheftartar/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_cheftartar/smallicon.png"
       },
@@ -612922,6 +615975,37 @@
         "backendValue": "ThinWing",
         "text": "Part of the Fly-entific Method set.",
         "value": "Fly-entific Method"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show your style.",
+      "id": "Wrap_CreamDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_creamdecoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_creamdecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Ivory Chessboard",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -616038,6 +619122,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show your style.",
+      "id": "Wrap_GothClaws",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_gothclaws/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_gothclaws/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Tour List",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BowText",
+        "text": "Part of the KATS Island Tour set.",
+        "value": "KATS Island Tour"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
       "added": "2024-11-02T17:09:31Z",
       "description": "Show your style.",
       "id": "Wrap_GothDevil",
@@ -619023,6 +622138,37 @@
         "backendValue": "MoonSleeve",
         "text": "Part of the Vermillion Dragon set.",
         "value": "Vermillion Dragon"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show your style.",
+      "id": "Wrap_MatteDecoy",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_mattedecoy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_mattedecoy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Obsidian Chessboard",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GreenFire",
+        "text": "Part of the Chess Kingdom set.",
+        "value": "Chess Kingdom"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -624517,6 +627663,37 @@
       }
     },
     {
+      "added": "2026-07-16T08:32:04Z",
+      "description": "Show your style.",
+      "id": "Wrap_SkyRuled",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_skyruled/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_skyruled/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Starline",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "GalaxyDog",
+        "text": "Part of the Cosmic Titan set.",
+        "value": "Cosmic Titan"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
       "added": "2025-10-02T12:10:53Z",
       "description": "Show your style.",
       "id": "Wrap_SleepyDuck",
@@ -627892,10 +631069,8 @@
     {
       "added": "2026-07-11T00:00:00Z",
       "description": "Show your style.",
-      "dynamicPakId": "1016",
       "id": "Wrap_TrustFan",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_trustfan/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_trustfan/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_trustfan/smallicon.png"
       },
@@ -628399,10 +631574,8 @@
     {
       "added": "2026-06-26T15:30:37Z",
       "description": "Show your style.",
-      "dynamicPakId": "1018",
       "id": "Wrap_VigorKnackGolf",
       "images": {
-        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_vigorknackgolf/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_vigorknackgolf/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_vigorknackgolf/smallicon.png"
       },
