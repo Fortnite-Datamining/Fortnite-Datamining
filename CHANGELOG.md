@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-16
+- **02:28** Item Shop, News - +19 new (Phrenzy, Build Up, Shout!, Puncture Pack, Combi-Chem Cylinder, +14 more) - -35 removed
+
 ## 2026-07-15
 - **23:56** Item Shop, News, Epic Content Pages - +1 new (Live - The Odyssey Cup) - -1 removed
 - **22:55** News - +1 new (Live - The Odyssey Cup) - -1 removed
