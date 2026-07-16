@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-16
+- **17:10** BR Cosmetics, LEGO Cosmetics, AES Keys, Epic Content Pages - +10 new (Beckham's Number, Club Crest, David Beckham, Club Owner David Beckham, Beckham's Shot, +5 more)
 - **15:54** BR Cosmetics
 - **14:05** BR Cosmetics, Item Shop, News, AES Keys - +4 new (Agamemnon’s Shield, Agamemnon, Agamemnon’s Sword, Hot Bat Summer - Live Now!) - -1 removed
 - **10:04** Build update: `++Fortnite+Release-41.20-CL-55550516`

@@ -7485,6 +7485,94 @@
       }
     },
     {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "The iconic number 7",
+      "dynamicPakId": "1005",
+      "id": "Backpack_CiderPetalClover",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_ciderpetalclover/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_ciderpetalclover/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Beckham's Number",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "Command the pitch.",
+      "dynamicPakId": "1005",
+      "id": "Backpack_CiderPetalFlax",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_ciderpetalflax/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_ciderpetalflax/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Club Crest",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-11-20T15:08:06Z",
       "description": "Always be ready for a curiosity voyage.",
       "id": "Backpack_CinderGale",
@@ -112168,6 +112256,138 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "Game ready.",
+      "dynamicPakId": "1005",
+      "id": "Character_CiderPetalClover",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalclover/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_ciderpetalclover/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_ciderpetalclover/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalclover/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "David Beckham",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalclover/variants/parts/stage1.png",
+              "name": "On",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalclover/variants/parts/stage2.png",
+              "name": "Off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Shirt"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "Take charge of the field.",
+      "dynamicPakId": "1005",
+      "id": "Character_CiderPetalFlax",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalflax/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_ciderpetalflax/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_ciderpetalflax/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalflax/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Club Owner David Beckham",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalflax/variants/parts/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ciderpetalflax/variants/parts/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Sunglasses"
+        }
+      ]
     },
     {
       "added": "2025-11-20T15:08:06Z",
@@ -300453,6 +300673,50 @@
       }
     },
     {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "Go for goal.",
+      "dynamicPakId": "1005",
+      "id": "EID_CiderPetalClover",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_ciderpetalclover/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_ciderpetalclover/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Beckham's Shot",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2023-06-12T21:47:52Z",
       "description": "Everything is perfectly alright.",
       "id": "EID_CinderMax",
@@ -373510,6 +373774,49 @@
         "backendValue": "ProcessNotebook",
         "text": "Part of the The Mandalorian set.",
         "value": "The Mandalorian"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1005",
+      "id": "Emoticon_CiderPetal",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_ciderpetal/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Club Shield",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -457651,6 +457958,94 @@
         "backendValue": "TreeHam",
         "text": "Part of the Jingle Pig set.",
         "value": "Jingle Pig"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "True precision.",
+      "dynamicPakId": "1005",
+      "id": "Pickaxe_CiderPetalClover",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ciderpetalclover/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ciderpetalclover/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Number Seven Scythe",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-16T16:00:35Z",
+      "description": "The perfect strike.",
+      "dynamicPakId": "1005",
+      "id": "Pickaxe_CiderPetalFlax",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ciderpetalflax/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ciderpetalflax/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Meteor Baller",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "PreciseShoes",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
