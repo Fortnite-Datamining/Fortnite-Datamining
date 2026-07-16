@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-16
+- **15:54** BR Cosmetics
 - **14:05** BR Cosmetics, Item Shop, News, AES Keys - +4 new (Agamemnon’s Shield, Agamemnon, Agamemnon’s Sword, Hot Bat Summer - Live Now!) - -1 removed
 - **10:04** Build update: `++Fortnite+Release-41.20-CL-55550516`
 - **02:28** Item Shop, News - +19 new (Phrenzy, Build Up, Shout!, Puncture Pack, Combi-Chem Cylinder, +14 more) - -35 removed
