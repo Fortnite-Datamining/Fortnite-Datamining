@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-16T17:35:42.813Z",
+  "lastModified": "2026-07-16T19:47:54.271Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -35393,7 +35393,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-06-29T15:52:37.142Z",
+    "lastModified": "2026-07-16T19:47:54.271Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -37497,6 +37497,41 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can complete John Wick quests to earn rewards",
+              "textID": "you can complete John Wick quests to earn rewards"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can complete weekly Slone quests to earn rewards",
+              "textID": "you can complete weekly Slone quests to earn rewards"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you need to be at an Extraction Site to use the Extraction Site Booster (an item that calls in a special Extraction Crate to boost any Sprite you extract there)",
+              "textID": "you need to be at an Extraction Site to use the Extraction Site Booster (an item that calls in a special Extraction Crate to boost any Sprite you extract there)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Extraction Site Booster is an item that calls in a special Extraction Crate to boost any Sprite you extract there",
+              "textID": "the Extraction Site Booster is an item that calls in a special Extraction Crate to boost any Sprite you extract there"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Sprite Locator is an item that helps you find a Chest with a random Sprite inside",
+              "textID": "the Sprite Locator is an item that helps you find a Chest with a random Sprite inside"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is a new circular menu (the Gizmo Wheel) that lets you swap between your Gizmos (items like the Portable Extractor) during a match",
+              "textID": "there is a new circular menu (the Gizmo Wheel) that lets you swap between your Gizmos (items like the Portable Extractor) during a match"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "if you lose a Sprite during a match, it doesn't disappear from your collection",
+              "textID": "if you lose a Sprite during a match, it doesn't disappear from your collection"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Gizmo you collect is a consumable that stays with you between matches (even after being eliminated)",
               "textID": "the Gizmo you collect is a consumable that stays with you between matches (even after being eliminated)"
             },
@@ -37906,6 +37941,26 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Innovation set (Outfit, Backbling, Pickaxe, and Glider) from the Slone quests is worth the effort.",
+              "textID": "The Innovation set (Outfit, Backbling, Pickaxe, and Glider) from the Slone quests is worth the effort."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The reward from the John Wick quests is worth the effort.",
+              "textID": "The reward from the John Wick quests is worth the effort."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When I use a Sprite Locator, it's easy to find the Sprite Chest it points me to.",
+              "textID": "When I use a Sprite Locator, it's easy to find the Sprite Chest it points me to."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When I find a Sprite in a match, it's easy to tell if I already have it.",
+              "textID": "When I find a Sprite in a match, it's easy to tell if I already have it."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "It's easy to tell what a Sprite's ability is based on the on-screen information.",
               "textID": "It's easy to tell what a Sprite's ability is based on the on-screen information."
             },
@@ -37973,16 +38028,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "My Sprite feels like my companion.",
               "textID": "My Sprite feels like my companion."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "I understand how to get a Gold Sprite.",
-              "textID": "I understand how to get a Gold Sprite."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "I understand how to get a Gummy Sprite.",
-              "textID": "I understand how to get a Gummy Sprite."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -38130,6 +38175,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Liking",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Gizmo Wheel, a new circular menu that lets you swap between all your Gizmos during a match",
+              "textID": "The Gizmo Wheel, a new circular menu that lets you swap between all your Gizmos during a match"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Extractaganza, the limited-time event where a friend bubble is placed on extraction sites, in Fortnite Battle Royale.",
@@ -38650,6 +38700,78 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_Playlists",
+            "FNBR_Main_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 8,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "When you don't equip a Sprite before a match, what's usually the reason? (Select all that apply)",
+                  "textID": "When you don't equip a Sprite before a match, what's usually the reason? (Select all that apply)"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I forget to do it",
+                    "textID": "I forget to do it"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't know how to do that",
+                    "textID": "I don't know how to do that"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't want to risk losing the Sprite",
+                    "textID": "I don't want to risk losing the Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I'm not sure which Sprite to use",
+                    "textID": "I'm not sure which Sprite to use"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't think it'll make enough of a difference",
+                    "textID": "I don't think it'll make enough of a difference"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Resummoning cost isn't worth it for a single match",
+                    "textID": "Resummoning cost isn't worth it for a single match"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I usually don't have a Sprite I want to use",
+                    "textID": "I usually don't have a Sprite I want to use"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't want to get targeted at Starter Island",
+                    "textID": "I don't want to get targeted at Starter Island"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "FNBR_SpriteNotEquipped_Reasons_MC",
+          "surveyTags": [
+            "FNBR_Main_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
