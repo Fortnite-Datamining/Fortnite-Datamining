@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-17
+- **00:59** Item Shop, Epic Content Pages - +25 new (Antheia, Ballad Basher, Titan, Hart's Lyre, Hexxed, +20 more) - -27 removed
+
 ## 2026-07-16
 - **21:10** Epic Content Pages
 - **19:59** Epic Content Pages
