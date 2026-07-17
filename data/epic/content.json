@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-17T21:23:43.258Z",
+  "lastModified": "2026-07-17T22:35:30.970Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -55188,10 +55188,36 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-07-15T16:12:41.050Z",
+    "lastModified": "2026-07-17T22:35:30.970Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabackpack-794-jurassicarchaeologysummer-ruby-1024x1024-87e320d80f12.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabackpack-794-jurassicarchaeologysummer-topaz-1024x1024-02c9d93b84c9.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabackpack-794-jurassicarchaeologysummer-amethyst-1024x1024-4809fba9859e.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabackpack-794-jurassicarchaeologysummer-emerald-1024x1024-8da3e2088567.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/Content/NewDisplayAssets/DAv2_BID_794_JurassicArchaeologySummer.DAv2_BID_794_JurassicArchaeologySummer"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [

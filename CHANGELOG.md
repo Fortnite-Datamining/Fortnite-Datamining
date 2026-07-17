@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-17
+- **23:22** News, Epic Content Pages - +1 new (Live - David Beckham Icon Cup) - -1 removed
 - **22:12** Epic Content Pages
 - **16:11** BR Cosmetics, Item Shop
 - **14:39** Epic Content Pages
