@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-18
+- **00:53** Item Shop, Epic Content Pages - +69 new (Joey Caliente, Liquid Regret, The Mastermind, Aerial Threat, Star Striker, +64 more) - -57 removed
+
 ## 2026-07-17
 - **23:22** News, Epic Content Pages - +1 new (Live - David Beckham Icon Cup) - -1 removed
 - **22:12** Epic Content Pages
