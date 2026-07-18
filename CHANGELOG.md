@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-18
+- **13:05** BR Cosmetics, Item Shop
 - **03:51** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **00:53** Item Shop, Epic Content Pages - +69 new (Joey Caliente, Liquid Regret, The Mastermind, Aerial Threat, Star Striker, +64 more) - -57 removed
 
