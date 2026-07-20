@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-20
+- **21:40** Epic Content Pages
 - **13:24** Item Shop, News - +1 new (Mastery Monday Live Now) - -1 removed
 - **01:04** Item Shop - +44 new (Dark Cloud Katana, Sig, Polarity, Blue Shock, Drumbeat, +39 more) - -72 removed
 

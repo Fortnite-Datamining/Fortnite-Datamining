@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-19T21:07:02.655Z",
+  "lastModified": "2026-07-20T21:15:38.967Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -37896,7 +37896,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-07-17T21:23:43.258Z",
+    "lastModified": "2026-07-20T21:15:38.967Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40421,6 +40421,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Ecosystem_WereYouAwareThat",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there was a Shiny Hour (better chance of finding Sprite variants) on Saturday, July 18",
+              "textID": "there was a Shiny Hour (better chance of finding Sprite variants) on Saturday, July 18"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Extractaganza (limited-time event where a friend bubble is placed on extraction sites) is happening in Fortnite Battle Royale",
@@ -47011,6 +47016,11 @@
                   "textID": "Which of these games have you played in the last two weeks?"
                 },
                 "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Palworld",
+                    "textID": "Palworld"
+                  },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Dota (Any)",
