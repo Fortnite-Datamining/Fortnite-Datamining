@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-20
+- **01:04** Item Shop - +44 new (Dark Cloud Katana, Sig, Polarity, Blue Shock, Drumbeat, +39 more) - -72 removed
+
 ## 2026-07-19
 - **22:23** Item Shop
 - **21:22** Item Shop, AES Keys, Epic Content Pages
