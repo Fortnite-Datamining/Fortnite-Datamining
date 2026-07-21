@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-21
+- **02:12** Item Shop - +58 new (Poison Petals, Strickland Propane Tank, Mailbox, HOYEAH!, Birdie, +53 more) - -36 removed
+
 ## 2026-07-20
 - **22:55** Item Shop, Epic Content Pages
 - **21:40** Epic Content Pages
