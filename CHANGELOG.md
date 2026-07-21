@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-21
+- **23:27** BR Cosmetics, Item Shop, Epic Content Pages
 - **22:00** Item Shop, Epic Content Pages
 - **16:19** Jam Tracks, News - +2 new (Freakin' Out, Adorable Allies and Big Adventures Await) - -1 removed
 - **14:33** News - +1 new (Chlorophyll Ivy Outfit) - -1 removed
