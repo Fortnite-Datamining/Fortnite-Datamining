@@ -2087,6 +2087,27 @@
       "vehicleId": "VCID_Body_RyzaRevT1"
     },
     {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Go anywhere.",
+      "id": "CarBody_SandScreen",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_sandscreen/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_sandscreen/small.png"
+      },
+      "name": "Jeep Wrangler",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_SandScreen"
+    },
+    {
       "added": "2024-06-25T00:00:00Z",
       "description": "Focus on the drive.",
       "id": "CarBody_Sassy",
@@ -18262,6 +18283,90 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_RyzaRevT2_Wings"
+    },
+    {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Trooper. Jeep Wrangler custom decal.",
+      "id": "CarSkin_SandScreen01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen01/small.png"
+      },
+      "name": "Jeep Wrangler Willys",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandScreen01"
+    },
+    {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Feelin' ducky? Jeep Wrangler custom decal.",
+      "id": "CarSkin_SandScreen02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen02/small.png"
+      },
+      "name": "Rubber Duck",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandScreen02"
+    },
+    {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Off the map. Jeep Wrangler custom decal.",
+      "id": "CarSkin_SandScreen03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen03/small.png"
+      },
+      "name": "StoneBlue",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandScreen03"
+    },
+    {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Totally radical bruh. Jeep Wrangler custom decal.",
+      "id": "CarSkin_SandScreen04",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen04/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandscreen04/small.png"
+      },
+      "name": "Rad Racer",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandScreen04"
     },
     {
       "added": "2024-06-25T00:00:00Z",
@@ -37146,6 +37251,48 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Sakura"
+    },
+    {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Jeep Wrangler Wheels.",
+      "id": "Wheel_SandScreen01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandscreen01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandscreen01/small.png"
+      },
+      "name": "Jeep Wrangler",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_SandScreen01"
+    },
+    {
+      "added": "2026-07-22T13:00:42Z",
+      "description": "Tough mud.",
+      "id": "Wheel_SandScreen02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandscreen02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandscreen02/small.png"
+      },
+      "name": "Jeep Wrangler Off-Road",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_SandScreen02"
     },
     {
       "added": "2024-06-25T00:00:00Z",
