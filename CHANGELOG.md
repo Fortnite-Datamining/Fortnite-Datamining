@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-22
+- **16:57** Jam Tracks - +1 new (Big Guy (from "The SpongeBob Movie: Search for SquarePants”))
 - **15:29** Jam Tracks, Epic Content Pages
 - **13:41** Cars, Item Shop, AES Keys - +7 new (Jeep Wrangler, Jeep Wrangler Willys, Rubber Duck, StoneBlue, Rad Racer, +2 more)
 - **00:56** Item Shop, Epic Content Pages - +38 new (End Game, Noodle's Axe, Chicken, One-Eyed Octopus, Peely Bone, +33 more) - -38 removed
