@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-22
+- **00:56** Item Shop, Epic Content Pages - +38 new (End Game, Noodle's Axe, Chicken, One-Eyed Octopus, Peely Bone, +33 more) - -38 removed
+
 ## 2026-07-21
 - **23:27** BR Cosmetics, Item Shop, Epic Content Pages
 - **22:00** Item Shop, Epic Content Pages
