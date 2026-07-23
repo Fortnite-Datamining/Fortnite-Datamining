@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-23
+- **15:08** BR Cosmetics, Instruments, Item Shop, AES Keys, Banners - +15 new (Spicefish, Bikini Bottom Jellyfish, Rockstarfish, K-BLUB Special, Bikini Bottom Ice Spice, +10 more)
 - **12:57** News - +1 new (Step into Springfield in Reload - July 30) - -1 removed
 - **06:14** News - +1 new (New Cube Sprites Arrive on Thursday) - -1 removed
 - **03:19** Item Shop, Epic Content Pages - +44 new (Galaxy Grappler Bundle, Starry Sneakers, The Flash, Kamish's Wrath, Celestia, +39 more) - -29 removed

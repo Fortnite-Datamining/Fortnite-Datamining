@@ -2710,6 +2710,29 @@
     {
       "category": "BattleRoyale",
       "description": "A new icon for your banner. Assign it in the Locker.",
+      "devName": "SpendPlume",
+      "fullUsageRights": true,
+      "id": "Banner_SpendPlume",
+      "images": {
+        "icon": "https://fortnite-api.com/images/banners/banner_spendplume/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/banners/banner_spendplume/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Banner Icon",
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      }
+    },
+    {
+      "category": "BattleRoyale",
+      "description": "A new icon for your banner. Assign it in the Locker.",
       "devName": "Icon_SquibblySquid",
       "fullUsageRights": true,
       "id": "Banner_SquibblySquid",

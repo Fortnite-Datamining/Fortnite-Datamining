@@ -11658,6 +11658,51 @@
       }
     },
     {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Swim against the current.",
+      "dynamicPakId": "1003",
+      "id": "Backpack_DangerIndex",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Spicefish",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "HomeSkeleton",
+        "text": "Part of the Ice Spice set.",
+        "value": "Ice Spice"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-01-14T09:36:24Z",
       "description": "You don't wanna see the things it's flayed.",
       "id": "Backpack_DangerMojo",
@@ -20560,6 +20605,141 @@
         "displayValue": "Back Bling",
         "value": "backpack"
       }
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Fresh from the net.",
+      "dynamicPakId": "1010",
+      "id": "Backpack_GainSneeze",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Bikini Bottom Jellyfish",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "It's not mayonaise, but it is an instrument.",
+      "dynamicPakId": "1010",
+      "id": "Backpack_GainSneeze_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Rockstarfish",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/variants/particle/particle1.png",
+              "name": "Cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Sing a song of Patrick.",
+      "dynamicPakId": "1010",
+      "id": "Backpack_GainSneeze_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "K-BLUB Special",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/variants/particle/particle1.png",
+              "name": "Cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2023-02-14T10:24:42Z",
@@ -117008,6 +117188,51 @@
         "value": "Toy Story"
       },
       "showcaseVideo": "1W09Ml64xWQ",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Who raps in a pineapple under the sea?",
+      "dynamicPakId": "1003",
+      "id": "Character_DangerIndex",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Bikini Bottom Ice Spice",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "HomeSkeleton",
+        "text": "Part of the Ice Spice set.",
+        "value": "Ice Spice"
+      },
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -285090,6 +285315,33 @@
       }
     },
     {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "No, this is Patrick.",
+      "dynamicPakId": "1010",
+      "id": "Companion_SpendPlume",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/smallicon.png"
+      },
+      "name": "Patrick Star",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      }
+    },
+    {
       "added": "2026-06-06T03:03:15Z",
       "description": "He's a good dog.",
       "id": "Companion_SphereDaily",
@@ -339230,6 +339482,51 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Lookin' tough, big guy.",
+      "dynamicPakId": "1003",
+      "id": "EID_SeaFloor",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Big Guy (From \\\"The Spongebob Movie: Search for SquarePants\\",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "HomeSkeleton",
+        "text": "Part of the Ice Spice set.",
+        "value": "Ice Spice"
       },
       "type": {
         "backendValue": "AthenaDance",
@@ -461173,6 +461470,51 @@
       }
     },
     {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Stay shady.",
+      "dynamicPakId": "1003",
+      "id": "Pickaxe_DangerIndex",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Ice's Parasol",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "HomeSkeleton",
+        "text": "Part of the Ice Spice set.",
+        "value": "Ice Spice"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-01-14T09:36:24Z",
       "description": "You don't wanna see the things it's flayed.",
       "id": "Pickaxe_DangerMojo",
@@ -468271,6 +468613,174 @@
         "backendValue": "NeverFall",
         "text": "Part of the Unfurgettable Poise set.",
         "value": "Unfurgettable Poise"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Just look at that form.",
+      "dynamicPakId": "1010",
+      "id": "Pickaxe_GainSneeze",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Patrick's Ultimate Cone",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "It's not mayonaise, but it is an instrument.",
+      "dynamicPakId": "1010",
+      "id": "Pickaxe_GainSneeze_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Rockstarfish",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/variants/particle/particle1.png",
+              "name": "Cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Sing a song of Patrick.",
+      "dynamicPakId": "1010",
+      "id": "Pickaxe_GainSneeze_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "K-BLUB Special",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/variants/particle/particle1.png",
+              "name": "Cel",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/variants/particle/particle2.png",
+              "name": "Gradient",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
+    },
+    {
+      "added": "2026-07-23T14:00:30Z",
+      "description": "Let's go jellyfishing!",
+      "dynamicPakId": "1010",
+      "id": "Pickaxe_GainSneezeVital",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 41,
+        "chapter": "7",
+        "season": "3",
+        "text": "Introduced in Chapter 7, Season 3."
+      },
+      "name": "Jellyfish Net",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FastTruck",
+        "text": "Part of the SpongeBob SquarePants set.",
+        "value": "SpongeBob SquarePants"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
