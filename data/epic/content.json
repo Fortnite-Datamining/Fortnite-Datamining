@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-23T00:04:34.343Z",
+  "lastModified": "2026-07-23T21:31:28.463Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -38533,10 +38533,66 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-07-22T19:50:59.257Z",
+    "lastModified": "2026-07-23T21:31:28.463Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "Switch_Modular_Rate",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "childConditions": [
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "comparisonValue": ".03",
+                  "operation": "LessThan",
+                  "type": "Random"
+                }
+              ],
+              "comparisonValue": "Switch",
+              "operation": "EqualTo",
+              "type": "Platform"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "Switch_Main_Rate",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "childConditions": [
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "comparisonValue": ".01",
+                  "operation": "LessThan",
+                  "type": "Random"
+                }
+              ],
+              "comparisonValue": "Switch",
+              "operation": "EqualTo",
+              "type": "Platform"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "Switch_Cooldown",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "comparisonValue": "60",
+              "conditionInfo": [
+                "Switch_Modular_Surveys",
+                "Switch_Main_Surveys"
+              ],
+              "operation": "GreaterThan",
+              "type": "MostRecentlyCompleted"
+            }
+          ]
+        },
         {
           "_type": "Player Survey V2 - Condition Group",
           "conditionGroupID": "HorizonCopper_MandoGrogu_Playlists",
@@ -40274,6 +40330,32 @@
       "customTextReplacements": [
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "Switch_Likert_Agreement",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite takes up too much storage space on my Nintendo Switch.",
+              "textID": "Fortnite takes up too much storage space on my Nintendo Switch."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Performance problems make me play Fortnite less on Nintendo Switch.",
+              "textID": "Performance problems make me play Fortnite less on Nintendo Switch."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The controls in Fortnite Battle Royale on Nintendo Switch feel too complex.",
+              "textID": "The controls in Fortnite Battle Royale on Nintendo Switch feel too complex."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It's easy to aim and shoot when I play Fortnite Battle Royale on Nintendo Switch.",
+              "textID": "It's easy to aim and shoot when I play Fortnite Battle Royale on Nintendo Switch."
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Temporary_CTR"
         },
         {
@@ -41960,6 +42042,485 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Modular_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Please rate how much you agree or disagree with the following statement:\n{Switch_Likert_Agreement}",
+                  "textID": "Please rate how much you agree or disagree with the following statement:\n{Switch_Likert_Agreement}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Disagree",
+                    "textID": "Strongly Disagree"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Agree",
+                    "textID": "Strongly Agree"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Switch_Likert_Agreement",
+          "surveyTags": [
+            "Switch_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Main_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How would you describe your experience playing Fortnite on your Nintendo Switch? ",
+                  "textID": "How would you describe your experience playing Fortnite on your Nintendo Switch? "
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Negative",
+                    "textID": "Very Negative"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Positive",
+                    "textID": "Very Positive"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Switch_Platform_Rating",
+          "surveyTags": [
+            "Switch_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Main_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 7,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following would most improve your experience playing Fortnite on Nintendo Switch?",
+                  "textID": "Which of the following would most improve your experience playing Fortnite on Nintendo Switch?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Smoother frame rate",
+                    "textID": "Smoother frame rate"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sharper image quality",
+                    "textID": "Sharper image quality"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "More responsive controls",
+                    "textID": "More responsive controls"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "More visible on-screen elements",
+                    "textID": "More visible on-screen elements"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Faster loading screens",
+                    "textID": "Faster loading screens"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Smaller game updates",
+                    "textID": "Smaller game updates"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Game content loading faster",
+                    "textID": "Game content loading faster"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "Switch_Platform_TopImprovement",
+          "surveyTags": [
+            "Switch_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Main_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 7,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following technical issues have you experienced while playing Fortnite on your Nintendo Switch when docked (on your TV)? Select all that apply.",
+                  "textID": "Which of the following technical issues have you experienced while playing Fortnite on your Nintendo Switch when docked (on your TV)? Select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Hard to see enemies",
+                    "textID": "Hard to see enemies"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Unresponsive controls",
+                    "textID": "Unresponsive controls"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Low frame rate (i.e., the game looks choppy)",
+                    "textID": "Low frame rate (i.e., the game looks choppy)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Blurry graphics",
+                    "textID": "Blurry graphics"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Laggy in intense moments",
+                    "textID": "Laggy in intense moments"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Freezes when loading new areas",
+                    "textID": "Freezes when loading new areas"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "My Switch gets too hot",
+                    "textID": "My Switch gets too hot"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Switch_Platform_DockedIssues_MC",
+          "surveyTags": [
+            "Switch_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Main_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following technical issues have you experienced while playing Fortnite on your Nintendo Switch handheld (not on your TV)? Select all that apply.",
+                  "textID": "Which of the following technical issues have you experienced while playing Fortnite on your Nintendo Switch handheld (not on your TV)? Select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Icons are too small",
+                    "textID": "Icons are too small"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Text too small to read",
+                    "textID": "Text too small to read"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Hard to see enemies",
+                    "textID": "Hard to see enemies"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Unresponsive controls",
+                    "textID": "Unresponsive controls"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Low frame rate (i.e., the game looks choppy)",
+                    "textID": "Low frame rate (i.e., the game looks choppy)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Blurry graphics",
+                    "textID": "Blurry graphics"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Laggy in intense moments",
+                    "textID": "Laggy in intense moments"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Freezes when loading new areas",
+                    "textID": "Freezes when loading new areas"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "My Switch gets too hot",
+                    "textID": "My Switch gets too hot"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Switch_Platform_HandheldIssues_MC",
+          "surveyTags": [
+            "Switch_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Main_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following technical issues have you experienced while playing Fortnite on your Nintendo Switch? Select all that apply.",
+                  "textID": "Which of the following technical issues have you experienced while playing Fortnite on your Nintendo Switch? Select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Low frame rate (i.e., the game looks choppy)",
+                    "textID": "Low frame rate (i.e., the game looks choppy)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Game crashes or freezes",
+                    "textID": "Game crashes or freezes"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Game content loads too slowly",
+                    "textID": "Game content loads too slowly"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Hard to see distant enemies",
+                    "textID": "Hard to see distant enemies"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Unresponsive controls",
+                    "textID": "Unresponsive controls"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Audio cutting out",
+                    "textID": "Audio cutting out"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Audio out of sync",
+                    "textID": "Audio out of sync"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Audio crackling",
+                    "textID": "Audio crackling"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "My Switch gets too hot",
+                    "textID": "My Switch gets too hot"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Fast battery drain",
+                    "textID": "Fast battery drain"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Switch_Platform_TechnicalIssues_MC",
+          "surveyTags": [
+            "Switch_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Switch_Main_Rate",
+            "Global_Cooldown",
+            "Switch_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Have you felt any of the following while playing Fortnite on Nintendo Switch? Select all that apply.",
+                  "textID": "Have you felt any of the following while playing Fortnite on Nintendo Switch? Select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "My controller feels slow to respond",
+                    "textID": "My controller feels slow to respond"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "The game looks low quality",
+                    "textID": "The game looks low quality"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "The game doesn't run smoothly",
+                    "textID": "The game doesn't run smoothly"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Scenery or objects take too long to load",
+                    "textID": "Scenery or objects take too long to load"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Characters and outfits take too long to load",
+                    "textID": "Characters and outfits take too long to load"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Textures take too long to load",
+                    "textID": "Textures take too long to load"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Loading screens take too long",
+                    "textID": "Loading screens take too long"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Starting Fortnite takes too long",
+                    "textID": "Starting Fortnite takes too long"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Slow downloads",
+                    "textID": "Slow downloads"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Slow matchmaking",
+                    "textID": "Slow matchmaking"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "The menus feel too complex",
+                    "textID": "The menus feel too complex"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "It is hard to find what I want to play",
+                    "textID": "It is hard to find what I want to play"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't have enough space to store the game",
+                    "textID": "I don't have enough space to store the game"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Switch_Platform_GeneralIssues_MC",
+          "surveyTags": [
+            "Switch_Main_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
