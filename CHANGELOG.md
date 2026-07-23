@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-23
+- **06:14** News - +1 new (New Cube Sprites Arrive on Thursday) - -1 removed
 - **03:19** Item Shop, Epic Content Pages - +44 new (Galaxy Grappler Bundle, Starry Sneakers, The Flash, Kamish's Wrath, Celestia, +39 more) - -29 removed
 
 ## 2026-07-22
