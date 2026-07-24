@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-24
+- **21:35** News, Epic Content Pages - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **17:02** News - +1 new (Live - EU - FNCS Heats) - -1 removed
 - **00:55** BR Cosmetics, Item Shop, AES Keys - +29 new (Move (Adapted), Patrick Star, Facet, Capacitor, Bikini Bottom Ice Spice & Patrick Star Bundle, +24 more) - -42 removed
 

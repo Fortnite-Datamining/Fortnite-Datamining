@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-23T22:47:50.131Z",
+  "lastModified": "2026-07-24T20:21:53.564Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -38650,7 +38650,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-07-23T21:31:28.463Z",
+    "lastModified": "2026-07-24T20:21:53.564Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40097,7 +40097,8 @@
                 "Playlist_Habanero_Figment*",
                 "Playlist_Delulu*",
                 "Playlist_ForbiddenFruit*",
-                "Playlist_HabaneroSolo*"
+                "Playlist_HabaneroSolo*",
+                "Playlist_NoBuildBR_Habanero*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -42159,6 +42160,115 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Shooters_Playlists",
+            "ModeBased_Main_Rate",
+            "Global_Cooldown",
+            "Shooters_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "On a scale from 1-5, how would you rate the Storm's damage?",
+                  "textID": "On a scale from 1-5, how would you rate the Storm's damage?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Low",
+                    "textID": "Too Low"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too High",
+                    "textID": "Too High"
+                  }
+                ],
+                "type": "Rating"
+              }
+            },
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "On a scale from 1-5, how would you rate the Storm's movement speed?",
+                  "textID": "On a scale from 1-5, how would you rate the Storm's movement speed?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Slow",
+                    "textID": "Too Slow"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Fast",
+                    "textID": "Too Fast"
+                  }
+                ],
+                "type": "Rating"
+              }
+            },
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Overall, how would you rate the amount of time you have between Storm cycles?",
+                  "textID": "Overall, how would you rate the amount of time you have between Storm cycles?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Short",
+                    "textID": "Too Short"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Long",
+                    "textID": "Too Long"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Shooters_StormDamageSpeedTime",
+          "surveyTags": [
+            "Shooters_Main_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
