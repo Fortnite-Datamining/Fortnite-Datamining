@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-24
+- **00:55** BR Cosmetics, Item Shop, AES Keys - +29 new (Move (Adapted), Patrick Star, Facet, Capacitor, Bikini Bottom Ice Spice & Patrick Star Bundle, +24 more) - -42 removed
+
 ## 2026-07-23
 - **23:26** Item Shop, Epic Content Pages
 - **22:07** Epic Content Pages
