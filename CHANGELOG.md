@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-25
+- **13:15** BR Cosmetics
 - **11:42** Item Shop
 - **03:46** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **00:05** Item Shop - +46 new (Omni-Man, Royale Dragon, Reaniman Arm, Omni-Man Emblem Cape, Invincible, +41 more) - -37 removed
