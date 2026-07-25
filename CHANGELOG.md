@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-25
+- **21:51** Item Shop, Epic Content Pages
 - **20:44** News - +1 new (Live - NAC - FNCS Heats) - -1 removed
 - **19:44** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **14:45** News - +1 new (Live - EU - FNCS Heats) - -1 removed
