@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-25
+- **00:05** Item Shop - +46 new (Omni-Man, Royale Dragon, Reaniman Arm, Omni-Man Emblem Cape, Invincible, +41 more) - -37 removed
+
 ## 2026-07-24
 - **22:57** Item Shop, News, Epic Content Pages - +1 new (Live - NAC - FNCS Heats) - -1 removed
 - **21:35** News, Epic Content Pages - +1 new (Baba Yaga Hits the Scene) - -1 removed
