@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-25
+- **14:45** News - +1 new (Live - EU - FNCS Heats) - -1 removed
 - **13:15** BR Cosmetics
 - **11:42** Item Shop
 - **03:46** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
