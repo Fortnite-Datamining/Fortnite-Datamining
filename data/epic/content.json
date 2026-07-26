@@ -345,7 +345,7 @@
     }
   },
   "crewscreendata": {
-    "_activeDate": "2026-07-01T00:00:00.000Z",
+    "_activeDate": "2026-07-26T17:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGameCrewScreenData",
@@ -471,7 +471,7 @@
             },
             {
               "_type": "Crew Tile Data",
-              "bHasNextCrewPackDetails": false,
+              "bHasNextCrewPackDetails": true,
               "crewPackItems": [
                 "AthenaCharacter:character_futurerabbit",
                 "AthenaBackpack:backpack_futurerabbit",
@@ -494,25 +494,25 @@
                 "title": "July Crew Pack"
               },
               "nextCrewPackItems": [
-                "AthenaCharacter:character_futurerabbit",
-                "AthenaBackpack:backpack_futurerabbit",
-                "AthenaPickaxe:pickaxe_futurerabbit"
+                "AthenaCharacter:character_vertet",
+                "AthenaBackpack:backpack_vertet",
+                "AthenaPickaxe:pickaxe_vertet"
               ],
               "nextDetails": {
                 "_type": "Crew Tile Details Data",
-                "backgroundImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-displaytile-1920x1080-1920x1080-a5c9c7d544f5.png",
-                "color1Hex": "5A2786",
-                "color2Hex": "FFDB77",
+                "backgroundImageURL": "https://cdn2.unrealengine.com/2026august-fneco-41-30-august-crew-displaytile-1920x1080-1920x1080-7cdefd22f5f3.png",
+                "color1Hex": "45337C",
+                "color2Hex": "C870FF",
                 "color3Hex": "",
-                "color4Hex": "CF902E",
+                "color4Hex": "6F3FB2",
                 "colorA": "",
                 "colorB": "",
                 "colorC": "",
-                "description": "Get the Bunnii O'Hare Outfit, Back Bling, and Pickaxe!",
-                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-displaytile-260x160-260x160-6b9554dbb459.png",
+                "description": "Get the Mortuus X Outfit, Back Bling, and Pickaxe!",
+                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026august-fneco-41-30-august-crew-displaytile-260x160-260x160-684910e9d084.png",
                 "tag": "MonthlyBenefit",
-                "tileImageURL": "https://cdn2.unrealengine.com/2026june-fneco-41-10-july-crew-displaytile-260x160-260x160-6b9554dbb459.png",
-                "title": "July Crew Pack"
+                "tileImageURL": "https://cdn2.unrealengine.com/2026august-fneco-41-30-august-crew-displaytile-260x160-260x160-684910e9d084.png",
+                "title": "August Crew Pack"
               },
               "tileLabel": "Crew Pack",
               "tileType": "CrewPack"
@@ -1230,7 +1230,7 @@
         }
       ]
     },
-    "lastModified": "2026-06-30T18:05:33.887Z",
+    "lastModified": "2026-07-24T19:31:28.201Z",
     "progressiveInfo": {
       "_type": "SubscriptionProgressiveInfo",
       "infoModalEntries": [
