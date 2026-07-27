@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-27
+- **02:31** Item Shop - +35 new (Raijū, King's Piece, Obsidian Chessboard, Peace Approved, Eagly, +30 more) - -49 removed
+
 ## 2026-07-26
 - **18:30** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **17:05** Epic Content Pages
