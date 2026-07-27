@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-27
+- **17:45** Epic Content Pages
 - **13:24** News - +1 new (Mastery Monday Live Now) - -1 removed
 - **02:31** Item Shop - +35 new (Raijū, King's Piece, Obsidian Chessboard, Peace Approved, Eagly, +30 more) - -49 removed
 
