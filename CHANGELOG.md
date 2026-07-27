@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-27
+- **23:32** News - +1 new (Live - FNCS Last Chance Qualifier) - -1 removed
 - **22:02** Item Shop, Epic Content Pages
 - **17:45** Epic Content Pages
 - **13:24** News - +1 new (Mastery Monday Live Now) - -1 removed
