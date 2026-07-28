@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-28
+- **15:16** News, Epic Content Pages - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **02:06** Item Shop, News - +32 new (Ben 10 Bundle, Bear Brained, Scrappy, Six String, Azmuth, +27 more) - -40 removed
 
 ## 2026-07-27
