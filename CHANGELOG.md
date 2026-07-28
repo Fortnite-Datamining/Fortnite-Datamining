@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-28
+- **16:57** News, Epic Content Pages - +1 new (Live - EU - FNCS Last Chance Lobby) - -1 removed
 - **15:16** News, Epic Content Pages - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **02:06** Item Shop, News - +32 new (Ben 10 Bundle, Bear Brained, Scrappy, Six String, Azmuth, +27 more) - -40 removed
 
