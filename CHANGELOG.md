@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-28
+- **02:06** Item Shop, News - +32 new (Ben 10 Bundle, Bear Brained, Scrappy, Six String, Azmuth, +27 more) - -40 removed
+
 ## 2026-07-27
 - **23:32** News - +1 new (Live - FNCS Last Chance Qualifier) - -1 removed
 - **22:02** Item Shop, Epic Content Pages
