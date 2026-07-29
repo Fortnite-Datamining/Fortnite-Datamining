@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-29
+- **19:51** Epic Content Pages
 - **16:50** Epic Content Pages
 - **15:27** News
 - **13:13** News - +1 new (New Sprites Hit the Island This Thursday) - -1 removed
