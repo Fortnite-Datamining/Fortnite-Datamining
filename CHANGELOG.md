@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-29
+- **02:09** Item Shop - +23 new (Mantra, Desirable, Dummy, like JENNIE, Llamacorn Shield, +18 more) - -38 removed
+
 ## 2026-07-28
 - **23:55** News, Epic Content Pages - +1 new (Live - NAC - FNCS Last Chance Lobby) - -1 removed
 - **22:32** Item Shop, Epic Content Pages
