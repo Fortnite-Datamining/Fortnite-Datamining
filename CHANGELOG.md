@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-29
+- **15:27** News
 - **13:13** News - +1 new (New Sprites Hit the Island This Thursday) - -1 removed
 - **05:35** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **02:09** Item Shop - +23 new (Mantra, Desirable, Dummy, like JENNIE, Llamacorn Shield, +18 more) - -38 removed
