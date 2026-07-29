@@ -1654,9 +1654,37 @@
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices"
+      "_type": "Emergency Notices",
+      "emergencynotices": [
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "Downtime for v41.30 begins at 4 AM ET (8 AM UTC). Matchmaking will end shortly beforehand.",
+          "hidden": false,
+          "playlists": [
+            "playlist_pilgrimquickplay",
+            "playlist_fmclubisland "
+          ],
+          "title": "Lil Tecca hits the main stage!"
+        },
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "Downtime for v41.30 begins at 4 AM ET (8 AM UTC). Matchmaking will end shortly beforehand.",
+          "hidden": false,
+          "playlists": [
+            "playlist_juno",
+            "playlist_sprout"
+          ],
+          "title": "LEGO Fortnite Downtime"
+        },
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "Downtime for v41.30 begins at 4 AM ET (8 AM UTC). Matchmaking will end shortly beforehand.",
+          "hidden": false,
+          "title": "Scheduled Downtime"
+        }
+      ]
     },
-    "lastModified": "2026-07-28T23:29:24.252Z"
+    "lastModified": "2026-07-29T20:38:50.771Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -1944,7 +1972,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-29T18:24:22.973Z",
+  "lastModified": "2026-07-29T20:38:50.771Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
