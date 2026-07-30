@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-30
+- **13:06** Epic Content Pages
 - **11:27** News, Epic Content Pages - +1 new (The Simpsons Gameplay Loot) - -1 removed
 - **09:11** Jam Tracks, Item Shop, News, Epic Content Pages - +12 new (Mister Papi, Fancy, My Sound, Drill Dark, Love Me, +7 more) - -1 removed
 - **03:40** News - +1 new (New Sprites Hit the Island This Thursday) - -1 removed
