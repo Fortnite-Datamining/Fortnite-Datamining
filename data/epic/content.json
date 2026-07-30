@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-30T10:36:23.900Z",
+  "lastModified": "2026-07-30T13:38:33.657Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -53918,10 +53918,36 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-07-23T00:04:34.343Z",
+    "lastModified": "2026-07-30T13:38:33.657Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-bigguy-2048x2048-efe4e3ebfd59.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-bigguy-02-2048x2048-f07336fa0716.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-bigguy-03-2048x2048-71ed53342b3d.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-bigguy-04-2048x2048-6b496b09005c.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Bundle_Featured_Bigguy.DAv2_Bundle_Featured_Bigguy"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [
@@ -61077,7 +61103,7 @@
           "background_left_color": "fb33f2",
           "background_right_color": "ffa312",
           "background_text_color": "161616",
-          "details_description": "Battle your way to Gold, Diamond and Champion in Reload Ranked to be eligible for the first,second and final respectively Event of the Season! Compete for the opportunity to win a cash prize! Reach Round 2 (top 4000 in EU; top 2000 in NAC; top 800 in OCE, ASIA, ME, BR, NAW) where every player who earns a Victory Royale will earn $100 USD - good luck and have fun!",
+          "details_description": "Battle your way to Gold, Diamond and Champion in Reload Ranked to be eligible for the first,second and final respectively Event of the Season! Compete for the opportunity to win a cash prize! Reach Round 2 (top 1600 in EU; top 800 in NAC; top 320 in OCE, ASIA, ME, BR, NAW) where every player who earns a Victory Royale will earn $100 USD - good luck and have fun!",
           "long_format_title": "Solo Reload Victory Cup",
           "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnce-38-00-competitive-discoverytile-victorycashcup-1980x1020-1920x1080-286ddbb64684.jpg",
           "primary_color": "977EA5",

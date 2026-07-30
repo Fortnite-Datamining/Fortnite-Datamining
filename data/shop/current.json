@@ -106,6 +106,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.93",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_CountyFrog",
           "id": "DAv2_Pickaxe_CountyFrog",
           "materialInstances": [],
           "renderImages": [
@@ -177,6 +178,97 @@
             "title": "All The Stars"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Show your style.",
+            "id": "Wrap_AnvilAlarmRobin",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_anvilalarmrobin/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_anvilalarmrobin/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Tecca Bars",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "586167ff",
+          "color2": "1a1d22ff",
+          "color3": "bcd9f5ff",
+          "textBackgroundColor": "222222ff"
+        },
+        "devName": "[VIRTUAL]1 x Tecca Bars for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-30T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "LilTecca-1",
+          "index": 10,
+          "name": "Lil Tecca",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "LilTecca-1.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Wrap_AnvilAlarmRobin",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__f7ec035ad7d52213_36272b67c944e79a.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f7ec035ad7d52213/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_wrap_anvilalarmrobin",
+        "offerId": "v2:/c162c10f67a6924f7a2fcd05cafc786a6d714082c33d93f1c13d7d336fb60457",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_AngleGradient_A",
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -324,6 +416,7 @@
         },
         "layoutId": "Ben10.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_BiomeHose",
           "id": "DAv2_Character_BiomeHose",
           "materialInstances": [],
           "renderImages": [
@@ -362,10 +455,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Sing a song of Patrick.",
-            "dynamicPakId": "1010",
             "id": "Backpack_GainSneeze_Mic",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/smallicon.png"
             },
@@ -413,10 +504,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Sing a song of Patrick.",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneeze_Mic",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/smallicon.png"
             },
@@ -509,12 +598,12 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Mic_GainSneeze",
+              "fileName": "cosmo__1e5c538d9e23a55c_514e3fb1a31aa7d5.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1e5c538d9e23a55c/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_UI_Featured_Mic_GainSneeze_02",
+              "fileName": "cosmo__1e5c538d9e23a55c_2835f3c8068e1bb9.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1e5c538d9e23a55c/renderimage_1.png",
               "productTag": "Product.BR"
             }
@@ -848,6 +937,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.92",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_NiftyGrateBoil",
           "id": "DAv2_Shoes_NiftyGrateBoil",
           "materialInstances": [],
           "renderImages": [
@@ -1402,6 +1492,7 @@
         },
         "layoutId": "Lollapalooza.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Meditation",
           "id": "DAv2_EID_Meditation",
           "materialInstances": [],
           "renderImages": [
@@ -1528,6 +1619,7 @@
         },
         "layoutId": "CAC5.97",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_FondCuddles",
           "id": "DAv2_Companion_FondCuddles",
           "materialInstances": [],
           "renderImages": [
@@ -1709,11 +1801,6 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T-AthenaSoldiers-CID-610-Athena-Commando-M-ShiitakeShaolin_01",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2e8b6e1ccb44a8e4/renderimage_1.png",
-              "productTag": "Product.BR"
-            },
-            {
               "fileName": "cosmo__2e8b6e1ccb44a8e4_b42a9376290e1c73.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2e8b6e1ccb44a8e4/renderimage_0.png",
               "productTag": "Product.BR"
@@ -1727,6 +1814,11 @@
               "fileName": "cosmo__2e8b6e1ccb44a8e4_ea3c35debcfa2f25.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2e8b6e1ccb44a8e4/renderimage_3.png",
               "productTag": "Product.Juno"
+            },
+            {
+              "fileName": "cosmo__2e8b6e1ccb44a8e4_f150c82a646a0f34.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2e8b6e1ccb44a8e4/renderimage_1.png",
+              "productTag": "Product.BR"
             }
           ]
         },
@@ -1792,10 +1884,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "No, this is Patrick.",
-            "dynamicPakId": "1010",
             "id": "Companion_SpendPlume",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/smallicon.png"
             },
@@ -1838,27 +1928,26 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.99",
         "newDisplayAsset": {
-          "cosmeticId": "Companion_SpendPlume",
           "id": "DAv2_Companion_SpendPlume",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Companion_SpendPlume",
+              "fileName": "cosmo__9d2d536756511ba2_fa6eeff1a6bb42da.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9d2d536756511ba2/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_UI_Featured_Companion_SpendPlume_02",
+              "fileName": "cosmo__9d2d536756511ba2_0e31b4ab499dc904.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9d2d536756511ba2/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_UI_Featured_Companion_SpendPlume_03",
+              "fileName": "cosmo__9d2d536756511ba2_00f94de369f70006.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9d2d536756511ba2/renderimage_2.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_UI_Featured_Companion_SpendPlume_04",
+              "fileName": "cosmo__9d2d536756511ba2_0b7b200bbfa3a9df.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9d2d536756511ba2/renderimage_3.png",
               "productTag": "Product.BR"
             }
@@ -1989,6 +2078,7 @@
         },
         "layoutId": "Lollapalooza.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Thrash",
           "id": "DAv2_EID_Thrash",
           "materialInstances": [],
           "renderImages": [
@@ -2005,6 +2095,97 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Share your thoughts.",
+            "id": "EID_AnvilAlarmRobin",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmrobin/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmrobin/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dark Thoughts",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "586167ff",
+          "color2": "1a1d22ff",
+          "color3": "bcd9f5ff",
+          "textBackgroundColor": "222222ff"
+        },
+        "devName": "[VIRTUAL]1 x Dark Thoughts for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-30T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "LilTecca-1",
+          "index": 10,
+          "name": "Lil Tecca",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "LilTecca-1.97",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_AnvilAlarmRobin",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e188b3d25902b906_1c0627caf32954d9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e188b3d25902b906/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_eid_anvilalarmrobin",
+        "offerId": "v2:/7f0b0a8bf97e17e847cd03d2bd98ac1d7e75d45e8c1c36e3cd76be4c70c17234",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_AngleGradient_A",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -2216,6 +2397,7 @@
         },
         "layoutId": "VV0730.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Crowdsurfing",
           "id": "DAv2_EID_Crowdsurfing",
           "materialInstances": [],
           "renderImages": [
@@ -2485,6 +2667,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.95",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_WittyStork",
           "id": "DAv2_Companion_WittyStork",
           "materialInstances": [],
           "renderImages": [
@@ -2568,6 +2751,7 @@
         },
         "layoutId": "FND073026.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_MatteDecoy",
           "id": "DAv2_Backpack_MatteDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -2937,6 +3121,7 @@
         },
         "layoutId": "Ben10.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_BiomeHose",
           "id": "DAv2_Backpack_BiomeHose",
           "materialInstances": [],
           "renderImages": [
@@ -3283,6 +3468,7 @@
         },
         "layoutId": "VV0730.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Malleable",
           "id": "DAv2_EID_Malleable",
           "materialInstances": [],
           "renderImages": [
@@ -3405,6 +3591,7 @@
         },
         "layoutId": "FND073026.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_MatteDecoy",
           "id": "DAv2_Wrap_MatteDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -3478,6 +3665,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.94",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CountyFrog",
           "id": "DAv2_EID_CountyFrog",
           "materialInstances": [],
           "renderImages": [
@@ -4265,6 +4453,7 @@
         },
         "layoutId": "Lollapalooza.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_SpaceWalk",
           "id": "DAv2_EID_SpaceWalk",
           "materialInstances": [],
           "renderImages": [
@@ -4331,6 +4520,163 @@
             "title": "Don't You Worry Child"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Now in 2D.",
+            "id": "Pickaxe_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dopamine Blades",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle1.png",
+                    "name": "Reactive",
+                    "tag": "Particle1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle2.png",
+                    "name": "Reactive Fully On",
+                    "tag": "Particle2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle3.png",
+                    "name": "Reactive Fully Off",
+                    "tag": "Particle3"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Now in 2D.",
+            "id": "Backpack_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dopamine Blades",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "586167ff",
+          "color2": "1a1d22ff",
+          "color3": "bcd9f5ff",
+          "textBackgroundColor": "222222ff"
+        },
+        "devName": "[VIRTUAL]1 x Dopamine Blades, 1 x Dopamine Blades for -1 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-07-30T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "LilTecca-1",
+          "index": 10,
+          "name": "Lil Tecca",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "LilTecca-1.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_AnvilAlarmMoth",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e4f5865293066c92_6e78c0c9d974b0d0.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e4f5865293066c92/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_pickaxe_anvilalarmmoth",
+        "offerId": "v2:/0d979616197247cf35e8e6cfa2c1e226c910c8d489efe075369691c66f32be3f",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_AngleGradient_A",
+        "tileSize": "Size_2_x_1"
       },
       {
         "colors": {
@@ -4855,6 +5201,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.96",
         "newDisplayAsset": {
+          "cosmeticId": "EID_BerryTart",
           "id": "DAv2_EID_BerryTart",
           "materialInstances": [],
           "renderImages": [
@@ -4936,6 +5283,7 @@
         },
         "layoutId": "VV0730.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_SandwichBop",
           "id": "DAv2_EID_SandwichBop",
           "materialInstances": [],
           "renderImages": [
@@ -5260,6 +5608,7 @@
         },
         "layoutId": "CAC5.98",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BarrelWimp",
           "id": "DAv2_Companion_BarrelWimp",
           "materialInstances": [],
           "renderImages": [
@@ -5344,6 +5693,7 @@
         },
         "layoutId": "YajosLocker.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_236_Moo",
           "id": "DAv2_Wrap_236_Moo",
           "materialInstances": [],
           "renderImages": [
@@ -5424,6 +5774,7 @@
         },
         "layoutId": "Lollapalooza.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CarCrash",
           "id": "DAv2_EID_CarCrash",
           "materialInstances": [],
           "renderImages": [
@@ -5503,6 +5854,7 @@
         },
         "layoutId": "VV0730.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Competitor",
           "id": "DAv2_EID_Competitor",
           "materialInstances": [],
           "renderImages": [
@@ -5596,6 +5948,7 @@
         },
         "layoutId": "Vegetta777.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_550_CasualBomberLightFemale1H",
           "id": "DAv2_Pickaxe_ID_550_CasualBomberLightFemale1H",
           "materialInstances": [],
           "renderImages": [
@@ -6424,6 +6777,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.92",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_NiftyGrateSimmer",
           "id": "DAv2_Shoes_NiftyGrateSimmer",
           "materialInstances": [],
           "renderImages": [
@@ -6586,6 +6940,7 @@
         },
         "layoutId": "VV0730.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Ordinary_RhythmGuitar",
           "id": "DAv2_EID_Ordinary",
           "materialInstances": [],
           "renderImages": [
@@ -6609,10 +6964,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Just look at that form.",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneeze",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/smallicon.png"
             },
@@ -6661,12 +7014,11 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.98",
         "newDisplayAsset": {
-          "cosmeticId": "Pickaxe_GainSneeze_Mic",
           "id": "DAv2_Pickaxe_GainSneeze",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_Featured_Pickaxes_GainSneeze",
+              "fileName": "cosmo__e970c818124eb9e6_049d6b3c47c82752.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e970c818124eb9e6/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -6743,6 +7095,7 @@
         },
         "layoutId": "Lollapalooza.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Seagull",
           "id": "DAv2_EID_Seagull",
           "materialInstances": [],
           "renderImages": [
@@ -6820,6 +7173,7 @@
         },
         "layoutId": "CAC5.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_TapiTime",
           "id": "DAv2_Companion_TapiTime",
           "materialInstances": [],
           "renderImages": [
@@ -6908,6 +7262,7 @@
         },
         "layoutId": "Ben10.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_BiomeHose",
           "id": "DAv2_Wrap_BiomeHose",
           "materialInstances": [],
           "renderImages": [
@@ -6981,6 +7336,7 @@
         },
         "layoutId": "FND073026.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_CreamDecoy",
           "id": "DAv2_Wrap_CreamDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -7049,6 +7405,7 @@
         },
         "layoutId": "BR073026.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ShockValue",
           "id": "DAv2_EID_ShockValue",
           "materialInstances": [],
           "renderImages": [
@@ -7171,6 +7528,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.95",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_CountyFrog",
           "id": "DAv2_Backpack_CountyFrog",
           "materialInstances": [],
           "renderImages": [
@@ -7660,10 +8018,8 @@
           {
             "added": "2026-07-16T08:32:04Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_SilverTempo",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/smallicon.png"
             },
@@ -7892,6 +8248,7 @@
         },
         "layoutId": "Ben10.97",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_BiomeHoseWorry",
           "id": "DAv2_Shoes_BiomeHoseWorry",
           "materialInstances": [],
           "renderImages": [
@@ -7973,6 +8330,7 @@
         },
         "layoutId": "Lollapalooza.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Clippers",
           "id": "DAv2_EID_Clippers",
           "materialInstances": [],
           "renderImages": [
@@ -8259,6 +8617,7 @@
         },
         "layoutId": "Ben10.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_WordUnity",
           "id": "DAv2_Character_WordUnity",
           "materialInstances": [],
           "renderImages": [
@@ -8447,6 +8806,7 @@
         },
         "layoutId": "FND073026.99",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_CreamDecoy",
           "id": "DAv2_Backpack_CreamDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -8810,6 +9170,7 @@
         },
         "layoutId": "CAC5.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_ComicTabby",
           "id": "DAv2_Companion_ComicTabby",
           "materialInstances": [],
           "renderImages": [
@@ -9291,8 +9652,18 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__faceb9902b0e0a2b_29c0c4191e61fb71.png",
+              "fileName": "cosmo__faceb9902b0e0a2b_07a584da4a3f1393.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/faceb9902b0e0a2b/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__faceb9902b0e0a2b_5aaf4389879cf761.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/faceb9902b0e0a2b/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__faceb9902b0e0a2b_70cc35110a989f60.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/faceb9902b0e0a2b/renderimage_2.png",
               "productTag": "Product.BR"
             }
           ]
@@ -9503,6 +9874,7 @@
         },
         "layoutId": "CAC5.98",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BurrBaby",
           "id": "DAv2_Companion_BurrBaby",
           "materialInstances": [],
           "renderImages": [
@@ -9727,14 +10099,14 @@
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T-UI-Featured-Figure-ScrapyardB",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cbcad97d0b2a5673/renderimage_2.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__cbcad97d0b2a5673_3a19965cd80bce7b.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cbcad97d0b2a5673/renderimage_1.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__cbcad97d0b2a5673_03901630ce170c79.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cbcad97d0b2a5673/renderimage_2.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -9844,6 +10216,7 @@
         },
         "layoutId": "YajosLocker.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_StoneAnchor",
           "id": "DAv2_Shoes_StoneAnchor",
           "materialInstances": [],
           "renderImages": [
@@ -10531,10 +10904,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Who raps in a pineapple under the sea?",
-            "dynamicPakId": "1003",
             "id": "Character_DangerIndex",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/smallicon.png"
             },
@@ -10577,10 +10948,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "No, this is Patrick.",
-            "dynamicPakId": "1010",
             "id": "Companion_SpendPlume",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_spendplume/smallicon.png"
             },
@@ -10604,10 +10973,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Swim against the current.",
-            "dynamicPakId": "1003",
             "id": "Backpack_DangerIndex",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/smallicon.png"
             },
@@ -10649,10 +11016,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Stay shady.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DangerIndex",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/smallicon.png"
             },
@@ -10694,10 +11059,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Lookin' tough, big guy.",
-            "dynamicPakId": "1003",
             "id": "EID_SeaFloor",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/smallicon.png"
             },
@@ -10739,10 +11102,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Just look at that form.",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneeze",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze/smallicon.png"
             },
@@ -10772,10 +11133,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Let's go jellyfishing!",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneezeVital",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/smallicon.png"
             },
@@ -10805,10 +11164,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Fresh from the net.",
-            "dynamicPakId": "1010",
             "id": "Backpack_GainSneeze",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/smallicon.png"
             },
@@ -10838,10 +11195,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "It's not mayonaise, but it is an instrument.",
-            "dynamicPakId": "1010",
             "id": "Backpack_GainSneeze_Guitar",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/smallicon.png"
             },
@@ -10889,10 +11244,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "It's not mayonaise, but it is an instrument.",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneeze_Guitar",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/smallicon.png"
             },
@@ -10940,10 +11293,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Sing a song of Patrick.",
-            "dynamicPakId": "1010",
             "id": "Backpack_GainSneeze_Mic",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_mic/smallicon.png"
             },
@@ -10991,10 +11342,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Sing a song of Patrick.",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneeze_Mic",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_mic/smallicon.png"
             },
@@ -11113,22 +11462,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__c753a7d9d40eb3f6_29c0c4191e61fb71.png",
+              "fileName": "cosmo__c753a7d9d40eb3f6_127baaf9b97b7563.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c753a7d9d40eb3f6/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__c753a7d9d40eb3f6_d2e71b6320aa32c2.png",
+              "fileName": "cosmo__c753a7d9d40eb3f6_9ec36924693746d7.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c753a7d9d40eb3f6/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__c753a7d9d40eb3f6_e0559e464b07edd9.png",
+              "fileName": "cosmo__c753a7d9d40eb3f6_c63c21ab7387069e.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c753a7d9d40eb3f6/renderimage_2.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__c753a7d9d40eb3f6_1289a263ea7b677a.png",
+              "fileName": "cosmo__c753a7d9d40eb3f6_1441788fd95def9a.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c753a7d9d40eb3f6/renderimage_3.png",
               "productTag": "Product.BR"
             }
@@ -11371,11 +11720,6 @@
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T-UI-Featured-Figure-LlamaHeroA",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d873b1870f1ec358/renderimage_4.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__d873b1870f1ec358_33dd960e27bad530.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d873b1870f1ec358/renderimage_1.png",
               "productTag": "Product.BR"
@@ -11389,6 +11733,11 @@
               "fileName": "cosmo__d873b1870f1ec358_444997fbf7060af3.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d873b1870f1ec358/renderimage_3.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__d873b1870f1ec358_16775584da8d578f.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d873b1870f1ec358/renderimage_4.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -11456,6 +11805,7 @@
         },
         "layoutId": "FND073026.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_MatteDecoy",
           "id": "DAv2_EID_MatteDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -11525,6 +11875,7 @@
         },
         "layoutId": "Vegetta777.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_PopDance01",
           "id": "DAv2_EID_PopDance01",
           "materialInstances": [],
           "renderImages": [
@@ -11646,10 +11997,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Who raps in a pineapple under the sea?",
-            "dynamicPakId": "1003",
             "id": "Character_DangerIndex",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_dangerindex/smallicon.png"
             },
@@ -11711,12 +12060,11 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.99",
         "newDisplayAsset": {
-          "cosmeticId": "Character_DangerIndex",
           "id": "DAv2_Character_DangerIndex",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaSoldiers_DangerIndex",
+              "fileName": "cosmo__6eaba805e00631a2_93cc91be8a7ee794.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6eaba805e00631a2/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -11786,6 +12134,7 @@
         },
         "layoutId": "Ben10.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_WordUnity",
           "id": "DAv2_Pickaxe_WordUnity",
           "materialInstances": [],
           "renderImages": [
@@ -12278,6 +12627,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.96",
         "newDisplayAsset": {
+          "cosmeticId": "EID_BerryTartRiver",
           "id": "DAv2_EID_BerryTartRiver",
           "materialInstances": [],
           "renderImages": [
@@ -12455,6 +12805,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.94",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_OrganBedHook",
           "id": "DAv2_Shoes_OrganBedHook",
           "materialInstances": [],
           "renderImages": [
@@ -12529,6 +12880,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.94",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_OrganBedCrochet",
           "id": "DAv2_Shoes_OrganBedCrochet",
           "materialInstances": [],
           "renderImages": [
@@ -13474,6 +13826,17 @@
               "displayValue": "Uncommon",
               "value": "uncommon"
             },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
+            },
             "type": {
               "backendValue": "VehicleCosmetics_Wheel",
               "displayValue": "Wheel",
@@ -13494,17 +13857,6 @@
         "giftable": true,
         "inDate": "2026-07-24T00:00:00Z",
         "layoutId": "alc.0",
-        "newDisplayAsset": {
-          "id": "DAv2_Wheel_SandScreen02",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_UI_Featured_Wheel_SandScreen02",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ca9af452ac3e0dfb/renderimage_0.png",
-              "productTag": "Product.DelMar"
-            }
-          ]
-        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Wheel_SandScreen02",
         "offerId": "v2:/73d6dd3c7ee1f2000c709d0c1fd3adb29102aa28098120621d680ae53d021e81",
         "outDate": "2026-08-02T23:59:59.999Z",
@@ -13518,10 +13870,8 @@
           {
             "added": "2026-07-16T08:32:04Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_SilverTempo",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_silvertempo/smallicon.png"
             },
@@ -13570,12 +13920,11 @@
         },
         "layoutId": "FND073026.98",
         "newDisplayAsset": {
-          "cosmeticId": "Shoes_SilverTempo",
           "id": "DAv2_Shoes_SilverTempo",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Shoes_SilverTempo",
+              "fileName": "cosmo__0335009ade1c2963_a0fa1ae882aa0896.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0335009ade1c2963/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -13659,6 +14008,17 @@
               "displayValue": "Uncommon",
               "value": "uncommon"
             },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
+            },
             "type": {
               "backendValue": "VehicleCosmetics_Body",
               "displayValue": "Body",
@@ -13679,6 +14039,17 @@
               "backendValue": "EFortRarity::Uncommon",
               "displayValue": "Uncommon",
               "value": "uncommon"
+            },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
             },
             "type": {
               "backendValue": "VehicleCosmetics_Skin",
@@ -13701,6 +14072,17 @@
               "displayValue": "Uncommon",
               "value": "uncommon"
             },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
+            },
             "type": {
               "backendValue": "VehicleCosmetics_Skin",
               "displayValue": "Skin",
@@ -13721,6 +14103,17 @@
               "backendValue": "EFortRarity::Uncommon",
               "displayValue": "Uncommon",
               "value": "uncommon"
+            },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
             },
             "type": {
               "backendValue": "VehicleCosmetics_Skin",
@@ -13743,6 +14136,17 @@
               "displayValue": "Uncommon",
               "value": "uncommon"
             },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
+            },
             "type": {
               "backendValue": "VehicleCosmetics_Skin",
               "displayValue": "Skin",
@@ -13764,6 +14168,17 @@
               "displayValue": "Uncommon",
               "value": "uncommon"
             },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
+            },
             "type": {
               "backendValue": "VehicleCosmetics_Wheel",
               "displayValue": "Wheel",
@@ -13784,6 +14199,17 @@
               "backendValue": "EFortRarity::Uncommon",
               "displayValue": "Uncommon",
               "value": "uncommon"
+            },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
             },
             "type": {
               "backendValue": "VehicleCosmetics_Wheel",
@@ -13820,7 +14246,7 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Vehicle_Web_SandScreen",
+              "fileName": "cosmo__aac5bd2552b048ac_3f85463205390b33.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/aac5bd2552b048ac/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -14215,6 +14641,7 @@
         },
         "layoutId": "FND073026.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_BucketKick",
           "id": "DAv2_Pickaxe_BucketKick",
           "materialInstances": [],
           "renderImages": [
@@ -14285,6 +14712,271 @@
             "title": "Save Your Tears"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "You've got dark thoughts.",
+            "id": "Character_AnvilAlarmRobin",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Lil Tecca",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Outfit",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage1.png",
+                    "name": "Lil Tecca",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage2.png",
+                    "name": "Ransom Toon Style",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Style"
+              },
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage1.png",
+                    "name": "On",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage2.png",
+                    "name": "Off",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Scarf"
+              },
+              {
+                "channel": "Material",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat1.png",
+                    "name": "on",
+                    "tag": "Mat1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat2.png",
+                    "name": "off",
+                    "tag": "Mat2"
+                  }
+                ],
+                "type": "glasses"
+              }
+            ]
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Now in 2D.",
+            "id": "Pickaxe_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dopamine Blades",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle1.png",
+                    "name": "Reactive",
+                    "tag": "Particle1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle2.png",
+                    "name": "Reactive Fully On",
+                    "tag": "Particle2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle3.png",
+                    "name": "Reactive Fully Off",
+                    "tag": "Particle3"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Now in 2D.",
+            "id": "Backpack_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dopamine Blades",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "586167ff",
+          "color2": "1a1d22ff",
+          "color3": "bcd9f5ff",
+          "textBackgroundColor": "222222ff"
+        },
+        "devName": "[VIRTUAL]1 x Lil Tecca, 1 x Dopamine Blades, 1 x Dopamine Blades for -1 MtxCurrency",
+        "finalPrice": 1800,
+        "giftable": true,
+        "inDate": "2026-07-30T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "LilTecca-1",
+          "index": 10,
+          "name": "Lil Tecca",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "LilTecca-1.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_AnvilAlarmRobin",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__1445fe82d035f6de_03703de4650fbb63.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1445fe82d035f6de/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__1445fe82d035f6de_8ed15584b0763260.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1445fe82d035f6de/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__1445fe82d035f6de_8aeec1ce29d8525d.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1445fe82d035f6de/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__1445fe82d035f6de_397eb0e90dcbb6f1.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1445fe82d035f6de/renderimage_3.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Character_AnvilAlarmRobin",
+        "offerId": "v2:/f5449fbaf2ed35d12534e607f97da3c7bdea1530fe00ebd25f4cfb21a692d953",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_AngleGradient_A",
+        "tileSize": "Size_2_x_1"
       },
       {
         "brItems": [
@@ -14499,6 +15191,7 @@
         },
         "layoutId": "BR073026.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_VaneFetaWater",
           "id": "DAv2_Shoes_VaneFetaWater",
           "materialInstances": [],
           "renderImages": [
@@ -15070,6 +15763,7 @@
         },
         "layoutId": "Lollapalooza.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ChipDip",
           "id": "DAv2_EID_ChipDip",
           "materialInstances": [],
           "renderImages": [
@@ -15648,6 +16342,7 @@
         },
         "layoutId": "BR073026.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_GarageRainPlaster",
           "id": "DAv2_shoes_garagerainplaster",
           "materialInstances": [],
           "renderImages": [
@@ -15725,6 +16420,7 @@
         },
         "layoutId": "CAC5.98",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_WhineDummeez",
           "id": "DAv2_Companion_WhineDummeez",
           "materialInstances": [],
           "renderImages": [
@@ -16342,6 +17038,7 @@
         },
         "layoutId": "VV0730.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Chew",
           "id": "DAv2_EID_Chew",
           "materialInstances": [],
           "renderImages": [
@@ -16606,6 +17303,7 @@
         },
         "layoutId": "YajosLocker.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Facepalm",
           "id": "DAv2_EID_FacePalm",
           "materialInstances": [],
           "renderImages": [
@@ -16706,7 +17404,6 @@
                 "large": "https://fortnite-api.com/images/cosmetics/beans/bean_bucketkick/large.png",
                 "small": "https://fortnite-api.com/images/cosmetics/beans/bean_bucketkick/small.png"
               },
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_bucketkick/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_bucketkick/icon.png",
               "lego": {
                 "large": "https://fortnite-api.com/images/cosmetics/lego/character_bucketkick/large.png",
@@ -16797,14 +17494,14 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaSoldiers_BucketKick",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63d52c643cb10779/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
               "fileName": "cosmo__63d52c643cb10779_ca69f71e38445f6d.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63d52c643cb10779/renderimage_1.png",
               "productTag": "Product.Juno"
+            },
+            {
+              "fileName": "cosmo__63d52c643cb10779_e3fb7cd644243a39.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63d52c643cb10779/renderimage_0.png",
+              "productTag": "Product.BR"
             }
           ]
         },
@@ -16871,10 +17568,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Lookin' tough, big guy.",
-            "dynamicPakId": "1003",
             "id": "EID_SeaFloor",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_seafloor/smallicon.png"
             },
@@ -16935,12 +17630,11 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.97",
         "newDisplayAsset": {
-          "cosmeticId": "EID_SeaFloor",
           "id": "DAv2_EID_SeaFloor",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaEmotes_SeaFloor",
+              "fileName": "cosmo__e05d183b1861c829_199d6fb389a9e828.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e05d183b1861c829/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -16971,6 +17665,17 @@
               "displayValue": "Uncommon",
               "value": "uncommon"
             },
+            "series": {
+              "backendValue": "Series_Jeep",
+              "colors": [
+                "ffffffff",
+                "ffffffff",
+                "ffffffff",
+                "455a21ff",
+                "455a21ff"
+              ],
+              "value": "JEEP SERIES"
+            },
             "type": {
               "backendValue": "VehicleCosmetics_Wheel",
               "displayValue": "Wheel",
@@ -16991,17 +17696,6 @@
         "giftable": true,
         "inDate": "2026-07-24T00:00:00Z",
         "layoutId": "alc.0",
-        "newDisplayAsset": {
-          "id": "DAv2_Wheel_SandScreen01",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_UI_Featured_Wheel_SandScreen01",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/17b9f3358d545b93/renderimage_0.png",
-              "productTag": "Product.DelMar"
-            }
-          ]
-        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Wheel_SandScreen01",
         "offerId": "v2:/512c45460048c453e17088d7689a09646e9a534b6f9b8cd7df3c7f8c329180f1",
         "outDate": "2026-08-02T23:59:59.999Z",
@@ -17379,6 +18073,7 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.94",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CountyFrog_Loaf",
           "id": "DAv2_EID_CountyFrog_Loaf",
           "materialInstances": [],
           "renderImages": [
@@ -17877,10 +18572,8 @@
           {
             "added": "2026-07-16T08:32:04Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_DareBergAdorn",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadorn/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadorn/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_darebergadorn/smallicon.png"
             },
@@ -17929,17 +18622,16 @@
         },
         "layoutId": "FND073026.96",
         "newDisplayAsset": {
-          "cosmeticId": "Shoes_DareBergAdorn",
           "id": "DAv2_Shoes_DareBergAdorn",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Shoes_DareBergAdorn",
+              "fileName": "cosmo__f4745d70d4ceebed_1326af65e812e574.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f4745d70d4ceebed/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_UI_Featured_Shoes_DareBergAdorn_ReactiveOff",
+              "fileName": "cosmo__f4745d70d4ceebed_423b149a3f27a1dd.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f4745d70d4ceebed/renderimage_1.png",
               "productTag": "Product.BR"
             }
@@ -18007,10 +18699,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Stay shady.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DangerIndex",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dangerindex/smallicon.png"
             },
@@ -18071,12 +18761,11 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.98",
         "newDisplayAsset": {
-          "cosmeticId": "Pickaxe_DangerIndex",
           "id": "DAv2_Pickaxe_DangerIndex",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_Featured_Pickaxes_DangerIndex",
+              "fileName": "cosmo__5fc7a3b0d5f44b8f_c8eb56fd550776b8.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5fc7a3b0d5f44b8f/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -18202,6 +18891,7 @@
         },
         "layoutId": "VV0730.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Marvelous",
           "id": "DAv2_EID_Marvelous",
           "materialInstances": [],
           "renderImages": [
@@ -18374,6 +19064,7 @@
         },
         "layoutId": "BR073026.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_SteelHiker",
           "id": "DAv2_Shoes_SteelHiker",
           "materialInstances": [],
           "renderImages": [
@@ -18638,10 +19329,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Swim against the current.",
-            "dynamicPakId": "1003",
             "id": "Backpack_DangerIndex",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_dangerindex/smallicon.png"
             },
@@ -18702,17 +19391,16 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.98",
         "newDisplayAsset": {
-          "cosmeticId": "Backpack_DangerIndex",
           "id": "DAv2_Backpack_DangerIndex",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaBackpack_DangerIndex",
+              "fileName": "cosmo__05e2ba962d0de982_9e0bb1bee9022e39.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/05e2ba962d0de982/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_AthenaBackpack_DangerIndex_02",
+              "fileName": "cosmo__05e2ba962d0de982_ca3707623ab150ce.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/05e2ba962d0de982/renderimage_1.png",
               "productTag": "Product.BR"
             }
@@ -19067,6 +19755,7 @@
         },
         "layoutId": "FND073026.96",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_BucketKick",
           "id": "DAv2_Wrap_BucketKick",
           "materialInstances": [],
           "renderImages": [
@@ -19223,11 +19912,6 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T-AthenaSoldiers-CID-097-Athena-Commando-F-RockerPunk",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/21d65d252a3e93f1/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
               "fileName": "cosmo__21d65d252a3e93f1_779f19ba0a27f3c0.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/21d65d252a3e93f1/renderimage_1.png",
               "productTag": "Product.BR"
@@ -19236,6 +19920,11 @@
               "fileName": "cosmo__21d65d252a3e93f1_6511105bafda3a5c.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/21d65d252a3e93f1/renderimage_2.png",
               "productTag": "Product.Juno"
+            },
+            {
+              "fileName": "cosmo__21d65d252a3e93f1_8b8b7a9432a44efd.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/21d65d252a3e93f1/renderimage_0.png",
+              "productTag": "Product.BR"
             }
           ]
         },
@@ -19324,6 +20013,7 @@
         },
         "layoutId": "Ben10.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_WordUnity",
           "id": "DAv2_Backpack_WordUnity",
           "materialInstances": [],
           "renderImages": [
@@ -19352,10 +20042,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Fresh from the net.",
-            "dynamicPakId": "1010",
             "id": "Backpack_GainSneeze",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze/smallicon.png"
             },
@@ -19404,12 +20092,11 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.98",
         "newDisplayAsset": {
-          "cosmeticId": "Backpack_GainSneeze_Guitar",
           "id": "DAv2_Backpack_GainSneeze",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaBackpack_GainSneeze",
+              "fileName": "cosmo__03cc51b6cb9fe60a_1b49f42fc7b50d35.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/03cc51b6cb9fe60a/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -19478,6 +20165,7 @@
         },
         "layoutId": "CAC5.97",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BandSoda",
           "id": "DAv2_Companion_BandSoda",
           "materialInstances": [],
           "renderImages": [
@@ -19619,6 +20307,7 @@
         },
         "layoutId": "FND073026.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CreamDecoy",
           "id": "DAv2_Character_CreamDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -19863,6 +20552,7 @@
         },
         "layoutId": "Lollapalooza.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Panoramic",
           "id": "DAv2_EID_Panoramic",
           "materialInstances": [],
           "renderImages": [
@@ -19981,6 +20671,7 @@
         },
         "layoutId": "NS0728.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_WindmillFloss",
           "id": "DAv2_EID_WindMillFloss",
           "materialInstances": [],
           "renderImages": [
@@ -20324,6 +21015,7 @@
         },
         "layoutId": "BR073026.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_BreathTaleLinea",
           "id": "DAv2_Shoes_BreathTaleLinea",
           "materialInstances": [],
           "renderImages": [
@@ -20347,10 +21039,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "It's not mayonaise, but it is an instrument.",
-            "dynamicPakId": "1010",
             "id": "Backpack_GainSneeze_Guitar",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_gainsneeze_guitar/smallicon.png"
             },
@@ -20398,10 +21088,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "It's not mayonaise, but it is an instrument.",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneeze_Guitar",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneeze_guitar/smallicon.png"
             },
@@ -20494,12 +21182,12 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Guitar_GainSneeze",
+              "fileName": "cosmo__4f3119b497ed6f60_c7f16b8cce8a9bae.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4f3119b497ed6f60/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "T_UI_Featured_Guitar_GainSneeze_02",
+              "fileName": "cosmo__4f3119b497ed6f60_0fc234dabe7c7c87.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4f3119b497ed6f60/renderimage_1.png",
               "productTag": "Product.BR"
             }
@@ -20787,9 +21475,433 @@
       },
       {
         "banner": {
-          "backendValue": "New",
+          "backendValue": "AmountOff",
           "intensity": "High",
-          "value": "New"
+          "value": "2500 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "You've got dark thoughts.",
+            "id": "Character_AnvilAlarmRobin",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Lil Tecca",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Outfit",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage1.png",
+                    "name": "Lil Tecca",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage2.png",
+                    "name": "Ransom Toon Style",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Style"
+              },
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage1.png",
+                    "name": "On",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage2.png",
+                    "name": "Off",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Scarf"
+              },
+              {
+                "channel": "Material",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat1.png",
+                    "name": "on",
+                    "tag": "Mat1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat2.png",
+                    "name": "off",
+                    "tag": "Mat2"
+                  }
+                ],
+                "type": "glasses"
+              }
+            ]
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Now in 2D.",
+            "id": "Pickaxe_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dopamine Blades",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Particle",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle1.png",
+                    "name": "Reactive",
+                    "tag": "Particle1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle2.png",
+                    "name": "Reactive Fully On",
+                    "tag": "Particle2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle3.png",
+                    "name": "Reactive Fully Off",
+                    "tag": "Particle3"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Now in 2D.",
+            "id": "Backpack_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dopamine Blades",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Share your thoughts.",
+            "id": "EID_AnvilAlarmRobin",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmrobin/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmrobin/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Dark Thoughts",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Hold it all for ransom.",
+            "id": "EID_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Ransom",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Show your style.",
+            "id": "Wrap_AnvilAlarmRobin",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_anvilalarmrobin/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_anvilalarmrobin/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Tecca Bars",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "It's Tecca's world. We're just squishing it.",
+            "id": "Backpack_AnvilAlarmRobin_Mic",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmrobin_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmrobin_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Lil World Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "It's Tecca's world. We're just squishing it.",
+            "id": "Pickaxe_AnvilAlarmRobin_Mic",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmrobin_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmrobin_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Lil World Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e7471e3253531e1e/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Lil Tecca Bundle"
         },
         "colors": {
           "color1": "586167ff",
@@ -20802,6 +21914,40 @@
         "finalPrice": 2600,
         "giftable": true,
         "inDate": "2026-07-30T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "It's Tecca's world. We're just squishing it.",
+            "id": "Sparks_AnvilAlarmRobin_Mic",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmrobin_mic/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmrobin_mic/small.png"
+            },
+            "name": "Lil World Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "type": {
+              "backendValue": "SparksMic",
+              "displayValue": "Microphone",
+              "value": "mic"
+            }
+          }
+        ],
         "layout": {
           "displayType": "billboard",
           "id": "LilTecca-1",
@@ -20862,6 +22008,32 @@
           "useWidePreview": false
         },
         "layoutId": "LilTecca-1.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_AnvilAlarm",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e7471e3253531e1e_b56a12d701c4b36c.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e7471e3253531e1e/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e7471e3253531e1e_1a9ebfdf41025cb5.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e7471e3253531e1e/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e7471e3253531e1e_6e629c26aae59399.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e7471e3253531e1e/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e7471e3253531e1e_58581a58f4f3fde0.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e7471e3253531e1e/renderimage_3.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Bundle_Featured_Anvilalarm",
         "offerId": "v2:/8ff26993670ebceee9364f26bcb84e550824433f3d58d092dbf4385412d31a0d",
         "outDate": "2026-08-28T23:59:59.999Z",
@@ -20916,10 +22088,8 @@
           {
             "added": "2026-07-23T14:00:30Z",
             "description": "Let's go jellyfishing!",
-            "dynamicPakId": "1010",
             "id": "Pickaxe_GainSneezeVital",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_gainsneezevital/smallicon.png"
             },
@@ -20968,12 +22138,11 @@
         },
         "layoutId": "SummerIceSpiceSpongebob.99",
         "newDisplayAsset": {
-          "cosmeticId": "Pickaxe_GainSneezeVital",
           "id": "DAv2_Pickaxe_GainSneezeVital",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_Featured_Pickaxes_GainSneezeVital",
+              "fileName": "cosmo__44cb13d5ae9ace9a_353d0b7944850348.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/44cb13d5ae9ace9a/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -21927,22 +23096,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__921f115d1fb01da4_ec0f162a9654bd5f.png",
+              "fileName": "T_AthenaBundles_Architect_StoneMoo",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/921f115d1fb01da4/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__921f115d1fb01da4_d24a1148adf433f9.png",
+              "fileName": "T_AthenaBundles_Architect_StoneMoo_02",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/921f115d1fb01da4/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__921f115d1fb01da4_a8437495b9212be4.png",
+              "fileName": "T_AthenaBundles_Architect_StoneMoo_03",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/921f115d1fb01da4/renderimage_2.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__921f115d1fb01da4_448e40dcb5954a65.png",
+              "fileName": "T_AthenaBundles_Architect_StoneMoo",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/921f115d1fb01da4/renderimage_3.png",
               "productTag": "Product.Juno"
             }
@@ -22055,6 +23224,97 @@
             "title": "With Or Without You"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "Hold it all for ransom.",
+            "id": "EID_AnvilAlarmMoth",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmmoth/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_anvilalarmmoth/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Ransom",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "586167ff",
+          "color2": "1a1d22ff",
+          "color3": "bcd9f5ff",
+          "textBackgroundColor": "222222ff"
+        },
+        "devName": "[VIRTUAL]1 x Ransom for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-07-30T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "LilTecca-1",
+          "index": 10,
+          "name": "Lil Tecca",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "LilTecca-1.98",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_AnvilAlarmMoth",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__3c8045fe7f113f06_3a3e998790cbadfa.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3c8045fe7f113f06/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_eid_anvilalarmmoth",
+        "offerId": "v2:/91bb49aa2ee6e566de843b51d226b691f5a687993bf7955c4400f0c18ad8d6ba",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_AngleGradient_A",
+        "tileSize": "Size_1_x_1"
       },
       {
         "colors": {
@@ -22267,6 +23527,7 @@
         },
         "layoutId": "FND073026.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_MatteDecoy",
           "id": "DAv2_Character_MatteDecoy",
           "materialInstances": [],
           "renderImages": [
@@ -22517,6 +23778,174 @@
         "tileSize": "Size_3_x_1"
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "It's Tecca's world. We're just squishing it.",
+            "id": "Backpack_AnvilAlarmRobin_Mic",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmrobin_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_anvilalarmrobin_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Lil World Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "It's Tecca's world. We're just squishing it.",
+            "id": "Pickaxe_AnvilAlarmRobin_Mic",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmrobin_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmrobin_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 41,
+              "chapter": "7",
+              "season": "3",
+              "text": "Introduced in Chapter 7, Season 3."
+            },
+            "name": "Lil World Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "SpeakerLocation",
+              "text": "Part of the Lil Tecca set.",
+              "value": "Lil Tecca"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "586167ff",
+          "color2": "1a1d22ff",
+          "color3": "bcd9f5ff",
+          "textBackgroundColor": "222222ff"
+        },
+        "devName": "[VIRTUAL]1 x Lil World Mic, 1 x Lil World Mic, 1 x Lil World Mic for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-07-30T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-07-30T08:00:00Z",
+            "description": "It's Tecca's world. We're just squishing it.",
+            "id": "Sparks_AnvilAlarmRobin_Mic",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmrobin_mic/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmrobin_mic/small.png"
+            },
+            "name": "Lil World Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "type": {
+              "backendValue": "SparksMic",
+              "displayValue": "Microphone",
+              "value": "mic"
+            }
+          }
+        ],
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "LilTecca-1",
+          "index": 10,
+          "name": "Lil Tecca",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "LilTecca-1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_AnvilAlarmRobin_Mic",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__b30e68e06be25f60_b76aff0b1fc79bd7.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b30e68e06be25f60/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Sparks_AnvilAlarmRobin_Mic",
+        "offerId": "v2:/809d2cba09e67e2709cd55ce67f9918a77acf2b56c1a3b6a98ed0a34ce816c7f",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_AngleGradient_A",
+        "tileSize": "Size_2_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2026-04-23T13:00:57Z",
@@ -22594,6 +24023,7 @@
         },
         "layoutId": "Ben10.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_BiomeHose",
           "id": "DAv2_Pickaxe_BiomeHose",
           "materialInstances": [],
           "renderImages": [
@@ -22885,6 +24315,7 @@
         },
         "layoutId": "CAC5.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_WartyBark",
           "id": "DAv2_Companion_WartyBark",
           "materialInstances": [],
           "renderImages": [
@@ -22989,6 +24420,7 @@
         },
         "layoutId": "CAC5.97",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_FinFlake",
           "id": "DAv2_Companion_FinFlake",
           "materialInstances": [],
           "renderImages": [

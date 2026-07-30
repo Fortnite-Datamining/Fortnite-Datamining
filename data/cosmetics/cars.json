@@ -1023,6 +1023,27 @@
       "vehicleId": "VCID_Body_GreyCar"
     },
     {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Q's most stylish work.",
+      "id": "CarBody_Heaven",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_heaven/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_heaven/small.png"
+      },
+      "name": "007's Aston Martin Valhalla",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Heaven"
+    },
+    {
       "added": "2024-09-28T00:02:33Z",
       "description": "Mr. Incredible's crimefighting vehicle of choice.",
       "id": "CarBody_Hero",
@@ -2099,6 +2120,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Body",
@@ -5892,6 +5924,37 @@
       "vehicleId": "VCID_Skin_ChrispLivery2"
     },
     {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "BMW M3 (E30) custom decal.",
+      "id": "CarSkin_ChrispLivery3",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_chrisplivery3/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_chrisplivery3/small.png"
+      },
+      "name": "Brick Body",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_BMW",
+        "colors": [
+          "286fffff",
+          "dde1edff",
+          "0069ffff",
+          "0044baff"
+        ],
+        "value": "BMW SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_ChrispLivery3"
+    },
+    {
       "added": "2024-12-01T03:57:20Z",
       "description": "Fast & Furious Dodge Charger SRT Hellcat custom decal.",
       "id": "CarSkin_ClawAlameda",
@@ -8799,6 +8862,90 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_GreyCarLivery02"
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "007's Aston Martin Valhalla custom decal.",
+      "id": "CarSkin_HeavenA",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavena/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavena/small.png"
+      },
+      "name": "Reel Life",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_HeavenA"
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "007's Aston Martin Valhalla custom decal.",
+      "id": "CarSkin_HeavenFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavenflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavenflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_HeavenFlames"
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "007's Aston Martin Valhalla custom decal.",
+      "id": "CarSkin_HeavenLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavenlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavenlivery01/small.png"
+      },
+      "name": "Solid Gold",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_HeavenLivery01"
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "007's Aston Martin Valhalla custom decal.",
+      "id": "CarSkin_HeavenStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavenstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_heavenstripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_HeavenStripes"
     },
     {
       "added": "2024-09-28T00:02:33Z",
@@ -13498,7 +13645,7 @@
         "displayValue": "Skin",
         "value": "skin"
       },
-      "vehicleId": "VCID_Skin_OctaneAW2"
+      "vehicleId": "VCID_CarSkin_OctaneAW2"
     },
     {
       "added": "2025-12-11T10:20:11Z",
@@ -18298,6 +18445,17 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -18318,6 +18476,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -18340,6 +18509,17 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
         "displayValue": "Skin",
@@ -18360,6 +18540,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Skin",
@@ -33027,6 +33218,27 @@
       "vehicleId": "VCID_Wheel_Hanzawa"
     },
     {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Q's finest.",
+      "id": "Wheel_Heaven",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_heaven/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_heaven/small.png"
+      },
+      "name": "007's Aston Martin Valhalla",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Heaven"
+    },
+    {
       "added": "2024-06-13T08:00:00Z",
       "description": "Strike First.",
       "id": "Wheel_HeavyA",
@@ -36034,6 +36246,27 @@
       "vehicleId": "VCID_Wheel_RL198"
     },
     {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Wheels up.",
+      "id": "Wheel_RL199",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl199/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl199/small.png"
+      },
+      "name": "Landing Gear",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL199"
+    },
+    {
       "added": "2025-09-18T13:07:46Z",
       "description": "Take the wheel.",
       "id": "Wheel_RL205",
@@ -37266,6 +37499,17 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
+      },
       "type": {
         "backendValue": "VehicleCosmetics_Wheel",
         "displayValue": "Wheel",
@@ -37286,6 +37530,17 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Jeep",
+        "colors": [
+          "ffffffff",
+          "ffffffff",
+          "ffffffff",
+          "455a21ff",
+          "455a21ff"
+        ],
+        "value": "JEEP SERIES"
       },
       "type": {
         "backendValue": "VehicleCosmetics_Wheel",

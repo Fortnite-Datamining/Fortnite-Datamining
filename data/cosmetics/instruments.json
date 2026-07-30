@@ -61,6 +61,134 @@
       }
     },
     {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Don't rush the beat.",
+      "id": "Sparks_AnvilAlarmMoth_DrumKit",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmmoth_drumkit/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmmoth_drumkit/small.png"
+      },
+      "name": "Dopamine Drumkit",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "SparksDrum",
+        "displayValue": "Drums",
+        "value": "drum"
+      }
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Keep your heart safe.",
+      "id": "Sparks_AnvilAlarmMoth_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmmoth_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmmoth_guitar/small.png"
+      },
+      "name": "Tecca's Cage",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Ready for the tour.",
+      "id": "Sparks_AnvilAlarmMoth_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmmoth_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmmoth_mic/small.png"
+      },
+      "name": "Tecca's Dopa-mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
+      }
+    },
+    {
+      "added": "2026-07-30T08:00:00Z",
+      "description": "It's Tecca's world. We're just squishing it.",
+      "id": "Sparks_AnvilAlarmRobin_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmrobin_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_anvilalarmrobin_mic/small.png"
+      },
+      "name": "Lil World Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
+      }
+    },
+    {
       "added": "2025-11-02T20:02:46Z",
       "description": "All things fade.",
       "id": "Sparks_AsterOrder_Guitar",
@@ -1143,6 +1271,26 @@
         "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_chipsalad_guitar/small.png"
       },
       "name": "Cascade",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
+      "added": "2026-07-30T13:11:09Z",
+      "description": "Time to imagine some disorder.",
+      "id": "Sparks_ChromeSiren_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_chromesiren_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_chromesiren_guitar/small.png"
+      },
+      "name": "The Seven Six-String",
       "rarity": {
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
