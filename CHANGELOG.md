@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-31
+- **10:34** Item Shop
 - **04:55** Item Shop, Epic Content Pages - +4 new (HULK SMASH!, Hulk, Demolisher, Gamma Chamber)
 - **01:02** Item Shop, Epic Content Pages - +39 new (Wonder Bat, Energy Burn, Heist Duffel, Spider-Man (Brand New Day), Defuser's Prying Pick, +34 more) - -7 removed
 
