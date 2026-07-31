@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-07-31
+- **01:02** Item Shop, Epic Content Pages - +39 new (Wonder Bat, Energy Burn, Heist Duffel, Spider-Man (Brand New Day), Defuser's Prying Pick, +34 more) - -7 removed
+
 ## 2026-07-30
 - **23:01** News - +1 new (The Simpsons and John Wick Hit Reload!) - -1 removed
 - **21:40** Item Shop, Epic Content Pages

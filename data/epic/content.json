@@ -1654,9 +1654,17 @@
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices"
+      "_type": "Emergency Notices",
+      "emergencynotices": [
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "Matchmaking is currently experiencing issues and we're working to resolve them.",
+          "hidden": false,
+          "title": "Matchmaking Issues"
+        }
+      ]
     },
-    "lastModified": "2026-07-30T10:36:23.900Z"
+    "lastModified": "2026-07-31T00:32:14.671Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -1944,7 +1952,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-30T20:48:39.103Z",
+  "lastModified": "2026-07-31T00:32:14.671Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -11577,7 +11585,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-07-28T13:37:11.778Z",
+    "lastModified": "2026-07-31T00:28:54.820Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -24613,6 +24621,56 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Confidential",
+              "textID": "The Confidential"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Springfield Town Square",
+              "textID": "Springfield Town Square"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Springfield Slurpworks",
+              "textID": "Springfield Slurpworks"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Springfield Nuclear Power Plant",
+              "textID": "Springfield Nuclear Power Plant"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Corruption Corners",
+              "textID": "Corruption Corners"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Kamp Krusty",
+              "textID": "Kamp Krusty"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Evergreen Terrace",
+              "textID": "Evergreen Terrace"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Donut District",
+              "textID": "Donut District"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Cletus' Corn Hole",
+              "textID": "Cletus' Corn Hole"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Burns Manor",
+              "textID": "Burns Manor"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Battlewood Boulevard",
               "textID": "Battlewood Boulevard"
             },
@@ -24829,6 +24887,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Excommunicado Rule (from the Confidential POI)",
+              "textID": "Excommunicado Rule (from the Confidential POI)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Teams of 8",
               "textID": "Teams of 8"
             },
@@ -24945,13 +25008,38 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Nemesis AR",
-              "textID": "Nemesis AR"
+              "localizedText": "John Wick Sprite",
+              "textID": "John Wick Sprite"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Hammer Revolver",
-              "textID": "Hammer Revolver"
+              "localizedText": "Reload Portable Extractor",
+              "textID": "Reload Portable Extractor"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dragons Breath Shotgun",
+              "textID": "Dragons Breath Shotgun"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "9mm Baba Yaga",
+              "textID": "9mm Baba Yaga"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lancehead Pistol",
+              "textID": "Lancehead Pistol"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Killswitch Revolvers",
+              "textID": "Killswitch Revolvers"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Slapperoni Pizza",
+              "textID": "Slapperoni Pizza"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25000,13 +25088,13 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Med-Mist Smoke Grenade",
-              "textID": "Med-Mist Smoke Grenade"
+              "localizedText": "Iron Pump Shotgun",
+              "textID": "Iron Pump Shotgun"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Morphite AR",
-              "textID": "Morphite AR"
+              "localizedText": "Med-Mist Smoke Grenade",
+              "textID": "Med-Mist Smoke Grenade"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25030,11 +25118,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Pizza Party",
-              "textID": "Pizza Party"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Gatekeeper",
               "textID": "Gatekeeper"
             },
@@ -25050,11 +25133,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gatekeeper Shotgun",
-              "textID": "Gatekeeper Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Hyper SMG",
               "textID": "Hyper SMG"
             },
@@ -25065,6 +25143,16 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Suppressed Assault Rifle",
+              "textID": "Suppressed Assault Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tactical Assault Rifle",
+              "textID": "Tactical Assault Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Combat Shotgun",
               "textID": "Combat Shotgun"
             },
@@ -25072,6 +25160,16 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Bolt-Action Sniper Rifle",
               "textID": "Bolt-Action Sniper Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Slap Splash",
+              "textID": "Slap Splash"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Slap Juice",
+              "textID": "Slap Juice"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25105,18 +25203,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Suppressed Pistol",
-              "textID": "Suppressed Pistol"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Combat SMG",
               "textID": "Combat SMG"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Shield Keg",
-              "textID": "Shield Keg"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25175,13 +25263,13 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Morphite Sentinel Pump",
-              "textID": "Morphite Sentinel Pump"
+              "localizedText": "Morphite Mammoth Pistol",
+              "textID": "Morphite Mammoth Pistol"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Morphite Thunder Shotgun",
-              "textID": "Morphite Thunder Shotgun"
+              "localizedText": "Morphite Sentinel Pump",
+              "textID": "Morphite Sentinel Pump"
             }
           ]
         },
@@ -25767,8 +25855,18 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Cube Sprites",
+              "textID": "Cube Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Batman Beach Buggy",
               "textID": "Batman Beach Buggy"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lucky Locator",
+              "textID": "Lucky Locator"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -26321,6 +26419,26 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Peely Sprite",
+              "textID": "Peely Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Llama Sprite",
+              "textID": "Llama Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Supreme Dark Voyager",
+              "textID": "Supreme Dark Voyager"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dark Voyager's Chaos Rifle",
+              "textID": "Dark Voyager's Chaos Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sprite Locator",
               "textID": "Sprite Locator"
             },
@@ -26343,6 +26461,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Grim Reaper Sprite",
               "textID": "Grim Reaper Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "John Wick Sprite",
+              "textID": "John Wick Sprite"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -37703,7 +37826,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-07-29T18:24:22.973Z",
+    "lastModified": "2026-07-30T23:27:55.228Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -37722,7 +37845,7 @@
                 },
                 {
                   "_type": "Player Survey V2 - Condition Level 2",
-                  "comparisonValue": "0.09",
+                  "comparisonValue": "0.01",
                   "operation": "LessThan",
                   "type": "Random"
                 }
@@ -37746,7 +37869,7 @@
                 },
                 {
                   "_type": "Player Survey V2 - Condition Level 2",
-                  "comparisonValue": "0.04",
+                  "comparisonValue": "0.005",
                   "operation": "LessThan",
                   "type": "Random"
                 }
@@ -38119,7 +38242,9 @@
                 "Playlist_Habanero_Dashberry*",
                 "Playlist_Habanero_Timberstake*",
                 "Playlist_Habanero_NoBuild_Dashberry*",
-                "Playlist_Habanero_Piperboot*"
+                "Playlist_Habanero_Piperboot*",
+                "Playlist_Habanero_Ropesmile*",
+                "Playlist_Habanero_NoBuild_Ropesmile*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -38137,7 +38262,9 @@
                 "Playlist_Sunflower*",
                 "Playlist_Dashberry*",
                 "Playlist_Timberstake*",
-                "Playlist_Piperboot*"
+                "Playlist_Piperboot*",
+                "Playlist_Ropesmile*",
+                "Playlist_RopesmileNoBuild*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -38164,7 +38291,11 @@
                 "Playlist_Habanero_Timberstake*",
                 "Playlist_Habanero_NoBuild_Dashberry*",
                 "Playlist_Habanero_Piperboot*",
-                "Playlist_Piperboot*"
+                "Playlist_Piperboot*",
+                "Playlist_Ropesmile*",
+                "Playlist_RopesmileNoBuild*",
+                "Playlist_Habanero_Ropesmile*",
+                "Playlist_Habanero_NoBuild_Ropesmile*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -39159,7 +39290,11 @@
                 "Playlist_Delulu*",
                 "Playlist_ForbiddenFruit*",
                 "Playlist_HabaneroSolo*",
-                "Playlist_NoBuildBR_Habanero*"
+                "Playlist_NoBuildBR_Habanero*",
+                "Playlist_Ropesmile*",
+                "Playlist_RopesmileNoBuild*",
+                "Playlist_Habanero_Ropesmile*",
+                "Playlist_Habanero_NoBuild_Ropesmile*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -39898,6 +40033,16 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Cube Sprite variant is now available in Fortnite Battle Royale",
+              "textID": "the Cube Sprite variant is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Lucky Locator (an item that helps you find a Chest containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale",
+              "textID": "the Lucky Locator (an item that helps you find a Chest containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Holofoil Sprite variant is now available in Fortnite Battle Royale",
               "textID": "the Holofoil Sprite variant is now available in Fortnite Battle Royale"
             },
@@ -40015,6 +40160,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Water Sprite is now available in Fortnite Battle Royale",
               "textID": "the Water Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can complete John Wick quests to earn rewards",
+              "textID": "you can complete John Wick quests to earn rewards"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -40174,6 +40324,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Springfield map",
+              "textID": "Springfield map"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Elite Stronghold map (the snow map)",
               "textID": "Elite Stronghold map (the snow map)"
             },
@@ -40211,11 +40366,45 @@
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "Reload_Likert_Liking"
+          "textReplacementTag": "Reload_Likert_Liking",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in Solo mode, if you have less than two Reboots left until the Reboot timer ends, you can earn them back when you fill the damage meter (by dealing damage to opponents)",
+              "textID": "in Solo mode, if you have less than two Reboots left until the Reboot timer ends, you can earn them back when you fill the damage meter (by dealing damage to opponents)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Re-Looting Chests (opened chests have a chance to refresh periodically throughout the match and be looted again)",
+              "textID": "Re-Looting Chests (opened chests have a chance to refresh periodically throughout the match and be looted again)"
+            }
+          ]
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "Reload_WereYouAwareThat"
+          "textReplacementTag": "Reload_WereYouAwareThat",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Reload Portable Extractor is the only way to extract sprites in Fortnite Reload",
+              "textID": "the Reload Portable Extractor is the only way to extract sprites in Fortnite Reload"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in Fortnite Reload solos, if you have less than two Reboots left until the Reboot timer ends, you can earn them back when you fill the damage meter (by dealing damage to opponents)",
+              "textID": "in Fortnite Reload solos, if you have less than two Reboots left until the Reboot timer ends, you can earn them back when you fill the damage meter (by dealing damage to opponents)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite Reload now has some Re-Looting Chests (opened chests have a chance to refresh periodically throughout the match and be looted again)",
+              "textID": "Fortnite Reload now has some Re-Looting Chests (opened chests have a chance to refresh periodically throughout the match and be looted again)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "inside The Confidential POI in Fortnite Reload, the Excommunicado Rule applies, so eliminating players results in your position being tracked and a reward for anyone who eliminates you",
+              "textID": "inside The Confidential POI in Fortnite Reload, the Excommunicado Rule applies, so eliminating players results in your position being tracked and a reward for anyone who eliminates you"
+            }
+          ]
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
@@ -40321,6 +40510,16 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is a Peeky Peely Hour (with a better chance to find Peely Sprite and its variants) from Thursday, July 30 until Wednesday, August 5",
+              "textID": "there is a Peeky Peely Hour (with a better chance to find Peely Sprite and its variants) from Thursday, July 30 until Wednesday, August 5"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the John Wick Sprite is now available in Fortnite Reload",
+              "textID": "the John Wick Sprite is now available in Fortnite Reload"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "every Thursday, a new Sprite or special variant begins appearing in Fortnite Battle Royale",
               "textID": "every Thursday, a new Sprite or special variant begins appearing in Fortnite Battle Royale"
             },
@@ -40328,6 +40527,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "there was a Shiny Hour (better chance of finding Sprite variants) on Saturday, July 18",
               "textID": "there was a Shiny Hour (better chance of finding Sprite variants) on Saturday, July 18"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is a Simpsons-themed map you can play in Fortnite Reload",
+              "textID": "there is a Simpsons-themed map you can play in Fortnite Reload"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -40467,8 +40671,28 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I enjoy finding Sprites in chests as I play.",
+              "textID": "I enjoy finding Sprites in chests as I play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I enjoy finding Sprites out in the world as I play.",
+              "textID": "I enjoy finding Sprites out in the world as I play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When I use a Lucky Locator, it's easy to find the Sprite Chest it points me to.",
+              "textID": "When I use a Lucky Locator, it's easy to find the Sprite Chest it points me to."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "The Innovation set (Outfit, Backbling, Pickaxe, and Glider) from the Slone quests is worth the effort.",
               "textID": "The Innovation set (Outfit, Backbling, Pickaxe, and Glider) from the Slone quests is worth the effort."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The reward from the John Wick quests is worth the effort.",
+              "textID": "The reward from the John Wick quests is worth the effort."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -41223,6 +41447,158 @@
       "surveys": [
         {
           "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_Playlists",
+            "FNBR_Main_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Out of the following Sprite types, which is the cutest?",
+                  "textID": "Out of the following Sprite types, which is the cutest?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Peely Sprite",
+                    "textID": "Peely Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Llama Sprite",
+                    "textID": "Llama Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "John Wick Sprite",
+                    "textID": "John Wick Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Pollo Sprite",
+                    "textID": "Pollo Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Water Sprite",
+                    "textID": "Water Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Earth Sprite",
+                    "textID": "Earth Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Fire Sprite",
+                    "textID": "Fire Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Duck Sprite",
+                    "textID": "Duck Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Ghost Sprite",
+                    "textID": "Ghost Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Demon Sprite",
+                    "textID": "Demon Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "King Sprite",
+                    "textID": "King Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Dream Sprite",
+                    "textID": "Dream Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Punk Sprite",
+                    "textID": "Punk Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Zero Point Sprite",
+                    "textID": "Zero Point Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "BurntPeanut Sprite",
+                    "textID": "BurntPeanut Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Fishy Sprite",
+                    "textID": "Fishy Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Striker Sprite",
+                    "textID": "Striker Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Aura Sprite",
+                    "textID": "Aura Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Boss Sprite",
+                    "textID": "Boss Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Grim Reaper Sprite",
+                    "textID": "Grim Reaper Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Air Sprite",
+                    "textID": "Air Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Seven Sprite",
+                    "textID": "Seven Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Batman Sprite",
+                    "textID": "Batman Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Vini Jr. Sprite",
+                    "textID": "Vini Jr. Sprite"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "FNBR_Sprite_CutestType",
+          "surveyTags": [
+            "FNBR_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
           "conditionGroupIDs": [
             "Shooters_Playlists",
@@ -41831,6 +42207,26 @@
                   "textID": "Out of the following Sprite types, which is your favorite?"
                 },
                 "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Peely Sprite",
+                    "textID": "Peely Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Llama Sprite",
+                    "textID": "Llama Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "John Wick Sprite",
+                    "textID": "John Wick Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Pollo Sprite",
+                    "textID": "Pollo Sprite"
+                  },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Water Sprite",
