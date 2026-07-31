@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-31T01:57:32.235Z",
+  "lastModified": "2026-07-31T16:03:09.765Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -37854,7 +37854,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-07-30T23:27:55.228Z",
+    "lastModified": "2026-07-31T16:03:09.765Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -42728,6 +42728,48 @@
             }
           ],
           "surveyID": "Ecosystem_OwnDevices_MC",
+          "surveyTags": [
+            "Ecosystem_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Global_Main_Rate",
+            "Global_Cooldown",
+            "Seasonal_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "If you used Fortnite’s in-game voice chat in your last match, how was the quality? If you did not use it, please skip the question.",
+                  "textID": "If you used Fortnite’s in-game voice chat in your last match, how was the quality? If you did not use it, please skip the question."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very bad",
+                    "textID": "Very bad"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very good",
+                    "textID": "Very good"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_VoiceChatQuality",
           "surveyTags": [
             "Ecosystem_Main_Surveys"
           ]
