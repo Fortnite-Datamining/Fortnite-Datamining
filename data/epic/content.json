@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-07-31T16:03:09.765Z",
+  "lastModified": "2026-07-31T17:53:32.806Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -37854,7 +37854,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-07-31T16:03:09.765Z",
+    "lastModified": "2026-07-31T17:53:32.806Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -38611,7 +38611,11 @@
                         "Playlist_Habanero_Timberstake*",
                         "Playlist_Habanero_NoBuild_Dashberry*",
                         "Playlist_Piperboot*",
-                        "Playlist_Habanero_Piperboot*"
+                        "Playlist_Habanero_Piperboot*",
+                        "Playlist_Habanero_Ropesmile*",
+                        "Playlist_Habanero_NoBuild_Ropesmile*",
+                        "Playlist_Ropesmile*",
+                        "Playlist_RopesmileNoBuild*"
                       ],
                       "operation": "EqualTo",
                       "type": "Playlist"
@@ -39534,7 +39538,11 @@
                         "Playlist_Habanero_Timberstake*",
                         "Playlist_Habanero_NoBuild_Dashberry*",
                         "Playlist_Piperboot*",
-                        "Playlist_Habanero_Piperboot*"
+                        "Playlist_Habanero_Piperboot*",
+                        "Playlist_Habanero_Ropesmile*",
+                        "Playlist_Habanero_NoBuild_Ropesmile*",
+                        "Playlist_Ropesmile*",
+                        "Playlist_RopesmileNoBuild*"
                       ],
                       "operation": "EqualTo",
                       "type": "Playlist"
@@ -41473,6 +41481,78 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Reload_Playlists",
+            "ModeBased_Main_Rate",
+            "Global_Cooldown",
+            "Reload_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following are the reasons you played Fortnite Reload today? Please select all that apply.",
+                  "textID": "Which of the following are the reasons you played Fortnite Reload today? Please select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "To get the John Wick Sprite",
+                    "textID": "To get the John Wick Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "To play on the Springfield map",
+                    "textID": "To play on the Springfield map"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I like The Simpsons",
+                    "textID": "I like The Simpsons"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I like John Wick",
+                    "textID": "I like John Wick"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "To play the new Ranked season",
+                    "textID": "To play the new Ranked season"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "To unlock the Simpsonified John Wick style",
+                    "textID": "To unlock the Simpsonified John Wick style"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I play Reload regularly anyway",
+                    "textID": "I play Reload regularly anyway"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "None of these",
+                    "textID": "None of these"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Reload_WhyPlaySpringfield_MC",
+          "surveyTags": [
+            "Reload_Main_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
