@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-07-31
+- **23:58** News - +1 new (Live - Champion Aphrodite FNCS Cup) - -1 removed
 - **22:55** News - +1 new (Live - Champion Aphrodite FNCS Cup) - -1 removed
 - **21:36** Item Shop, Epic Content Pages
 - **18:51** Epic Content Pages
