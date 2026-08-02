@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-02
+- **02:22** Item Shop, News - +30 new (Red Knight Bundle, Knight's Lion, Toona Can, Ashes of Love, Inkville Gang Pack, +25 more) - -19 removed
+
 ## 2026-08-01
 - **20:44** News - +1 new (Live - NAC - FNCS Major 2 Finals) - -1 removed
 - **19:44** News - +1 new (The Simpsons and John Wick Hit Reload!) - -1 removed
