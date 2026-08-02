@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-02
+- **21:51** Item Shop, AES Keys
 - **20:49** News - +1 new (Live - NAC - FNCS Major 2 Finals) - -1 removed
 - **19:42** News - +1 new (The Simpsons and John Wick Hit Reload!) - -1 removed
 - **14:46** News - +1 new (Live - EU - FNCS Major 2 Finals) - -1 removed
