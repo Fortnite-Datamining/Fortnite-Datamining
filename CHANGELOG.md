@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-02
+- **14:46** News - +1 new (Live - EU - FNCS Major 2 Finals) - -1 removed
 - **02:22** Item Shop, News - +30 new (Red Knight Bundle, Knight's Lion, Toona Can, Ashes of Love, Inkville Gang Pack, +25 more) - -19 removed
 
 ## 2026-08-01
