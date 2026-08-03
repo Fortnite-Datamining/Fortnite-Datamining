@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-03
+- **15:40** Epic Content Pages
 - **02:24** Item Shop, News - +37 new (Alistair Chews, Flappy Flyer, Monks, Ramses, Black Dino Ranger, +32 more) - -64 removed
 
 ## 2026-08-02
