@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-03
+- **02:24** Item Shop, News - +37 new (Alistair Chews, Flappy Flyer, Monks, Ramses, Black Dino Ranger, +32 more) - -64 removed
+
 ## 2026-08-02
 - **21:51** Item Shop, AES Keys
 - **20:49** News - +1 new (Live - NAC - FNCS Major 2 Finals) - -1 removed
