@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-03T18:18:49.282Z",
+  "lastModified": "2026-08-03T22:56:50.952Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -37422,10 +37422,26 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-03T15:26:45.186Z",
+    "lastModified": "2026-08-03T22:56:50.952Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "BrandHeat_Cooldown",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "comparisonValue": "90",
+              "conditionInfo": [
+                "BrandHeat_Modular_Surveys",
+                "BrandHeat_Main_Surveys"
+              ],
+              "operation": "GreaterThan",
+              "type": "MostRecentlyCompleted"
+            }
+          ]
+        },
         {
           "_type": "Player Survey V2 - Condition Group",
           "conditionGroupID": "Switch_Modular_Rate",
@@ -39248,6 +39264,72 @@
       "customTextReplacements": [
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "BrandHeat_Likert_Agreement",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "In the last two weeks, most of what I have heard about Fortnite is negative.",
+              "textID": "In the last two weeks, most of what I have heard about Fortnite is negative."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "In the last two weeks, most of what I have heard about Fortnite is positive.",
+              "textID": "In the last two weeks, most of what I have heard about Fortnite is positive."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I would not feel comfortable wearing Fortnite merch in public.",
+              "textID": "I would not feel comfortable wearing Fortnite merch in public."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I would feel comfortable wearing Fortnite merch in public.",
+              "textID": "I would feel comfortable wearing Fortnite merch in public."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I don't really see Fortnite memes.",
+              "textID": "I don't really see Fortnite memes."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I often see Fortnite memes.",
+              "textID": "I often see Fortnite memes."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite doesn't make high-quality games.",
+              "textID": "Fortnite doesn't make high-quality games."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite makes high-quality games.",
+              "textID": "Fortnite makes high-quality games."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite feels similar to other games I play.",
+              "textID": "Fortnite feels similar to other games I play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite feels different from other games I play.",
+              "textID": "Fortnite feels different from other games I play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite feels connected to what's happening in music, movies, and pop culture right now.",
+              "textID": "Fortnite feels connected to what's happening in music, movies, and pop culture right now."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite feels disconnected from what's happening in music, movies, and pop culture right now.",
+              "textID": "Fortnite feels disconnected from what's happening in music, movies, and pop culture right now."
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Switch_Likert_Agreement",
           "textReplacementValues": [
             {
@@ -41029,6 +41111,272 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "BrandHeat_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Please rate how much you agree or disagree with the following statement:\n{BrandHeat_Likert_Agreement}",
+                  "textID": "Please rate how much you agree or disagree with the following statement:\n{BrandHeat_Likert_Agreement}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Disagree",
+                    "textID": "Strongly Disagree"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Agree",
+                    "textID": "Strongly Agree"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "BrandHeat_Likert_Agreement",
+          "surveyTags": [
+            "BrandHeat_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Global_Main_Rate",
+            "Global_Cooldown",
+            "BrandHeat_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following Fortnite-related things have you recently seen or heard about? Please select all that apply.",
+                  "textID": "Which of the following Fortnite-related things have you recently seen or heard about? Please select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Gameplay trailers / cinematics from Fortnite",
+                    "textID": "Gameplay trailers / cinematics from Fortnite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Videos / clips of streamers playing Fortnite",
+                    "textID": "Videos / clips of streamers playing Fortnite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Fortnite collabs (e.g., Marvel, Star Wars, concerts)",
+                    "textID": "Fortnite collabs (e.g., Marvel, Star Wars, concerts)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Posts from Fortnite's official accounts or website",
+                    "textID": "Posts from Fortnite's official accounts or website"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Articles / news about Fortnite",
+                    "textID": "Articles / news about Fortnite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Social Media content about Fortnite ",
+                    "textID": "Social Media content about Fortnite "
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Ads (TV, social, or online)",
+                    "textID": "Ads (TV, social, or online)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Word of Mouth (speaking with friends or family)",
+                    "textID": "Word of Mouth (speaking with friends or family)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I haven't seen any of these",
+                    "textID": "I haven't seen any of these"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BrandHeat_HeardAboutFortnite_MC",
+          "surveyTags": [
+            "BrandHeat_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Global_Main_Rate",
+            "Global_Cooldown",
+            "BrandHeat_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Based on what you have experienced or heard, which of the following statements describe Fortnite? Please, select all that apply.",
+                  "textID": "Based on what you have experienced or heard, which of the following statements describe Fortnite? Please, select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lets me play and create without limits",
+                    "textID": "Lets me play and create without limits"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is great to play solo",
+                    "textID": "Is great to play solo"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is great to play with friends",
+                    "textID": "Is great to play with friends"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Has a supportive community",
+                    "textID": "Has a supportive community"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is great to play casually",
+                    "textID": "Is great to play casually"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is great to play competitively",
+                    "textID": "Is great to play competitively"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is fun to play",
+                    "textID": "Is fun to play"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is too challenging",
+                    "textID": "Is too challenging"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is too easy",
+                    "textID": "Is too easy"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is for players younger than me",
+                    "textID": "Is for players younger than me"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is for players older than me",
+                    "textID": "Is for players older than me"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is worth my time",
+                    "textID": "Is worth my time"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is becoming less popular",
+                    "textID": "Is becoming less popular"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is becoming more popular",
+                    "textID": "Is becoming more popular"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "My friends are playing this",
+                    "textID": "My friends are playing this"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "My friends are talking about this",
+                    "textID": "My friends are talking about this"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is relevant",
+                    "textID": "Is relevant"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is mainstream",
+                    "textID": "Is mainstream"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is niche",
+                    "textID": "Is niche"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is outdated",
+                    "textID": "Is outdated"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is embarrassing",
+                    "textID": "Is embarrassing"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Is nostalgic",
+                    "textID": "Is nostalgic"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BrandHeat_DescribeFortnite_MC",
+          "surveyTags": [
+            "BrandHeat_Main_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,

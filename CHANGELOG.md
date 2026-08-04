@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-04
+- **02:04** Item Shop, Epic Content Pages - +35 new (Blackgold Helmet, Echo, Unbendable Girder, Catrin Glitch, Zoidberg Scuttle, +30 more) - -18 removed
+
 ## 2026-08-03
 - **19:24** Item Shop, Epic Content Pages
 - **17:46** Epic Content Pages
