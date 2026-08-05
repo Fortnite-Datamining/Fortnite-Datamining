@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-05
+- **02:03** BR Cosmetics, Item Shop, AES Keys - +30 new (WHERE IS MY HUSBAND!, Games Guard, Sunspot, Field Wraith, Delicious Dalgona, +25 more) - -47 removed
+
 ## 2026-08-04
 - **22:07** Item Shop, Epic Content Pages
 - **19:24** Epic Content Pages
