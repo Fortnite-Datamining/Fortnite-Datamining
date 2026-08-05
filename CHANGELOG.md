@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-05
+- **21:44** Build update: `++Fortnite+Release-41.30-CL-56430492`
 - **17:00** Epic Content Pages
 - **15:14** Epic Content Pages
 - **10:58** Item Shop, Banners
