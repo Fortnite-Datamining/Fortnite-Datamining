@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-06
+- **13:08** BR Cosmetics, LEGO Cosmetics, AES Keys - +11 new (Yoruichi's Cape, Soul Candy, Yoruichi Shihoin, Kisuke Urahara, Shunko Raijin Senkei, +6 more)
 - **05:31** Epic Content Pages
 - **02:23** Item Shop - +30 new (Rogue, X-Pack, Colossus, Sentinel Squats, Rogue & Gambit Bundle, +25 more) - -15 removed
 
