@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-06
+- **05:31** Epic Content Pages
 - **02:23** Item Shop - +30 new (Rogue, X-Pack, Colossus, Sentinel Squats, Rogue & Gambit Bundle, +25 more) - -15 removed
 
 ## 2026-08-05
