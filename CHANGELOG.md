@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-07
+- **02:26** Item Shop - +56 new (Loose Links, Woolla, Taro, Stuffed Mr. Teeny, Barry Pinkums, +51 more) - -35 removed
+
 ## 2026-08-06
 - **23:54** BR Cosmetics, Instruments, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Epic Content Pages - +17 new (Addison's Sundae, Aquamarine the Turtle, Addison's Mic, Famous Addison Rae, Addison Rae, +12 more)
 - **13:08** BR Cosmetics, LEGO Cosmetics, AES Keys - +11 new (Yoruichi's Cape, Soul Candy, Yoruichi Shihoin, Kisuke Urahara, Shunko Raijin Senkei, +6 more)
