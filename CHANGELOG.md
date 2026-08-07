@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-07
+- **21:08** Item Shop, Epic Content Pages
 - **11:41** BR Cosmetics, Item Shop
 - **02:26** Item Shop - +56 new (Loose Links, Woolla, Taro, Stuffed Mr. Teeny, Barry Pinkums, +51 more) - -35 removed
 
