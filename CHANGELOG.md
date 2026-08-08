@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-08
+- **01:37** BR Cosmetics, Item Shop, AES Keys - +34 new (Converse Chuck 70 'Floral', adidas Stan Smith OG 'Green', Unseen Sneakers, Air Jordan 6 Retro Premio ‘Bin 23’, Nike Air Foamposite One 'Royal', +29 more) - -24 removed
+
 ## 2026-08-07
 - **21:08** Item Shop, Epic Content Pages
 - **11:41** BR Cosmetics, Item Shop
