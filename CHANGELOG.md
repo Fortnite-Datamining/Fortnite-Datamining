@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-10
+- **01:56** Item Shop, Epic Content Pages - +30 new (Zangetsu, Air Jordan 11 Retro 'Grand Finale', Crowne, Whiteout, Hedron, +25 more) - -17 removed
+
 ## 2026-08-09
 - **01:19** Item Shop - +20 new (Oooohhh!, Maximum Glove, Boy's a Liar, Coffin, Glumbunny, +15 more) - -47 removed
 
