@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-12
+- **23:35** Item Shop, Epic Content Pages
 - **19:36** Epic Content Pages
 - **03:37** BR Cosmetics, AES Keys, Epic Content Pages - +3 new (Sanguine, Soul, Sanguine)
 - **01:27** Item Shop - +24 new (Femininomenon, Woodsprite, Ikran Totem, Lemon Zest, Pink Pony Club, +19 more) - -2 removed
