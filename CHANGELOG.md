@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-12
+- **01:27** Item Shop - +24 new (Femininomenon, Woodsprite, Ikran Totem, Lemon Zest, Pink Pony Club, +19 more) - -2 removed
+
 ## 2026-08-11
 - **22:36** Item Shop
 - **21:41** Item Shop, AES Keys, Epic Content Pages
