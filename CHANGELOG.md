@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-13
+- **01:29** Item Shop, Banners - +21 new (Fishin', Luna Snow, Ma-Ya-Hi, Magik, Mysterious Fate, +16 more) - -17 removed
+
 ## 2026-08-12
 - **23:35** Item Shop, Epic Content Pages
 - **19:36** Epic Content Pages
