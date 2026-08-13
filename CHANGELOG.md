@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-13
+- **13:55** Banners
 - **01:29** Item Shop, Banners - +21 new (Fishin', Luna Snow, Ma-Ya-Hi, Magik, Mysterious Fate, +16 more) - -17 removed
 
 ## 2026-08-12
