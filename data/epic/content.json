@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-12T22:55:19.008Z",
+  "lastModified": "2026-08-13T16:31:55.724Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -1954,10 +1954,28 @@
     "arena_info": {
       "_type": "Leaderboards Info"
     },
-    "lastModified": "2026-06-09T16:32:52.959Z",
+    "lastModified": "2026-08-13T16:31:55.724Z",
     "leaderboard_info": {
       "_type": "Leaderboards Info",
       "leaderboards": [
+        {
+          "_type": "Leaderboard Display Info",
+          "details_panel_tracked_stats": [
+            "Weapon_Eliminations-Item_Weapon_Ranged_MintPunt",
+            "EACH_Weapon_Eliminations-Item_Weapon_Ranged_MintPunt"
+          ],
+          "displayed_tracked_stat": [
+            "Weapon_Eliminations-Item_Weapon_Ranged_MintPunt",
+            "EACH_Weapon_Eliminations-Item_Weapon_Ranged_MintPunt"
+          ],
+          "leaderboard_id": "DefaultMintLeaderboard",
+          "leaderboard_name": "Test Leaderboard",
+          "match_history_tracked_stats": [
+            "Weapon_Eliminations-Item_Weapon_Ranged_MintPunt",
+            "EACH_Weapon_Eliminations-Item_Weapon_Ranged_MintPunt"
+          ],
+          "show_details_panel": true
+        },
         {
           "_type": "Leaderboard Display Info",
           "details_panel_tracked_stats": [
@@ -52211,10 +52229,28 @@
     "_noIndex": false,
     "_templateName": "FortniteGameScoringRulesInfo",
     "_title": "scoringrulesinformation",
-    "lastModified": "2026-06-18T20:23:06.105Z",
+    "lastModified": "2026-08-13T16:28:27.339Z",
     "scoring_rules_info": {
       "_type": "Scoring Rules Info",
       "scoring_rules": [
+        {
+          "_type": "Scoring Rules Display Info",
+          "description": "{0} {0}|plural(one=Test Elimination,other=Test Eliminations)",
+          "hide_score_toast_notifications": false,
+          "icon": "/Game/Athena/HUD/Art/killsico_alt.KillsIco_Alt",
+          "poster_description": "{0} {0}|plural(one=Test Elimination,other=Test Eliminations)",
+          "poster_interval_description": "{0} - {1} Test Eliminations",
+          "rule_name": "Weapon_Eliminations-Item_Weapon_Ranged_MintPunt"
+        },
+        {
+          "_type": "Scoring Rules Display Info",
+          "description": "{0} {0}|plural(one=Test Elimination,other=Test Eliminations)",
+          "hide_score_toast_notifications": false,
+          "icon": "/Game/Athena/HUD/Art/killsico_alt.KillsIco_Alt",
+          "poster_description": "{0} {0}|plural(one=Test Elimination,other=Test Eliminations)",
+          "poster_interval_description": "{0} - {1} Test Eliminations",
+          "rule_name": "EACH_Weapon_Eliminations-Item_Weapon_Ranged_MintPunt"
+        },
         {
           "_type": "Scoring Rules Display Info",
           "description": "Reach Top {0}",
