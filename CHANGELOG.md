@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-13
+- **22:36** Item Shop, Epic Content Pages
 - **18:56** Banners
 - **16:52** Epic Content Pages
 - **13:55** Banners
