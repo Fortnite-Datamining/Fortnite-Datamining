@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-14
+- **01:28** Item Shop, Epic Content Pages - +28 new (Homegrown Gym, The Mandalorian (Pen & Ink), Iron Cage, The Prophecy Bundle, Grogu, +23 more) - -24 removed
+
 ## 2026-08-13
 - **22:36** Item Shop, Epic Content Pages
 - **18:56** Banners
