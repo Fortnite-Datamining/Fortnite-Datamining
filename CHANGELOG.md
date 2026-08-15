@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-15
+- **03:11** News - +1 new (The Simpsons and John Wick Hit Reload!) - -1 removed
 - **00:57** BR Cosmetics, Item Shop, AES Keys - +45 new (Perlica, Titan, Striker Senpai, Varsity Vanguard, Skeletor, +40 more) - -46 removed
 
 ## 2026-08-14
