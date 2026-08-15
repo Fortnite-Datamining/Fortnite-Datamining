@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-15
+- **00:57** BR Cosmetics, Item Shop, AES Keys - +45 new (Perlica, Titan, Striker Senpai, Varsity Vanguard, Skeletor, +40 more) - -46 removed
+
 ## 2026-08-14
 - **23:16** News - +1 new (Live - NAC - FNCS Last Chance) - -1 removed
 - **21:20** Item Shop, Epic Content Pages
