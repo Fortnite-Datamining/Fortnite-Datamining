@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-15
+- **23:42** BR Cosmetics, LEGO Cosmetics, AES Keys - +5 new (Forsworn Trooper, At Your Service!, THE GAMBIT, Hunk of Junk, JIDO_Character_EmailStamp)
 - **18:21** News, Epic Content Pages
 - **15:43** AES Keys
 - **15:15** AES Keys
