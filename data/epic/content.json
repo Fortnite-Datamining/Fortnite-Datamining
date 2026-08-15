@@ -1620,7 +1620,7 @@
       "backgrounds": [
         {
           "_type": "DynamicBackground",
-          "backgroundimage": "https://cdn2.unrealengine.com/mkart-fnbr-41-30-lobbybg-final-4k-3840x2022-38116a092515.jpg",
+          "backgroundimage": "https://cdn2.unrealengine.com/ch7s3-lobby-final-4096x2048-386aa58f2d9f.jpg",
           "key": "lobby",
           "stage": "defaultnotris"
         },
@@ -1631,7 +1631,7 @@
         }
       ]
     },
-    "lastModified": "2026-07-30T04:18:00.154Z"
+    "lastModified": "2026-08-15T17:23:37.990Z"
   },
   "emergencynotice": {
     "_activeDate": "2018-08-06T19:00:26.217Z",
@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-14T21:04:16.582Z",
+  "lastModified": "2026-08-15T17:23:37.990Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -41724,12 +41724,12 @@
     }
   },
   "playersurveyv2Additions": {
-    "_activeDate": "2026-06-25T12:00:00.000Z",
+    "_activeDate": "2026-08-15T17:55:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-12T02:25:30.876Z",
+    "lastModified": "2026-08-14T21:03:27.519Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -44674,6 +44674,26 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Unstable Story Moment felt like a meaningful conclusion to this season's story.",
+              "textID": "The Unstable Story Moment felt like a meaningful conclusion to this season's story."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Unstable Story Moment felt like a shared community experience.",
+              "textID": "The Unstable Story Moment felt like a shared community experience."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The story of the Unstable Story Moment was clear and easy to follow.",
+              "textID": "The story of the Unstable Story Moment was clear and easy to follow."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Unstable Story Moment was fun to participate in.",
+              "textID": "The Unstable Story Moment was fun to participate in."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I enjoy finding Sprites in chests as I play.",
               "textID": "I enjoy finding Sprites in chests as I play."
             },
@@ -44923,6 +44943,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Liking",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Unstable Story Moment in Fortnite Battle Royale",
+              "textID": "the Unstable Story Moment in Fortnite Battle Royale"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "The Gizmo Wheel, a new circular menu that lets you swap between all your Gizmos during a match",

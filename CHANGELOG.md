@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-15
+- **18:21** News, Epic Content Pages
 - **15:43** AES Keys
 - **15:15** AES Keys
 - **03:11** News - +1 new (The Simpsons and John Wick Hit Reload!) - -1 removed
