@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-16
+- **16:18** News - +1 new (Reality Reboots August 20) - -1 removed
 - **13:10** News - +1 new (Smugglers Gambit) - -1 removed
 - **01:01** Item Shop - +27 new (Coffee Break, Jittervault, Galaxy Crossfade, Jolt Carver, Tidewalker Trace, +22 more) - -40 removed
 
