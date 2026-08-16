@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-16
+- **01:01** Item Shop - +27 new (Coffee Break, Jittervault, Galaxy Crossfade, Jolt Carver, Tidewalker Trace, +22 more) - -40 removed
+
 ## 2026-08-15
 - **23:42** BR Cosmetics, LEGO Cosmetics, AES Keys - +5 new (Forsworn Trooper, At Your Service!, THE GAMBIT, Hunk of Junk, JIDO_Character_EmailStamp)
 - **18:21** News, Epic Content Pages
