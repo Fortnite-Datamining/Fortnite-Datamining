@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-17
+- **00:59** Item Shop - +25 new (Frets of Chaos, Caution, O.X.R. Combat Boots, Sockets, Boney Bounce, +20 more) - -73 removed
+
 ## 2026-08-16
 - **16:18** News - +1 new (Reality Reboots August 20) - -1 removed
 - **13:10** News - +1 new (Smugglers Gambit) - -1 removed
