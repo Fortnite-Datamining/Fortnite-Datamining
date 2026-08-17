@@ -1944,7 +1944,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-15T17:23:37.990Z",
+  "lastModified": "2026-08-17T15:30:14.867Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -15459,7 +15459,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-08-05T14:43:35.847Z",
+    "lastModified": "2026-08-17T15:30:14.867Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -31717,6 +31717,11 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "To win",
+                    "textID": "To win"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "I like the match length in this mode",
                     "textID": "I like the match length in this mode"
                   },
@@ -41729,7 +41734,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-14T21:03:27.519Z",
+    "lastModified": "2026-08-17T15:21:53.718Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -44026,6 +44031,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Spree Week is now happening in Fortnite Battle Royale from August 15 to August 19, with a better chance to find Sprite variants every day",
+              "textID": "Sprite Spree Week is now happening in Fortnite Battle Royale from August 15 to August 19, with a better chance to find Sprite variants every day"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Gem Sprite variant is now available in Fortnite Battle Royale",
               "textID": "the Gem Sprite variant is now available in Fortnite Battle Royale"
             },
@@ -44508,11 +44518,6 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "there is an Unstable Story Moment happening in Fortnite Battle Royale on August 15?",
-              "textID": "there is an Unstable Story Moment happening in Fortnite Battle Royale on August 15?"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Ironmouse Sprite is now available in Fortnite Battle Royale",
               "textID": "the Ironmouse Sprite is now available in Fortnite Battle Royale"
             },
@@ -44672,26 +44677,6 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Agreement",
           "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Unstable Story Moment felt like a meaningful conclusion to this season's story.",
-              "textID": "The Unstable Story Moment felt like a meaningful conclusion to this season's story."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Unstable Story Moment felt like a shared community experience.",
-              "textID": "The Unstable Story Moment felt like a shared community experience."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The story of the Unstable Story Moment was clear and easy to follow.",
-              "textID": "The story of the Unstable Story Moment was clear and easy to follow."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Unstable Story Moment was fun to participate in.",
-              "textID": "The Unstable Story Moment was fun to participate in."
-            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I enjoy finding Sprites in chests as I play.",
@@ -44943,11 +44928,6 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Liking",
           "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Unstable Story Moment in Fortnite Battle Royale",
-              "textID": "the Unstable Story Moment in Fortnite Battle Royale"
-            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "The Gizmo Wheel, a new circular menu that lets you swap between all your Gizmos during a match",

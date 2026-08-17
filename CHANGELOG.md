@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-17
+- **15:48** Epic Content Pages
 - **00:59** Item Shop - +25 new (Frets of Chaos, Caution, O.X.R. Combat Boots, Sockets, Boney Bounce, +20 more) - -73 removed
 
 ## 2026-08-16
