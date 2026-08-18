@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-18
+- **13:38** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
 - **00:57** Item Shop - +48 new (Wolfie, Dark Bomber, Glumbo, Dynamite, The Exploder, Dundie, +43 more) - -43 removed
 
 ## 2026-08-17
