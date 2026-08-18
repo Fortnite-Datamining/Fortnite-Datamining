@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-18
+- **00:57** Item Shop - +48 new (Wolfie, Dark Bomber, Glumbo, Dynamite, The Exploder, Dundie, +43 more) - -43 removed
+
 ## 2026-08-17
 - **22:19** Item Shop
 - **21:49** Epic Content Pages
