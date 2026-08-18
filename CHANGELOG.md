@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-18
+- **21:18** Item Shop
 - **20:47** Epic Content Pages
 - **16:26** Jam Tracks - +2 new (Fabienk, Self Aware)
 - **13:38** News - +1 new (Baba Yaga Hits the Scene) - -1 removed
