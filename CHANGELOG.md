@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-19
+- **00:58** Item Shop - +14 new (Jax, Image, Your Best Friend Gummigoo, Jabba Switchway, The Jester Jammer, +9 more) - -11 removed
+
 ## 2026-08-18
 - **21:18** Item Shop
 - **20:47** Epic Content Pages
