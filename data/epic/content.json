@@ -36592,10 +36592,659 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-17T15:21:53.718Z",
+    "lastModified": "2026-08-20T19:04:08.679Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "PlatformUX_Cooldown",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "comparisonValue": "14",
+              "conditionInfo": [
+                "PlatformUX_Main_Surveys",
+                "PlatformUX_Modular_Surveys"
+              ],
+              "operation": "GreaterThan",
+              "type": "MostRecentlyCompleted"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "PlatformUX_Modular_Platform_Exp_RateSwitch",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "childConditions": [
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "childConditions": [
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "comparisonValue": "20",
+                      "operation": "LessThanOrEqualTo",
+                      "type": "PreviousMatchesPlayed"
+                    },
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "comparisonValue": "1",
+                      "operation": "GreaterThan",
+                      "type": "PreviousMatchesPlayed"
+                    },
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "childConditions": [
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "PS4",
+                                "PS5"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.00610965",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NPS",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "XSX",
+                                "XboxOne",
+                                "XboxOneGDK",
+                                "XB1"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.019700154",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NXB",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Windows",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.012246912",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NWIN",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Switch",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.017602884",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NSW",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Android",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.025073439",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NAR",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "iOS",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.005",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NIO",
+                          "type": "And"
+                        }
+                      ],
+                      "type": "Or"
+                    }
+                  ],
+                  "comparisonValue": "NEW",
+                  "type": "And"
+                },
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "childConditions": [
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "comparisonValue": "20",
+                      "operation": "GreaterThan",
+                      "type": "PreviousMatchesPlayed"
+                    },
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "childConditions": [
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "PS4",
+                                "PS5"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.003774276",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "PS",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "XboxOne",
+                                "XSX",
+                                "XboxOneGDK",
+                                "XB1"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.00893124",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "XB",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Windows",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.012298626",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "WIN",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Switch",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.018447939",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "SW",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Android",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.1629793035",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "AN",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "iOS",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.005",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "IOS",
+                          "type": "And"
+                        }
+                      ],
+                      "type": "Or"
+                    }
+                  ],
+                  "comparisonValue": "OLD",
+                  "type": "And"
+                }
+              ],
+              "type": "Or"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "PlatformUX_Heartbeats_Platform_Exp_RateSwitch",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "childConditions": [
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "childConditions": [
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "comparisonValue": "20",
+                      "operation": "LessThanOrEqualTo",
+                      "type": "PreviousMatchesPlayed"
+                    },
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "comparisonValue": "1",
+                      "operation": "GreaterThan",
+                      "type": "PreviousMatchesPlayed"
+                    },
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "childConditions": [
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "PS4",
+                                "PS5"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.0040731",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NPS",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "XSX",
+                                "XboxOne",
+                                "XboxOneGDK",
+                                "XB1"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.013133436",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NXB",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Windows",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.012246912",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NWIN",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Switch",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.017602884",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NSW",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Android",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.025073439",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NAR",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "iOS",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.005",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "NIO",
+                          "type": "And"
+                        }
+                      ],
+                      "type": "Or"
+                    }
+                  ],
+                  "comparisonValue": "NEW",
+                  "type": "And"
+                },
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "childConditions": [
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "comparisonValue": "20",
+                      "operation": "GreaterThan",
+                      "type": "PreviousMatchesPlayed"
+                    },
+                    {
+                      "_type": "Player Survey V2 - Condition Level 3",
+                      "childConditions": [
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "PS4",
+                                "PS5"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.003774276",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "PS",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "conditionInfo": [
+                                "XboxOne",
+                                "XSX",
+                                "XboxOneGDK",
+                                "XB1"
+                              ],
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.00893124",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "XB",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Windows",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.012298626",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "WIN",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Switch",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.012298626",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "SW",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "Android",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.108652869",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "AN",
+                          "type": "And"
+                        },
+                        {
+                          "_type": "Player Survey V2 - Condition Level 4",
+                          "childConditions": [
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "iOS",
+                              "type": "Platform"
+                            },
+                            {
+                              "_type": "Player Survey V2 - Condition Level 5",
+                              "comparisonValue": "0.005",
+                              "operation": "LessThan",
+                              "type": "Random"
+                            }
+                          ],
+                          "comparisonValue": "IOS",
+                          "type": "And"
+                        }
+                      ],
+                      "type": "Or"
+                    }
+                  ],
+                  "comparisonValue": "OLD",
+                  "type": "And"
+                }
+              ],
+              "type": "Or"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "SpriteGarden_Modular_Rate",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "comparisonValue": "0.03",
+              "operation": "LessThan",
+              "type": "Random"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "SpriteGarden_Playlists",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "childConditions": [
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "conditionInfo": [
+                    "Playlist_VKPlay",
+                    "Playlist_VK_Play"
+                  ],
+                  "operation": "EqualTo",
+                  "type": "Playlist"
+                },
+                {
+                  "_type": "Player Survey V2 - Condition Level 2",
+                  "conditionInfo": [
+                    "0850-1494-0747",
+                    "085014940747"
+                  ],
+                  "operation": "EqualTo",
+                  "type": "IslandCode"
+                }
+              ],
+              "type": "And"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "SpriteGarden_Cooldown",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "comparisonValue": "14",
+              "conditionInfo": [
+                "SpriteGarden_Modular_Surveys"
+              ],
+              "operation": "GreaterThan",
+              "type": "MostRecentlyCompleted"
+            }
+          ]
+        },
         {
           "_type": "Player Survey V2 - Condition Group",
           "conditionGroupID": "BrandHeat_Cooldown",
@@ -37026,7 +37675,9 @@
                 "Playlist_Habanero_NoBuild_Dashberry*",
                 "Playlist_Habanero_Piperboot*",
                 "Playlist_Habanero_Ropesmile*",
-                "Playlist_Habanero_NoBuild_Ropesmile*"
+                "Playlist_Habanero_NoBuild_Ropesmile*",
+                "Playlist_Habanero_JumpBear*",
+                "Playlist_Habanero_NoBuild_JumpBear*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -37046,7 +37697,9 @@
                 "Playlist_Timberstake*",
                 "Playlist_Piperboot*",
                 "Playlist_Ropesmile*",
-                "Playlist_RopesmileNoBuild*"
+                "Playlist_RopesmileNoBuild*",
+                "Playlist_JumpBear*",
+                "Playlist_JumpBearNoBuild*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -37077,7 +37730,11 @@
                 "Playlist_Ropesmile*",
                 "Playlist_RopesmileNoBuild*",
                 "Playlist_Habanero_Ropesmile*",
-                "Playlist_Habanero_NoBuild_Ropesmile*"
+                "Playlist_Habanero_NoBuild_Ropesmile*",
+                "Playlist_JumpBear*",
+                "Playlist_JumpBearNoBuild*",
+                "Playlist_Habanero_JumpBear*",
+                "Playlist_Habanero_NoBuild_JumpBear*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -37369,7 +38026,11 @@
                         "Playlist_Habanero_Ropesmile*",
                         "Playlist_Habanero_NoBuild_Ropesmile*",
                         "Playlist_Ropesmile*",
-                        "Playlist_RopesmileNoBuild*"
+                        "Playlist_RopesmileNoBuild*",
+                        "Playlist_JumpBear*",
+                        "Playlist_JumpBearNoBuild*",
+                        "Playlist_Habanero_JumpBear*",
+                        "Playlist_Habanero_NoBuild_JumpBear*"
                       ],
                       "operation": "EqualTo",
                       "type": "Playlist"
@@ -38080,7 +38741,11 @@
                 "Playlist_Ropesmile*",
                 "Playlist_RopesmileNoBuild*",
                 "Playlist_Habanero_Ropesmile*",
-                "Playlist_Habanero_NoBuild_Ropesmile*"
+                "Playlist_Habanero_NoBuild_Ropesmile*",
+                "Playlist_JumpBear*",
+                "Playlist_JumpBearNoBuild*",
+                "Playlist_Habanero_JumpBear*",
+                "Playlist_Habanero_NoBuild_JumpBear*"
               ],
               "operation": "EqualTo",
               "type": "Playlist"
@@ -38296,7 +38961,11 @@
                         "Playlist_Habanero_Ropesmile*",
                         "Playlist_Habanero_NoBuild_Ropesmile*",
                         "Playlist_Ropesmile*",
-                        "Playlist_RopesmileNoBuild*"
+                        "Playlist_RopesmileNoBuild*",
+                        "Playlist_JumpBear*",
+                        "Playlist_JumpBearNoBuild*",
+                        "Playlist_Habanero_JumpBear*",
+                        "Playlist_Habanero_NoBuild_JumpBear*"
                       ],
                       "operation": "EqualTo",
                       "type": "Playlist"
@@ -38432,6 +39101,84 @@
         }
       ],
       "customTextReplacements": [
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "{Ecosystem_Platform_Likert_Agreement}",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite's menus are easy to navigate on this device.",
+              "textID": "Fortnite's menus are easy to navigate on this device."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite feels smooth and responsive when I play on this device.",
+              "textID": "Fortnite feels smooth and responsive when I play on this device."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It is easy to see and interact with things on the screen when I play Fortnite on this device",
+              "textID": "It is easy to see and interact with things on the screen when I play Fortnite on this device"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It's easy to aim and shoot when I play Fortnite Battle Royale on this device",
+              "textID": "It's easy to aim and shoot when I play Fortnite Battle Royale on this device"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "SpriteGarden_Likert_Agreement",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I'm frustrated that my Sprite progress resets when a new season starts.",
+              "textID": "I'm frustrated that my Sprite progress resets when a new season starts."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Sprite Garden makes me care more about my Sprite collection.",
+              "textID": "The Sprite Garden makes me care more about my Sprite collection."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I enjoy visiting my friends' Sprite Gardens.",
+              "textID": "I enjoy visiting my friends' Sprite Gardens."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Playing with my Sprites in the Sprite Garden is fun.",
+              "textID": "Playing with my Sprites in the Sprite Garden is fun."
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "FNBR_TrueorFalse",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "A Cheat Code is a code you enter on walls or graffiti tiles to spawn a Sprite",
+              "textID": "A Cheat Code is a code you enter on walls or graffiti tiles to spawn a Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "A Loot Hack is how you make the items you pick drop more often in your chests",
+              "textID": "A Loot Hack is how you make the items you pick drop more often in your chests"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "A Cheat Code is how you make the items you pick drop more often in your chests",
+              "textID": "A Cheat Code is how you make the items you pick drop more often in your chests"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "A Loot Hack is a code you enter on walls or graffiti tiles to spawn a Sprite",
+              "textID": "A Loot Hack is a code you enter on walls or graffiti tiles to spawn a Sprite"
+            }
+          ]
+        },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "BrandHeat_Likert_Agreement",
@@ -38889,33 +39636,98 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can enter Cheat Codes (arrow inputs found on walls and ground graffiti tiles) in order to spawn Sprites",
+              "textID": "in this season, you can enter Cheat Codes (arrow inputs found on walls and ground graffiti tiles) in order to spawn Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Killswitch Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Killswitch Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Jonesy Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Jonesy Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Bush Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Bush Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Klombo Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Klombo Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Adventure Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Adventure Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Crown Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Crown Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Jackrabbit Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Jackrabbit Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the 8-Bit Sprite is now available in Fortnite Battle Royale",
+              "textID": "the 8-Bit Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Shadow Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Shadow Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Tails Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Tails Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Sonic Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Sonic Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can enter Lobby Hacks (codes from events and socials that earn rewards like Sprites, Sprite Dust, and XP) in the Fortnite Admin Panel (which is located on the right side of the lobby screen)",
+              "textID": "in this season, you can enter Lobby Hacks (codes from events and socials that earn rewards like Sprites, Sprite Dust, and XP) in the Fortnite Admin Panel (which is located on the right side of the lobby screen)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can set up a Loot Hack in the lobby (i.e., you can spend Sprite Dust to make certain items drop more often and at higher rarities)",
+              "textID": "in this season, you can set up a Loot Hack in the lobby (i.e., you can spend Sprite Dust to make certain items drop more often and at higher rarities)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, some Overrides are Squad Overrides, which affect only the picker and their teammates (they do not affect other players in the match)",
+              "textID": "in this season, some Overrides are Squad Overrides, which affect only the picker and their teammates (they do not affect other players in the match)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, some Overrides are Match Overrides, which affect every player in the match (when one player picks it, the effect applies to everyone — their team and enemies alike)",
+              "textID": "in this season, some Overrides are Match Overrides, which affect every player in the match (when one player picks it, the effect applies to everyone — their team and enemies alike)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate Overrides on Override Consoles (consoles sit on the map offline and come online as the match progresses — the first player to reach one picks an effect that lasts the rest of the match)",
+              "textID": "in this season, you can activate Overrides on Override Consoles (consoles sit on the map offline and come online as the match progresses — the first player to reach one picks an effect that lasts the rest of the match)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sprite Spree Week is now happening in Fortnite Battle Royale from August 15 to August 19, with a better chance to find Sprite variants every day",
               "textID": "Sprite Spree Week is now happening in Fortnite Battle Royale from August 15 to August 19, with a better chance to find Sprite variants every day"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Gem Sprite variant is now available in Fortnite Battle Royale",
-              "textID": "the Gem Sprite variant is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Cube Sprite variant is now available in Fortnite Battle Royale",
-              "textID": "the Cube Sprite variant is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Lucky Locator (an item that helps you find a Chest containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale",
-              "textID": "the Lucky Locator (an item that helps you find a Chest containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Holofoil Sprite variant is now available in Fortnite Battle Royale",
               "textID": "the Holofoil Sprite variant is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Galaxy Sprite variant is now available in Fortnite Battle Royale",
-              "textID": "the Galaxy Sprite variant is now available in Fortnite Battle Royale"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -38929,106 +39741,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Vini Jr. Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Vini Jr. Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Batman Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Batman Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Seven Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Seven Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Air Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Air Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Grim Reaper Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Grim Reaper Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Boss Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Boss Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Aura Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Aura Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Striker Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Striker Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Fishy Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Fishy Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the BurntPeanut Sprite is now available in Fortnite Battle Royale",
-              "textID": "the BurntPeanut Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Zero Point Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Zero Point Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Punk Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Punk Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Dream Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Dream Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the King Sprite is now available in Fortnite Battle Royale",
-              "textID": "the King Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Demon Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Demon Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Ghost Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Ghost Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Duck Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Duck Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Fire Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Fire Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Earth Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Earth Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Water Sprite is now available in Fortnite Battle Royale",
-              "textID": "the Water Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "you can complete John Wick quests to earn rewards",
               "textID": "you can complete John Wick quests to earn rewards"
             },
@@ -39036,21 +39748,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "you can complete weekly Slone quests to earn rewards",
               "textID": "you can complete weekly Slone quests to earn rewards"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "you need to be at an Extraction Site to use the Extraction Site Booster (an item that calls in a special Extraction Crate to boost any Sprite you extract there)",
-              "textID": "you need to be at an Extraction Site to use the Extraction Site Booster (an item that calls in a special Extraction Crate to boost any Sprite you extract there)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Extraction Site Booster is an item that calls in a special Extraction Crate to boost any Sprite you extract there",
-              "textID": "the Extraction Site Booster is an item that calls in a special Extraction Crate to boost any Sprite you extract there"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Sprite Locator is an item that helps you find a Chest with a random Sprite inside",
-              "textID": "the Sprite Locator is an item that helps you find a Chest with a random Sprite inside"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -39079,28 +39776,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "some Sprite Mastery Pod Back Blings (available through the Battle Pass) unlock a patch later than the Sprite itself",
-              "textID": "some Sprite Mastery Pod Back Blings (available through the Battle Pass) unlock a patch later than the Sprite itself"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "if you have the current Battle Pass, mastering a Sprite unlocks its Sprite Mastery Pod Back Bling",
-              "textID": "if you have the current Battle Pass, mastering a Sprite unlocks its Sprite Mastery Pod Back Bling"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "extracting Sprites earns you Sprite Dust",
               "textID": "extracting Sprites earns you Sprite Dust"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "mastering Sprites can earn you Portable Extractors",
-              "textID": "mastering Sprites can earn you Portable Extractors"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "mastering a Sprite advances the Sprite Mastery reward track",
-              "textID": "mastering a Sprite advances the Sprite Mastery reward track"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -39114,16 +39791,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gummy Sprites are rare",
-              "textID": "Gummy Sprites are rare"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "mastering Sprites helps you unlock rewards over time, including XP, Sprite Dust, and Portable Extractors",
-              "textID": "mastering Sprites helps you unlock rewards over time, including XP, Sprite Dust, and Portable Extractors"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Battle Pass first-week bonus was the Gold Huntress Dylan style",
               "textID": "the Battle Pass first-week bonus was the Gold Huntress Dylan style"
             },
@@ -39134,16 +39801,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Battle Pass has a Sprite Mech outfit",
-              "textID": "the Battle Pass has a Sprite Mech outfit"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "you can customize the Sprite Mech outfit using your Sprites",
-              "textID": "you can customize the Sprite Mech outfit using your Sprites"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "when you use the setting to hide your Sprite, it only disappears from your own screen (other players can still see it on your back)",
               "textID": "when you use the setting to hide your Sprite, it only disappears from your own screen (other players can still see it on your back)"
             },
@@ -39151,11 +39808,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "there is a setting that stops your Sprite from being visible on your back",
               "textID": "there is a setting that stops your Sprite from being visible on your back"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Mastery Monday is now happening every Monday in Fortnite Battle Royale, bringing sprite-related gameplay boosts",
-              "textID": "Mastery Monday is now happening every Monday in Fortnite Battle Royale, bringing sprite-related gameplay boosts"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -39376,6 +40028,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "there is a Sprite Garden, an island where you can play with your Sprites, visit friends' gardens, and show off your collection",
+              "textID": "there is a Sprite Garden, an island where you can play with your Sprites, visit friends' gardens, and show off your collection"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Ironmouse Sprite is now available in Fortnite Battle Royale",
               "textID": "the Ironmouse Sprite is now available in Fortnite Battle Royale"
             },
@@ -39535,6 +40192,56 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Agreement",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I'm frustrated that my Sprite progress resets when a new season starts.",
+              "textID": "I'm frustrated that my Sprite progress resets when a new season starts."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I know what I get when I level up a Sprite",
+              "textID": "I know what I get when I level up a Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It was easy to enter a Cheat Code",
+              "textID": "It was easy to enter a Cheat Code"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I like that I get to collect new Sprites in this season.",
+              "textID": "I like that I get to collect new Sprites in this season."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I know how to get Sprites in this season.",
+              "textID": "I know how to get Sprites in this season."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I enjoy finding Sprites with Cheat Codes as I play.",
+              "textID": "I enjoy finding Sprites with Cheat Codes as I play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I have enough Sprite Dust to make the upgrades I care about.",
+              "textID": "I have enough Sprite Dust to make the upgrades I care about."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It is worth it to me to invest my Sprite Dust in loot upgrades.",
+              "textID": "It is worth it to me to invest my Sprite Dust in loot upgrades."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It was clear who would be affected by the Override I chose — my squad or the whole match. If you have not picked an Override recently, please skip the question.",
+              "textID": "It was clear who would be affected by the Override I chose — my squad or the whole match. If you have not picked an Override recently, please skip the question."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Override I picked did what I expected it to do. If you have not picked an Override recently, please skip the question.",
+              "textID": "The Override I picked did what I expected it to do. If you have not picked an Override recently, please skip the question."
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I enjoy finding Sprites in chests as I play.",
@@ -40048,13 +40755,23 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Olivia Rodrigo",
-              "textID": "Olivia Rodrigo"
+              "localizedText": "Pac-man",
+              "textID": "Pac-man"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "KPop Demon Hunters",
-              "textID": "KPop Demon Hunters"
+              "localizedText": "Tetris",
+              "textID": "Tetris"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mega Man",
+              "textID": "Mega Man"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sonic the Hedgehog",
+              "textID": "Sonic the Hedgehog"
             }
           ]
         },
@@ -40291,6 +41008,271 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "PlatformUX_Modular_Platform_Exp_RateSwitch",
+            "Global_Cooldown",
+            "PlatformUX_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Please rate how much you agree or disagree with the following statement: {Ecosystem_Platform_Likert_Agreement}",
+                  "textID": "Please rate how much you agree or disagree with the following statement: {Ecosystem_Platform_Likert_Agreement}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Disagree",
+                    "textID": "Strongly Disagree"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Agree",
+                    "textID": "Strongly Agree"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_PlatformUX_Likert_Agreement",
+          "surveyTags": [
+            "PlatformUX_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "PlatformUX_Heartbeats_Platform_Exp_RateSwitch",
+            "PlatformUX_Cooldown",
+            "Global_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following describe your experience playing Fortnite on your device? Please select all that apply.",
+                  "textID": "Which of the following describe your experience playing Fortnite on your device? Please select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "The graphics look bad",
+                    "textID": "The graphics look bad"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too many glitches, bugs, etc.",
+                    "textID": "Too many glitches, bugs, etc."
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too many patches / updates",
+                    "textID": "Too many patches / updates"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Takes up too much storage space",
+                    "textID": "Takes up too much storage space"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Hard to see or interact with things on the screen",
+                    "textID": "Hard to see or interact with things on the screen"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "The controls feel too complex",
+                    "textID": "The controls feel too complex"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Unresponsive controls",
+                    "textID": "Unresponsive controls"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Long load times",
+                    "textID": "Long load times"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Low frame rate (i.e., the game looks choppy)",
+                    "textID": "Low frame rate (i.e., the game looks choppy)"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Game crashes or freezes",
+                    "textID": "Game crashes or freezes"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_PlatformUX_DeviceIssues_MC",
+          "surveyTags": [
+            "PlatformUX_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "PlatformUX_Heartbeats_Platform_Exp_RateSwitch",
+            "Global_Cooldown",
+            "PlatformUX_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How would you describe your experience playing Fortnite on your device?",
+                  "textID": "How would you describe your experience playing Fortnite on your device?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Negative",
+                    "textID": "Very Negative"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Positive",
+                    "textID": "Very Positive"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_PlatformUX_Rating",
+          "surveyTags": [
+            "PlatformUX_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "SpriteGarden_Playlists",
+            "SpriteGarden_Modular_Rate",
+            "Global_Cooldown",
+            "SpriteGarden_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Please rate how much you agree or disagree with the following statement: {SpriteGarden_Likert_Agreement}",
+                  "textID": "Please rate how much you agree or disagree with the following statement: {SpriteGarden_Likert_Agreement}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Disagree",
+                    "textID": "Strongly Disagree"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Agree",
+                    "textID": "Strongly Agree"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "SpriteGarden_Likert_Agreement",
+          "surveyTags": [
+            "SpriteGarden_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_Playlists",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 3,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Is the following statement true or false? {FNBR_TrueorFalse}",
+                  "textID": "Is the following statement true or false? {FNBR_TrueorFalse}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "True",
+                    "textID": "True"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "False",
+                    "textID": "False"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I'm not sure",
+                    "textID": "I'm not sure"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "FNBR_TrueorFalse",
+          "surveyTags": [
+            "FNBR_Modular_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": true,
@@ -40581,11 +41563,6 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "To get the John Wick Sprite",
-                    "textID": "To get the John Wick Sprite"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "To play on the Springfield map",
                     "textID": "To play on the Springfield map"
                   },
@@ -40651,6 +41628,61 @@
                   "textID": "Out of the following Sprite types, which is the cutest?"
                 },
                 "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Killswitch",
+                    "textID": "Killswitch"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Jonesy",
+                    "textID": "Jonesy"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Bush",
+                    "textID": "Bush"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Klombo",
+                    "textID": "Klombo"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Adventure",
+                    "textID": "Adventure"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Crown",
+                    "textID": "Crown"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Jackrabbit",
+                    "textID": "Jackrabbit"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "8-Bit",
+                    "textID": "8-Bit"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Shadow",
+                    "textID": "Shadow"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Tails",
+                    "textID": "Tails"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sonic",
+                    "textID": "Sonic"
+                  },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Ironmouse Sprite",
@@ -41398,6 +42430,61 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Killswitch",
+                    "textID": "Killswitch"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Jonesy",
+                    "textID": "Jonesy"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Bush",
+                    "textID": "Bush"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Klombo",
+                    "textID": "Klombo"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Adventure",
+                    "textID": "Adventure"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Crown",
+                    "textID": "Crown"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Jackrabbit",
+                    "textID": "Jackrabbit"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "8-Bit",
+                    "textID": "8-Bit"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Shadow",
+                    "textID": "Shadow"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Tails",
+                    "textID": "Tails"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sonic",
+                    "textID": "Sonic"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Ironmouse Sprite",
                     "textID": "Ironmouse Sprite"
                   },
@@ -41964,8 +43051,13 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Finding Sprites in a match",
-                    "textID": "Finding Sprites in a match"
+                    "localizedText": "Upgrading Loot Hacks",
+                    "textID": "Upgrading Loot Hacks"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Getting Sprites by using Cheat Codes",
+                    "textID": "Getting Sprites by using Cheat Codes"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -42056,8 +43148,13 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Finding Sprites in a match",
-                    "textID": "Finding Sprites in a match"
+                    "localizedText": "Upgrading Loot Hacks",
+                    "textID": "Upgrading Loot Hacks"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Getting Sprites by using Cheat Codes",
+                    "textID": "Getting Sprites by using Cheat Codes"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -42148,8 +43245,13 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Finding Sprites in a match",
-                    "textID": "Finding Sprites in a match"
+                    "localizedText": "Upgrading Loot Hacks",
+                    "textID": "Upgrading Loot Hacks"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Getting Sprites by using Cheat Codes",
+                    "textID": "Getting Sprites by using Cheat Codes"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
