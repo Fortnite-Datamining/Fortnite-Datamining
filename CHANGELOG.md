@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-20
+- **20:22** Epic Content Pages
 - **19:54** Epic Content Pages
 - **19:26** Epic Content Pages
 - **16:41** News, Epic Content Pages - +1 new (Fortnite: Override Is Here!) - -1 removed
