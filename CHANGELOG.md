@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-20
+- **13:41** Item Shop, Epic Content Pages
 - **12:37** News - +1 new (Neon Dreams Music Pass) - -1 removed
 - **10:56** News - +1 new (Stabilize the Zero Point) - -1 removed
 - **10:01** News - +1 new (How To Break the Rules with Overrides!) - -1 removed
