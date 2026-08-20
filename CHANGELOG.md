@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-20
+- **07:36** News, Epic Content Pages - +3 new (Fortnite: Override Is Here!, Crack the Lobby Hack, How To Break the Rules with Overrides!) - -3 removed
 - **06:37** Item Shop, Epic Content Pages
 - **05:55** Epic Content Pages
 - **00:58** Item Shop, News - +26 new (Day Shift Monitor, Kitsune Ringstaff, Kim's Kit, Ring Light To Go, Bag Basher, +21 more) - -34 removed
