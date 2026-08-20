@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-20
+- **16:41** News, Epic Content Pages - +1 new (Fortnite: Override Is Here!) - -1 removed
 - **13:41** Item Shop, Epic Content Pages
 - **12:37** News - +1 new (Neon Dreams Music Pass) - -1 removed
 - **10:56** News - +1 new (Stabilize the Zero Point) - -1 removed
