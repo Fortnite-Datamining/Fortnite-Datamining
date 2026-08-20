@@ -1955,7 +1955,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-20T21:59:39.862Z",
+  "lastModified": "2026-08-20T23:31:48.333Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -11073,7 +11073,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-08-20T20:01:28.559Z",
+    "lastModified": "2026-08-20T23:31:48.333Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -11081,582 +11081,6 @@
       ],
       "bSurveysEnabled": true,
       "conditionGroups": [
-        {
-          "_type": "Player Survey V2 - Condition Group",
-          "conditionGroupID": "PlatformUI_Modular_Platform_Exp_RateSwitch",
-          "conditions": [
-            {
-              "_type": "Player Survey V2 - Condition Level 1",
-              "childConditions": [
-                {
-                  "_type": "Player Survey V2 - Condition Level 2",
-                  "childConditions": [
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "comparisonValue": "20",
-                      "operation": "LessThanOrEqualTo",
-                      "type": "PreviousMatchesPlayed"
-                    },
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "comparisonValue": "1",
-                      "operation": "GreaterThan",
-                      "type": "PreviousMatchesPlayed"
-                    },
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "childConditions": [
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "PS4",
-                                "PS5"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.00610965",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NPS",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "XSX",
-                                "XboxOne",
-                                "XboxOneGDK",
-                                "XB1"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.019700154",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NXB",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Windows",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.012246912",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NWIN",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Switch",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.017602884",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NSW",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Android",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.025073439",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NAR",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "iOS",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.005",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NIO",
-                          "type": "And"
-                        }
-                      ],
-                      "type": "Or"
-                    }
-                  ],
-                  "comparisonValue": "NEW",
-                  "type": "And"
-                },
-                {
-                  "_type": "Player Survey V2 - Condition Level 2",
-                  "childConditions": [
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "comparisonValue": "20",
-                      "operation": "GreaterThan",
-                      "type": "PreviousMatchesPlayed"
-                    },
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "childConditions": [
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "PS4",
-                                "PS5"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.003774276",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "PS",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "XboxOne",
-                                "XSX",
-                                "XboxOneGDK",
-                                "XB1"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.00893124",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "XB",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Windows",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.012298626",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "WIN",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Switch",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.018447939",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "SW",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Android",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.1629793035",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "AN",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "iOS",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.005",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "IOS",
-                          "type": "And"
-                        }
-                      ],
-                      "type": "Or"
-                    }
-                  ],
-                  "comparisonValue": "OLD",
-                  "type": "And"
-                }
-              ],
-              "type": "Or"
-            }
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Condition Group",
-          "conditionGroupID": "PlatformUI_Heartbeats_Platform_Exp_RateSwitch",
-          "conditions": [
-            {
-              "_type": "Player Survey V2 - Condition Level 1",
-              "childConditions": [
-                {
-                  "_type": "Player Survey V2 - Condition Level 2",
-                  "childConditions": [
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "comparisonValue": "20",
-                      "operation": "LessThanOrEqualTo",
-                      "type": "PreviousMatchesPlayed"
-                    },
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "comparisonValue": "1",
-                      "operation": "GreaterThan",
-                      "type": "PreviousMatchesPlayed"
-                    },
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "childConditions": [
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "PS4",
-                                "PS5"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.0040731",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NPS",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "XSX",
-                                "XboxOne",
-                                "XboxOneGDK",
-                                "XB1"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.013133436",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NXB",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Windows",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.012246912",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NWIN",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Switch",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.017602884",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NSW",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Android",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.025073439",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NAR",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "iOS",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.005",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "NIO",
-                          "type": "And"
-                        }
-                      ],
-                      "type": "Or"
-                    }
-                  ],
-                  "comparisonValue": "NEW",
-                  "type": "And"
-                },
-                {
-                  "_type": "Player Survey V2 - Condition Level 2",
-                  "childConditions": [
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "comparisonValue": "20",
-                      "operation": "GreaterThan",
-                      "type": "PreviousMatchesPlayed"
-                    },
-                    {
-                      "_type": "Player Survey V2 - Condition Level 3",
-                      "childConditions": [
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "PS4",
-                                "PS5"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.003774276",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "PS",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "conditionInfo": [
-                                "XboxOne",
-                                "XSX",
-                                "XboxOneGDK",
-                                "XB1"
-                              ],
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.00893124",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "XB",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Windows",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.012298626",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "WIN",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Switch",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.012298626",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "SW",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "Android",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.108652869",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "AN",
-                          "type": "And"
-                        },
-                        {
-                          "_type": "Player Survey V2 - Condition Level 4",
-                          "childConditions": [
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "iOS",
-                              "type": "Platform"
-                            },
-                            {
-                              "_type": "Player Survey V2 - Condition Level 5",
-                              "comparisonValue": "0.005",
-                              "operation": "LessThan",
-                              "type": "Random"
-                            }
-                          ],
-                          "comparisonValue": "IOS",
-                          "type": "And"
-                        }
-                      ],
-                      "type": "Or"
-                    }
-                  ],
-                  "comparisonValue": "OLD",
-                  "type": "And"
-                }
-              ],
-              "type": "Or"
-            }
-          ]
-        },
         {
           "_type": "Player Survey V2 - Condition Group",
           "conditionGroupID": "SpriteGarden_Modular_Platform_Exp_RateSwitch",
@@ -23947,133 +23371,133 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Escort the Payload",
-              "textID": "Escort the Payload"
+              "localizedText": "Portable Extractor",
+              "textID": "Portable Extractor"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Gold Sprites",
+              "textID": "Gold Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Gizmo Wheel",
+              "textID": "Gizmo Wheel"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Collection",
+              "textID": "Collection"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Extraction Sites",
+              "textID": "Extraction Sites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Held Sprite",
+              "textID": "Held Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Equipped Sprite",
+              "textID": "Equipped Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Stations",
+              "textID": "Sprite Stations"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite XP",
+              "textID": "Sprite XP"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Dust",
+              "textID": "Sprite Dust"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Powers",
+              "textID": "Sprite Powers"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite System",
+              "textID": "Sprite System"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Spring",
+              "textID": "Spring"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dash Panel",
+              "textID": "Dash Panel"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Rings",
+              "textID": "Rings"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Midas' Masterpiece Drop",
+              "textID": "Midas' Masterpiece Drop"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dev Console",
+              "textID": "Dev Console"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Boss Drop",
+              "textID": "Boss Drop"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Cheat Master Sprites",
+              "textID": "Cheat Master Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Cheat Codes",
+              "textID": "Cheat Codes"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lobby Hack",
+              "textID": "Lobby Hack"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Loot Hack",
+              "textID": "Loot Hack"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Squad Overrides",
+              "textID": "Squad Overrides"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Match Overrides",
+              "textID": "Match Overrides"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Overrides",
+              "textID": "Overrides"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Orca MV-261",
               "textID": "Orca MV-261"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Overshield Siphon",
-              "textID": "Overshield Siphon"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Ground Rush",
-              "textID": "Ground Rush"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Growth Shard",
-              "textID": "Growth Shard"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Zero Point Shard",
-              "textID": "Zero Point Shard"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Infinity Blade Rift Anomaly",
-              "textID": "Infinity Blade Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Grant Gameplay Effects Rift Anomaly",
-              "textID": "Grant Gameplay Effects Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Llamanomaly Rift Anomaly",
-              "textID": "Llamanomaly Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Team Ice King",
-              "textID": "Team Ice King"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Team Foundation",
-              "textID": "Team Foundation"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Llama Riding",
-              "textID": "Llama Riding"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Shoulder Riding",
-              "textID": "Shoulder Riding"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Golden Fishing Spots",
-              "textID": "Golden Fishing Spots"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Rival Credits",
-              "textID": "Rival Credits"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Drive the Bus",
-              "textID": "Drive the Bus"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Rivalry Ranks",
-              "textID": "Rivalry Ranks"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Relic Rift",
-              "textID": "Relic Rift"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Rivalry Rumble",
-              "textID": "Rivalry Rumble"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Rivalries",
-              "textID": "Rivalries"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Stabilize the Anomaly Rift Anomaly",
-              "textID": "Stabilize the Anomaly Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Storm Focus Rift Anomaly",
-              "textID": "Storm Focus Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Supply Drops Rift Anomaly",
-              "textID": "Supply Drops Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Duel Mania Rift Anomaly",
-              "textID": "Duel Mania Rift Anomaly"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Legendary Loot Areas",
-              "textID": "Legendary Loot Areas"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Jam Track Player",
-              "textID": "Jam Track Player"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24162,11 +23586,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gold Bars (in-game currency)",
-              "textID": "Gold Bars (in-game currency)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "The weapons and items available today",
               "textID": "The weapons and items available today"
             },
@@ -24174,11 +23593,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "AI Bosses and Enemies",
               "textID": "AI Bosses and Enemies"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Siphon",
-              "textID": "Siphon"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24207,11 +23621,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Shogun’s Arena",
-              "textID": "Shogun’s Arena"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Simple Edit",
               "textID": "Simple Edit"
             },
@@ -24219,16 +23628,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Simple Build",
               "textID": "Simple Build"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Medallions",
-              "textID": "Medallions"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Slurp Barrels",
-              "textID": "Slurp Barrels"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24284,11 +23683,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Group Revive and Reboot",
               "textID": "Group Revive and Reboot"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Victory Crowns",
-              "textID": "Victory Crowns"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24353,13 +23747,138 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Caduceus Staff",
-              "textID": "Caduceus Staff"
+              "localizedText": "Portable Extractor",
+              "textID": "Portable Extractor"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Pulse Pistols",
-              "textID": "Pulse Pistols"
+              "localizedText": "Spicy Taco",
+              "textID": "Spicy Taco"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Llama Supply Drop",
+              "textID": "Llama Supply Drop"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Cheat Code Locator",
+              "textID": "Cheat Code Locator"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Extraction Accelerator",
+              "textID": "Extraction Accelerator"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Killswitch Sprite",
+              "textID": "Killswitch Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Jonesy Sprite",
+              "textID": "Jonesy Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Bush Sprite",
+              "textID": "Bush Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Klombo Sprite",
+              "textID": "Klombo Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Adventure Sprite",
+              "textID": "Adventure Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Crown Sprite",
+              "textID": "Crown Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Jackrabbit Sprite",
+              "textID": "Jackrabbit Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "8-Bit Sprite",
+              "textID": "8-Bit Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Shadow Sprite",
+              "textID": "Shadow Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tails Sprite",
+              "textID": "Tails Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sonic Sprite",
+              "textID": "Sonic Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Temple Vault Key",
+              "textID": "Temple Vault Key"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Ranger Assault Rifle",
+              "textID": "Ranger Assault Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tactical Pistol",
+              "textID": "Tactical Pistol"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tetris Rift",
+              "textID": "Tetris Rift"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sonic Power Sneakers",
+              "textID": "Sonic Power Sneakers"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Midas' Masterpiece",
+              "textID": "Midas' Masterpiece"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mega Buster",
+              "textID": "Mega Buster"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Enhanced Assault Rifle",
+              "textID": "Enhanced Assault Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Enhanced 8-Bit Shotgun",
+              "textID": "Enhanced 8-Bit Shotgun"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "8-Bit Shotgun",
+              "textID": "8-Bit Shotgun"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Caduceus Staff",
+              "textID": "Caduceus Staff"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24370,11 +23889,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Where We Droppin Pistol",
               "textID": "Where We Droppin Pistol"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Smoke Grenade",
-              "textID": "Smoke Grenade"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24508,83 +24022,13 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Foundation's Rift Rifle",
-              "textID": "The Foundation's Rift Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Legendary Explosive Repeater Rifle",
-              "textID": "Legendary Explosive Repeater Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Legendary Havoc Suppressed Rifle",
-              "textID": "Legendary Havoc Suppressed Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Legendary Gatekeeper Shotgun",
-              "textID": "Legendary Gatekeeper Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Rivalry Contract",
-              "textID": "Rivalry Contract"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Skyline Deployer",
-              "textID": "Skyline Deployer"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Ice King's Gauntlets",
-              "textID": "Ice King's Gauntlets"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Seven Power Gloves",
               "textID": "Seven Power Gloves"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Chaos Reloader Shotgun",
-              "textID": "Chaos Reloader Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Dark Voyager's Chaos Reloader Shotgun",
-              "textID": "Dark Voyager's Chaos Reloader Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Harpoon Gun",
               "textID": "Harpoon Gun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Pro Fishing Rod",
-              "textID": "Pro Fishing Rod"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Overdrive Grenade",
-              "textID": "Overdrive Grenade"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Bouncing Boomsticks",
-              "textID": "Bouncing Boomsticks"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Squibbly's Combat Assault Rifle",
-              "textID": "Squibbly's Combat Assault Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Brute Nemesis AR",
-              "textID": "Brute Nemesis AR"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24595,11 +24039,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Thunderburst SMG",
               "textID": "Thunderburst SMG"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Apex Thunder Burst SMG",
-              "textID": "Apex Thunder Burst SMG"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24648,33 +24087,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Slapperoni Pizza",
-              "textID": "Slapperoni Pizza"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Slapperoni Slice",
               "textID": "Slapperoni Slice"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Lawless Explosive Mammoth Pistol",
-              "textID": "Lawless Explosive Mammoth Pistol"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Heisted Run 'N' Gun SMG",
-              "textID": "Heisted Run 'N' Gun SMG"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Heisted Explosive Assault Rifle",
-              "textID": "Heisted Explosive Assault Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Thorne’s Vampiric Blade",
-              "textID": "Thorne’s Vampiric Blade"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24813,11 +24227,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Overdrive Tactical Pistol",
-              "textID": "Overdrive Tactical Pistol"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Hunting Rifle",
               "textID": "Hunting Rifle"
             },
@@ -24903,11 +24312,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Eradicator O.X.R. Rifle",
-              "textID": "Eradicator O.X.R. Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Storm Forecast Boon",
               "textID": "Storm Forecast Boon"
             },
@@ -24920,11 +24324,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Agile Aiming Boon",
               "textID": "Agile Aiming Boon"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Tracking Shot Boon",
-              "textID": "Tracking Shot Boon"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24945,11 +24344,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Havoc Pump Shotgun",
               "textID": "Havoc Pump Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "SCAR",
-              "textID": "SCAR"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24990,6 +24384,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Killswitch Revolvers",
               "textID": "Killswitch Revolvers"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Bass Boost",
+              "textID": "Bass Boost"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25073,6 +24472,11 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Oni Shotgun",
+              "textID": "Oni Shotgun"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Slurp Juice",
               "textID": "Slurp Juice"
             },
@@ -25118,6 +24522,11 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dual Pistols",
+              "textID": "Dual Pistols"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Drum Gun",
               "textID": "Drum Gun"
             },
@@ -25130,6 +24539,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Chug Jug",
               "textID": "Chug Jug"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Assault Rifle",
+              "textID": "Assault Rifle"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25178,6 +24592,11 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Shockwave Grenade",
+              "textID": "Shockwave Grenade"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Port-A-Bunker",
               "textID": "Port-A-Bunker"
             },
@@ -25218,11 +24637,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Thunderbolt of Zeus",
-              "textID": "Thunderbolt of Zeus"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Pizza Party",
               "textID": "Pizza Party"
             },
@@ -25255,11 +24669,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Crash Pad Jr.",
               "textID": "Crash Pad Jr."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Lock On Pistol",
-              "textID": "Lock On Pistol"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -27152,18 +26561,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Spider-Man's Web Shooters",
-              "textID": "Spider-Man's Web Shooters"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Portable Extractor",
               "textID": "Portable Extractor"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Golden Fireworks",
-              "textID": "Golden Fireworks"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -28128,7 +27527,7 @@
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
             "SpriteGarden_Playlists",
-            " SpriteGarden_Heartbeats_Platform_Exp_RateSwitch",
+            "SpriteGarden_Heartbeats_Platform_Exp_RateSwitch",
             "SpriteGarden_Cooldown",
             "Global_Cooldown"
           ],
@@ -33308,8 +32707,18 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Duels and Rivalries",
-                    "textID": "Duels and Rivalries"
+                    "localizedText": "Loot Hacks",
+                    "textID": "Loot Hacks"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Overrides",
+                    "textID": "Overrides"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sprite Extraction",
+                    "textID": "Sprite Extraction"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -37558,8 +36967,18 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Rivalries and Duels",
-                    "textID": "Rivalries and Duels"
+                    "localizedText": "Loot Hacks",
+                    "textID": "Loot Hacks"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Overrides",
+                    "textID": "Overrides"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sprite Extraction",
+                    "textID": "Sprite Extraction"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -38657,7 +38076,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-20T19:04:08.679Z",
+    "lastModified": "2026-08-20T22:40:59.430Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -39285,7 +38704,9 @@
                   "_type": "Player Survey V2 - Condition Level 2",
                   "conditionInfo": [
                     "0850-1494-0747",
-                    "085014940747"
+                    "085014940747",
+                    "4220-9404-7987",
+                    "422094047987"
                   ],
                   "operation": "EqualTo",
                   "type": "IslandCode"
@@ -39303,7 +38724,9 @@
               "_type": "Player Survey V2 - Condition Level 1",
               "comparisonValue": "14",
               "conditionInfo": [
-                "SpriteGarden_Modular_Surveys"
+                "SpriteGarden_Modular_Surveys",
+                "SpriteGarden_ModularSurveys",
+                "SpriteGarden_HeartbeatSurveys"
               ],
               "operation": "GreaterThan",
               "type": "MostRecentlyCompleted"
@@ -41614,6 +41037,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mini-Venture (mini version of the original map)",
+              "textID": "Mini-Venture (mini version of the original map)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Starfall Island (the West Coast-themed map)",
               "textID": "Starfall Island (the West Coast-themed map)"
             },
@@ -41905,6 +41333,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Reload_Map",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mini-Venture (mini version of the original map)",
+              "textID": "Mini-Venture (mini version of the original map)"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Springfield map (the Simspons-themed map)",
@@ -42837,6 +42270,93 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sonic the Hedgehog",
               "textID": "Sonic the Hedgehog"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "BPCrew_Likert_Importance",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Battle Pass includes outfits that are part of Fortnite's story.",
+              "textID": "The Battle Pass includes outfits that are part of Fortnite's story."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "You can earn cosmetics other than outfits with each Battle Pass.",
+              "textID": "You can earn cosmetics other than outfits with each Battle Pass."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "You can earn a large number of cosmetics with the Battle Pass (100+).",
+              "textID": "You can earn a large number of cosmetics with the Battle Pass (100+)."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "You can earn 7 or more outfits with each Battle Pass.",
+              "textID": "You can earn 7 or more outfits with each Battle Pass."
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "BPCrew_Likert_Agreement",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Battle Pass rewards feel exciting to unlock.",
+              "textID": "Battle Pass rewards feel exciting to unlock."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Crew rewards feel exciting to unlock.",
+              "textID": "Crew rewards feel exciting to unlock."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I often earn rewards I don't like.",
+              "textID": "I often earn rewards I don't like."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "There are too many cosmetic rewards in the current Battle Pass.",
+              "textID": "There are too many cosmetic rewards in the current Battle Pass."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "There are too few cosmetic rewards in the current Battle Pass.",
+              "textID": "There are too few cosmetic rewards in the current Battle Pass."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "There are too many cosmetic rewards available in Crew right now.",
+              "textID": "There are too many cosmetic rewards available in Crew right now."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "There are too few cosmetic rewards available in Crew right now.",
+              "textID": "There are too few cosmetic rewards available in Crew right now."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Battle Pass is valuable for Battle Royale players.",
+              "textID": "The Battle Pass is valuable for Battle Royale players."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Battle Pass is valuable for non-Battle Royale players.",
+              "textID": "The Battle Pass is valuable for non-Battle Royale players."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Crew is valuable for Battle Royale players.",
+              "textID": "Crew is valuable for Battle Royale players."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Crew is valuable for non-Battle Royale players.",
+              "textID": "Crew is valuable for non-Battle Royale players."
             }
           ]
         },
