@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-20
+- **00:58** Item Shop, News - +26 new (Day Shift Monitor, Kitsune Ringstaff, Kim's Kit, Ring Light To Go, Bag Basher, +21 more) - -34 removed
+
 ## 2026-08-19
 - **22:49** Epic Content Pages
 - **21:49** Epic Content Pages
