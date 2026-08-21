@@ -1955,7 +1955,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-20T23:31:48.333Z",
+  "lastModified": "2026-08-21T02:26:47.329Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -58653,10 +58653,47 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-08-06T02:24:34.690Z",
+    "lastModified": "2026-08-21T02:26:47.329Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-scribespider-2048x2048-fbe442901d3e.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-scribespider-02-2048x2048-1ff5d345a59d.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.Juno",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-scribespider-02-figure-2048x2048-0426398b1f19.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.Juno",
+              "renderImage": "https://cdn2.unrealengine.com/t-athenabundles-scribespider-figure-2048x2048-719cd507a995.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_ScribeSpider.DAv2_Bundle_Featured_ScribeSpider"
+        },
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/0e1052c4-b666-4b2e-8e51-e5d94d8df910-1024x1024-f1aff0484a76.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S41/DAv2_pickaxe_anvilalarmmoth.DAv2_pickaxe_anvilalarmmoth"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [
