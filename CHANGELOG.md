@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-21
+- **17:54** News, Epic Content Pages - +1 new (Fortnite: Override Is Here!) - -1 removed
 - **16:36** Epic Content Pages
 - **15:04** Build update: `++Fortnite+Release-42.00-CL-56878558`
 - **14:29** News - +1 new (Runners Recapped) - -1 removed
