@@ -2115,7 +2115,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_sandscreen/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_sandscreen/small.png"
       },
-      "name": "Jeep Wrangler",
+      "name": "Jeep Wrangler JK",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -6222,7 +6222,7 @@
     },
     {
       "added": "2026-05-29T13:00:26Z",
-      "description": "No road is off-limits. GMC Sierra 2500 AT4X custom decal.",
+      "description": "Blend in to stand out. GMC Sierra 2500 AT4X custom decal.",
       "id": "CarSkin_CondorMotorLivery03",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_condormotorlivery03/large.png",
@@ -9579,7 +9579,7 @@
     },
     {
       "added": "2026-06-06T03:03:15Z",
-      "description": "Lamborghini Temerario custom decal.",
+      "description": "Lamborghini Temerario GT3 custom decal.",
       "id": "CarSkin_IvoryCascade05",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade05/large.png",
@@ -9611,7 +9611,7 @@
     },
     {
       "added": "2026-06-06T03:03:15Z",
-      "description": "Lamborghini Temerario custom decal.",
+      "description": "Lamborghini Temerario GT3 custom decal.",
       "id": "CarSkin_IvoryCascade06",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade06/large.png",
@@ -9675,13 +9675,13 @@
     },
     {
       "added": "2026-06-06T03:03:15Z",
-      "description": "Lamborghini Temerario custom decal.",
+      "description": "Lamborghini Temerario GT3 custom decal.",
       "id": "CarSkin_IvoryCascade08",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade08/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade08/small.png"
       },
-      "name": "96 Star",
+      "name": "'96 Star",
       "rarity": {
         "backendValue": "EFortRarity::Common",
         "displayValue": "LAMBORGHINI SERIES",
@@ -9707,7 +9707,7 @@
     },
     {
       "added": "2026-06-06T03:03:15Z",
-      "description": "Lamborghini Temerario custom decal.",
+      "description": "Lamborghini Temerario GT3 custom decal.",
       "id": "CarSkin_IvoryCascade09",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_ivorycascade09/large.png",
@@ -34497,27 +34497,6 @@
       "vehicleId": "VCID_Wheel_Olan"
     },
     {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "Custom Wheel",
-      "id": "Wheel_OneTrue_Negative",
-      "images": {
-        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_onetrue_negative/large.png",
-        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_onetrue_negative/small.png"
-      },
-      "name": "Torque TX: Inverted",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Wheel",
-        "displayValue": "Wheel",
-        "value": "wheel"
-      },
-      "vehicleId": "VCID_Wheel_OneTrue_Negative"
-    },
-    {
       "added": "2024-12-01T03:57:20Z",
       "description": "Ride the rush!",
       "id": "Wheel_OrangeD",
@@ -35054,6 +35033,23 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Rapar"
+    },
+    {
+      "added": "2026-08-21T15:01:57Z",
+      "description": "Custom Wheel.",
+      "id": "Wheel_Remo",
+      "name": "Zadeh S3",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Remo"
     },
     {
       "added": "2025-06-07T19:00:27Z",
@@ -36624,6 +36620,27 @@
       "vehicleId": "VCID_Wheel_RL252"
     },
     {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Wheel_RL255 description",
+      "id": "Wheel_RL255",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl255/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl255/small.png"
+      },
+      "name": "Wheel_RL255",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL255"
+    },
+    {
       "added": "2026-06-15T18:22:53Z",
       "description": "GOOOAAAAAL!",
       "id": "Wheel_RL259",
@@ -37493,7 +37510,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandscreen01/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandscreen01/small.png"
       },
-      "name": "Jeep Wrangler",
+      "name": "Jeep Wrangler JK",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",

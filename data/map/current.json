@@ -6,6 +6,15 @@
     },
     "pois": [
       {
+        "id": "Athena.Location.UnNamedPOI.Landmark.96",
+        "location": {
+          "x": 5176,
+          "y": 69908,
+          "z": -2328
+        },
+        "name": "Mega Maze"
+      },
+      {
         "id": "Athena.Location.UnNamedPOI.Landmark.89",
         "location": {
           "x": 10752,
@@ -13,15 +22,6 @@
           "z": 2166.721093390639
         },
         "name": "Stack o' Stones"
-      },
-      {
-        "id": "Athena.Location.UnNamedPOI.Landmark.90",
-        "location": {
-          "x": 73052,
-          "y": -41396,
-          "z": 454.539307
-        },
-        "name": "Batcave"
       },
       {
         "id": "Athena.Location.UnNamedPOI.Landmark.86",
@@ -93,7 +93,7 @@
           "y": -512,
           "z": 2876
         },
-        "name": "The Zero Point"
+        "name": "Geno's Machine"
       },
       {
         "id": "Athena.Location.UnNamedPOI.Landmark.67",
@@ -111,7 +111,7 @@
           "y": -61223.38659667969,
           "z": 1485.646215625442
         },
-        "name": "Collider Corridor Beta"
+        "name": "Arcade"
       },
       {
         "id": "Athena.Location.UnNamedPOI.Landmark.49",
@@ -138,7 +138,7 @@
           "y": 38931.978679978274,
           "z": 2504.2764159181897
         },
-        "name": "Collider Corridor Alpha"
+        "name": "Pixel Polys"
       },
       {
         "id": "Athena.Location.POI.Generic.35",
@@ -152,11 +152,11 @@
       {
         "id": "Athena.Location.POI.Generic.36",
         "location": {
-          "x": -74801.52697160163,
-          "y": 1165.0206875309268,
+          "x": -57005.526971601634,
+          "y": 25.020687530926807,
           "z": 2524
         },
-        "name": "Calamari Canyon"
+        "name": "Green Hill Zone"
       },
       {
         "id": "Athena.Location.POI.Generic.25",
@@ -179,11 +179,11 @@
       {
         "id": "Athena.Location.POI.Generic.29",
         "location": {
-          "x": -21392,
-          "y": 38655.63525390625,
+          "x": -16520,
+          "y": 42295.63525390625,
           "z": 2520
         },
-        "name": "Sinister Strip"
+        "name": "Stone Sanctum"
       },
       {
         "id": "Athena.Location.POI.Generic.32",
@@ -195,31 +195,22 @@
         "name": "Chopped Shop"
       },
       {
-        "id": "Athena.Location.UnNamedPOI.Landmark.64",
+        "id": "Athena.Location.UnNamedPOI.Landmark.54",
         "location": {
           "x": 40960,
           "y": -19456,
           "z": 2434.000692554153
         },
-        "name": "Collider Corridor Gamma"
-      },
-      {
-        "id": "Athena.Location.UnNamedPOI.Landmark.75",
-        "location": {
-          "x": -65940,
-          "y": -17920,
-          "z": 1092.846510107498
-        },
-        "name": "Collider Corridor X"
+        "name": "Override Console"
       },
       {
         "id": "Athena.Location.POI.Generic.30",
         "location": {
-          "x": 27575.11538378114,
-          "y": -2477.4735018310785,
+          "x": 23351.11538378114,
+          "y": -305.47350183107847,
           "z": 2620
         },
-        "name": "Frosted Flats"
+        "name": "Reality's Reign"
       },
       {
         "id": "Athena.Location.UnNamedPOI.Landmark.71",
@@ -258,22 +249,13 @@
         "name": "The Sleazy Snooze"
       },
       {
-        "id": "Athena.Location.UnNamedPOI.Landmark.61",
-        "location": {
-          "x": -20480,
-          "y": -84582.35778808594,
-          "z": 786.4252806642835
-        },
-        "name": "The Bus Stop"
-      },
-      {
         "id": "Athena.Location.UnNamedPOI.Landmark.69",
         "location": {
           "x": -49294.297119140625,
           "y": 34659.38562011719,
           "z": 2354.73364848677
         },
-        "name": "Collider Corridor Theta"
+        "name": "Barncade"
       },
       {
         "id": "Athena.Location.POI.Generic.33",
@@ -292,6 +274,87 @@
           "z": 1748
         },
         "name": "The Battlewoods"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.55",
+        "location": {
+          "x": 67128,
+          "y": 39104,
+          "z": 2346.000693
+        },
+        "name": "Override Console"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.52",
+        "location": {
+          "x": -51498.415735999995,
+          "y": -48996.343895,
+          "z": 159.605165
+        },
+        "name": "Override Console"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.51",
+        "location": {
+          "x": -20254.415736000003,
+          "y": -73500.343895,
+          "z": 159.605165
+        },
+        "name": "Pac-Man Island"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.50",
+        "location": {
+          "x": -62990.415735999995,
+          "y": 97255.656105,
+          "z": 159.605165
+        },
+        "name": "Blinky Island"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.56",
+        "location": {
+          "x": -864,
+          "y": 84360,
+          "z": 1198.000693
+        },
+        "name": "Override Console"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.53",
+        "location": {
+          "x": 17021.584263999997,
+          "y": -61276.343895,
+          "z": 291.60516499999994
+        },
+        "name": "Override Console"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.57",
+        "location": {
+          "x": -76140,
+          "y": 16244,
+          "z": 1198.000693
+        },
+        "name": "Override Console"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.58",
+        "location": {
+          "x": -13836,
+          "y": 13544,
+          "z": 1198.000693
+        },
+        "name": "Override Console"
+      },
+      {
+        "id": "Athena.Location.UnNamedPOI.Landmark.91",
+        "location": {
+          "x": 42886.43664690649,
+          "y": 88045.00468883287,
+          "z": 1051.485291953125
+        },
+        "name": "Pinky Island"
       }
     ]
   },

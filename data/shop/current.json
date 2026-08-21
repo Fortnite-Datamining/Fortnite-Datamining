@@ -281,25 +281,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_685_athena_commando_m_tundrayellow/variants/parts/stage1.png",
-                    "name": "DEFAULT",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_685_athena_commando_m_tundrayellow/variants/parts/stage2.png",
-                    "name": "HOOD OFF",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "STYLE"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -408,6 +390,7 @@
         },
         "layoutId": "BR082126.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_ShinToll",
           "id": "DAv2_Backpack_ShinToll",
           "materialInstances": [],
           "renderImages": [
@@ -724,6 +707,7 @@
         },
         "layoutId": "ADCircus.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_RecipeWhole",
           "id": "DAv2_Character_RecipeWhole",
           "materialInstances": [],
           "renderImages": [
@@ -981,41 +965,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_boldtouch/variants/parts/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_boldtouch/variants/parts/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Tail"
-              },
-              {
-                "channel": "Emissive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_boldtouch/variants/emissive/emissive1.png",
-                    "name": "on",
-                    "tag": "Emissive1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_boldtouch/variants/emissive/emissive2.png",
-                    "name": "off",
-                    "tag": "Emissive2"
-                  }
-                ],
-                "type": "emissive"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -1285,7 +1235,7 @@
         },
         "layoutId": "LilTecca.97",
         "newDisplayAsset": {
-          "cosmeticId": "EID_AnvilAlarmRobin",
+          "cosmeticId": "EID_AnvilAlarmRobin_Leader",
           "id": "DAv2_EID_AnvilAlarmRobin",
           "materialInstances": [],
           "renderImages": [
@@ -1452,6 +1402,7 @@
         },
         "layoutId": "FND082126.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_SnugLoaf",
           "id": "DAv2_Companion_SnugLoaf",
           "materialInstances": [],
           "renderImages": [
@@ -1579,6 +1530,84 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "On loan from Geno.",
+            "id": "Backpack_InterOrbit_Shock",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_interorbit_shock/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_interorbit_shock/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Borrowed Power Cell",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "LazyRumor",
+              "text": "Part of the Imagined Hush set.",
+              "value": "Imagined Hush"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "00edffff",
+          "color3": "b700e7ff",
+          "textBackgroundColor": "00bdffff"
+        },
+        "devName": "[VIRTUAL]1 x Borrowed Power Cell for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "42S0821261",
+          "index": 5,
+          "name": "Override",
+          "rank": 193,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "42S0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_InterOrbit_Shock",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__1a9b0b59d12b1d2c_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1a9b0b59d12b1d2c/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_interorbit_shock",
+        "offerId": "v2:/f811d1c64b9a9e5b152d77aac62153d2b7ebac7cdf3b9fbca4a92f8ed84cf71d",
+        "outDate": "2026-08-27T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2025-07-15T08:18:07Z",
@@ -1618,25 +1647,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_bytegear/variants/material/mat1.png",
-                    "name": "The Ron-troller",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_bytegear/variants/material/mat2.png",
-                    "name": "Game Over Ron-troller",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -1659,22 +1670,21 @@
         },
         "layoutId": "42S0821261.97",
         "newDisplayAsset": {
-          "cosmeticId": "Character_ByteGear",
           "id": "DAv2_Character_ByteGear",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-bytegear-01-2048x2048-b53603a8a861.png",
+              "fileName": "cosmo__63131dc9d6afa553_278a860d5e411652.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63131dc9d6afa553/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-bytegear-02-2048x2048-544cb65978fb.png",
+              "fileName": "cosmo__63131dc9d6afa553_02c1286cb8d52c58.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63131dc9d6afa553/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-bytegear-jn-2048x2048-8a20c80df5de.png",
+              "fileName": "cosmo__63131dc9d6afa553_469814a856a0f160.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63131dc9d6afa553/renderimage_2.png",
               "productTag": "Product.Juno"
             }
@@ -2140,6 +2150,7 @@
         },
         "layoutId": "QuicheLorraine.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_QuicheLorraineCrisp",
           "id": "DAv2_Backpack_QuicheLorraineCrisp",
           "materialInstances": [],
           "renderImages": [
@@ -2190,35 +2201,7 @@
               "backendValue": "AthenaBackpack",
               "displayValue": "Back Bling",
               "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "RichColor2",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/000.png",
-                    "name": "Brass",
-                    "tag": "000"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/001.png",
-                    "name": "Rose Gold",
-                    "tag": "001"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/002.png",
-                    "name": "Bluish Steel",
-                    "tag": "002"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/003.png",
-                    "name": "Heated",
-                    "tag": "003"
-                  }
-                ],
-                "type": "Metal Color"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -2281,25 +2264,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_glamclaws/variants/material/mat1.png",
-                    "name": "On",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_glamclaws/variants/material/mat2.png",
-                    "name": "Off",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "Glasses"
-              }
-            ]
+            }
           },
           {
             "added": "2025-11-29T20:57:37Z",
@@ -2354,6 +2319,7 @@
         },
         "layoutId": "FND082126.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_GlamClaws",
           "id": "DAv2_Character_GlamClaws",
           "materialInstances": [],
           "renderImages": [
@@ -2594,25 +2560,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_664_athena_commando_m_gummi/variants/parts/stage1.png",
-                    "name": "Jellie",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_664_athena_commando_m_gummi/variants/parts/stage2.png",
-                    "name": "Tropical Jellie",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+            }
           },
           {
             "added": "2020-01-15T09:35:49Z",
@@ -2643,30 +2591,7 @@
               "backendValue": "AthenaBackpack",
               "displayValue": "Back Bling",
               "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_454_gummi/variants/material/mat1.png",
-                    "name": "DEFAULT",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_454_gummi/variants/material/mat2.png",
-                    "name": "GREEN",
-                    "tag": "Mat2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_454_gummi/variants/material/mat3.png",
-                    "name": "RAINBOW",
-                    "tag": "Mat3"
-                  }
-                ],
-                "type": "COLOR"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -2697,6 +2622,16 @@
               "fileName": "T-AthenaSoldiers-CID-664-Athena-Commando-M-Gummi",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_0.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e247d1d64bfd6813_626ecf7c8b8b7ac1.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e247d1d64bfd6813_9ad2d5edd50227d3.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_2.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -2707,6 +2642,113 @@
         "regularPrice": 1200,
         "sortPriority": -4,
         "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "High",
+          "value": "1600 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Goggles, gloves, and gusto.",
+            "id": "Character_SouthBalk",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_southbalk/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_southbalk/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_southbalk/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.Special.BodySwap.Full"
+            ],
+            "name": "Dr. Eggman",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e68624f0f98a6deb/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Dr. Eggman Bundle"
+        },
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Dr. Eggman, 1 x Orbot and Cubot, 1 x Egg Mobile, 1 x Egg Hammer, 1 x Eggman's E-TAR, 1 x Eggman's E-TAR, 1 x Eggman's E-TAR for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_SouthBalk_Bundle",
+        "finalPrice": 2000,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman-1",
+          "index": 24,
+          "name": "Sonic The Hedgehog",
+          "rank": 197,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman-1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_SouthBalk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e68624f0f98a6deb_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e68624f0f98a6deb/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e68624f0f98a6deb_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e68624f0f98a6deb/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_SouthBalk",
+        "offerId": "v2:/04823a239150a107506daad870b39c60202558d9216685dc2f326037c7082244",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 3600,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_2_x_1"
       },
       {
         "colors": {
@@ -3024,6 +3066,7 @@
         },
         "layoutId": "QuicheLorraine.99",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_QuicheLorraineLime",
           "id": "DAv2_Backpack_QuicheLorraineLime",
           "materialInstances": [],
           "renderImages": [
@@ -3155,6 +3198,7 @@
         },
         "layoutId": "VV0821261.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_WaitingRoom",
           "id": "DAv2_EID_WaitingRoom",
           "materialInstances": [],
           "renderImages": [
@@ -3294,6 +3338,7 @@
         },
         "layoutId": "TylerCreatorNEW.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_CanineCronutDig",
           "id": "DAv2_Backpack_CanineCronutDig",
           "materialInstances": [],
           "renderImages": [
@@ -3428,6 +3473,7 @@
         },
         "layoutId": "QuicheLorraine.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_QuicheLorraineLime",
           "id": "DAv2_Pickaxe_QuicheLorraineLime",
           "materialInstances": [],
           "renderImages": [
@@ -3503,6 +3549,7 @@
         },
         "layoutId": "BR082126.96",
         "newDisplayAsset": {
+          "cosmeticId": "BID_864_RenegadeSkull",
           "id": "DAv2_bid_864_renegadeskull",
           "materialInstances": [],
           "renderImages": [
@@ -3782,30 +3829,7 @@
               "backendValue": "AthenaPickaxe",
               "displayValue": "Pickaxe",
               "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle1.png",
-                    "name": "Reactive",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle2.png",
-                    "name": "Reactive Fully On",
-                    "tag": "Particle2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle3.png",
-                    "name": "Reactive Fully Off",
-                    "tag": "Particle3"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
+            }
           },
           {
             "added": "2026-07-30T08:00:00Z",
@@ -3948,6 +3972,7 @@
         },
         "layoutId": "BR082126.96",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_EnergyBuryChili",
           "id": "DAv2_Shoes_EnergyBuryChili",
           "materialInstances": [],
           "renderImages": [
@@ -4096,35 +4121,7 @@
               "backendValue": "AthenaPickaxe",
               "displayValue": "Pickaxe",
               "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "RichColor2",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_defect/variants/richcolor2/000.png",
-                    "name": "Brass",
-                    "tag": "000"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_defect/variants/richcolor2/001.png",
-                    "name": "Rose Gold",
-                    "tag": "001"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_defect/variants/richcolor2/002.png",
-                    "name": "Bluish Steel",
-                    "tag": "002"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_defect/variants/richcolor2/003.png",
-                    "name": "Heated",
-                    "tag": "003"
-                  }
-                ],
-                "type": "Metal Color"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -4147,6 +4144,22 @@
           "useWidePreview": false
         },
         "layoutId": "42S0821261.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_Defect",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__ca4f700f668bceee_4fd094cc6b248279.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ca4f700f668bceee/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__ca4f700f668bceee_76d44140ef1f9375.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ca4f700f668bceee/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S22/DAv2_Pickaxe_Defect",
         "offerId": "v2:/2194f094180a7489127ab13f860ae2d6b30127a470ea11cc26d88ecd6ce73f98",
         "offerTag": {
@@ -4318,6 +4331,7 @@
         },
         "layoutId": "Office.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_UskThump",
           "id": "DAv2_Pickaxe_UskThump",
           "materialInstances": [],
           "renderImages": [
@@ -4337,6 +4351,161 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "Low",
+          "value": "300 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "A lieutenant of perfection.",
+            "id": "Character_InterOrbit_Shock",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_interorbit_shock/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_interorbit_shock/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_interorbit_shock/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_interorbit_shock/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Imagined Order Hush",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Epic",
+              "value": "epic"
+            },
+            "set": {
+              "backendValue": "LazyRumor",
+              "text": "Part of the Imagined Hush set.",
+              "value": "Imagined Hush"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "On loan from Geno.",
+            "id": "Backpack_InterOrbit_Shock",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_interorbit_shock/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_interorbit_shock/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Borrowed Power Cell",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "LazyRumor",
+              "text": "Part of the Imagined Hush set.",
+              "value": "Imagined Hush"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show your style.",
+            "id": "Wrap_InterOrbit",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_interorbit/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_interorbit/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Imagined Hush",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b8a4746567d7cf0a/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Imagined Order Hush Bundle"
+        },
+        "colors": {
+          "color1": "00edffff",
+          "color3": "b700e7ff",
+          "textBackgroundColor": "00bdffff"
+        },
+        "devName": "[VIRTUAL]1 x Imagined Order Hush, 1 x Borrowed Power Cell, 1 x Imagined Hush for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_InterOrbit_Bundle",
+        "finalPrice": 1400,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "42S0821261",
+          "index": 5,
+          "name": "Override",
+          "rank": 193,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "42S0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_InterOrbit",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__b8a4746567d7cf0a_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b8a4746567d7cf0a/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__b8a4746567d7cf0a_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b8a4746567d7cf0a/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_InterOrbit",
+        "offerId": "v2:/5319099b658cf83ae235b1c56206fd33a43b9d07379319a03dbfc8090300124f",
+        "outDate": "2026-08-27T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1700,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a4c6a3ddaae29b39/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Porsche 918 Spyder"
+        },
         "cars": [
           {
             "added": "2025-09-18T13:07:46Z",
@@ -4515,6 +4684,17 @@
           "useWidePreview": true
         },
         "layoutId": "SonicKnucklesEggman-1.93",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_Bawu",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__a4c6a3ddaae29b39_49ea4e67e67a2289.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a4c6a3ddaae29b39/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_Bundle_Featured_Bawu",
         "offerId": "v2:/62ba3e2dd59ac2eb20c00cd294d996e56fefaae3a669fd80032c1642fe88fc86",
         "offerTag": {
@@ -4675,6 +4855,17 @@
           "useWidePreview": false
         },
         "layoutId": "42S0821261.97",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_GameBreaker",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__a693215f2e5bda6e_0ed0cc51ad054f1a.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a693215f2e5bda6e/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S36/DAv2_EID_GameBreaker",
         "offerId": "v2:/abf12e20dfc2929b93fe04047c551a261095fe71ce77a16deba28040d3d1c9ec",
         "outDate": "2026-08-27T23:59:59.999Z",
@@ -4728,25 +4919,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_795_athena_commando_m_dummeez/variants/material/mat1.png",
-                    "name": "DEFAULT",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_795_athena_commando_m_dummeez/variants/material/mat2.png",
-                    "name": "CARBON FIBER",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "STYLE"
-              }
-            ]
+            }
           },
           {
             "added": "2020-07-21T08:17:24Z",
@@ -4777,25 +4950,7 @@
               "backendValue": "AthenaBackpack",
               "displayValue": "Back Bling",
               "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/variants/material/mat1.png",
-                    "name": "DEFAULT",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/variants/material/mat2.png",
-                    "name": "CARBON FIBER",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "STYLE"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -4823,6 +4978,11 @@
           "materialInstances": [],
           "renderImages": [
             {
+              "fileName": "cosmo__5edacdc03f760e4e_ce370cc32deb9f91.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5edacdc03f760e4e/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
               "fileName": "cosmo__5edacdc03f760e4e_2fcd9f912096af49.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5edacdc03f760e4e/renderimage_1.png",
               "productTag": "Product.BR"
@@ -4831,11 +4991,6 @@
               "fileName": "cosmo__5edacdc03f760e4e_06465a1fd3012a59.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5edacdc03f760e4e/renderimage_2.png",
               "productTag": "Product.Juno"
-            },
-            {
-              "fileName": "cosmo__5edacdc03f760e4e_ce370cc32deb9f91.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5edacdc03f760e4e/renderimage_0.png",
-              "productTag": "Product.BR"
             }
           ]
         },
@@ -4999,10 +5154,8 @@
           {
             "added": "2026-08-15T00:00:00Z",
             "description": "Supervisor of Endfield Industries.",
-            "dynamicPakId": "1013",
             "id": "Character_GraphShook",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_graphshook/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/character_graphshook/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_graphshook/smallicon.png"
             },
@@ -5062,12 +5215,11 @@
         },
         "layoutId": "Arknights.99",
         "newDisplayAsset": {
-          "cosmeticId": "Character_GraphShook",
           "id": "DAv2_Character_GraphShook",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaSoldiers_GraphShook",
+              "fileName": "cosmo__04f64976e70d1fe7_ec4d093bc2c7a616.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/04f64976e70d1fe7/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -5260,30 +5412,7 @@
               "backendValue": "AthenaBackpack",
               "displayValue": "Back Bling",
               "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_454_gummi/variants/material/mat1.png",
-                    "name": "DEFAULT",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_454_gummi/variants/material/mat2.png",
-                    "name": "GREEN",
-                    "tag": "Mat2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_454_gummi/variants/material/mat3.png",
-                    "name": "RAINBOW",
-                    "tag": "Mat3"
-                  }
-                ],
-                "type": "COLOR"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -5360,6 +5489,7 @@
         },
         "layoutId": "ADCircus.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_AgarBelly",
           "id": "DAv2_Backpack_AgarBelly",
           "materialInstances": [],
           "renderImages": [
@@ -5539,6 +5669,7 @@
         },
         "layoutId": "VV0821261.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_JanuaryBop",
           "id": "DAv2_EID_JanuaryBop",
           "materialInstances": [],
           "renderImages": [
@@ -5597,35 +5728,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "RichColor2",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_defectglitch/variants/richcolor2/000.png",
-                    "name": "Brass",
-                    "tag": "000"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_defectglitch/variants/richcolor2/001.png",
-                    "name": "Rose Gold",
-                    "tag": "001"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_defectglitch/variants/richcolor2/002.png",
-                    "name": "Bluish Steel",
-                    "tag": "002"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_defectglitch/variants/richcolor2/003.png",
-                    "name": "Heated",
-                    "tag": "003"
-                  }
-                ],
-                "type": "Metal Color"
-              }
-            ]
+            }
           },
           {
             "added": "2022-11-01T13:50:36Z",
@@ -5656,35 +5759,7 @@
               "backendValue": "AthenaBackpack",
               "displayValue": "Back Bling",
               "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "RichColor2",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/000.png",
-                    "name": "Brass",
-                    "tag": "000"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/001.png",
-                    "name": "Rose Gold",
-                    "tag": "001"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/002.png",
-                    "name": "Bluish Steel",
-                    "tag": "002"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_defectglitch/variants/richcolor2/003.png",
-                    "name": "Heated",
-                    "tag": "003"
-                  }
-                ],
-                "type": "Metal Color"
-              }
-            ]
+            }
           },
           {
             "added": "2022-11-01T13:50:36Z",
@@ -5738,6 +5813,32 @@
           "useWidePreview": false
         },
         "layoutId": "42S0821261.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_DefectGlitch",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__94e56120a021c07b_c449860a95a29b94.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/94e56120a021c07b/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__94e56120a021c07b_4e83dd7b171ac9a9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/94e56120a021c07b/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__94e56120a021c07b_acb0dad3f8e4fa79.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/94e56120a021c07b/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__94e56120a021c07b_d0a51b798f6dcbd2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/94e56120a021c07b/renderimage_3.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S22/DAv2_Character_DefectGlitch",
         "offerId": "v2:/97301f2c4289fb193b823f2c13d497dd1b2ba04f3242266ec191d5e0c4297304",
         "offerTag": {
@@ -5919,6 +6020,7 @@
         },
         "layoutId": "QuicheLorraine.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_QuicheLorraineCrisp",
           "id": "DAv2_Pickaxe_QuicheLorraineCrisp",
           "materialInstances": [],
           "renderImages": [
@@ -6130,6 +6232,7 @@
         },
         "layoutId": "QuicheLorraine.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_QuicheLorraineLime",
           "id": "DAv2_EID_QuicheLorraineLime",
           "materialInstances": [],
           "renderImages": [
@@ -6517,6 +6620,7 @@
         },
         "layoutId": "TylerCreatorNEW.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_VoyageDartBroil",
           "id": "DAv2_Shoes_VoyageDartBroil",
           "materialInstances": [],
           "renderImages": [
@@ -6632,6 +6736,7 @@
         },
         "layoutId": "BR082126.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_ShadeToll",
           "id": "DAv2_Character_ShadeToll",
           "materialInstances": [],
           "renderImages": [
@@ -6696,41 +6801,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/parts/stage0.png",
-                    "name": "Dwight Schrute",
-                    "tag": "Stage0"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/parts/stage1.png",
-                    "name": "Suited",
-                    "tag": "Stage1"
-                  }
-                ],
-                "type": "style"
-              },
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/progressive/stage0.png",
-                    "name": "Off",
-                    "tag": "Stage0"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/progressive/stage1.png",
-                    "name": "on",
-                    "tag": "Stage1"
-                  }
-                ],
-                "type": "certified mask"
-              }
-            ]
+            }
           },
           {
             "added": "2026-01-23T15:03:51Z",
@@ -6797,30 +6868,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_uskthump/variants/progressive/stage1.png",
-                    "name": "Michael Scott",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_uskthump/variants/progressive/stage2.png",
-                    "name": "Michael Scott (sunglasses)",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_uskthump/variants/progressive/stage3.png",
-                    "name": "Date Mike",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+            }
           },
           {
             "added": "2026-01-23T15:03:51Z",
@@ -7156,6 +7204,7 @@
         },
         "layoutId": "Office.97",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_UskThumpFix",
           "id": "DAv2_Shoes_UskThumpFix",
           "materialInstances": [],
           "renderImages": [
@@ -7512,6 +7561,7 @@
         },
         "layoutId": "ADCircus.96",
         "newDisplayAsset": {
+          "cosmeticId": "EID_AgarBelly",
           "id": "DAv2_EID_AgarBelly",
           "materialInstances": [],
           "renderImages": [
@@ -7668,25 +7718,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_cataclysmcity/variants/parts/stage1.png",
-                    "name": "on",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_cataclysmcity/variants/parts/stage2.png",
-                    "name": "off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Cap"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -7708,6 +7740,22 @@
           "useWidePreview": false
         },
         "layoutId": "42S0821261.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_CataclysmCity",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__b5504d910474f9eb_abd3e774f3fb155f.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5504d910474f9eb/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__b5504d910474f9eb_1cbb0c5cc5700714.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5504d910474f9eb/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S35/DAv2_Character_CataclysmCity",
         "offerId": "v2:/812b2607e5a37e84f0074fff804dd0b5e0dacf97a48c3765abc3e73e5dce7b39",
         "outDate": "2026-08-27T23:59:59.999Z",
@@ -7773,6 +7821,7 @@
         },
         "layoutId": "Office.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_OxideHoard",
           "id": "DAv2_Backpack_OxideHoard",
           "materialInstances": [],
           "renderImages": [
@@ -7839,6 +7888,170 @@
             "title": "Best of You"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "Low",
+          "value": "4700 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show 'em off.",
+            "id": "Shoes_SaltyBrimBash",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_saltybrimbash/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_saltybrimbash/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Sonic Grind Shoes",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Shadow the Hedgehog & Knuckles the Echidna Bundle"
+        },
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Knuckles the Echidna, 1 x Knuckles' Gloves, 1 x Shadow the Hedgehog, 1 x Doom's Eye, 1 x Chao Egg, 1 x Sonic Grind Shoes, 1 x Shadow Slip-Ons, 1 x Doom Scythe, 1 x Chaos Crasher, 1 x Chaos Crasher, 1 x Chaos Crasher, 1 x Shadow's ARK Angel, 1 x Shadow's ARK Angel, 1 x Shadow's ARK Angel for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_ScribeSpider_Bundle",
+        "finalPrice": 3600,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "billboard",
+          "id": "SonicKnucklesEggman-1",
+          "index": 24,
+          "name": "Sonic The Hedgehog",
+          "rank": 197,
+          "showIneligibleOffers": "always",
+          "stringMetadata": [
+            {
+              "key": "alignment",
+              "value": "left"
+            },
+            {
+              "key": "highlightEnabled",
+              "value": "true"
+            },
+            {
+              "key": "parallaxEnabled",
+              "value": "true"
+            },
+            {
+              "key": "titleColorA",
+              "value": "FFFFFF"
+            },
+            {
+              "key": "titleColorB",
+              "value": "FFFFFF"
+            }
+          ],
+          "textMetadata": [
+            {
+              "key": "cta",
+              "value": "View Offer"
+            },
+            {
+              "key": "subtitle",
+              "value": "\"Gotta Go Fast\""
+            },
+            {
+              "key": "title",
+              "value": "Shadow the Hedgehog & Knuckles the Echidna"
+            }
+          ],
+          "textureMetadata": [
+            {
+              "key": "background",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_ScribeSpider_BG-4f2ab9d7.png"
+            },
+            {
+              "key": "foreground",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_ScribeSpider_Character-bee742ef.png"
+            },
+            {
+              "key": "foreground_juno",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_ScribeSpider_Figure-72d5b314.png"
+            },
+            {
+              "key": "bodyImage",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_ScribeSpider_ItemStak-fd338e76.png"
+            }
+          ],
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman-1.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_ScribeSpider",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__5df0427845e2f3f2_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__5df0427845e2f3f2_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__5df0427845e2f3f2_71e578208f570b02.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_2.png",
+              "productTag": "Product.Juno"
+            },
+            {
+              "fileName": "cosmo__5df0427845e2f3f2_c87b2239ea7b1fc6.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_3.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_ScribeSpider",
+        "offerId": "v2:/7883515071cba5354f23048c6559d4f4710a820b9f2a608a2aa22c0d1062f3a9",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 8300,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_4_x_1"
       },
       {
         "brItems": [
@@ -7938,46 +8151,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/parts/stage1.png",
-                    "name": "off",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/parts/stage2.png",
-                    "name": "on",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Mask"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/material/mat1.png",
-                    "name": "CHROMAKOPIAN",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/material/mat2.png",
-                    "name": "CHROMATIC Tyler",
-                    "tag": "Mat2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/material/mat3.png",
-                    "name": "CHROMATIC Tyler (reactive off)",
-                    "tag": "Mat3"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
+            }
           },
           {
             "added": "2025-11-14T14:44:13Z",
@@ -8050,6 +8224,7 @@
         },
         "layoutId": "TylerCreatorNEW.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CanineCronutDig",
           "id": "DAv2_Character_CanineCronutDig",
           "materialInstances": [],
           "renderImages": [
@@ -8239,6 +8414,7 @@
         },
         "layoutId": "ADCircus.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_AgarBelly",
           "id": "DAv2_Pickaxe_AgarBelly",
           "materialInstances": [],
           "renderImages": [
@@ -8319,6 +8495,17 @@
           "useWidePreview": false
         },
         "layoutId": "VV0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_ModernMix",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__18ca8eed06b988ad_af3fa2ec1321cfb4.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/18ca8eed06b988ad/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S37/DAv2_EID_ModernMix",
         "offerId": "v2:/2e53da2c87b5ad534320ceb5bd8ac0feda266da5ed225d0bb7c97ed58781d86f",
         "outDate": "2026-08-24T23:59:59.999Z",
@@ -8381,21 +8568,6 @@
                     "image": "https://fortnite-api.com/images/cosmetics/br/cid_315_athena_commando_m_teriyakifish/variants/parts/stage0.png",
                     "name": "DEFAULT",
                     "tag": "Stage0"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_315_athena_commando_m_teriyakifish/variants/parts/stage1.png",
-                    "name": "PIRATE",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_315_athena_commando_m_teriyakifish/variants/parts/stage2.png",
-                    "name": "VR",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_315_athena_commando_m_teriyakifish/variants/parts/stage3.png",
-                    "name": "WORLD CUP",
-                    "tag": "Stage3"
                   }
                 ],
                 "type": "STYLE"
@@ -8455,6 +8627,32 @@
           "useWidePreview": false
         },
         "layoutId": "FND082126.99",
+        "newDisplayAsset": {
+          "id": "DAv2_CID_315_M_TeriyakiFish",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__d9ba0fad6e9dc557_66046245d5fcc5f9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d9ba0fad6e9dc557/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__d9ba0fad6e9dc557_1a4fd0d5e93ab77a.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d9ba0fad6e9dc557/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__d9ba0fad6e9dc557_6b6cf1ed160bcf26.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d9ba0fad6e9dc557/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__d9ba0fad6e9dc557_5a79399066c0f016.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d9ba0fad6e9dc557/renderimage_3.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_315_M_TeriyakiFish",
         "offerId": "v2:/0cab39b7fd918f9dfcc87a4af061030c000b6fe599177cfb2e371e647232eca0",
         "outDate": "2026-08-25T23:59:59.999Z",
@@ -8617,6 +8815,7 @@
         },
         "layoutId": "BR082126.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ShinToll",
           "id": "DAv2_EID_ShinToll",
           "materialInstances": [],
           "renderImages": [
@@ -8789,6 +8988,7 @@
         },
         "layoutId": "Office.99",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_UskThump",
           "id": "DAv2_Backpack_UskThump",
           "materialInstances": [],
           "renderImages": [
@@ -8972,6 +9172,7 @@
         },
         "layoutId": "TylerCreatorNEW.96",
         "newDisplayAsset": {
+          "cosmeticId": "Contrail_CanineCronut",
           "id": "DAv2_Contrail_CanineCronut",
           "materialInstances": [],
           "renderImages": [
@@ -9380,41 +9581,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/parts/stage0.png",
-                    "name": "Dwight Schrute",
-                    "tag": "Stage0"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/parts/stage1.png",
-                    "name": "Suited",
-                    "tag": "Stage1"
-                  }
-                ],
-                "type": "style"
-              },
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/progressive/stage0.png",
-                    "name": "Off",
-                    "tag": "Stage0"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_oxidehoard/variants/progressive/stage1.png",
-                    "name": "on",
-                    "tag": "Stage1"
-                  }
-                ],
-                "type": "certified mask"
-              }
-            ]
+            }
           },
           {
             "added": "2026-01-23T15:03:51Z",
@@ -9469,6 +9636,7 @@
         },
         "layoutId": "Office.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_OxideHoard",
           "id": "DAv2_Character_OxideHoard",
           "materialInstances": [],
           "renderImages": [
@@ -9558,6 +9726,7 @@
         },
         "layoutId": "Office.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_OxideHoard",
           "id": "DAv2_EID_OxideHoard",
           "materialInstances": [],
           "renderImages": [
@@ -9678,25 +9847,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_raredelightsail/variants/parts/stage1.png",
-                    "name": "on",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_raredelightsail/variants/parts/stage2.png",
-                    "name": "off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "reactivity"
-              }
-            ]
+            }
           },
           {
             "added": "2024-05-31T00:00:00Z",
@@ -9874,6 +10025,7 @@
         },
         "layoutId": "ADCircus.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_RecipeWhole",
           "id": "DAv2_Backpack_RecipeWhole",
           "materialInstances": [],
           "renderImages": [
@@ -10777,6 +10929,17 @@
           "useWidePreview": false
         },
         "layoutId": "VV0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_Scrolls",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__9c37fca22291f609_266c4759e6be99c9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9c37fca22291f609/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S33/DAv2_EID_Scrolls",
         "offerId": "v2:/4efe886f7a28fed92463a112cceefece1059029f6985c056da82d3b9d784f290",
         "outDate": "2026-08-24T23:59:59.999Z",
@@ -11112,6 +11275,125 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "A lieutenant of perfection.",
+            "id": "Character_InterOrbit_Shock",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_interorbit_shock/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_interorbit_shock/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_interorbit_shock/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_interorbit_shock/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Imagined Order Hush",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Epic",
+              "value": "epic"
+            },
+            "set": {
+              "backendValue": "LazyRumor",
+              "text": "Part of the Imagined Hush set.",
+              "value": "Imagined Hush"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "On loan from Geno.",
+            "id": "Backpack_InterOrbit_Shock",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_interorbit_shock/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_interorbit_shock/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Borrowed Power Cell",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "LazyRumor",
+              "text": "Part of the Imagined Hush set.",
+              "value": "Imagined Hush"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "00edffff",
+          "color3": "b700e7ff",
+          "textBackgroundColor": "00bdffff"
+        },
+        "devName": "[VIRTUAL]1 x Imagined Order Hush, 1 x Borrowed Power Cell for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Character_InterOrbit_Shock",
+        "finalPrice": 1200,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "42S0821261",
+          "index": 5,
+          "name": "Override",
+          "rank": 193,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "42S0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_InterOrbit_Shock",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__5c2edd6e33f87f21_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5c2edd6e33f87f21/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__5c2edd6e33f87f21_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5c2edd6e33f87f21/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Character_InterOrbit_Shock",
+        "offerId": "v2:/7990bf09b6a2f831fe1c9c2667d1dafa42fb135d36b0558b30d8cf7bbf444357",
+        "outDate": "2026-08-27T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1200,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2026-01-23T15:03:51Z",
@@ -11167,6 +11449,7 @@
         },
         "layoutId": "Office.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_OxideHoard",
           "id": "DAv2_Pickaxe_OxideHoard",
           "materialInstances": [],
           "renderImages": [
@@ -11277,88 +11560,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage1.png",
-                    "name": "Scoop",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage2.png",
-                    "name": "Mock Neck",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage3.png",
-                    "name": "Halter",
-                    "tag": "Stage3"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage4.png",
-                    "name": "Corset",
-                    "tag": "Stage4"
-                  }
-                ],
-                "type": "style"
-              },
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/particle/particle1.png",
-                    "name": "Effortless Bun",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/particle/particle2.png",
-                    "name": "Tousled Brunette",
-                    "tag": "Particle2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/particle/particle3.png",
-                    "name": "Beachy Blonde",
-                    "tag": "Particle3"
-                  }
-                ],
-                "type": "hair"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/material/mat1.png",
-                    "name": "on",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/material/mat2.png",
-                    "name": "off",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "gloves"
-              },
-              {
-                "channel": "Emissive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/emissive/emissive1.png",
-                    "name": "off",
-                    "tag": "Emissive1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/emissive/emissive2.png",
-                    "name": "on",
-                    "tag": "Emissive2"
-                  }
-                ],
-                "type": "sunglasses"
-              }
-            ]
+            }
           },
           {
             "added": "2025-12-12T10:05:30Z",
@@ -11439,25 +11641,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainecrisp/variants/parts/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainecrisp/variants/parts/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Jacket"
-              }
-            ]
+            }
           },
           {
             "added": "2025-12-12T10:05:30Z",
@@ -11850,6 +12034,7 @@
         },
         "layoutId": "TylerCreatorNEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_CanineCronutDig",
           "id": "DAv2_Wrap_CanineCronutDig",
           "materialInstances": [],
           "renderImages": [
@@ -11866,6 +12051,99 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -4,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show 'em off.",
+            "id": "Shoes_SaltyBrimBash",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_saltybrimbash/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_saltybrimbash/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Sonic Grind Shoes",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Sonic Grind Shoes for 1000 MtxCurrency",
+        "finalPrice": 1000,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman-1",
+          "index": 24,
+          "name": "Sonic The Hedgehog",
+          "rank": 197,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman-1.94",
+        "newDisplayAsset": {
+          "id": "DAv2_Shoes_SaltyBrimBash",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__5233e7d6e1f8f291_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5233e7d6e1f8f291/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_shoes_saltybrimbash",
+        "offerId": "v2:/84944e987efa4878db6994ed5f490d5dcb49ceae9438a74021979d303411783e",
+        "offerTag": {
+          "id": "reactrunaudio",
+          "text": "Reactive audio when sprinting and jumping!"
+        },
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1000,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -12022,6 +12300,7 @@
         },
         "layoutId": "Office.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_UskThump",
           "id": "DAv2_Glider_UskThump",
           "materialInstances": [],
           "renderImages": [
@@ -12481,10 +12760,8 @@
           {
             "added": "2026-08-08T00:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1031",
             "id": "Shoes_WindyExhibitYum",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_windyexhibityum/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_windyexhibityum/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_windyexhibityum/smallicon.png"
             },
@@ -12532,12 +12809,11 @@
         },
         "layoutId": "FND082126.97",
         "newDisplayAsset": {
-          "cosmeticId": "Shoes_WindyExhibitYum",
           "id": "DAv2_Shoes_WindyExhibitYum",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Shoes_WindyExhibitYum",
+              "fileName": "cosmo__52896b24d7082133_52895d849f671731.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/52896b24d7082133/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -12726,6 +13002,7 @@
         },
         "layoutId": "Office.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_UskThump",
           "id": "DAv2_EID_UskThump",
           "materialInstances": [],
           "renderImages": [
@@ -12975,57 +13252,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Outfit",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage1.png",
-                    "name": "Lil Tecca",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage2.png",
-                    "name": "Ransom Toon Style",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Style"
-              },
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Scarf"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat1.png",
-                    "name": "on",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat2.png",
-                    "name": "off",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "glasses"
-              }
-            ]
+            }
           },
           {
             "added": "2026-07-30T08:00:00Z",
@@ -13068,30 +13295,7 @@
               "backendValue": "AthenaPickaxe",
               "displayValue": "Pickaxe",
               "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle1.png",
-                    "name": "Reactive",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle2.png",
-                    "name": "Reactive Fully On",
-                    "tag": "Particle2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle3.png",
-                    "name": "Reactive Fully Off",
-                    "tag": "Particle3"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
+            }
           },
           {
             "added": "2026-07-30T08:00:00Z",
@@ -13293,46 +13497,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/parts/stage1.png",
-                    "name": "off",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/parts/stage2.png",
-                    "name": "on",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "toon tyler"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/material/mat1.png",
-                    "name": "green",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/material/mat2.png",
-                    "name": "Blue",
-                    "tag": "Mat2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/material/mat3.png",
-                    "name": "Red",
-                    "tag": "Mat3"
-                  }
-                ],
-                "type": "Hat Color"
-              }
-            ]
+            }
           },
           {
             "added": "2025-11-14T14:44:13Z",
@@ -13405,6 +13570,7 @@
         },
         "layoutId": "TylerCreatorNEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CanineCronutMix",
           "id": "DAv2_Character_CanineCronutMix",
           "materialInstances": [],
           "renderImages": [
@@ -13525,25 +13691,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainecrisp/variants/parts/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainecrisp/variants/parts/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Jacket"
-              }
-            ]
+            }
           },
           {
             "added": "2025-12-12T10:05:30Z",
@@ -13615,6 +13763,7 @@
         },
         "layoutId": "QuicheLorraine.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_QuicheLorraineCrisp",
           "id": "DAv2_Character_QuicheLorraineCrisp",
           "materialInstances": [],
           "renderImages": [
@@ -13743,6 +13892,7 @@
         },
         "layoutId": "BR082126.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_ShadeToll",
           "id": "DAv2_Backpack_ShadeToll",
           "materialInstances": [],
           "renderImages": [
@@ -14123,6 +14273,22 @@
           "useWidePreview": false
         },
         "layoutId": "42S0821261.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_SpartanSmirk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__9cc6e84ed7f04341_3d354b192020d0b9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9cc6e84ed7f04341/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__9cc6e84ed7f04341_8b0c241684830d2a.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9cc6e84ed7f04341/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S33/DAv2_Character_SpartanSmirk",
         "offerId": "v2:/658d5503e6e68e10706f1c28adfbd38be8aad72685f515943ddee326d3c49bf0",
         "outDate": "2026-08-27T23:59:59.999Z",
@@ -14194,6 +14360,17 @@
           "useWidePreview": false
         },
         "layoutId": "VV0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_Deflated_6POAZ",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__cf7a942c8bdb273c_b9e19aa02c24dc22.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cf7a942c8bdb273c/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_EID_Deflated_6POAZ",
         "offerId": "v2:/124a9bff2cd227b34ac46af130958ccd22208b5983478033a2546259d2f6a191",
         "outDate": "2026-08-24T23:59:59.999Z",
@@ -14269,6 +14446,7 @@
         },
         "layoutId": "QuicheLorraine.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_QuicheLorraineLime",
           "id": "DAv2_Glider_QuicheLorraineLime",
           "materialInstances": [],
           "renderImages": [
@@ -14328,46 +14506,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_452_athena_commando_f_barium/variants/parts/stage1.png",
-                    "name": "Hana",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_452_athena_commando_f_barium/variants/parts/stage2.png",
-                    "name": "Racing Suit",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_452_athena_commando_f_barium/variants/parts/stage3.png",
-                    "name": "Crash Tested",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "style"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_452_athena_commando_f_barium/variants/material/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_a_452_athena_commando_f_barium/variants/material/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Reactive"
-              }
-            ]
+            }
           },
           {
             "added": "2022-12-13T10:43:37Z",
@@ -14498,88 +14637,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage1.png",
-                    "name": "Scoop",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage2.png",
-                    "name": "Mock Neck",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage3.png",
-                    "name": "Halter",
-                    "tag": "Stage3"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/parts/stage4.png",
-                    "name": "Corset",
-                    "tag": "Stage4"
-                  }
-                ],
-                "type": "style"
-              },
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/particle/particle1.png",
-                    "name": "Effortless Bun",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/particle/particle2.png",
-                    "name": "Tousled Brunette",
-                    "tag": "Particle2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/particle/particle3.png",
-                    "name": "Beachy Blonde",
-                    "tag": "Particle3"
-                  }
-                ],
-                "type": "hair"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/material/mat1.png",
-                    "name": "on",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/material/mat2.png",
-                    "name": "off",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "gloves"
-              },
-              {
-                "channel": "Emissive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/emissive/emissive1.png",
-                    "name": "off",
-                    "tag": "Emissive1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_quichelorrainelime/variants/emissive/emissive2.png",
-                    "name": "on",
-                    "tag": "Emissive2"
-                  }
-                ],
-                "type": "sunglasses"
-              }
-            ]
+            }
           },
           {
             "added": "2025-12-12T10:05:30Z",
@@ -14651,6 +14709,7 @@
         },
         "layoutId": "QuicheLorraine.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_QuicheLorraineLime",
           "id": "DAv2_Character_QuicheLorraineLime",
           "materialInstances": [],
           "renderImages": [
@@ -14834,6 +14893,7 @@
         },
         "layoutId": "FND082126.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_BrightIon",
           "id": "DAv2_Character_BrightIon",
           "materialInstances": [],
           "renderImages": [
@@ -15037,6 +15097,7 @@
         },
         "layoutId": "TylerCreatorNEW.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CanineCronutDig",
           "id": "DAv2_EID_CanineCronutDig",
           "materialInstances": [],
           "renderImages": [
@@ -15211,10 +15272,8 @@
           {
             "added": "2026-08-08T00:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1031",
             "id": "Shoes_HouseFerret",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_houseferret/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_houseferret/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_houseferret/smallicon.png"
             },
@@ -15262,12 +15321,11 @@
         },
         "layoutId": "FND082126.97",
         "newDisplayAsset": {
-          "cosmeticId": "Shoes_HouseFerret",
           "id": "DAv2_Shoes_HouseFerret",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Featured_Shoes_HouseFerret",
+              "fileName": "cosmo__b667681bdaa62a21_49b6c96092f0ddef.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b667681bdaa62a21/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -15340,6 +15398,7 @@
         },
         "layoutId": "FND082126.98",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BuffCut",
           "id": "DAv2_Companion_BuffCut",
           "materialInstances": [],
           "renderImages": [
@@ -15439,6 +15498,7 @@
         },
         "layoutId": "TylerCreatorNEW.95",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_CanineCronutMix",
           "id": "DAv2_Wrap_CanineCronutMix",
           "materialInstances": [],
           "renderImages": [
@@ -15455,6 +15515,108 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Goggles, gloves, and gusto.",
+            "id": "Character_SouthBalk",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_southbalk/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_southbalk/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_southbalk/small.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.Special.BodySwap.Full"
+            ],
+            "name": "Dr. Eggman",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Dr. Eggman, 1 x Orbot and Cubot for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Character_SouthBalk",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman-1",
+          "index": 24,
+          "name": "Sonic The Hedgehog",
+          "rank": 197,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman-1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_SouthBalk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__544900f6626d2eae_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/544900f6626d2eae/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__544900f6626d2eae_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/544900f6626d2eae/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Character_SouthBalk",
+        "offerId": "v2:/0de0609492691a12b54f090bf1d3707e2eac4d50b5e64d3a2a0d289489a71fd2",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -15613,6 +15775,7 @@
         },
         "layoutId": "VV0821261.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Factual",
           "id": "DAv2_EID_Factual",
           "materialInstances": [],
           "renderImages": [
@@ -15692,6 +15855,7 @@
         },
         "layoutId": "BR082126.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_BrightIon",
           "id": "DAv2_Pickaxe_BrightIon",
           "materialInstances": [],
           "renderImages": [
@@ -16053,6 +16217,7 @@
         },
         "layoutId": "QuicheLorraine.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_QuicheLorraineCrisp",
           "id": "DAv2_EID_QuicheLorraineCrisp",
           "materialInstances": [],
           "renderImages": [
@@ -16511,41 +16676,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_290_athena_commando_f_bluebadass/variants/parts/stage1.png",
-                    "name": "DEFAULT",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_290_athena_commando_f_bluebadass/variants/parts/stage2.png",
-                    "name": "NO HAT AND MASK",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "STYLE"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_290_athena_commando_f_bluebadass/variants/material/mat1.png",
-                    "name": "BLUE",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_290_athena_commando_f_bluebadass/variants/material/mat2.png",
-                    "name": "GREEN",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "COLOR"
-              }
-            ]
+            }
           },
           {
             "added": "2019-11-20T12:50:37Z",
@@ -16796,6 +16927,7 @@
         },
         "layoutId": "ADCircus.96",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_AgarBelly",
           "id": "DAv2_Wrap_AgarBelly",
           "materialInstances": [],
           "renderImages": [
@@ -16858,25 +16990,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_badcat/variants/progressive/stage1.png",
-                    "name": "Bad Kit",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_badcat/variants/progressive/stage2.png",
-                    "name": "GHOST",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -17221,6 +17335,7 @@
         },
         "layoutId": "ADCircus.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_AgarBelly",
           "id": "DAv2_Character_AgarBelly",
           "materialInstances": [],
           "renderImages": [
@@ -17520,25 +17635,7 @@
               "backendValue": "AthenaBackpack",
               "displayValue": "Back Bling",
               "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/variants/material/mat1.png",
-                    "name": "DEFAULT",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/bid_549_dummeez/variants/material/mat2.png",
-                    "name": "CARBON FIBER",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "STYLE"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -17645,25 +17742,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_wolfhunter_feral/variants/parts/stage1.png",
-                    "name": "NITE Unit Marksman",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_wolfhunter_feral/variants/parts/stage2.png",
-                    "name": "Stealth Camo",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -17686,6 +17765,22 @@
           "useWidePreview": false
         },
         "layoutId": "42S0821261.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_WolfHunter_Feral",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e760cd50764bdf63_fe0234bbf2011fdb.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e760cd50764bdf63/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e760cd50764bdf63_3732eff1efab9dc6.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e760cd50764bdf63/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Character_WolfHunter_Feral",
         "offerId": "v2:/178c7cdcf03e2657392092112bd49477cb8abbb54dc41ec86aa1e9c7de7b574c",
         "outDate": "2026-08-27T23:59:59.999Z",
@@ -17750,6 +17845,7 @@
         },
         "layoutId": "BR082126.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_ShinToll",
           "id": "DAv2_Wrap_ShinToll",
           "materialInstances": [],
           "renderImages": [
@@ -18114,6 +18210,7 @@
         },
         "layoutId": "BR082126.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_LoyalStride",
           "id": "DAv2_Shoes_LoyalStride",
           "materialInstances": [],
           "renderImages": [
@@ -18223,30 +18320,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_397_athena_commando_f_treasurehunterfashion/variants/parts/stage1.png",
-                    "name": "DEFAULT",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_397_athena_commando_f_treasurehunterfashion/variants/parts/stage2.png",
-                    "name": "WINTER HUNTER",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/cid_397_athena_commando_f_treasurehunterfashion/variants/parts/stage3.png",
-                    "name": "Charming Aura",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "STYLE"
-              }
-            ]
+            }
           }
         ],
         "colors": {
@@ -18415,6 +18489,7 @@
         },
         "layoutId": "VV0821261.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Blaster",
           "id": "DAv2_EID_Blaster",
           "materialInstances": [],
           "renderImages": [
@@ -18629,57 +18704,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Outfit",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage1.png",
-                    "name": "Lil Tecca",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/outfit/stage2.png",
-                    "name": "Ransom Toon Style",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Style"
-              },
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/parts/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Scarf"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat1.png",
-                    "name": "on",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_anvilalarmrobin/variants/material/mat2.png",
-                    "name": "off",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "glasses"
-              }
-            ]
+            }
           },
           {
             "added": "2026-07-30T08:00:00Z",
@@ -18722,30 +18747,7 @@
               "backendValue": "AthenaPickaxe",
               "displayValue": "Pickaxe",
               "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle1.png",
-                    "name": "Reactive",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle2.png",
-                    "name": "Reactive Fully On",
-                    "tag": "Particle2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_anvilalarmmoth/variants/particle/particle3.png",
-                    "name": "Reactive Fully Off",
-                    "tag": "Particle3"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
+            }
           },
           {
             "added": "2026-07-30T08:00:00Z",
@@ -19143,6 +19145,79 @@
             "title": "Ransom"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show your style.",
+            "id": "Wrap_InterOrbit",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_interorbit/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_interorbit/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Imagined Hush",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "00edffff",
+          "color3": "b700e7ff",
+          "textBackgroundColor": "00bdffff"
+        },
+        "devName": "[VIRTUAL]1 x Imagined Hush for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "42S0821261",
+          "index": 5,
+          "name": "Override",
+          "rank": 193,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "42S0821261.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Wrap_InterOrbit",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__139434a6c8697c75_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/139434a6c8697c75/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_wrap_interorbit",
+        "offerId": "v2:/12e4b0e4502377399c1a877d5e21bf771a3ecc43b825e0f8bf4b5623984af4ba",
+        "outDate": "2026-08-27T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
       },
       {
         "banner": {
@@ -19738,6 +19813,7 @@
         },
         "layoutId": "TylerCreatorNEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CanineCronutMix",
           "id": "DAv2_EID_CanineCronutMix",
           "materialInstances": [],
           "renderImages": [
@@ -19881,30 +19957,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_uskthump/variants/progressive/stage1.png",
-                    "name": "Michael Scott",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_uskthump/variants/progressive/stage2.png",
-                    "name": "Michael Scott (sunglasses)",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_uskthump/variants/progressive/stage3.png",
-                    "name": "Date Mike",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+            }
           },
           {
             "added": "2026-01-23T15:03:51Z",
@@ -19960,6 +20013,7 @@
         },
         "layoutId": "Office.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_UskThump",
           "id": "DAv2_Character_UskThump",
           "materialInstances": [],
           "renderImages": [
@@ -20046,25 +20100,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_raredelightsail/variants/parts/stage1.png",
-                    "name": "on",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_raredelightsail/variants/parts/stage2.png",
-                    "name": "off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "reactivity"
-              }
-            ]
+            }
           },
           {
             "added": "2024-05-31T00:00:00Z",
@@ -20133,6 +20169,7 @@
         },
         "layoutId": "RosyRift.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_RareDelightSail",
           "id": "DAv2_Character_RareDelightSail",
           "materialInstances": [],
           "renderImages": [
@@ -20258,6 +20295,7 @@
         },
         "layoutId": "BR082126.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_ShinToll",
           "id": "DAv2_Character_ShinToll",
           "materialInstances": [],
           "renderImages": [
@@ -20330,46 +20368,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/parts/stage1.png",
-                    "name": "off",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/parts/stage2.png",
-                    "name": "on",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Mask"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/material/mat1.png",
-                    "name": "CHROMAKOPIAN",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/material/mat2.png",
-                    "name": "CHROMATIC Tyler",
-                    "tag": "Mat2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutdig/variants/material/mat3.png",
-                    "name": "CHROMATIC Tyler (reactive off)",
-                    "tag": "Mat3"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
+            }
           },
           {
             "added": "2025-11-14T14:44:13Z",
@@ -20456,46 +20455,7 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/parts/stage1.png",
-                    "name": "off",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/parts/stage2.png",
-                    "name": "on",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "toon tyler"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/material/mat1.png",
-                    "name": "green",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/material/mat2.png",
-                    "name": "Blue",
-                    "tag": "Mat2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_caninecronutmix/variants/material/mat3.png",
-                    "name": "Red",
-                    "tag": "Mat3"
-                  }
-                ],
-                "type": "Hat Color"
-              }
-            ]
+            }
           },
           {
             "added": "2025-11-14T14:44:13Z",
@@ -21015,22 +20975,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenabundles-caninecronut-2048x2048-639939bba277.png",
+              "fileName": "cosmo__3cd938c7cb716e75_00f3b8e72b3a93b8.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3cd938c7cb716e75/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-caninecronut-02-2048x2048-3c6b044b4080.png",
+              "fileName": "cosmo__3cd938c7cb716e75_6d4d798226f7ddbb.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3cd938c7cb716e75/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-caninecronut-03-2048x2048-cd638f2ba812.png",
+              "fileName": "cosmo__3cd938c7cb716e75_ae2730b6d74bdc52.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3cd938c7cb716e75/renderimage_2.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-caninecronut-04-2048x2048-f14dcf7799b2.png",
+              "fileName": "cosmo__3cd938c7cb716e75_9743f529721784de.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3cd938c7cb716e75/renderimage_3.png",
               "productTag": "Product.BR"
             }
@@ -21120,6 +21080,7 @@
         },
         "layoutId": "ADCircus.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_RecipeWhole",
           "id": "DAv2_Pickaxe_RecipeWhole",
           "materialInstances": [],
           "renderImages": [
@@ -21205,6 +21166,7 @@
         },
         "layoutId": "TylerCreatorNEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_CanineCronutMix",
           "id": "DAv2_Backpack_CanineCronutMix",
           "materialInstances": [],
           "renderImages": [
@@ -21695,6 +21657,7 @@
         },
         "layoutId": "FND082126.98",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_CaninePack",
           "id": "DAv2_Companion_CaninePack",
           "materialInstances": [],
           "renderImages": [

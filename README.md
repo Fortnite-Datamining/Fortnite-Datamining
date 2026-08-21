@@ -20,19 +20,19 @@ A [GitHub Actions workflow](.github/workflows/fetch.yml) runs every 30 minutes t
 ## Current Stats
 
 <!-- stats:start -->
-Current build: `++Fortnite+Release-41.30-CL-56430492`
+Current build: `++Fortnite+Release-42.00-CL-56878558`
 
 | Category | Items |
 |----------|-------|
-| BR Cosmetics | 15,996 |
-| Cars | 1,617 |
-| Instruments | 295 |
-| LEGO Cosmetics | 2,454 |
-| LEGO Kits | 446 |
+| BR Cosmetics | 16,134 |
+| Cars | 1,618 |
+| Instruments | 297 |
+| LEGO Cosmetics | 2,467 |
+| LEGO Kits | 449 |
 | Jam Tracks | 707 |
 | Beans | 1,748 |
-| Banners | 994 |
-| Playlists | 744 |
+| Banners | 1,003 |
+| Playlists | 776 |
 <!-- stats:end -->
 
 ## Tracked Data

@@ -6559,6 +6559,37 @@
       }
     },
     {
+      "added": "2026-08-21T15:01:57Z",
+      "description": "Perfect for speed metal.",
+      "id": "Sparks_SaltyBrim_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_saltybrim_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_saltybrim_guitar/small.png"
+      },
+      "name": "Blue Streak",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
       "added": "2026-05-14T10:11:56Z",
       "description": "CLEAR!",
       "id": "Sparks_ShadeToll_Mic",
@@ -6963,6 +6994,26 @@
         "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_tubewave_bass/small.png"
       },
       "name": "Deep Groove",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksBass",
+        "displayValue": "Bass",
+        "value": "bass"
+      }
+    },
+    {
+      "added": "2026-08-21T15:01:57Z",
+      "description": "Swept up in a torrent of sound.",
+      "id": "Sparks_UniqueBeetle_Bass",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_uniquebeetle_bass/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_uniquebeetle_bass/small.png"
+      },
+      "name": "Maelstrummer",
       "rarity": {
         "backendValue": "EFortRarity::Common",
         "displayValue": "Common",
