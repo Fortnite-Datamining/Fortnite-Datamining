@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-21
+- **01:01** Item Shop - +22 new (Catrin Glitch, The Ron-troller, Glumbunny, Signal Sever, Jellie, +17 more) - -23 removed
+
 ## 2026-08-20
 - **23:49** Epic Content Pages
 - **22:21** Item Shop, Epic Content Pages
