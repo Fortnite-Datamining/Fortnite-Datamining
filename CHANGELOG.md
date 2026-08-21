@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-21
+- **23:18** News - +3 new (Keep Collecting and Mastering, Neon Dreams Music Pass, Power Hours: Gold Sprites) - -3 removed
 - **22:49** Item Shop, Epic Content Pages
 - **19:07** Item Shop
 - **18:29** Epic Content Pages
