@@ -1955,7 +1955,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-21T02:26:47.329Z",
+  "lastModified": "2026-08-21T13:02:38.457Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -38076,7 +38076,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-20T22:40:59.430Z",
+    "lastModified": "2026-08-21T13:02:38.457Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -49063,6 +49063,11 @@
                   "textID": "Which Battle Pass did you like the most in this chapter?"
                 },
                 "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 4: Override",
+                    "textID": "Season 4: Override"
+                  },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Season 3: Runners",

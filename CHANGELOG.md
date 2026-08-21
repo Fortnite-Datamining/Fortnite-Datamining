@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-21
+- **13:41** News, Epic Content Pages - +1 new (Smugglers Gambit) - -1 removed
 - **07:38** Epic Content Pages
 - **06:53** Epic Content Pages
 - **03:46** Item Shop
