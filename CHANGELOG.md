@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-22
+- **14:46** BR Cosmetics
 - **13:10** Item Shop, AES Keys
 - **00:58** Item Shop, News - +46 new (Courage Shield, Savage's Striker, Tomb Raider Bundle, 200 IQ, Get Cooked, +41 more) - -25 removed
 
