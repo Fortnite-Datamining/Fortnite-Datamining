@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-22
+- **19:21** Cars, LEGO Cosmetics, LEGO Kits, Beans
 - **18:21** Item Shop, Banners
 - **15:15** Epic Content Pages
 - **14:46** BR Cosmetics
