@@ -1253,6 +1253,174 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "builtInEmoteIds": [
+              "EID_ScribeSpider"
+            ],
+            "description": "The Ultimate Lifeform's ultimate android.",
+            "dynamicPakId": "1009",
+            "id": "Character_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_scribespider/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_scribespider/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_scribespider/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow the Hedgehog",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/variants/material/mat1.png",
+                    "name": "Shadow the Hedgehog",
+                    "tag": "Mat1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/variants/material/mat2.png",
+                    "name": "Super Shadow",
+                    "tag": "Mat2"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Backbling-sized Black Doom.",
+            "dynamicPakId": "1009",
+            "id": "Backpack_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Doom's Eye",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Shadow the Hedgehog, 1 x Doom's Eye for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Character_ScribeSpider",
+        "finalPrice": 1800,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.97",
+        "newDisplayAsset": {
+          "cosmeticId": "Character_ScribeSpider",
+          "id": "DAv2_Character_ScribeSpider",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__07901d8c298e05f1_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/07901d8c298e05f1/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__07901d8c298e05f1_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/07901d8c298e05f1/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__07901d8c298e05f1_71e578208f570b02.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/07901d8c298e05f1/renderimage_2.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Character_ScribeSpider",
+        "offerId": "v2:/5741f87a29b65670a6e594ef88371d45d631add6ef3f9de2d633b511ccfa8044",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1800,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_2_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -1686,6 +1854,7 @@
         },
         "layoutId": "GameofThrones1.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_FamilyPoll",
           "id": "DAv2_Character_FamilyPoll",
           "materialInstances": [],
           "renderImages": [
@@ -3101,17 +3270,17 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-bytegear-01-2048x2048-b53603a8a861.png",
+              "fileName": "cosmo__63131dc9d6afa553_278a860d5e411652.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63131dc9d6afa553/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-bytegear-02-2048x2048-544cb65978fb.png",
+              "fileName": "cosmo__63131dc9d6afa553_02c1286cb8d52c58.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63131dc9d6afa553/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-bytegear-jn-2048x2048-8a20c80df5de.png",
+              "fileName": "cosmo__63131dc9d6afa553_469814a856a0f160.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/63131dc9d6afa553/renderimage_2.png",
               "productTag": "Product.Juno"
             }
@@ -3323,6 +3492,260 @@
         ]
       },
       {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1017",
+            "id": "Shoes_ScribeSpiderOar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_scribespideroar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_scribespideroar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_scribespideroar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow Slip-Ons",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Shadow Slip-Ons for 1000 MtxCurrency",
+        "finalPrice": 1000,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.94",
+        "newDisplayAsset": {
+          "cosmeticId": "Shoes_ScribeSpiderOar",
+          "id": "DAv2_Shoes_ScribeSpiderOar",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__6bf3d868eef95247_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6bf3d868eef95247/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_shoes_scribespideroar",
+        "offerId": "v2:/c79f7cba0fe20397191af5b395a30642db1118d519343c205a9305b97619f6c9",
+        "offerTag": {
+          "id": "reactrun",
+          "text": "Reacts when running!"
+        },
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1000,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Badnik to the bone.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_SouthBalk_Keytar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk_keytar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk_keytar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk_keytar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Eggman's E-TAR",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Badnik to the bone.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_SouthBalk_Keytar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk_keytar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk_keytar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk_keytar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Eggman's E-TAR",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Eggman's E-TAR, 1 x Eggman's E-TAR, 1 x Eggman's E-TAR for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Badnik to the bone.",
+            "id": "Sparks_SouthBalk_Keytar",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_southbalk_keytar/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_southbalk_keytar/small.png"
+            },
+            "name": "Eggman's E-TAR",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksKeyboard",
+              "displayValue": "Keytar",
+              "value": "keyboard"
+            }
+          }
+        ],
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.94",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_SouthBalk_Keytar",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__ca47e0d6721abdb1_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ca47e0d6721abdb1/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Sparks_SouthBalk_Keytar",
+        "offerId": "v2:/2ac2bbe52fb6ec00f0c65bf7746176740c120c996d7248d6f81f95f4cacd81d0",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -3370,6 +3793,76 @@
             "title": "Fighter"
           }
         ]
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1017",
+            "id": "Shoes_MellowBuddy",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_mellowbuddy/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_mellowbuddy/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_mellowbuddy/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Cozy Capys",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "330b0cff",
+          "color3": "660002ff",
+          "textBackgroundColor": "660002ff"
+        },
+        "devName": "[VIRTUAL]1 x Cozy Capys for 600 MtxCurrency",
+        "finalPrice": 600,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "FND082326",
+          "index": 14,
+          "name": "Hype Circuit",
+          "rank": 186,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "FND082326.98",
+        "newDisplayAsset": {
+          "cosmeticId": "Shoes_MellowBuddy",
+          "id": "DAv2_Shoes_MellowBuddy",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__823f8ad4a9c16a8f_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/823f8ad4a9c16a8f/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_shoes_mellowbuddy",
+        "offerId": "v2:/f4beceb1b7559c276c3958de4483d6b1e8df76947e1c2fe309c425a594579ca0",
+        "outDate": "2026-08-25T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 600,
+        "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -3663,17 +4156,17 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-glamclaws-glassesoff-2048x2048-69d596dc969d.png",
+              "fileName": "cosmo__28fa36e5ecb884dc_bd382631039dd43e.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/28fa36e5ecb884dc/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-glamclaws-2048x2048-30619122117a.png",
+              "fileName": "cosmo__28fa36e5ecb884dc_a4b58c29705e88db.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/28fa36e5ecb884dc/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-ui-featured-figure-glamclaws-2048x2048-6db7b7f98447.png",
+              "fileName": "cosmo__28fa36e5ecb884dc_25be06d912246fee.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/28fa36e5ecb884dc/renderimage_2.png",
               "productTag": "Product.Juno"
             }
@@ -4083,6 +4576,225 @@
               "displayValue": "Outfit",
               "value": "outfit"
             }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Bots for your back.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_SouthBalk",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Orbot and Cubot",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Get a load of this!",
+            "dynamicPakId": "1022",
+            "id": "EID_SouthBalk",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Egg Mobile",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "A mallet to maul it.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_SouthBalk",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Egg Hammer",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Badnik to the bone.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_SouthBalk_Keytar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk_keytar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk_keytar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk_keytar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Eggman's E-TAR",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Badnik to the bone.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_SouthBalk_Keytar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk_keytar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk_keytar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk_keytar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Eggman's E-TAR",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
           }
         ],
         "bundle": {
@@ -4100,6 +4812,39 @@
         "finalPrice": 2000,
         "giftable": true,
         "inDate": "2026-08-21T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Badnik to the bone.",
+            "id": "Sparks_SouthBalk_Keytar",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_southbalk_keytar/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_southbalk_keytar/small.png"
+            },
+            "name": "Eggman's E-TAR",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksKeyboard",
+              "displayValue": "Keytar",
+              "value": "keyboard"
+            }
+          }
+        ],
         "layout": {
           "displayType": "tileGrid",
           "id": "SonicKnucklesEggman",
@@ -4245,6 +4990,7 @@
         },
         "layoutId": "VV082326.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_EarlyRiser",
           "id": "DAv2_EID_EarlyRiser",
           "materialInstances": [],
           "renderImages": [
@@ -5914,6 +6660,145 @@
       },
       {
         "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-08-23T00:00:00Z",
+            "description": "Guardians of the House Stark children.",
+            "dynamicPakId": "1027",
+            "id": "Companion_ViperBucket",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Direwolf Pup",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "CosmeticCompanion",
+              "displayValue": "Sidekick",
+              "value": "sidekick"
+            },
+            "variants": [
+              {
+                "channel": "Emote",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/emote/companionemote0.png",
+                    "name": "Banner of House Stark",
+                    "tag": "CompanionEmote0"
+                  }
+                ],
+                "type": "Sidekick Emote"
+              },
+              {
+                "channel": "Outfit",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/outfit/stage1.png",
+                    "name": "Ghost",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/outfit/stage2.png",
+                    "name": "Summer",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/outfit/stage3.png",
+                    "name": "Shaggydog",
+                    "tag": "Stage3"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/outfit/stage4.png",
+                    "name": "Lady",
+                    "tag": "Stage4"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/outfit/stage5.png",
+                    "name": "Nymeria",
+                    "tag": "Stage5"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_viperbucket/variants/outfit/stage6.png",
+                    "name": "Grey Wind",
+                    "tag": "Stage6"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "cecdcdff",
+          "color2": "616161ff",
+          "color3": "979797ff",
+          "textBackgroundColor": "666464ff"
+        },
+        "devName": "[VIRTUAL]1 x Direwolf Pup for 1500 MtxCurrency",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-08-23T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "GameofThrones1",
+          "index": 9,
+          "name": "Game of Thrones",
+          "rank": 196,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "GameofThrones1.99",
+        "newDisplayAsset": {
+          "cosmeticId": "Companion_ViperBucket",
+          "id": "DAv2_Companion_ViperBucket",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__49c4b1225cc7487c_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/49c4b1225cc7487c/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__49c4b1225cc7487c_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/49c4b1225cc7487c/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__49c4b1225cc7487c_e0559e464b07edd9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/49c4b1225cc7487c/renderimage_2.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_companion_viperbucket",
+        "offerId": "v2:/93b0dfef33007f6d4eee8a079b117d1aa829133632b4cb440991f406d2c3017c",
+        "offerTag": {
+          "id": "reward5styles",
+          "text": "Complete Quests to Unlock 5 Styles!"
+        },
+        "outDate": "2026-08-29T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
           "backendValue": "AmountOff",
           "intensity": "Low",
           "value": "1000 V-Bucks Off"
@@ -6659,6 +7544,256 @@
       {
         "brItems": [
           {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Backbling-sized Black Doom.",
+            "dynamicPakId": "1009",
+            "id": "Backpack_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Doom's Eye",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Doom's Eye for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.97",
+        "newDisplayAsset": {
+          "cosmeticId": "Backpack_ScribeSpider",
+          "id": "DAv2_Backpack_ScribeSpider",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__b0a1b2ac397c0f47_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b0a1b2ac397c0f47/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_scribespider",
+        "offerId": "v2:/acc872e8ce57b207e5c300f74b5e6edebc3ac1e55bdfd3d2fa77237318b283c9",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_MixedAlley_DrumStick",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley_drumstick/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley_drumstick/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley_drumstick/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chaos Crasher",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_MixedAlley_DrumStick",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley_drumstick/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley_drumstick/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley_drumstick/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chaos Crasher",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Chaos Crasher, 1 x Chaos Crasher, 1 x Chaos Crasher for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "id": "Sparks_MixedAlley_DrumKit",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_mixedalley_drumkit/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_mixedalley_drumkit/small.png"
+            },
+            "name": "Chaos Crasher",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksDrum",
+              "displayValue": "Drums",
+              "value": "drum"
+            }
+          }
+        ],
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_MixedAlley_DrumKit",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__bc8a3317ff8b3dbd_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bc8a3317ff8b3dbd/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Sparks_MixedAlley_DrumKit",
+        "offerId": "v2:/abb617b3dc16263599568ee0411e8a50a5084af2a92cd9d99a9e8fc06db6370b",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2025-03-13T14:24:43Z",
             "description": "Awaken an artifact of untold secrets and danger.",
             "id": "EID_GnocchiTea",
@@ -6810,6 +7945,7 @@
         },
         "layoutId": "StreetFighter.95",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_305_QuarrelMale_ZTHTQ",
           "id": "DAv2_Glider_ID_305_QuarrelMale_ZTHTQ",
           "materialInstances": [],
           "renderImages": [
@@ -7113,6 +8249,7 @@
         },
         "layoutId": "StreetFighter.94",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_365_RumbleFemale",
           "id": "DAv2_Glider_ID_365_RumbleFemale",
           "materialInstances": [],
           "renderImages": [
@@ -8550,6 +9687,7 @@
         },
         "layoutId": "StreetFighter.95",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_791_RumbleFemale",
           "id": "DAv2_Pickaxe_ID_791_RumbleFemale",
           "materialInstances": [],
           "renderImages": [
@@ -8833,6 +9971,7 @@
         },
         "layoutId": "StreetFighter.95",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_646_QuarrelMale_PTOBI",
           "id": "DAv2_Pickaxe_ID_646_QuarrelMale_PTOBI",
           "materialInstances": [],
           "renderImages": [
@@ -9162,6 +10301,120 @@
       {
         "brItems": [
           {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "A gift from the garden.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chao Egg",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/variants/parts/stage1.png",
+                    "name": "On",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/variants/parts/stage2.png",
+                    "name": "Off",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "reactive"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Chao Egg for 600 MtxCurrency",
+        "finalPrice": 600,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.98",
+        "newDisplayAsset": {
+          "cosmeticId": "Backpack_MixedAlley",
+          "id": "DAv2_Backpack_MixedAlley",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__42554fcbfe95fe02_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/42554fcbfe95fe02/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__42554fcbfe95fe02_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/42554fcbfe95fe02/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_mixedalley",
+        "offerId": "v2:/780ad02a886d794ba7c86ac6f2d5f9398bed889bc7c605498d160846afe03d3e",
+        "offerTag": {
+          "id": "reactegg",
+          "text": "Egg hatches on player eliminations!"
+        },
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 600,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2020-01-15T09:35:49Z",
             "description": "That's one tough Shellie. ",
             "id": "BID_454_Gummi",
@@ -9465,6 +10718,7 @@
         },
         "layoutId": "GameofThrones1.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_OutlineLove",
           "id": "DAv2_Glider_OutlineLove",
           "materialInstances": [],
           "renderImages": [
@@ -9877,6 +11131,7 @@
         },
         "layoutId": "StreetFighter.95",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_792_RumbleMale",
           "id": "DAv2_Pickaxe_ID_792_RumbleMale",
           "materialInstances": [],
           "renderImages": [
@@ -11732,6 +12987,7 @@
         },
         "layoutId": "StreetFighter.94",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_554_SkirmishMale_ML78Q",
           "id": "DAv2_Pickaxe_ID_554_SkirmishMale_ML78Q",
           "materialInstances": [],
           "renderImages": [
@@ -12544,6 +13800,7 @@
         },
         "layoutId": "StreetFighter.97",
         "newDisplayAsset": {
+          "cosmeticId": "CID_A_161_Athena_Commando_M_Quarrel_SLXQG",
           "id": "DAv2_CID_A_161_Athena_Commando_M_Quarrel_SLXQG",
           "materialInstances": [],
           "renderImages": [
@@ -12630,6 +13887,275 @@
         "brItems": [
           {
             "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "dynamicPakId": "1022",
+            "id": "Character_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_mixedalley/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_mixedalley/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_mixedalley/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_mixedalley/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Knuckles the Echidna",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Punch like a hammer, glide like an echidna.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Knuckles' Gloves",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "builtInEmoteIds": [
+              "EID_ScribeSpider"
+            ],
+            "description": "The Ultimate Lifeform's ultimate android.",
+            "dynamicPakId": "1009",
+            "id": "Character_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_scribespider/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_scribespider/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_scribespider/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow the Hedgehog",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Material",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/variants/material/mat1.png",
+                    "name": "Shadow the Hedgehog",
+                    "tag": "Mat1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_scribespider/variants/material/mat2.png",
+                    "name": "Super Shadow",
+                    "tag": "Mat2"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Backbling-sized Black Doom.",
+            "dynamicPakId": "1009",
+            "id": "Backpack_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Doom's Eye",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "A gift from the garden.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chao Egg",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/variants/parts/stage1.png",
+                    "name": "On",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley/variants/parts/stage2.png",
+                    "name": "Off",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "reactive"
+              }
+            ]
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
             "description": "Show 'em off.",
             "id": "Shoes_SaltyBrimBash",
             "images": {
@@ -12670,6 +14196,270 @@
               "displayValue": "Shoes",
               "value": "shoe"
             }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1017",
+            "id": "Shoes_ScribeSpiderOar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_scribespideroar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_scribespideroar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_scribespideroar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow Slip-Ons",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Reap the darkness.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Doom Scythe",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_MixedAlley_DrumStick",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley_drumstick/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley_drumstick/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mixedalley_drumstick/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chaos Crasher",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_MixedAlley_DrumStick",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley_drumstick/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley_drumstick/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley_drumstick/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chaos Crasher",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Time for some shadowplay.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_ScribeSpider_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow's ARK Angel",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Time for some shadowplay.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_ScribeSpider_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow's ARK Angel",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
           }
         ],
         "bundle": {
@@ -12687,6 +14477,70 @@
         "finalPrice": 3600,
         "giftable": true,
         "inDate": "2026-08-21T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "id": "Sparks_MixedAlley_DrumKit",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_mixedalley_drumkit/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_mixedalley_drumkit/small.png"
+            },
+            "name": "Chaos Crasher",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksDrum",
+              "displayValue": "Drums",
+              "value": "drum"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Time for some shadowplay.",
+            "id": "Sparks_ScribeSpider_Guitar",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_scribespider_guitar/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_scribespider_guitar/small.png"
+            },
+            "name": "Shadow's ARK Angel",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksGuitar",
+              "displayValue": "Guitar",
+              "value": "guitar"
+            }
+          }
+        ],
         "layout": {
           "displayType": "billboard",
           "id": "SonicKnucklesEggman",
@@ -12756,22 +14610,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenabundles-scribespider-2048x2048-fbe442901d3e.png",
+              "fileName": "cosmo__5df0427845e2f3f2_29c0c4191e61fb71.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-scribespider-02-2048x2048-1ff5d345a59d.png",
+              "fileName": "cosmo__5df0427845e2f3f2_d2e71b6320aa32c2.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-scribespider-02-figure-2048x2048-0426398b1f19.png",
+              "fileName": "cosmo__5df0427845e2f3f2_71e578208f570b02.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_2.png",
               "productTag": "Product.Juno"
             },
             {
-              "fileName": "t-athenabundles-scribespider-figure-2048x2048-719cd507a995.png",
+              "fileName": "cosmo__5df0427845e2f3f2_c87b2239ea7b1fc6.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5df0427845e2f3f2/renderimage_3.png",
               "productTag": "Product.Juno"
             }
@@ -12842,6 +14696,7 @@
         },
         "layoutId": "GameofThrones1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_CurbRestore",
           "id": "DAv2_Backpack_CurbRestore",
           "materialInstances": [],
           "renderImages": [
@@ -13351,6 +15206,7 @@
         },
         "layoutId": "GameofThrones1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CurbRestore",
           "id": "DAv2_Character_CurbRestore",
           "materialInstances": [],
           "renderImages": [
@@ -13451,6 +15307,7 @@
         },
         "layoutId": "StreetFighter.94",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_553_SkirmishFemale_J2JXX",
           "id": "DAv2_Pickaxe_ID_553_SkirmishFemale_J2JXX",
           "materialInstances": [],
           "renderImages": [
@@ -14412,6 +16269,92 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Get a load of this!",
+            "dynamicPakId": "1022",
+            "id": "EID_SouthBalk",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Egg Mobile",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Egg Mobile for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.95",
+        "newDisplayAsset": {
+          "cosmeticId": "EID_SouthBalk",
+          "id": "DAv2_EID_SouthBalk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__7a8b4d79f0a3d4fa_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7a8b4d79f0a3d4fa/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_eid_southbalk",
+        "offerId": "v2:/4bf087c4100ffa0822558afb1aaae93c071d8413ab889e4e547a47d575e4ecfc",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -14560,6 +16503,50 @@
               "backendValue": "AthenaCharacter",
               "displayValue": "Outfit",
               "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Bots for your back.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_SouthBalk",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Orbot and Cubot",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
             }
           }
         ],
@@ -14760,6 +16747,7 @@
         },
         "layoutId": "VV082326.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Afterparty",
           "id": "DAv2_EID_AfterParty",
           "materialInstances": [],
           "renderImages": [
@@ -15688,12 +17676,12 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-character-coppertoll-2048x2048-e0479a4d5f7f.png",
+              "fileName": "cosmo__852377d34fdd5491_b10e48b8c36b287b.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/852377d34fdd5491/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-ui-featured-figure-coppertolla-1024x1024-c6697558f550.png",
+              "fileName": "cosmo__852377d34fdd5491_a43a0b1b266e0d19.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/852377d34fdd5491/renderimage_1.png",
               "productTag": "Product.Juno"
             },
@@ -19843,6 +21831,93 @@
         ]
       },
       {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Punch like a hammer, glide like an echidna.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Knuckles' Gloves",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Knuckles' Gloves for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.98",
+        "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_MixedAlley",
+          "id": "DAv2_Pickaxe_MixedAlley",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__0a4f02622152bfa4_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0a4f02622152bfa4/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_mixedalley",
+        "offerId": "v2:/5b9dc559a3f8b19383c66b35c4c765523bf953bed329eea54b9e1da4ae5101cf",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "banner": {
           "backendValue": "AmountOff",
           "intensity": "Low",
@@ -20926,6 +23001,7 @@
         },
         "layoutId": "GameofThrones1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_OutlineLove",
           "id": "DAv2_Backpack_OutlineLove",
           "materialInstances": [],
           "renderImages": [
@@ -21866,6 +23942,7 @@
         },
         "layoutId": "VV082326.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_TwistDaytona",
           "id": "DAv2_EID_TwistDaytona",
           "materialInstances": [],
           "renderImages": [
@@ -22614,6 +24691,7 @@
         },
         "layoutId": "GameofThrones1.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_OutlineLove",
           "id": "DAv2_EID_OutlineLove",
           "materialInstances": [],
           "renderImages": [
@@ -22630,6 +24708,93 @@
         "refundable": false,
         "regularPrice": 400,
         "sortPriority": -2,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "A mallet to maul it.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_SouthBalk",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Egg Hammer",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Egg Hammer for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.96",
+        "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_SouthBalk",
+          "id": "DAv2_Pickaxe_SouthBalk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__c8d2d0fac773d7e6_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c8d2d0fac773d7e6/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_southbalk",
+        "offerId": "v2:/d9bbc45a50d416f6fad70ee75d668342d4cae1b2b560545937ed7bd6fd6fb2b1",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -23506,6 +25671,81 @@
         ]
       },
       {
+        "brItems": [
+          {
+            "added": "2026-08-22T00:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1017",
+            "id": "Shoes_JuiceMediumEel",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_juicemediumeel/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_juicemediumeel/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_juicemediumeel/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Nike Blazer Mid 'Red & Blue'",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "set": {
+              "backendValue": "UnmarkedLeather",
+              "text": "Part of the NIKE Shoes set.",
+              "value": "NIKE Shoes"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "330b0cff",
+          "color3": "660002ff",
+          "textBackgroundColor": "660002ff"
+        },
+        "devName": "[VIRTUAL]1 x Nike Blazer Mid 'Red & Blue' for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-08-22T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "FND082326",
+          "index": 14,
+          "name": "Hype Circuit",
+          "rank": 186,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "FND082326.99",
+        "newDisplayAsset": {
+          "cosmeticId": "Shoes_JuiceMediumEel",
+          "id": "DAv2_Shoes_JuiceMediumEel",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__9f7dc98ac637ad1a_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9f7dc98ac637ad1a/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_shoes_juicemediumeel",
+        "offerId": "v2:/746a9e54665831d134e1613bb9a8b3badd1efb10f1dbab280d39d72ef2d04e85",
+        "outDate": "2026-08-28T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -23962,6 +26202,7 @@
         },
         "layoutId": "GameofThrones1.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_FamilyPoll",
           "id": "DAv2_Pickaxe_FamilyPoll",
           "materialInstances": [],
           "renderImages": [
@@ -24734,6 +26975,7 @@
         },
         "layoutId": "GameofThrones1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_OutlineLove",
           "id": "DAv2_Pickaxe_OutlineLove",
           "materialInstances": [],
           "renderImages": [
@@ -24865,6 +27107,7 @@
         },
         "layoutId": "StreetFighter.96",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_277_Skirmish_9KK2W",
           "id": "DAv2_Glider_ID_277_Skirmish_9KK2W",
           "materialInstances": [],
           "renderImages": [
@@ -25726,6 +27969,93 @@
       {
         "brItems": [
           {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Bots for your back.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_SouthBalk",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_southbalk/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Orbot and Cubot",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Orbot and Cubot for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.95",
+        "newDisplayAsset": {
+          "cosmeticId": "Backpack_SouthBalk",
+          "id": "DAv2_Backpack_SouthBalk",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__4dc9e1cc6b0eb6a7_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4dc9e1cc6b0eb6a7/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_southbalk",
+        "offerId": "v2:/bc0433f65b04c962295be485a422d65cda09bf0a74f6c07cf2741fcabfd84093",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2019-11-20T12:50:09Z",
             "description": "Strike the impossible balance.",
             "id": "CID_309_Athena_Commando_M_StreetGoth",
@@ -25907,6 +28237,7 @@
         },
         "layoutId": "VV082326.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Aloha_C82XX",
           "id": "DAv2_EID_Aloha_C82XX",
           "materialInstances": [],
           "renderImages": [
@@ -26684,6 +29015,7 @@
         },
         "layoutId": "StreetFighter.97",
         "newDisplayAsset": {
+          "cosmeticId": "CID_A_162_Athena_Commando_F_Quarrel_E5D63",
           "id": "DAv2_CID_A_162_Athena_Commando_F_Quarrel_E5D63",
           "materialInstances": [],
           "renderImages": [
@@ -27032,6 +29364,7 @@
         },
         "layoutId": "GameofThrones1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_OutlineLove",
           "id": "DAv2_Character_OutlineLove",
           "materialInstances": [],
           "renderImages": [
@@ -27942,6 +30275,7 @@
         },
         "layoutId": "BR082326.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_LlamaMarch",
           "id": "DAv2_EID_LlamaMarch",
           "materialInstances": [],
           "renderImages": [
@@ -28585,7 +30919,7 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-featured-pickaxes-pinetrimsurge-2048x2048-795ca60349df.png",
+              "fileName": "cosmo__19aa1ffe88cae076_95ed89e6920742df.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/19aa1ffe88cae076/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -28598,6 +30932,169 @@
         "regularPrice": 500,
         "sortPriority": -2,
         "tileSize": "Size_2_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Time for some shadowplay.",
+            "dynamicPakId": "1022",
+            "id": "Backpack_ScribeSpider_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_scribespider_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow's ARK Angel",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Time for some shadowplay.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_ScribeSpider_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow's ARK Angel",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Shadow's ARK Angel, 1 x Shadow's ARK Angel, 1 x Shadow's ARK Angel for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Time for some shadowplay.",
+            "id": "Sparks_ScribeSpider_Guitar",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_scribespider_guitar/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_scribespider_guitar/small.png"
+            },
+            "name": "Shadow's ARK Angel",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksGuitar",
+              "displayValue": "Guitar",
+              "value": "guitar"
+            }
+          }
+        ],
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.94",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_ScribeSpider_Guitar",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__2e1847ee9e87e925_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2e1847ee9e87e925/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Sparks_ScribeSpider_Guitar",
+        "offerId": "v2:/f0932aa021c63afd5a55ee5e9355f71fc4aced135b80ee9ca92f43bdc4910260",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -29511,6 +32008,7 @@
         },
         "layoutId": "StreetFighter.94",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_645_QuarrelFemale_W3B7A",
           "id": "DAv2_Pickaxe_ID_645_QuarrelFemale_W3B7A",
           "materialInstances": [],
           "renderImages": [
@@ -29752,12 +32250,12 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-bolddormwork-2048x2048-eb95577d4bce.png",
+              "fileName": "cosmo__4e595e26c4ae9f09_a9466512481464c6.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4e595e26c4ae9f09/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-ui-featured-figure-bolddormwork-2048x2048-21383009ccf7.png",
+              "fileName": "cosmo__4e595e26c4ae9f09_fed9623be445be80.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4e595e26c4ae9f09/renderimage_1.png",
               "productTag": "Product.Juno"
             }
@@ -31508,6 +34006,143 @@
       {
         "brItems": [
           {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Crash, ride, and glide.",
+            "dynamicPakId": "1022",
+            "id": "Character_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_mixedalley/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_mixedalley/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_mixedalley/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_mixedalley/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Knuckles the Echidna",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Punch like a hammer, glide like an echidna.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_MixedAlley",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_mixedalley/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Knuckles' Gloves",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Knuckles the Echidna, 1 x Knuckles' Gloves for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Character_MixedAlley",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.98",
+        "newDisplayAsset": {
+          "cosmeticId": "Character_MixedAlley",
+          "id": "DAv2_Character_MixedAlley",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e7ae9ff2eb5052e6_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e7ae9ff2eb5052e6/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Character_MixedAlley",
+        "offerId": "v2:/0e4b6129061ac94c5c4ca3cd2a4cb46dbf79bd45f8829b6eb09a3008f390b87f",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_2_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2026-06-12T13:01:03Z",
             "description": "\"Wowzers! I sure do love being a pickaxe\"",
             "id": "Pickaxe_RecipeWhole",
@@ -31751,6 +34386,87 @@
       {
         "brItems": [
           {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Keep it high fashion.",
+            "dynamicPakId": "1025",
+            "id": "EID_HighFashion",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_highfashion/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_highfashion/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Luxe 'Fit",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "d9bb7fff",
+          "color3": "b47940ff",
+          "textBackgroundColor": "b27744ff"
+        },
+        "devName": "[VIRTUAL]1 x Luxe 'Fit for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "VV082326",
+          "index": 42,
+          "name": "Battle Beats",
+          "rank": 194,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "VV082326.98",
+        "newDisplayAsset": {
+          "cosmeticId": "EID_HighFashion",
+          "id": "DAv2_EID_HighFashion",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__098d63ddb4c9aafb_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/098d63ddb4c9aafb/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_eid_highfashion",
+        "offerId": "v2:/b4e9a698d84307479765948ff1d6bb8309d8ad78c28496a7e694b6b526b41b4a",
+        "outDate": "2026-08-24T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -1,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2019-11-20T12:50:36Z",
             "description": "Unbounded.",
             "id": "BID_189_StreetGothMale",
@@ -31858,6 +34574,7 @@
         },
         "layoutId": "GameofThrones1.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CurbRestore",
           "id": "DAv2_EID_CurbRestore",
           "materialInstances": [],
           "renderImages": [
@@ -32022,6 +34739,93 @@
             "title": "Who Let The Dogs Out"
           }
         ]
+      },
+      {
+        "brItems": [
+          {
+            "added": "2026-08-21T00:00:00Z",
+            "description": "Reap the darkness.",
+            "dynamicPakId": "1022",
+            "id": "Pickaxe_ScribeSpider",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_scribespider/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Doom Scythe",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "LiftPurple",
+              "text": "Part of the Sonic the Hedgehog set.",
+              "value": "Sonic the Hedgehog"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "ffee00ff",
+          "color3": "ff8500ff",
+          "textBackgroundColor": "ff8500ff"
+        },
+        "devName": "[VIRTUAL]1 x Doom Scythe for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-08-21T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "SonicKnucklesEggman",
+          "index": 18,
+          "name": "Sonic The Hedgehog",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "SonicKnucklesEggman.96",
+        "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ScribeSpider",
+          "id": "DAv2_Pickaxe_ScribeSpider",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__ed127fa64285cc85_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ed127fa64285cc85/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_scribespider",
+        "offerId": "v2:/1cfbdb66bf2db290c02a63ec78755441becbf88e21c4d345fbcf6937393ebcb3",
+        "outDate": "2026-08-30T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
