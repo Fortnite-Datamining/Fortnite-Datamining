@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-23
+- **01:02** Item Shop, AES Keys - +52 new (Firebrand, Night King, Dynamo Dancer, Wake Me Up, Super Cab-Masher, +47 more) - -28 removed
+
 ## 2026-08-22
 - **21:16** BR Cosmetics, LEGO Cosmetics, Item Shop, Banners
 - **19:44** BR Cosmetics, Cars, Item Shop, Banners
