@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-23
+- **16:49** News - +1 new (Final Showdown - August 29 @ 2:00 PM ET) - -1 removed
 - **12:30** BR Cosmetics, Cars, Instruments, LEGO Cosmetics, Item Shop, Banners - +67 new (Chao Egg, Chaos Crasher, Doom's Eye, Shadow's ARK Angel, Orbot and Cubot, +62 more)
 - **01:02** Item Shop, AES Keys - +52 new (Firebrand, Night King, Dynamo Dancer, Wake Me Up, Super Cab-Masher, +47 more) - -28 removed
 
