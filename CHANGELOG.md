@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-24
+- **17:57** Epic Content Pages
 - **13:46** Cars, Item Shop, AES Keys - +7 new (Mercedes 190E Evo II, Matte Black, Time Trial, Buffy-Sugo Track, Llama Lap, +2 more)
 - **10:32** BR Cosmetics, Item Shop
 - **09:41** BR Cosmetics, Item Shop
