@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-24
+- **01:00** Item Shop, Epic Content Pages - +53 new (The Golden Touch, Nike Air Monarch IV 'White/Metallic Silver', Beach Brutus, Beach Beast Lucien, Bobom Beachies, +48 more) - -35 removed
+
 ## 2026-08-23
 - **16:49** News - +1 new (Final Showdown - August 29 @ 2:00 PM ET) - -1 removed
 - **12:30** BR Cosmetics, Cars, Instruments, LEGO Cosmetics, Item Shop, Banners - +67 new (Chao Egg, Chaos Crasher, Doom's Eye, Shadow's ARK Angel, Orbot and Cubot, +62 more)
