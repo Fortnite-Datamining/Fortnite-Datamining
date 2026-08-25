@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-25
+- **14:39** Jam Tracks, Epic Content Pages - +3 new (Jane!, Hot Blooded, Spend Dat)
 - **05:03** Epic Content Pages
 - **01:00** BR Cosmetics, Item Shop, AES Keys - +47 new (Midnight Sun, Rex, Groove Destroyer, Triple the Threat, Moxie's Shurikens, +42 more) - -47 removed
 
