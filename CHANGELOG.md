@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-25
+- **01:00** BR Cosmetics, Item Shop, AES Keys - +47 new (Midnight Sun, Rex, Groove Destroyer, Triple the Threat, Moxie's Shurikens, +42 more) - -47 removed
+
 ## 2026-08-24
 - **23:45** Item Shop
 - **23:18** Epic Content Pages
