@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-26
+- **18:12** Epic Content Pages
 - **16:13** LEGO Cosmetics, Item Shop, AES Keys, Epic Content Pages - +1 new (JIDO_Character_SpruceBark)
 - **01:01** Item Shop, News - +28 new (Sanctum, Yennefer's Megascope, Pupper Slippers, Axizzle, Dummy Dog, +23 more) - -23 removed
 

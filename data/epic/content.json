@@ -345,7 +345,7 @@
     }
   },
   "crewscreendata": {
-    "_activeDate": "2026-08-20T06:00:00.000Z",
+    "_activeDate": "2026-08-26T17:30:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGameCrewScreenData",
@@ -471,7 +471,7 @@
             },
             {
               "_type": "Crew Tile Data",
-              "bHasNextCrewPackDetails": false,
+              "bHasNextCrewPackDetails": true,
               "crewPackItems": [
                 "AthenaCharacter:character_vertet",
                 "AthenaBackpack:backpack_vertet",
@@ -494,25 +494,25 @@
                 "title": "August Crew Pack"
               },
               "nextCrewPackItems": [
-                "AthenaCharacter:character_vertet",
-                "AthenaBackpack:backpack_vertet",
-                "AthenaPickaxe:pickaxe_vertet"
+                "AthenaCharacter:character_timetrotter",
+                "AthenaBackpack:backpack_timetrotter",
+                "AthenaPickaxe:pickaxe_timetrotter"
               ],
               "nextDetails": {
                 "_type": "Crew Tile Details Data",
-                "backgroundImageURL": "https://cdn2.unrealengine.com/2026august-fneco-41-30-august-crew-displaytile-1920x1080-1920x1080-7cdefd22f5f3.png",
-                "color1Hex": "45337C",
-                "color2Hex": "C870FF",
+                "backgroundImageURL": "https://cdn2.unrealengine.com/2026september-fneco-42-10-september-crew-displaytile-1920x1080-1920x1080-c1906a4a0f78.png",
+                "color1Hex": "9380E3",
+                "color2Hex": "E2EF69",
                 "color3Hex": "",
-                "color4Hex": "6F3FB2",
+                "color4Hex": "FA8AAC",
                 "colorA": "",
                 "colorB": "",
                 "colorC": "",
-                "description": "Get the Mortuus X Outfit, Back Bling, and Pickaxe!",
-                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026august-fneco-41-30-august-crew-displaytile-260x160-260x160-684910e9d084.png",
+                "description": "Get the Prisma Outfit, Back Bling, and Pickaxe!",
+                "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026september-fneco-42-10-september-crew-displaytile-260x160-260x160-00ae7103fb0f.png",
                 "tag": "MonthlyBenefit",
-                "tileImageURL": "https://cdn2.unrealengine.com/2026august-fneco-41-30-august-crew-displaytile-260x160-260x160-684910e9d084.png",
-                "title": "August Crew Pack"
+                "tileImageURL": "https://cdn2.unrealengine.com/2026september-fneco-42-10-september-crew-displaytile-260x160-260x160-00ae7103fb0f.png",
+                "title": "September Crew Pack"
               },
               "tileLabel": "Crew Pack",
               "tileType": "CrewPack"
@@ -1230,7 +1230,7 @@
         }
       ]
     },
-    "lastModified": "2026-08-19T21:05:47.955Z",
+    "lastModified": "2026-08-24T21:34:18.806Z",
     "progressiveInfo": {
       "_type": "SubscriptionProgressiveInfo",
       "infoModalEntries": [
@@ -1648,9 +1648,24 @@
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices"
+      "_type": "Emergency Notices",
+      "emergencynotices": [
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "We're investigating an issue with real-money purchases made in-game or on the PlayStation Store.",
+          "hidden": false,
+          "platforms": [
+            "PS4",
+            "PS5"
+          ],
+          "playlists": [
+            ""
+          ],
+          "title": "Real-Money Purchases Issue"
+        }
+      ]
     },
-    "lastModified": "2026-08-25T14:09:21.700Z"
+    "lastModified": "2026-08-26T17:55:57.852Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -1938,7 +1953,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-25T19:31:04.601Z",
+  "lastModified": "2026-08-26T17:55:57.852Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
