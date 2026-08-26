@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-26
+- **01:01** Item Shop, News - +28 new (Sanctum, Yennefer's Megascope, Pupper Slippers, Axizzle, Dummy Dog, +23 more) - -23 removed
+
 ## 2026-08-25
 - **21:22** News - +1 new (Boosted Rate in Cheat Codes Today!) - -1 removed
 - **19:55** Item Shop, Epic Content Pages
