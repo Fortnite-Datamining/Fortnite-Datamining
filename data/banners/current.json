@@ -2655,6 +2655,40 @@
     {
       "category": "BattleRoyale",
       "description": "A new icon for your banner. Assign it in the Locker.",
+      "devName": "SandyInland",
+      "fullUsageRights": true,
+      "id": "Banner_SandyInland",
+      "images": {
+        "icon": "https://fortnite-api.com/images/banners/banner_sandyinland/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/banners/banner_sandyinland/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Banner Icon",
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "set": {
+        "backendValue": "PieMask",
+        "text": "Part of the Spyro set.",
+        "value": "Spyro"
+      }
+    },
+    {
+      "category": "BattleRoyale",
+      "description": "A new icon for your banner. Assign it in the Locker.",
       "devName": "SatireCaneBanner",
       "fullUsageRights": true,
       "id": "Banner_SatireCane",
