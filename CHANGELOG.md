@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-27
+- **00:00** BR Cosmetics, Beans, Item Shop, Playlists, AES Keys, Banners, Epic Content Pages - +42 new (Banner, Vanquisher's Oath, Crash Bandicoot, Recruit, Trepasser, +37 more) - -51 removed
+
 ## 2026-08-26
 - **18:12** Epic Content Pages
 - **16:13** LEGO Cosmetics, Item Shop, AES Keys, Epic Content Pages - +1 new (JIDO_Character_SpruceBark)
