@@ -3379,6 +3379,11 @@ function closeMobileMenu() {
 ============================================================ */
 
 async function openPage(page) {
+    if (page === "shop") {
+        openShopPage();
+        return;
+    }
+
     if (page === "map") {
         openMapPage();
         return;
@@ -3981,6 +3986,8 @@ function normalizeShopRoot(
 
         data.data?.items,
 
+        data.data?.entries,
+
         data.data?.featured,
 
         data.data?.br
@@ -4120,6 +4127,9 @@ function normalizeShopItem(
         item.item ||
         item.cosmetic ||
         item.brItem ||
+        item.brItems?.[0] ||
+        item.cars?.[0] ||
+        item.tracks?.[0] ||
         item;
 
 
@@ -4149,6 +4159,7 @@ function normalizeShopItem(
         firstValue(
             cosmetic.images?.icon,
             cosmetic.images?.featured,
+            cosmetic.albumArt,
             cosmetic.image,
             cosmetic.icon,
             item.images?.icon,
@@ -4164,7 +4175,8 @@ function normalizeShopItem(
             item.shopSection?.displayName,
             item.shopSection?.name,
             item.category,
-            item.section
+            item.section,
+            item.layout?.name
         );
 
 
@@ -4671,7 +4683,7 @@ function renderShop() {
 
 
 async function openShopPage(
-    source = "local"
+    source = "live"
 ) {
 
     state.currentPage =
@@ -4809,7 +4821,7 @@ $("liveShopButton")
         () => {
 
             openShopPage(
-                "local"
+                "live"
             );
 
         }
