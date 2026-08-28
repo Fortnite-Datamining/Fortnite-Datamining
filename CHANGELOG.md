@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-28
+- **05:03** Item Shop, Epic Content Pages - +22 new (Lola Bunny & Daffy Duck Bundle, Dumb Ways to Die Bundle, Frost Incisors, Shockball, Bunny Hops, +17 more) - -31 removed
+
 ## 2026-08-27
 - **20:38** BR Cosmetics, Item Shop, News, AES Keys, Banners - +5 new (Aku Aku, Spyro the Dragon, Crash's Wumpa Mace, Boosted Rate in Cheat Codes Today!, Banner Icon) - -1 removed
 - **00:00** BR Cosmetics, Beans, Item Shop, Playlists, AES Keys, Banners, Epic Content Pages - +42 new (Banner, Vanquisher's Oath, Crash Bandicoot, Recruit, Trepasser, +37 more) - -51 removed
