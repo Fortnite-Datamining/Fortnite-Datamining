@@ -2883,6 +2883,9 @@ const WEAPONS_API =
 const WEAPONS_FILE =
     "data/weapons/current.json";
 
+const MAP_FILE =
+    "data/map/current.json";
+
 
 /* ============================================================
    02. GLOBAL STATE
@@ -2944,7 +2947,7 @@ const PAGE_INFO = {
         title: "Map",
 
         description:
-            "Interactive Fortnite map using map.json.",
+            "Interactive Fortnite map using current.json.",
 
         source:
             "map"
@@ -8640,7 +8643,7 @@ async function loadMapJSON(){
     if(!response.ok){
 
         throw new Error(
-            "Could not load map.json (HTTP " +
+            "Could not load current.json (HTTP " +
             response.status +
             ")."
         );
@@ -8658,6 +8661,8 @@ async function loadMapJSON(){
 function normalizeMapData(data){
 
     const result=[];
+
+    data = data?.data ?? data;
 
     const add = (item, kind) => {
 
@@ -9052,12 +9057,16 @@ function findMapImage(data){
 
     if(!data || typeof data!=="object") return "";
 
+    data = data.data ?? data;
+
     const candidates=[
 
         data.mapImage,
         data.map_image,
         data.image,
         data.background,
+        data.images?.pois,
+        data.images?.blank,
         data.map?.image,
         data.map?.background,
         data.map?.mapImage
@@ -9108,7 +9117,7 @@ async function openMapPage(){
         );
 
     showMapStatus(
-        "Loading map.json..."
+        "Loading current.json..."
     );
 
     try{
@@ -9124,7 +9133,7 @@ async function openMapPage(){
         if(!response.ok){
 
             throw new Error(
-                "map.json could not be loaded."
+                "current.json could not be loaded."
             );
 
         }
