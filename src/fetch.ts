@@ -56,6 +56,12 @@ const ENDPOINTS: Record<string, Endpoint> = {
     description: "Beans",
     sortKey: "id",
   },
+  weapons: {
+    url: "https://fnapi.osirion.gg/v1/weapons",
+    output: "data/weapons/current.json",
+    description: "Weapons",
+    sortKey: "id",
+  },
   shop: {
     url: "https://fortnite-api.com/v2/shop",
     output: "data/shop/current.json",

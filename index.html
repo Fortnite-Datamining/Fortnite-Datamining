@@ -2854,16 +2854,16 @@ a {
 ============================================================ */
 
 const BR_FILE =
-    "br.json";
+    "data/cosmetics/br.json";
 
 const BR_API =
     "https://fortnite-api.com/v2/cosmetics/br";
 
 const REGISTRY_FILE =
-    "registry.json";
+    "data/items/registry.json";
 
 const SHOP_FILE =
-    "shop.json";
+    "data/shop/current.json";
 
 const SHOP_API =
     "https://fortnite-api.com/v2/shop";
@@ -2879,6 +2879,9 @@ const SHOP_API =
  */
 const WEAPONS_API =
     "https://fnapi.osirion.gg/v1/weapons";
+
+const WEAPONS_FILE =
+    "data/weapons/current.json";
 
 
 /* ============================================================
@@ -2965,7 +2968,7 @@ const PAGE_INFO = {
         title: "Weapons",
 
         description:
-            "Live weapon data from the Osirion Fortnite API.",
+            "Gameplay weapons sourced from the public Osirion Fortnite API.",
 
         source:
             "weapons"
@@ -5408,7 +5411,7 @@ async function loadWeaponsAPI() {
 
         response =
             await fetch(
-                WEAPONS_API,
+                WEAPONS_FILE,
                 {
                     method:
                         "GET",
@@ -5453,7 +5456,7 @@ async function loadWeaponsAPI() {
 
 
         throw new Error(
-            "The browser could not reach the Weapons API. This may be a CORS/network restriction."
+            "The local weapons snapshot could not be loaded."
         );
 
     }
@@ -5469,7 +5472,7 @@ async function loadWeaponsAPI() {
     ) {
 
         throw new Error(
-            "Weapons API returned HTTP " +
+            "Weapons snapshot returned HTTP " +
             response.status +
             "."
         );
@@ -5492,7 +5495,7 @@ async function loadWeaponsAPI() {
     ) {
 
         throw new Error(
-            "The Weapons API returned an unexpected response structure."
+            "The weapons snapshot returned an unexpected response structure."
         );
 
     }
@@ -5690,15 +5693,19 @@ function normalizeWeapon(
             ),
 
         _rarity:
-            firstValue(
+            objectDisplay(
                 item.rarity,
+            ) ||
+            firstValue(
                 item.rarityName,
                 ""
             ),
 
         _set:
+            objectDisplay(
+                item.set
+            ) ||
             firstValue(
-                item.set,
                 item.setName,
                 ""
             ),
@@ -5972,6 +5979,13 @@ function matchesCosmetic(item,page){
     if(!item || typeof item!=="object") return false;
 
     const id=String(item._id||item.id||"").trim().toLowerCase();
+
+    if(
+        page === "outfit" &&
+        objectDisplay(item.type).trim().toLowerCase() === "outfit"
+    ){
+        return true;
+    }
 
     const prefixes={
         outfit:["cid_"],
