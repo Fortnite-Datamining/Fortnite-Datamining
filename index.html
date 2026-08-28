@@ -2327,7 +2327,7 @@ a {
   <div class="pageTop">
     <div>
       <div class="pageTitle">Fortnite Map</div>
-      <div class="pageDescription">Toggle landmarks and land points independently.</div>
+            class="toolButton"
     </div>
     <div id="mapCount" class="resultCount">0 points</div>
   </div>
@@ -2396,9 +2396,9 @@ a {
 
         <button
             id="localShopButton"
-            class="toolButton"
+            class="toolButton active"
         >
-            📁 shop.json
+            📁 current.json
         </button>
 
         <button
@@ -4671,7 +4671,7 @@ function renderShop() {
 
 
 async function openShopPage(
-    source = "live"
+    source = "local"
 ) {
 
     state.currentPage =
@@ -4809,7 +4809,7 @@ $("liveShopButton")
         () => {
 
             openShopPage(
-                "live"
+                "local"
             );
 
         }
