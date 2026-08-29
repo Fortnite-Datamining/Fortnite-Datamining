@@ -48,25 +48,22 @@ function openLoadingScreen(index){openFullscreen(index)}function closeOverlay(){
 <section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
 <section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"></div><div id="outfitGrid" class="catalogGrid"></div></section>
 <section id="models" class="view">
-<div class="eyebrow">All tracked datasets / mesh & prop references</div>
-<div class="sectionHead"><h2>Models</h2><span id="modelsCount"></span></div>
+<div class="sectionHead"><h2>World Models & Props</h2><span id="modelsCount"></span></div>
 <div class="toolbar" id="modelTools">
-  <button class="control active" data-model-filter="all">All Models</button>
-  <button class="control" data-model-filter="mesh">Mesh Variants</button>
-  <button class="control" data-model-filter="prop">Props</button>
-  <button class="control" data-model-filter="weapon">Weapon Assets</button>
-  <button class="control" data-model-filter="lego">LEGO Props</button>
-  <button class="control" data-model-filter="mode:reload">Reload</button>
-  <button class="control" data-model-filter="mode:blitz">Blitz</button>
-  <button class="control" data-model-filter="mode:zerobuild">Zero Build</button>
-  <button class="control" data-model-filter="mode:br">Battle Royale</button>
+  <button class="control active" data-model-filter="all">All World Assets</button>
+  <button class="control" data-model-filter="wall">Walls</button>
+  <button class="control" data-model-filter="floor">Floors</button>
+  <button class="control" data-model-filter="terrain">Terrain</button>
+  <button class="control" data-model-filter="prop">Props / Decor</button>
+  <button class="control" data-model-filter="build">Build Pieces</button>
+  <button class="control" data-model-filter="map">Map / POI</button>
 </div>
 <div class="modelNotice">
-  <strong>What this tab exposes:</strong>
-  the public Fortnite-Datamining repository does not contain decrypted .uasset/.umap
-  mesh files. This catalog therefore indexes <em>model/mesh/prop references exposed by
-  the tracked JSON data</em> — such as cosmetic mesh variants, weapon asset paths, and
-  LEGO prop records — rather than pretending it has extracted 3D meshes.
+  <strong>This is not a cosmetic catalog.</strong>
+  Models here are non-cosmetic world/build/prop references exposed by the public
+  Fortnite-Datamining datasets. The repository does not currently ship extracted
+  Fortnite .uasset/.uexp meshes; this page therefore shows IDs and asset references,
+  not fabricated 3D files.
 </div>
 <div id="modelsGrid" class="catalogGrid"></div>
 </section>
@@ -90,7 +87,7 @@ const name=x=>x?.name||x?.title||x?.displayName||x?.id||'Unknown item';
 const money=x=>Number.isFinite(Number(x))?Number(x).toLocaleString():'--';
 function card(x,type='Item'){return `<article class="item"><div class="itemImage">${image(x)?`<img loading="lazy" src="${esc(image(x))}" alt="${esc(name(x))}">`:'<span class="placeholder">FN</span>'}<span class="badge">${esc(x?.rarity?.displayValue||x?.rarity?.name||x?.type?.displayValue||type)}</span></div><div class="itemBody"><div class="itemName" title="${esc(name(x))}">${esc(name(x))}</div><div class="itemMeta"><span>${esc(x?.set?.value||x?.artist||x?.category||x?.id||'')}</span><span>${esc(x?.introduction?.text||x?.releaseYear||'')}</span></div></div></article>`}
 const ITEM_CACHE=[];const cacheItem=x=>{ITEM_CACHE.push(x);return ITEM_CACHE.length-1};const isLoadingScreen=x=>String(x?.type?.value||x?.type?.displayValue||x?.type||'').toLowerCase().includes('loading');function interactiveCard(x,type){const index=cacheItem(x);const action=isLoadingScreen(x)?`openLoadingScreen(${index})`:`openItem(${index})`;return card(x,type).replace('<article class="item"',`<article class="item" role="button" tabindex="0" onclick="${action}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();${action}}"`)}
-async function load(key){if(DATA[key])return DATA[key];try{const r=await fetch(DATASETS[key]);if(!r.ok)throw Error(r.status);DATA[key]=await r.json();return DATA[key]}catch(e){toast(`Could not load ${key}: ${e.message}`);return null}}
+async function load(key){if(DATA[key])return DATA[key];try{const r=await fetch(DATASETS[key]);if(!r.ok)throw Error(r.status);const raw=await r.json();DATA[key]=key==='registry'?Object.entries(raw).map(([id,item])=>({...(item||{}),id})):raw;return DATA[key]}catch(e){toast(`Could not load ${key}: ${e.message}`);return null}}
 function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),3500)}
 function matches(x){if(!state.query)return true;return JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())}
 function renderStats(){const s=DATA.stats||{},c=s.counts||{};const stats=[['BR Cosmetics',c['BR Cosmetics'],'cyan'],['Shop offers',shopEntries().length,'yellow'],['Weapons',arr('weapons').length,'pink'],['Playlists',c.Playlists||arr('playlists').length,'green']];$('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');$('#explore').innerHTML=[['Outfits',c['BR Cosmetics']||0,'outfits'],['Weapons',arr('weapons').length,'weapons'],['LEGO',c['LEGO Cosmetics']||arr('lego').length,'lego'],['Jam tracks',c['Jam Tracks']||arr('tracks').length,'festival']].map(x=>`<button class="stat" data-view="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');$$('#explore [data-view]').forEach(x=>x.addEventListener('click',()=>setView(x.dataset.view)))}
@@ -126,133 +123,84 @@ function modelRefId(parts){
 }
 
 function getAllTrackedModels(){
-  const models = [];
-  const seen = new Set();
+  const models=[];
+  const seen=new Set();
 
-  const add = (entry) => {
-    const key = entry.source + "::" + entry.refId;
-    if(seen.has(key)) return;
+  const add=(entry)=>{
+    const key=entry.refId;
+    if(!key || seen.has(key)) return;
     seen.add(key);
     models.push(entry);
   };
 
-  /* BR cosmetic mesh/prop variants */
-  for(const item of arr("br")){
-    for(const variant of (item?.variants || [])){
-      const channel = String(variant?.channel || variant?.type || "");
-      const channelText = channel.toLowerCase();
-      const isMesh = /mesh|prop/.test(channelText);
-      if(!isMesh) continue;
+  /*
+   * registry.json contains many records. For this tab we intentionally
+   * exclude BR cosmetics (CID_, BID_, EID_, Pickaxe_, Glider_, Backpack_,
+   * Wrap_, Shoes_, etc.) and only expose world/build/decor references.
+   */
+  const registry=arr('registry');
+  for(const [id,item] of registry){
+    const key=String(id||'');
+    const lower=key.toLowerCase();
+    const source=String(item?.source||'').toLowerCase();
+    const type=String(item?.type||'').toLowerCase();
+    const blob=(key+' '+JSON.stringify(item||{})).toLowerCase();
 
-      for(const option of (variant.options || [])){
-        const refId = modelRefId([
-          item?.id,
-          channel,
-          option?.tag,
-          option?.name
-        ]) || item?.id;
+    const explicitWorldPrefix=
+      lower.startsWith('jbpid_') ||
+      lower.startsWith('jbsid_');
 
-        add({
-          source:"BR Cosmetics",
-          kind:/prop/i.test(channel) ? "prop" : "mesh",
-          modeFlags:modelModeFlags(item),
-          name:option?.name || item?.name || item?.displayName || "Mesh Variant",
-          parent:item?.name || item?.displayName || item?.id || "Unknown",
-          item,
-          refId,
-          preview:option?.image || image(item),
-          channel,
-          tag:option?.tag || ""
-        });
-      }
-    }
-  }
+    const explicitWorldType=
+      /^(build|decor bundle|prop|world|building|environment|terrain|static mesh|mesh)$/i.test(type);
 
-  /* Weapon assets: current.json exposes IDs, paths, tags and optional images.
-     This is a reference index, not an extracted 3D mesh catalog. */
-  for(const weapon of arr("weapons")){
-    const refId = modelRefId([
-      weapon?.id,
-      weapon?.path
-    ]) || weapon?.id;
+    const hasWorldToken=
+      /(?:^|[_\-.\s])(wall|floor|terrain|prop|props|building|build|decor|decoration|rock|tree|landscape|cliff|sign)(?:[_\-.\s]|$)/i.test(blob);
 
-    if(!refId) continue;
+    if(!explicitWorldPrefix && !explicitWorldType) continue;
+    if(source==='br' && !explicitWorldPrefix) continue;
+    if(!explicitWorldPrefix && !hasWorldToken) continue;
+
+    let kind='prop';
+    if(/wall/i.test(blob)) kind='wall';
+    else if(/floor/i.test(blob)) kind='floor';
+    else if(/terrain|landscape|cliff|rock|tree/i.test(blob)) kind='terrain';
+    else if(/^build$/i.test(type) || lower.startsWith('jbsid_')) kind='build';
 
     add({
-      source:"Weapons",
-      kind:"weapon",
-      modeFlags:modelModeFlags(weapon),
-      name:weapon?.name || weapon?.id || "Weapon Asset",
-      parent:weapon?.type || "FortWeapon",
-      item:weapon,
-      refId,
-      preview:weapon?.imageUrl || weapon?.smallImageUrl || "",
-      channel:"Weapon Asset",
-      tag:weapon?.path || ""
-    });
-  }
-
-  /* LEGO Kits explicitly expose JunoBuildingProp records. */
-  for(const item of arr("lego_kits")){
-    const typeText = JSON.stringify(item || {}).toLowerCase();
-    if(!/junobuildingprop|legoprop/.test(typeText)) continue;
-
-    const refId =
-      item?.id ||
-      modelRefId([item?.name, "LEGO_Prop"]);
-
-    add({
-      source:"LEGO Kits",
-      kind:"lego",
-      modeFlags:modelModeFlags(item),
-      name:item?.name || item?.id || "LEGO Prop",
-      parent:item?.type?.displayValue || item?.type || "LEGO Prop",
+      source: source==='lego_kits' ? 'LEGO Kits / World Assets' : (item?.source||'Registry'),
+      kind,
+      name:item?.name || key,
+      parent:item?.type || 'World Asset',
       item,
-      refId,
-      preview:item?.images?.large || item?.images?.small || item?.images?.wide || image(item),
-      channel:"JunoBuildingProp",
-      tag:(
-        (item?.metaTags || [])
-          .filter(x=>/prop/i.test(String(x)))
-          .join(", ")
-      )
+      refId:key,
+      preview:item?.image || item?.images?.large || item?.images?.small || '',
+      channel:item?.type || 'World Asset',
+      tag:key,
+      modeFlags:['world']
     });
   }
 
-  /* Cars / Instruments / other tracked datasets can expose model-like
-     path/variant fields; index them when an explicit mesh/model/prop signal exists. */
-  for(const key of ["cars","instruments","tracks","beans","lego"]){
-    for(const item of arr(key)){
-      const hay = JSON.stringify(item || {});
-      if(!/mesh|model|prop|assetpath|skeletal/i.test(hay)) continue;
-
-      const refId =
-        modelRefId([
-          item?.id,
-          key,
-          item?.assetPath,
-          item?.path
-        ]) || item?.id;
-
-      add({
-        source:key.toUpperCase(),
-        kind:/prop/i.test(hay) ? "prop" : "mesh",
-        modeFlags:modelModeFlags(item),
-        name:item?.name || item?.displayName || item?.id || "Model Reference",
-        parent:key.toUpperCase(),
-        item,
-        refId,
-        preview:image(item),
-        channel:"Tracked asset reference",
-        tag:String(item?.assetPath || item?.path || "")
-      });
-    }
+  /* Current map POIs. This is intentionally a POI reference, not a fake mesh ID. */
+  const map=DATA.map?.data?.pois || [];
+  for(const poi of map){
+    add({
+      source:'Map / POI',
+      kind:'map',
+      name:poi.name || poi.id || 'Map Point',
+      parent:'Map POI',
+      item:poi,
+      refId:poi.id || modelRefId(['POI',poi.name]),
+      preview:DATA.map?.data?.images?.pois || '',
+      channel:'Map POI',
+      tag:poi.name || '',
+      modeFlags:['world']
+    });
   }
 
   return models;
 }
 
-let MODEL_CACHE = [];
+let MODEL_CACHE=[];
 
 function modelMatches(entry, query){
   if(!query) return true;
@@ -275,163 +223,78 @@ function modelMatches(entry, query){
 }
 
 function renderModels(){
-  MODEL_CACHE = getAllTrackedModels();
+  MODEL_CACHE=getAllTrackedModels();
 
-  let filter = "all";
-  const active = document.querySelector(
-    '#modelTools .control.active'
-  );
-  if(active) filter = active.dataset.modelFilter || "all";
+  let filter='all';
+  const active=document.querySelector('#modelTools .control.active');
+  if(active) filter=active.dataset.modelFilter || 'all';
 
-  let models = MODEL_CACHE;
+  let models=MODEL_CACHE;
 
-  if(filter === "mesh"){
-    models = models.filter(x=>x.kind === "mesh");
-  }else if(filter === "prop"){
-    models = models.filter(x=>x.kind === "prop" || x.kind === "lego");
-  }else if(filter === "weapon"){
-    models = models.filter(x=>x.kind === "weapon");
-  }else if(filter === "lego"){
-    models = models.filter(x=>x.source === "LEGO Kits");
-  }else if(filter.startsWith("mode:")){
-    const mode = filter.slice(5);
-    models = models.filter(x=>(x.modeFlags || []).includes(mode));
+  if(filter!=='all'){
+    models=models.filter(x=>x.kind===filter);
   }
 
-  models = models.filter(
-    x => modelMatches(
-      x,
-      state.query
-    )
-  );
+  models=models.filter(x=>modelMatches(x,state.query));
 
-  document.querySelector(
-    '#modelsCount'
-  ).textContent =
-    `${models.length.toLocaleString()} references`;
+  document.querySelector('#modelsCount').textContent=
+    `${models.length.toLocaleString()} world references`;
 
-  document.querySelector(
-    '#modelsGrid'
-  ).innerHTML =
-    models.map(
-      (entry,index) => {
+  document.querySelector('#modelsGrid').innerHTML=models.map((entry,index)=>{
+    const payload=encodeURIComponent(JSON.stringify(entry.item||{}));
+    const kind=esc(entry.kind.toUpperCase());
+    const source=esc(entry.source);
+    const ref=esc(entry.refId || 'No reference ID');
+    const label=esc(entry.name || entry.refId || 'World Asset');
+    const tag=esc(entry.tag || '');
+    const imageUrl=entry.preview ? esc(entry.preview) : '';
+    return `<article class="item" role="button" tabindex="0" data-model-index="${index}">
+      <div class="itemImage">${imageUrl?`<img loading="lazy" src="${imageUrl}" alt="${label}">`:'<span class="placeholder">3D</span>'}<span class="badge">${kind}</span></div>
+      <div class="itemBody">
+        <div class="itemName" title="${label}">${label}</div>
+        <div class="itemMeta"><span>${source}</span><span>${kind}</span></div>
+        <div class="modelRef">${ref}</div>
+        ${tag?`<div class="modelTag">${tag}</div>`:''}
+      </div>
+    </article>`;
+  }).join('') || '<div class="empty">No world assets match your search.</div>';
 
-        const imageUrl =
-          entry.preview ||
-          "";
-
-
-        const safeRef =
-          esc(
-            entry.refId ||
-            "No reference ID"
-          );
-
-
-        const source =
-          esc(
-            entry.source
-          );
-
-
-        const kind =
-          esc(
-            entry.kind.toUpperCase()
-          );
-
-
-        const modes =
-          esc(
-            (entry.modeFlags || [])
-              .join(", ")
-          );
-
-
-        const payload =
-          encodeURIComponent(
-            JSON.stringify(
-              entry.item || {},
-              null,
-              2
-            )
-          );
-
-
-        return `
-          <article
-            class="item"
-            data-model-index="${index}"
-          >
-
-            <div class="itemImage">
-
-              ${
-                imageUrl
-                  ? `
-                    <img
-                      loading="lazy"
-                      src="${esc(imageUrl)}"
-                      alt="${esc(entry.name)}"
-                    >
-                  `
-                  : `
-                    <span class="placeholder">
-                      MODEL
-                    </span>
-                  `
-              }
-
-              <span class="badge">
-                ${kind}
-              </span>
-
-            </div>
-
-            <div class="itemBody">
-
-              <div
-                class="itemName"
-                title="${esc(entry.name)}"
-              >
-                ${esc(entry.name)}
-              </div>
-
-              <div class="itemMeta">
-                <span>${source}</span>
-                <span>${modes || "other"}</span>
-              </div>
-
-              <div
-                class="modelRef"
-                title="${safeRef}"
-              >
-                ${safeRef}
-              </div>
-
-              <span class="modelTag">
-                ${esc(entry.channel || "Asset reference")}
-              </span>
-
-            </div>
-
-          </article>
-        `;
-
-      }
-    )
-    .join(
-      ""
-    ) ||
-    `<div class="empty">No model references match this filter.</div>`;
-
+  document.querySelectorAll('#modelsGrid .item').forEach(card=>{
+    const index=Number(card.dataset.modelIndex);
+    card.addEventListener('click',()=>openModelDetail(models[index]));
+    card.addEventListener('keydown',e=>{
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();openModelDetail(models[index]);}
+    });
+  });
 }
 
+function openModelDetail(entry){
+  if(!entry) return;
+  const item=entry.item||{};
+  $('#detailType').textContent=String(entry.kind||'world asset').toUpperCase();
+  $('#detailName').textContent=entry.name||entry.refId||'World Asset';
+  $('#detailId').textContent=entry.refId||'No ID';
+  $('#detailMeta').textContent=[entry.source,entry.channel,entry.tag].filter(Boolean).join(' · ')||'World asset reference';
+  $('#detailMedia').innerHTML=entry.preview?`<img src="${esc(entry.preview)}" alt="${esc(entry.name||entry.refId)}">`:'<span class="placeholder">NO PREVIEW IN DATASET</span>';
+  $('#detailJson').textContent=JSON.stringify(item,null,2);
+  $('#detailJson').style.display='none';
+  $('#detailRaw').textContent='Show raw JSON';
+  $('#detailRaw').onclick=()=>{const raw=$('#detailJson');const open=raw.style.display==='block';raw.style.display=open?'none':'block';$('#detailRaw').textContent=open?'Show raw JSON':'Hide raw JSON'};
+  $('#detailFullscreen').onclick=()=>{
+    if(entry.preview){
+      $('#viewerTitle').textContent=entry.name||entry.refId||'World Asset';
+      $('#viewerStage').innerHTML=`<img id="viewerImage" alt="">`;
+      $('#viewerImage').src=entry.preview;
+      $('#viewerImage').alt=entry.name||entry.refId||'World Asset';
+      $('#fullscreenViewer').classList.add('open');
+      $('#detailBackdrop').classList.remove('open');
+    }else toast('This world reference has no preview image.');
+  };
+  $('#detailBackdrop').classList.add('open');
+  $('#detailBackdrop').setAttribute('aria-hidden','false');
+}
 
-function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)|preferredslottype\.consumable/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield|utility/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
-function renderWeapons(){const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];const toolbar=$('#weaponsTable').previousElementSibling;if(toolbar&&!$('#weaponCategory')){const select=document.createElement('select');select.id='weaponCategory';select.className='control';select.innerHTML=filters.map(([value,label])=>`<option value="${value}">${label}</option>`).join('');select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});toolbar.insertBefore(select,toolbar.firstChild)}const category=state.weaponCategory||'all';const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));$('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;$('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>${data.length>500?`<div class="empty" style="padding:18px;margin-top:12px">Showing 500 of ${data.length.toLocaleString()} items. Refine your search or category.</div>`:''}`}
-function renderModes(){let data=arr('playlists').filter(matches).filter(x=>{if(state.modeFilter==='all')return true;const s=JSON.stringify(x).toLowerCase();return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle')});$('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;$('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th><th>Tags</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b><br><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td><td>${esc((x.gameplayTags||x.tags||[]).slice(0,3).join(', '))}</td></tr>`).join('')}</tbody></table>`}
-async function renderMap(){const d=DATA.map?.data||{};const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map;$('#mapImage').src=url||'';$('#mapMeta').textContent=d.date?`Updated ${new Date(d.date).toLocaleDateString()}`:'current map snapshot';if(!url)$('#mapImage').alt='Map image unavailable'}
-function renderView(){const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='sprites')renderSprites();if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='models')renderModels();if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
+function renderView(){const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='sprites')renderSprites();if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='models'){Promise.all([load('registry'),load('map')]).then(()=>renderModels())} if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
 function setView(v){state.view=v;renderView()}
 $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{if(x.dataset.cosmeticType)state.cosmeticType=x.dataset.cosmeticType;setView(x.dataset.view)}));
 $('#menu').addEventListener('click',()=>$('#sidebar').classList.toggle('open'));$('#search').addEventListener('input',e=>{state.query=e.target.value.trim();if(state.view!=='home')renderView();else{renderNews();renderStats()}});
