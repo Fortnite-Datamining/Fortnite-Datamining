@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-29
+- **13:54** BR Cosmetics, Item Shop
 - **08:02** News - +1 new (Dr. Eggman Outfit) - -1 removed
 - **01:24** Item Shop, News, Banners, Epic Content Pages - +38 new (Snapshot Swagger, Bandicoot, Briar of the Thorn, Ark'ana, Sharkpup Patroller, +33 more) - -52 removed
 
