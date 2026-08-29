@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-08-29
+- **01:24** Item Shop, News, Banners, Epic Content Pages - +38 new (Snapshot Swagger, Bandicoot, Briar of the Thorn, Ark'ana, Sharkpup Patroller, +33 more) - -52 removed
+
 ## 2026-08-28
 - **17:33** BR Cosmetics, Jam Tracks, Item Shop, News, AES Keys - +3 new (Siren Wings, Lilith, Final Showdown - August 29 @ 2:00 PM ET) - -1 removed
 - **05:03** Item Shop, Epic Content Pages - +22 new (Lola Bunny & Daffy Duck Bundle, Dumb Ways to Die Bundle, Frost Incisors, Shockball, Bunny Hops, +17 more) - -31 removed
