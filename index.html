@@ -139,8 +139,34 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <script>
 const DATA={};
 const PLAYER_API='https://dev.fnapi.osirion.gg/v1';
+const PLAYER_PROXY='https://r.jina.ai/';
 const PLAYER_ACCOUNT_LOOKUP=(name,platform='epic')=>`${PLAYER_API}/accounts/lookup-by-display-name?displayName=${encodeURIComponent(name)}&platform=${encodeURIComponent(platform)}`;
 const PLAYER_STATS_LOOKUP=(accountId)=>`${PLAYER_API}/stats/account?accountId=${encodeURIComponent(accountId)}`;
+async function playerJson(url,{allowProxy=true}={}){
+  try{
+    const r=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
+    const text=await r.text();
+    let data=null;try{data=JSON.parse(text)}catch{}
+    if(r.ok)return data??text;
+    const err=new Error(`HTTP ${r.status}`);err.status=r.status;throw err;
+  }catch(directError){
+    if(!allowProxy||directError?.status===400||directError?.status===404)throw directError;
+    const proxyUrl=`${PLAYER_PROXY}${url}`;
+    try{
+      const r=await fetch(proxyUrl,{headers:{'Accept':'application/json'},cache:'no-store'});
+      const text=await r.text();
+      if(!r.ok)throw Error(`Proxy HTTP ${r.status}`);
+      let data=null;try{data=JSON.parse(text)}catch{}
+      if(data?.content&&typeof data.content==='string'){try{data=JSON.parse(data.content)}catch{}}
+      if(!data){const m=text.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);if(m)try{data=JSON.parse(m[1])}catch{}}
+      if(data)return data;
+      throw Error('The player service returned an unreadable response.');
+    }catch(proxyError){
+      const err=new Error(directError?.message||proxyError.message||'Player API request failed.');
+      err.status=directError?.status;err.proxyError=proxyError;throw err;
+    }
+  }
+}
 const DATASETS={br:'https://fortnite-api.com/v2/cosmetics/br',shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
 const SHOP_REFRESH_MS=3*60*1000;let shopLastSynced=0;
 const playerState={account:null,stats:null,raw:null};
@@ -266,8 +292,8 @@ async function lookupPlayer(displayName){
   if(query.length>32)return toast('Epic display names can be up to 32 characters.');
   el.innerHTML='<div class="playerLoading">Resolving Epic account…</div>';playerState.account=null;playerState.stats=null;playerState.raw=null;
   try{
-    const r=await fetch(PLAYER_ACCOUNT_LOOKUP(query));if(!r.ok){if(r.status===404)throw Error('Player not found.');throw Error(`Account lookup failed (${r.status}).`)}
-    const account=await r.json();playerState.raw={account};
+    const account=await playerJson(PLAYER_ACCOUNT_LOOKUP(query));
+    playerState.raw={account};
     const candidate=account?.accounts?.[0]||account?.data?.accounts?.[0]||account?.data?.account||account?.account||account;
     if(!candidate)throw Error('No matching Epic account was returned.');
     playerState.account=candidate;renderPlayerResult();
@@ -275,12 +301,16 @@ async function lookupPlayer(displayName){
     if(!accountId)return;
     try{
       el.querySelector('.playerStatus')?.replaceChildren(document.createTextNode('LOADING STATS…'));
-      const sr=await fetch(PLAYER_STATS_LOOKUP(accountId));
-      if(sr.ok){playerState.stats=await sr.json();playerState.raw.stats=playerState.stats;renderPlayerResult()}
-      else if(sr.status===403||sr.status===404){renderPlayerResult()}
-      else throw Error(`Stats lookup failed (${sr.status}).`);
+      try{
+        playerState.stats=await playerJson(PLAYER_STATS_LOOKUP(accountId));
+        playerState.raw.stats=playerState.stats;
+        renderPlayerResult();
+      }catch(statsErr){console.warn('Player stats request:',statsErr);renderPlayerResult()}
     }catch(statsErr){console.warn('Player stats request:',statsErr);renderPlayerResult()}
-  }catch(e){el.innerHTML=`<div class="playerNotice">${esc(e.message||'Player lookup failed.')}<br><small>Some accounts cannot be resolved or have private statistics.</small></div>`}
+  }catch(e){
+    const message=e?.status===404?'Player not found.':(e?.message||'Player lookup failed.');
+    el.innerHTML=`<div class="playerNotice"><b>${esc(message)}</b><br><small>The public player service could not complete this lookup. Try the name again in a moment.</small></div>`;
+  }
 }
 function copyPlayerId(){const a=playerState.account||{};const id=firstDefined(a.accountId,a.id,a.accountDetails?.accountId,a.accountDetails?.epic?.accountId,a.accountDetails?.epic?.id);if(!id)return toast('No Epic ID available.');navigator.clipboard?.writeText(String(id)).then(()=>toast('Epic ID copied')).catch(()=>toast(String(id)))}
 function clearPlayerStats(){playerState.account=null;playerState.stats=null;playerState.raw=null;renderPlayerResult();$('#playerLookupInput').focus()}
