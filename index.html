@@ -50,6 +50,27 @@ function openLoadingScreen(index){openFullscreen(index)}function closeOverlay(){
 .catalogGrid .item{animation:cardIn .38s ease both}
 @keyframes cardIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
+.dreamLocker{display:grid;grid-template-columns:320px 1fr;gap:18px;margin-top:6px;align-items:start}
+.dreamStage{position:relative;padding:22px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(160deg,#152238,#0d1826);box-shadow:var(--shadow);overflow:hidden}
+.dreamStageGlow{position:absolute;inset:-45% -45% auto -45%;height:65%;background:radial-gradient(circle,#66ddff2e,transparent 70%);pointer-events:none;animation:auroraDrift 14s ease-in-out infinite alternate}
+.dreamOutfitPreview{position:relative;aspect-ratio:.78;display:grid;place-items:center;border:1px solid var(--line);border-radius:9px;background:#0a121d;overflow:hidden}
+.dreamOutfitPreview img{width:100%;height:100%;object-fit:contain;padding:10px;filter:drop-shadow(0 16px 30px #000b)}
+.dreamOutfitPreview .placeholder{color:#4a5f78;font:700 15px/1.5 'Barlow Condensed';text-transform:uppercase;letter-spacing:.04em;text-align:center;padding:24px}
+.dreamSlots{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px;position:relative}
+.dreamSlot{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;border:1px solid var(--line);border-radius:8px;background:#101a2a;color:var(--muted);transition:border-color .15s,transform .15s}
+.dreamSlot:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.dreamSlot.filled{border-color:#4a7187;background:#132234}
+.dreamSlot.active{border-color:var(--cyan);box-shadow:0 0 0 1px var(--cyan)}
+.dreamSlot img{width:32px;height:32px;object-fit:contain}
+.dreamSlot .dreamSlotIcon{width:32px;height:32px;display:grid;place-items:center;color:var(--dim);font-size:15px}
+.dreamSlot small{font-size:9px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.dreamStageFoot{display:flex;gap:8px;margin-top:16px;position:relative}
+.dreamStageFoot .control{flex:1;font-size:11px}
+.dreamPick{cursor:pointer}
+.dreamPick .itemImage{position:relative}
+.dreamPick.equipped{border-color:var(--cyan);box-shadow:0 0 0 1px var(--cyan),0 0 22px #66ddff33}
+.dreamPick.equipped .itemImage:after{content:'✓ EQUIPPED';position:absolute;left:8px;bottom:8px;padding:3px 6px;border-radius:4px;background:#66ddffe6;color:#07121d;font:800 9px 'Space Grotesk'}
+@media(max-width:900px){.dreamLocker{grid-template-columns:1fr}.dreamOutfitPreview{aspect-ratio:1.1}}
 @media(max-width:900px){.onlinePill{display:none}}
 </style>
 </head>
@@ -60,7 +81,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
   <div class="logo"><span class="logoMark">F</span><div>DROPZONE<small>FORTNITE DATA LAB</small></div></div>
   <nav>
     <div class="navGroup"><div class="navLabel">Live intelligence</div><button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button><button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button><button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button><button class="navItem" data-view="fallguys"><span class="navIcon">🫘</span>Fall Guys</button><button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button></div>
-    <div class="navGroup"><div class="navLabel">Battle Royale</div><button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button><button class="navItem" data-view="models"><span class="navIcon">▣</span>Models</button><button class="navItem" data-view="cosmetics" data-cosmetic-type="Emote"><span class="navIcon">✦</span>Emotes</button><button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button><button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button><button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button></div>
+    <div class="navGroup"><div class="navLabel">Battle Royale</div><button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button><button class="navItem" data-view="dreamlocker"><span class="navIcon">▣</span>Dream Locker</button><button class="navItem" data-view="cosmetics" data-cosmetic-type="Emote"><span class="navIcon">✦</span>Emotes</button><button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button><button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button><button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button></div>
     <div class="navGroup"><div class="navLabel">More collections</div><button class="navItem" data-view="lego"><span class="navIcon">▦</span>LEGO</button><button class="navItem" data-view="festival"><span class="navIcon">♫</span>Festival & tracks</button><button class="navItem" data-view="vehicles"><span class="navIcon">▰</span>Cars</button><button class="navItem" data-view="banners"><span class="navIcon">⚑</span>Banners</button></div>
   </nav>
   <div class="sideFoot">PUBLIC SNAPSHOTS<br><span id="buildSide">Loading build...</span><br>Total visits tracked <strong id="totalVisitsSide">–</strong></div>
@@ -74,7 +95,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <section id="fallguys" class="view"><div class="eyebrow">Fall Guys crossover / bean styles</div><div class="sectionHead"><h2>Fall Guys</h2><span id="fallguysCount"></span></div><div id="fallguysGrid" class="catalogGrid"></div></section>
 <section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
 <section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"></div><div id="outfitGrid" class="catalogGrid"></div></section>
-<section id="models" class="view"><div class="eyebrow">Battle Royale / mesh previews</div><div class="sectionHead"><h2>Models</h2><span id="modelsCount"></span></div><div id="modelsGrid" class="catalogGrid"></div></section>
+<section id="dreamlocker" class="view"><div class="eyebrow">Battle Royale / build your loadout</div><div class="sectionHead"><h2>Dream Locker</h2><span id="dreamLockerCount"></span></div><div class="dreamLocker"><div class="dreamStage"><div class="dreamStageGlow"></div><div class="dreamOutfitPreview" id="dreamOutfitPreview"><span class="placeholder">Pick an Outfit to start your dream loadout</span></div><div class="dreamSlots" id="dreamSlots"></div><div class="dreamStageFoot"><button class="control primary" id="dreamRandomize" type="button">🎲 Randomize</button><button class="control" id="dreamClear" type="button">Clear all</button></div></div><div class="dreamPicker"><div class="toolbar" id="dreamTools"></div><div id="dreamGrid" class="catalogGrid"></div></div></div></section>
 <section id="cosmetics" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div><div class="toolbar" id="cosmeticTools"></div><div id="cosmeticGrid" class="catalogGrid"></div></section>
 <section id="lego" class="view"><div class="eyebrow">More collections</div><div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div><div class="toolbar"><button class="control active" data-collection="lego">LEGO cosmetics</button><button class="control" data-collection="lego_kits">Kits</button></div><div id="legoGrid" class="catalogGrid"></div></section>
 <section id="festival" class="view"><div class="eyebrow">Festival / music</div><div class="sectionHead"><h2>Festival library</h2><span id="festivalCount"></span></div><div class="toolbar"><button class="control active" data-collection="tracks">Jam tracks</button><button class="control" data-collection="instruments">Instruments</button></div><div id="festivalGrid" class="catalogGrid"></div></section>
@@ -87,7 +108,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 const DATA={};
 const DATASETS={br:'https://fortnite-api.com/v2/cosmetics/br',shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
 const SHOP_REFRESH_MS=3*60*1000;let shopLastSynced=0;
-const state={view:'home',query:'',collection:{lego:'lego',festival:'tracks',vehicles:'cars'},shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,cosmeticType:'all'};
+const state={view:'home',query:'',collection:{lego:'lego',festival:'tracks',vehicles:'cars'},shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,cosmeticType:'all',dreamCategory:'Outfit',dreamLoadout:{}};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arr=(key)=>{const d=DATA[key];return Array.isArray(d?.data)?d.data:Array.isArray(d?.weapons)?d.weapons:Array.isArray(d)?d:[]};
@@ -121,65 +142,47 @@ function renderNews(){const items=newsItems();$('#newsPreview').innerHTML=items.
 function renderCatalog(key,target,type='Item'){let data=arr(key).filter(matches);const el=$(target);el.previousElementSibling?.querySelector('span')&&(el.previousElementSibling.querySelector('span').textContent=`${data.length.toLocaleString()} records`);el.innerHTML=data.slice(0,240).map(x=>interactiveCard(x,type)).join('')||'<div class="empty">No records match your search.</div>';if(data.length>240)el.insertAdjacentHTML('afterend',`<div class="empty" style="padding:18px;margin-top:12px">Showing 240 of ${data.length.toLocaleString()} records. Refine your search to explore more.</div>`) }
 function renderCosmetics(){const types=['all','Outfit','Back Bling','Pickaxe','Emote','Spray','Wrap','Loading Screen','Emoticon','Glider','Shoes','Sidekick','Contrail','Lobby Music','Aura','Pet'];$('#cosmeticTools').innerHTML=types.map(type=>`<button class="control ${state.cosmeticType===type?'active':''}" data-cosmetic-type="${esc(type)}">${type==='all'?'Every cosmetic':type}</button>`).join('');$$('#cosmeticTools [data-cosmetic-type]').forEach(button=>button.addEventListener('click',()=>{state.cosmeticType=button.dataset.cosmeticType;renderCosmetics()}));let data=arr('br').filter(x=>state.cosmeticType==='all'||(x.type?.displayValue||x.type?.value)===state.cosmeticType).filter(matches);$('#cosmeticCount').textContent=`${data.length.toLocaleString()} records`;$('#cosmeticGrid').innerHTML=data.slice(0,240).map(x=>interactiveCard(x,'Cosmetic')).join('')||'<div class="empty">No records match your search.</div>'}
 function renderOutfits(){let data=arr('br').filter(x=>x.type?.value==='outfit'||x.type?.displayValue==='Outfit').filter(matches);$('#outfitCount').textContent=`${data.length.toLocaleString()} records`;$('#outfitGrid').innerHTML=data.slice(0,240).map(x=>interactiveCard(x,'Outfit')).join('')||'<div class="empty">No outfits match your search.</div>'}
-function getMeshModels(){
-  const items = arr('br').filter((x) => Array.isArray(x?.variants));
-  const models = [];
-  for (const item of items) {
-    for (const variant of item.variants || []) {
-      const channel = String(variant?.channel || variant?.type || 'Mesh');
-      if (!/mesh/i.test(channel) && !/mesh/i.test(String(variant?.type || ''))) continue;
-      for (const option of variant.options || []) {
-        const preview = option?.image || image(item);
-        const propId = [item?.id, channel, option?.tag || option?.name || 'mesh']
-          .filter(Boolean)
-          .map((part) => String(part).replace(/[^A-Za-z0-9_]/g, '_'))
-          .join('_')
-          .replace(/_+/g, '_')
-          .replace(/^_|_$/g, '');
-        models.push({
-          item,
-          channel,
-          option,
-          preview,
-          propId,
-        });
-      }
-    }
-  }
-  return models;
+const DREAM_SLOTS=['Outfit','Back Bling','Pickaxe','Glider','Wrap','Emote'];
+const DREAM_GLYPHS={'Outfit':'◆','Back Bling':'▣','Pickaxe':'⛏','Glider':'⛅','Wrap':'▧','Emote':'✦'};
+function renderDreamStage(){
+  const outfit=state.dreamLoadout['Outfit'];
+  const previewImg=outfit?image(outfit):'';
+  $('#dreamOutfitPreview').innerHTML=previewImg?`<img src="${esc(previewImg)}" alt="${esc(name(outfit))}">`:'<span class="placeholder">Pick an Outfit to start your dream loadout</span>';
+  $('#dreamSlots').innerHTML=DREAM_SLOTS.map(type=>{
+    const item=state.dreamLoadout[type];
+    return `<button class="dreamSlot ${item?'filled':''} ${state.dreamCategory===type?'active':''}" data-dream-cat="${esc(type)}" title="${esc(type)}" type="button">${item?`<img src="${esc(image(item))}" alt="${esc(name(item))}">`:`<span class="dreamSlotIcon">${DREAM_GLYPHS[type]||'?'}</span>`}<small>${esc(type)}</small></button>`;
+  }).join('');
 }
-function renderModels(){
-  const models = getMeshModels().filter((entry) => matches(entry.item));
-  $('#modelsCount').textContent=`${models.length.toLocaleString()} mesh variants`;
-  $('#modelsGrid').innerHTML = models.slice(0, 240).map(({ item, channel, option, preview, propId }) => {
-    const title = option?.name || item?.name || 'Mesh variant';
-    const subtitle = option?.tag || 'Mesh';
-    return `
-      <article class="item" style="min-height:0;">
-        <div class="itemImage">
-          ${preview ? `<img loading="lazy" src="${esc(preview)}" alt="${esc(title)}">` : '<span class="placeholder">M</span>'}
-          <span class="badge">MESH</span>
-        </div>
-        <div class="itemBody">
-          <div class="itemName" title="${esc(item?.name || title)}">${esc(item?.name || title)}</div>
-          <div class="itemMeta"><span>${esc(item?.id || 'Unknown ID')}</span><span>${esc(propId || 'No prop ID')}</span></div>
-          <div class="itemMeta" style="margin-top:6px;"><span>${esc(channel)}</span><span>${esc(subtitle)}</span></div>
-        </div>
-      </article>
-    `;
-  }).join('') || '<div class="empty">No mesh variants are exposed in the current cosmetic snapshot.</div>';
+function dreamCard(x,type){
+  const index=cacheItem(x);
+  const equipped=state.dreamLoadout[type]&&state.dreamLoadout[type].id===x.id;
+  const safeType=type.replace(/'/g,'');
+  return card(x,type).replace('<article class="item"',`<article class="item dreamPick${equipped?' equipped':''}" role="button" tabindex="0" onclick="equipDream(${index},'${safeType}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();equipDream(${index},'${safeType}')}"`);
 }
+function renderDreamTools(){$('#dreamTools').innerHTML=DREAM_SLOTS.map(t=>`<button class="control ${state.dreamCategory===t?'active':''}" data-dream-cat="${esc(t)}" type="button">${esc(t)}</button>`).join('');}
+function renderDreamGrid(){
+  const type=state.dreamCategory;
+  const data=arr('br').filter(x=>(x.type?.displayValue||x.type?.value)===type).filter(matches);
+  $('#dreamLockerCount').textContent=`${data.length.toLocaleString()} ${type.toLowerCase()} options`;
+  $('#dreamGrid').innerHTML=data.slice(0,240).map(x=>dreamCard(x,type)).join('')||'<div class="empty">No cosmetics of this type in the current snapshot.</div>';
+}
+function renderDreamLocker(){renderDreamTools();renderDreamStage();renderDreamGrid();}
+function equipDream(index,type){const item=ITEM_CACHE[index];if(!item)return;const current=state.dreamLoadout[type];state.dreamLoadout[type]=(current&&current.id===item.id)?null:item;renderDreamStage();renderDreamGrid();}
+function randomizeDream(){DREAM_SLOTS.forEach(type=>{const pool=arr('br').filter(x=>(x.type?.displayValue||x.type?.value)===type);if(pool.length)state.dreamLoadout[type]=pool[Math.floor(Math.random()*pool.length)]});renderDreamStage();renderDreamGrid();toast('Randomized your dream loadout')}
+function clearDream(){DREAM_SLOTS.forEach(t=>state.dreamLoadout[t]=null);renderDreamStage();renderDreamGrid();toast('Loadout cleared')}
+document.addEventListener('click',e=>{const btn=e.target.closest('[data-dream-cat]');if(!btn)return;state.dreamCategory=btn.dataset.dreamCat;renderDreamTools();renderDreamStage();renderDreamGrid()});
 function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)|preferredslottype\.consumable/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield|utility/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
 function renderWeapons(){const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];const toolbar=$('#weaponsTable').previousElementSibling;if(toolbar&&!$('#weaponCategory')){const select=document.createElement('select');select.id='weaponCategory';select.className='control';select.innerHTML=filters.map(([value,label])=>`<option value="${value}">${label}</option>`).join('');select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});toolbar.insertBefore(select,toolbar.firstChild)}const category=state.weaponCategory||'all';const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));$('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;$('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>${data.length>500?`<div class="empty" style="padding:18px;margin-top:12px">Showing 500 of ${data.length.toLocaleString()} items. Refine your search or category.</div>`:''}`}
 function renderModes(){let data=arr('playlists').filter(matches).filter(x=>{if(state.modeFilter==='all')return true;const s=JSON.stringify(x).toLowerCase();return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle')});$('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;$('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th><th>Tags</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b><br><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td><td>${esc((x.gameplayTags||x.tags||[]).slice(0,3).join(', '))}</td></tr>`).join('')}</tbody></table>`}
 async function renderMap(){const d=DATA.map?.data||{};const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map;$('#mapImage').src=url||'';$('#mapMeta').textContent=d.date?`Updated ${new Date(d.date).toLocaleDateString()}`:'current map snapshot';if(!url)$('#mapImage').alt='Map image unavailable'}
-function renderView(){const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='models')renderModels();if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
+function renderView(){const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='dreamlocker')renderDreamLocker();if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
 function setView(v){state.view=v;renderView()}
 $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{if(x.dataset.cosmeticType)state.cosmeticType=x.dataset.cosmeticType;setView(x.dataset.view)}));
 $('#menu').addEventListener('click',()=>$('#sidebar').classList.toggle('open'));$('#search').addEventListener('input',e=>{state.query=e.target.value.trim();if(state.view!=='home')renderView();else{renderNews();renderStats()}});
 $$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-shop-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.shopFilter=x.dataset.shopFilter;renderShop()}));
 $$('[data-collection]').forEach(x=>x.addEventListener('click',()=>{const parent=x.closest('.view').id;$$(`[data-collection]`).filter(b=>b.closest('.view')===x.closest('.view')).forEach(b=>b.classList.remove('active'));x.classList.add('active');state.collection[parent]=x.dataset.collection;renderView()}));
 $$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.modeFilter=x.dataset.modeFilter;renderModes()}));$('#weaponRarity').addEventListener('change',e=>{state.weaponRarity=e.target.value;renderWeapons()});$('#damageSort').addEventListener('click',()=>{state.damageSort=!state.damageSort;$('#damageSort').classList.toggle('active',state.damageSort);renderWeapons()});
+$('#dreamRandomize')?.addEventListener('click',randomizeDream);$('#dreamClear')?.addEventListener('click',clearDream);
 let map={scale:1,x:0,y:0,drag:false,sx:0,sy:0};const canvas=$('#mapCanvas');function mapTransform(){ $('#mapImage').style.transform=`translate(calc(-50% + ${map.x}px),calc(-50% + ${map.y}px)) scale(${map.scale})` }canvas.addEventListener('wheel',e=>{e.preventDefault();map.scale=Math.max(.55,Math.min(2.4,map.scale+(e.deltaY<0?.1:-.1)));mapTransform()},{passive:false});canvas.addEventListener('pointerdown',e=>{map.drag=true;map.sx=e.clientX-map.x;map.sy=e.clientY-map.y;canvas.setPointerCapture(e.pointerId)});canvas.addEventListener('pointermove',e=>{if(map.drag){map.x=e.clientX-map.sx;map.y=e.clientY-map.sy;mapTransform()}});canvas.addEventListener('pointerup',()=>map.drag=false);
 async function boot(){const keys=Object.keys(DATASETS);await Promise.all(keys.map(load));const build=DATA.build||{};const b=build.build||'unknown build';$('#buildHero').textContent=b.replace(/^\+\+Fortnite\+Release-/,'RELEASE ');$('#buildSide').textContent=b;$('#updated').textContent=DATA.shop?'Live shop feed':'Local snapshot';const loaded=keys.filter(k=>DATA[k]).length;$('#health').textContent=`${loaded}/${keys.length} sources`;$('#healthBar').style.width=`${loaded/keys.length*100}%`;$('#heroShopCount').textContent=shopEntries().length.toLocaleString();if(DATA.shop)shopLastSynced=Date.now();updateShopSyncLabel();renderStats();renderNews();renderView();startAutoRefresh();initLiveCounter()}
 function startAutoRefresh(){$('#shopRefreshBtn')?.addEventListener('click',()=>refreshShop(false));setInterval(()=>refreshShop(true),SHOP_REFRESH_MS);setInterval(updateShopSyncLabel,1000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&Date.now()-shopLastSynced>SHOP_REFRESH_MS)refreshShop(true)})}
