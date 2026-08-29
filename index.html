@@ -16,6 +16,14 @@ function openLoadingScreen(index){openFullscreen(index)}function closeOverlay(){
 :root{--ink:#f5f7fb;--muted:#91a0b6;--dim:#60708a;--bg:#0b111b;--panel:#111a29;--panel2:#172338;--line:#263750;--cyan:#66ddff;--yellow:#ffd166;--green:#75e0a0;--pink:#ff769f;--radius:12px;--shadow:0 18px 55px #03070e88}
 *{box-sizing:border-box}html{background:var(--bg);scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'Space Grotesk',sans-serif;background:radial-gradient(circle at 74% -10%,#173c5277,transparent 32rem),linear-gradient(145deg,#0b111b,#0b121d 60%,#0c1820);min-height:100vh}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}.app{display:grid;grid-template-columns:255px 1fr;min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;padding:24px 14px;border-right:1px solid var(--line);background:#0d1522dd;backdrop-filter:blur(18px);overflow:auto}.logo{display:flex;align-items:center;gap:10px;padding:0 12px 28px;font-weight:800;letter-spacing:.08em}.logoMark{display:grid;place-items:center;width:32px;height:32px;background:var(--cyan);color:#07111c;clip-path:polygon(0 0,100% 0,82% 100%,0 82%);font-weight:800}.logo small{display:block;color:var(--cyan);font-size:10px;letter-spacing:.16em}.navGroup{margin:20px 0}.navLabel{padding:0 12px 8px;color:var(--dim);font-size:10px;letter-spacing:.15em;text-transform:uppercase;font-weight:700}.navItem{display:flex;align-items:center;gap:11px;width:100%;padding:10px 12px;margin:3px 0;border:1px solid transparent;background:transparent;color:#aebbd0;border-radius:8px;text-align:left;font-size:13px}.navItem:hover{background:#18243a;color:#fff}.navItem.active{background:#1d3348;border-color:#31516b;color:#fff}.navIcon{width:18px;text-align:center;color:var(--cyan)}.navCount{margin-left:auto;color:var(--dim);font-size:11px}.sideFoot{margin:30px 12px 0;padding-top:15px;border-top:1px solid var(--line);color:var(--dim);font-size:11px;line-height:1.6}.main{min-width:0}.topbar{position:sticky;top:0;z-index:10;display:flex;gap:16px;align-items:center;height:74px;padding:0 clamp(16px,4vw,48px);border-bottom:1px solid var(--line);background:#0b121ddd;backdrop-filter:blur(18px)}.mobileMenu{display:none}.search{position:relative;flex:1;max-width:620px}.search input{width:100%;height:42px;padding:0 44px 0 15px;border:1px solid var(--line);border-radius:8px;background:#0a111c;color:#fff;outline:0}.search input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #66ddff1b}.search span{position:absolute;right:14px;top:10px;color:var(--cyan)}.liveDot{margin-left:auto;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:11px;white-space:nowrap}.liveDot i{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}.content{max-width:1500px;margin:auto;padding:34px clamp(16px,4vw,48px) 60px}.view{display:none}.view.active{display:block;animation:rise .35s ease both}@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}.hero{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;min-height:270px;margin-bottom:22px}.heroCopy,.signal{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#122237,#101927);box-shadow:var(--shadow)}.heroCopy{position:relative;overflow:hidden;padding:36px}.heroCopy:after{content:'DROP';position:absolute;right:-18px;bottom:-42px;color:#ffffff09;font:800 150px/1 'Barlow Condensed';transform:skew(-12deg)}h1,h2,h3,p{margin-top:0}h1{max-width:700px;margin:10px 0;font:800 clamp(42px,6vw,80px)/.9 'Barlow Condensed';letter-spacing:.01em;text-transform:uppercase}h2{font:800 30px/1 'Barlow Condensed';text-transform:uppercase;letter-spacing:.03em}h3{font-size:15px;margin-bottom:5px}.heroCopy p{max-width:620px;color:var(--muted);line-height:1.65;font-size:13px}.heroTag{display:inline-flex;padding:6px 9px;margin-top:10px;background:#66ddff18;border:1px solid #66ddff44;border-radius:5px;color:var(--cyan);font-size:11px}.signal{padding:22px;background:linear-gradient(145deg,#1b2839,#121b2a)}.signal h3{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.14em}.signal strong{display:block;margin:14px 0 4px;font:800 42px/1 'Barlow Condensed'}.signal p{color:var(--muted);font-size:12px;line-height:1.5}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:30px 0 13px}.sectionHead h2{margin:0}.sectionHead span{color:var(--dim);font-size:11px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat{padding:15px 17px;border:1px solid var(--line);border-radius:9px;background:#101a2a}.stat label{display:block;color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}.stat strong{display:block;margin-top:7px;font:700 26px 'Barlow Condensed'}.stat.cyan strong{color:var(--cyan)}.stat.yellow strong{color:var(--yellow)}.stat.green strong{color:var(--green)}.stat.pink strong{color:var(--pink)}.newsGrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px}.newsCard{position:relative;min-height:168px;overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#121d2d}.newsCard:first-child{grid-row:span 2;min-height:346px}.newsCard img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:.68}.newsCard:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#09111ee8)}.newsText{position:absolute;z-index:1;bottom:0;padding:17px}.newsText small{color:var(--cyan);font-size:10px}.newsText h3{font-size:16px;margin:6px 0 0}.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.control{height:39px;padding:0 12px;border:1px solid var(--line);border-radius:7px;background:#111c2d;color:#b9c6d8;font-size:12px}.control:hover,.control.active{border-color:#3c6d87;background:#183044;color:#fff}.control.primary{background:var(--cyan);border-color:var(--cyan);color:#07121d;font-weight:700}.catalogGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(166px,1fr));gap:12px}.item{overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#111b2a;transition:transform .16s,border-color .16s}.item:hover{transform:translateY(-3px);border-color:#4a7187}.itemImage{aspect-ratio:1;background:#0b131f;display:grid;place-items:center;position:relative}.itemImage img{width:100%;height:100%;object-fit:contain}.itemImage .placeholder{color:#33475f;font:800 30px 'Barlow Condensed'}.badge{position:absolute;top:8px;left:8px;padding:4px 6px;border-radius:4px;background:#07101bcc;color:#c9d6e6;font-size:9px}.itemBody{padding:11px}.itemName{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-size:13px}.itemMeta{display:flex;justify-content:space-between;gap:5px;margin-top:6px;color:var(--muted);font-size:10px}.itemMeta span:last-child{color:var(--cyan)}.shopSections{display:grid;gap:24px}.shopSection{border-top:1px solid var(--line);padding-top:18px}.shopSectionHead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.shopSectionHead h3{margin:0;font:700 25px 'Barlow Condensed';text-transform:uppercase}.shopSectionHead span{color:var(--yellow);font-size:11px}.shopGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}.shopItem{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#121b2a}.shopImage{aspect-ratio:1.12;background:linear-gradient(145deg,#263152,#121a2c);display:grid;place-items:center}.shopImage img{height:100%;width:100%;object-fit:contain}.shopBody{padding:12px}.shopBody b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.price{display:flex;justify-content:space-between;align-items:center;margin-top:8px;color:var(--muted);font-size:11px}.price strong{color:var(--yellow);font-size:15px}.dataTable{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#111b2a;font-size:12px}.dataTable th,.dataTable td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left}.dataTable th{color:var(--dim);font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:#0e1725}.dataTable td{color:#c6d1e0}.dataTable tr:last-child td{border:0}.weaponName{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700}.weaponIcon{width:38px;height:30px;object-fit:contain}.empty{padding:55px;text-align:center;border:1px dashed var(--line);border-radius:9px;color:var(--muted)}.mapFrame{overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#081019}.mapCanvas{height:620px;position:relative;overflow:hidden;cursor:grab;background:#0c1720}.mapCanvas:active{cursor:grabbing}.mapCanvas img{position:absolute;left:50%;top:50%;width:1200px;max-width:none;transform:translate(-50%,-50%);user-select:none;pointer-events:none}.mapLegend{display:flex;gap:16px;padding:12px;color:var(--muted);font-size:11px;border-top:1px solid var(--line)}.legendDot{display:inline-block;width:8px;height:8px;margin-right:5px;border-radius:50%;background:var(--cyan)}.legendDot.pink{background:var(--pink)}.toast{position:fixed;right:20px;bottom:20px;z-index:20;padding:12px 16px;border:1px solid #3a6072;border-radius:7px;background:#122235;color:#fff;font-size:12px;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.2s}.toast.show{opacity:1;transform:none}@media(max-width:900px){.app{display:block}.sidebar{position:fixed;z-index:30;left:0;top:0;width:255px;transform:translateX(-100%);transition:.2s;box-shadow:20px 0 60px #0008}.sidebar.open{transform:none}.mobileMenu{display:block;width:38px;height:38px;border:1px solid var(--line);border-radius:7px;background:#142238;color:#fff}.hero{grid-template-columns:1fr}.heroCopy{min-height:290px}.newsGrid{grid-template-columns:1fr 1fr}.newsCard:first-child{grid-column:span 2;grid-row:auto;min-height:250px}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.topbar{height:64px;padding:0 12px}.liveDot{display:none}.content{padding:24px 12px 45px}h1{font-size:53px}.heroCopy{padding:25px 21px}.newsGrid{display:block}.newsCard,.newsCard:first-child{min-height:180px;margin-bottom:10px}.catalogGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.itemBody{padding:9px}.itemMeta{display:block;line-height:1.6}.shopGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.mapCanvas{height:460px}.mapCanvas img{width:850px}.dataTable{font-size:11px}.dataTable th,.dataTable td{padding:10px 8px}.hideMobile{display:none}}
 .item{cursor:pointer}.detailBackdrop{position:fixed;inset:0;z-index:40;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(12px)}.detailBackdrop.open{display:grid}.detailPanel{position:relative;width:min(940px,100%);max-height:92vh;overflow:auto;display:grid;grid-template-columns:310px 1fr;gap:24px;padding:24px;border:1px solid #3a536d;border-radius:12px;background:#111c2b;box-shadow:var(--shadow)}.detailMedia{display:grid;place-items:center;min-height:300px;overflow:hidden;border-radius:8px;background:#0a121d}.detailMedia img{width:100%;height:100%;max-height:58vh;object-fit:contain}.detailContent h2{margin:4px 45px 14px 0;font:800 38px/1 'Barlow Condensed';text-transform:uppercase}.detailLabel{margin-top:16px;color:var(--dim);font-size:10px;letter-spacing:.13em;text-transform:uppercase}.detailValue{margin-top:5px;color:#d9e4f1;font-size:13px;line-height:1.5;word-break:break-word}.detailActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.detailButton{padding:9px 12px;border:1px solid #36516a;border-radius:6px;background:#1a3044;color:#fff;font-size:12px}.detailButton.primary{background:var(--cyan);border-color:var(--cyan);color:#07121d;font-weight:700}.closeOverlay{position:absolute;right:15px;top:15px;width:34px;height:34px;border:1px solid #3a536d;border-radius:6px;background:#18283a;color:#fff;font-size:20px}.jsonData{display:none;margin-top:14px;max-height:220px;overflow:auto;padding:12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#98abc2;font:11px/1.5 monospace;white-space:pre-wrap}.fullscreenViewer{position:fixed;inset:0;z-index:50;display:none;background:#02050a}.fullscreenViewer.open{display:flex;flex-direction:column}.viewerBar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 20px;background:#07101be8;border-bottom:1px solid #263750}.viewerBar strong{font:700 24px 'Barlow Condensed';text-transform:uppercase}.viewerStage{flex:1;min-height:0;display:grid;place-items:center;padding:24px}.viewerStage img{max-width:100%;max-height:100%;object-fit:contain}.loadingViewer .viewerStage{padding:0;background:#000}.loadingViewer .viewerStage img{width:100%;height:100%;object-fit:contain}.viewerHint{padding:10px;text-align:center;color:var(--dim);font-size:11px;background:#07101b;border-top:1px solid #263750}@media(max-width:900px){.detailPanel{grid-template-columns:1fr;padding:17px}.detailMedia{min-height:220px}}
+
+<style>
+.modelNotice{margin:12px 0 16px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#10151c;color:#9aa4b4;font-size:11px;line-height:1.55}
+.modelNotice strong{color:#e3e8ef}.modelNotice em{color:#cdd4df}
+.modelRef{margin-top:7px;font:9px/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:#707b8c;word-break:break-all}
+.modelTag{display:inline-block;margin-top:7px;padding:4px 6px;border-radius:6px;background:#1c2430;color:#aab4c3;font-size:8px;font-weight:800}
+</style>
+
 </style>
 <style>.styleGallery{flex:0 0 100%;width:100%}.styleGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;margin-top:8px}.styleOption{min-width:0;padding:6px;border:1px solid var(--line);border-radius:7px;background:#0b1522;color:#dce7f3;text-align:left}.styleOption:hover{border-color:var(--cyan);background:#15283a}.styleOption img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#09111b;border-radius:4px}.styleOption b,.styleOption small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.styleOption b{margin-top:6px;font-size:10px}.styleOption small{margin-top:3px;color:var(--muted);font-size:9px}</style>
 </head>
@@ -39,7 +47,29 @@ function openLoadingScreen(index){openFullscreen(index)}function closeOverlay(){
 <section id="sprites" class="view"><div class="eyebrow">Chapter system / Epic content API</div><div class="sectionHead"><h2>Sprite tracker</h2><span id="spriteCount">Scanning tracked content...</span></div><div class="lockerHero"><h3>Override Sprite system</h3><p style="color:var(--muted);font-size:12px;line-height:1.5">A live index of Sprite-related terms and content from Epic's public content snapshot. This tracker reports what the API exposes and does not invent missing in-game stats.</p></div><div id="spriteGrid" class="catalogGrid" style="margin-top:16px"></div></section>
 <section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
 <section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"></div><div id="outfitGrid" class="catalogGrid"></div></section>
-<section id="models" class="view"><div class="eyebrow">Battle Royale / mesh previews</div><div class="sectionHead"><h2>Models</h2><span id="modelsCount"></span></div><div id="modelsGrid" class="catalogGrid"></div></section>
+<section id="models" class="view">
+<div class="eyebrow">All tracked datasets / mesh & prop references</div>
+<div class="sectionHead"><h2>Models</h2><span id="modelsCount"></span></div>
+<div class="toolbar" id="modelTools">
+  <button class="control active" data-model-filter="all">All Models</button>
+  <button class="control" data-model-filter="mesh">Mesh Variants</button>
+  <button class="control" data-model-filter="prop">Props</button>
+  <button class="control" data-model-filter="weapon">Weapon Assets</button>
+  <button class="control" data-model-filter="lego">LEGO Props</button>
+  <button class="control" data-model-filter="mode:reload">Reload</button>
+  <button class="control" data-model-filter="mode:blitz">Blitz</button>
+  <button class="control" data-model-filter="mode:zerobuild">Zero Build</button>
+  <button class="control" data-model-filter="mode:br">Battle Royale</button>
+</div>
+<div class="modelNotice">
+  <strong>What this tab exposes:</strong>
+  the public Fortnite-Datamining repository does not contain decrypted .uasset/.umap
+  mesh files. This catalog therefore indexes <em>model/mesh/prop references exposed by
+  the tracked JSON data</em> — such as cosmetic mesh variants, weapon asset paths, and
+  LEGO prop records — rather than pretending it has extracted 3D meshes.
+</div>
+<div id="modelsGrid" class="catalogGrid"></div>
+</section>
 <section id="cosmetics" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div><div class="toolbar" id="cosmeticTools"></div><div id="cosmeticGrid" class="catalogGrid"></div></section>
 <section id="lego" class="view"><div class="eyebrow">More collections</div><div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div><div class="toolbar"><button class="control active" data-collection="lego">LEGO cosmetics</button><button class="control" data-collection="lego_kits">Kits</button></div><div id="legoGrid" class="catalogGrid"></div></section>
 <section id="festival" class="view"><div class="eyebrow">Festival / music</div><div class="sectionHead"><h2>Festival library</h2><span id="festivalCount"></span></div><div class="toolbar"><button class="control active" data-collection="tracks">Jam tracks</button><button class="control" data-collection="instruments">Instruments</button></div><div id="festivalGrid" class="catalogGrid"></div></section>
@@ -75,54 +105,328 @@ function renderSprites(){const records=spriteRecords();$('#spriteCount').textCon
 function renderCatalog(key,target,type='Item'){let data=arr(key).filter(matches);const el=$(target);el.previousElementSibling?.querySelector('span')&&(el.previousElementSibling.querySelector('span').textContent=`${data.length.toLocaleString()} records`);el.innerHTML=data.slice(0,240).map(x=>interactiveCard(x,type)).join('')||'<div class="empty">No records match your search.</div>';if(data.length>240)el.insertAdjacentHTML('afterend',`<div class="empty" style="padding:18px;margin-top:12px">Showing 240 of ${data.length.toLocaleString()} records. Refine your search to explore more.</div>`) }
 function renderCosmetics(){const types=['all','Outfit','Back Bling','Pickaxe','Emote','Spray','Wrap','Loading Screen','Emoticon','Glider','Shoes','Sidekick','Contrail','Lobby Music','Aura','Pet'];$('#cosmeticTools').innerHTML=types.map(type=>`<button class="control ${state.cosmeticType===type?'active':''}" data-cosmetic-type="${esc(type)}">${type==='all'?'Every cosmetic':type}</button>`).join('');$$('#cosmeticTools [data-cosmetic-type]').forEach(button=>button.addEventListener('click',()=>{state.cosmeticType=button.dataset.cosmeticType;renderCosmetics()}));let data=arr('br').filter(x=>state.cosmeticType==='all'||(x.type?.displayValue||x.type?.value)===state.cosmeticType).filter(matches);$('#cosmeticCount').textContent=`${data.length.toLocaleString()} records`;$('#cosmeticGrid').innerHTML=data.slice(0,240).map(x=>interactiveCard(x,'Cosmetic')).join('')||'<div class="empty">No records match your search.</div>'}
 function renderOutfits(){let data=arr('br').filter(x=>x.type?.value==='outfit'||x.type?.displayValue==='Outfit').filter(matches);$('#outfitCount').textContent=`${data.length.toLocaleString()} records`;$('#outfitGrid').innerHTML=data.slice(0,240).map(x=>interactiveCard(x,'Outfit')).join('')||'<div class="empty">No outfits match your search.</div>'}
-function getMeshModels(){
-  const items = arr('br').filter((x) => Array.isArray(x?.variants));
+
+function modelModeFlags(item){
+  const hay = JSON.stringify(item || {}).toLowerCase();
+  const flags = [];
+  if(/reload|reloadsquad|reload\s+mode/.test(hay)) flags.push("reload");
+  if(/blitz/.test(hay)) flags.push("blitz");
+  if(/zero[\s_-]?build|nobuild|no[\s_-]?build/.test(hay)) flags.push("zerobuild");
+  if(/battle[\s_-]?royale|\bathena\b/.test(hay)) flags.push("br");
+  return flags.length ? flags : ["other"];
+}
+
+function modelRefId(parts){
+  return parts
+    .filter(Boolean)
+    .map(x=>String(x).replace(/[^A-Za-z0-9_.-]/g,"_"))
+    .join("_")
+    .replace(/_+/g,"_")
+    .replace(/^_|_$/g,"");
+}
+
+function getAllTrackedModels(){
   const models = [];
-  for (const item of items) {
-    for (const variant of item.variants || []) {
-      const channel = String(variant?.channel || variant?.type || 'Mesh');
-      if (!/mesh/i.test(channel) && !/mesh/i.test(String(variant?.type || ''))) continue;
-      for (const option of variant.options || []) {
-        const preview = option?.image || image(item);
-        const propId = [item?.id, channel, option?.tag || option?.name || 'mesh']
-          .filter(Boolean)
-          .map((part) => String(part).replace(/[^A-Za-z0-9_]/g, '_'))
-          .join('_')
-          .replace(/_+/g, '_')
-          .replace(/^_|_$/g, '');
-        models.push({
-          item,
+  const seen = new Set();
+
+  const add = (entry) => {
+    const key = entry.source + "::" + entry.refId;
+    if(seen.has(key)) return;
+    seen.add(key);
+    models.push(entry);
+  };
+
+  /* BR cosmetic mesh/prop variants */
+  for(const item of arr("br")){
+    for(const variant of (item?.variants || [])){
+      const channel = String(variant?.channel || variant?.type || "");
+      const channelText = channel.toLowerCase();
+      const isMesh = /mesh|prop/.test(channelText);
+      if(!isMesh) continue;
+
+      for(const option of (variant.options || [])){
+        const refId = modelRefId([
+          item?.id,
           channel,
-          option,
-          preview,
-          propId,
+          option?.tag,
+          option?.name
+        ]) || item?.id;
+
+        add({
+          source:"BR Cosmetics",
+          kind:/prop/i.test(channel) ? "prop" : "mesh",
+          modeFlags:modelModeFlags(item),
+          name:option?.name || item?.name || item?.displayName || "Mesh Variant",
+          parent:item?.name || item?.displayName || item?.id || "Unknown",
+          item,
+          refId,
+          preview:option?.image || image(item),
+          channel,
+          tag:option?.tag || ""
         });
       }
     }
   }
+
+  /* Weapon assets: current.json exposes IDs, paths, tags and optional images.
+     This is a reference index, not an extracted 3D mesh catalog. */
+  for(const weapon of arr("weapons")){
+    const refId = modelRefId([
+      weapon?.id,
+      weapon?.path
+    ]) || weapon?.id;
+
+    if(!refId) continue;
+
+    add({
+      source:"Weapons",
+      kind:"weapon",
+      modeFlags:modelModeFlags(weapon),
+      name:weapon?.name || weapon?.id || "Weapon Asset",
+      parent:weapon?.type || "FortWeapon",
+      item:weapon,
+      refId,
+      preview:weapon?.imageUrl || weapon?.smallImageUrl || "",
+      channel:"Weapon Asset",
+      tag:weapon?.path || ""
+    });
+  }
+
+  /* LEGO Kits explicitly expose JunoBuildingProp records. */
+  for(const item of arr("lego_kits")){
+    const typeText = JSON.stringify(item || {}).toLowerCase();
+    if(!/junobuildingprop|legoprop/.test(typeText)) continue;
+
+    const refId =
+      item?.id ||
+      modelRefId([item?.name, "LEGO_Prop"]);
+
+    add({
+      source:"LEGO Kits",
+      kind:"lego",
+      modeFlags:modelModeFlags(item),
+      name:item?.name || item?.id || "LEGO Prop",
+      parent:item?.type?.displayValue || item?.type || "LEGO Prop",
+      item,
+      refId,
+      preview:item?.images?.large || item?.images?.small || item?.images?.wide || image(item),
+      channel:"JunoBuildingProp",
+      tag:(
+        (item?.metaTags || [])
+          .filter(x=>/prop/i.test(String(x)))
+          .join(", ")
+      )
+    });
+  }
+
+  /* Cars / Instruments / other tracked datasets can expose model-like
+     path/variant fields; index them when an explicit mesh/model/prop signal exists. */
+  for(const key of ["cars","instruments","tracks","beans","lego"]){
+    for(const item of arr(key)){
+      const hay = JSON.stringify(item || {});
+      if(!/mesh|model|prop|assetpath|skeletal/i.test(hay)) continue;
+
+      const refId =
+        modelRefId([
+          item?.id,
+          key,
+          item?.assetPath,
+          item?.path
+        ]) || item?.id;
+
+      add({
+        source:key.toUpperCase(),
+        kind:/prop/i.test(hay) ? "prop" : "mesh",
+        modeFlags:modelModeFlags(item),
+        name:item?.name || item?.displayName || item?.id || "Model Reference",
+        parent:key.toUpperCase(),
+        item,
+        refId,
+        preview:image(item),
+        channel:"Tracked asset reference",
+        tag:String(item?.assetPath || item?.path || "")
+      });
+    }
+  }
+
   return models;
 }
-function renderModels(){
-  const models = getMeshModels().filter((entry) => matches(entry.item));
-  $('#modelsCount').textContent=`${models.length.toLocaleString()} mesh variants`;
-  $('#modelsGrid').innerHTML = models.slice(0, 240).map(({ item, channel, option, preview, propId }) => {
-    const title = option?.name || item?.name || 'Mesh variant';
-    const subtitle = option?.tag || 'Mesh';
-    return `
-      <article class="item" style="min-height:0;">
-        <div class="itemImage">
-          ${preview ? `<img loading="lazy" src="${esc(preview)}" alt="${esc(title)}">` : '<span class="placeholder">M</span>'}
-          <span class="badge">MESH</span>
-        </div>
-        <div class="itemBody">
-          <div class="itemName" title="${esc(item?.name || title)}">${esc(item?.name || title)}</div>
-          <div class="itemMeta"><span>${esc(item?.id || 'Unknown ID')}</span><span>${esc(propId || 'No prop ID')}</span></div>
-          <div class="itemMeta" style="margin-top:6px;"><span>${esc(channel)}</span><span>${esc(subtitle)}</span></div>
-        </div>
-      </article>
-    `;
-  }).join('') || '<div class="empty">No mesh variants are exposed in the current cosmetic snapshot.</div>';
+
+let MODEL_CACHE = [];
+
+function modelMatches(entry, query){
+  if(!query) return true;
+
+  const hay = [
+    entry.name,
+    entry.parent,
+    entry.source,
+    entry.kind,
+    entry.refId,
+    entry.channel,
+    entry.tag,
+    ...(entry.modeFlags || []),
+    JSON.stringify(entry.item || {})
+  ].join(" ").toLowerCase();
+
+  return hay.includes(
+    query.toLowerCase()
+  );
 }
+
+function renderModels(){
+  MODEL_CACHE = getAllTrackedModels();
+
+  let filter = "all";
+  const active = document.querySelector(
+    '#modelTools .control.active'
+  );
+  if(active) filter = active.dataset.modelFilter || "all";
+
+  let models = MODEL_CACHE;
+
+  if(filter === "mesh"){
+    models = models.filter(x=>x.kind === "mesh");
+  }else if(filter === "prop"){
+    models = models.filter(x=>x.kind === "prop" || x.kind === "lego");
+  }else if(filter === "weapon"){
+    models = models.filter(x=>x.kind === "weapon");
+  }else if(filter === "lego"){
+    models = models.filter(x=>x.source === "LEGO Kits");
+  }else if(filter.startsWith("mode:")){
+    const mode = filter.slice(5);
+    models = models.filter(x=>(x.modeFlags || []).includes(mode));
+  }
+
+  models = models.filter(
+    x => modelMatches(
+      x,
+      state.query
+    )
+  );
+
+  document.querySelector(
+    '#modelsCount'
+  ).textContent =
+    `${models.length.toLocaleString()} references`;
+
+  document.querySelector(
+    '#modelsGrid'
+  ).innerHTML =
+    models.map(
+      (entry,index) => {
+
+        const imageUrl =
+          entry.preview ||
+          "";
+
+
+        const safeRef =
+          esc(
+            entry.refId ||
+            "No reference ID"
+          );
+
+
+        const source =
+          esc(
+            entry.source
+          );
+
+
+        const kind =
+          esc(
+            entry.kind.toUpperCase()
+          );
+
+
+        const modes =
+          esc(
+            (entry.modeFlags || [])
+              .join(", ")
+          );
+
+
+        const payload =
+          encodeURIComponent(
+            JSON.stringify(
+              entry.item || {},
+              null,
+              2
+            )
+          );
+
+
+        return `
+          <article
+            class="item"
+            data-model-index="${index}"
+          >
+
+            <div class="itemImage">
+
+              ${
+                imageUrl
+                  ? `
+                    <img
+                      loading="lazy"
+                      src="${esc(imageUrl)}"
+                      alt="${esc(entry.name)}"
+                    >
+                  `
+                  : `
+                    <span class="placeholder">
+                      MODEL
+                    </span>
+                  `
+              }
+
+              <span class="badge">
+                ${kind}
+              </span>
+
+            </div>
+
+            <div class="itemBody">
+
+              <div
+                class="itemName"
+                title="${esc(entry.name)}"
+              >
+                ${esc(entry.name)}
+              </div>
+
+              <div class="itemMeta">
+                <span>${source}</span>
+                <span>${modes || "other"}</span>
+              </div>
+
+              <div
+                class="modelRef"
+                title="${safeRef}"
+              >
+                ${safeRef}
+              </div>
+
+              <span class="modelTag">
+                ${esc(entry.channel || "Asset reference")}
+              </span>
+
+            </div>
+
+          </article>
+        `;
+
+      }
+    )
+    .join(
+      ""
+    ) ||
+    `<div class="empty">No model references match this filter.</div>`;
+
+}
+
+
 function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)|preferredslottype\.consumable/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield|utility/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
 function renderWeapons(){const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];const toolbar=$('#weaponsTable').previousElementSibling;if(toolbar&&!$('#weaponCategory')){const select=document.createElement('select');select.id='weaponCategory';select.className='control';select.innerHTML=filters.map(([value,label])=>`<option value="${value}">${label}</option>`).join('');select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});toolbar.insertBefore(select,toolbar.firstChild)}const category=state.weaponCategory||'all';const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));$('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;$('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>${data.length>500?`<div class="empty" style="padding:18px;margin-top:12px">Showing 500 of ${data.length.toLocaleString()} items. Refine your search or category.</div>`:''}`}
 function renderModes(){let data=arr('playlists').filter(matches).filter(x=>{if(state.modeFilter==='all')return true;const s=JSON.stringify(x).toLowerCase();return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle')});$('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;$('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th><th>Tags</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b><br><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td><td>${esc((x.gameplayTags||x.tags||[]).slice(0,3).join(', '))}</td></tr>`).join('')}</tbody></table>`}
@@ -171,6 +475,25 @@ function closeAuth(){const modal=$('#authModal');if(modal)modal.classList.remove
 function setupAccount(){const style=document.createElement('style');style.textContent=('.accountButton{height:38px;padding:0 12px;border:1px solid #36516a;border-radius:7px;background:#14283b;color:#fff;font-size:12px;font-weight:700}.accountButton:hover{border-color:var(--cyan)}.authBackdrop{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(12px)}.authBackdrop.open{display:grid}.authPanel{width:min(410px,100%);padding:25px;border:1px solid #3a536d;border-radius:12px;background:#111c2b;box-shadow:var(--shadow)}.authPanel h2{margin-bottom:8px}.authPanel p{color:var(--muted);font-size:12px;line-height:1.5}.authPanel input{width:100%;height:42px;margin:12px 0;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#fff}.lockerHero{padding:20px;border:1px solid var(--line);border-radius:9px;background:#111c2b}.settingsList{display:grid;gap:10px;max-width:600px}.settingsRow{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px;border:1px solid var(--line);border-radius:8px;background:#111c2b;color:#c8d5e4;font-size:13px}.settingsRow small{display:block;color:var(--muted);margin-top:4px;font-size:11px}.settingsActions{display:flex;gap:8px;flex-wrap:wrap}.detailButton.lockerAdded{background:#294c3d;border-color:#4b8e68;color:#a7f0c0}');document.head.appendChild(style);const topbar=$('.topbar');if(topbar)topbar.insertAdjacentHTML('beforeend','<button class="accountButton" id="accountButton">Sign in</button>');const nav=$('nav');if(nav)nav.insertAdjacentHTML('beforeend','<div class="navGroup"><div class="navLabel">Your space</div><button class="navItem" data-account-view="locker"><span class="navIcon">▣</span>Locker <span class="navCount" id="lockerNavCount">LOCKED</span></button><button class="navItem" data-account-view="settings"><span class="navIcon">⚙</span>Settings</button></div>');const content=$('.content');if(content)content.insertAdjacentHTML('beforeend','<section id="locker" class="view"><div class="eyebrow">Private local collection</div><div class="sectionHead"><h2>Locker</h2><span class="lockerCount">0 saved cosmetics</span></div><div class="lockerHero"><h3 id="lockerGreeting">Sign in to build your locker</h3><p style="color:var(--muted);font-size:12px;line-height:1.5">Save cosmetics you are tracking to this browser. Your collection is only available after signing in.</p></div><div class="catalogGrid" style="margin-top:16px"></div></section><section id="settings" class="view"><div class="eyebrow">Account & preferences</div><div class="sectionHead"><h2>Settings</h2><span>stored on this browser</span></div><div class="settingsList"><div class="settingsRow"><div><b>Account</b><small id="settingsUser">Not signed in</small></div><button class="detailButton" id="settingsAuth">Sign in</button></div><div class="settingsRow"><div><b>Saved locker</b><small>Private to this browser</small></div><button class="detailButton" id="clearLocker">Clear locker</button></div></div></section>');document.body.insertAdjacentHTML('beforeend','<div class="authBackdrop" id="authModal"><form class="authPanel" id="authForm"><button type="button" class="closeOverlay" onclick="closeAuth()" aria-label="Close">×</button><div class="eyebrow">Dropzone account</div><h2>Sign in</h2><p>This local profile keeps your locker on this browser. No password or external account is collected.</p><input required maxlength="40" placeholder="Display name" autocomplete="nickname"><div class="detailActions"><button type="button" class="detailButton" onclick="closeAuth()">Cancel</button><button class="detailButton primary">Continue</button></div></form></div>');const accountButton=$('#accountButton');if(accountButton)accountButton.addEventListener('click',()=>currentUser?setView('settings'):openAuth());const authForm=$('#authForm');if(authForm)authForm.addEventListener('submit',e=>{e.preventDefault();const input=authForm.querySelector('input');const nextUser=(input?input.value.trim():'').trim();if(!nextUser){if(input)input.focus();return;}currentUser=nextUser;safeStorage.setItem('dropzone_user',currentUser);closeAuth();updateAccountUI();setView('locker')});$$('[data-account-view]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.accountView==='locker'&&!currentUser)return openAuth();setView(button.dataset.accountView)}));const settingsAuth=$('#settingsAuth');if(settingsAuth)settingsAuth.addEventListener('click',()=>currentUser?signOut():openAuth());const clearLockerBtn=$('#clearLocker');if(clearLockerBtn)clearLockerBtn.addEventListener('click',()=>{lockerItems=[];safeStorage.setItem('dropzone_locker','[]');renderLocker();updateAccountUI();toast('Locker cleared')});const lockerAction=document.createElement('button');lockerAction.className='detailButton';lockerAction.id='detailLocker';lockerAction.textContent='Add to locker';const detailFullscreen=$('#detailFullscreen');if(detailFullscreen&&detailFullscreen.parentElement){detailFullscreen.parentElement.insertBefore(lockerAction,detailFullscreen);}lockerAction.addEventListener('click',()=>toggleLocker(activeItemIndex));const originalOpenItem=openItem;openItem=index=>{activeItemIndex=index;originalOpenItem(index);updateLockerButton()};const originalOpenLoadingScreen=openLoadingScreen;openLoadingScreen=index=>{activeItemIndex=index;originalOpenLoadingScreen(index)};updateAccountUI();renderLocker()}
 function updateLockerButton(){const button=$('#detailLocker');if(!button)return;const saved=activeItemIndex>=0&&lockerItems.some(x=>x.id===ITEM_CACHE[activeItemIndex]?.id);button.textContent=saved?'Remove from locker':'Add to locker';button.classList.toggle('lockerAdded',saved)}
 function renderStyles(item){let panel=$('#styleGallery');if(!panel){panel=document.createElement('div');panel.id='styleGallery';panel.className='styleGallery';const target=$('#detailFullscreen')?.parentElement;if(target)target.parentElement.insertBefore(panel,target)}const variants=(item?.variants||[]).flatMap(group=>(group.options||[]).map(option=>({...option,channel:group.channel||'Style'})));panel.innerHTML=variants.length?`<div class="detailLabel">Styles & variants (${variants.length})</div><div class="styleGrid">${variants.map((option,index)=>`<button class="styleOption" data-style-index="${index}" title="${esc(option.name||option.tag||'Style')}">${option.image?`<img src="${esc(option.image)}" alt="${esc(option.name||option.tag||'Style')}">`:'<span>NO PREVIEW</span>'}<b>${esc(option.name||option.tag||'Style')}</b><small>${esc(option.channel)}</small></button>`).join('')}</div>`:'<div class="detailLabel">Styles & variants</div><div class="detailValue">No alternate styles are exposed for this cosmetic.</div>';panel.querySelectorAll('.styleOption').forEach((button,index)=>button.addEventListener('click',()=>{const option=variants[index];if(option?.image){$('#viewerTitle').textContent=option.name||option.tag||'Style';$('#viewerImage').src=option.image;$('#viewerImage').alt=option.name||option.tag||'Style';$('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));$('#fullscreenViewer').classList.add('open');$('#detailBackdrop').classList.remove('open')}}))}
+
+document.querySelectorAll("#modelTools .control").forEach(
+  button => button.addEventListener(
+    "click",
+    () => {
+      document
+        .querySelectorAll("#modelTools .control")
+        .forEach(
+          b => b.classList.toggle(
+            "active",
+            b === button
+          )
+        );
+
+      renderModels();
+    }
+  )
+);
+
 document.addEventListener('click',event=>{if(event.target.closest('.item')&&activeItemIndex>=0)setTimeout(()=>renderStyles(ITEM_CACHE[activeItemIndex]),0)});
 function previewStyle(item,option){if(!option?.image)return;const label=option.name||option.tag||'Style';$('#detailMedia').innerHTML=`<img src="${esc(option.image)}" alt="${esc(label)}">`;const fullscreen=$('#detailFullscreen');if(fullscreen)fullscreen.onclick=()=>{ $('#viewerTitle').textContent=label;$('#viewerImage').src=option.image;$('#viewerImage').alt=label;$('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));$('#fullscreenViewer').classList.add('open');$('#detailBackdrop').classList.remove('open')};toast(`Previewing ${label}`)}
 document.addEventListener('click',event=>{const button=event.target.closest?.('.styleOption');if(!button||activeItemIndex<0)return;event.preventDefault();event.stopImmediatePropagation();const variants=(ITEM_CACHE[activeItemIndex]?.variants||[]).flatMap(group=>(group.options||[]).map(option=>({...option,channel:group.channel||'Style'})));previewStyle(ITEM_CACHE[activeItemIndex],variants[Number(button.dataset.styleIndex)])},true);
