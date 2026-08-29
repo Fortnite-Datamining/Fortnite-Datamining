@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-29
+- **22:22** Epic Content Pages
 - **19:56** Item Shop, News, Epic Content Pages - +1 new (Get More With V-Bucks) - -1 removed
 - **13:54** BR Cosmetics, Item Shop
 - **08:02** News - +1 new (Dr. Eggman Outfit) - -1 removed
