@@ -72,6 +72,37 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 .dreamPick.equipped .itemImage:after{content:'✓ EQUIPPED';position:absolute;left:8px;bottom:8px;padding:3px 6px;border-radius:4px;background:#66ddffe6;color:#07121d;font:800 9px 'Space Grotesk'}
 @media(max-width:900px){.dreamLocker{grid-template-columns:1fr}.dreamOutfitPreview{aspect-ratio:1.1}}
 @media(max-width:900px){.onlinePill{display:none}}
+
+.playerLookup{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;margin:18px 0}
+.playerLookup input{height:46px;padding:0 14px;border:1px solid var(--line);border-radius:8px;background:#0a111c;color:#fff;outline:0}
+.playerLookup input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #66ddff1b}
+.playerLookup button{height:46px}
+.playerResult{margin-top:16px}
+.playerIdentity{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:22px;border:1px solid #31516b;border-radius:12px;background:linear-gradient(135deg,#13283a,#101926);box-shadow:var(--shadow)}
+.playerIdentity h2{margin:3px 0 8px;font-size:40px}
+.playerId{color:var(--muted);font:11px/1.5 monospace;word-break:break-all}
+.playerPlatformList{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.playerPlatform{padding:5px 8px;border:1px solid #355269;border-radius:999px;background:#0d1925;color:#bfe7f5;font-size:10px;text-transform:uppercase;letter-spacing:.06em}
+.playerStatus{padding:8px 10px;border:1px solid #2fd88a55;border-radius:7px;background:#0f2a20;color:#bfeed4;font-size:11px;white-space:nowrap}
+.playerStatus.private{border-color:#ff769f55;background:#2a1320;color:#ffc1d2}
+.playerStatsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
+.playerStatCard{padding:16px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
+.playerStatCard label{display:block;color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}
+.playerStatCard strong{display:block;margin-top:7px;font:800 30px/1 'Barlow Condensed'}
+.playerStatCard small{display:block;margin-top:6px;color:var(--muted);font-size:10px}
+.playerModePanel{margin-top:12px;padding:17px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
+.playerModePanel h3{margin-bottom:12px;font:700 22px 'Barlow Condensed';text-transform:uppercase}
+.playerModeGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.playerMode{padding:13px;border:1px solid #263750;border-radius:8px;background:#0d1724}
+.playerMode b{display:block;color:#fff;font-size:12px}
+.playerMode span{display:block;margin-top:5px;color:var(--muted);font-size:10px;line-height:1.5}
+.playerRaw{margin-top:12px}
+.playerRaw pre{max-height:330px;overflow:auto;padding:14px;border:1px solid var(--line);border-radius:8px;background:#080f18;color:#9fb2c9;font:11px/1.5 monospace;white-space:pre-wrap}
+.playerActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.playerLoading{padding:28px;text-align:center;border:1px dashed #355269;border-radius:9px;color:var(--muted)}
+.playerNotice{margin-top:12px;padding:13px 15px;border:1px solid #5a4250;border-radius:8px;background:#211722;color:#d9bfca;font-size:12px;line-height:1.55}
+@media(max-width:900px){.playerStatsGrid{grid-template-columns:repeat(2,1fr)}.playerModeGrid{grid-template-columns:1fr}.playerIdentity{grid-template-columns:1fr}.playerStatus{justify-self:start}}
+@media(max-width:560px){.playerLookup{grid-template-columns:1fr}.playerStatsGrid{grid-template-columns:1fr 1fr}.playerIdentity h2{font-size:33px}}
 </style>
 </head>
 <body>
@@ -80,7 +111,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <aside class="sidebar" id="sidebar">
   <div class="logo"><span class="logoMark">F</span><div>DROPZONE<small>FORTNITE DATA LAB</small></div></div>
   <nav>
-    <div class="navGroup"><div class="navLabel">Live intelligence</div><button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button><button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button><button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button><button class="navItem" data-view="fallguys"><span class="navIcon">🫘</span>Fall Guys</button><button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button></div>
+    <div class="navGroup"><div class="navLabel">Live intelligence</div><button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button><button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button><button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button><button class="navItem" data-view="fallguys"><span class="navIcon">🫘</span>Fall Guys</button><button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button><button class="navItem" data-view="playerstats"><span class="navIcon">◉</span>Player Stats</button></div>
     <div class="navGroup"><div class="navLabel">Battle Royale</div><button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button><button class="navItem" data-view="dreamlocker"><span class="navIcon">▣</span>Dream Locker</button><button class="navItem" data-view="cosmetics" data-cosmetic-type="Emote"><span class="navIcon">✦</span>Emotes</button><button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button><button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button><button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button></div>
     <div class="navGroup"><div class="navLabel">More collections</div><button class="navItem" data-view="lego"><span class="navIcon">▦</span>LEGO</button><button class="navItem" data-view="festival"><span class="navIcon">♫</span>Festival & tracks</button><button class="navItem" data-view="vehicles"><span class="navIcon">▰</span>Cars</button><button class="navItem" data-view="banners"><span class="navIcon">⚑</span>Banners</button></div>
   </nav>
@@ -93,6 +124,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <section id="shop" class="view"><div class="eyebrow">Live intelligence</div><div class="sectionHead"><h2>Item shop</h2><div class="shopSyncWrap"><span id="shopDate">Loading...</span><span id="shopSync" class="shopSync">syncing</span><button class="control" id="shopRefreshBtn" type="button">⟳ Refresh now</button></div></div><div class="toolbar"><button class="control active" data-shop-filter="all">All offers</button><button class="control" data-shop-filter="outfit">Outfits</button><button class="control" data-shop-filter="pickaxe">Pickaxes</button><button class="control" data-shop-filter="emote">Emotes</button><button class="control" data-shop-filter="bundle">Bundles</button></div><div id="shopSections" class="shopSections"></div></section>
 <section id="news" class="view"><div class="eyebrow">Epic content feed</div><div class="sectionHead"><h2>News feed</h2><span>Battle Royale / Save the World</span></div><div id="newsAll" class="newsGrid"></div></section>
 <section id="fallguys" class="view"><div class="eyebrow">Fall Guys crossover / bean styles</div><div class="sectionHead"><h2>Fall Guys</h2><span id="fallguysCount"></span></div><div id="fallguysGrid" class="catalogGrid"></div></section>
+<section id="playerstats" class="view"><div class="eyebrow">Epic account intelligence</div><div class="sectionHead"><h2>Player Stats</h2><span>Search an Epic display name</span></div><p style="color:var(--muted);font-size:12px;line-height:1.6;max-width:760px">Enter a Fortnite/Epic display name. Dropzone will resolve the matching account, show the Epic account ID, then load public Battle Royale statistics when the player has stats visibility enabled.</p><form class="playerLookup" id="playerLookupForm"><input id="playerLookupInput" maxlength="32" autocomplete="off" placeholder="Enter a Fortnite player name..." aria-label="Fortnite player name"><button class="control primary" type="submit">Search player</button></form><div id="playerResult" class="playerResult"><div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div></div></section>
 <section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
 <section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"></div><div id="outfitGrid" class="catalogGrid"></div></section>
 <section id="dreamlocker" class="view"><div class="eyebrow">Battle Royale / build your loadout</div><div class="sectionHead"><h2>Dream Locker</h2><span id="dreamLockerCount"></span></div><div class="dreamLocker"><div class="dreamStage"><div class="dreamStageGlow"></div><div class="dreamOutfitPreview" id="dreamOutfitPreview"><span class="placeholder">Pick an Outfit to start your dream loadout</span></div><div class="dreamSlots" id="dreamSlots"></div><div class="dreamStageFoot"><button class="control primary" id="dreamRandomize" type="button">🎲 Randomize</button><button class="control" id="dreamClear" type="button">Clear all</button></div></div><div class="dreamPicker"><div class="toolbar" id="dreamTools"></div><div id="dreamGrid" class="catalogGrid"></div></div></div></section>
@@ -106,8 +138,12 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 </div></main></div><div id="detailBackdrop" class="detailBackdrop" aria-hidden="true"><article class="detailPanel"><button class="closeOverlay" onclick="closeOverlay()" aria-label="Close">×</button><div class="detailMedia" id="detailMedia"></div><div class="detailContent"><div class="eyebrow" id="detailType">COSMETIC</div><h2 id="detailName"></h2><div class="detailLabel">Item ID</div><div class="detailValue" id="detailId"></div><div class="detailLabel">Metadata</div><div class="detailValue" id="detailMeta"></div><div class="detailActions"><button class="detailButton primary" id="detailFullscreen">View fullscreen</button><button class="detailButton" id="detailRaw">Show raw JSON</button></div><pre class="jsonData" id="detailJson"></pre></div></article></div><div id="fullscreenViewer" class="fullscreenViewer"><div class="viewerBar"><strong id="viewerTitle">Loading screen</strong><button class="closeOverlay" onclick="closeOverlay()" aria-label="Close fullscreen">×</button></div><div class="viewerStage"><img id="viewerImage" alt=""></div><div class="viewerHint">Click close or press Escape to return</div></div><div id="toast" class="toast"></div>
 <script>
 const DATA={};
+const PLAYER_API='https://dev.fnapi.osirion.gg/v1';
+const PLAYER_ACCOUNT_LOOKUP=(name,platform='epic')=>`${PLAYER_API}/accounts/lookup-by-display-name?displayName=${encodeURIComponent(name)}&platform=${encodeURIComponent(platform)}`;
+const PLAYER_STATS_LOOKUP=(accountId)=>`${PLAYER_API}/stats/account?accountId=${encodeURIComponent(accountId)}`;
 const DATASETS={br:'https://fortnite-api.com/v2/cosmetics/br',shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
 const SHOP_REFRESH_MS=3*60*1000;let shopLastSynced=0;
+const playerState={account:null,stats:null,raw:null};
 const state={view:'home',query:'',collection:{lego:'lego',festival:'tracks',vehicles:'cars'},shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,cosmeticType:'all',dreamCategory:'Outfit',dreamLoadout:{}};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -175,7 +211,82 @@ function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.g
 function renderWeapons(){const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];const toolbar=$('#weaponsTable').previousElementSibling;if(toolbar&&!$('#weaponCategory')){const select=document.createElement('select');select.id='weaponCategory';select.className='control';select.innerHTML=filters.map(([value,label])=>`<option value="${value}">${label}</option>`).join('');select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});toolbar.insertBefore(select,toolbar.firstChild)}const category=state.weaponCategory||'all';const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));$('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;$('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>${data.length>500?`<div class="empty" style="padding:18px;margin-top:12px">Showing 500 of ${data.length.toLocaleString()} items. Refine your search or category.</div>`:''}`}
 function renderModes(){let data=arr('playlists').filter(matches).filter(x=>{if(state.modeFilter==='all')return true;const s=JSON.stringify(x).toLowerCase();return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle')});$('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;$('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th><th>Tags</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b><br><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td><td>${esc((x.gameplayTags||x.tags||[]).slice(0,3).join(', '))}</td></tr>`).join('')}</tbody></table>`}
 async function renderMap(){const d=DATA.map?.data||{};const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map;$('#mapImage').src=url||'';$('#mapMeta').textContent=d.date?`Updated ${new Date(d.date).toLocaleDateString()}`:'current map snapshot';if(!url)$('#mapImage').alt='Map image unavailable'}
-function renderView(){const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='dreamlocker')renderDreamLocker();if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
+function firstDefined(...values){return values.find(v=>v!==undefined&&v!==null&&v!=='')}
+function deepFind(obj,keys,seen=new Set()){
+  if(!obj||typeof obj!=='object'||seen.has(obj))return undefined;seen.add(obj);
+  for(const key of keys)if(Object.prototype.hasOwnProperty.call(obj,key)&&obj[key]!==null&&obj[key]!==undefined)return obj[key];
+  for(const value of Object.values(obj)){const found=deepFind(value,keys,seen);if(found!==undefined)return found}
+  return undefined;
+}
+function numText(v){return typeof v==='number'&&Number.isFinite(v)?v.toLocaleString():String(v??'--')}
+function statValue(raw,names){const v=deepFind(raw,names);return typeof v==='object'&&v!==null?firstDefined(v.value,v.total,v.amount):v}
+function findModeStats(raw){
+  const out=[];
+  const visit=(x,path=[])=>{
+    if(!x||typeof x!=='object')return;
+    if(!Array.isArray(x)){
+      const keys=Object.keys(x);
+      const hasStats=keys.some(k=>/wins?|kills|matches|deaths|kd|winRate|winpercentage|matchesplayed/i.test(k));
+      if(hasStats){
+        const label=path.filter(Boolean).slice(-2).join(' / ')||'Overall';
+        if(!out.some(a=>a.label===label))out.push({label,data:x});
+      }
+      Object.entries(x).forEach(([k,v])=>visit(v,[...path,k]));
+    }else x.forEach((v,i)=>visit(v,[...path,String(i)]));
+  };
+  visit(raw);
+  return out.slice(0,9);
+}
+function modeMetric(d,names){return statValue(d,names)}
+function renderPlayerResult(){
+  const el=$('#playerResult');if(!el)return;
+  if(!playerState.account){el.innerHTML='<div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div>';return}
+  const a=playerState.account;const details=a.accountDetails||a.details||a;
+  const display=firstDefined(details.epic?.displayName,details.epic?.name,details.displayName,details.name,a.displayName,a.name,$('#playerLookupInput')?.value)||'Unknown player';
+  const platformNames=Object.entries(details).filter(([k,v])=>v&&typeof v==='object'&&/displayname|name|id/i.test(JSON.stringify(v))).map(([k])=>k).filter(k=>!['epic'].includes(k));
+  const accountId=firstDefined(a.accountId,a.id,details.accountId,details.epic?.accountId,details.epic?.id)||'Unavailable';
+  const st=playerState.stats;
+  let top=[];
+  const lifetime=st?.lifetime||st?.data?.lifetime||st?.stats?.all?.overall||st?.data?.stats?.all?.overall||st;
+  const kills=modeMetric(lifetime,['kills','eliminations']);
+  const deaths=modeMetric(lifetime,['deaths']);
+  const kd=modeMetric(lifetime,['kd','k/d','kdr','killDeathRatio']);
+  const wins=modeMetric(lifetime,['wins','victories']);
+  const matches=modeMetric(lifetime,['matches','matchesplayed','matchesPlayed','gamesPlayed']);
+  const winRate=modeMetric(lifetime,['winRate','winrate','winpercentage','winPercentage']);
+  const timePlayed=modeMetric(lifetime,['timePlayed','timeplayed','minutesPlayed','minutesplayed']);
+  const fallbackKD=(kd===undefined||kd===null||kd==='')&&(kills!=null&&deaths!=null)?(Number(deaths)?(Number(kills)/Number(deaths)).toFixed(2):'--'):kd;
+  top=[['K/D',fallbackKD,'green'],['Kills',kills,'cyan'],['Wins',wins,'yellow'],['Matches',matches,'pink']];
+  const modes=findModeStats(st);
+  el.innerHTML=`<div class="playerIdentity"><div><div class="eyebrow">Epic account resolved</div><h2>${esc(display)}</h2><div class="playerId">Epic Account ID: ${esc(accountId)}</div>${platformNames.length?`<div class="playerPlatformList">${platformNames.map(x=>`<span class="playerPlatform">${esc(x)}</span>`).join('')}</div>`:''}</div><div class="playerStatus ${st?'':'private'}">${st?'PUBLIC STATS FOUND':'ACCOUNT FOUND'}</div></div>${st?`<div class="playerStatsGrid">${top.map(([label,value,color])=>`<div class="playerStatCard"><label>${esc(label)}</label><strong style="color:var(--${color})">${esc(numText(value))}</strong></div>`).join('')}</div><div class="playerStatsGrid">${[['Win rate',winRate],['Deaths',deaths],['Time played',timePlayed],['Lifetime score',statValue(lifetime,['score','points'])]].map(([label,value])=>`<div class="playerStatCard"><label>${esc(label)}</label><strong>${esc(numText(value))}</strong></div>`).join('')}</div>${modes.length?`<div class="playerModePanel"><h3>Mode breakdown</h3><div class="playerModeGrid">${modes.map(m=>{const d=m.data;const mk=modeMetric(d,['kills','eliminations']);const mw=modeMetric(d,['wins','victories']);const mm=modeMetric(d,['matches','matchesplayed','matchesPlayed']);const mkd=modeMetric(d,['kd','k/d','kdr','killDeathRatio']);return `<div class="playerMode"><b>${esc(m.label)}</b><span>K/D: ${esc(numText(mkd))} · Kills: ${esc(numText(mk))}<br>Wins: ${esc(numText(mw))} · Matches: ${esc(numText(mm))}</span></div>`}).join('')}</div></div>`:''}`:'<div class="playerNotice">The Epic account was found, but public Battle Royale stats were not returned. The player may have career/stat visibility disabled, or the stats service may not have data for this account.</div>'}<div class="playerActions"><button class="control" type="button" onclick="copyPlayerId()">Copy Epic ID</button><button class="control" type="button" onclick="document.querySelector('#playerRaw').open=!document.querySelector('#playerRaw').open">Show raw response</button><button class="control" type="button" onclick="clearPlayerStats()">Clear</button></div><details class="playerRaw" id="playerRaw"><summary class="control" style="display:inline-block">Raw API JSON</summary><pre>${esc(JSON.stringify({account:playerState.account,stats:playerState.stats},null,2))}</pre></details>`;
+}
+async function lookupPlayer(displayName){
+  const input=$('#playerLookupInput');const el=$('#playerResult');const query=String(displayName||'').trim();
+  if(!query)return toast('Enter a Fortnite display name first.');
+  if(query.length>32)return toast('Epic display names can be up to 32 characters.');
+  el.innerHTML='<div class="playerLoading">Resolving Epic account…</div>';playerState.account=null;playerState.stats=null;playerState.raw=null;
+  try{
+    const r=await fetch(PLAYER_ACCOUNT_LOOKUP(query));if(!r.ok){if(r.status===404)throw Error('Player not found.');throw Error(`Account lookup failed (${r.status}).`)}
+    const account=await r.json();playerState.raw={account};
+    const candidate=account?.accounts?.[0]||account?.data?.accounts?.[0]||account?.data?.account||account?.account||account;
+    if(!candidate)throw Error('No matching Epic account was returned.');
+    playerState.account=candidate;renderPlayerResult();
+    const accountId=firstDefined(candidate.accountId,candidate.id,candidate.accountDetails?.accountId,candidate.accountDetails?.epic?.accountId,candidate.accountDetails?.epic?.id);
+    if(!accountId)return;
+    try{
+      el.querySelector('.playerStatus')?.replaceChildren(document.createTextNode('LOADING STATS…'));
+      const sr=await fetch(PLAYER_STATS_LOOKUP(accountId));
+      if(sr.ok){playerState.stats=await sr.json();playerState.raw.stats=playerState.stats;renderPlayerResult()}
+      else if(sr.status===403||sr.status===404){renderPlayerResult()}
+      else throw Error(`Stats lookup failed (${sr.status}).`);
+    }catch(statsErr){console.warn('Player stats request:',statsErr);renderPlayerResult()}
+  }catch(e){el.innerHTML=`<div class="playerNotice">${esc(e.message||'Player lookup failed.')}<br><small>Some accounts cannot be resolved or have private statistics.</small></div>`}
+}
+function copyPlayerId(){const a=playerState.account||{};const id=firstDefined(a.accountId,a.id,a.accountDetails?.accountId,a.accountDetails?.epic?.accountId,a.accountDetails?.epic?.id);if(!id)return toast('No Epic ID available.');navigator.clipboard?.writeText(String(id)).then(()=>toast('Epic ID copied')).catch(()=>toast(String(id)))}
+function clearPlayerStats(){playerState.account=null;playerState.stats=null;playerState.raw=null;renderPlayerResult();$('#playerLookupInput').focus()}
+$('#playerLookupForm')?.addEventListener('submit',e=>{e.preventDefault();lookupPlayer($('#playerLookupInput').value)});
+
+function renderView(){const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');if(v==='playerstats')renderPlayerResult();if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='dreamlocker')renderDreamLocker();if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
 function setView(v){state.view=v;renderView()}
 $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{if(x.dataset.cosmeticType)state.cosmeticType=x.dataset.cosmeticType;setView(x.dataset.view)}));
 $('#menu').addEventListener('click',()=>$('#sidebar').classList.toggle('open'));$('#search').addEventListener('input',e=>{state.query=e.target.value.trim();if(state.view!=='home')renderView();else{renderNews();renderStats()}});
