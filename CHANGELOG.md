@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-30
+- **12:05** Epic Content Pages
 - **00:30** Item Shop - +32 new (Clix Bear, Underdome Megaphone, Omission, T0M8T0HE4D, Psycho Bandit, +27 more) - -25 removed
 
 ## 2026-08-29
