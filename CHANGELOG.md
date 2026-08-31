@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-08-31
+- **14:46** BR Cosmetics, Item Shop, News - +1 new (Cheat Code Monday Live Now) - -1 removed
 - **00:43** BR Cosmetics, Item Shop, News, AES Keys, Epic Content Pages - +45 new (Lush Life, Harley's Boogie Bat, Dark Grasp, Summer Snapper, Tracker, +40 more) - -78 removed
 
 ## 2026-08-30
