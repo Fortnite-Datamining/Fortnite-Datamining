@@ -1938,7 +1938,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-08-31T21:08:06.131Z",
+  "lastModified": "2026-09-01T02:20:32.637Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -38735,7 +38735,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-08-28T23:43:57.930Z",
+    "lastModified": "2026-09-01T02:20:32.637Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -41262,7 +41262,244 @@
       "customTextReplacements": [
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "{Ecosystem_Platform_Likert_Agreement}",
+          "textReplacementTag": "Game_Elements_FNBR",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Types",
+              "textID": "Sprite Types"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Cheat Codes",
+              "textID": "Cheat Codes"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprites",
+              "textID": "Sprites"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Dust",
+              "textID": "Sprite Dust"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Override consoles",
+              "textID": "Override consoles"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Different types of Overrides",
+              "textID": "Different types of Overrides"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "POIs on the current map",
+              "textID": "POIs on the current map"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Chests",
+              "textID": "Chests"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "FNBR_Sprite",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Killswitch Sprite",
+              "textID": "Killswitch Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Jonesy Sprite",
+              "textID": "Jonesy Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Bush Sprite",
+              "textID": "Bush Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Klombo Sprite",
+              "textID": "Klombo Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Adventure Sprite",
+              "textID": "Adventure Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Crown Sprite",
+              "textID": "Crown Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Jackrabbit Sprite",
+              "textID": "Jackrabbit Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "8-Bit Sprite",
+              "textID": "8-Bit Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Shadow Sprite",
+              "textID": "Shadow Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tails Sprite",
+              "textID": "Tails Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sonic Sprite",
+              "textID": "Sonic Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Ironmouse Sprite",
+              "textID": "Ironmouse Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Peely Sprite",
+              "textID": "Peely Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Llama Sprite",
+              "textID": "Llama Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "John Wick Sprite",
+              "textID": "John Wick Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Pollo Sprite",
+              "textID": "Pollo Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Water Sprite",
+              "textID": "Water Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Earth Sprite",
+              "textID": "Earth Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fire Sprite",
+              "textID": "Fire Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Duck Sprite",
+              "textID": "Duck Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Ghost Sprite",
+              "textID": "Ghost Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Demon Sprite",
+              "textID": "Demon Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "King Sprite",
+              "textID": "King Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dream Sprite",
+              "textID": "Dream Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Punk Sprite",
+              "textID": "Punk Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Zero Point Sprite",
+              "textID": "Zero Point Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "BurntPeanut Sprite",
+              "textID": "BurntPeanut Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fishy Sprite",
+              "textID": "Fishy Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Striker Sprite",
+              "textID": "Striker Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Aura Sprite",
+              "textID": "Aura Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Boss Sprite",
+              "textID": "Boss Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Grim Reaper Sprite",
+              "textID": "Grim Reaper Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Air Sprite",
+              "textID": "Air Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Seven Sprite",
+              "textID": "Seven Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Batman Sprite",
+              "textID": "Batman Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Vini Jr. Sprite",
+              "textID": "Vini Jr. Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Storm Scout Sprite",
+              "textID": "Storm Scout Sprite"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "Ecosystem_Platform_Likert_Agreement",
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -41290,6 +41527,16 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "SpriteGarden_Likert_Agreement",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I miss being able to play with the Sprites I collected last season.",
+              "textID": "I miss being able to play with the Sprites I collected last season."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I wish I had more time to collect more Sprites from last season.",
+              "textID": "I wish I had more time to collect more Sprites from last season."
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I'm frustrated that my Sprite progress resets when a new season starts.",
@@ -42099,6 +42346,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "being able to change how some Battle Pass outfits look during a match by using their emote (e.g., Sonic, Geno)",
+              "textID": "being able to change how some Battle Pass outfits look during a match by using their emote (e.g., Sonic, Geno)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Elites",
               "textID": "the Elites"
             },
@@ -42195,6 +42447,26 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Ecosystem_WereYouAwareThat",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can use an emote to change how the Geno Battle Pass outfit looks during a match",
+              "textID": "you can use an emote to change how the Geno Battle Pass outfit looks during a match"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can use an emote to change how the Sonic Battle Pass outfit looks during a match",
+              "textID": "you can use an emote to change how the Sonic Battle Pass outfit looks during a match"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can unlock Geno as one of the Battle Pass reward outfits this season",
+              "textID": "you can unlock Geno as one of the Battle Pass reward outfits this season"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "you can unlock Sonic as one of the Battle Pass reward outfits this season",
+              "textID": "you can unlock Sonic as one of the Battle Pass reward outfits this season"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "there was a Final Showdown live event in Fortnite OG on August 29 at 2 PM ET",
@@ -42366,6 +42638,76 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Agreement",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I prefer Fortnite Battle Royale without Sprites.",
+              "textID": "I prefer Fortnite Battle Royale without Sprites."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I prefer Fortnite Battle Royale with Sprites.",
+              "textID": "I prefer Fortnite Battle Royale with Sprites."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I like that Sprites are in multiple seasons of Fortnite Battle Royale.",
+              "textID": "I like that Sprites are in multiple seasons of Fortnite Battle Royale."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I like that my Sprite collection started over for the new season of Fortnite Battle Royale.",
+              "textID": "I like that my Sprite collection started over for the new season of Fortnite Battle Royale."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I like that there are new Sprites to collect in this season of Fortnite Battle Royale.",
+              "textID": "I like that there are new Sprites to collect in this season of Fortnite Battle Royale."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I wish my Sprite collection didn't reset at the beginning of this season.",
+              "textID": "I wish my Sprite collection didn't reset at the beginning of this season."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I had enough time to collect last season's Sprites before this season started.",
+              "textID": "I had enough time to collect last season's Sprites before this season started."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I wish I had more time to complete my Sprite collection from last season",
+              "textID": "I wish I had more time to complete my Sprite collection from last season"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I wish I had more time to collect more Sprites from last season.",
+              "textID": "I wish I had more time to collect more Sprites from last season."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I miss being able to play with the Sprites I collected last season.",
+              "textID": "I miss being able to play with the Sprites I collected last season."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Before this season started, I understood that the way you collect Sprites would change.",
+              "textID": "Before this season started, I understood that the way you collect Sprites would change."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Before this season started, I understood that my Sprite collection would start over.",
+              "textID": "Before this season started, I understood that my Sprite collection would start over."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite powers make my matches less fair.",
+              "textID": "Sprite powers make my matches less fair."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Overrides make my matches less fair.",
+              "textID": "Overrides make my matches less fair."
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I'm frustrated that my Sprite progress resets when a new season starts.",
@@ -42726,19 +43068,7 @@
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "Shooters_Likert_Liking",
-          "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) now fade based on how far away a sound is.",
-              "textID": "the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) now fade based on how far away a sound is."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "that the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) no longer shows footsteps from players far away.",
-              "textID": "that the Audio Visualizer indicators (i.e., the sound icons that appear on your screen for footsteps and gunshots in Fortnite Battle Royale, Reload, Blitz, OG, etc.) no longer shows footsteps from players far away."
-            }
-          ]
+          "textReplacementTag": "Shooters_Likert_Liking"
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
@@ -43042,6 +43372,21 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "What I have experienced this season is what I expected from the trailers and announcements that I saw before the season launch. If you did not see anything about this season before it launched, please skip the question.",
+              "textID": "What I have experienced this season is what I expected from the trailers and announcements that I saw before the season launch. If you did not see anything about this season before it launched, please skip the question."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I am interested in seeing Sprites across multiple seasons of Fortnite Battle Royale.",
+              "textID": "I am interested in seeing Sprites across multiple seasons of Fortnite Battle Royale."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I like that Sprites were added to Fortnite.",
+              "textID": "I like that Sprites were added to Fortnite."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I know which Battle Pass items are free and which ones I have to pay for.",
               "textID": "I know which Battle Pass items are free and which ones I have to pay for."
             },
@@ -43069,16 +43414,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I am interested in experiences that blend gameplay with story-driven content (e.g., watch parties, movies, etc.)",
               "textID": "I am interested in experiences that blend gameplay with story-driven content (e.g., watch parties, movies, etc.)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "There are not enough different Star Wars games and experiences available in Fortnite right now.",
-              "textID": "There are not enough different Star Wars games and experiences available in Fortnite right now."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "There are too many different Star Wars games and experiences available in Fortnite right now.",
-              "textID": "There are too many different Star Wars games and experiences available in Fortnite right now."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -43269,6 +43604,100 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_All",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Please rate the current amount of {Game_Elements_FNBR} in Fortnite Battle Royale.",
+                  "textID": "Please rate the current amount of {Game_Elements_FNBR} in Fortnite Battle Royale."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Way Too Little",
+                    "textID": "Way Too Little"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Just Right",
+                    "textID": "Just Right"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Way Too Much",
+                    "textID": "Way Too Much"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "FNBR_AmountofGameElements",
+          "surveyTags": [
+            "FNBR_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_All",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How cute is the {FNBR_Sprite} in Fortnite?",
+                  "textID": "How cute is the {FNBR_Sprite} in Fortnite?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Not Cute At All",
+                    "textID": "Not Cute At All"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Neutral",
+                    "textID": "Neutral"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Cute",
+                    "textID": "Very Cute"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "FNBR_Sprite_Cuteness",
+          "surveyTags": [
+            "FNBR_Modular_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
