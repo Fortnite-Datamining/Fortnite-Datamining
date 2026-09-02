@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-02
+- **16:48** Epic Content Pages
 - **02:34** Item Shop, Epic Content Pages - +33 new (Rumi's Sain-Geom, Mira's Ramyeon, Socks, SypherPK Bundle, Chica Bundle, +28 more) - -36 removed
 
 ## 2026-09-01
