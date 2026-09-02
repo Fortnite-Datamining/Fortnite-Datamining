@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-02
+- **02:34** Item Shop, Epic Content Pages - +33 new (Rumi's Sain-Geom, Mira's Ramyeon, Socks, SypherPK Bundle, Chica Bundle, +28 more) - -36 removed
+
 ## 2026-09-01
 - **23:44** Item Shop, Epic Content Pages
 - **21:33** Jam Tracks, News, Epic Content Pages - +2 new (Can You Feel My Heart, Knight Shift Begins Soon) - -1 removed
