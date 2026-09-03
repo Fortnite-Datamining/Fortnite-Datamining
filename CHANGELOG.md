@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-03
+- **09:24** Item Shop, Epic Content Pages
 - **00:28** Item Shop - +5 new (Violet Tentacles, Recon Scout, The Traveler, Tower Recon Specialist, Echo Jet) - -6 removed
 
 ## 2026-09-02
