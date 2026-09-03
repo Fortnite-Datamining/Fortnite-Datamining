@@ -2163,7 +2163,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-09-03T08:36:50.054Z",
+  "lastModified": "2026-09-03T14:33:21.570Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -9692,7 +9692,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-08-24T17:48:32.956Z",
+    "lastModified": "2026-09-03T14:33:21.570Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -20293,6 +20293,42 @@
       "customTextReplacements": [
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "FEATUREDC_FNBR",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Prop Hunt Override",
+              "textID": "Prop Hunt Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Storm Override",
+              "textID": "Storm Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Big Head Mode Override",
+              "textID": "Big Head Mode Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Hunter Scavenger Override",
+              "textID": "Hunter Scavenger Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Action Hero Override",
+              "textID": "Action Hero Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sharpshooter Override",
+              "textID": "Sharpshooter Override"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Arenas_Likert_Agreement",
           "textReplacementValues": [
             {
@@ -21978,66 +22014,6 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Portable Extractor",
-              "textID": "Portable Extractor"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gold Sprites",
-              "textID": "Gold Sprites"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gizmo Wheel",
-              "textID": "Gizmo Wheel"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Collection",
-              "textID": "Collection"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Extraction Sites",
-              "textID": "Extraction Sites"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Held Sprite",
-              "textID": "Held Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Equipped Sprite",
-              "textID": "Equipped Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sprite Stations",
-              "textID": "Sprite Stations"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sprite XP",
-              "textID": "Sprite XP"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sprite Dust",
-              "textID": "Sprite Dust"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sprite Powers",
-              "textID": "Sprite Powers"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sprite System",
-              "textID": "Sprite System"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Spring",
               "textID": "Spring"
             },
@@ -22065,11 +22041,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Boss Drop",
               "textID": "Boss Drop"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cheat Master Sprites",
-              "textID": "Cheat Master Sprites"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -22354,11 +22325,6 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Portable Extractor",
-              "textID": "Portable Extractor"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Spicy Taco",
               "textID": "Spicy Taco"
             },
@@ -22371,66 +22337,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Cheat Code Locator",
               "textID": "Cheat Code Locator"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Extraction Accelerator",
-              "textID": "Extraction Accelerator"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Killswitch Sprite",
-              "textID": "Killswitch Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Jonesy Sprite",
-              "textID": "Jonesy Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Bush Sprite",
-              "textID": "Bush Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Klombo Sprite",
-              "textID": "Klombo Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Adventure Sprite",
-              "textID": "Adventure Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Crown Sprite",
-              "textID": "Crown Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Jackrabbit Sprite",
-              "textID": "Jackrabbit Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "8-Bit Sprite",
-              "textID": "8-Bit Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Shadow Sprite",
-              "textID": "Shadow Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Tails Sprite",
-              "textID": "Tails Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sonic Sprite",
-              "textID": "Sonic Sprite"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23586,6 +23492,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mini-Venture Overshield",
+              "textID": "Mini-Venture Overshield"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Excommunicado Rule (from the Confidential POI)",
               "textID": "Excommunicado Rule (from the Confidential POI)"
             },
@@ -23707,6 +23618,21 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Grapple Glove",
+              "textID": "Grapple Glove"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Foundation DMR",
+              "textID": "Foundation DMR"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fury Assault Rifle",
+              "textID": "Fury Assault Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Morphite Havoc Shotgun",
               "textID": "Morphite Havoc Shotgun"
             },
@@ -23742,28 +23668,13 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Lancehead Pistol",
-              "textID": "Lancehead Pistol"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Slapperoni Pizza",
-              "textID": "Slapperoni Pizza"
+              "localizedText": "Hammer Revolver",
+              "textID": "Hammer Revolver"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Seven Power Gloves",
               "textID": "Seven Power Gloves"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Foundation's Rift Rifle",
-              "textID": "The Foundation's Rift Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Chaos Reloader Shotgun",
-              "textID": "Chaos Reloader Shotgun"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23777,26 +23688,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Ranger Pistol",
-              "textID": "Ranger Pistol"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Seven Cluster Cannon",
-              "textID": "Seven Cluster Cannon"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Deadeye DMR",
-              "textID": "Deadeye DMR"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Iron Pump Shotgun",
-              "textID": "Iron Pump Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Med-Mist Smoke Grenade",
               "textID": "Med-Mist Smoke Grenade"
             },
@@ -23807,13 +23698,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Morphite Hand Cannon",
-              "textID": "Morphite Hand Cannon"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Morphite Pump Shotgun",
-              "textID": "Morphite Pump Shotgun"
+              "localizedText": "Morphite Tactical Shotgun",
+              "textID": "Morphite Tactical Shotgun"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23822,13 +23708,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gatekeeper",
-              "textID": "Gatekeeper"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Rapid Fire Submachine Gun",
-              "textID": "Rapid Fire Submachine Gun"
+              "localizedText": "Pizza Party",
+              "textID": "Pizza Party"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23837,38 +23718,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Hyper SMG",
-              "textID": "Hyper SMG"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Suppressed Assault Rifle",
-              "textID": "Suppressed Assault Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Combat Shotgun",
               "textID": "Combat Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Bolt-Action Sniper Rifle",
-              "textID": "Bolt-Action Sniper Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Slap Splash",
-              "textID": "Slap Splash"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Slap Juice",
-              "textID": "Slap Juice"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Big Bush Bomb",
-              "textID": "Big Bush Bomb"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23877,38 +23728,13 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Guzzle Juice",
-              "textID": "Guzzle Juice"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Lever Action Rifle",
-              "textID": "Lever Action Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Explosive Repeater Rifle",
               "textID": "Explosive Repeater Rifle"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Flapjack Rifle",
-              "textID": "Flapjack Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Tactical Submachine Gun",
-              "textID": "Tactical Submachine Gun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Submachine Gun",
-              "textID": "Submachine Gun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Striker Burst Rifle",
-              "textID": "Striker Burst Rifle"
+              "localizedText": "Twin Mag SMG",
+              "textID": "Twin Mag SMG"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -23937,18 +23763,13 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Assault Rifle",
-              "textID": "Assault Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Morphite Hammer Assault Rifle",
-              "textID": "Morphite Hammer Assault Rifle"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Updated Tactical Shotgun",
               "textID": "Updated Tactical Shotgun"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Morphite Thunder Shotgun",
+              "textID": "Morphite Thunder Shotgun"
             }
           ]
         },
@@ -24529,6 +24350,36 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sharpshooter Override",
+              "textID": "Sharpshooter Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Action Hero Override",
+              "textID": "Action Hero Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Hunter Scavenger Override",
+              "textID": "Hunter Scavenger Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Big Head Mode Override",
+              "textID": "Big Head Mode Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Storm Override",
+              "textID": "Storm Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Prop Hunt Override",
+              "textID": "Prop Hunt Override"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Spring",
               "textID": "Spring"
             },
@@ -25033,6 +24884,36 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Storm Scout Sprite",
+              "textID": "Storm Scout Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Onigiri Sprite",
+              "textID": "Onigiri Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "X-Ray Sprite",
+              "textID": "X-Ray Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Overshield Sprite",
+              "textID": "Overshield Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mega Man Sprite",
+              "textID": "Mega Man Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Scorpion Kit",
+              "textID": "Scorpion Kit"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Tactical Pistol",
               "textID": "Tactical Pistol"
             },
@@ -25158,16 +25039,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Limitless Seven Sliders",
-              "textID": "Limitless Seven Sliders"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Seven Sliders",
-              "textID": "Seven Sliders"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Portable Extractor",
               "textID": "Portable Extractor"
             },
@@ -25195,36 +25066,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Wood-N-Bunker",
               "textID": "Wood-N-Bunker"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fire Oni Mask",
-              "textID": "Fire Oni Mask"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Shadow Tracker",
-              "textID": "Shadow Tracker"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fish Trophy",
-              "textID": "Fish Trophy"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fire Oni Mask",
-              "textID": "Fire Oni Mask"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Shadow Tracker",
-              "textID": "Shadow Tracker"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Fish Trophy",
-              "textID": "Fish Trophy"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25298,18 +25139,8 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cupid's Crossbow",
-              "textID": "Cupid's Crossbow"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Friendship Bubble",
               "textID": "Friendship Bubble"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cupid's Crossbow",
-              "textID": "Cupid's Crossbow"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25350,6 +25181,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Self-Revive Device",
               "textID": "Self-Revive Device"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Deadeye Assault Rifle",
+              "textID": "Deadeye Assault Rifle"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25483,6 +25319,16 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sweeper Shotgun",
+              "textID": "Sweeper Shotgun"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Wrecker Revolver",
+              "textID": "Wrecker Revolver"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "O.X.R. Rifle",
               "textID": "O.X.R. Rifle"
             },
@@ -25573,11 +25419,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Bass Boost",
-              "textID": "Bass Boost"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Junk Rift",
               "textID": "Junk Rift"
             },
@@ -25658,11 +25499,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Oni Shotgun",
-              "textID": "Oni Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Slurp Juice",
               "textID": "Slurp Juice"
             },
@@ -25703,11 +25539,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Dual Pistols",
-              "textID": "Dual Pistols"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Drum Gun",
               "textID": "Drum Gun"
             },
@@ -25733,11 +25564,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Flare Gun",
-              "textID": "Flare Gun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Balloons",
               "textID": "Balloons"
             },
@@ -25755,11 +25581,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Dual Micro SMGs",
               "textID": "Dual Micro SMGs"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Minigun",
-              "textID": "Minigun"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25810,11 +25631,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Shield Bubble Jr.",
               "textID": "Shield Bubble Jr."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Chug Splash",
-              "textID": "Chug Splash"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25890,6 +25706,100 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_All",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "In your games, is your chance of finding the following feature Too Low, Just Right, or Too High? {FEATUREDC_FNBR}",
+                  "textID": "In your games, is your chance of finding the following feature Too Low, Just Right, or Too High? {FEATUREDC_FNBR}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Low",
+                    "textID": "Too Low"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Just Right",
+                    "textID": "Just Right"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too High",
+                    "textID": "Too High"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "260903_GeneralChanceofFinding FEATUREDC_FNBR",
+          "surveyTags": [
+            "FNBR_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "FNBR_All",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "FNBR_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Do you feel the following feature is Too Weak, Just Right, or Too Strong? {FEATUREDC_FNBR}",
+                  "textID": "Do you feel the following feature is Too Weak, Just Right, or Too Strong? {FEATUREDC_FNBR}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Weak",
+                    "textID": "Too Weak"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Just Right",
+                    "textID": "Just Right"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Too Strong",
+                    "textID": "Too Strong"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "260903_General FEATUREDC_FNBR",
+          "surveyTags": [
+            "FNBR_Modular_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
@@ -31324,11 +31234,6 @@
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Sprite Extraction",
-                    "textID": "Sprite Extraction"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Power Hours",
                     "textID": "Power Hours"
                   },
@@ -31386,11 +31291,6 @@
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Item durability",
                     "textID": "Item durability"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Sprites",
-                    "textID": "Sprites"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -36683,10 +36583,25 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-09-01T23:46:25.315Z",
+    "lastModified": "2026-09-02T04:12:28.887Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
+        {
+          "_type": "Player Survey V2 - Condition Group",
+          "conditionGroupID": "MediaPref_Cooldown",
+          "conditions": [
+            {
+              "_type": "Player Survey V2 - Condition Level 1",
+              "comparisonValue": "14",
+              "conditionInfo": [
+                "MediaPref_Modular_Surveys"
+              ],
+              "operation": "GreaterThan",
+              "type": "MostRecentlyCompleted"
+            }
+          ]
+        },
         {
           "_type": "Player Survey V2 - Condition Group",
           "conditionGroupID": "TechPerf_Cooldown",
@@ -39226,6 +39141,404 @@
       "customTextReplacements": [
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "MediaPref_Celebrity",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Keanu Reeves",
+              "textID": "Keanu Reeves"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Rock (Dwayne Johnson)",
+              "textID": "The Rock (Dwayne Johnson)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Timothée Chalamet",
+              "textID": "Timothée Chalamet"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tom Holland",
+              "textID": "Tom Holland"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Zendaya",
+              "textID": "Zendaya"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "IShowSpeed",
+              "textID": "IShowSpeed"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "MrBeast",
+              "textID": "MrBeast"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Burnt Peanut",
+              "textID": "The Burnt Peanut"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Typical Gamer",
+              "textID": "Typical Gamer"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Billie Eilish",
+              "textID": "Billie Eilish"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "BLACKPINK",
+              "textID": "BLACKPINK"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Eminem",
+              "textID": "Eminem"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Hatsune Miku",
+              "textID": "Hatsune Miku"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Ice Spice",
+              "textID": "Ice Spice"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Juice WRLD",
+              "textID": "Juice WRLD"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lady Gaga",
+              "textID": "Lady Gaga"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Olivia Rodrigo",
+              "textID": "Olivia Rodrigo"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sabrina Carpenter",
+              "textID": "Sabrina Carpenter"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Snoop Dogg",
+              "textID": "Snoop Dogg"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Kid LAROI",
+              "textID": "The Kid LAROI"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Weeknd",
+              "textID": "The Weeknd"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Travis Scott",
+              "textID": "Travis Scott"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tyler, the Creator",
+              "textID": "Tyler, the Creator"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "LeBron James",
+              "textID": "LeBron James"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lionel Messi",
+              "textID": "Lionel Messi"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "MediaPref_Character",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Eren Yeager (Attack on Titan)",
+              "textID": "Eren Yeager (Attack on Titan)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Naruto Uzumaki (Naruto)",
+              "textID": "Naruto Uzumaki (Naruto)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Son Goku (Dragon Ball)",
+              "textID": "Son Goku (Dragon Ball)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Homer J. Simpson (Simpsons)",
+              "textID": "Homer J. Simpson (Simpsons)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Peter Griffin (Family Guy)",
+              "textID": "Peter Griffin (Family Guy)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Pomni (The Amazing Digital Circus)",
+              "textID": "Pomni (The Amazing Digital Circus)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Bugs Bunny (Looney Tunes)",
+              "textID": "Bugs Bunny (Looney Tunes)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Buzz Lightyear (Toy Story)",
+              "textID": "Buzz Lightyear (Toy Story)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Batman (DC)",
+              "textID": "Batman (DC)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Harley Quinn (DC)",
+              "textID": "Harley Quinn (DC)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Superman (DC)",
+              "textID": "Superman (DC)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Joker (DC)",
+              "textID": "The Joker (DC)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Darth Vader (Star Wars)",
+              "textID": "Darth Vader (Star Wars)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Luke Skywalker (Star Wars)",
+              "textID": "Luke Skywalker (Star Wars)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lara Croft (Tomb Raider)",
+              "textID": "Lara Croft (Tomb Raider)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Master Chief (Halo)",
+              "textID": "Master Chief (Halo)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Mercy (Overwatch)",
+              "textID": "Mercy (Overwatch)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Demogorgon (Stranger Things)",
+              "textID": "Demogorgon (Stranger Things)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "He-Man (Masters of the Universe)",
+              "textID": "He-Man (Masters of the Universe)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Optimus Prime (Transformers)",
+              "textID": "Optimus Prime (Transformers)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Ryu (Street Fighter)",
+              "textID": "Ryu (Street Fighter)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Ghostface (Scream)",
+              "textID": "Ghostface (Scream)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Jason Voorhees (Friday the 13th)",
+              "textID": "Jason Voorhees (Friday the 13th)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Iron Man (Marvel)",
+              "textID": "Iron Man (Marvel)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Spider-Man (Marvel)",
+              "textID": "Spider-Man (Marvel)"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
+          "textReplacementTag": "MediaPref_Franchise",
+          "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Attack on Titan",
+              "textID": "Attack on Titan"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Dragon Ball",
+              "textID": "Dragon Ball"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Naruto",
+              "textID": "Naruto"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Family Guy",
+              "textID": "Family Guy"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "South Park",
+              "textID": "South Park"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Amazing Digital Circus",
+              "textID": "The Amazing Digital Circus"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The Simpsons",
+              "textID": "The Simpsons"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Looney Tunes",
+              "textID": "Looney Tunes"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "SpongeBob SquarePants",
+              "textID": "SpongeBob SquarePants"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "DC",
+              "textID": "DC"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Star Wars",
+              "textID": "Star Wars"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Toy Story",
+              "textID": "Toy Story"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Fortnite",
+              "textID": "Fortnite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Halo",
+              "textID": "Halo"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Overwatch",
+              "textID": "Overwatch"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Street Fighter",
+              "textID": "Street Fighter"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Tomb Raider",
+              "textID": "Tomb Raider"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Power Rangers",
+              "textID": "Power Rangers"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Stranger Things",
+              "textID": "Stranger Things"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Transformers",
+              "textID": "Transformers"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Friday the 13th",
+              "textID": "Friday the 13th"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Scream",
+              "textID": "Scream"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Marvel",
+              "textID": "Marvel"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Masters of the Universe",
+              "textID": "Masters of the Universe"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "FIFA",
+              "textID": "FIFA"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "MLB",
+              "textID": "MLB"
+            }
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "SpriteGarden_Sprite",
           "textReplacementValues": [
             {
@@ -39939,14 +40252,7 @@
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
-          "textReplacementTag": "HorizonCopper_MandoGrogu_Likert_Agreement",
-          "textReplacementValues": [
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "I am interested in watching the rest of the Mandalorian and Grogu movie outside of Fortnite.",
-              "textID": "I am interested in watching the rest of the Mandalorian and Grogu movie outside of Fortnite."
-            }
-          ]
+          "textReplacementTag": "HorizonCopper_MandoGrogu_Likert_Agreement"
         },
         {
           "_type": "Player Survey V2 - Custom Text Replacements",
@@ -40252,6 +40558,66 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can earn rewards from quests for the Sprites you master",
+              "textID": "in this season, you can earn rewards from quests for the Sprites you master"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Storm Scout Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Storm Scout Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Onigiri Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Onigiri Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the X-Ray Sprite is now available in Fortnite Battle Royale",
+              "textID": "the X-Ray Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Overshield Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Overshield Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Mega Man Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Mega Man Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate the Sharpshooter Override at an Override Console (which increases weapon accuracy and reduces recoil and bloom)",
+              "textID": "in this season, you can activate the Sharpshooter Override at an Override Console (which increases weapon accuracy and reduces recoil and bloom)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate the Action Hero Override at an Override Console (which lets you enter Hangtime and deal extra damage while aiming in the air)",
+              "textID": "in this season, you can activate the Action Hero Override at an Override Console (which lets you enter Hangtime and deal extra damage while aiming in the air)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate the Hunter Scavenger Override at an Override Console (which marks nearby enemies from time to time, and marks eliminated enemies on the map for a short time)",
+              "textID": "in this season, you can activate the Hunter Scavenger Override at an Override Console (which marks nearby enemies from time to time, and marks eliminated enemies on the map for a short time)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate the Big Head Mode Override at an Override Console (which gives players a much larger head)",
+              "textID": "in this season, you can activate the Big Head Mode Override at an Override Console (which gives players a much larger head)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate the Storm Override at an Override Console (which makes the storm close in on that location)",
+              "textID": "in this season, you can activate the Storm Override at an Override Console (which makes the storm close in on that location)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can activate the Prop Hunt Override at an Override Console (which lets you crouch and hold still for a few seconds to turn into a prop)",
+              "textID": "in this season, you can activate the Prop Hunt Override at an Override Console (which lets you crouch and hold still for a few seconds to turn into a prop)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "in this season, you can enter Cheat Codes (arrow inputs found on walls and ground graffiti tiles) in order to spawn Sprites",
               "textID": "in this season, you can enter Cheat Codes (arrow inputs found on walls and ground graffiti tiles) in order to spawn Sprites"
             },
@@ -40334,16 +40700,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "in this season, you can activate Overrides on Override Consoles (consoles sit on the map offline and come online as the match progresses — the first player to reach one picks an effect that lasts the rest of the match)",
               "textID": "in this season, you can activate Overrides on Override Consoles (consoles sit on the map offline and come online as the match progresses — the first player to reach one picks an effect that lasts the rest of the match)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Holofoil Sprite variant is now available in Fortnite Battle Royale",
-              "textID": "the Holofoil Sprite variant is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "the Gummy Sprite variant is now available in Fortnite Battle Royale",
-              "textID": "the Gummy Sprite variant is now available in Fortnite Battle Royale"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -40628,31 +40984,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "you can build your own Star Wars game in Fortnite using UEFN tools",
-              "textID": "you can build your own Star Wars game in Fortnite using UEFN tools"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Star Wars: The Mandalorian and Grogu is available as a new game mode/experience in Fortnite",
-              "textID": "Star Wars: The Mandalorian and Grogu is available as a new game mode/experience in Fortnite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Star Wars: Droid Tycoon is available as a new game mode in Fortnite",
-              "textID": "Star Wars: Droid Tycoon is available as a new game mode in Fortnite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Star Wars: Escape Vader is available as a new game mode in Fortnite",
-              "textID": "Star Wars: Escape Vader is available as a new game mode in Fortnite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Star Wars: Galactic Siege is available as a new game mode in Fortnite",
-              "textID": "Star Wars: Galactic Siege is available as a new game mode in Fortnite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "you can sing Karaoke in Fortnite Festival using the Mic Vocals feature",
               "textID": "you can sing Karaoke in Fortnite Festival using the Mic Vocals feature"
             },
@@ -40722,6 +41053,16 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Agreement",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "New Overrides are taking too long to drop into the rotation. If you have not picked an Override recently, please skip the question.",
+              "textID": "New Overrides are taking too long to drop into the rotation. If you have not picked an Override recently, please skip the question."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "New Overrides are dropping into the rotation at about the right pace. If you have not picked an Override recently, please skip the question.",
+              "textID": "New Overrides are dropping into the rotation at about the right pace. If you have not picked an Override recently, please skip the question."
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I prefer Fortnite Battle Royale without Sprites.",
@@ -40854,21 +41195,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "When I use a Lucky Locator, it's easy to find the Sprite Chest it points me to.",
-              "textID": "When I use a Lucky Locator, it's easy to find the Sprite Chest it points me to."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The reward from the John Wick quests is worth the effort.",
-              "textID": "The reward from the John Wick quests is worth the effort."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "When I use a Sprite Locator, it's easy to find the Sprite Chest it points me to.",
-              "textID": "When I use a Sprite Locator, it's easy to find the Sprite Chest it points me to."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "When I find a Sprite in a match, it's easy to tell if I already have it.",
               "textID": "When I find a Sprite in a match, it's easy to tell if I already have it."
             },
@@ -40901,11 +41227,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I know how to master a Sprite in Fortnite Battle Royale.",
               "textID": "I know how to master a Sprite in Fortnite Battle Royale."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "I like that I can customize my own Sprite Mech.",
-              "textID": "I like that I can customize my own Sprite Mech."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -42647,6 +42968,31 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Mega Man Sprite",
+                    "textID": "Mega Man Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Overshield Sprite",
+                    "textID": "Overshield Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "X-Ray Sprite",
+                    "textID": "X-Ray Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Onigiri Sprite",
+                    "textID": "Onigiri Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Storm Scout Sprite",
+                    "textID": "Storm Scout Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Killswitch Sprite",
                     "textID": "Killswitch Sprite"
                   },
@@ -43447,6 +43793,31 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Mega Man Sprite",
+                    "textID": "Mega Man Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Overshield Sprite",
+                    "textID": "Overshield Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "X-Ray Sprite",
+                    "textID": "X-Ray Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Onigiri Sprite",
+                    "textID": "Onigiri Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Storm Scout Sprite",
+                    "textID": "Storm Scout Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Killswitch Sprite",
                     "textID": "Killswitch Sprite"
                   },
@@ -43705,73 +44076,6 @@
           "surveyID": "FNBR_SpriteNotEquipped_Reasons_MC",
           "surveyTags": [
             "FNBR_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": false,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "Global_Main_Rate",
-            "Global_Cooldown",
-            "Seasonal_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": true,
-                "numberOfOptions": 7,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "In Fortnite's story, who shot Jonesy? ",
-                  "textID": "In Fortnite's story, who shot Jonesy? "
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Geno",
-                    "textID": "Geno"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Doctor Slone",
-                    "textID": "Doctor Slone"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Midas",
-                    "textID": "Midas"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "The Paradigm",
-                    "textID": "The Paradigm"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Dark Voyager",
-                    "textID": "Dark Voyager"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "I don't know",
-                    "textID": "I don't know"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "I didn't know that Jonesy was shot",
-                    "textID": "I didn't know that Jonesy was shot"
-                  }
-                ],
-                "type": "SingleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_Lore_WhoShotJonesy",
-          "surveyTags": [
-            "Ecosystem_Main_Surveys"
           ]
         },
         {

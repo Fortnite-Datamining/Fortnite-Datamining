@@ -2913,6 +2913,16 @@
       }
     },
     {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_DyeBlast",
+      "id": "JIDO_Character_DyeBlast",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_dyeblast/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_dyeblast/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_dyeblast/wide.png"
+      }
+    },
+    {
       "added": "2024-01-07T13:06:30Z",
       "cosmeticId": "Character_DyedDuelist",
       "id": "JIDO_Character_DyedDuelist",
@@ -3201,6 +3211,16 @@
         "large": "https://fortnite-api.com/images/cosmetics/lego/character_facetblom/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/lego/character_facetblom/small.png",
         "wide": "https://fortnite-api.com/images/cosmetics/lego/character_facetblom/wide.png"
+      }
+    },
+    {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_FaintDoor",
+      "id": "JIDO_Character_FaintDoor",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_faintdoor/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_faintdoor/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_faintdoor/wide.png"
       }
     },
     {
@@ -4124,6 +4144,16 @@
       }
     },
     {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_GlintRush",
+      "id": "JIDO_Character_GlintRush",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_glintrush/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_glintrush/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_glintrush/wide.png"
+      }
+    },
+    {
       "added": "2026-02-19T09:26:27Z",
       "cosmeticId": "Character_GlowFang",
       "id": "JIDO_Character_GlowFang",
@@ -4757,7 +4787,10 @@
         "large": "https://fortnite-api.com/images/cosmetics/lego/character_heistsleek/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/lego/character_heistsleek/small.png",
         "wide": "https://fortnite-api.com/images/cosmetics/lego/character_heistsleek/wide.png"
-      }
+      },
+      "soundLibraryTags": [
+        "SoundLibrary.ID.Juno.NPC.VO.SkullTrooper"
+      ]
     },
     {
       "added": "2026-07-30T13:11:09Z",
@@ -6833,6 +6866,16 @@
         "large": "https://fortnite-api.com/images/cosmetics/lego/character_nitroflow/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/lego/character_nitroflow/small.png",
         "wide": "https://fortnite-api.com/images/cosmetics/lego/character_nitroflow/wide.png"
+      }
+    },
+    {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_NobleCrusher",
+      "id": "JIDO_Character_NobleCrusher",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_noblecrusher/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_noblecrusher/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_noblecrusher/wide.png"
       }
     },
     {
@@ -9150,6 +9193,16 @@
       }
     },
     {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_RustedBlade",
+      "id": "JIDO_Character_RustedBlade",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_rustedblade/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_rustedblade/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_rustedblade/wide.png"
+      }
+    },
+    {
       "added": "2026-03-05T15:29:53Z",
       "cosmeticId": "Character_SableHorizon",
       "id": "JIDO_Character_SableHorizon",
@@ -9580,6 +9633,16 @@
         "large": "https://fortnite-api.com/images/cosmetics/lego/character_shimmerzen/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/lego/character_shimmerzen/small.png",
         "wide": "https://fortnite-api.com/images/cosmetics/lego/character_shimmerzen/wide.png"
+      }
+    },
+    {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_ShimPilon",
+      "id": "JIDO_Character_ShimPilon",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_shimpilon/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_shimpilon/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_shimpilon/wide.png"
       }
     },
     {
@@ -10454,7 +10517,8 @@
       "soundLibraryTags": [
         "SoundLibrary.ID.StepType.ShoesSneakers",
         "SoundLibrary.ID.HandType.Glove",
-        "SoundLibrary.ID.ClothingType.Generic"
+        "SoundLibrary.ID.ClothingType.Generic",
+        "SoundLibrary.Juno.ID.Persona.Dreamer.Male"
       ]
     },
     {
@@ -11715,6 +11779,16 @@
         "large": "https://fortnite-api.com/images/cosmetics/lego/character_turnvortex/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/lego/character_turnvortex/small.png",
         "wide": "https://fortnite-api.com/images/cosmetics/lego/character_turnvortex/wide.png"
+      }
+    },
+    {
+      "added": "2026-09-03T15:24:18Z",
+      "cosmeticId": "Character_TutSoothe",
+      "id": "JIDO_Character_TutSoothe",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/lego/character_tutsoothe/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/lego/character_tutsoothe/small.png",
+        "wide": "https://fortnite-api.com/images/cosmetics/lego/character_tutsoothe/wide.png"
       }
     },
     {
@@ -18052,7 +18126,10 @@
         "large": "https://fortnite-api.com/images/cosmetics/lego/cid_511_athena_commando_m_cubepaintwildcard/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/lego/cid_511_athena_commando_m_cubepaintwildcard/small.png",
         "wide": "https://fortnite-api.com/images/cosmetics/lego/cid_511_athena_commando_m_cubepaintwildcard/wide.png"
-      }
+      },
+      "soundLibraryTags": [
+        "SoundLibrary.ID.Juno.NPC.VO.FalconKnight_Bow_M"
+      ]
     },
     {
       "added": "2024-01-07T13:06:30Z",

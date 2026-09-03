@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-03
+- **17:28** Build update: `++Fortnite+Release-42.10-CL-57566230`
 - **13:44** News - +2 new (Batman Comes to LEGO Odyssey, New Loot Hacks and Fresh Sprites) - -2 removed
 - **09:24** Item Shop, Epic Content Pages
 - **00:28** Item Shop - +5 new (Violet Tentacles, Recon Scout, The Traveler, Tower Recon Specialist, Echo Jet) - -6 removed
