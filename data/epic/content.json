@@ -1873,9 +1873,20 @@
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices"
+      "_type": "Emergency Notices",
+      "emergencynotices": [
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "The Interact keybind was reset due to a bug. If you had this action bound to a different key, please re-bind it to that key again.",
+          "hidden": false,
+          "platforms": [
+            "Windows"
+          ],
+          "title": "Interact Bind Reset"
+        }
+      ]
     },
-    "lastModified": "2026-09-03T07:29:59.462Z"
+    "lastModified": "2026-09-04T03:06:35.519Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -2163,7 +2174,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-09-03T23:27:58.646Z",
+  "lastModified": "2026-09-04T03:06:35.519Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
