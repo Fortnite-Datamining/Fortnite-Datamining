@@ -1873,9 +1873,20 @@
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices"
+      "_type": "Emergency Notices",
+      "emergencynotices": [
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "The Interact keybind was reset due to a bug. If you had this action bound to a different key, please re-bind it to that key again.",
+          "hidden": false,
+          "platforms": [
+            "Windows"
+          ],
+          "title": "Interact Bind Reset"
+        }
+      ]
     },
-    "lastModified": "2026-09-04T05:47:45.187Z"
+    "lastModified": "2026-09-04T17:06:45.240Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -2163,7 +2174,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-09-04T12:30:49.749Z",
+  "lastModified": "2026-09-04T17:06:45.240Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -39209,37 +39220,10 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-09-04T12:30:49.749Z",
+    "lastModified": "2026-09-04T14:49:52.492Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
-        {
-          "_type": "Player Survey V2 - Condition Group",
-          "conditionGroupID": "BPSeason_Cooldown",
-          "conditions": [
-            {
-              "_type": "Player Survey V2 - Condition Level 1",
-              "comparisonValue": "30",
-              "conditionInfo": [
-                "BPSeason_Modular_Surveys"
-              ],
-              "operation": "GreaterThan",
-              "type": "MostRecentlyCompleted"
-            }
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Condition Group",
-          "conditionGroupID": "BPSeason_Modular_Rate",
-          "conditions": [
-            {
-              "_type": "Player Survey V2 - Condition Level 1",
-              "comparisonValue": ".01",
-              "operation": "LessThan",
-              "type": "Random"
-            }
-          ]
-        },
         {
           "_type": "Player Survey V2 - Condition Group",
           "conditionGroupID": "MediaPref_Cooldown",
@@ -44648,6 +44632,48 @@
         }
       ],
       "surveys": [
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Modular_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 7,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How appealing is the following outfit from this season's Battle Pass to you?: {BPSeason_Outfit} If you did not know about this outfit, please skip the question.",
+                  "textID": "How appealing is the following outfit from this season's Battle Pass to you?: {BPSeason_Outfit} If you did not know about this outfit, please skip the question."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Unappealing",
+                    "textID": "Very Unappealing"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Appealing",
+                    "textID": "Very Appealing"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPSeason_OutfitAppeal",
+          "surveyTags": [
+            "BPCrew_Modular_Surveys"
+          ]
+        },
         {
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
