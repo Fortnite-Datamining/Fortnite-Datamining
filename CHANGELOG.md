@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-04
+- **22:02** Cars, News, Epic Content Pages - +1 new (Live - TheHectorino Mobile Cup) - -1 removed
 - **19:46** Item Shop, Epic Content Pages
 - **17:23** BR Cosmetics, Item Shop, Epic Content Pages
 - **13:57** BR Cosmetics, Item Shop, Epic Content Pages
