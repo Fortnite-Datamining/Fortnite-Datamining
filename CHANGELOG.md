@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-05
+- **21:27** Item Shop, News - +1 new (New Loot Hacks and Fresh Sprites) - -1 removed
 - **19:15** Item Shop, News - +1 new (Cheat Master Hours Live Now) - -6 removed
 - **00:15** Item Shop, News - +70 new (Proton Drill, The Rack-Up, Proton Exo-Boosters, Spire Immortal, Double Agent Ooze Unit, +65 more) - -45 removed
 
