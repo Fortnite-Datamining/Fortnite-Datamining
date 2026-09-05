@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-05
+- **00:15** Item Shop, News - +70 new (Proton Drill, The Rack-Up, Proton Exo-Boosters, Spire Immortal, Double Agent Ooze Unit, +65 more) - -45 removed
+
 ## 2026-09-04
 - **22:02** Cars, News, Epic Content Pages - +1 new (Live - TheHectorino Mobile Cup) - -1 removed
 - **19:46** Item Shop, Epic Content Pages
