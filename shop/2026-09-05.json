@@ -1,6 +1,6 @@
 {
   "data": {
-    "date": "2026-09-05T00:00:00Z",
+    "date": "2026-09-05T18:00:00Z",
     "entries": [
       {
         "brItems": [
@@ -206,7 +206,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.92",
+        "layoutId": "Unvaulted.93",
         "newDisplayAsset": {
           "id": "DAv2_Glider_StageCue",
           "materialInstances": [],
@@ -3324,7 +3324,7 @@
         "regularPrice": 500,
         "sortPriority": -2,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
+        "tileSize": "Size_2_x_1"
       },
       {
         "colors": {
@@ -5971,7 +5971,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.91",
+        "layoutId": "Unvaulted.92",
         "newDisplayAssetPath": "sid_placeholder_353",
         "offerId": "v2:/853b5aca8be92df1bab4cb2942cb6d7c6832ac9e1beea75053c67a18fb41d78d",
         "outDate": "2026-09-11T23:59:59.999Z",
@@ -8511,7 +8511,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.91",
+        "layoutId": "Unvaulted.92",
         "newDisplayAsset": {
           "id": "DAv2_Wrap_StageCue",
           "materialInstances": [],
@@ -10842,98 +10842,6 @@
       {
         "brItems": [
           {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "The only thing better than one pickaxe? Two pickaxes!",
-            "id": "Pickaxe_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Epic Blade of Floof",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaPickaxe",
-              "displayValue": "Pickaxe",
-              "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/variants/particle/particle1.png",
-                    "name": "Epic Blade of Floof",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/variants/particle/particle2.png",
-                    "name": "Midnight Blade of Floof",
-                    "tag": "Particle2"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Epic Blade of Floof for 800 MtxCurrency",
-        "finalPrice": 800,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.98",
-        "newDisplayAsset": {
-          "id": "DAv2_Pickaxe_DenimEquip",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__bd44ad24a59cf88a_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/bd44ad24a59cf88a/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Pickaxe_DenimEquip",
-        "offerId": "v2:/33aafc6b94d36ca2f5dcbefe8083570ad1e934ee4b18b1cd8f7e90b779f380bf",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 800,
-        "sortPriority": -1,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2024-03-26T08:30:33Z",
             "description": "Strike without warning.",
             "id": "Character_ChaosLightning",
@@ -11165,7 +11073,7 @@
         "regularPrice": 1200,
         "sortPriority": -2,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
+        "tileSize": "Size_2_x_1"
       },
       {
         "brItems": [
@@ -12314,7 +12222,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.93",
+        "layoutId": "Unvaulted.94",
         "newDisplayAsset": {
           "id": "DAv2_Bundle_Featured_StageCue",
           "materialInstances": [],
@@ -12745,143 +12653,6 @@
         "tileSize": "Size_2_x_1"
       },
       {
-        "brItems": [
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Chaos reigns.",
-            "id": "Character_MissusMind_Suit",
-            "images": {
-              "bean": {
-                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_missusmind_suit/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_missusmind_suit/small.png"
-              },
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/icon.png",
-              "lego": {
-                "large": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/small.png",
-                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/wide.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Chaos Director",
-            "rarity": {
-              "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaCharacter",
-              "displayValue": "Outfit",
-              "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage1.png",
-                    "name": "Chaos Director",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage2.png",
-                    "name": "Ghostly Director",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage3.png",
-                    "name": "Shadowstruck Director",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "Style"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/material/mat1.png",
-                    "name": "off",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/material/mat2.png",
-                    "name": "Street Art Chaos Director",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "super level"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Chaos Director for 1200 MtxCurrency",
-        "finalPrice": 1200,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.95",
-        "newDisplayAsset": {
-          "id": "DAv2_Character_MissusMind_Suit",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__f1cea689a974e10a_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__f1cea689a974e10a_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_1.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__f1cea689a974e10a_e0559e464b07edd9.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_2.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__f1cea689a974e10a_c87b2239ea7b1fc6.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_3.png",
-              "productTag": "Product.Juno"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_missusmind_suit",
-        "offerId": "v2:/ba03e9207197558e10f03db070bb79e2fc5230402008526a2002b291422b2a6c",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 1200,
-        "sortPriority": -2,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
         "bundle": {
           "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d98450bb6cba00e2/renderimage_0.png",
           "info": "Bundle",
@@ -13181,7 +12952,7 @@
         "regularPrice": 800,
         "sortPriority": -4,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
+        "tileSize": "Size_2_x_1"
       },
       {
         "banner": {
@@ -13740,7 +13511,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.92",
+        "layoutId": "Unvaulted.93",
         "newDisplayAsset": {
           "id": "DAv2_Contrail_StageCue",
           "materialInstances": [],
@@ -15562,513 +15333,6 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -4,
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "banner": {
-          "backendValue": "AmountOff",
-          "intensity": "Low",
-          "value": "2300 V-Bucks Off"
-        },
-        "brItems": [
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "She's got the Guff stuff.",
-            "id": "Character_DenimEquip_Stock",
-            "images": {
-              "bean": {
-                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_denimequip_stock/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_denimequip_stock/small.png"
-              },
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/icon.png",
-              "lego": {
-                "large": "https://fortnite-api.com/images/cosmetics/lego/character_denimequip_stock/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/lego/character_denimequip_stock/small.png",
-                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_denimequip_stock/wide.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "metaTags": [
-              "Cosmetics.Emote.CharacterGroup.BigHead"
-            ],
-            "name": "Undercover Skye",
-            "rarity": {
-              "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaCharacter",
-              "displayValue": "Outfit",
-              "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/variants/progressive/stage1.png",
-                    "name": "Undercover Skye",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/variants/progressive/stage2.png",
-                    "name": "Midnight Skye",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              },
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/variants/parts/stage1.png",
-                    "name": "On",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/variants/parts/stage2.png",
-                    "name": "Off",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "Mask"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/variants/material/mat1.png",
-                    "name": "off",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_denimequip_stock/variants/material/mat2.png",
-                    "name": "Street Art Undercover Skye",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "super levels"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Treasure perfect moments! (Perfect moments not guaranteed.)",
-            "id": "Backpack_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Snap-A-Zoomatic",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/variants/progressive/stage1.png",
-                    "name": "Snap-A-Zoomatic",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/variants/progressive/stage2.png",
-                    "name": "Midnight Snap-A-Zoomatic",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "The only thing better than one pickaxe? Two pickaxes!",
-            "id": "Pickaxe_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Epic Blade of Floof",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaPickaxe",
-              "displayValue": "Pickaxe",
-              "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/variants/particle/particle1.png",
-                    "name": "Epic Blade of Floof",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip/variants/particle/particle2.png",
-                    "name": "Midnight Blade of Floof",
-                    "tag": "Particle2"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "So that's why he's named Ollie...",
-            "id": "EID_DenimEquip",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Skatemonster",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "showcaseVideo": "6krLuuceVGQ",
-            "type": {
-              "backendValue": "AthenaDance",
-              "displayValue": "Emote",
-              "value": "emote"
-            }
-          },
-          {
-            "added": "2025-05-22T01:55:14Z",
-            "description": "Strut your Guff.",
-            "id": "Backpack_DenimEquip_Guitar",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip_guitar/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip_guitar/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip_guitar/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Guffy 6-String",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            }
-          },
-          {
-            "added": "2025-05-22T01:55:14Z",
-            "description": "Strut your Guff.",
-            "id": "Pickaxe_DenimEquip_Guitar",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip_guitar/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip_guitar/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_denimequip_guitar/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Guffy 6-String",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaPickaxe",
-              "displayValue": "Pickaxe",
-              "value": "pickaxe"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Once you pop, the drop stops.",
-            "id": "Contrail_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/contrail_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Guff Puffs",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaSkyDiveContrail",
-              "displayValue": "Contrail",
-              "value": "contrail"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Show your style.",
-            "id": "Wrap_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Tactical Guff",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaItemWrap",
-              "displayValue": "Wrap",
-              "value": "wrap"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "There's a big, beautiful world out there to explore - and I intend to see it all! \r\n\r\nArt by Sam McKenzie.",
-            "id": "LoadingScreen_DenimEquip_StockGlow",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_denimequip_stockglow/icon.png",
-              "other": {
-                "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_denimequip_stockglow/background.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_denimequip_stockglow/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Midnight Skye",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaLoadingScreen",
-              "displayValue": "Loading Screen",
-              "value": "loadingscreen"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "If the boss tells you to do something, you do it. No matter how weird it sounds. \r\n\r\nArt by Kris Anka.",
-            "id": "LoadingScreen_DenimEquip_Stock",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_denimequip_stock/icon.png",
-              "other": {
-                "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_denimequip_stock/background.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_denimequip_stock/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Undercover Skye",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaLoadingScreen",
-              "displayValue": "Loading Screen",
-              "value": "loadingscreen"
-            }
-          }
-        ],
-        "bundle": {
-          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f717e09bdd8f27a8/renderimage_0.png",
-          "info": "Bundle",
-          "name": "Undercover Skye Bundle"
-        },
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Undercover Skye, 1 x Snap-A-Zoomatic, 1 x Epic Blade of Floof, 1 x Skatemonster, 1 x Guffy 6-String, 1 x Guffy 6-String, 1 x Guffy 6-String, 1 x Guff Puffs, 1 x Tactical Guff, 1 x Midnight Skye, 1 x Undercover Skye for -1 MtxCurrency",
-        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_DenimEquip_Bundle",
-        "finalPrice": 2400,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "instruments": [
-          {
-            "added": "2024-11-02T17:08:05Z",
-            "description": "Strut your Guff.",
-            "id": "Sparks_Guitar_DenimEquip",
-            "images": {
-              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_guitar_denimequip/large.png",
-              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_guitar_denimequip/small.png"
-            },
-            "name": "Guffy 6-String",
-            "rarity": {
-              "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
-            },
-            "type": {
-              "backendValue": "SparksGuitar",
-              "displayValue": "Guitar",
-              "value": "guitar"
-            }
-          }
-        ],
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.99",
-        "newDisplayAsset": {
-          "id": "DAv2_Bundle_Featured_DenimEquip",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__f717e09bdd8f27a8_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f717e09bdd8f27a8/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__f717e09bdd8f27a8_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f717e09bdd8f27a8/renderimage_1.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__f717e09bdd8f27a8_71e578208f570b02.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f717e09bdd8f27a8/renderimage_2.png",
-              "productTag": "Product.Juno"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_DenimEquip",
-        "offerId": "v2:/87139d3423593e6d43ead239ed078a352ae14f87b1e80b097881f5079b7179f5",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 4700,
-        "sortPriority": -1,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -18793,7 +18057,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.92",
+        "layoutId": "Unvaulted.93",
         "newDisplayAsset": {
           "id": "DAv2_Pickaxe_StageCue",
           "materialInstances": [],
@@ -20228,7 +19492,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.94",
+        "layoutId": "Unvaulted.95",
         "newDisplayAsset": {
           "id": "DAv2_Wrap_MissusMind",
           "materialInstances": [],
@@ -21504,6 +20768,90 @@
       {
         "brItems": [
           {
+            "added": "2023-02-21T15:01:03Z",
+            "description": "Let 'em know who they're up against.",
+            "id": "Backpack_OceanBreeze",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 23,
+              "chapter": "4",
+              "season": "1",
+              "text": "Introduced in Chapter 4, Season 1."
+            },
+            "name": "Electro-Crest",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
+            },
+            "set": {
+              "backendValue": "LoudStop",
+              "text": "Part of the Flakes Power set.",
+              "value": "Flakes Power"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/variants/parts/stage1.png",
+                    "name": "Electro-Crest",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/variants/parts/stage2.png",
+                    "name": "Phantom Power",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "0d0071ff",
+          "color3": "000000ff",
+          "textBackgroundColor": "000000ff"
+        },
+        "devName": "[VIRTUAL]1 x Electro-Crest for 400 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_Oceanbreeze",
+        "finalPrice": 400,
+        "giftable": true,
+        "inDate": "2026-09-05T00:00:00Z",
+        "layoutId": "alc.0",
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S23/DAv2_Backpack_OceanBreeze",
+        "offerId": "v2:/bb3bd24e47c78129e581050e3281c7601db699ee94db1bf43f7148f40fba107e",
+        "outDate": "2026-09-07T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 400,
+        "sortPriority": -1,
+        "tileSize": "Size_4_x_1"
+      },
+      {
+        "brItems": [
+          {
             "added": "2024-11-02T17:09:31Z",
             "description": "He's one classy cat.",
             "id": "Character_GoldCat_Claw",
@@ -21662,90 +21010,6 @@
         "sortPriority": -2,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
-            "added": "2023-02-21T15:01:03Z",
-            "description": "Let 'em know who they're up against.",
-            "id": "Backpack_OceanBreeze",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 23,
-              "chapter": "4",
-              "season": "1",
-              "text": "Introduced in Chapter 4, Season 1."
-            },
-            "name": "Electro-Crest",
-            "rarity": {
-              "backendValue": "EFortRarity::Epic",
-              "displayValue": "Icon Series",
-              "value": "icon"
-            },
-            "series": {
-              "backendValue": "CreatorCollabSeries",
-              "colors": [
-                "5cf2f3ff",
-                "2bc9caff",
-                "004c71ff",
-                "025253ff",
-                "000f2bff"
-              ],
-              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
-              "value": "Icon Series"
-            },
-            "set": {
-              "backendValue": "LoudStop",
-              "text": "Part of the Flakes Power set.",
-              "value": "Flakes Power"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Parts",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/variants/parts/stage1.png",
-                    "name": "Electro-Crest",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_oceanbreeze/variants/parts/stage2.png",
-                    "name": "Phantom Power",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "0d0071ff",
-          "color3": "000000ff",
-          "textBackgroundColor": "000000ff"
-        },
-        "devName": "[VIRTUAL]1 x Electro-Crest for 400 MtxCurrency",
-        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_Oceanbreeze",
-        "finalPrice": 400,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layoutId": "alc.0",
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S23/DAv2_Backpack_OceanBreeze",
-        "offerId": "v2:/bb3bd24e47c78129e581050e3281c7601db699ee94db1bf43f7148f40fba107e",
-        "outDate": "2026-09-07T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 400,
-        "sortPriority": -1,
-        "tileSize": "Size_4_x_1"
       },
       {
         "colors": {
@@ -22485,471 +21749,6 @@
         ]
       },
       {
-        "banner": {
-          "backendValue": "AmountOff",
-          "intensity": "Low",
-          "value": "2200 V-Bucks Off"
-        },
-        "brItems": [
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Chaos reigns.",
-            "id": "Character_MissusMind_Suit",
-            "images": {
-              "bean": {
-                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_missusmind_suit/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_missusmind_suit/small.png"
-              },
-              "featured": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/icon.png",
-              "lego": {
-                "large": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/small.png",
-                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/wide.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Chaos Director",
-            "rarity": {
-              "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaCharacter",
-              "displayValue": "Outfit",
-              "value": "outfit"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage1.png",
-                    "name": "Chaos Director",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage2.png",
-                    "name": "Ghostly Director",
-                    "tag": "Stage2"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage3.png",
-                    "name": "Shadowstruck Director",
-                    "tag": "Stage3"
-                  }
-                ],
-                "type": "Style"
-              },
-              {
-                "channel": "Material",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/material/mat1.png",
-                    "name": "off",
-                    "tag": "Mat1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/material/mat2.png",
-                    "name": "Street Art Chaos Director",
-                    "tag": "Mat2"
-                  }
-                ],
-                "type": "super level"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Breach tri-containment.\r\n\r\nBackpack will match style of glider if both are equipped.",
-            "id": "Backpack_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Tri-Ooze Tank",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/variants/progressive/stage1.png",
-                    "name": "Tri-Ooze Tank",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/variants/progressive/stage2.png",
-                    "name": "Ghostly Tri-Ooze Tank",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Bring chaos to order.",
-            "id": "Pickaxe_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Spiked Baton-Mace",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaPickaxe",
-              "displayValue": "Pickaxe",
-              "value": "pickaxe"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/variants/particle/particle1.png",
-                    "name": "Spiked Baton-Mace",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/variants/particle/particle2.png",
-                    "name": "Ghostly Baton-Mace",
-                    "tag": "Particle2"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Skitter silently across the sky.\r\n\r\nGlider will match style of backpack if both are equipped",
-            "id": "Glider_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "metaTags": [
-              "Cosmetics.MetaTags.MissusMind"
-            ],
-            "name": "Chaotic Crawler",
-            "rarity": {
-              "backendValue": "EFortRarity::Legendary",
-              "displayValue": "Legendary",
-              "value": "legendary"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaGlider",
-              "displayValue": "Glider",
-              "value": "glider"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/variants/particle/particle1.png",
-                    "name": "Chaotic Crawler",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/variants/particle/particle2.png",
-                    "name": "Ghostly Chaotic Crawler",
-                    "tag": "Particle2"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Let your master plan flow through you.",
-            "id": "EID_MissusMind",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Rhythm of Chaos",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "showcaseVideo": "HzuRw5LduCg",
-            "type": {
-              "backendValue": "AthenaDance",
-              "displayValue": "Emote",
-              "value": "emote"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Droplets of chaos.",
-            "id": "Contrail_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Ooze",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaSkyDiveContrail",
-              "displayValue": "Contrail",
-              "value": "contrail"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Show your style.",
-            "id": "Wrap_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Chaos Directive",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaItemWrap",
-              "displayValue": "Wrap",
-              "value": "wrap"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Lesson learned. Don't send an Agent to do a Director's work. \r\n\r\nArt by Sebastian Fiumara.",
-            "id": "LoadingScreen_MissusMind_Suit",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_missusmind_suit/icon.png",
-              "other": {
-                "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_missusmind_suit/background.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_missusmind_suit/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Chaos Director",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaLoadingScreen",
-              "displayValue": "Loading Screen",
-              "value": "loadingscreen"
-            }
-          },
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "This Island has been far too orderly for far too long. It's time to cause some chaos. \r\n\r\nArt by Eleonora Carlini.",
-            "id": "LoadingScreen_MissusMind_SuitSnow",
-            "images": {
-              "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_missusmind_suitsnow/icon.png",
-              "other": {
-                "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_missusmind_suitsnow/background.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_missusmind_suitsnow/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Ghostly Director",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaLoadingScreen",
-              "displayValue": "Loading Screen",
-              "value": "loadingscreen"
-            }
-          }
-        ],
-        "bundle": {
-          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c940df4be24fe1fa/renderimage_0.png",
-          "info": "Bundle",
-          "name": "Chaos Director Bundle"
-        },
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Chaos Director, 1 x Tri-Ooze Tank, 1 x Spiked Baton-Mace, 1 x Chaotic Crawler, 1 x Rhythm of Chaos, 1 x Ooze, 1 x Chaos Directive, 1 x Chaos Director, 1 x Ghostly Director for -1 MtxCurrency",
-        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Missusmind_Bundle",
-        "finalPrice": 2400,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.95",
-        "newDisplayAsset": {
-          "id": "DAv2_Bundle_Featured_MissusMind",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__c940df4be24fe1fa_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c940df4be24fe1fa/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__c940df4be24fe1fa_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c940df4be24fe1fa/renderimage_1.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__c940df4be24fe1fa_e0559e464b07edd9.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c940df4be24fe1fa/renderimage_2.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__c940df4be24fe1fa_c87b2239ea7b1fc6.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c940df4be24fe1fa/renderimage_3.png",
-              "productTag": "Product.Juno"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_Missusmind",
-        "offerId": "v2:/54f76fd1cd5b62e673d71b94f479b0640a98fb3adf9306cb16030e8c99dbfbaa",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 4600,
-        "sortPriority": -1,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
         "brItems": [
           {
             "added": "2025-10-02T08:00:00Z",
@@ -23489,106 +22288,6 @@
         "regularPrice": 1500,
         "sortPriority": -2,
         "tileBackgroundMaterial": "Clouds_DC",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Skitter silently across the sky.\r\n\r\nGlider will match style of backpack if both are equipped",
-            "id": "Glider_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "metaTags": [
-              "Cosmetics.MetaTags.MissusMind"
-            ],
-            "name": "Chaotic Crawler",
-            "rarity": {
-              "backendValue": "EFortRarity::Legendary",
-              "displayValue": "Legendary",
-              "value": "legendary"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaGlider",
-              "displayValue": "Glider",
-              "value": "glider"
-            },
-            "variants": [
-              {
-                "channel": "Particle",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/variants/particle/particle1.png",
-                    "name": "Chaotic Crawler",
-                    "tag": "Particle1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/glider_missusmind/variants/particle/particle2.png",
-                    "name": "Ghostly Chaotic Crawler",
-                    "tag": "Particle2"
-                  }
-                ],
-                "type": "Style"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Chaotic Crawler for 800 MtxCurrency",
-        "finalPrice": 800,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.95",
-        "newDisplayAsset": {
-          "id": "DAv2_Glider_MissusMind",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__aface3ede145a2de_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/aface3ede145a2de/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__aface3ede145a2de_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/aface3ede145a2de/renderimage_1.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Glider_MissusMind",
-        "offerId": "v2:/cb2c4d8ef04213c7c2cb5abd483741f9f374a9e3091bd2daecb057ae1ca3a375",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 800,
-        "sortPriority": -4,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -26792,6 +25491,55 @@
         ]
       },
       {
+        "colors": {
+          "color1": "3a306cff",
+          "color3": "5e40ceff",
+          "textBackgroundColor": "694fc3ff"
+        },
+        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_722) for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-09-01T00:00:00Z",
+        "layout": {
+          "displayType": "expandableList",
+          "id": "JT090426",
+          "index": 16,
+          "name": "Jam Tracks",
+          "rank": 180,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "JT090426.95",
+        "newDisplayAssetPath": "sid_placeholder_722",
+        "offerId": "v2:/f1d4a7ea84475d08d950f713e01c0271a16a3995f1301c834002990bda159b67",
+        "outDate": "2026-09-17T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -96,
+        "tileSize": "Size_1_x_1",
+        "tracks": [
+          {
+            "added": "2026-01-13T19:59:54Z",
+            "albumArt": "https://cdn.fortnite-api.com/tracks/13fe6fb52796cf68.jpg",
+            "artist": "Kizuna AI",
+            "bpm": 87,
+            "devName": "futurebase",
+            "difficulty": {
+              "bass": 0,
+              "drums": 4,
+              "guitar": 3,
+              "plasticBass": 0,
+              "plasticDrums": 4,
+              "vocals": 3
+            },
+            "duration": 183,
+            "id": "sid_placeholder_722",
+            "releaseYear": 2018,
+            "title": "future base"
+          }
+        ]
+      },
+      {
         "brItems": [
           {
             "added": "2024-11-02T17:09:31Z",
@@ -26864,55 +25612,6 @@
         "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
-      },
-      {
-        "colors": {
-          "color1": "3a306cff",
-          "color3": "5e40ceff",
-          "textBackgroundColor": "694fc3ff"
-        },
-        "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_722) for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-09-01T00:00:00Z",
-        "layout": {
-          "displayType": "expandableList",
-          "id": "JT090426",
-          "index": 16,
-          "name": "Jam Tracks",
-          "rank": 180,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "JT090426.95",
-        "newDisplayAssetPath": "sid_placeholder_722",
-        "offerId": "v2:/f1d4a7ea84475d08d950f713e01c0271a16a3995f1301c834002990bda159b67",
-        "outDate": "2026-09-17T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -96,
-        "tileSize": "Size_1_x_1",
-        "tracks": [
-          {
-            "added": "2026-01-13T19:59:54Z",
-            "albumArt": "https://cdn.fortnite-api.com/tracks/13fe6fb52796cf68.jpg",
-            "artist": "Kizuna AI",
-            "bpm": 87,
-            "devName": "futurebase",
-            "difficulty": {
-              "bass": 0,
-              "drums": 4,
-              "guitar": 3,
-              "plasticBass": 0,
-              "plasticDrums": 4,
-              "vocals": 3
-            },
-            "duration": 183,
-            "id": "sid_placeholder_722",
-            "releaseYear": 2018,
-            "title": "future base"
-          }
-        ]
       },
       {
         "colors": {
@@ -27144,80 +25843,6 @@
       {
         "brItems": [
           {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Droplets of chaos.",
-            "id": "Contrail_MissusMind",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Ooze",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
-            "type": {
-              "backendValue": "AthenaSkyDiveContrail",
-              "displayValue": "Contrail",
-              "value": "contrail"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Ooze for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.94",
-        "newDisplayAsset": {
-          "id": "DAv2_Contrail_MissusMind",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__fe4332ed178bd86f_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fe4332ed178bd86f/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Contrail_MissusMind",
-        "offerId": "v2:/f44ac112008f0a541929f065c7d7ffc51961bca47dadbe20a264b711df9ce5e1",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -2,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2025-01-15T14:05:32Z",
             "description": "Show your style.\r\n\r\nReacts to your shots.",
             "id": "Wrap_AvocadoSeal",
@@ -27288,6 +25913,80 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -2,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2024-11-02T17:09:31Z",
+            "description": "Droplets of chaos.",
+            "id": "Contrail_MissusMind",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_missusmind/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 32,
+              "chapter": "2",
+              "season": "Remix",
+              "text": "Introduced in Chapter 2, Season Remix."
+            },
+            "name": "Ooze",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "set": {
+              "backendValue": "PressedEarth",
+              "text": "Part of the Bleakest Bedlam set.",
+              "value": "Bleakest Bedlam"
+            },
+            "type": {
+              "backendValue": "AthenaSkyDiveContrail",
+              "displayValue": "Contrail",
+              "value": "contrail"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "fdd61cff",
+          "color3": "ffa21fff",
+          "textBackgroundColor": "e88903ff"
+        },
+        "devName": "[VIRTUAL]1 x Ooze for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-09-05T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Unvaulted",
+          "index": 2,
+          "name": "Unvaulted",
+          "rank": 197,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Unvaulted.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Contrail_MissusMind",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__fe4332ed178bd86f_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/fe4332ed178bd86f/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Contrail_MissusMind",
+        "offerId": "v2:/f44ac112008f0a541929f065c7d7ffc51961bca47dadbe20a264b711df9ce5e1",
+        "outDate": "2026-09-11T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -27455,7 +26154,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.91",
+        "layoutId": "Unvaulted.92",
         "newDisplayAssetPath": "sid_placeholder_351",
         "offerId": "v2:/849cfa750c3aeaa292cae88007926cf8a91d36491f73229d2988e03f699eae76",
         "outDate": "2026-09-11T23:59:59.999Z",
@@ -29612,7 +28311,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.94",
+        "layoutId": "Unvaulted.95",
         "newDisplayAsset": {
           "id": "DAv2_EID_MissusMind",
           "materialInstances": [],
@@ -29637,12 +28336,21 @@
         "brItems": [
           {
             "added": "2024-11-02T17:09:31Z",
-            "description": "Bring chaos to order.",
-            "id": "Pickaxe_MissusMind",
+            "description": "Chaos reigns.",
+            "id": "Character_MissusMind_Suit",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/smallicon.png"
+              "bean": {
+                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_missusmind_suit/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_missusmind_suit/small.png"
+              },
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_missusmind_suit/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/smallicon.png"
             },
             "introduction": {
               "backendValue": 32,
@@ -29650,11 +28358,11 @@
               "season": "Remix",
               "text": "Introduced in Chapter 2, Season Remix."
             },
-            "name": "Spiked Baton-Mace",
+            "name": "Chaos Director",
             "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Epic",
+              "value": "epic"
             },
             "set": {
               "backendValue": "PressedEarth",
@@ -29662,26 +28370,47 @@
               "value": "Bleakest Bedlam"
             },
             "type": {
-              "backendValue": "AthenaPickaxe",
-              "displayValue": "Pickaxe",
-              "value": "pickaxe"
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
             },
             "variants": [
               {
-                "channel": "Particle",
+                "channel": "Progressive",
                 "options": [
                   {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/variants/particle/particle1.png",
-                    "name": "Spiked Baton-Mace",
-                    "tag": "Particle1"
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage1.png",
+                    "name": "Chaos Director",
+                    "tag": "Stage1"
                   },
                   {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_missusmind/variants/particle/particle2.png",
-                    "name": "Ghostly Baton-Mace",
-                    "tag": "Particle2"
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage2.png",
+                    "name": "Ghostly Director",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/progressive/stage3.png",
+                    "name": "Shadowstruck Director",
+                    "tag": "Stage3"
                   }
                 ],
                 "type": "Style"
+              },
+              {
+                "channel": "Material",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/material/mat1.png",
+                    "name": "off",
+                    "tag": "Mat1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_missusmind_suit/variants/material/mat2.png",
+                    "name": "Street Art Chaos Director",
+                    "tag": "Mat2"
+                  }
+                ],
+                "type": "super level"
               }
             ]
           }
@@ -29691,8 +28420,8 @@
           "color3": "ffa21fff",
           "textBackgroundColor": "e88903ff"
         },
-        "devName": "[VIRTUAL]1 x Spiked Baton-Mace for 800 MtxCurrency",
-        "finalPrice": 800,
+        "devName": "[VIRTUAL]1 x Chaos Director for 1200 MtxCurrency",
+        "finalPrice": 1200,
         "giftable": true,
         "inDate": "2026-09-05T00:00:00Z",
         "layout": {
@@ -29706,27 +28435,37 @@
         },
         "layoutId": "Unvaulted.95",
         "newDisplayAsset": {
-          "id": "DAv2_Pickaxe_MissusMind",
+          "id": "DAv2_Character_MissusMind_Suit",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__6d38293ac1dfa8ae_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6d38293ac1dfa8ae/renderimage_0.png",
+              "fileName": "cosmo__f1cea689a974e10a_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__6d38293ac1dfa8ae_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6d38293ac1dfa8ae/renderimage_1.png",
+              "fileName": "cosmo__f1cea689a974e10a_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_1.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__f1cea689a974e10a_e0559e464b07edd9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__f1cea689a974e10a_c87b2239ea7b1fc6.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f1cea689a974e10a/renderimage_3.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Pickaxe_MissusMind",
-        "offerId": "v2:/609fdf06cc8b810031c84d98dfbf5c9c728475962ab0bff151e905582cecfa9f",
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_missusmind_suit",
+        "offerId": "v2:/0940abf65ba8ec159dcf7d6ae35af9435a155341fd67f4ed368080e2613a78b7",
         "outDate": "2026-09-11T23:59:59.999Z",
         "refundable": false,
-        "regularPrice": 800,
-        "sortPriority": -3,
+        "regularPrice": 1200,
+        "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
       },
@@ -31002,7 +29741,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.91",
+        "layoutId": "Unvaulted.92",
         "newDisplayAssetPath": "sid_placeholder_352",
         "offerId": "v2:/3376ee513e4a6ffbd1132a7c410c77713f01ac1d0254175f5da20e2b75fa6d1e",
         "outDate": "2026-09-11T23:59:59.999Z",
@@ -31785,80 +30524,6 @@
       {
         "brItems": [
           {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Show your style.",
-            "id": "Wrap_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Tactical Guff",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaItemWrap",
-              "displayValue": "Wrap",
-              "value": "wrap"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Tactical Guff for 500 MtxCurrency",
-        "finalPrice": 500,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.98",
-        "newDisplayAsset": {
-          "id": "DAv2_Wrap_DenimEquip",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__11b1d7a6c2178e90_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/11b1d7a6c2178e90/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Wrap_DenimEquip",
-        "offerId": "v2:/f4fa2b12b098168106d09a7b3849ab38173fbec1b799e6567347ea3c04a25e4c",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 500,
-        "sortPriority": -3,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
             "added": "2019-11-20T12:50:26Z",
             "description": "Bring on the noise complaints.",
             "id": "CID_097_Athena_Commando_F_RockerPunk",
@@ -32021,6 +30686,80 @@
         "refundable": false,
         "regularPrice": 2000,
         "sortPriority": -2,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "brItems": [
+          {
+            "added": "2024-11-02T17:09:31Z",
+            "description": "Show your style.",
+            "id": "Wrap_DenimEquip",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_denimequip/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 32,
+              "chapter": "2",
+              "season": "Remix",
+              "text": "Introduced in Chapter 2, Season Remix."
+            },
+            "name": "Tactical Guff",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "StrongWalk",
+              "text": "Part of the Mighty Questie set.",
+              "value": "Mighty Questie"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "fdd61cff",
+          "color3": "ffa21fff",
+          "textBackgroundColor": "e88903ff"
+        },
+        "devName": "[VIRTUAL]1 x Tactical Guff for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-09-05T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Unvaulted",
+          "index": 2,
+          "name": "Unvaulted",
+          "rank": 197,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Unvaulted.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Wrap_DenimEquip",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__11b1d7a6c2178e90_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/11b1d7a6c2178e90/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Wrap_DenimEquip",
+        "offerId": "v2:/f4fa2b12b098168106d09a7b3849ab38173fbec1b799e6567347ea3c04a25e4c",
+        "outDate": "2026-09-11T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_CornerGradient",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -32367,98 +31106,84 @@
       {
         "brItems": [
           {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Breach tri-containment.\r\n\r\nBackpack will match style of glider if both are equipped.",
-            "id": "Backpack_MissusMind",
+            "added": "2019-11-20T12:50:30Z",
+            "description": "Uncommon renegade outfit. ",
+            "id": "CID_013_Athena_Commando_F",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/smallicon.png"
+              "bean": {
+                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_commando013/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_commando013/small.png"
+              },
+              "featured": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/cid_013_athena_commando_f/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/cid_013_athena_commando_f/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/cid_013_athena_commando_f/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/smallicon.png"
             },
             "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
+              "backendValue": 1,
+              "chapter": "1",
+              "season": "1",
+              "text": "Introduced in Chapter 1, Season 1."
             },
-            "name": "Tri-Ooze Tank",
+            "name": "Renegade",
             "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
             },
-            "set": {
-              "backendValue": "PressedEarth",
-              "text": "Part of the Bleakest Bedlam set.",
-              "value": "Bleakest Bedlam"
-            },
+            "showcaseVideo": "Exu-MKb2VVs",
             "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/variants/progressive/stage1.png",
-                    "name": "Tri-Ooze Tank",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_missusmind/variants/progressive/stage2.png",
-                    "name": "Ghostly Tri-Ooze Tank",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
           }
         ],
         "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
+          "color1": "247566ff",
+          "color3": "042e1cff",
+          "textBackgroundColor": "042e1cff"
         },
-        "devName": "[VIRTUAL]1 x Tri-Ooze Tank for 300 MtxCurrency",
-        "finalPrice": 300,
+        "devName": "[VIRTUAL]1 x Renegade for 800 MtxCurrency",
+        "finalPrice": 800,
         "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
+        "inDate": "2026-09-01T00:00:00Z",
         "layout": {
           "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
+          "id": "NS0901",
+          "index": 44,
+          "name": "No Sweat",
+          "rank": 182,
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.94",
+        "layoutId": "NS0901.99",
         "newDisplayAsset": {
-          "id": "DAv2_Backpack_MissusMind",
+          "id": "DAv2_CID_013_F_Renegade",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__a34ccb950561580c_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a34ccb950561580c/renderimage_0.png",
+              "fileName": "cosmo__007e7c2b8d60db38_54d14c8030942d49.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/007e7c2b8d60db38/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "cosmo__a34ccb950561580c_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a34ccb950561580c/renderimage_1.png",
-              "productTag": "Product.BR"
+              "fileName": "cosmo__007e7c2b8d60db38_00409c75b54b8f46.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/007e7c2b8d60db38/renderimage_1.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Backpack_MissusMind",
-        "offerId": "v2:/c3e0d0dc516514306e4251faf395ad2c4b617940f17ae8e3b70e70b73eadea7c",
-        "outDate": "2026-09-11T23:59:59.999Z",
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_013_F_Renegade",
+        "offerId": "v2:/309e47e57a9187d664b1780ce45c25023071461ce12bfb7c90fa2eb3a581fbd5",
+        "outDate": "2026-09-07T23:59:59.999Z",
         "refundable": false,
-        "regularPrice": 300,
-        "sortPriority": -3,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
+        "regularPrice": 800,
+        "sortPriority": -2,
         "tileSize": "Size_1_x_1"
       },
       {
@@ -32577,7 +31302,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.93",
+        "layoutId": "Unvaulted.94",
         "newDisplayAsset": {
           "id": "DAv2_Character_StageCue_Chalk",
           "materialInstances": [],
@@ -32601,89 +31326,6 @@
         "regularPrice": 1200,
         "sortPriority": -2,
         "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
-        "brItems": [
-          {
-            "added": "2019-11-20T12:50:30Z",
-            "description": "Uncommon renegade outfit. ",
-            "id": "CID_013_Athena_Commando_F",
-            "images": {
-              "bean": {
-                "large": "https://fortnite-api.com/images/cosmetics/beans/bean_commando013/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/beans/bean_commando013/small.png"
-              },
-              "featured": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/icon.png",
-              "lego": {
-                "large": "https://fortnite-api.com/images/cosmetics/lego/cid_013_athena_commando_f/large.png",
-                "small": "https://fortnite-api.com/images/cosmetics/lego/cid_013_athena_commando_f/small.png",
-                "wide": "https://fortnite-api.com/images/cosmetics/lego/cid_013_athena_commando_f/wide.png"
-              },
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/cid_013_athena_commando_f/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 1,
-              "chapter": "1",
-              "season": "1",
-              "text": "Introduced in Chapter 1, Season 1."
-            },
-            "name": "Renegade",
-            "rarity": {
-              "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
-            },
-            "showcaseVideo": "Exu-MKb2VVs",
-            "type": {
-              "backendValue": "AthenaCharacter",
-              "displayValue": "Outfit",
-              "value": "outfit"
-            }
-          }
-        ],
-        "colors": {
-          "color1": "247566ff",
-          "color3": "042e1cff",
-          "textBackgroundColor": "042e1cff"
-        },
-        "devName": "[VIRTUAL]1 x Renegade for 800 MtxCurrency",
-        "finalPrice": 800,
-        "giftable": true,
-        "inDate": "2026-09-01T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "NS0901",
-          "index": 44,
-          "name": "No Sweat",
-          "rank": 182,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "NS0901.99",
-        "newDisplayAsset": {
-          "id": "DAv2_CID_013_F_Renegade",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__007e7c2b8d60db38_54d14c8030942d49.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/007e7c2b8d60db38/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__007e7c2b8d60db38_00409c75b54b8f46.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/007e7c2b8d60db38/renderimage_1.png",
-              "productTag": "Product.Juno"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_013_F_Renegade",
-        "offerId": "v2:/309e47e57a9187d664b1780ce45c25023071461ce12bfb7c90fa2eb3a581fbd5",
-        "outDate": "2026-09-07T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 800,
-        "sortPriority": -2,
         "tileSize": "Size_1_x_1"
       },
       {
@@ -34764,98 +33406,6 @@
         "tileSize": "Size_1_x_1"
       },
       {
-        "brItems": [
-          {
-            "added": "2024-11-02T17:09:31Z",
-            "description": "Treasure perfect moments! (Perfect moments not guaranteed.)",
-            "id": "Backpack_DenimEquip",
-            "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/featured.png",
-              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/icon.png",
-              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/smallicon.png"
-            },
-            "introduction": {
-              "backendValue": 32,
-              "chapter": "2",
-              "season": "Remix",
-              "text": "Introduced in Chapter 2, Season Remix."
-            },
-            "name": "Snap-A-Zoomatic",
-            "rarity": {
-              "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
-            },
-            "set": {
-              "backendValue": "StrongWalk",
-              "text": "Part of the Mighty Questie set.",
-              "value": "Mighty Questie"
-            },
-            "type": {
-              "backendValue": "AthenaBackpack",
-              "displayValue": "Back Bling",
-              "value": "backpack"
-            },
-            "variants": [
-              {
-                "channel": "Progressive",
-                "options": [
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/variants/progressive/stage1.png",
-                    "name": "Snap-A-Zoomatic",
-                    "tag": "Stage1"
-                  },
-                  {
-                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_denimequip/variants/progressive/stage2.png",
-                    "name": "Midnight Snap-A-Zoomatic",
-                    "tag": "Stage2"
-                  }
-                ],
-                "type": "style"
-              }
-            ]
-          }
-        ],
-        "colors": {
-          "color1": "fdd61cff",
-          "color3": "ffa21fff",
-          "textBackgroundColor": "e88903ff"
-        },
-        "devName": "[VIRTUAL]1 x Snap-A-Zoomatic for 400 MtxCurrency",
-        "finalPrice": 400,
-        "giftable": true,
-        "inDate": "2026-09-05T00:00:00Z",
-        "layout": {
-          "displayType": "tileGrid",
-          "id": "Unvaulted",
-          "index": 2,
-          "name": "Unvaulted",
-          "rank": 197,
-          "showIneligibleOffers": "always",
-          "useWidePreview": false
-        },
-        "layoutId": "Unvaulted.99",
-        "newDisplayAsset": {
-          "id": "DAv2_Backpack_DenimEquip",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "cosmo__b857901f7ae5efb4_29c0c4191e61fb71.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b857901f7ae5efb4/renderimage_0.png",
-              "productTag": "Product.BR"
-            }
-          ]
-        },
-        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Backpack_DenimEquip",
-        "offerId": "v2:/7d3c20ec5d426ca432eff7ea8c6a42466fb21eaf0b168cd457a7c507fcf55bfe",
-        "outDate": "2026-09-11T23:59:59.999Z",
-        "refundable": false,
-        "regularPrice": 400,
-        "sortPriority": -3,
-        "tileBackgroundMaterial": "ShopTile_CornerGradient",
-        "tileSize": "Size_1_x_1"
-      },
-      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -36074,7 +34624,7 @@
           "showIneligibleOffers": "always",
           "useWidePreview": false
         },
-        "layoutId": "Unvaulted.92",
+        "layoutId": "Unvaulted.93",
         "newDisplayAsset": {
           "id": "DAv2_EID_StageCue",
           "materialInstances": [],
@@ -39479,7 +38029,7 @@
         "tileSize": "Size_1_x_1"
       }
     ],
-    "hash": "a27506479a57570e",
+    "hash": "8dc293ccb39ff08b",
     "vbuckIcon": "https://fortnite-api.com/images/vbuck.png"
   },
   "status": 200
