@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-06
+- **01:10** BR Cosmetics, Item Shop, AES Keys - +37 new (Walter Irons, FLAWLESS VICTORY, Continue? Coin, Side Shuffle, Kitana (MK3), +32 more) - -28 removed
+
 ## 2026-09-05
 - **23:08** Epic Content Pages
 - **21:27** Item Shop, News - +1 new (New Loot Hacks and Fresh Sprites) - -1 removed
