@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-07
+- **21:40** BR Cosmetics, LEGO Cosmetics, AES Keys - +14 new (E-Tank Power Pack, Z-Saber, Mega Man (Dual Override), Mega Man X, Zero (Mega Man), +9 more)
 - **18:03** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +2 new (Rush (Mega Man), Rush's Growl)
 - **01:11** Item Shop - +45 new (Black Ops Sword, Akatsuki, SASUKE & SAKURA BUNDLE, Hinata's Backpack, Summoning Jutsu, +40 more) - -42 removed
 
