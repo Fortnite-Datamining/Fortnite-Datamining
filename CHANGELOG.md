@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-07
+- **18:03** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +2 new (Rush (Mega Man), Rush's Growl)
 - **01:11** Item Shop - +45 new (Black Ops Sword, Akatsuki, SASUKE & SAKURA BUNDLE, Hinata's Backpack, Summoning Jutsu, +40 more) - -42 removed
 
 ## 2026-09-06

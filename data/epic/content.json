@@ -2163,7 +2163,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-09-05T22:14:55.780Z",
+  "lastModified": "2026-09-07T13:18:10.476Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -47958,7 +47958,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-09-04T14:49:52.492Z",
+    "lastModified": "2026-09-07T13:18:10.476Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -56417,63 +56417,6 @@
         },
         {
           "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Main_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "How many V-Bucks does Fortnite Crew grant you per month?",
-                  "textID": "How many V-Bucks does Fortnite Crew grant you per month?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "I don't know",
-                    "textID": "I don't know"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "1200",
-                    "textID": "1200"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "1000",
-                    "textID": "1000"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "800",
-                    "textID": "800"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "500",
-                    "textID": "500"
-                  }
-                ],
-                "type": "SingleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_CrewVBucksAmount",
-          "surveyTags": [
-            "BPCrew_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
             "FNBR_Playlists",
@@ -60489,365 +60432,6 @@
           "surveyID": "XP_EaseofEarning",
           "surveyTags": [
             "XP_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Main_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Which Battle Pass did you like the most in the previous chapter?",
-                  "textID": "Which Battle Pass did you like the most in the previous chapter?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 1: Hunters",
-                    "textID": "Season 1: Hunters"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 2: Lawless",
-                    "textID": "Season 2: Lawless"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 3: Super",
-                    "textID": "Season 3: Super"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 4: Shock N' Awesome",
-                    "textID": "Season 4: Shock N' Awesome"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Fortnite Star Wars Galactic Battle",
-                    "textID": "Fortnite Star Wars Galactic Battle"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Fortnite The Simpsons",
-                    "textID": "Fortnite The Simpsons"
-                  }
-                ],
-                "type": "SingleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_FavBPLastYear",
-          "surveyTags": [
-            "BPCrew_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Main_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Which Battle Pass did you like the most in this chapter?",
-                  "textID": "Which Battle Pass did you like the most in this chapter?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 4: Override",
-                    "textID": "Season 4: Override"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 3: Runners",
-                    "textID": "Season 3: Runners"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 2: Showdown",
-                    "textID": "Season 2: Showdown"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Season 1: Pacific Break",
-                    "textID": "Season 1: Pacific Break"
-                  }
-                ],
-                "type": "SingleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_FavBPThisYear",
-          "surveyTags": [
-            "BPCrew_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Main_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "How much do you like/dislike Crew this season?",
-                  "textID": "How much do you like/dislike Crew this season?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Strongly Dislike",
-                    "textID": "Strongly Dislike"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Strongly Like",
-                    "textID": "Strongly Like"
-                  }
-                ],
-                "type": "Rating"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_CrewLike",
-          "surveyTags": [
-            "BPCrew_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Main_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "How much do you like/dislike this season's Battle Pass?",
-                  "textID": "How much do you like/dislike this season's Battle Pass?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Strongly Dislike",
-                    "textID": "Strongly Dislike"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Strongly Like",
-                    "textID": "Strongly Like"
-                  }
-                ],
-                "type": "Rating"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_BPLike",
-          "surveyTags": [
-            "BPCrew_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Main_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": true,
-                "numberOfOptions": 9,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Which of the following would be appealing to you if they were added to Fortnite Crew? Please select all that apply.",
-                  "textID": "Which of the following would be appealing to you if they were added to Fortnite Crew? Please select all that apply."
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "More Cosmetics",
-                    "textID": "More Cosmetics"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "More Battle Pass Levels",
-                    "textID": "More Battle Pass Levels"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "More Vbucks",
-                    "textID": "More Vbucks"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Exclusive Emotes",
-                    "textID": "Exclusive Emotes"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Upgradable Cosmetics",
-                    "textID": "Upgradable Cosmetics"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Exclusive Quests",
-                    "textID": "Exclusive Quests"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Multi-Month Subscriptions",
-                    "textID": "Multi-Month Subscriptions"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Giftable Subscriptions",
-                    "textID": "Giftable Subscriptions"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Instant Unlocks",
-                    "textID": "Instant Unlocks"
-                  }
-                ],
-                "type": "MultipleChoice"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_CrewNewFeatures",
-          "surveyTags": [
-            "BPCrew_Main_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Modular_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "How much do you agree with the following statement? {BPCrew_Likert_Agreement}",
-                  "textID": "How much do you agree with the following statement? {BPCrew_Likert_Agreement}"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Strongly Disagree",
-                    "textID": "Strongly Disagree"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Strongly Agree",
-                    "textID": "Strongly Agree"
-                  }
-                ],
-                "type": "Rating"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_Likert_Agreement",
-          "surveyTags": [
-            "BPCrew_Modular_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": true,
-          "conditionGroupIDs": [
-            "Ecosystem_Playlists",
-            "BPCrew_Modular_Rate",
-            "Global_Cooldown",
-            "BPCrew_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": false,
-                "numberOfOptions": 5,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "How important is the following to you? {BPCrew_Likert_Importance}",
-                  "textID": "How important is the following to you? {BPCrew_Likert_Importance}"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Not Important At All",
-                    "textID": "Not Important At All"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Very Important",
-                    "textID": "Very Important"
-                  }
-                ],
-                "type": "Rating"
-              }
-            }
-          ],
-          "surveyID": "Ecosystem_BPCrew_Likert_Importance",
-          "surveyTags": [
-            "BPCrew_Modular_Surveys"
           ]
         },
         {
@@ -75280,6 +74864,51 @@
           "title_line_2": "Zero Build",
           "tournament_display_id": "s42_shadow_zb",
           "tournament_view_background_image": "https://cdn2.unrealengine.com/fneco-42-00-bramble-competetab-grouptexture-1560x1024-1560x1024-ae72b459d663.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "240580",
+          "background_right_color": "7910B6",
+          "background_text_color": "161616",
+          "details_description": "The cup of the legendary Blue Bomber! Power up, race into action, and prove you have what it takes to overcome every challenge. Top competitors will earn exclusive Mega Man cosmetic rewards. Get 5 eliminations with the Mega Buster to earn the \"Override Buster Blast\" Spray. Duo up and blast your way to victory! Fight, Mega Man! For everlasting peace! Good luck and have fun!",
+          "long_format_title": "Override Series: Mega Man Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fneco-42-10-drizzle-competitivecup-discovertile-1920x1080-1920x1080-ecacc32e6b9f.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fneco-42-10-drizzle-competitivecup-competetab-solotexture-800x800-800x800-aba1cb7e85a3.jpg",
+          "title_line_1": "Override Series: Mega Man Cup",
+          "title_line_2": "Battle Royale",
+          "tournament_display_id": "s42_megaman",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fneco-42-10-drizzle-competitivecup-competetab-grouptexture-1560x1024-1560x1024-f5ac4ea78880.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "240580",
+          "background_right_color": "7910B6",
+          "background_text_color": "161616",
+          "details_description": "The cup of the legendary Blue Bomber! Power up, race into action, and prove you have what it takes to overcome every challenge. Top competitors will earn exclusive Mega Man cosmetic rewards. Get 5 eliminations with the Mega Buster to earn the \"Override Buster Blast\" Spray.Compete and blast your way to victory! Fight, Mega Man! For everlasting peace! Good luck and have fun!",
+          "long_format_title": "Override Series: Mega Man Mobile Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fneco-42-10-drizzle-competitivecup-mobile-discovertile-1920x1080-1920x1080-70135b88f3bb.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fneco-42-10-drizzle-competitivecup-competetab-solotexture-800x800-800x800-aba1cb7e85a3.jpg",
+          "title_line_1": "Override Series: Mega Man Mobile Cup",
+          "title_line_2": "",
+          "tournament_display_id": "s42_megaman_mobile",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fneco-42-10-drizzle-competitivecup-competetab-grouptexture-1560x1024-1560x1024-f5ac4ea78880.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "240580",
+          "background_right_color": "7910B6",
+          "background_text_color": "161616",
+          "details_description": "The cup of the legendary Blue Bomber! Power up, race into action, and prove you have what it takes to overcome every challenge. Top competitors will earn exclusive Mega Man cosmetic rewards. Get 5 eliminations with the Mega Buster to earn the \"Override Buster Blast\" Spray. Duo up and blast your way to victory! Fight, Mega Man! For everlasting peace! Good luck and have fun!",
+          "long_format_title": "Override Series: Mega Man Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fneco-42-10-drizzle-competitivecup-zb-discovertile-1920x1080-1920x1080-d1e2d6225258.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fneco-42-10-drizzle-competitivecup-competetab-solotexture-800x800-800x800-aba1cb7e85a3.jpg",
+          "title_line_1": "Override Series: Mega Man Cup",
+          "title_line_2": "Zero Build",
+          "tournament_display_id": "s42_megaman_zb",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fneco-42-10-drizzle-competitivecup-competetab-grouptexture-1560x1024-1560x1024-f5ac4ea78880.jpg"
         },
         {
           "_type": "Tournament Display Info",
