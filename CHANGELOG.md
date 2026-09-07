@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-07
+- **01:11** Item Shop - +45 new (Black Ops Sword, Akatsuki, SASUKE & SAKURA BUNDLE, Hinata's Backpack, Summoning Jutsu, +40 more) - -42 removed
+
 ## 2026-09-06
 - **14:18** BR Cosmetics, Item Shop
 - **01:10** BR Cosmetics, Item Shop, AES Keys - +37 new (Walter Irons, FLAWLESS VICTORY, Continue? Coin, Side Shuffle, Kitana (MK3), +32 more) - -28 removed
