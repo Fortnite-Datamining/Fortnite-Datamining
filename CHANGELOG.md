@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-08
+- **02:50** BR Cosmetics, Item Shop, AES Keys - +51 new (FaSHioN, DRG Backpack, Saltwater Satchel, Pixellator, Aniyah, +46 more) - -94 removed
+
 ## 2026-09-07
 - **21:40** BR Cosmetics, LEGO Cosmetics, AES Keys - +14 new (E-Tank Power Pack, Z-Saber, Mega Man (Dual Override), Mega Man X, Zero (Mega Man), +9 more)
 - **18:03** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +2 new (Rush (Mega Man), Rush's Growl)
