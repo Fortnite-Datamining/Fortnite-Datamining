@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-08
+- **12:34** BR Cosmetics, Item Shop
 - **02:50** BR Cosmetics, Item Shop, AES Keys - +51 new (FaSHioN, DRG Backpack, Saltwater Satchel, Pixellator, Aniyah, +46 more) - -94 removed
 
 ## 2026-09-07
