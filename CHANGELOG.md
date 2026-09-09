@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-09
+- **05:52** News - +1 new (New Loot Hacks and Fresh Sprites) - -1 removed
 - **00:59** Item Shop, News, Epic Content Pages - +33 new (Potassius Peels, Cape of Potassius, Kinetic Scabbard, Haze, Gilded Contingency, +28 more) - -27 removed
 
 ## 2026-09-08
