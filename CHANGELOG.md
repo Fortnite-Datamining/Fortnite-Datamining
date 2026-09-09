@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-09
+- **00:59** Item Shop, News, Epic Content Pages - +33 new (Potassius Peels, Cape of Potassius, Kinetic Scabbard, Haze, Gilded Contingency, +28 more) - -27 removed
+
 ## 2026-09-08
 - **22:51** Item Shop, Epic Content Pages
 - **20:01** Jam Tracks, Epic Content Pages - +2 new (Good Morning U.S.A. (Main Title Theme), El Sonidito)
