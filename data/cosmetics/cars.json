@@ -338,6 +338,27 @@
       "vehicleId": "VCID_Body_Bullet"
     },
     {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Victory, refined.",
+      "id": "CarBody_BurnishedRaven",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_burnishedraven/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_burnishedraven/small.png"
+      },
+      "name": "Cadillac CT5-V Blackwing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_BurnishedRaven"
+    },
+    {
       "added": "2026-09-03T15:24:18Z",
       "description": "Breathtaking performance.",
       "id": "CarBody_ButterT1",
@@ -5521,6 +5542,111 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_BulletWings"
+    },
+    {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Cadillac CT5-V Blackwing custom decal.",
+      "id": "CarSkin_BurnishedRavenFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BurnishedRavenFlames"
+    },
+    {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Cadillac CT5-V Blackwing custom decal.",
+      "id": "CarSkin_BurnishedRavenLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenlightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenlightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BurnishedRavenLightning"
+    },
+    {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Cadillac CT5-V Blackwing custom decal.",
+      "id": "CarSkin_BurnishedRavenLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenlivery01/small.png"
+      },
+      "name": "Absolute Blackwing",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BurnishedRavenLivery01"
+    },
+    {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Cadillac CT5-V Blackwing custom decal.",
+      "id": "CarSkin_BurnishedRavenStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenstripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BurnishedRavenStripes"
+    },
+    {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Cadillac CT5-V Blackwing custom decal.",
+      "id": "CarSkin_BurnishedRavenWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_BurnishedRavenWings"
     },
     {
       "added": "2026-09-03T15:24:18Z",
@@ -32051,6 +32177,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_BulletD"
+    },
+    {
+      "added": "2026-09-10T13:00:47Z",
+      "description": "Victory, revolutionized.",
+      "id": "Wheel_BurnishedRaven01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_burnishedraven01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_burnishedraven01/small.png"
+      },
+      "name": "Cadillac CT5-V Blackwing",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_BurnishedRaven01"
     },
     {
       "added": "2025-12-11T10:20:11Z",
