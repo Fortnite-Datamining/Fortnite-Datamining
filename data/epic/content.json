@@ -1839,9 +1839,9 @@
       "backgrounds": [
         {
           "_type": "DynamicBackground",
-          "backgroundimage": "https://cdn2.unrealengine.com/mkart-ch7s4-lobby-3840x2022-18226aaf44c6.jpg",
+          "backgroundimage": "https://cdn2.unrealengine.com/mkart-ch7s4-lobbybg-v2-1mb-4096x2048-b4d326d49e84.jpg",
           "key": "lobby",
-          "stage": "season4200"
+          "stage": "defaultblurryfloor"
         },
         {
           "_type": "DynamicBackground",
@@ -1850,7 +1850,7 @@
         }
       ]
     },
-    "lastModified": "2026-08-20T06:07:37.345Z"
+    "lastModified": "2026-09-11T17:29:57.002Z"
   },
   "emergencynotice": {
     "_activeDate": "2018-08-06T19:00:26.217Z",
@@ -1877,7 +1877,7 @@
       "emergencynotices": [
         {
           "_type": "CommonUI Emergency Notice Base",
-          "body": "Save The World is temporarily unavailable on Nintendo Switch 2 due to an update error. We are working to fix this and it should return in the coming days.",
+          "body": "Please download the latest version of Save The World from the Nintendo eShop.",
           "hidden": false,
           "platforms": [
             "Switch"
@@ -1885,11 +1885,11 @@
           "playlists": [
             "campaign"
           ],
-          "title": "Save The World Unavailable "
+          "title": "Save The World on Nintendo eShop"
         }
       ]
     },
-    "lastModified": "2026-09-10T00:19:39.072Z"
+    "lastModified": "2026-09-11T17:45:18.363Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -2177,7 +2177,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-09-11T14:52:17.888Z",
+  "lastModified": "2026-09-11T17:45:18.363Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -39156,7 +39156,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-09-11T14:52:17.888Z",
+    "lastModified": "2026-09-11T16:24:12.750Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -44659,8 +44659,8 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Dislike",
-                    "textID": "Dislike"
+                    "localizedText": "Hate",
+                    "textID": "Hate"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -44669,8 +44669,8 @@
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Like",
-                    "textID": "Like"
+                    "localizedText": "Love",
+                    "textID": "Love"
                   }
                 ],
                 "type": "Rating"
@@ -44706,8 +44706,8 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Dislike",
-                    "textID": "Dislike"
+                    "localizedText": "Hate",
+                    "textID": "Hate"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -44716,8 +44716,8 @@
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Like",
-                    "textID": "Like"
+                    "localizedText": "Love",
+                    "textID": "Love"
                   }
                 ],
                 "type": "Rating"
@@ -44753,8 +44753,8 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Dislike",
-                    "textID": "Dislike"
+                    "localizedText": "Hate",
+                    "textID": "Hate"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -44763,8 +44763,8 @@
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Like",
-                    "textID": "Like"
+                    "localizedText": "Love",
+                    "textID": "Love"
                   }
                 ],
                 "type": "Rating"
