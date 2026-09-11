@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-11
+- **15:45** News, Epic Content Pages - +1 new (Power Hours Kick Off on Saturday) - -1 removed
 - **11:39** BR Cosmetics, Item Shop
 - **01:18** BR Cosmetics, Item Shop, Banners, Epic Content Pages - +26 new (Agent Webb, Mega Buster Flex, Mega Man X, Lumi Core Green, Flare, +21 more) - -64 removed
 
