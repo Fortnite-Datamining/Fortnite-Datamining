@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-11
+- **21:32** Item Shop, Epic Content Pages
 - **18:56** Epic Content Pages
 - **15:45** News, Epic Content Pages - +1 new (Power Hours Kick Off on Saturday) - -1 removed
 - **11:39** BR Cosmetics, Item Shop
