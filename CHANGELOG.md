@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-13
+- **05:07** News - +1 new (Gold and Cheat Master Sprites Are Here) - -1 removed
 - **00:08** Item Shop, News - +36 new (Energy Burn, Heist Duffel, Ceremonial Gong, Ranger, Lil Wayne Bundle, +31 more) - -44 removed
 
 ## 2026-09-12
