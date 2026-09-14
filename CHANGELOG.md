@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-14
+- **00:38** Item Shop - +36 new (Bull Shark, Stan's Foam Finger, Shark's Tank, Phantomglaas Blades, Stan's Jam, +31 more) - -61 removed
+
 ## 2026-09-13
 - **14:33** Item Shop
 - **10:27** BR Cosmetics, News - +1 new (New Loot Hacks and Fresh Sprites) - -1 removed
