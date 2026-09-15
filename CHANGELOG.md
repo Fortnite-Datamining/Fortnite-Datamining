@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-15
+- **03:21** Item Shop - +51 new (Step It Up, Jellie, X-23, Meowtooth, Bolt, +46 more) - -20 removed
+
 ## 2026-09-14
 - **23:56** Item Shop, Epic Content Pages
 - **17:32** Epic Content Pages
