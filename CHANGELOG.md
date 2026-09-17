@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-17
+- **08:49** Item Shop, News, Epic Content Pages - +1 new (Wield the Kingdom Key) - -1 removed
 - **03:07** Item Shop - +16 new (Snow Opal, Aisha, Champion Kuno, Arcana, Dream, +11 more) - -32 removed
 
 ## 2026-09-16
