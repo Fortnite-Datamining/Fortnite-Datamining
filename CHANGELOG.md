@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-17
+- **23:51** Item Shop, Epic Content Pages
 - **21:35** BR Cosmetics, Item Shop, News, Epic Content Pages - +4 new (Batman Comes to LEGO Odyssey, Fortnite: Override Is Here!, Keep Collecting and Mastering, Earn the Peril Peak Mali Style) - -4 removed
 - **18:24** Build update: `++Fortnite+Release-42.20-CL-58011042`
 - **14:03** News - +4 new (KINGDOM HEARTS - September 17, OG Season X - Live Now, Get More With V-Bucks, Keyblade Flourish Emote) - -4 removed
