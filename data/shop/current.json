@@ -119,6 +119,7 @@
         },
         "layoutId": "Shaq.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_WarmShade",
           "id": "DAv2_EID_WarmShade",
           "materialInstances": [],
           "renderImages": [
@@ -298,6 +299,7 @@
         },
         "layoutId": "VV091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_PlayLoud",
           "id": "DAv2_EID_PlayLoud",
           "materialInstances": [],
           "renderImages": [
@@ -566,6 +568,11 @@
           "materialInstances": [],
           "renderImages": [
             {
+              "fileName": "cosmo__e247d1d64bfd6813_30145235ca951faf.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
               "fileName": "cosmo__e247d1d64bfd6813_626ecf7c8b8b7ac1.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_1.png",
               "productTag": "Product.BR"
@@ -574,11 +581,6 @@
               "fileName": "cosmo__e247d1d64bfd6813_9ad2d5edd50227d3.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_2.png",
               "productTag": "Product.Juno"
-            },
-            {
-              "fileName": "cosmo__e247d1d64bfd6813_30145235ca951faf.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e247d1d64bfd6813/renderimage_0.png",
-              "productTag": "Product.BR"
             }
           ]
         },
@@ -1589,7 +1591,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Fights for peace.",
-            "dynamicPakId": "1003",
             "id": "Character_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_dunebriefshift/featured.png",
@@ -1657,7 +1658,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Includes an added sharp surprise.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dunebriefshift/featured.png",
@@ -1719,7 +1719,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Upgraded and battle-ready.",
-            "dynamicPakId": "1003",
             "id": "Backpack_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dunebriefshift/featured.png",
@@ -2198,6 +2197,7 @@
         },
         "layoutId": "WolverineShop.95",
         "newDisplayAsset": {
+          "cosmeticId": "Character_DarkAzalea",
           "id": "DAv2_Character_DarkAzalea",
           "materialInstances": [],
           "renderImages": [
@@ -2535,6 +2535,7 @@
         },
         "layoutId": "WolverineShop.95",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_DarkAzalea",
           "id": "DAv2_Pickaxe_DarkAzalea",
           "materialInstances": [],
           "renderImages": [
@@ -2817,6 +2818,141 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Two Keyblades; one radiant with light, one black as darkness.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Oathkeeper & Oblivion",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Two Keyblades; one radiant with light, one black as darkness.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Oathkeeper & Oblivion",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Oathkeeper & Oblivion, 1 x Oathkeeper & Oblivion for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_FaunaPike",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__2b916360891aac20_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2b916360891aac20/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_faunapike",
+        "offerId": "v2:/5eab5d58a512f14364f1c1be36cb610d51ee82fbc1b2dd555fa9178b8b4e7726",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -2976,6 +3112,278 @@
         "regularPrice": 800,
         "sortPriority": -2,
         "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Keyblade hero who uses the power of friendship to fight.",
+            "dynamicPakId": "1027",
+            "id": "Character_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_spiretend/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_spiretend/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_spiretend/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Sora",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/variants/parts/stage1.png",
+                    "name": "Sora",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/variants/parts/stage2.png",
+                    "name": "Kingdom Hearts 1",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/variants/parts/stage3.png",
+                    "name": "Kingdom Hearts 3",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique weapon in the shape of a key.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SpireTend"
+            ],
+            "name": "Keyblade",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique weapon in the shape of a key.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SpireTend"
+            ],
+            "name": "Keyblade",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A triumphant victory pose using the Keyblade.",
+            "dynamicPakId": "1027",
+            "id": "EID_SpireTend",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Keyblade Flourish",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Sora, 1 x Keyblade, 1 x Keyblade, 1 x Keyblade Flourish for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DAv2_Character_spiretend",
+        "finalPrice": 1800,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_SpireTend",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__e9e474314657c670_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e9e474314657c670/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e9e474314657c670_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e9e474314657c670/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e9e474314657c670_e0559e464b07edd9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e9e474314657c670/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__e9e474314657c670_c87b2239ea7b1fc6.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/e9e474314657c670/renderimage_3.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_spiretend",
+        "offerId": "v2:/21a8d17d8601f05e0ec42827292d214892da30e9befef19cb9fc5a069c069c97",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_2_x_1"
       },
       {
         "colors": {
@@ -3321,7 +3729,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Includes an added sharp surprise.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dunebriefshift/featured.png",
@@ -3486,6 +3893,7 @@
         },
         "layoutId": "BR091726.96",
         "newDisplayAsset": {
+          "cosmeticId": "Character_SereneCherie",
           "id": "DAv2_Character_SereneCherie",
           "materialInstances": [],
           "renderImages": [
@@ -3592,6 +4000,7 @@
         },
         "layoutId": "BR091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_RedJay",
           "id": "DAv2_Character_RedJay",
           "materialInstances": [],
           "renderImages": [
@@ -3697,6 +4106,7 @@
         },
         "layoutId": "MinkCalico.99",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_MinkCalico",
           "id": "DAv2_Companion_MinkCalico",
           "materialInstances": [],
           "renderImages": [
@@ -3876,14 +4286,14 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__d6632f403dcfa9f7_c8d2f0fe3b93556c.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d6632f403dcfa9f7/renderimage_1.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__d6632f403dcfa9f7_7c81e4bc2b048fc2.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d6632f403dcfa9f7/renderimage_0.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__d6632f403dcfa9f7_c8d2f0fe3b93556c.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/d6632f403dcfa9f7/renderimage_1.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -4791,7 +5201,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Real g’s move in silence like lasagna.",
-            "dynamicPakId": "1012",
             "id": "Character_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_noisecluelurch/featured.png",
@@ -4871,7 +5280,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Money too long, teachers put away your rulers.",
-            "dynamicPakId": "1012",
             "id": "Backpack_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noisecluelurch/featured.png",
@@ -4936,6 +5344,7 @@
         },
         "layoutId": "LilWayneNo/Violators.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_NoiseClueLurch",
           "id": "DAv2_Character_NoiseClueLurch",
           "materialInstances": [],
           "renderImages": [
@@ -5639,7 +6048,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Raw Tune, not a cartoon.",
-            "dynamicPakId": "1018",
             "id": "Backpack_NoiseClue_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noiseclue_guitar/featured.png",
@@ -5684,7 +6092,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Raw Tune, not a cartoon.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_NoiseClue_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_noiseclue_guitar/featured.png",
@@ -5946,6 +6353,7 @@
         },
         "layoutId": "FND091726.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_SunbeamQuest",
           "id": "DAv2_Character_SunbeamQuest",
           "materialInstances": [],
           "renderImages": [
@@ -6026,6 +6434,75 @@
             "title": "The Final Countdown"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "cars": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Hunger for hearts.",
+            "id": "Wheel_OpticOrange02",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange02/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange02/small.png"
+            },
+            "name": "Heartless",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Wheel",
+              "displayValue": "Wheel",
+              "value": "wheel"
+            },
+            "vehicleId": "VCID_Wheel_OpticOrange02"
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Blank for 400 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Wheel_OpticOrange02",
+        "finalPrice": 400,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": true
+        },
+        "layoutId": "Kingdomhearts.94",
+        "newDisplayAsset": {
+          "id": "DAv2_Wheel_OpticOrange02",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__6b050f749b03e3b2_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6b050f749b03e3b2/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Wheel_OpticOrange02",
+        "offerId": "v2:/96c063ae2c6273467773e05aea3564041b9c505a0a10f5e51846e74b58578092",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 400,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
       },
       {
         "colors": {
@@ -6228,7 +6705,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Don’t burn yourself.",
-            "dynamicPakId": "1012",
             "id": "Backpack_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noisecluegust/featured.png",
@@ -6310,6 +6786,7 @@
         },
         "layoutId": "LilWayneNo/Violators.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_NoiseClueGust",
           "id": "DAv2_Backpack_NoiseClueGust",
           "materialInstances": [],
           "renderImages": [
@@ -6398,6 +6875,96 @@
         "regularPrice": 300,
         "sortPriority": -1,
         "tileBackgroundMaterial": "Streaks_Marvel",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Travel on a lil' Gummi Ship.",
+            "dynamicPakId": "1027",
+            "id": "EID_SpireTendFlight",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretendflight/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretendflight/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Lil' Gummi Ship",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Lil' Gummi Ship for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.97",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_SpireTendFlight",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__3957534a4724fda0_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3957534a4724fda0/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_eid_spiretendflight",
+        "offerId": "v2:/94f2fa7ec7a184129906dd3a6471911d162497aab2263b824712151dde755649",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -6729,7 +7296,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Money too long, teachers put away your rulers.",
-            "dynamicPakId": "1012",
             "id": "Backpack_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noisecluelurch/featured.png",
@@ -6793,6 +7359,7 @@
         },
         "layoutId": "LilWayneNo/Violators.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_NoiseClueLurch",
           "id": "DAv2_Backpack_NoiseClueLurch",
           "materialInstances": [],
           "renderImages": [
@@ -7039,6 +7606,147 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique weapon in the shape of a key.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SpireTend"
+            ],
+            "name": "Keyblade",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique weapon in the shape of a key.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SpireTend"
+            ],
+            "name": "Keyblade",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Keyblade, 1 x Keyblade for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_SpireTend",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__6b682d47d0e84675_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6b682d47d0e84675/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_spiretend",
+        "offerId": "v2:/47c13500e845401fde490304b61148b867cddfc91fbd3b4b06d49b4e3943375a",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -7155,6 +7863,7 @@
         },
         "layoutId": "WolverineShop.96",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_CattleJar",
           "id": "DAv2_Wrap_CattleJar",
           "materialInstances": [],
           "renderImages": [
@@ -7381,7 +8090,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Show your style.",
-            "dynamicPakId": "1018",
             "id": "Wrap_NoiseClue",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_noiseclue/featured.png",
@@ -7445,6 +8153,7 @@
         },
         "layoutId": "LilWayneNo/Violators.96",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_NoiseClue",
           "id": "DAv2_Wrap_NoiseClue",
           "materialInstances": [],
           "renderImages": [
@@ -7563,6 +8272,7 @@
         },
         "layoutId": "BR091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_DoodleJay",
           "id": "DAv2_Shoes_DoodleJay",
           "materialInstances": [],
           "renderImages": [
@@ -7733,7 +8443,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Imbued with shockwave energy.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tackleshow/featured.png",
@@ -7811,7 +8520,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Imbued with shockwave energy.",
-            "dynamicPakId": "1003",
             "id": "Backpack_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tackleshow/featured.png",
@@ -8140,7 +8848,6 @@
           {
             "added": "2026-09-04T00:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1015",
             "id": "Shoes_TugBlooperMorse",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_tugbloopermorse/featured.png",
@@ -8192,6 +8899,7 @@
         },
         "layoutId": "FND091726.97",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_TugBlooperMorse",
           "id": "DAv2_Shoes_TugBlooperMorse",
           "materialInstances": [],
           "renderImages": [
@@ -8437,6 +9145,182 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A powerful weapon that reacts to dark power.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Soul Eater",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Mesh",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/variants/mesh/stage1.png",
+                    "name": "Default",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/variants/mesh/stage2.png",
+                    "name": "Flare",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A powerful weapon that reacts to dark power.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Soul Eater",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/variants/parts/stage1.png",
+                    "name": "Soul Eater",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/variants/parts/stage2.png",
+                    "name": "Way to the Dawn",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Soul Eater, 1 x Soul Eater for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_VealCadet",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__3849dd9da253c3ae_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3849dd9da253c3ae/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__3849dd9da253c3ae_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3849dd9da253c3ae/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_vealcadet",
+        "offerId": "v2:/0835674d182e7b8759ce9e992a742c738ed052184965b14078785fac0610cb8a",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2024-09-05T14:25:10Z",
@@ -8502,6 +9386,7 @@
         },
         "layoutId": "WolverineShop.96",
         "newDisplayAsset": {
+          "cosmeticId": "EID_CattleJar",
           "id": "DAv2_EID_CattleJar",
           "materialInstances": [],
           "renderImages": [
@@ -8778,6 +9663,7 @@
         },
         "layoutId": "BR091726.96",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_140_ShatterFly",
           "id": "DAv2_Glider_ID_140_ShatterFly",
           "materialInstances": [],
           "renderImages": [
@@ -8794,6 +9680,196 @@
         "refundable": false,
         "regularPrice": 1200,
         "sortPriority": -2,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Sora and Riku’s childhood friend, a girl with a radiant heart.",
+            "dynamicPakId": "1027",
+            "id": "Character_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_waningcacti/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_waningcacti/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_waningcacti/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Kairi",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique Keyblade with a design of flowers in full bloom.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Destiny's Embrace",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique Keyblade with a design of flowers in full bloom.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Destiny's Embrace",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Kairi, 1 x Destiny's Embrace, 1 x Destiny's Embrace for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Character_waningcacti",
+        "finalPrice": 1600,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_WaningCacti",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__4f80bfaac6d2b89d_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4f80bfaac6d2b89d/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__4f80bfaac6d2b89d_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/4f80bfaac6d2b89d/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_waningcacti",
+        "offerId": "v2:/9726928ac9ffc7a56ed88b7cdcdd477d1029a3688d9599b2284fc60475187c22",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1600,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -8914,6 +9990,7 @@
         },
         "layoutId": "VV091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Macaroon_45LHE",
           "id": "DAv2_EID_Macaroon_45LHE",
           "materialInstances": [],
           "renderImages": [
@@ -9468,6 +10545,7 @@
         },
         "layoutId": "FND091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_DevilDash",
           "id": "DAv2_Shoes_DevilDash",
           "materialInstances": [],
           "renderImages": [
@@ -9603,6 +10681,7 @@
         },
         "layoutId": "Shaq.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_WarmShadeWagon",
           "id": "DAv2_EID_WarmShadeWagon",
           "materialInstances": [],
           "renderImages": [
@@ -9841,6 +10920,7 @@
         },
         "layoutId": "WolverineShop.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_CattleJar",
           "id": "DAv2_Pickaxe_CattleJar",
           "materialInstances": [],
           "renderImages": [
@@ -11033,6 +12113,7 @@
         },
         "layoutId": "Shaq.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_WarmShadeWagon",
           "id": "DAv2_Character_WarmShadeWagon",
           "materialInstances": [],
           "renderImages": [
@@ -11746,6 +12827,7 @@
         },
         "layoutId": "VV091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_HeartBeats",
           "id": "DAv2_EID_HeartBeats",
           "materialInstances": [],
           "renderImages": [
@@ -11863,6 +12945,141 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique Keyblade with a design of flowers in full bloom.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Destiny's Embrace",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique Keyblade with a design of flowers in full bloom.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Destiny's Embrace",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Destiny's Embrace, 1 x Destiny's Embrace for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_WaningCacti",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__a71f40629e580bd0_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a71f40629e580bd0/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_waningcacti",
+        "offerId": "v2:/4e803ce94403432c7bd1b334801b215e244123ef17964ca1bdce509efda6d480",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -11912,6 +13129,929 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "Low",
+          "value": "5800 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Keyblade hero who uses the power of friendship to fight.",
+            "dynamicPakId": "1027",
+            "id": "Character_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_spiretend/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_spiretend/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_spiretend/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Sora",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/variants/parts/stage1.png",
+                    "name": "Sora",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/variants/parts/stage2.png",
+                    "name": "Kingdom Hearts 1",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/variants/parts/stage3.png",
+                    "name": "Kingdom Hearts 3",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique weapon in the shape of a key.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SpireTend"
+            ],
+            "name": "Keyblade",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique weapon in the shape of a key.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_SpireTend",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SpireTend"
+            ],
+            "name": "Keyblade",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A triumphant victory pose using the Keyblade.",
+            "dynamicPakId": "1027",
+            "id": "EID_SpireTend",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Keyblade Flourish",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A boy who suffers from inner darkness but supports his friends.",
+            "dynamicPakId": "1027",
+            "id": "Character_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_vealcadet/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_vealcadet/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_vealcadet/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Riku",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A powerful weapon that reacts to dark power.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Soul Eater",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Mesh",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/variants/mesh/stage1.png",
+                    "name": "Default",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/variants/mesh/stage2.png",
+                    "name": "Flare",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A powerful weapon that reacts to dark power.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Soul Eater",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/variants/parts/stage1.png",
+                    "name": "Soul Eater",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/variants/parts/stage2.png",
+                    "name": "Way to the Dawn",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Sora's Nobody and member of Organization XIII.",
+            "dynamicPakId": "1027",
+            "id": "Character_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_faunapike/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_faunapike/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_faunapike/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Roxas",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Two Keyblades; one radiant with light, one black as darkness.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Oathkeeper & Oblivion",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Two Keyblades; one radiant with light, one black as darkness.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Oathkeeper & Oblivion",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Sora and Riku’s childhood friend, a girl with a radiant heart.",
+            "dynamicPakId": "1027",
+            "id": "Character_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_waningcacti/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_waningcacti/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_waningcacti/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Kairi",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique Keyblade with a design of flowers in full bloom.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Destiny's Embrace",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A unique Keyblade with a design of flowers in full bloom.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_WaningCacti",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Destiny's Embrace",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Travel on a lil' Gummi Ship.",
+            "dynamicPakId": "1027",
+            "id": "EID_SpireTendFlight",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretendflight/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretendflight/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Lil' Gummi Ship",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1012",
+            "id": "Shoes_SpireTendBeen",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow Steppers",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "It's salty... but sweet, too.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_SpireTendFlair",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Sea-Salt Ice Cream",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Another side, another solo...",
+            "dynamicPakId": "1027",
+            "id": "Backpack_FaunaPike_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Arpeggio",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Another side, another solo...",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_FaunaPike_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Arpeggio",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Take the keys of the kingdom.",
+            "dynamicPakId": "1027",
+            "id": "LoadingScreen_SpireTendKeyArt",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_spiretendkeyart/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_spiretendkeyart/icon.png",
+              "other": {
+                "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_spiretendkeyart/background.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_spiretendkeyart/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "The Heart of All Worlds",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaLoadingScreen",
+              "displayValue": "Loading Screen",
+              "value": "loadingscreen"
+            }
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/78ce151fa749c0f7/renderimage_0.png",
+          "info": "Bundle",
+          "name": "KINGDOM HEARTS Bundle"
+        },
         "colors": {
           "color1": "efefefff",
           "color3": "5b5b5bff",
@@ -11922,6 +14062,39 @@
         "finalPrice": 4500,
         "giftable": true,
         "inDate": "2026-09-17T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Another side, another solo...",
+            "id": "Sparks_FaunaPike_Guitar",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_faunapike_guitar/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_faunapike_guitar/small.png"
+            },
+            "name": "Arpeggio",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksGuitar",
+              "displayValue": "Guitar",
+              "value": "guitar"
+            }
+          }
+        ],
         "layout": {
           "displayType": "billboard",
           "id": "Kingdomhearts",
@@ -11986,6 +14159,32 @@
           "useWidePreview": false
         },
         "layoutId": "Kingdomhearts.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_VealCadet",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__78ce151fa749c0f7_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/78ce151fa749c0f7/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__78ce151fa749c0f7_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/78ce151fa749c0f7/renderimage_1.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__78ce151fa749c0f7_e0559e464b07edd9.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/78ce151fa749c0f7/renderimage_2.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__78ce151fa749c0f7_c87b2239ea7b1fc6.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/78ce151fa749c0f7/renderimage_3.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_VealCadet",
         "offerId": "v2:/61e52ba8ed7f1ed95e38550997a152a7035544318dde09bdf4b753d65b4c0a75",
         "outDate": "2026-10-01T23:59:59.999Z",
@@ -12311,6 +14510,196 @@
         "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_2_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Sora's Nobody and member of Organization XIII.",
+            "dynamicPakId": "1027",
+            "id": "Character_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_faunapike/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_faunapike/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_faunapike/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Roxas",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Two Keyblades; one radiant with light, one black as darkness.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Oathkeeper & Oblivion",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Two Keyblades; one radiant with light, one black as darkness.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_FaunaPike",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Oathkeeper & Oblivion",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Roxas, 1 x Oathkeeper & Oblivion, 1 x Oathkeeper & Oblivion for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Character_faunapike",
+        "finalPrice": 1600,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_FaunaPike",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__1f10a0382659bdb4_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1f10a0382659bdb4/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__1f10a0382659bdb4_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1f10a0382659bdb4/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_faunapike",
+        "offerId": "v2:/d4c52d5f168f6e4b8efc445d561fa33fb27a2e63c4c782e3fffaa5f4ad208d2a",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1600,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
       },
       {
         "colors": {
@@ -13009,7 +15398,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Real g’s move in silence like lasagna.",
-            "dynamicPakId": "1012",
             "id": "Character_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_noisecluelurch/featured.png",
@@ -13089,7 +15477,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Money too long, teachers put away your rulers.",
-            "dynamicPakId": "1012",
             "id": "Backpack_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noisecluelurch/featured.png",
@@ -13134,7 +15521,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Call me…",
-            "dynamicPakId": "1012",
             "id": "EID_NoiseClueLurch",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_noisecluelurch/icon.png",
@@ -13179,7 +15565,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Young Money militia and I am the commissioner.",
-            "dynamicPakId": "1018",
             "id": "Glider_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/glider_noisecluelurch/featured.png",
@@ -13224,7 +15609,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Shh, the fireman comin'.",
-            "dynamicPakId": "1012",
             "id": "Character_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_noisecluegust/featured.png",
@@ -13336,7 +15720,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Don’t burn yourself.",
-            "dynamicPakId": "1012",
             "id": "Backpack_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noisecluegust/featured.png",
@@ -13399,7 +15782,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Pow, pow, the end.",
-            "dynamicPakId": "1012",
             "id": "EID_NoiseClueGust",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_noisecluegust/icon.png",
@@ -13444,7 +15826,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "On fire.",
-            "dynamicPakId": "1012",
             "id": "Pickaxe_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_noisecluegust/featured.png",
@@ -13489,7 +15870,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Show your style.",
-            "dynamicPakId": "1018",
             "id": "Wrap_NoiseClue",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_noiseclue/featured.png",
@@ -13534,7 +15914,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "We are not the same.\r\n\r\nArt by Ryan Smallman.",
-            "dynamicPakId": "1018",
             "id": "LoadingScreen_NoiseClue",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_noiseclue/featured.png",
@@ -13582,7 +15961,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Raw Tune, not a cartoon.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_NoiseClue_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_noiseclue_guitar/featured.png",
@@ -13627,7 +16005,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Raw Tune, not a cartoon.",
-            "dynamicPakId": "1018",
             "id": "Backpack_NoiseClue_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noiseclue_guitar/featured.png",
@@ -13964,17 +16341,6 @@
         "giftable": true,
         "inDate": "2026-09-11T00:00:00Z",
         "layoutId": "alc.0",
-        "newDisplayAsset": {
-          "id": "DAv2_Wheel_BurnishedRaven01",
-          "materialInstances": [],
-          "renderImages": [
-            {
-              "fileName": "T_UI_Featured_Wheel_BurnishedRaven01",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/2948b7e55388170a/renderimage_0.png",
-              "productTag": "Product.DelMar"
-            }
-          ]
-        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Wheel_BurnishedRaven01",
         "offerId": "v2:/5c8ffb2ae2c4bbbf490626be13fba21bc3be929d553589bde925d14c0aa4d49d",
         "outDate": "2026-09-20T23:59:59.999Z",
@@ -14190,6 +16556,7 @@
         },
         "layoutId": "FND091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_ChoreNoodleRubble",
           "id": "DAv2_Shoes_ChoreNoodleRubble",
           "materialInstances": [],
           "renderImages": [
@@ -14633,6 +17000,7 @@
         },
         "layoutId": "BR091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_RedJay",
           "id": "DAv2_Backpack_RedJay",
           "materialInstances": [],
           "renderImages": [
@@ -14936,6 +17304,7 @@
         },
         "layoutId": "BR091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_RedJay",
           "id": "DAv2_Wrap_RedJay",
           "materialInstances": [],
           "renderImages": [
@@ -15306,17 +17675,17 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenabundles-skin-olivestomp-new-1024x1024-6bc67f74bfcf.png",
+              "fileName": "cosmo__a98d6212a05ed345_793453a8f0249b1f.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a98d6212a05ed345/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-skin-olivestomp-new2-1024x1024-633b908f1cca.png",
+              "fileName": "cosmo__a98d6212a05ed345_c357f5bb46ae4c2a.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a98d6212a05ed345/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-skin-olivestomp-1024x1024-a5aeca588b1c.png",
+              "fileName": "cosmo__a98d6212a05ed345_927898307f6fb1f2.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a98d6212a05ed345/renderimage_2.png",
               "productTag": "Product.Juno"
             }
@@ -15341,7 +17710,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Ready to Override?",
-            "dynamicPakId": "1003",
             "id": "Character_DuneBriefMerry",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_dunebriefmerry/featured.png",
@@ -15441,7 +17809,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Modified with the power of fire.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DuneBriefMerry",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dunebriefmerry/featured.png",
@@ -15503,7 +17870,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Fights for peace.",
-            "dynamicPakId": "1003",
             "id": "Character_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_dunebriefshift/featured.png",
@@ -15571,7 +17937,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Includes an added sharp surprise.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dunebriefshift/featured.png",
@@ -15633,7 +17998,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Upgraded and battle-ready.",
-            "dynamicPakId": "1003",
             "id": "Backpack_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dunebriefshift/featured.png",
@@ -15695,7 +18059,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "The ultimate combat robot.",
-            "dynamicPakId": "1003",
             "id": "Character_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_tackleshow/featured.png",
@@ -15782,7 +18145,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Imbued with shockwave energy.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tackleshow/featured.png",
@@ -15860,7 +18222,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Imbued with shockwave energy.",
-            "dynamicPakId": "1003",
             "id": "Backpack_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tackleshow/featured.png",
@@ -15922,7 +18283,6 @@
           {
             "added": "2026-09-07T16:00:18Z",
             "description": "A robotic dog that supports Mega Man.",
-            "dynamicPakId": "1010",
             "id": "Companion_CacaoLynx",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/companion_cacaolynx/featured.png",
@@ -15984,7 +18344,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Fire a Charge Shot.",
-            "dynamicPakId": "1003",
             "id": "EID_DuneBrief",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_dunebrief/icon.png",
@@ -16829,6 +19188,7 @@
         },
         "layoutId": "NS091526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_MelodyUrchin",
           "id": "DAv2_Character_MelodyUrchin",
           "materialInstances": [],
           "renderImages": [
@@ -16909,6 +19269,7 @@
         },
         "layoutId": "FND091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_LumenDrakeKit",
           "id": "DAv2_Shoes_LumenDrakeKit",
           "materialInstances": [],
           "renderImages": [
@@ -17113,6 +19474,7 @@
         },
         "layoutId": "VV091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_PleaseHelp",
           "id": "DAv2_EID_PleaseHelp",
           "materialInstances": [],
           "renderImages": [
@@ -17406,6 +19768,7 @@
         },
         "layoutId": "FND091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Warehouse",
           "id": "DAv2_EID_WareHouse",
           "materialInstances": [],
           "renderImages": [
@@ -17478,7 +19841,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Shh, the fireman comin'.",
-            "dynamicPakId": "1012",
             "id": "Character_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_noisecluegust/featured.png",
@@ -17590,7 +19952,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Don’t burn yourself.",
-            "dynamicPakId": "1012",
             "id": "Backpack_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_noisecluegust/featured.png",
@@ -17673,6 +20034,7 @@
         },
         "layoutId": "LilWayneNo/Violators.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_NoiseClueGust",
           "id": "DAv2_Character_NoiseClueGust",
           "materialInstances": [],
           "renderImages": [
@@ -17775,6 +20137,7 @@
         },
         "layoutId": "VV091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_GroceryGroove",
           "id": "DAv2_EID_GroceryGroove",
           "materialInstances": [],
           "renderImages": [
@@ -17904,6 +20267,7 @@
         },
         "layoutId": "VV091726.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_WildThings",
           "id": "DAv2_EID_WildThings",
           "materialInstances": [],
           "renderImages": [
@@ -17992,6 +20356,7 @@
         },
         "layoutId": "AmongusB.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_220_ForkKnife1H",
           "id": "DAv2_Pickaxe_ID_220_ForkKnife1h",
           "materialInstances": [],
           "renderImages": [
@@ -18317,6 +20682,7 @@
         },
         "layoutId": "VV091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_RelayStick_Plume",
           "id": "DAv2_EID_RelayStick_Plume",
           "materialInstances": [],
           "renderImages": [
@@ -18447,6 +20813,7 @@
         },
         "layoutId": "VV091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_EightUp",
           "id": "DAv2_EID_EightUp",
           "materialInstances": [],
           "renderImages": [
@@ -18470,7 +20837,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "The ultimate combat robot.",
-            "dynamicPakId": "1003",
             "id": "Character_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_tackleshow/featured.png",
@@ -18557,7 +20923,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Imbued with shockwave energy.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tackleshow/featured.png",
@@ -18635,7 +21000,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Imbued with shockwave energy.",
-            "dynamicPakId": "1003",
             "id": "Backpack_TackleShow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tackleshow/featured.png",
@@ -18756,6 +21120,97 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1012",
+            "id": "Shoes_SpireTendBeen",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Shadow Steppers",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Shadow Steppers for 1000 MtxCurrency",
+        "finalPrice": 1000,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Shoes_SpireTendBeen",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__12d7a00f9523c049_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/12d7a00f9523c049/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_shoes_spiretendbeen",
+        "offerId": "v2:/36a56d4ce1b570d96151af89ecce95a8044c0e38ae13a4f513e2a80f8e4a791e",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1000,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2024-09-04T14:57:46Z",
@@ -18821,6 +21276,7 @@
         },
         "layoutId": "FNCS3.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_BandageNinjaFNCS",
           "id": "DAv2_Character_BandageNinjaFNCS",
           "materialInstances": [],
           "renderImages": [
@@ -18964,7 +21420,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Modified with the power of fire.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DuneBriefMerry",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dunebriefmerry/featured.png",
@@ -19123,7 +21578,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Fire a Charge Shot.",
-            "dynamicPakId": "1003",
             "id": "EID_DuneBrief",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_dunebrief/icon.png",
@@ -19495,7 +21949,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Upgraded and battle-ready.",
-            "dynamicPakId": "1003",
             "id": "Backpack_DuneBriefShift",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_dunebriefshift/featured.png",
@@ -19725,14 +22178,14 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__09a86c091cfee3ac_6402c7bf52762e5d.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/09a86c091cfee3ac/renderimage_1.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__09a86c091cfee3ac_74a414a98369d751.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/09a86c091cfee3ac/renderimage_0.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__09a86c091cfee3ac_6402c7bf52762e5d.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/09a86c091cfee3ac/renderimage_1.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -20118,6 +22571,7 @@
         },
         "layoutId": "FNCS3.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_Comp31",
           "id": "DAv2_Wrap_Comp31",
           "materialInstances": [],
           "renderImages": [
@@ -20188,6 +22642,96 @@
         "refundable": false,
         "regularPrice": 300,
         "sortPriority": -4,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A triumphant victory pose using the Keyblade.",
+            "dynamicPakId": "1027",
+            "id": "EID_SpireTend",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Keyblade Flourish",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Keyblade Flourish for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.98",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_SpireTend",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__cd228167f6316f8b_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/cd228167f6316f8b/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_eid_spiretend",
+        "offerId": "v2:/7ef77db5960d6925ed8c41a6497eca3f9f80375ef718704a9cebcdcb231878c2",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -20315,6 +22859,7 @@
         },
         "layoutId": "WolverineShop.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CattleJar",
           "id": "DAv2_Character_CattleJar",
           "materialInstances": [],
           "renderImages": [
@@ -20442,7 +22987,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Ready to Override?",
-            "dynamicPakId": "1003",
             "id": "Character_DuneBriefMerry",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_dunebriefmerry/featured.png",
@@ -20542,7 +23086,6 @@
           {
             "added": "2026-09-07T20:23:20Z",
             "description": "Modified with the power of fire.",
-            "dynamicPakId": "1003",
             "id": "Pickaxe_DuneBriefMerry",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dunebriefmerry/featured.png",
@@ -21069,6 +23612,7 @@
         },
         "layoutId": "BR091726.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_RedJay",
           "id": "DAv2_Pickaxe_RedJay",
           "materialInstances": [],
           "renderImages": [
@@ -21142,6 +23686,7 @@
         },
         "layoutId": "FNCS3.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Bestow",
           "id": "DAv2_EID_Bestow",
           "materialInstances": [],
           "renderImages": [
@@ -21279,6 +23824,7 @@
         },
         "layoutId": "Shaq.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_WarmShade",
           "id": "DAv2_Wrap_WarmShade",
           "materialInstances": [],
           "renderImages": [
@@ -21367,6 +23913,7 @@
         },
         "layoutId": "Shaq.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_WarmShadeWagon",
           "id": "DAv2_Pickaxe_WarmShadeWagon",
           "materialInstances": [],
           "renderImages": [
@@ -21566,22 +24113,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenabundles-limabean-01-1024x1024-488c98bf8c3f.png",
+              "fileName": "cosmo__b5fadd4b012bfe76_742fb99a670fac8d.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5fadd4b012bfe76/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-limabean-02-1024x1024-926948c8e4ae.png",
+              "fileName": "cosmo__b5fadd4b012bfe76_89d37671ffd01aa6.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5fadd4b012bfe76/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-limabean-03-1024x1024-0b269d0abe5c.png",
+              "fileName": "cosmo__b5fadd4b012bfe76_6da000c4d5a7a8a3.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5fadd4b012bfe76/renderimage_2.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-limabean-04-1024x1024-c0f389235e3b.png",
+              "fileName": "cosmo__b5fadd4b012bfe76_de4485f5919915ee.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b5fadd4b012bfe76/renderimage_3.png",
               "productTag": "Product.BR"
             }
@@ -21869,7 +24416,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Pow, pow, the end.",
-            "dynamicPakId": "1012",
             "id": "EID_NoiseClueGust",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_noisecluegust/icon.png",
@@ -21933,6 +24479,7 @@
         },
         "layoutId": "LilWayneNo/Violators.96",
         "newDisplayAsset": {
+          "cosmeticId": "EID_NoiseClueGust",
           "id": "DAv2_EID_NoiseClueGust",
           "materialInstances": [],
           "renderImages": [
@@ -22271,6 +24818,7 @@
         },
         "layoutId": "BR091726.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_VioletFare",
           "id": "DAv2_Pickaxe_VioletFare",
           "materialInstances": [],
           "renderImages": [
@@ -22704,7 +25252,7 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Vehicle_Web_BurnishedRaven",
+              "fileName": "cosmo__862a5cd600b0349e_903cd7e228b69c6a.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/862a5cd600b0349e/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -22723,7 +25271,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "On fire.",
-            "dynamicPakId": "1012",
             "id": "Pickaxe_NoiseClueGust",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_noisecluegust/featured.png",
@@ -22787,6 +25334,7 @@
         },
         "layoutId": "LilWayneNo/Violators.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_NoiseClueGust",
           "id": "DAv2_Pickaxe_NoiseClueGust",
           "materialInstances": [],
           "renderImages": [
@@ -22895,6 +25443,7 @@
         },
         "layoutId": "TaxiHeel.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_TaxiHeel",
           "id": "DAv2_Character_TaxiHeel",
           "materialInstances": [],
           "renderImages": [
@@ -22981,6 +25530,7 @@
         },
         "layoutId": "WolverineShop.96",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_CattleJar",
           "id": "DAv2_Backpack_CattleJar",
           "materialInstances": [],
           "renderImages": [
@@ -22999,6 +25549,55 @@
         "sortPriority": -2,
         "tileBackgroundMaterial": "Streaks_Marvel",
         "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "cars": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Cogged and loaded.",
+            "id": "Wheel_OpticOrange01",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange01/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange01/small.png"
+            },
+            "name": "Gummi Ship",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Wheel",
+              "displayValue": "Wheel",
+              "value": "wheel"
+            },
+            "vehicleId": "VCID_Wheel_OpticOrange01"
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Blank for 400 MtxCurrency",
+        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Wheel_OpticOrange01",
+        "finalPrice": 400,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layoutId": "alc.0",
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Wheel_OpticOrange01",
+        "offerId": "v2:/ba59a25a496d5d6e0256985ad0ab0e0ca36f738c3986b48279082717852bd823",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 400,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_2_x_1"
       },
       {
         "colors": {
@@ -23054,6 +25653,97 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "It's salty... but sweet, too.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_SpireTendFlair",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Sea-Salt Ice Cream",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Sea-Salt Ice Cream for 400 MtxCurrency",
+        "finalPrice": 400,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_SpireTendFlair",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__f49484a98500dac9_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/f49484a98500dac9/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_spiretendflair",
+        "offerId": "v2:/f1919886beb07b514ce44663be8067a1c7f250dd28998fa8bb15485c29a66731",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 400,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2019-11-20T12:49:42Z",
@@ -23103,6 +25793,7 @@
         },
         "layoutId": "AmongusB.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_SneakingTraversal",
           "id": "DAv2_EID_SneakingTraversal",
           "materialInstances": [],
           "renderImages": [
@@ -23127,7 +25818,6 @@
           {
             "added": "2026-09-10T16:00:38Z",
             "description": "Young Money militia and I am the commissioner.",
-            "dynamicPakId": "1018",
             "id": "Glider_NoiseClueLurch",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/glider_noisecluelurch/featured.png",
@@ -23191,6 +25881,7 @@
         },
         "layoutId": "LilWayneNo/Violators.98",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_NoiseClueLurch",
           "id": "DAv2_Glider_NoiseClueLurch",
           "materialInstances": [],
           "renderImages": [
@@ -23264,7 +25955,6 @@
           {
             "added": "2026-09-16T00:00:00Z",
             "description": "Leader of the Green Reapers.",
-            "dynamicPakId": "1008",
             "id": "Character_BentCarpet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_bentcarpet/featured.png",
@@ -23345,6 +26035,558 @@
         "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_3_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Another side, another solo...",
+            "dynamicPakId": "1027",
+            "id": "Backpack_FaunaPike_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Arpeggio",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Another side, another solo...",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_FaunaPike_Guitar",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Arpeggio",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Arpeggio, 1 x Arpeggio, 1 x Arpeggio for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Another side, another solo...",
+            "id": "Sparks_FaunaPike_Guitar",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_faunapike_guitar/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_faunapike_guitar/small.png"
+            },
+            "name": "Arpeggio",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "type": {
+              "backendValue": "SparksGuitar",
+              "displayValue": "Guitar",
+              "value": "guitar"
+            }
+          }
+        ],
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_FaunaPike_Guitar",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__52a5e7a6f6c23330_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/52a5e7a6f6c23330/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_sparks_faunapike_guitar",
+        "offerId": "v2:/2477079e9fcbe407fcb45bbe8dd339d6bf0e2ec630d53d763df24f55a3b6205a",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A boy who suffers from inner darkness but supports his friends.",
+            "dynamicPakId": "1027",
+            "id": "Character_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/icon.png",
+              "lego": {
+                "large": "https://fortnite-api.com/images/cosmetics/lego/character_vealcadet/large.png",
+                "small": "https://fortnite-api.com/images/cosmetics/lego/character_vealcadet/small.png",
+                "wide": "https://fortnite-api.com/images/cosmetics/lego/character_vealcadet/wide.png"
+              },
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Riku",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            }
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A powerful weapon that reacts to dark power.",
+            "dynamicPakId": "1027",
+            "id": "Pickaxe_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Soul Eater",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Mesh",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/variants/mesh/stage1.png",
+                    "name": "Default",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/variants/mesh/stage2.png",
+                    "name": "Flare",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "Style"
+              }
+            ]
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "A powerful weapon that reacts to dark power.",
+            "dynamicPakId": "1027",
+            "id": "Backpack_VealCadet",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Soul Eater",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "ModuleLog",
+              "text": "Part of the Kingdom Hearts set.",
+              "value": "Kingdom Hearts"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/variants/parts/stage1.png",
+                    "name": "Soul Eater",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/variants/parts/stage2.png",
+                    "name": "Way to the Dawn",
+                    "tag": "Stage2"
+                  }
+                ],
+                "type": "style"
+              }
+            ]
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Riku, 1 x Soul Eater, 1 x Soul Eater for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Character_vealcadet",
+        "finalPrice": 1600,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "Kingdomhearts.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_VealCadet",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__6ad712076953751c_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6ad712076953751c/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__6ad712076953751c_5aff8d0c456b1e98.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6ad712076953751c/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_vealcadet",
+        "offerId": "v2:/2c86449cf109734f382026e4706910da65712fcd74155be353f1120cf16897cc",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1600,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1020505ca5d07d1f/renderimage_0.png",
+          "info": "Bundle",
+          "name": "KINGDOM HEARTS Gummi Ship"
+        },
+        "cars": [
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "The gummiest ride around.",
+            "id": "CarBody_OpticOrange",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_opticorange/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_opticorange/small.png"
+            },
+            "name": "Gummi Ship",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Common",
+              "value": "common"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Body",
+              "displayValue": "Body",
+              "value": "body"
+            },
+            "vehicleId": "VCID_Body_OpticOrange"
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Gummi Ship custom decal.",
+            "id": "CarSkin_OpticOrange01",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange01/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange01/small.png"
+            },
+            "name": "Classic",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Skin",
+              "displayValue": "Skin",
+              "value": "skin"
+            },
+            "vehicleId": "VCID_Skin_OpticOrange01"
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Gummi Ship custom decal.",
+            "id": "CarSkin_OpticOrange02",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange02/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange02/small.png"
+            },
+            "name": "Magic",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Skin",
+              "displayValue": "Skin",
+              "value": "skin"
+            },
+            "vehicleId": "VCID_Skin_OpticOrange02"
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Gummi Ship custom decal.",
+            "id": "CarSkin_OpticOrange03",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange03/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange03/small.png"
+            },
+            "name": "Heartless",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Skin",
+              "displayValue": "Skin",
+              "value": "skin"
+            },
+            "vehicleId": "VCID_Skin_OpticOrange03"
+          },
+          {
+            "added": "2026-09-17T08:00:00Z",
+            "description": "Cogged and loaded.",
+            "id": "Wheel_OpticOrange01",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange01/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange01/small.png"
+            },
+            "name": "Gummi Ship",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Uncommon",
+              "value": "uncommon"
+            },
+            "type": {
+              "backendValue": "VehicleCosmetics_Wheel",
+              "displayValue": "Wheel",
+              "value": "wheel"
+            },
+            "vehicleId": "VCID_Wheel_OpticOrange01"
+          }
+        ],
+        "colors": {
+          "color1": "efefefff",
+          "color3": "5b5b5bff",
+          "textBackgroundColor": "5b5b5bff"
+        },
+        "devName": "[VIRTUAL]1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank, 1 x Blank for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Opticorange_Bundle",
+        "finalPrice": 2000,
+        "giftable": true,
+        "inDate": "2026-09-17T00:00:00Z",
+        "layout": {
+          "displayType": "tileGrid",
+          "id": "Kingdomhearts",
+          "index": 20,
+          "name": "Kingdom Hearts ",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": true
+        },
+        "layoutId": "Kingdomhearts.94",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_OpticOrange",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "T_UI_Vehicle_Web_OpticOrange",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1020505ca5d07d1f/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_Opticorange",
+        "offerId": "v2:/f803a447537d42bbc777ee2795c90411e6726c2c9c0562774366ed9561eb1b68",
+        "outDate": "2026-10-01T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 2000,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_2_x_1"
       },
       {
         "colors": {
@@ -23655,6 +26897,7 @@
         },
         "layoutId": "NS091526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_TacticMushroom_C",
           "id": "DAv2_Character_TacticMushroom_C",
           "materialInstances": [],
           "renderImages": [
@@ -23974,6 +27217,7 @@
         },
         "layoutId": "FNCS3.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_FNCS_S31",
           "id": "DAv2_Backpack_FNCS_S31",
           "materialInstances": [],
           "renderImages": [
@@ -24061,6 +27305,7 @@
         },
         "layoutId": "FNCS3.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_InfernoFNCS",
           "id": "DAv2_Character_InfernoFNCS",
           "materialInstances": [],
           "renderImages": [
@@ -24299,7 +27544,6 @@
           {
             "added": "2026-09-10T16:36:49Z",
             "description": "Call me…",
-            "dynamicPakId": "1012",
             "id": "EID_NoiseClueLurch",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_noisecluelurch/icon.png",
@@ -24363,6 +27607,7 @@
         },
         "layoutId": "LilWayneNo/Violators.95",
         "newDisplayAsset": {
+          "cosmeticId": "EID_NoiseClueLurch",
           "id": "DAv2_EID_NoiseClueLurch",
           "materialInstances": [],
           "renderImages": [
@@ -24530,7 +27775,6 @@
           {
             "added": "2026-09-07T16:00:18Z",
             "description": "A robotic dog that supports Mega Man.",
-            "dynamicPakId": "1010",
             "id": "Companion_CacaoLynx",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/companion_cacaolynx/featured.png",

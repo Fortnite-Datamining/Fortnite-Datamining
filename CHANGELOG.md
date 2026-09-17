@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-17
+- **18:24** Build update: `++Fortnite+Release-42.20-CL-58011042`
 - **14:03** News - +4 new (KINGDOM HEARTS - September 17, OG Season X - Live Now, Get More With V-Bucks, Keyblade Flourish Emote) - -4 removed
 - **08:49** Item Shop, News, Epic Content Pages - +1 new (Wield the Kingdom Key) - -1 removed
 - **03:07** Item Shop - +16 new (Snow Opal, Aisha, Champion Kuno, Arcana, Dream, +11 more) - -32 removed

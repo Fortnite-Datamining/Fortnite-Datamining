@@ -2402,6 +2402,57 @@
       }
     },
     {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "Another side, another solo...",
+      "id": "Sparks_FaunaPike_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_faunapike_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_faunapike_guitar/small.png"
+      },
+      "name": "Arpeggio",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
+      }
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Straight from... well, you know where.",
+      "id": "Sparks_FeelUnionMoo_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_feelunionmoo_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_feelunionmoo_mic/small.png"
+      },
+      "name": "Ironmouse's Bubi Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
+      }
+    },
+    {
       "added": "2025-11-02T20:02:46Z",
       "description": "Find your fire.",
       "id": "Sparks_FireFuse_Bass",
@@ -2671,6 +2722,26 @@
         "backendValue": "SparksMic",
         "displayValue": "Microphone",
         "value": "mic"
+      }
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Liquid-cooled tunes.",
+      "id": "Sparks_GamingPC_Guitar",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_gamingpc_guitar/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_gamingpc_guitar/small.png"
+      },
+      "name": "Guitar Processing Unit",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksGuitar",
+        "displayValue": "Guitar",
+        "value": "guitar"
       }
     },
     {

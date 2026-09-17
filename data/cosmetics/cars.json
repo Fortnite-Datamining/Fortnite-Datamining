@@ -1874,6 +1874,27 @@
       "vehicleId": "VCID_Body_ODB"
     },
     {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "The gummiest ride around.",
+      "id": "CarBody_OpticOrange",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_opticorange/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_opticorange/small.png"
+      },
+      "name": "Gummi Ship",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_OpticOrange"
+    },
+    {
       "added": "2024-08-06T08:31:34Z",
       "description": "Forge a path of infamy.",
       "id": "CarBody_Peach",
@@ -2709,6 +2730,27 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_Tomahawk"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Blank",
+      "id": "CarBody_Tomb",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_tomb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_tomb/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Tomb"
     },
     {
       "added": "2025-12-19T14:50:15Z",
@@ -14491,6 +14533,27 @@
       "vehicleId": "VCID_CarSkin_OctaneGraffiti"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneHalloweenscream",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanehalloweenscream/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanehalloweenscream/small.png"
+      },
+      "name": "The Shrieker",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneHalloweenscream"
+    },
+    {
       "added": "2025-10-09T08:44:56Z",
       "description": "Octane custom decal.",
       "id": "CarSkin_OctaneHHBanjoLTE01",
@@ -14940,6 +15003,27 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_Octane_OctaneWavves"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneOpticOrangeLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneopticorangelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneopticorangelte01/small.png"
+      },
+      "name": "Sora",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_OctaneOpticOrangeLTE01"
     },
     {
       "added": "2026-03-19T06:29:28Z",
@@ -16921,6 +17005,90 @@
         "value": "skin"
       },
       "vehicleId": "VCID_CarSkin_ODBWings"
+    },
+    {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "Gummi Ship custom decal.",
+      "id": "CarSkin_OpticOrange01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange01/small.png"
+      },
+      "name": "Classic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OpticOrange01"
+    },
+    {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "Gummi Ship custom decal.",
+      "id": "CarSkin_OpticOrange02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange02/small.png"
+      },
+      "name": "Magic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OpticOrange02"
+    },
+    {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "Gummi Ship custom decal.",
+      "id": "CarSkin_OpticOrange03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorange03/small.png"
+      },
+      "name": "Heartless",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OpticOrange03"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Gummi Ship custom decal.",
+      "id": "CarSkin_OpticOrangeDefault",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorangedefault/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_opticorangedefault/small.png"
+      },
+      "name": "Gummi Ship (Custom)",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OpticOrangeDefault"
     },
     {
       "added": "2024-08-06T08:31:34Z",
@@ -21975,7 +22143,7 @@
     },
     {
       "added": "2026-09-03T15:24:18Z",
-      "description": "Blank",
+      "description": "Takumi RX-T custom decal.",
       "id": "CarSkin_TakumiiiSnakeSkin",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_takumiiisnakeskin/large.png",
@@ -22038,7 +22206,7 @@
     },
     {
       "added": "2026-09-03T15:24:18Z",
-      "description": "Blank",
+      "description": "Takumi RX-T custom decal.",
       "id": "CarSkin_TakumiiiTechArrows",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_takumiiitecharrows/large.png",
@@ -22329,6 +22497,48 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_TomahawkWings"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Blank",
+      "id": "CarSkin_TombA",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tomba/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tomba/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TombA"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Blank",
+      "id": "CarSkin_TombDefault",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tombdefault/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tombdefault/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TombDefault"
     },
     {
       "added": "2025-12-19T14:50:15Z",
@@ -24560,6 +24770,27 @@
       "vehicleId": "VCID_Booster_AlienLiquidPSP"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "From the lab to your engine.",
+      "id": "ID_Booster_AlphaDevReward",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_alphadevreward/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_alphadevreward/small.png"
+      },
+      "name": "The Boost",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_AlphaDevReward"
+    },
+    {
       "added": "2025-03-11T08:32:04Z",
       "description": "Outshine the stars.",
       "id": "ID_Booster_AstralRadiance",
@@ -25635,6 +25866,27 @@
       "vehicleId": "VCID_Booster_GenieSmoke"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "The time is nigh.",
+      "id": "ID_Booster_Ghosthand",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_ghosthand/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_ghosthand/small.png"
+      },
+      "name": "Reaper Hand",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_Ghosthand"
+    },
+    {
       "added": "2025-09-10T08:17:24Z",
       "description": "The perfect marriage of form and malfunction.",
       "id": "ID_Booster_GlitchPSPlus",
@@ -26627,6 +26879,27 @@
       "vehicleId": "VCID_Booster_OogiesWorms"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "The most magical.",
+      "id": "ID_Booster_OpticOrangeLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_opticorangelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_opticorangelte01/small.png"
+      },
+      "name": "Star Trails",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_OpticOrangeLTE01"
+    },
+    {
       "added": "2025-06-07T19:00:27Z",
       "description": "Where there's smoke...",
       "id": "ID_Booster_Paladin",
@@ -26898,6 +27171,27 @@
         "value": "booster"
       },
       "vehicleId": "VCID_Booster_Ramen"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Reveal your secret identity.",
+      "id": "ID_Booster_RedPlasma",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_redplasma/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_redplasma/small.png"
+      },
+      "name": "Villainous",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_RedPlasma"
     },
     {
       "added": "2026-06-15T18:22:53Z",
@@ -27909,6 +28203,27 @@
       "vehicleId": "VCID_Booster_TechRay"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Blank",
+      "id": "ID_Booster_Tomb",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_tomb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_tomb/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_Tomb"
+    },
+    {
       "added": "2025-07-15T08:17:19Z",
       "description": "Soak the competition.",
       "id": "ID_Booster_Toonywaterpsp",
@@ -28722,6 +29037,27 @@
       "vehicleId": "VCID_DriftTrail_GenieSmoke"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "The time is nigh.",
+      "id": "ID_DriftTrail_Ghosthand",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_ghosthand/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_ghosthand/small.png"
+      },
+      "name": "Reaper Hand",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_Ghosthand"
+    },
+    {
       "added": "2024-09-17T08:30:11Z",
       "description": "Gone in a flash.",
       "id": "ID_DriftTrail_Glaucous",
@@ -29384,6 +29720,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_OilSlick"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "The most magical.",
+      "id": "ID_DriftTrail_OpticOrangeLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_opticorangelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_opticorangelte01/small.png"
+      },
+      "name": "Star Trails",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_OpticOrangeLTE01"
     },
     {
       "added": "2024-08-17T06:37:31Z",
@@ -30057,6 +30414,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_Techno"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Blank",
+      "id": "ID_DriftTrail_Tomb",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_tomb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_tomb/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_Tomb"
     },
     {
       "added": "2024-06-15T20:48:58Z",
@@ -35736,6 +36114,69 @@
       "vehicleId": "VCID_Wheel_Olan"
     },
     {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "Cogged and loaded.",
+      "id": "Wheel_OpticOrange01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange01/small.png"
+      },
+      "name": "Gummi Ship",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_OpticOrange01"
+    },
+    {
+      "added": "2026-09-17T08:00:00Z",
+      "description": "Hunger for hearts.",
+      "id": "Wheel_OpticOrange02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorange02/small.png"
+      },
+      "name": "Heartless",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_OpticOrange02"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Fit for a king.",
+      "id": "Wheel_OpticOrangeLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorangelte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_opticorangelte01/small.png"
+      },
+      "name": "Lucky Emblem",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_OpticOrangeLTE01"
+    },
+    {
       "added": "2024-12-01T03:57:20Z",
       "description": "Ride the rush!",
       "id": "Wheel_OrangeD",
@@ -35818,6 +36259,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Petal4"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Become the beast.",
+      "id": "Wheel_Phantoom",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_phantoom/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_phantoom/small.png"
+      },
+      "name": "Crypt-id",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Phantoom"
     },
     {
       "added": "2024-12-01T03:57:20Z",
@@ -37817,6 +38279,27 @@
       "vehicleId": "VCID_Wheel_RL246"
     },
     {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Just press play.",
+      "id": "Wheel_RL249",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl249/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl249/small.png"
+      },
+      "name": "Fast Forward",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL249"
+    },
+    {
       "added": "2026-03-19T06:29:28Z",
       "description": "Ride the edge.",
       "id": "Wheel_RL251",
@@ -38046,6 +38529,48 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_RL273SE"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Geometric goals.",
+      "id": "Wheel_RL275",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275/small.png"
+      },
+      "name": "Art Wrecko",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL275"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Geometric glory.",
+      "id": "Wheel_RL275SE",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275se/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl275se/small.png"
+      },
+      "name": "Art Wrecko: Holographic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL275SE"
     },
     {
       "added": "2026-06-15T18:22:53Z",
@@ -40280,6 +40805,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Thunder_02"
+    },
+    {
+      "added": "2026-09-17T16:17:14Z",
+      "description": "Blank",
+      "id": "Wheel_Tomb",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_tomb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_tomb/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Tomb"
     },
     {
       "added": "2025-08-26T08:17:18Z",
