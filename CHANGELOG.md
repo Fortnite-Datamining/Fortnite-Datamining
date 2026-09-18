@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-18
+- **21:46** Item Shop, News, Epic Content Pages - +1 new (Welcome to Gotham City!) - -1 removed
 - **16:55** BR Cosmetics, Jam Tracks, Item Shop, AES Keys, Epic Content Pages - +5 new (PAC-MAN's Snacks, Pac-Man, Waka Waka, PAC-MAN's Gloves, I Really Want To Stay At Your House)
 - **12:39** BR Cosmetics
 - **07:55** News, Epic Content Pages - +1 new (The Party Never Ends) - -1 removed
