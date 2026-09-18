@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-18
+- **12:39** BR Cosmetics
 - **07:55** News, Epic Content Pages - +1 new (The Party Never Ends) - -1 removed
 - **02:54** Cars, Jam Tracks, Item Shop - +52 new (2LOUD, Underworld Poison, Blooming Cherub, Axizzle, 3 Jokerz Monte, +47 more) - -29 removed
 
