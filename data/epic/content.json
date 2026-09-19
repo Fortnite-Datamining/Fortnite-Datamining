@@ -67045,10 +67045,21 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-09-17T22:11:49.202Z",
+    "lastModified": "2026-09-18T20:27:12.289Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/image-contrail-fncs-s26-0-br-2048x2048-324d55f93274.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S25/DAv2_contrail_fncs_s26.DAv2_contrail_fncs_s26"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [
