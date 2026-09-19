@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-19
+- **15:59** BR Cosmetics, News, AES Keys - +3 new (Lucy's Float, Edgerunner Glitch, Boosted Hacker Sprites Are Here) - -1 removed
 - **02:52** Item Shop, News, Epic Content Pages - +31 new (Rain, Hush, Impact, PAC-MAN's Snacks, Black Stripe, +26 more) - -21 removed
 
 ## 2026-09-18
