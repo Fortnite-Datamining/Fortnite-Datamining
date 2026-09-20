@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-20
+- **20:59** BR Cosmetics, Item Shop, News - +1 new (Live - Champion Focus FNCS Cup) - -1 removed
 - **18:26** News - +1 new (Live - Champion Focus FNCS Cup) - -1 removed
 - **15:44** Item Shop, Epic Content Pages
 - **06:36** Item Shop, News, Epic Content Pages - +1 new (The Party Never Ends) - -1 removed
