@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-21
+- **01:20** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys - +47 new (Royalty's Mantle, Osric the Conqueror, Bow of the Vanquisher, Conquered, JIDO_Character_RoutPinch, +42 more) - -31 removed
+
 ## 2026-09-20
 - **23:07** News - +1 new (The Party Never Ends) - -1 removed
 - **20:59** BR Cosmetics, Item Shop, News - +1 new (Live - Champion Focus FNCS Cup) - -1 removed
