@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-21
+- **13:33** BR Cosmetics, Item Shop
 - **01:20** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys - +47 new (Royalty's Mantle, Osric the Conqueror, Bow of the Vanquisher, Conquered, JIDO_Character_RoutPinch, +42 more) - -31 removed
 
 ## 2026-09-20
