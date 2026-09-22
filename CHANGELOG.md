@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-22
+- **01:24** Item Shop - +73 new (Chigusa, Asmodeus, Rebel Authority, Sway, Johnny's Duffel Bag, +68 more) - -57 removed
+
 ## 2026-09-21
 - **22:42** BR Cosmetics, Item Shop, Epic Content Pages
 - **19:01** Item Shop, Epic Content Pages
