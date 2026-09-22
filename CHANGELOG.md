@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-22
+- **23:07** BR Cosmetics, Item Shop, Epic Content Pages
 - **20:20** BR Cosmetics, Item Shop
 - **17:07** Jam Tracks - +1 new (Green Hill Zone: Act 2 - Normal)
 - **12:18** Epic Content Pages
