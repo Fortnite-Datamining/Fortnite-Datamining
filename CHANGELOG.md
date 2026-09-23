@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-23
+- **01:37** Item Shop - +15 new (FNCS Global Championship 2026 Bundle, Aero Axe, Anarchy Agent, Dee, Aeronaut, +10 more) - -37 removed
+
 ## 2026-09-22
 - **23:07** BR Cosmetics, Item Shop, Epic Content Pages
 - **20:20** BR Cosmetics, Item Shop
