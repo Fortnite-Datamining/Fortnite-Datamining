@@ -345,7 +345,7 @@
     }
   },
   "crewscreendata": {
-    "_activeDate": "2026-09-03T08:00:00.000Z",
+    "_activeDate": "2026-09-23T16:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGameCrewScreenData",
@@ -535,10 +535,10 @@
               "bIsBenefitEnding": false,
               "details": {
                 "_type": "Crew Tile Details Data",
-                "backgroundImageURL": "https://cdn2.unrealengine.com/2026-june-rocketpass-benefit-bg-1920x1080-fb5cc1525285.png",
-                "color1Hex": "001B4C",
-                "color2Hex": "001B4C",
-                "color4Hex": "001B4C",
+                "backgroundImageURL": "https://cdn2.unrealengine.com/2026-september-t-ui-rls24-background-1920x1080-9f0fd3fe2626.png",
+                "color1Hex": "2D1A5B",
+                "color2Hex": "2D1A5B",
+                "color4Hex": "2D1A5B",
                 "description": "Get Rocket Pass Premium for the current season of Rocket League as part of your Crew subscription (Rocket League not available on Mobile).",
                 "tag": "CrewMonthBenefit",
                 "tileImageURL": "https://cdn2.unrealengine.com/crewbenefits-rockettile-520x320-1e6ae8846a29.png",
@@ -597,11 +597,11 @@
               "columnSpan": 1,
               "details": {
                 "_type": "Crew Tile Details Data",
-                "color1Hex": "FF8D8D",
-                "color2Hex": "A33D37",
+                "color1Hex": "BC9FFF",
+                "color2Hex": "502BA4",
                 "description": "Get Rocket Pass Premium for the current season of Rocket League.",
                 "tag": "None",
-                "tileImageURL": "https://cdn2.unrealengine.com/t-ui-bp-4200-rocketpass-benefit-768x768-9b640f4f52b8.png",
+                "tileImageURL": "https://cdn2.unrealengine.com/2026-september-t-ui-bp-4230-rocketpass-512x512-d5973d3a3005.png",
                 "title": "Rocket Pass Premium"
               },
               "nextDetails": {
@@ -1455,7 +1455,7 @@
         }
       ]
     },
-    "lastModified": "2026-09-03T02:26:18.104Z",
+    "lastModified": "2026-09-21T22:06:16.103Z",
     "progressiveInfo": {
       "_type": "SubscriptionProgressiveInfo",
       "infoModalEntries": [
@@ -1883,10 +1883,23 @@
             "playlist_delmar_ranked_root"
           ],
           "title": "Rocket Racing Leaves October 1"
+        },
+        {
+          "_type": "CommonUI Emergency Notice Base",
+          "body": "Lobby Hacks currently cannot be entered. Lobby Hack codes from the current v42.20 update remain valid until the end of the Season and can be entered on another platform.",
+          "hidden": false,
+          "platforms": [
+            "XboxOneGDK",
+            "XSX"
+          ],
+          "playlists": [
+            "experience_br"
+          ],
+          "title": "Lobby Hacks Temporarily Unavailable"
         }
       ]
     },
-    "lastModified": "2026-09-17T07:55:39.043Z"
+    "lastModified": "2026-09-22T19:09:28.928Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -70577,6 +70590,141 @@
           "title_line_2": "Zero Build",
           "tournament_display_id": "s42_championfocus_zb_naw",
           "tournament_view_background_image": "https://cdn2.unrealengine.com/fnce-42-00-fncs-gc-2026-competetab-grouptexture-1560x1024-1560x1024-0a0c42e10934.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Duo up and compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "Madison Beer Icon Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-discovertile-1920x1080-1920x1080-3ab9c83a5648.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "Madison Beer Icon Cup",
+          "title_line_2": "Reload",
+          "tournament_display_id": "s42_madisonbeer",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "Madison Beer Icon Mobile Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-discovertile-1920x1080-1920x1080-a60fdac67665.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "Madison Beer Icon Mobile Cup",
+          "title_line_2": "",
+          "tournament_display_id": "s42_madisonbeer_mobile",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "[NAC] Madison Beer Icon Mobile Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-discovertile-1920x1080-1920x1080-9a094516069b.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "[NAC] Madison Beer Icon Mobile Cup",
+          "title_line_2": "",
+          "tournament_display_id": "s42_madisonbeer_mobile_nac",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "[NAW] Madison Beer Icon Mobile Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-discovertile-1920x1080-1920x1080-87f8c436fcb5.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "[NAW] Madison Beer Icon Mobile Cup",
+          "title_line_2": "",
+          "tournament_display_id": "s42_madisonbeer_mobile_naw",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Duo up and compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "[NAC] Madison Beer Icon Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-discovertile-1920x1080-1920x1080-3ab9c83a5648.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "[NAC] Madison Beer Icon Cup",
+          "title_line_2": "Reload",
+          "tournament_display_id": "s42_madisonbeer_nac",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Duo up and compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "[NAW] Madison Beer Icon Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-discovertile-1920x1080-1920x1080-3ab9c83a5648.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "[NAW] Madison Beer Icon Cup",
+          "title_line_2": "Reload",
+          "tournament_display_id": "s42_madisonbeer_naw",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Duo up and compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "Madison Beer Icon Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-zb-discovertile-1920x1080-1920x1080-2edaeaf7f88a.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "Madison Beer Icon Cup",
+          "title_line_2": "Zero Build Reload",
+          "tournament_display_id": "s42_madisonbeer_zb",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Duo up and compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "[NAC] Madison Beer Icon Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-zb-discovertile-1920x1080-1920x1080-2edaeaf7f88a.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "[NAC] Madison Beer Icon Cup",
+          "title_line_2": "Zero Build Reload",
+          "tournament_display_id": "s42_madisonbeer_zb_nac",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "0E3F5C",
+          "background_right_color": "3E7292",
+          "background_text_color": "161616",
+          "details_description": "Get reckless and make it yours! Duo up and compete for a chance to earn Madison Beer cosmetic rewards. Good luck and have fun!",
+          "long_format_title": "[NAW] Madison Beer Icon Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnsp-42-20-misttycoon-competitive-zb-discovertile-1920x1080-1920x1080-2edaeaf7f88a.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-solotexture-800x800-800x800-5fd8f3b01a6b.jpg",
+          "title_line_1": "[NAW] Madison Beer Icon Cup",
+          "title_line_2": "Zero Build Reload",
+          "tournament_display_id": "s42_madisonbeer_zb_naw",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnsp-42-20-misttycoon-competitive-competetab-grouptexture-1560x1024-1560x1024-41edfffe2a71.jpg"
         },
         {
           "_type": "Tournament Display Info",
