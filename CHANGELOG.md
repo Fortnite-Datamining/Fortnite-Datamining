@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-24
+- **18:06** BR Cosmetics, Instruments, Item Shop, AES Keys, Epic Content Pages - +8 new (Shujin Academy Backpack, Phantom Thieves Guitar, Joker (P5R), Joker's Transformation, Metaverse Navigator, +3 more)
 - **13:40** BR Cosmetics, Instruments, News, AES Keys - +8 new (Madison's Mic, Rooftop Madison, Madison's OG Pickaxe, Madison's Mic, M.B. Icon, +3 more) - -1 removed
 - **08:05** Epic Content Pages
 - **02:52** BR Cosmetics, Item Shop, AES Keys - +39 new (Moving Like Berney, Firebrand, Toy Story Alien Bundle, Dynamo Dancer, Kliff, +34 more) - -28 removed
