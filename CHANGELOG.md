@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-25
+- **05:10** News - +1 new (Wield the Kingdom Key) - -1 removed
 - **00:13** Item Shop, News, Epic Content Pages - +32 new (We Like To Party! Bundle, The Administrator, Protowave, Madison's OG Pickaxe, Power Panels, +27 more) - -35 removed
 
 ## 2026-09-24
