@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-25
+- **00:13** Item Shop, News, Epic Content Pages - +32 new (We Like To Party! Bundle, The Administrator, Protowave, Madison's OG Pickaxe, Power Panels, +27 more) - -35 removed
+
 ## 2026-09-24
 - **21:39** BR Cosmetics, Item Shop
 - **18:06** BR Cosmetics, Instruments, Item Shop, AES Keys, Epic Content Pages - +8 new (Shujin Academy Backpack, Phantom Thieves Guitar, Joker (P5R), Joker's Transformation, Metaverse Navigator, +3 more)
