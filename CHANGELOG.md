@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-25
+- **19:23** BR Cosmetics, Cars, Item Shop, News, AES Keys, Epic Content Pages - +53 new (Volkswagen Golf GTI Edition 50, Dominus GT 76, Pareto 5S, Flames, Lightning, +48 more) - -1 removed
 - **15:23** BR Cosmetics, Cars, Instruments, Jam Tracks, Item Shop, AES Keys, Banners - +22 new (Carmen's Heart, Carmen's Microphone, Panther (P5R), Morgana (Persona 5), Panther's Showtime, +17 more)
 - **05:10** News - +1 new (Wield the Kingdom Key) - -1 removed
 - **00:13** Item Shop, News, Epic Content Pages - +32 new (We Like To Party! Bundle, The Administrator, Protowave, Madison's OG Pickaxe, Power Panels, +27 more) - -35 removed

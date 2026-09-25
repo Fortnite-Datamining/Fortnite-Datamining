@@ -517,6 +517,27 @@
       "vehicleId": "VCID_Body_Claw"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Leave an impression.",
+      "id": "CarBody_CobaltDagger",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_cobaltdagger/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_cobaltdagger/small.png"
+      },
+      "name": "Volkswagen Golf GTI Edition 50",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_CobaltDagger"
+    },
+    {
       "added": "2026-05-29T13:00:26Z",
       "description": "For the road less taken, or when there is no road.",
       "id": "CarBody_CondorMotor",
@@ -1736,6 +1757,27 @@
       "vehicleId": "VCID_Body_NeoCar"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Retro muscle reimagined.",
+      "id": "CarBody_NeonMarmot",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_neonmarmot/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_neonmarmot/small.png"
+      },
+      "name": "Dominus GT 76",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_NeonMarmot"
+    },
+    {
       "added": "2026-06-25T10:49:09Z",
       "description": "Easy on the eyes, ruthless on the road.",
       "id": "CarBody_NeptuneShell",
@@ -2190,6 +2232,27 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_RyzaRevT1"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Vicious efficiency.",
+      "id": "CarBody_Safari",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_safari/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_safari/small.png"
+      },
+      "name": "Pareto 5S",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Safari"
     },
     {
       "added": "2026-07-22T13:00:42Z",
@@ -2859,13 +2922,13 @@
     },
     {
       "added": "2026-09-25T13:00:42Z",
-      "description": "Blank",
+      "description": "An extremely widespread cognition.",
       "id": "CarBody_UmbraGenesis",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_umbragenesis/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_umbragenesis/small.png"
       },
-      "name": "Blank",
+      "name": "Mona Car",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -6786,6 +6849,153 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_ClawWheelman"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerFlames"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerLightning"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlivery01/small.png"
+      },
+      "name": "MKD Ultra",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerLivery01"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlivery02/small.png"
+      },
+      "name": "Pegasus Ultra",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerLivery02"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerLivery03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlivery03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerlivery03/small.png"
+      },
+      "name": "Tread Ultra",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerLivery03"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerstripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerStripes"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Volkswagen Golf GTI Edition 50 custom decal.",
+      "id": "CarSkin_CobaltDaggerWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_cobaltdaggerwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_CobaltDaggerWings"
     },
     {
       "added": "2026-05-29T13:00:26Z",
@@ -13362,6 +13572,132 @@
       "vehicleId": "VCID_CarSkin_NeoCarTrack"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Dominus GT 76 custom decal.",
+      "id": "CarSkin_NeonMarmotFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_NeonMarmotFlames"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Dominus GT 76 custom decal.",
+      "id": "CarSkin_NeonMarmotLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotlightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotlightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_NeonMarmotLightning"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Dominus GT 76 custom decal.",
+      "id": "CarSkin_NeonMarmotLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotlivery01/small.png"
+      },
+      "name": "Shock",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeonMarmotLivery01"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Dominus GT 76 custom decal.",
+      "id": "CarSkin_NeonMarmotLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotlivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotlivery02/small.png"
+      },
+      "name": "Soar",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_NeonMarmotLivery02"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Dominus GT 76 custom decal.",
+      "id": "CarSkin_NeonMarmotStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotstripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_NeonMarmotStripes"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Dominus GT 76 custom decal.",
+      "id": "CarSkin_NeonMarmotWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_neonmarmotwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_NeonMarmotWings"
+    },
+    {
       "added": "2026-06-25T10:49:09Z",
       "description": "Maserati GT2 Stradale custom decal.",
       "id": "CarSkin_NeptuneShellFlames",
@@ -14223,6 +14559,27 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_OctaneAventurineLTE"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneAw",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneaw/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneaw/small.png"
+      },
+      "name": "Shattered Fractal",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_OctaneAw"
     },
     {
       "added": "2024-08-07T15:13:59Z",
@@ -16840,13 +17197,13 @@
     },
     {
       "added": "2026-09-25T13:00:42Z",
-      "description": "Blank",
+      "description": "Octane custom decal.",
       "id": "CarSkin_OctaneUmbraGenesislte01",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneumbragenesislte01/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneumbragenesislte01/small.png"
       },
-      "name": "Blank",
+      "name": "Persona 5 Royal",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -19207,6 +19564,132 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_RyzaRevT2_Wings"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Pareto 5S custom decal.",
+      "id": "CarSkin_SafariFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_safariflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_safariflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SafariFlames"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Pareto 5S custom decal.",
+      "id": "CarSkin_SafariLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_safarilightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_safarilightning/small.png"
+      },
+      "name": "Lightning",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SafariLightning"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Pareto 5S custom decal.",
+      "id": "CarSkin_SafariLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_safarilivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_safarilivery01/small.png"
+      },
+      "name": "Pareto Shock",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SafariLivery01"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Pareto 5S custom decal.",
+      "id": "CarSkin_SafariLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_safarilivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_safarilivery02/small.png"
+      },
+      "name": "Soar",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SafariLivery02"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Pareto 5S custom decal.",
+      "id": "CarSkin_SafariStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_safaristripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_safaristripes/small.png"
+      },
+      "name": "Stripes",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SafariStripes"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Pareto 5S custom decal.",
+      "id": "CarSkin_SafariWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_safariwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_safariwings/small.png"
+      },
+      "name": "Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SafariWings"
     },
     {
       "added": "2026-07-22T13:00:42Z",
@@ -25209,6 +25692,27 @@
       "vehicleId": "VCID_Booster_CherryBlossom"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Color command.",
+      "id": "ID_Booster_ChromaticAberration",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_chromaticaberration/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_chromaticaberration/small.png"
+      },
+      "name": "Chromatic Abberation",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_ChromaticAberration"
+    },
+    {
       "added": "2025-12-11T10:20:11Z",
       "description": "Never fade.",
       "id": "ID_Booster_Chrome",
@@ -26272,6 +26776,27 @@
       "vehicleId": "VCID_Booster_Honeybees"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Be the heat.",
+      "id": "ID_Booster_IconColors",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_iconcolors/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_iconcolors/small.png"
+      },
+      "name": "Infraroad",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_IconColors"
+    },
+    {
       "added": "2025-12-11T10:20:11Z",
       "description": "It rips.",
       "id": "ID_Booster_InfernoVortex",
@@ -27003,6 +27528,27 @@
         "value": "booster"
       },
       "vehicleId": "VCID_Booster_OpticOrangeLTE01"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Connect.",
+      "id": "ID_Booster_Overdriver",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_overdriver/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_overdriver/small.png"
+      },
+      "name": "Synapse",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_Overdriver"
     },
     {
       "added": "2025-06-07T19:00:27Z",
@@ -28371,6 +28917,27 @@
       "vehicleId": "VCID_Booster_Trace"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "WHOA, trippy.",
+      "id": "ID_Booster_Trippy",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_trippy/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_trippy/small.png"
+      },
+      "name": "Lava Lamp",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_Trippy"
+    },
+    {
       "added": "2025-09-10T08:17:24Z",
       "description": "Delightfully fired up.",
       "id": "ID_Booster_TurboTechno",
@@ -28393,13 +28960,13 @@
     },
     {
       "added": "2026-09-25T13:00:42Z",
-      "description": "Blank",
+      "description": "Reveal your true form.",
       "id": "ID_Booster_UmbraGenesisLTE01",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_umbragenesislte01/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_umbragenesislte01/small.png"
       },
-      "name": "Blank",
+      "name": "Morgana's Token",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -28654,6 +29221,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_BlueBolt"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Color command.",
+      "id": "ID_DriftTrail_ChromaticAberration",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_chromaticaberration/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_chromaticaberration/small.png"
+      },
+      "name": "Chromatic Abberation",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_ChromaticAberration"
     },
     {
       "added": "2025-12-11T10:20:11Z",
@@ -29426,6 +30014,27 @@
       "vehicleId": "VCID_DriftTrail_Honeybees"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Be the heat.",
+      "id": "ID_DriftTrail_IconColors",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_iconcolors/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_iconcolors/small.png"
+      },
+      "name": "Infraroad",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_IconColors"
+    },
+    {
       "added": "2026-06-15T18:22:53Z",
       "description": "Heat map to victory.",
       "id": "ID_DriftTrail_InfraredGlow",
@@ -29466,6 +30075,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_Inkyoil"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Nothing's cuter than winning.",
+      "id": "ID_DriftTrail_KawaiiStickers",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_kawaiistickers/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_kawaiistickers/small.png"
+      },
+      "name": "Kawaii Stickers",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_KawaiiStickers"
     },
     {
       "added": "2024-09-11T21:13:03Z",
@@ -30056,6 +30686,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_RedWhite"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Scuff it up.",
+      "id": "ID_DriftTrail_RoadSparks",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_roadsparks/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_roadsparks/small.png"
+      },
+      "name": "Treadsparks",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_RoadSparks"
     },
     {
       "added": "2025-06-07T19:00:27Z",
@@ -33009,6 +33660,27 @@
       "vehicleId": "VCID_Wheel_Claw"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Leave an impression.",
+      "id": "Wheel_CobaltDagger01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_cobaltdagger01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_cobaltdagger01/small.png"
+      },
+      "name": "Volkswagen Golf GTI Edition 50",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_CobaltDagger01"
+    },
+    {
       "added": "2026-05-29T13:00:26Z",
       "description": "Absolutely gripping.",
       "id": "Wheel_CondorMotor01",
@@ -34980,6 +35652,48 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Hanzawa"
+    },
+    {
+      "added": "2026-06-06T03:03:15Z",
+      "description": "Drill down on victory.",
+      "id": "Wheel_HardPoint",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpoint/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpoint/small.png"
+      },
+      "name": "Drillbit",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_HardPoint"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Every bit counts.",
+      "id": "Wheel_HardPointSE",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpointse/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpointse/small.png"
+      },
+      "name": "Drillbit: Remix",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_HardPointSE"
     },
     {
       "added": "2026-07-30T13:11:09Z",
@@ -38132,6 +38846,48 @@
       "vehicleId": "VCID_Wheel_RL199"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Tread heavily. ",
+      "id": "Wheel_RL1991",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl1991/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl1991/small.png"
+      },
+      "name": "Tread Runner",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL1991"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Bound for victory.",
+      "id": "Wheel_RL1993",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl1993/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl1993/small.png"
+      },
+      "name": "Turbind",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL1993"
+    },
+    {
       "added": "2025-09-18T13:07:46Z",
       "description": "Take the wheel.",
       "id": "Wheel_RL205",
@@ -38235,6 +38991,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_RL213"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Tread where no one else dares.",
+      "id": "Wheel_RL217",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl217/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl217/small.png"
+      },
+      "name": "Tread Cast",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL217"
     },
     {
       "added": "2025-12-11T10:20:11Z",
@@ -38508,6 +39285,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_RL252"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Can't be beat.",
+      "id": "Wheel_RL253",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl253/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_rl253/small.png"
+      },
+      "name": "Disc Drive",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RL253"
     },
     {
       "added": "2026-06-06T03:03:15Z",
@@ -39414,6 +40212,174 @@
       "vehicleId": "VCID_Wheel_S19RLRocketPass02"
     },
     {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward01/small.png"
+      },
+      "name": "S23 - Bronze",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward01"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward02/small.png"
+      },
+      "name": "S23 - Gold",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward02"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward03/small.png"
+      },
+      "name": "S23 - Silver",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward03"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward04",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward04/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward04/small.png"
+      },
+      "name": "S23 - Platinum",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward04"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward05",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward05/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward05/small.png"
+      },
+      "name": "S23 - Diamond",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward05"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward06",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward06/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward06/small.png"
+      },
+      "name": "S23 - Champion",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward06"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Driven to triumph.",
+      "id": "Wheel_S24Reward07",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward07/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward07/small.png"
+      },
+      "name": "S23 - Grand Champion",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward07"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": " Driven to triumph.",
+      "id": "Wheel_S24Reward08",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward08/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_s24reward08/small.png"
+      },
+      "name": "S23 - Supersonic Legend",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_S24Reward08"
+    },
+    {
       "added": "2024-12-18T12:18:27Z",
       "description": "Always in bloom.",
       "id": "Wheel_Sakura",
@@ -39687,6 +40653,48 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Shades"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Crunch the competition. ",
+      "id": "Wheel_Shatter",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_shatter/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_shatter/small.png"
+      },
+      "name": "Tri-Mangle",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Shatter"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Crunch time.",
+      "id": "Wheel_ShatterSE",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_shatterse/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_shatterse/small.png"
+      },
+      "name": "Tri-Mangle: Remixed",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_ShatterSE"
     },
     {
       "added": "2024-09-25T23:11:28Z",
@@ -40251,6 +41259,90 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Sport73"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Forwarned is forearmed.",
+      "id": "Wheel_Sport76",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport76/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport76/small.png"
+      },
+      "name": "Forewarned",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Sport76"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Racing ahead.",
+      "id": "Wheel_Sport76SE",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport76se/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport76se/small.png"
+      },
+      "name": "Forewarned: Holographic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Sport76SE"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Bound to glory.",
+      "id": "Wheel_Sport80",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport80/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport80/small.png"
+      },
+      "name": "Scepter",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Sport80"
+    },
+    {
+      "added": "2026-09-25T17:16:57Z",
+      "description": "Bound to victory.",
+      "id": "Wheel_Sport80SE",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport80se/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport80se/small.png"
+      },
+      "name": "Scepter SE",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Sport80SE"
     },
     {
       "added": "2025-02-21T12:16:05Z",
