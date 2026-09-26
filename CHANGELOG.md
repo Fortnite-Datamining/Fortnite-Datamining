@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-26
+- **15:38** BR Cosmetics, Item Shop
 - **06:20** News - +1 new (Earn the Peril Peak Mali Style) - -1 removed
 - **01:08** Item Shop, News, Epic Content Pages - +102 new (Eggshell, Bruno Mars, Bed Chem, Green Herb, Phantom Thieves Guitar, +97 more) - -51 removed
 
