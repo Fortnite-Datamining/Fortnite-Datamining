@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-26
+- **01:08** Item Shop, News, Epic Content Pages - +102 new (Eggshell, Bruno Mars, Bed Chem, Green Herb, Phantom Thieves Guitar, +97 more) - -51 removed
+
 ## 2026-09-25
 - **22:36** Item Shop, News, Epic Content Pages - +1 new (Wield the Kingdom Key) - -1 removed
 - **19:23** BR Cosmetics, Cars, Item Shop, News, AES Keys, Epic Content Pages - +53 new (Volkswagen Golf GTI Edition 50, Dominus GT 76, Pareto 5S, Flames, Lightning, +48 more) - -1 removed
