@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-28
+- **01:05** Item Shop - +38 new (Jack's Sled, Bing Bong, Sunbird, Sally's Soup Ladle, King's Parade Horse, +33 more) - -53 removed
+
 ## 2026-09-27
 - **19:28** Item Shop, Epic Content Pages
 - **05:31** BR Cosmetics, Item Shop, Banners
