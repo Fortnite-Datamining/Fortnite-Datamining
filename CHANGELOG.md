@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-28
+- **21:32** Item Shop, News, Banners, Epic Content Pages - +1 new (Wield the Kingdom Key) - -1 removed
 - **01:05** Item Shop - +38 new (Jack's Sled, Bing Bong, Sunbird, Sally's Soup Ladle, King's Parade Horse, +33 more) - -53 removed
 
 ## 2026-09-27
