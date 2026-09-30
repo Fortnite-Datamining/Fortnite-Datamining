@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-09-30
+- **02:15** Item Shop - +11 new (Party Favor, Caper, Starlit, I'm Out, Alias, +6 more) - -63 removed
+
 ## 2026-09-29
 - **23:23** BR Cosmetics, Item Shop, Epic Content Pages
 - **19:32** BR Cosmetics, Jam Tracks, Item Shop, News, Epic Content Pages - +3 new (Night Terror, A Grave Mistake, Fortnitemares Returns October 1) - -1 removed
