@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-09-30
+- **20:28** Epic Content Pages
 - **08:49** Item Shop, Epic Content Pages
 - **02:15** Item Shop - +11 new (Party Favor, Caper, Starlit, I'm Out, Alias, +6 more) - -63 removed
 
