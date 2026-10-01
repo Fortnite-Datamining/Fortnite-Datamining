@@ -9,8 +9,147 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 :root{--ink:#f5f7fb;--muted:#91a0b6;--dim:#60708a;--bg:#0b111b;--panel:#111a29;--panel2:#172338;--line:#263750;--cyan:#66ddff;--yellow:#ffd166;--green:#75e0a0;--pink:#ff769f;--radius:12px;--shadow:0 18px 55px #03070e88}
-*{box-sizing:border-box}html{background:var(--bg);scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'Space Grotesk',sans-serif;background:radial-gradient(circle at 74% -10%,#173c5277,transparent 32rem),linear-gradient(145deg,#0b111b,#0b121d 60%,#0c1820);min-height:100vh}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}.app{display:grid;grid-template-columns:255px 1fr;min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;padding:24px 14px;border-right:1px solid var(--line);background:#0d1522dd;backdrop-filter:blur(18px);overflow:auto}.logo{display:flex;align-items:center;gap:10px;padding:0 12px 28px;font-weight:800;letter-spacing:.08em}.logoMark{display:grid;place-items:center;width:32px;height:32px;background:var(--cyan);color:#07111c;clip-path:polygon(0 0,100% 0,82% 100%,0 82%);font-weight:800}.logo small{display:block;color:var(--cyan);font-size:10px;letter-spacing:.16em}.navGroup{margin:20px 0}.navLabel{padding:0 12px 8px;color:var(--dim);font-size:10px;letter-spacing:.15em;text-transform:uppercase;font-weight:700}.navItem{display:flex;align-items:center;gap:11px;width:100%;padding:10px 12px;margin:3px 0;border:1px solid transparent;background:transparent;color:#aebbd0;border-radius:8px;text-align:left;font-size:13px}.navItem:hover{background:#18243a;color:#fff}.navItem.active{background:#1d3348;border-color:#31516b;color:#fff}.navIcon{width:18px;text-align:center;color:var(--cyan)}.navCount{margin-left:auto;color:var(--dim);font-size:11px}.sideFoot{margin:30px 12px 0;padding-top:15px;border-top:1px solid var(--line);color:var(--dim);font-size:11px;line-height:1.6}.main{min-width:0}.topbar{position:sticky;top:0;z-index:10;display:flex;gap:16px;align-items:center;height:74px;padding:0 clamp(16px,4vw,48px);border-bottom:1px solid var(--line);background:#0b121ddd;backdrop-filter:blur(18px)}.mobileMenu{display:none}.search{position:relative;flex:1;max-width:620px}.search input{width:100%;height:42px;padding:0 44px 0 15px;border:1px solid var(--line);border-radius:8px;background:#0a111c;color:#fff;outline:0}.search input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #66ddff1b}.search span{position:absolute;right:14px;top:10px;color:var(--cyan)}.liveDot{margin-left:auto;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:11px;white-space:nowrap}.liveDot i{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}.content{max-width:1500px;margin:auto;padding:34px clamp(16px,4vw,48px) 60px}.view{display:none}.view.active{display:block;animation:rise .35s ease both}@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}.hero{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;min-height:270px;margin-bottom:22px}.heroCopy,.signal{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#122237,#101927);box-shadow:var(--shadow)}.heroCopy{position:relative;overflow:hidden;padding:36px}.heroCopy:after{content:'DROP';position:absolute;right:-18px;bottom:-42px;color:#ffffff09;font:800 150px/1 'Barlow Condensed';transform:skew(-12deg)}h1,h2,h3,p{margin-top:0}h1{max-width:700px;margin:10px 0;font:800 clamp(42px,6vw,80px)/.9 'Barlow Condensed';letter-spacing:.01em;text-transform:uppercase}h2{font:800 30px/1 'Barlow Condensed';text-transform:uppercase;letter-spacing:.03em}h3{font-size:15px;margin-bottom:5px}.heroCopy p{max-width:620px;color:var(--muted);line-height:1.65;font-size:13px}.heroTag{display:inline-flex;padding:6px 9px;margin-top:10px;background:#66ddff18;border:1px solid #66ddff44;border-radius:5px;color:var(--cyan);font-size:11px}.signal{padding:22px;background:linear-gradient(145deg,#1b2839,#121b2a)}.signal h3{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.14em}.signal strong{display:block;margin:14px 0 4px;font:800 42px/1 'Barlow Condensed'}.signal p{color:var(--muted);font-size:12px;line-height:1.5}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:30px 0 13px}.sectionHead h2{margin:0}.sectionHead span{color:var(--dim);font-size:11px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat{padding:15px 17px;border:1px solid var(--line);border-radius:9px;background:#101a2a}.stat label{display:block;color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}.stat strong{display:block;margin-top:7px;font:700 26px 'Barlow Condensed'}.stat.cyan strong{color:var(--cyan)}.stat.yellow strong{color:var(--yellow)}.stat.green strong{color:var(--green)}.stat.pink strong{color:var(--pink)}.newsGrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px}.newsCard{position:relative;min-height:168px;overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#121d2d}.newsCard:first-child{grid-row:span 2;min-height:346px}.newsCard img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:.68}.newsCard:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#09111ee8)}.newsText{position:absolute;z-index:1;bottom:0;padding:17px}.newsText small{color:var(--cyan);font-size:10px}.newsText h3{font-size:16px;margin:6px 0 0}.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.control{height:39px;padding:0 12px;border:1px solid var(--line);border-radius:7px;background:#111c2d;color:#b9c6d8;font-size:12px}.control:hover,.control.active{border-color:#3c6d87;background:#183044;color:#fff}.control.primary{background:var(--cyan);border-color:var(--cyan);color:#07121d;font-weight:700}.catalogGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(166px,1fr));gap:12px}.item{overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#111b2a;transition:transform .16s,border-color .16s}.item:hover{transform:translateY(-3px);border-color:#4a7187}.itemImage{aspect-ratio:1;background:#0b131f;display:grid;place-items:center;position:relative}.itemImage img{width:100%;height:100%;object-fit:contain}.itemImage .placeholder{color:#33475f;font:800 30px 'Barlow Condensed'}.badge{position:absolute;top:8px;right:8px;padding:4px 6px;border-radius:4px;background:#07101bcc;color:#c9d6e6;font-size:9px}.newBadge{position:absolute;top:8px;left:8px;padding:4px 6px;border-radius:4px;background:linear-gradient(135deg,#ff769f,#ffd166);color:#241326;font-size:9px;font-weight:800;letter-spacing:.05em;box-shadow:0 4px 12px #00000066;z-index:2}.itemBody{padding:11px}.itemName{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-size:13px}.itemMeta{display:flex;justify-content:space-between;gap:5px;margin-top:6px;color:var(--muted);font-size:10px}.itemMeta span:last-child{color:var(--cyan)}.shopSections{display:grid;gap:24px}.shopSection{border-top:1px solid var(--line);padding-top:18px}.shopSectionHead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}.shopSectionHead h3{margin:0;font:700 25px 'Barlow Condensed';text-transform:uppercase}.shopSectionHead span{color:var(--yellow);font-size:11px}.shopGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}.shopItem{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#121b2a}.shopImage{aspect-ratio:1.12;background:linear-gradient(145deg,#263152,#121a2c);display:grid;place-items:center}.shopImage img{height:100%;width:100%;object-fit:contain}.shopBody{padding:12px}.shopBody b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.price{display:flex;justify-content:space-between;align-items:center;margin-top:8px;color:var(--muted);font-size:11px}.price strong{color:var(--yellow);font-size:15px}.dataTable{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#111b2a;font-size:12px}.dataTable th,.dataTable td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left}.dataTable th{color:var(--dim);font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:#0e1725}.dataTable td{color:#c6d1e0}.dataTable tr:last-child td{border:0}.weaponName{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700}.weaponIcon{width:38px;height:30px;object-fit:contain}.empty{padding:55px;text-align:center;border:1px dashed var(--line);border-radius:9px;color:var(--muted)}.mapFrame{overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#081019}.mapCanvas{height:620px;position:relative;overflow:hidden;cursor:grab;background:#0c1720}.mapCanvas:active{cursor:grabbing}.mapCanvas img{position:absolute;left:50%;top:50%;width:1200px;max-width:none;transform:translate(-50%,-50%);user-select:none;pointer-events:none}.mapLegend{display:flex;gap:16px;padding:12px;color:var(--muted);font-size:11px;border-top:1px solid var(--line)}.legendDot{display:inline-block;width:8px;height:8px;margin-right:5px;border-radius:50%;background:var(--cyan)}.legendDot.pink{background:var(--pink)}.toast{position:fixed;right:20px;bottom:20px;z-index:20;padding:12px 16px;border:1px solid #3a6072;border-radius:7px;background:#122235;color:#fff;font-size:12px;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.2s}.toast.show{opacity:1;transform:none}@media(max-width:900px){.app{display:block}.sidebar{position:fixed;z-index:30;left:0;top:0;width:255px;transform:translateX(-100%);transition:.2s;box-shadow:20px 0 60px #0008}.sidebar.open{transform:none}.mobileMenu{display:block;width:38px;height:38px;border:1px solid var(--line);border-radius:7px;background:#142238;color:#fff}.hero{grid-template-columns:1fr}.heroCopy{min-height:290px}.newsGrid{grid-template-columns:1fr 1fr}.newsCard:first-child{grid-column:span 2;grid-row:auto;min-height:250px}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.topbar{height:64px;padding:0 12px}.liveDot{display:none}.content{padding:24px 12px 45px}h1{font-size:53px}.heroCopy{padding:25px 21px}.newsGrid{display:block}.newsCard,.newsCard:first-child{min-height:180px;margin-bottom:10px}.catalogGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.itemBody{padding:9px}.itemMeta{display:block;line-height:1.6}.shopGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.mapCanvas{height:460px}.mapCanvas img{width:850px}.dataTable{font-size:11px}.dataTable th,.dataTable td{padding:10px 8px}.hideMobile{display:none}}
-.item{cursor:pointer}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:'Space Grotesk',sans-serif;background:radial-gradient(circle at 74% -10%,#173c5277,transparent 32rem),linear-gradient(145deg,#0b111b,#0b121d 60%,#0c1820);min-height:100vh}
+button,input,select{font:inherit}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+.app{display:grid;grid-template-columns:255px 1fr;min-height:100vh}
+.sidebar{position:sticky;top:0;height:100vh;padding:24px 14px;border-right:1px solid var(--line);background:#0d1522dd;backdrop-filter:blur(18px);overflow:auto}
+.logo{display:flex;align-items:center;gap:10px;padding:0 12px 28px;font-weight:800;letter-spacing:.08em}
+.logoMark{display:grid;place-items:center;width:32px;height:32px;background:var(--cyan);color:#07111c;clip-path:polygon(0 0,100% 0,82% 100%,0 82%);font-weight:800}
+.logo small{display:block;color:var(--cyan);font-size:10px;letter-spacing:.16em}
+.navGroup{margin:20px 0}
+.navLabel{padding:0 12px 8px;color:var(--dim);font-size:10px;letter-spacing:.15em;text-transform:uppercase;font-weight:700}
+.navItem{display:flex;align-items:center;gap:11px;width:100%;padding:10px 12px;margin:3px 0;border:1px solid transparent;background:transparent;color:#aebbd0;border-radius:8px;text-align:left;font-size:13px}
+.navItem:hover{background:#18243a;color:#fff}
+.navItem.active{background:#1d3348;border-color:#31516b;color:#fff}
+.navIcon{width:18px;text-align:center;color:var(--cyan)}
+.navCount{margin-left:auto;color:var(--dim);font-size:11px}
+.sideFoot{margin:30px 12px 0;padding-top:15px;border-top:1px solid var(--line);color:var(--dim);font-size:11px;line-height:1.6}
+.main{min-width:0}
+.topbar{position:sticky;top:0;z-index:10;display:flex;gap:16px;align-items:center;height:74px;padding:0 clamp(16px,4vw,48px);border-bottom:1px solid var(--line);background:#0b121ddd;backdrop-filter:blur(18px)}
+.mobileMenu{display:none}
+.search{position:relative;flex:1;max-width:620px}
+.search input{width:100%;height:42px;padding:0 44px 0 15px;border:1px solid var(--line);border-radius:8px;background:#0a111c;color:#fff;outline:0}
+.search input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #66ddff1b}
+.search span{position:absolute;right:14px;top:10px;color:var(--cyan)}
+.liveDot{margin-left:auto;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:11px;white-space:nowrap}
+.liveDot i{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}
+.content{max-width:1500px;margin:auto;padding:34px clamp(16px,4vw,48px) 60px}
+.view{display:none}
+.view.active{display:block;animation:rise .35s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.eyebrow{color:var(--cyan);font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.hero{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;min-height:270px;margin-bottom:22px}
+.heroCopy,.signal{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(120deg,#122237,#101927);box-shadow:var(--shadow)}
+.heroCopy{position:relative;overflow:hidden;padding:36px}
+.heroCopy:after{content:'DROP';position:absolute;right:-18px;bottom:-42px;color:#ffffff09;font:800 150px/1 'Barlow Condensed';transform:skew(-12deg)}
+h1,h2,h3,p{margin-top:0}
+h1{max-width:700px;margin:10px 0;font:800 clamp(42px,6vw,80px)/.9 'Barlow Condensed';letter-spacing:.01em;text-transform:uppercase}
+h2{font:800 30px/1 'Barlow Condensed';text-transform:uppercase;letter-spacing:.03em}
+h3{font-size:15px;margin-bottom:5px}
+.heroCopy p{max-width:620px;color:var(--muted);line-height:1.65;font-size:13px}
+.heroTag{display:inline-flex;padding:6px 9px;margin-top:10px;background:#66ddff18;border:1px solid #66ddff44;border-radius:5px;color:var(--cyan);font-size:11px}
+.signal{padding:22px;background:linear-gradient(145deg,#1b2839,#121b2a)}
+.signal h3{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.14em}
+.signal strong{display:block;margin:14px 0 4px;font:800 42px/1 'Barlow Condensed'}
+.signal p{color:var(--muted);font-size:12px;line-height:1.5}
+.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:30px 0 13px}
+.sectionHead h2{margin:0}
+.sectionHead span{color:var(--dim);font-size:11px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.stat{padding:15px 17px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
+.stat label{display:block;color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}
+.stat strong{display:block;margin-top:7px;font:700 26px 'Barlow Condensed'}
+.stat.cyan strong{color:var(--cyan)}
+.stat.yellow strong{color:var(--yellow)}
+.stat.green strong{color:var(--green)}
+.stat.pink strong{color:var(--pink)}
+.newsGrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px}
+.newsCard{position:relative;min-height:168px;overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#121d2d;cursor:pointer}
+.newsCard:first-child{grid-row:span 2;min-height:346px}
+.newsCard img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:.68}
+.newsCard:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#09111ee8)}
+.newsText{position:absolute;z-index:1;bottom:0;padding:17px}
+.newsText small{color:var(--cyan);font-size:10px}
+.newsText h3{font-size:16px;margin:6px 0 0}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0;align-items:center}
+.control{height:39px;padding:0 12px;border:1px solid var(--line);border-radius:7px;background:#111c2d;color:#b9c6d8;font-size:12px}
+.control:hover,.control.active{border-color:#3c6d87;background:#183044;color:#fff}
+.control.primary{background:var(--cyan);border-color:var(--cyan);color:#07121d;font-weight:700}
+.catalogGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(166px,1fr));gap:12px}
+.item{overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#111b2a;transition:transform .16s,border-color .16s;cursor:pointer}
+.item:hover{transform:translateY(-3px);border-color:#4a7187}
+.itemImage{aspect-ratio:1;background:#0b131f;display:grid;place-items:center;position:relative}
+.itemImage img{width:100%;height:100%;object-fit:contain}
+.itemImage .placeholder{color:#33475f;font:800 30px 'Barlow Condensed'}
+.badge{position:absolute;top:8px;right:8px;padding:4px 6px;border-radius:4px;background:#07101bcc;color:#c9d6e6;font-size:9px}
+.newBadge{position:absolute;top:8px;left:8px;padding:4px 6px;border-radius:4px;background:linear-gradient(135deg,#ff769f,#ffd166);color:#241326;font-size:9px;font-weight:800;letter-spacing:.05em;box-shadow:0 4px 12px #00000066;z-index:2}
+.itemBody{padding:11px}
+.itemName{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-size:13px}
+.itemMeta{display:flex;justify-content:space-between;gap:5px;margin-top:6px;color:var(--muted);font-size:10px}
+.itemMeta span:last-child{color:var(--cyan)}
+.shopSections{display:grid;gap:24px}
+.shopSection{border-top:1px solid var(--line);padding-top:18px}
+.shopSectionHead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.shopSectionHead h3{margin:0;font:700 25px 'Barlow Condensed';text-transform:uppercase}
+.shopSectionHead span{color:var(--yellow);font-size:11px}
+.shopGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.shopItem{min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:9px;background:#121b2a;cursor:pointer}
+.shopImage{aspect-ratio:1.12;background:linear-gradient(145deg,#263152,#121a2c);display:grid;place-items:center}
+.shopImage img{height:100%;width:100%;object-fit:contain}
+.shopBody{padding:12px}
+.shopBody b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.shopSub{display:flex;justify-content:space-between;gap:8px;margin-top:6px;color:var(--muted);font-size:10px}
+.shopPriceRow{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px}
+.shopPriceRow strong{color:var(--yellow);font-size:16px}
+.shopPriceRow small{color:var(--muted);font-size:9px}
+.dataTable{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#111b2a;font-size:12px}
+.dataTable th,.dataTable td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left}
+.dataTable th{color:var(--dim);font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:#0e1725}
+.dataTable td{color:#c6d1e0}
+.dataTable tr:last-child td{border:0}
+.weaponName{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700}
+.weaponIcon{width:38px;height:30px;object-fit:contain}
+.empty{padding:55px;text-align:center;border:1px dashed var(--line);border-radius:9px;color:var(--muted)}
+.mapFrame{overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#081019}
+.mapCanvas{height:620px;position:relative;overflow:hidden;cursor:grab;background:#0c1720}
+.mapCanvas:active{cursor:grabbing}
+.mapCanvas img{position:absolute;left:50%;top:50%;width:1200px;max-width:none;transform:translate(-50%,-50%);user-select:none;pointer-events:none}
+.mapLegend{display:flex;gap:16px;padding:12px;color:var(--muted);font-size:11px;border-top:1px solid var(--line)}
+.legendDot{display:inline-block;width:8px;height:8px;margin-right:5px;border-radius:50%;background:var(--cyan)}
+.toast{position:fixed;right:20px;bottom:20px;z-index:20;padding:12px 16px;border:1px solid #3a6072;border-radius:7px;background:#122235;color:#fff;font-size:12px;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.2s}
+.toast.show{opacity:1;transform:none}
+@media(max-width:900px){
+  .app{display:block}
+  .sidebar{position:fixed;z-index:30;left:0;top:0;width:255px;transform:translateX(-100%);transition:.2s;box-shadow:20px 0 60px #0008}
+  .sidebar.open{transform:none}
+  .mobileMenu{display:block;width:38px;height:38px;border:1px solid var(--line);border-radius:7px;background:#142238;color:#fff}
+  .hero{grid-template-columns:1fr}
+  .heroCopy{min-height:290px}
+  .newsGrid{grid-template-columns:1fr 1fr}
+  .newsCard:first-child{grid-column:span 2;grid-row:auto;min-height:250px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+  .topbar{height:64px;padding:0 12px}
+  .liveDot{display:none}
+  .content{padding:24px 12px 45px}
+  h1{font-size:53px}
+  .heroCopy{padding:25px 21px}
+  .newsGrid{display:block}
+  .newsCard,.newsCard:first-child{min-height:180px;margin-bottom:10px}
+  .catalogGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .itemBody{padding:9px}
+  .itemMeta{display:block;line-height:1.6}
+  .shopGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .mapCanvas{height:460px}
+  .mapCanvas img{width:850px}
+  .dataTable{font-size:11px}
+  .dataTable th,.dataTable td{padding:10px 8px}
+}
 .detailBackdrop{position:fixed;inset:0;z-index:40;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(14px)}
 .detailBackdrop.open{display:grid}
 .detailPanel{position:relative;width:min(1040px,100%);max-height:94vh;overflow:auto;display:grid;grid-template-columns:minmax(300px,430px) 1fr;gap:26px;padding:25px;border:1px solid #3a536d;border-radius:14px;background:linear-gradient(145deg,#111d2e,#0d1725);box-shadow:0 25px 90px #000b}
@@ -29,10 +168,17 @@
 .detailButton.primary{background:var(--cyan);border-color:var(--cyan);color:#07121d;font-weight:700}
 .closeOverlay{position:absolute;right:15px;top:15px;width:34px;height:34px;border:1px solid #3a536d;border-radius:6px;background:#18283a;color:#fff;font-size:20px;z-index:3}
 .jsonData{display:none;margin-top:14px;max-height:250px;overflow:auto;padding:12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#98abc2;font:11px/1.5 monospace;white-space:pre-wrap}
-.styleGallery{grid-column:1/-1;width:100%}.styleGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;margin-top:8px}
+.detailDescriptionBox{margin-top:16px;padding:14px 16px;border:1px solid #29445c;border-radius:8px;background:#0a1522}
+.detailDescriptionBox .detailLabel{margin-top:0}
+.detailDescriptionBox .detailValue{font-size:13px;color:#d6e2ef}
+.styleGallery{grid-column:1/-1;width:100%}
+.styleGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;margin-top:8px}
 .styleOption{min-width:0;padding:6px;border:1px solid var(--line);border-radius:7px;background:#0b1522;color:#dce7f3;text-align:left;cursor:pointer}
-.styleOption:hover{border-color:var(--cyan);background:#15283a}.styleOption img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#09111b;border-radius:4px}
-.styleOption b,.styleOption small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.styleOption b{margin-top:6px;font-size:10px}.styleOption small{margin-top:3px;color:var(--muted);font-size:9px}
+.styleOption:hover{border-color:var(--cyan);background:#15283a}
+.styleOption img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#09111b;border-radius:4px}
+.styleOption b,.styleOption small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.styleOption b{margin-top:6px;font-size:10px}
+.styleOption small{margin-top:3px;color:var(--muted);font-size:9px}
 .fullscreenViewer{position:fixed;inset:0;z-index:50;display:none;background:#02050a}
 .fullscreenViewer.open{display:flex;flex-direction:column}
 .viewerBar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 20px;background:#07101be8;border-bottom:1px solid #263750}
@@ -41,14 +187,10 @@
 .viewerStage img{max-width:92%;max-height:100%;object-fit:contain;animation:viewerFade .35s ease}
 @keyframes viewerFade{from{opacity:0;transform:scale(.985)}to{opacity:1;transform:none}}
 .viewerArrow{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:72px;border:1px solid #46627a;border-radius:8px;background:#07101bcc;color:#fff;font-size:27px;z-index:3;cursor:pointer}
-.viewerArrow:hover{background:#183044;border-color:var(--cyan)}.viewerArrow.left{left:18px}.viewerArrow.right{right:18px}
-.viewerDots{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:7px;z-index:4}
-.viewerDot{width:8px;height:8px;border-radius:50%;background:#5b6d80;border:0;padding:0;cursor:pointer}.viewerDot.active{background:var(--cyan);box-shadow:0 0 10px #66ddff88}
+.viewerArrow:hover{background:#183044;border-color:var(--cyan)}
+.viewerArrow.left{left:18px}
+.viewerArrow.right{right:18px}
 .viewerHint{padding:10px;text-align:center;color:var(--dim);font-size:11px;background:#07101b;border-top:1px solid #263750}
-.loadingViewer .viewerStage{padding:0;background:#000}.loadingViewer .viewerStage img{width:100%;height:100%;max-width:none;object-fit:contain}
-@media(max-width:900px){.detailPanel{grid-template-columns:1fr;padding:17px}.detailMedia{min-height:260px}.detailGrid{grid-template-columns:1fr}.viewerArrow{width:40px;height:58px}}
-.detailDescriptionBox{margin-top:16px;padding:14px 16px;border:1px solid #29445c;border-radius:8px;background:#0a1522}
-.detailDescriptionBox .detailLabel{margin-top:0}.detailDescriptionBox .detailValue{font-size:13px;color:#d6e2ef}
 .viewerInfo{width:min(900px,calc(100% - 32px));margin:0 auto 12px;padding:12px 15px;border:1px solid #29445c;border-radius:8px;background:#07111ddf;backdrop-filter:blur(8px)}
 .viewerInfoTitle{font:700 22px 'Barlow Condensed';text-transform:uppercase;color:#fff}
 .viewerInfoDesc{margin-top:4px;color:#b7c7d8;font-size:11px;line-height:1.45}
@@ -62,14 +204,6 @@
 @keyframes pulseShop{50%{opacity:.45;transform:scale(.8)}}
 .shopOrganizer{display:flex;gap:8px;overflow:auto;padding:2px 0 14px;scrollbar-width:thin}
 .shopOrganizer .control{white-space:nowrap}
-.shopItem{cursor:pointer;transition:transform .16s,border-color .16s,box-shadow .16s}.shopItem:hover{transform:translateY(-3px);border-color:#4dbbe8;box-shadow:0 12px 30px #0006}
-.shopSub{display:flex;justify-content:space-between;gap:8px;margin-top:6px;color:var(--muted);font-size:10px}
-.shopPriceRow{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px}.shopPriceRow strong{color:var(--yellow);font-size:16px}.shopPriceRow small{color:var(--muted);font-size:9px}
-.catTabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
-.catTab{height:32px;padding:0 10px;border:1px solid var(--line);border-radius:6px;background:#0f1a29;color:#a9b8c9;font-size:11px}.catTab:hover,.catTab.active{border-color:#3c6d87;background:#183044;color:#fff}
-</style>
-<style>.styleGallery{flex:0 0 100%;width:100%}.styleGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;margin-top:8px}.styleOption{min-width:0;padding:6px;border:1px solid var(--line);border-radius:7px;background:#0b1522;color:#dce7f3;text-align:left}.styleOption:hover{border-color:var(--cyan);background:#15283a}.styleOption img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#09111b;border-radius:4px}.styleOption b,.styleOption small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.styleOption b{margin-top:6px;font-size:10px}.styleOption small{margin-top:3px;color:var(--muted);font-size:9px}</style>
-<style>
 .auroraBg{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
 .auroraBg span{position:absolute;width:480px;height:480px;border-radius:50%;filter:blur(120px);opacity:.28;animation:auroraDrift 24s ease-in-out infinite alternate}
 .auroraBg span:nth-child(1){background:#2fc3ff;top:-140px;left:-100px}
@@ -81,7 +215,7 @@
 @keyframes sheen{to{background-position:-220% 0}}
 .navCount.liveCount{color:var(--green);display:inline-flex;align-items:center;gap:4px}
 .navCount.liveCount:before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:pulseDot 1.6s infinite}
-.onlinePill{display:flex;align-items:center;gap:7px;padding:7px 12px;margin-left:14px;border:1px solid #2fd88a55;border-radius:999px;background:linear-gradient(120deg,#0f2a20,#0c1a22);color:#bfeed4;font-size:11px;white-space:nowrap;box-shadow:0 0 18px #2fd88a22}
+.onlinePill{display:flex;align-items:center;gap:7px;padding:7px 12px;margin-left:14px;border:1px solid #2fd88a55;border-radius:999px;background:linear-gradient(120deg,#0f2a20,#0c1a22);color:#bfeed4;font-size:11px;white-space:nowrap}
 .onlinePill strong{color:#fff;font:700 12px 'Space Grotesk'}
 .onlineDot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:pulseDot 1.6s infinite}
 @keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.7)}}
@@ -92,66 +226,54 @@
 .liveStatsRow{display:flex;gap:22px;margin-top:10px}
 .liveStatsRow strong{display:block;font:800 26px 'Barlow Condensed';color:var(--green)}
 .liveStatsRow small{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.1em}
-.stat,.item,.shopItem,.newsCard{transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
-.stat:hover{transform:translateY(-2px);border-color:#3c6d87;box-shadow:0 10px 30px #0006}
-.item:hover{box-shadow:0 14px 34px #000a,0 0 0 1px #4a718755}
-.shopItem:hover{transform:translateY(-3px);border-color:#4a7187;box-shadow:0 14px 34px #000a}
-.navItem{transition:background .15s ease,transform .15s ease}
-.navItem:hover{transform:translateX(2px)}
-.catalogGrid .item{animation:cardIn .38s ease both}
-@keyframes cardIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
+.brSync{display:flex;align-items:center;gap:6px;color:var(--cyan);font-size:11px}
+.brSync:before{content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan);animation:pulseDot 1.6s infinite}
+.catTabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+.catTab{height:32px;padding:0 10px;border:1px solid var(--line);border-radius:6px;background:#0f1a29;color:#a9b8c9;font-size:11px;cursor:pointer}
+.catTab:hover,.catTab.active{border-color:#3c6d87;background:#183044;color:#fff}
 .dreamLocker{display:grid;grid-template-columns:320px 1fr;gap:18px;margin-top:6px;align-items:start}
 .dreamStage{position:relative;padding:22px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(160deg,#152238,#0d1826);box-shadow:var(--shadow);overflow:hidden}
-.dreamStageGlow{position:absolute;inset:-45% -45% auto -45%;height:65%;background:radial-gradient(circle,#66ddff2e,transparent 70%);pointer-events:none;animation:auroraDrift 14s ease-in-out infinite alternate}
+.dreamStageGlow{position:absolute;inset:-45% -45% auto -45%;height:65%;background:radial-gradient(circle,#66ddff2e,transparent 70%);pointer-events:none}
 .dreamOutfitPreview{position:relative;aspect-ratio:.78;display:grid;place-items:center;border:1px solid var(--line);border-radius:9px;background:#0a121d;overflow:hidden}
-.dreamOutfitPreview img{width:100%;height:100%;object-fit:contain;padding:10px;filter:drop-shadow(0 16px 30px #000b)}
-.dreamOutfitPreview .placeholder{color:#4a5f78;font:700 15px/1.5 'Barlow Condensed';text-transform:uppercase;letter-spacing:.04em;text-align:center;padding:24px}
-.dreamSlots{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px;position:relative}
-.dreamSlot{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;border:1px solid var(--line);border-radius:8px;background:#101a2a;color:var(--muted);transition:border-color .15s,transform .15s}
-.dreamSlot:hover{border-color:var(--cyan);transform:translateY(-2px)}
+.dreamOutfitPreview img{width:100%;height:100%;object-fit:contain;padding:10px}
+.dreamOutfitPreview .placeholder{color:#4a5f78;font:700 15px/1.5 'Barlow Condensed';text-transform:uppercase;text-align:center;padding:24px}
+.dreamSlots{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px}
+.dreamSlot{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;border:1px solid var(--line);border-radius:8px;background:#101a2a;color:var(--muted);cursor:pointer}
+.dreamSlot:hover{border-color:var(--cyan)}
 .dreamSlot.filled{border-color:#4a7187;background:#132234}
 .dreamSlot.active{border-color:var(--cyan);box-shadow:0 0 0 1px var(--cyan)}
 .dreamSlot img{width:32px;height:32px;object-fit:contain}
 .dreamSlot .dreamSlotIcon{width:32px;height:32px;display:grid;place-items:center;color:var(--dim);font-size:15px}
 .dreamSlot small{font-size:9px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
-.dreamStageFoot{display:flex;gap:8px;margin-top:16px;position:relative}
+.dreamStageFoot{display:flex;gap:8px;margin-top:16px}
 .dreamStageFoot .control{flex:1;font-size:11px}
 .dreamPick{cursor:pointer}
-.dreamPick .itemImage{position:relative}
 .dreamPick.equipped{border-color:var(--cyan);box-shadow:0 0 0 1px var(--cyan),0 0 22px #66ddff33}
-.dreamPick.equipped .itemImage:after{content:'✓ EQUIPPED';position:absolute;left:8px;bottom:8px;padding:3px 6px;border-radius:4px;background:#66ddffe6;color:#07121d;font:800 9px 'Space Grotesk'}
-@media(max-width:900px){.dreamLocker{grid-template-columns:1fr}.dreamOutfitPreview{aspect-ratio:1.1}}
-@media(max-width:900px){.onlinePill{display:none}}
 .playerLookup{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;margin:18px 0}
 .playerLookup input{height:46px;padding:0 14px;border:1px solid var(--line);border-radius:8px;background:#0a111c;color:#fff;outline:0}
-.playerLookup input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #66ddff1b}
+.playerLookup input:focus{border-color:var(--cyan)}
 .playerResult{margin-top:16px}
 .playerIdentity{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:22px;border:1px solid #31516b;border-radius:12px;background:linear-gradient(135deg,#13283a,#101926)}
 .playerIdentity h2{margin:3px 0 8px;font-size:40px}
 .playerId{color:var(--muted);font:11px/1.5 monospace;word-break:break-all}
 .playerStatus{padding:8px 10px;border:1px solid #2fd88a55;border-radius:7px;background:#0f2a20;color:#bfeed4;font-size:11px;white-space:nowrap}
-.playerStatus.private{border-color:#ff769f55;background:#2a1320;color:#ffc1d2}
-.playerStatsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
-.playerStatCard{padding:16px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
-.playerStatCard label{display:block;color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}
-.playerStatCard strong{display:block;margin-top:7px;font:800 30px/1 'Barlow Condensed'}
-.playerModePanel{margin-top:12px;padding:17px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
-.playerModePanel h3{margin-bottom:12px;font:700 22px 'Barlow Condensed';text-transform:uppercase}
-.playerModeGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.playerMode{padding:13px;border:1px solid #263750;border-radius:8px;background:#0d1724}
-.playerMode b{display:block;color:#fff;font-size:12px}
-.playerMode span{display:block;margin-top:5px;color:var(--muted);font-size:10px;line-height:1.5}
-.playerActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
-.playerLoading{padding:28px;text-align:center;border:1px dashed #355269;border-radius:9px;color:var(--muted)}
 .playerNotice{margin-top:12px;padding:13px 15px;border:1px solid #5a4250;border-radius:8px;background:#211722;color:#d9bfca;font-size:12px;line-height:1.55}
-@media(max-width:900px){.playerStatsGrid{grid-template-columns:repeat(2,1fr)}.playerModeGrid{grid-template-columns:1fr}.playerIdentity{grid-template-columns:1fr}.playerStatus{justify-self:start}}
-@media(max-width:560px){.playerLookup{grid-template-columns:1fr}.playerStatsGrid{grid-template-columns:1fr 1fr}.playerIdentity h2{font-size:33px}}
-.brSync{display:flex;align-items:center;gap:6px;color:var(--cyan);font-size:11px}
-.brSync:before{content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan);animation:pulseDot 1.6s infinite}
+.playerLoading{padding:28px;text-align:center;border:1px dashed #355269;border-radius:9px;color:var(--muted)}
+.accountButton{height:38px;padding:0 12px;border:1px solid #36516a;border-radius:7px;background:#14283b;color:#fff;font-size:12px;font-weight:700}
+.accountButton:hover{border-color:var(--cyan)}
+.authBackdrop{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(12px)}
+.authBackdrop.open{display:grid}
+.authPanel{position:relative;width:min(410px,100%);padding:25px;border:1px solid #3a536d;border-radius:12px;background:#111c2b;box-shadow:var(--shadow)}
+.authPanel h2{margin-bottom:8px}
+.authPanel p{color:var(--muted);font-size:12px;line-height:1.5}
+.authPanel input{width:100%;height:42px;margin:12px 0;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#fff}
+.lockerHero{padding:20px;border:1px solid var(--line);border-radius:9px;background:#111c2b}
+.settingsList{display:grid;gap:10px;max-width:600px}
+.settingsRow{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px;border:1px solid var(--line);border-radius:8px;background:#111c2b;color:#c8d5e4;font-size:13px}
+.settingsRow small{display:block;color:var(--muted);margin-top:4px;font-size:11px}
+.settingsActions{display:flex;gap:8px;flex-wrap:wrap}
 #fatalError{position:fixed;left:12px;bottom:12px;z-index:99;max-width:520px;padding:12px 14px;border:1px solid #ff769f66;border-radius:8px;background:#2a1320;color:#ffd1dd;font:12px/1.5 monospace;display:none}
 #fatalError.show{display:block}
-.repoBadge{display:inline-flex;align-items:center;gap:5px;padding:3px 7px;border:1px solid #2fd88a55;border-radius:5px;background:#0f2a20;color:#bfeed4;font:600 9px 'Space Grotesk';letter-spacing:.05em;text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -159,674 +281,1610 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <div class="app">
 <aside class="sidebar" id="sidebar">
   <div class="logo"><span class="logoMark">F</span><div>DROPZONE<small>FORTNITE DATA LAB</small></div></div>
-  <nav>
-    <div class="navGroup"><div class="navLabel">Live intelligence</div><button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button><button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button><button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button><button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button><button class="navItem" data-view="playerstats"><span class="navIcon">◉</span>Player Stats</button></div>
-    <div class="navGroup"><div class="navLabel">Battle Royale</div><button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button><button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button><button class="navItem" data-view="dreamlocker"><span class="navIcon">▣</span>Dream Locker</button><button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button><button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button></div>
-    <div class="navGroup"><div class="navLabel">More collections</div><button class="navItem" data-view="lego"><span class="navIcon">▦</span>LEGO</button><button class="navItem" data-view="festival"><span class="navIcon">♫</span>Festival & tracks</button><button class="navItem" data-view="vehicles"><span class="navIcon">▰</span>Cars</button><button class="navItem" data-view="beans"><span class="navIcon">🫘</span>Fall Guys</button><button class="navItem" data-view="banners"><span class="navIcon">⚑</span>Banners</button></div>
+  <nav id="navRoot">
+    <div class="navGroup">
+      <div class="navLabel">Live intelligence</div>
+      <button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button>
+      <button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button>
+      <button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button>
+      <button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button>
+      <button class="navItem" data-view="playerstats"><span class="navIcon">◉</span>Player Stats</button>
+    </div>
+    <div class="navGroup">
+      <div class="navLabel">Battle Royale</div>
+      <button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button>
+      <button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button>
+      <button class="navItem" data-view="dreamlocker"><span class="navIcon">▣</span>Dream Locker</button>
+      <button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button>
+      <button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button>
+    </div>
+    <div class="navGroup">
+      <div class="navLabel">More collections</div>
+      <button class="navItem" data-view="lego"><span class="navIcon">▦</span>LEGO</button>
+      <button class="navItem" data-view="festival"><span class="navIcon">♫</span>Festival & tracks</button>
+      <button class="navItem" data-view="vehicles"><span class="navIcon">▰</span>Cars</button>
+      <button class="navItem" data-view="beans"><span class="navIcon">🫘</span>Fall Guys</button>
+      <button class="navItem" data-view="banners"><span class="navIcon">⚑</span>Banners</button>
+    </div>
+    <div class="navGroup">
+      <div class="navLabel">Your space</div>
+      <button class="navItem" data-view="locker"><span class="navIcon">▣</span>Locker <span class="navCount" id="lockerNavCount">LOCKED</span></button>
+      <button class="navItem" data-view="settings"><span class="navIcon">⚙</span>Settings</button>
+    </div>
   </nav>
-  <div class="sideFoot">SOURCE<br><span class="repoBadge">Fortnite-Datamining</span><br><span id="buildSide">Loading build...</span><br>Total visits <strong id="totalVisitsSide">–</strong></div>
+  <div class="sideFoot">SOURCE<br><strong>Fortnite-Datamining</strong><br><span id="buildSide">Loading build...</span><br>Total visits <strong id="totalVisitsSide">–</strong></div>
 </aside>
 <main class="main">
-<header class="topbar"><button class="mobileMenu" id="menu">☰</button><div class="search"><input id="search" placeholder="Search the vault: skins, IDs, sets, weapons..." autocomplete="off"><span>⌕</span></div><div class="onlinePill"><span class="onlineDot"></span><strong id="onlineNowTop">–</strong> browsing now</div><div class="liveDot"><i></i><span id="updated">Syncing from repo</span></div></header>
+<header class="topbar">
+  <button class="mobileMenu" id="menu">☰</button>
+  <div class="search"><input id="search" placeholder="Search the vault: skins, IDs, sets, weapons..." autocomplete="off"><span>⌕</span></div>
+  <div class="onlinePill"><span class="onlineDot"></span><strong id="onlineNowTop">–</strong> browsing now</div>
+  <button class="accountButton" id="accountButton">Sign in</button>
+  <div class="liveDot"><i></i><span id="updated">Syncing from repo</span></div>
+</header>
 <div class="content">
-<section id="home" class="view active"><div class="hero"><div class="heroCopy"><div class="eyebrow">Fortnite intelligence / repo snapshot</div><h1>Know the island.<br>Know the drop.</h1><p>A high-signal browser for cosmetics, the live shop, weapons, modes, map intelligence and the raw public data behind them — sourced from Fortnite-Datamining.</p><span class="heroTag" id="buildHero">BUILD LOADING</span></div><div class="signal"><h3>Today in Fortnite</h3><strong id="heroShopCount">--</strong><p>offers indexed in the current item shop.</p><div class="sectionHead" style="margin-top:32px"><span>Data health</span><span id="health">Checking...</span></div><div style="height:5px;background:#263750;border-radius:5px"><div id="healthBar" style="height:100%;width:0;background:var(--green);border-radius:5px;transition:width .6s"></div></div><div class="sectionHead" style="margin-top:18px"><span>Repo sync</span><span id="brSyncLabel" class="brSync">loading…</span></div><div class="sectionHead" style="margin-top:18px"><span>Community</span><span>real, shared counter</span></div><div class="liveStatsRow"><div><strong id="onlineNowStat">–</strong><small>online now</small></div><div><strong id="totalVisitsHero">–</strong><small>total visits</small></div></div></div></div><div class="stats" id="stats"></div><div class="sectionHead"><h2>Latest intel</h2><button class="control" data-view="news">View all news →</button></div><div id="newsPreview" class="newsGrid"></div><div class="sectionHead"><h2>Explore the vault</h2><span>curated from the repo</span></div><div id="explore" class="stats"></div></section>
-<section id="shop" class="view"><div class="eyebrow">Live intelligence</div><div class="sectionHead"><h2>Item shop</h2><div class="shopSyncWrap"><span id="shopDate">Loading...</span><span id="shopSync" class="shopSync">syncing</span><button class="control" id="shopRefreshBtn" type="button">⟳ Refresh now</button></div></div><div class="shopLiveBar"><span class="shopStatusDot"></span><span class="shopCountdownLabel">Shop resets in</span><strong id="shopCountdown" class="shopCountdown">--:--:--</strong><span id="shopResetText" class="shopCountdownLabel">calculating...</span></div><div class="toolbar"><button class="control active" data-shop-filter="all">All offers</button><button class="control" data-shop-filter="outfit">Outfits</button><button class="control" data-shop-filter="pickaxe">Pickaxes</button><button class="control" data-shop-filter="emote">Emotes</button><button class="control" data-shop-filter="wrap">Wraps</button><button class="control" data-shop-filter="glider">Gliders</button><button class="control" data-shop-filter="bundle">Bundles</button></div><div id="shopOrganizer" class="shopOrganizer"></div><div id="shopSections" class="shopSections"></div></section>
-<section id="news" class="view"><div class="eyebrow">Epic content feed</div><div class="sectionHead"><h2>News feed</h2><span>Battle Royale / Save the World</span></div><div id="newsAll" class="newsGrid"></div></section>
-<section id="playerstats" class="view"><div class="eyebrow">Epic account intelligence</div><div class="sectionHead"><h2>Player Stats</h2><span>Search an Epic display name</span></div><p style="color:var(--muted);font-size:12px;line-height:1.6;max-width:760px">Enter a Fortnite/Epic display name. Dropzone resolves the account and loads public Battle Royale statistics when available.</p><form class="playerLookup" id="playerLookupForm"><input id="playerLookupInput" maxlength="32" autocomplete="off" placeholder="Enter a Fortnite player name..."><button class="control primary" type="submit">Search player</button></form><div id="playerResult" class="playerResult"><div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div></div></section>
-<section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
-<section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar"><button class="control" id="outfitRefreshBtn" type="button">⟳ Refresh outfits</button><span style="align-self:center;color:var(--dim);font-size:11px" id="outfitSync"></span></div><div id="outfitGrid" class="catalogGrid"></div></section>
-<section id="cosmetics" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div><div class="catTabs" id="cosmeticTabs"></div><div id="cosmeticGrid" class="catalogGrid"></div></section>
-<section id="dreamlocker" class="view"><div class="eyebrow">Battle Royale / build your loadout</div><div class="sectionHead"><h2>Dream Locker</h2><span id="dreamLockerCount"></span></div><div class="dreamLocker"><div class="dreamStage"><div class="dreamStageGlow"></div><div class="dreamOutfitPreview" id="dreamOutfitPreview"><span class="placeholder">Pick an Outfit to start your dream loadout</span></div><div class="dreamSlots" id="dreamSlots"></div><div class="dreamStageFoot"><button class="control primary" id="dreamRandomize" type="button">🎲 Randomize</button><button class="control" id="dreamClear" type="button">Clear all</button></div></div><div class="dreamPicker"><div class="toolbar" id="dreamTools"></div><div id="dreamGrid" class="catalogGrid"></div></div></div></section>
-<section id="lego" class="view"><div class="eyebrow">More collections</div><div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div><div class="toolbar"><button class="control active" data-lego-filter="lego">LEGO cosmetics</button><button class="control" data-lego-filter="lego_kits">Kits</button></div><div id="legoGrid" class="catalogGrid"></div></section>
-<section id="festival" class="view"><div class="eyebrow">Festival / music</div><div class="sectionHead"><h2>Festival library</h2><span id="festivalCount"></span></div><div class="toolbar"><button class="control active" data-festival-filter="tracks">Jam tracks</button><button class="control" data-festival-filter="instruments">Instruments</button></div><div id="festivalGrid" class="catalogGrid"></div></section>
-<section id="vehicles" class="view"><div class="eyebrow">Garage / loadout</div><div class="sectionHead"><h2>Cars</h2><span id="vehiclesCount"></span></div><div id="vehiclesGrid" class="catalogGrid"></div></section>
-<section id="beans" class="view"><div class="eyebrow">Fall Guys crossover / bean styles</div><div class="sectionHead"><h2>Fall Guys</h2><span id="beansCount"></span></div><div id="beansGrid" class="catalogGrid"></div></section>
-<section id="banners" class="view"><div class="eyebrow">Locker data</div><div class="sectionHead"><h2>Banner archive</h2><span id="bannersCount"></span></div><div id="bannersGrid" class="catalogGrid"></div></section>
-<section id="weapons" class="view"><div class="eyebrow">Battle Royale / combat</div><div class="sectionHead"><h2>Weapon vault</h2><span id="weaponsCount"></span></div><div class="toolbar"><select class="control" id="weaponRarity"><option value="all">All rarities</option><option>Common</option><option>Uncommon</option><option>Rare</option><option>Epic</option><option>Legendary</option><option>Mythic</option></select><button class="control active" id="damageSort">Sort by damage</button></div><div id="weaponsTable"></div></section>
-<section id="modes" class="view"><div class="eyebrow">Battle Royale / game modes</div><div class="sectionHead"><h2>Modes & playlists</h2><span id="modesCount"></span></div><div class="toolbar"><button class="control active" data-mode-filter="all">All modes</button><button class="control" data-mode-filter="pvp">PvP</button><button class="control" data-mode-filter="team">Team modes</button><button class="control" data-mode-filter="creative">Creative</button></div><div id="modesTable"></div></section>
-</div></main></div>
+
+<section id="home" class="view active">
+  <div class="hero">
+    <div class="heroCopy">
+      <div class="eyebrow">Fortnite intelligence / repo snapshot</div>
+      <h1>Know the island.<br>Know the drop.</h1>
+      <p>Cosmetics, the live shop, weapons, modes, map intelligence and the raw public data behind them — sourced from Fortnite-Datamining, refreshed every 15 minutes.</p>
+      <span class="heroTag" id="buildHero">BUILD LOADING</span>
+    </div>
+    <div class="signal">
+      <h3>Today in Fortnite</h3>
+      <strong id="heroShopCount">--</strong>
+      <p>offers indexed in the current item shop.</p>
+      <div class="sectionHead" style="margin-top:32px"><span>Data health</span><span id="health">Checking...</span></div>
+      <div style="height:5px;background:#263750;border-radius:5px"><div id="healthBar" style="height:100%;width:0;background:var(--green);border-radius:5px;transition:width .6s"></div></div>
+      <div class="sectionHead" style="margin-top:18px"><span>Repo sync</span><span id="brSyncLabel" class="brSync">loading…</span></div>
+      <div class="sectionHead" style="margin-top:18px"><span>Community</span><span>shared counter</span></div>
+      <div class="liveStatsRow">
+        <div><strong id="onlineNowStat">–</strong><small>online now</small></div>
+        <div><strong id="totalVisitsHero">–</strong><small>total visits</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="stats" id="stats"></div>
+  <div class="sectionHead"><h2>Latest intel</h2><button class="control" data-view="news">View all news →</button></div>
+  <div id="newsPreview" class="newsGrid"></div>
+  <div class="sectionHead"><h2>Explore the vault</h2><span>curated from the repo</span></div>
+  <div id="explore" class="stats"></div>
+</section>
+
+<section id="shop" class="view">
+  <div class="eyebrow">Live intelligence</div>
+  <div class="sectionHead">
+    <h2>Item shop</h2>
+    <div class="shopSyncWrap"><span id="shopDate">Loading...</span><span id="shopSync" class="shopSync">syncing</span><button class="control" id="shopRefreshBtn" type="button">⟳ Refresh now</button></div>
+  </div>
+  <div class="shopLiveBar">
+    <span class="shopStatusDot"></span>
+    <span class="shopCountdownLabel">Shop resets in</span>
+    <strong id="shopCountdown" class="shopCountdown">--:--:--</strong>
+    <span id="shopResetText" class="shopCountdownLabel">calculating...</span>
+  </div>
+  <div class="toolbar">
+    <button class="control active" data-shop-filter="all">All offers</button>
+    <button class="control" data-shop-filter="outfit">Outfits</button>
+    <button class="control" data-shop-filter="pickaxe">Pickaxes</button>
+    <button class="control" data-shop-filter="emote">Emotes</button>
+    <button class="control" data-shop-filter="wrap">Wraps</button>
+    <button class="control" data-shop-filter="glider">Gliders</button>
+    <button class="control" data-shop-filter="bundle">Bundles</button>
+  </div>
+  <div id="shopOrganizer" class="shopOrganizer"></div>
+  <div id="shopSections" class="shopSections"></div>
+</section>
+
+<section id="news" class="view">
+  <div class="eyebrow">Epic content feed</div>
+  <div class="sectionHead"><h2>News feed</h2><span>Battle Royale / Save the World</span></div>
+  <div id="newsAll" class="newsGrid"></div>
+</section>
+
+<section id="playerstats" class="view">
+  <div class="eyebrow">Epic account intelligence</div>
+  <div class="sectionHead"><h2>Player Stats</h2><span>Search an Epic display name</span></div>
+  <p style="color:var(--muted);font-size:12px;line-height:1.6;max-width:760px">Enter a Fortnite/Epic display name. Dropzone resolves the account and loads public Battle Royale statistics when available.</p>
+  <form class="playerLookup" id="playerLookupForm">
+    <input id="playerLookupInput" maxlength="32" autocomplete="off" placeholder="Enter a Fortnite player name...">
+    <button class="control primary" type="submit">Search player</button>
+  </form>
+  <div id="playerResult" class="playerResult"><div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div></div>
+</section>
+
+<section id="map" class="view">
+  <div class="eyebrow">Island intelligence</div>
+  <div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div>
+  <div class="mapFrame">
+    <div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div>
+    <div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span>Scroll to zoom · drag to pan</span></div>
+  </div>
+</section>
+
+<section id="outfits" class="view">
+  <div class="eyebrow">Battle Royale / cosmetics</div>
+  <div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div>
+  <div class="toolbar"><button class="control" id="outfitRefreshBtn" type="button">⟳ Refresh outfits</button><span style="color:var(--dim);font-size:11px" id="outfitSync"></span></div>
+  <div id="outfitGrid" class="catalogGrid"></div>
+</section>
+
+<section id="cosmetics" class="view">
+  <div class="eyebrow">Battle Royale / cosmetics</div>
+  <div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div>
+  <div class="catTabs" id="cosmeticTabs"></div>
+  <div id="cosmeticGrid" class="catalogGrid"></div>
+</section>
+
+<section id="dreamlocker" class="view">
+  <div class="eyebrow">Battle Royale / build your loadout</div>
+  <div class="sectionHead"><h2>Dream Locker</h2><span id="dreamLockerCount"></span></div>
+  <div class="dreamLocker">
+    <div class="dreamStage">
+      <div class="dreamStageGlow"></div>
+      <div class="dreamOutfitPreview" id="dreamOutfitPreview"><span class="placeholder">Pick an Outfit to start your dream loadout</span></div>
+      <div class="dreamSlots" id="dreamSlots"></div>
+      <div class="dreamStageFoot">
+        <button class="control primary" id="dreamRandomize" type="button">🎲 Randomize</button>
+        <button class="control" id="dreamClear" type="button">Clear all</button>
+      </div>
+    </div>
+    <div class="dreamPicker">
+      <div class="toolbar" id="dreamTools"></div>
+      <div id="dreamGrid" class="catalogGrid"></div>
+    </div>
+  </div>
+</section>
+
+<section id="lego" class="view">
+  <div class="eyebrow">More collections</div>
+  <div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div>
+  <div class="toolbar">
+    <button class="control active" data-lego-filter="lego">LEGO cosmetics</button>
+    <button class="control" data-lego-filter="lego_kits">Kits</button>
+  </div>
+  <div id="legoGrid" class="catalogGrid"></div>
+</section>
+
+<section id="festival" class="view">
+  <div class="eyebrow">Festival / music</div>
+  <div class="sectionHead"><h2>Festival library</h2><span id="festivalCount"></span></div>
+  <div class="toolbar">
+    <button class="control active" data-festival-filter="tracks">Jam tracks</button>
+    <button class="control" data-festival-filter="instruments">Instruments</button>
+  </div>
+  <div id="festivalGrid" class="catalogGrid"></div>
+</section>
+
+<section id="vehicles" class="view">
+  <div class="eyebrow">Garage / loadout</div>
+  <div class="sectionHead"><h2>Cars</h2><span id="vehiclesCount"></span></div>
+  <div id="vehiclesGrid" class="catalogGrid"></div>
+</section>
+
+<section id="beans" class="view">
+  <div class="eyebrow">Fall Guys crossover / bean styles</div>
+  <div class="sectionHead"><h2>Fall Guys</h2><span id="beansCount"></span></div>
+  <div id="beansGrid" class="catalogGrid"></div>
+</section>
+
+<section id="banners" class="view">
+  <div class="eyebrow">Locker data</div>
+  <div class="sectionHead"><h2>Banner archive</h2><span id="bannersCount"></span></div>
+  <div id="bannersGrid" class="catalogGrid"></div>
+</section>
+
+<section id="weapons" class="view">
+  <div class="eyebrow">Battle Royale / combat</div>
+  <div class="sectionHead"><h2>Weapon vault</h2><span id="weaponsCount"></span></div>
+  <div class="toolbar">
+    <select class="control" id="weaponRarity">
+      <option value="all">All rarities</option>
+      <option>Common</option>
+      <option>Uncommon</option>
+      <option>Rare</option>
+      <option>Epic</option>
+      <option>Legendary</option>
+      <option>Mythic</option>
+    </select>
+    <select class="control" id="weaponCategory">
+      <option value="all">All categories</option>
+      <option value="weapons">Guns</option>
+      <option value="collabs">Collabs & mythics</option>
+      <option value="heals">Heals & shields</option>
+      <option value="utility">Utility</option>
+      <option value="grenades">Grenades & launchers</option>
+      <option value="melee">Melee</option>
+      <option value="vehicles">Vehicles & turrets</option>
+    </select>
+    <button class="control active" id="damageSort">Sort by damage</button>
+  </div>
+  <div id="weaponsTable"></div>
+</section>
+
+<section id="modes" class="view">
+  <div class="eyebrow">Battle Royale / game modes</div>
+  <div class="sectionHead"><h2>Modes & playlists</h2><span id="modesCount"></span></div>
+  <div class="toolbar">
+    <button class="control active" data-mode-filter="all">All modes</button>
+    <button class="control" data-mode-filter="pvp">PvP</button>
+    <button class="control" data-mode-filter="team">Team modes</button>
+    <button class="control" data-mode-filter="creative">Creative</button>
+  </div>
+  <div id="modesTable"></div>
+</section>
+
+<section id="locker" class="view">
+  <div class="eyebrow">Private local collection</div>
+  <div class="sectionHead"><h2>Locker</h2><span class="lockerCount">0 saved cosmetics</span></div>
+  <div class="lockerHero">
+    <h3 id="lockerGreeting">Sign in to build your locker</h3>
+    <p style="color:var(--muted);font-size:12px;line-height:1.5">Save cosmetics you are tracking to this browser.</p>
+  </div>
+  <div class="catalogGrid" id="lockerGrid" style="margin-top:16px"></div>
+</section>
+
+<section id="settings" class="view">
+  <div class="eyebrow">Account & preferences</div>
+  <div class="sectionHead"><h2>Settings</h2><span>stored on this browser</span></div>
+  <div class="settingsList">
+    <div class="settingsRow"><div><b>Account</b><small id="settingsUser">Not signed in</small></div><button class="detailButton" id="settingsAuth">Sign in</button></div>
+    <div class="settingsRow"><div><b>Saved locker</b><small>Private to this browser</small></div><button class="detailButton" id="clearLocker">Clear locker</button></div>
+    <div class="settingsRow"><div><b>Repo</b><small>Fortnite-Datamining · refresh every 15 min</small></div><button class="detailButton" id="settingsRefresh">Refresh now</button></div>
+    <div class="settingsRow"><div><b>Last sync</b><small id="settingsLastSync">—</small></div></div>
+  </div>
+</section>
+
+</div>
+</main>
+</div>
+
 <div id="detailBackdrop" class="detailBackdrop" aria-hidden="true">
-<article class="detailPanel">
-<button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close">×</button>
-<div class="detailMedia" id="detailMedia"></div>
-<div class="detailContent">
-<div class="eyebrow" id="detailType">COSMETIC</div>
-<h2 id="detailName"></h2>
-<div class="detailDescriptionBox"><div class="detailLabel">Description</div><div class="detailValue" id="detailDescription">—</div></div>
-<div class="detailGrid">
-<div class="detailStat"><label>Cosmetic ID</label><b id="detailId"></b></div>
-<div class="detailStat"><label>Rarity</label><b id="detailRarity"></b></div>
-<div class="detailStat"><label>Set</label><b id="detailSet"></b></div>
-<div class="detailStat"><label>Release / Added</label><b id="detailAdded"></b></div>
-<div class="detailStat"><label>Chapter / Season</label><b id="detailSeason"></b></div>
-<div class="detailStat"><label>Series</label><b id="detailSeries"></b></div>
+  <article class="detailPanel">
+    <button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close">×</button>
+    <div class="detailMedia" id="detailMedia"></div>
+    <div class="detailContent">
+      <div class="eyebrow" id="detailType">COSMETIC</div>
+      <h2 id="detailName"></h2>
+      <div class="detailDescriptionBox">
+        <div class="detailLabel">Description</div>
+        <div class="detailValue" id="detailDescription">—</div>
+      </div>
+      <div class="detailGrid">
+        <div class="detailStat"><label>ID</label><b id="detailId"></b></div>
+        <div class="detailStat"><label>Rarity</label><b id="detailRarity"></b></div>
+        <div class="detailStat"><label>Set</label><b id="detailSet"></b></div>
+        <div class="detailStat"><label>Release</label><b id="detailAdded"></b></div>
+        <div class="detailStat"><label>Chapter / Season</label><b id="detailSeason"></b></div>
+        <div class="detailStat"><label>Series</label><b id="detailSeries"></b></div>
+      </div>
+      <div class="detailLabel">Introduction</div>
+      <div class="detailValue" id="detailIntroduction">—</div>
+      <div class="detailLabel">Metadata</div>
+      <div class="detailValue" id="detailMeta">—</div>
+      <div class="detailActions">
+        <button class="detailButton primary" id="detailFullscreen">Open Infinity Viewer</button>
+        <button class="detailButton" id="detailLocker">Add to locker</button>
+        <button class="detailButton" id="detailRaw">Show raw JSON</button>
+      </div>
+      <pre class="jsonData" id="detailJson"></pre>
+    </div>
+    <div id="styleGallery" class="styleGallery"></div>
+  </article>
 </div>
-<div class="detailLabel">Introduction</div><div class="detailValue" id="detailIntroduction">—</div>
-<div class="detailLabel">Metadata</div><div class="detailValue" id="detailMeta">—</div>
-<div class="detailActions">
-<button class="detailButton primary" id="detailFullscreen">Open Infinity Viewer</button>
-<button class="detailButton" id="detailLocker">Add to locker</button>
-<button class="detailButton" id="detailRaw">Show raw JSON</button>
-</div>
-<pre class="jsonData" id="detailJson"></pre>
-</div>
-<div id="styleGallery" class="styleGallery"></div>
-</article>
-</div>
+
 <div id="fullscreenViewer" class="fullscreenViewer">
-<div class="viewerBar"><strong id="viewerTitle">Cosmetic</strong><button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close fullscreen">×</button></div>
-<div class="viewerStage">
-<button class="viewerArrow left" onclick="DZ.viewerNav(-1)" aria-label="Previous">‹</button>
-<img id="viewerImage" alt="">
-<button class="viewerArrow right" onclick="DZ.viewerNav(1)" aria-label="Next">›</button>
-<div class="viewerDots" id="viewerDots"></div>
+  <div class="viewerBar">
+    <strong id="viewerTitle">Cosmetic</strong>
+    <button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close fullscreen">×</button>
+  </div>
+  <div class="viewerStage">
+    <button class="viewerArrow left" onclick="DZ.viewerNav(-1)" aria-label="Previous">‹</button>
+    <img id="viewerImage" alt="">
+    <button class="viewerArrow right" onclick="DZ.viewerNav(1)" aria-label="Next">›</button>
+  </div>
+  <div id="viewerInfo" class="viewerInfo"></div>
+  <div class="viewerHint">← / → browse cosmetics · Escape closes</div>
 </div>
-<div id="viewerInfo" class="viewerInfo"></div>
-<div class="viewerHint">← / → browse cosmetics · Escape closes</div>
+
+<div class="authBackdrop" id="authModal">
+  <form class="authPanel" id="authForm">
+    <button type="button" class="closeOverlay" onclick="DZ.closeAuth()" aria-label="Close">×</button>
+    <div class="eyebrow">Dropzone account</div>
+    <h2>Sign in</h2>
+    <p>This local profile keeps your locker on this browser. No password collected.</p>
+    <input required maxlength="40" placeholder="Display name" autocomplete="nickname">
+    <div class="detailActions">
+      <button type="button" class="detailButton" onclick="DZ.closeAuth()">Cancel</button>
+      <button class="detailButton primary" type="submit">Continue</button>
+    </div>
+  </form>
 </div>
+
 <div id="toast" class="toast"></div>
 <div id="fatalError"></div>
-<script>
-/* ============================================================
-   Dropzone — all data from Fortnite-Datamining repo (raw URLs)
-   Auto-refresh every 15 minutes.
-   ============================================================ */
-window.DZ = window.DZ || {};
-function showFatal(msg){const el=document.getElementById('fatalError');if(!el)return;el.textContent='⚠ '+msg;el.classList.add('show');console.error(msg)}
 
-/* ---------- preferences (defined early) ---------- */
-const safeStorage={getItem(k){try{return localStorage.getItem(k)}catch{return null}},setItem(k,v){try{localStorage.setItem(k,v)}catch{}},removeItem(k){try{localStorage.removeItem(k)}catch{}}};
-const preferenceDefaults={theme:'ocean',reduceMotion:false,highContrast:false,largeText:false,animateCards:true,showRarity:true,dataSource:'repo',customText:'#f5f7fb',customBackground:'#0b111b',font:'Space Grotesk'};
-let preferences={...preferenceDefaults};
-try{preferences={...preferenceDefaults,...JSON.parse(safeStorage.getItem('dropzone_preferences')||'{}')}}catch{}
+<script>
+/* =================================================================
+   Dropzone v3 — everything sourced from Fortnite-Datamining repo.
+   ================================================================= */
+(function(){
+'use strict';
+
+window.DZ = window.DZ || {};
+function fatal(msg){const el=document.getElementById('fatalError');if(!el)return;el.textContent='⚠ '+msg;el.classList.add('show');console.error(msg)}
+
+/* ---------- storage ---------- */
+var safeStorage = {
+  getItem: function(k){try{return localStorage.getItem(k)}catch(e){return null}},
+  setItem: function(k,v){try{localStorage.setItem(k,v)}catch(e){}},
+  removeItem: function(k){try{localStorage.removeItem(k)}catch(e){}}
+};
+
+/* ---------- preferences ---------- */
+var prefDefaults = {theme:'ocean', reduceMotion:false, highContrast:false, largeText:false, animateCards:true, showRarity:true};
+var preferences = {};
+for (var k in prefDefaults) preferences[k] = prefDefaults[k];
+try {
+  var stored = JSON.parse(safeStorage.getItem('dropzone_preferences')||'{}');
+  for (var k2 in stored) preferences[k2] = stored[k2];
+} catch(e){}
 
 /* ---------- constants ---------- */
-const REPO='https://raw.githubusercontent.com/Fortnite-Datamining/Fortnite-Datamining/main';
-const DATA={};
-const DATASETS={
-  br:         `${REPO}/data/cosmetics/br.json`,
-  shop:       `${REPO}/data/shop/current.json`,
-  news:       `${REPO}/data/news/current.json`,
-  playlists:  `${REPO}/data/playlists/current.json`,
-  map:        `${REPO}/data/map/current.json`,
-  build:      `${REPO}/data/meta/build_info.json`,
-  stats:      `${REPO}/data/meta/stats.json`,
-  banners:    `${REPO}/data/banners/current.json`,
-  aes:        `${REPO}/data/aes/current.json`,
-  weapons:    `${REPO}/data/weapons/current.json`,
-  epic:       `${REPO}/data/epic/content.json`,
-  registry:   `${REPO}/data/items/registry.json`,
+var REPO = 'https://raw.githubusercontent.com/Fortnite-Datamining/Fortnite-Datamining/main';
+var DATA = {};
+var DATASETS = {
+  br:         REPO + '/data/cosmetics/br.json',
+  shop:       REPO + '/data/shop/current.json',
+  news:       REPO + '/data/news/current.json',
+  playlists:  REPO + '/data/playlists/current.json',
+  map:        REPO + '/data/map/current.json',
+  build:      REPO + '/data/meta/build_info.json',
+  stats:      REPO + '/data/meta/stats.json',
+  banners:    REPO + '/data/banners/current.json',
+  aes:        REPO + '/data/aes/current.json',
+  weapons:    REPO + '/data/weapons/current.json',
+  epic:       REPO + '/data/epic/content.json',
+  registry:   REPO + '/data/items/registry.json',
+  // Fortnite-API cosmetics for individual sub-collections (endpoints mirror repo shape)
+  lego:       'https://fortnite-api.com/v2/cosmetics/lego',
+  lego_kits:  'https://fortnite-api.com/v2/cosmetics/lego/kits',
+  tracks:     'https://fortnite-api.com/v2/cosmetics/tracks',
+  instruments:'https://fortnite-api.com/v2/cosmetics/instruments',
+  cars:       'https://fortnite-api.com/v2/cosmetics/cars',
+  beans:      'https://fortnite-api.com/v2/cosmetics/beans'
 };
-const REFRESH_MS=15*60*1000;   // 15 minutes
-const NEW_WINDOW_MS=3*24*60*60*1000;
-const DREAM_SLOTS=['Outfit','Back Bling','Pickaxe','Glider','Wrap','Emote'];
-const DREAM_GLYPHS={'Outfit':'◆','Back Bling':'▣','Pickaxe':'⛏','Glider':'⛅','Wrap':'▧','Emote':'✦'};
-const CATEGORY_LIST=[
-  {label:'All',           value:'all'},
-  {label:'Outfits',       value:'outfit'},
-  {label:'Back Bling',    value:'backpack'},
-  {label:'Pickaxes',      value:'pickaxe'},
-  {label:'Emotes',        value:'emote'},
-  {label:'Gliders',       value:'glider'},
-  {label:'Contrails',     value:'contrail'},
-  {label:'Wraps',         value:'wrap'},
-  {label:'Loading Screens',value:'loadingscreen'},
-  {label:'Sprays',        value:'spray'},
-  {label:'Emoticons',     value:'emoticon'},
-  {label:'Music',         value:'music'},
-  {label:'Banners',       value:'banner'},
-  {label:'Shoes',         value:'shoes'},
-  {label:'Sidekicks',     value:'sidekick'},
-  {label:'Auras',         value:'aura'},
-  {label:'Pets',          value:'pet'},
-  {label:'Toys',          value:'toy'},
-  {label:'Vehicles',      value:'vehicle'},
+
+var REFRESH_MS = 15 * 60 * 1000;
+var NEW_WINDOW_MS = 3 * 24 * 60 * 60 * 1000;
+var DREAM_SLOTS = ['Outfit','Back Bling','Pickaxe','Glider','Wrap','Emote'];
+var DREAM_GLYPHS = {'Outfit':'◆','Back Bling':'▣','Pickaxe':'⛏','Glider':'⛅','Wrap':'▧','Emote':'✦'};
+
+/* Category list — value matches type.value in the repo data (lowercase, no spaces). */
+var CATEGORY_LIST = [
+  {label:'All',             value:'all'},
+  {label:'Outfits',         value:'outfit'},
+  {label:'Back Bling',      value:'backpack'},
+  {label:'Pickaxes',        value:'pickaxe'},
+  {label:'Emotes',          value:'emote'},
+  {label:'Gliders',         value:'glider'},
+  {label:'Contrails',       value:'contrail'},
+  {label:'Wraps',           value:'wrap'},
+  {label:'Loading Screens', value:'loadingscreen'},
+  {label:'Sprays',          value:'spray'},
+  {label:'Emoticons',       value:'emoticon'},
+  {label:'Music',           value:'music'},
+  {label:'Banners',         value:'banner'},
+  {label:'Shoes',           value:'shoes'},
+  {label:'Sidekicks',       value:'sidekick'},
+  {label:'Auras',           value:'aura'},
+  {label:'Pets',            value:'pet'},
+  {label:'Toys',            value:'toy'},
+  {label:'Vehicles',        value:'vehicle'}
 ];
-const playerState={account:null,stats:null,raw:null};
-const state={view:'home',query:'',category:'all',shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,legoFilter:'lego',festivalFilter:'tracks',dreamCategory:'Outfit',dreamLoadout:{},dataSource:'repo'};
-const ITEM_CACHE=[];
-const SHOP_CONTEXT={};
-const NEWS_CACHE=[];
-let activeItemIndex=-1;
-let currentUser=safeStorage.getItem('dropzone_user')||'';
-let lockerItems=[];try{const p=JSON.parse(safeStorage.getItem('dropzone_locker')||'[]');lockerItems=Array.isArray(p)?p:[]}catch{lockerItems=[]}
-let repoLastSynced=0;
-const REPO_INFO={counts:{},updatedAt:0};
 
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const arr=(key)=>{const d=DATA[key];if(Array.isArray(d))return d;if(Array.isArray(d?.data))return d.data;if(Array.isArray(d?.items))return d.items;if(Array.isArray(d?.weapons))return d.weapons;if(Array.isArray(d?.cosmetics))return d.cosmetics;return []};
-const image=x=>x?.images?.featured||x?.images?.large||x?.images?.wide||x?.images?.icon||x?.images?.small||x?.images?.smallIcon||x?.imageUrl||x?.smallImageUrl||x?.albumArt||x?.image||'';
-const name=x=>x?.name||x?.title||x?.displayName||x?.id||'Unknown item';
-const money=x=>Number.isFinite(Number(x))?Number(x).toLocaleString():'--';
+/* ---------- state ---------- */
+var state = {
+  view: 'home',
+  query: '',
+  category: 'all',
+  shopFilter: 'all',
+  modeFilter: 'all',
+  weaponRarity: 'all',
+  weaponCategory: 'all',
+  damageSort: true,
+  legoFilter: 'lego',
+  festivalFilter: 'tracks',
+  dreamCategory: 'Outfit',
+  dreamLoadout: {}
+};
 
-/* ---------- data loading ---------- */
-function unwrapList(j){
-  if(Array.isArray(j))return j;
-  if(Array.isArray(j?.data))return j.data;
-  if(Array.isArray(j?.items))return j.items;
-  if(Array.isArray(j?.weapons))return j.weapons;
-  if(Array.isArray(j?.cosmetics))return j.cosmetics;
+var playerState = {account:null, stats:null, raw:null};
+var ITEM_CACHE = [];
+var SHOP_CONTEXT = {};
+var NEWS_CACHE = [];
+var activeItemIndex = -1;
+var currentUser = safeStorage.getItem('dropzone_user') || '';
+var lockerItems = [];
+try {
+  var lp = JSON.parse(safeStorage.getItem('dropzone_locker')||'[]');
+  lockerItems = Array.isArray(lp) ? lp : [];
+} catch(e){lockerItems = []}
+
+var repoLastSynced = 0;
+var REPO_INFO = {counts:{}, updatedAt:0};
+
+/* ---------- DOM helpers ---------- */
+function $(s){return document.querySelector(s)}
+function $$(s){return Array.prototype.slice.call(document.querySelectorAll(s))}
+function esc(v){
+  return String(v==null ? '' : v).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+  });
+}
+function firstDefined(){
+  for (var i=0;i<arguments.length;i++){
+    var v = arguments[i];
+    if (v!==undefined && v!==null && v!=='') return v;
+  }
+  return '';
+}
+function money(v){return Number.isFinite(Number(v)) ? Number(v).toLocaleString() : '--'}
+
+/* ---------- array accessors ---------- */
+function arr(key){
+  var d = DATA[key];
+  if (Array.isArray(d)) return d;
+  if (d && Array.isArray(d.data)) return d.data;
+  if (d && Array.isArray(d.items)) return d.items;
+  if (d && Array.isArray(d.weapons)) return d.weapons;
+  if (d && Array.isArray(d.cosmetics)) return d.cosmetics;
   return [];
 }
-async function fetchJson(url){
-  const sep=url.includes('?')?'&':'?';
-  const r=await fetch(`${url}${sep}_=${Date.now()}`,{cache:'no-store'});
-  if(!r.ok)throw Error(`HTTP ${r.status} — ${url}`);
-  return r.json();
+function shopEntries(){
+  var d = DATA.shop;
+  if (!d) return [];
+  if (d.data && Array.isArray(d.data.entries)) return d.data.entries;
+  if (Array.isArray(d.entries)) return d.entries;
+  return [];
 }
-async function load(key,force=false){
-  if(DATA[key]&&!force)return DATA[key];
-  try{
-    const json=await fetchJson(DATASETS[key]);
-    DATA[key]=json;
-    return json;
-  }catch(e){
-    console.warn(`[repo] ${key} failed:`,e.message);
-    // weapons has no public endpoint — silently empty rather than toast-spam
-    if(key!=='weapons')console.warn(`[repo] ${key} — showing empty state`);
-    DATA[key]=key==='weapons'?{weapons:[]}:null;
-    return null;
+function unwrapList(j){
+  if (Array.isArray(j)) return j;
+  if (j && Array.isArray(j.data)) return j.data;
+  if (j && Array.isArray(j.items)) return j.items;
+  if (j && Array.isArray(j.weapons)) return j.weapons;
+  if (j && Array.isArray(j.cosmetics)) return j.cosmetics;
+  return [];
+}
+
+/* ---------- image / name ---------- */
+function image(x){
+  if (!x) return '';
+  var i = x.images || {};
+  var candidates = [i.featured,i.large,i.wide,i.icon,i.small,i.smallIcon,x.imageUrl,x.smallImageUrl,x.albumArt,x.image];
+  for (var n=0;n<candidates.length;n++) if (candidates[n]) return candidates[n];
+  return '';
+}
+function name(x){
+  if (!x) return 'Unknown item';
+  return x.name || x.title || x.displayName || x.id || 'Unknown item';
+}
+
+/* ---------- category helpers ---------- */
+function categoryValue(x){
+  if (!x) return '';
+  var t = x.type || {};
+  var v = t.value || t.backendValue || t.displayValue || '';
+  return String(v).toLowerCase().replace(/\s+/g,'');
+}
+function filterByCategory(list, cat){
+  if (cat === 'all') return list;
+  var target = String(cat).toLowerCase();
+  return list.filter(function(x){
+    var cv = categoryValue(x);
+    if (cv === target) return true;
+    // normalize aliases
+    if (target === 'backpack' && cv === 'backbling') return true;
+    if (target === 'wrap' && (cv === 'wrap' || cv === 'wraps')) return true;
+    if (target === 'emoticon' && cv === 'emoticons') return true;
+    if (target === 'loadingscreen' && (cv === 'loadingscreen' || cv === 'loadingscreens')) return true;
+    return false;
+  });
+}
+function filterLego(list, kind){
+  if (kind === 'lego_kits') {
+    return list.filter(function(x){
+      var id = String(x.id||'').toLowerCase();
+      var cv = categoryValue(x);
+      return id.indexOf('kit') >= 0 || cv.indexOf('kit') >= 0;
+    });
   }
+  // lego cosmetics
+  return list.filter(function(x){
+    var id = String(x.id||'').toLowerCase();
+    var cv = categoryValue(x);
+    var series = (x.series && (x.series.value||x.series.name||x.series.displayValue)) || '';
+    series = String(series).toLowerCase();
+    return id.indexOf('lego') >= 0 || cv.indexOf('lego') >= 0 || series.indexOf('lego') >= 0;
+  });
 }
-async function loadAll(force=false){
-  const keys=Object.keys(DATASETS);
-  await Promise.all(keys.map(k=>load(k,force)));
-  if(force)repoLastSynced=Date.now();
+function filterFestival(list, kind){
+  if (kind === 'instruments') {
+    return list.filter(function(x){
+      var id = String(x.id||'').toLowerCase();
+      var cv = categoryValue(x);
+      return cv.indexOf('instrument') >= 0 || id.indexOf('instrument') >= 0;
+    });
+  }
+  // tracks (jam tracks / lobby music)
+  return list.filter(function(x){
+    var id = String(x.id||'').toLowerCase();
+    var cv = categoryValue(x);
+    var isTrack = cv === 'music' || cv === 'lobbymusic' || id.indexOf('sid_') === 0 || id.indexOf('musicpack') >= 0;
+    return isTrack;
+  });
+}
+function filterVehicles(list){
+  return list.filter(function(x){
+    var id = String(x.id||'').toLowerCase();
+    var cv = categoryValue(x);
+    return cv === 'vehicle' || cv === 'vehicles' || cv === 'car' || cv === 'cars' || id.indexOf('vehicle') >= 0 || id.indexOf('carskin') >= 0 || id.indexOf('suv_') >= 0;
+  });
+}
+function filterBeans(list){
+  return list.filter(function(x){
+    var id = String(x.id||'').toLowerCase();
+    var cv = categoryValue(x);
+    return cv.indexOf('bean') >= 0 || id.indexOf('bean') >= 0 || id.indexOf('fallguys') >= 0;
+  });
+}
+function matches(x){
+  if (!state.query) return true;
+  try { return JSON.stringify(x).toLowerCase().indexOf(state.query.toLowerCase()) >= 0; }
+  catch(e){ return false; }
 }
 
-/* ---------- UI helpers ---------- */
-function toast(message){
-  const el=$('#toast');if(!el)return;
-  el.textContent=message;el.classList.add('show');
-  clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('show'),3500);
+/* ---------- field extraction ---------- */
+function textValue(v){
+  if (v === undefined || v === null) return '';
+  if (typeof v === 'string' || typeof v === 'number') return String(v);
+  if (Array.isArray(v)) return v.map(textValue).filter(Boolean).join(', ');
+  return firstDefined(v.displayValue, v.displayName, v.text, v.name, v.value, v.backendValue, v.label, '');
 }
-function agoText(ms){const s=Math.max(0,Math.round((Date.now()-ms)/1000));if(s<5)return'just now';if(s<60)return`${s}s ago`;const m=Math.round(s/60);if(m<60)return`${m}m ago`;return`${Math.round(m/60)}h ago`}
-function updateSyncLabels(){
-  const el=$('#brSyncLabel');
-  if(el)el.textContent=`${arr('br').length.toLocaleString()} items · ${repoLastSynced?agoText(repoLastSynced):'loading'}`;
-  const o=$('#outfitSync');
-  if(o)o.textContent=repoLastSynced?`repo ${arr('br').length} items · ${agoText(repoLastSynced)}`:'';
-  const sh=$('#shopSync');if(sh)sh.textContent=repoLastSynced?`synced ${agoText(repoLastSynced)}`:'syncing';
+function metaPath(item, paths){
+  for (var i=0;i<paths.length;i++){
+    var path = paths[i], cur = item;
+    var parts = path.split('.');
+    for (var j=0;j<parts.length;j++){
+      if (cur == null) { cur = null; break; }
+      cur = cur[parts[j]];
+    }
+    var val = textValue(cur);
+    if (val) return val;
+  }
+  return '';
 }
-function countUp(el,target){if(!el)return;target=Number(target)||0;const dur=900,t0=performance.now();const step=t=>{const p=Math.min(1,(t-t0)/dur);el.textContent=Math.round(target*(1-Math.pow(1-p,3))).toLocaleString();if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
-
-/* ---------- field helpers ---------- */
-function firstDefined(...vals){for(const v of vals)if(v!==undefined&&v!==null&&v!=='')return v;return ''}
-function textValue(v){if(v===undefined||v===null)return '';if(typeof v==='string'||typeof v==='number')return String(v);if(Array.isArray(v))return v.map(textValue).filter(Boolean).join(', ');return firstDefined(v.displayValue,v.displayName,v.text,v.name,v.value,v.backendValue,v.label,'')}
-function metaPath(item,paths){for(const path of paths){let cur=item;for(const key of path.split('.')){if(cur==null)break;cur=cur[key]}const val=textValue(cur);if(val)return val}return ''}
-function formatDate(v){if(!v)return '—';const d=new Date(v);return Number.isNaN(d.getTime())?String(v):d.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}
-function detailDescription(item){return metaPath(item,['description.displayValue','description.text','description.value','description','shortDescription.displayValue','shortDescription.text','longDescription.displayValue','longDescription.text'])||'No description available.'}
-function detailRarity(item){return metaPath(item,['rarity.displayValue','rarity.name','rarity.value','rarity.backendValue','rarity'])}
-function detailSet(item){return metaPath(item,['set.text','set.displayValue','set.name','set.value','set.backendValue','set'])}
-function detailSeries(item){return metaPath(item,['series.displayValue','series.name','series.value','series.backendValue','series'])}
+function formatDate(v){
+  if (!v) return '—';
+  var d = new Date(v);
+  return isNaN(d.getTime()) ? String(v) : d.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'});
+}
+function detailDescription(item){
+  return metaPath(item, ['description.displayValue','description.text','description.value','description','shortDescription.displayValue','shortDescription.text','longDescription.displayValue','longDescription.text']) || 'No description available.';
+}
+function detailRarity(item){return metaPath(item, ['rarity.displayValue','rarity.name','rarity.value','rarity.backendValue','rarity'])}
+function detailSet(item){return metaPath(item, ['set.text','set.displayValue','set.name','set.value','set.backendValue','set'])}
+function detailSeries(item){return metaPath(item, ['series.displayValue','series.name','series.value','series.backendValue','series'])}
 function detailIntroduction(item){
-  const intro=metaPath(item,['introduction.text','introduction.displayValue','introduction.name','introduction.value','introduction']);
-  const chapter=metaPath(item,['introduction.chapter','chapter']);
-  const season=metaPath(item,['introduction.season','season']);
-  if(chapter||season)return `Chapter ${chapter||'—'} · Season ${season||'—'}`;
+  var intro = metaPath(item, ['introduction.text','introduction.displayValue','introduction.name','introduction.value','introduction']);
+  var chapter = metaPath(item, ['introduction.chapter','chapter']);
+  var season = metaPath(item, ['introduction.season','season']);
+  if (chapter || season) return 'Chapter ' + (chapter||'—') + ' · Season ' + (season||'—');
   return intro;
 }
-function detailRelease(item){return firstDefined(item.added,item.releaseDate,item.release_date,item.release,item.firstSeen,item.firstSeenDate,item.introduction?.date)}
-function detailType(item,fallback='Cosmetic'){return metaPath(item,['type.displayValue','type.name','type.value','type.backendValue','type'])||fallback}
-function releaseTime(item){const d=detailRelease(item);if(!d)return 0;const t=Date.parse(d);return Number.isFinite(t)?t:0}
-function sortNewestFirst(list){return [...list].sort((a,b)=>releaseTime(b)-releaseTime(a))}
-function withNewFlags(list){const sorted=sortNewestFirst(list);const newestTime=sorted.length?releaseTime(sorted[0]):0;return sorted.map(item=>({item,isNew:newestTime>0&&releaseTime(item)>0&&(newestTime-releaseTime(item))<=NEW_WINDOW_MS}))}
-const cacheItem=x=>{ITEM_CACHE.push(x);return ITEM_CACHE.length-1};
-function matches(x){if(!state.query)return true;return JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())}
+function detailRelease(item){
+  return firstDefined(item.added, item.releaseDate, item.release_date, item.release, item.firstSeen, item.firstSeenDate, item.introduction && item.introduction.date);
+}
+function detailType(item, fallback){
+  return metaPath(item, ['type.displayValue','type.name','type.value','type.backendValue','type']) || fallback || 'Cosmetic';
+}
+function releaseTime(item){
+  var d = detailRelease(item);
+  if (!d) return 0;
+  var t = Date.parse(d);
+  return Number.isFinite(t) ? t : 0;
+}
+function sortNewestFirst(list){
+  return list.slice().sort(function(a,b){return releaseTime(b) - releaseTime(a)});
+}
+function withNewFlags(list){
+  var sorted = sortNewestFirst(list);
+  var newestTime = sorted.length ? releaseTime(sorted[0]) : 0;
+  return sorted.map(function(item){
+    return {item:item, isNew:newestTime>0 && releaseTime(item)>0 && (newestTime - releaseTime(item)) <= NEW_WINDOW_MS};
+  });
+}
+
+/* ---------- item cache ---------- */
+function cacheItem(x){ITEM_CACHE.push(x); return ITEM_CACHE.length - 1;}
+function resetItemCache(){ITEM_CACHE.length = 0; for (var k in SHOP_CONTEXT) delete SHOP_CONTEXT[k];}
 
 /* ---------- card rendering ---------- */
-function card(x,type='Item',isNew=false){
-  const rarity=x?.rarity?.displayValue||x?.rarity?.name||x?.type?.displayValue||type;
-  const setv=x?.set?.value||x?.artist||x?.category||x?.id||'';
-  const intro=x?.introduction?.text||x?.releaseYear||'';
-  return `<article class="item"><div class="itemImage">${isNew?'<span class="newBadge">NEW</span>':''}${image(x)?`<img loading="lazy" src="${esc(image(x))}" alt="${esc(name(x))}">`:'<span class="placeholder">FN</span>'}<span class="badge">${esc(rarity)}</span></div><div class="itemBody"><div class="itemName" title="${esc(name(x))}">${esc(name(x))}</div><div class="itemMeta"><span>${esc(setv)}</span><span>${esc(intro)}</span></div></div></article>`;
+function cardHTML(x, type, isNew){
+  var rarity = '';
+  if (x && x.rarity) rarity = x.rarity.displayValue || x.rarity.name || '';
+  if (!rarity && x && x.type) rarity = x.type.displayValue || '';
+  if (!rarity) rarity = type || 'Item';
+  var setv = (x && x.set && x.set.value) || (x && x.artist) || (x && x.category) || (x && x.id) || '';
+  var intro = (x && x.introduction && x.introduction.text) || (x && x.releaseYear) || '';
+  var img = image(x);
+  return '<article class="item">' +
+    '<div class="itemImage">' +
+      (isNew ? '<span class="newBadge">NEW</span>' : '') +
+      (img ? '<img loading="lazy" src="' + esc(img) + '" alt="' + esc(name(x)) + '">' : '<span class="placeholder">FN</span>') +
+      '<span class="badge">' + esc(rarity) + '</span>' +
+    '</div>' +
+    '<div class="itemBody">' +
+      '<div class="itemName" title="' + esc(name(x)) + '">' + esc(name(x)) + '</div>' +
+      '<div class="itemMeta"><span>' + esc(setv) + '</span><span>' + esc(intro) + '</span></div>' +
+    '</div>' +
+  '</article>';
 }
-function interactiveCard(x,type,isNew=false){
-  const index=cacheItem(x);
-  return card(x,type,isNew).replace('<article class="item"',`<article class="item" role="button" tabindex="0" onclick="DZ.openItem(${index})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.openItem(${index})}"`);
+function interactiveCard(x, type, isNew){
+  var index = cacheItem(x);
+  return cardHTML(x, type, isNew).replace(
+    '<article class="item"',
+    '<article class="item" role="button" tabindex="0" onclick="DZ.openItem(' + index + ')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();DZ.openItem(' + index + ')}"'
+  );
 }
 
-/* ---------- filtering helpers ---------- */
-function categoryValue(x){return (x?.type?.value||x?.type?.backendValue||x?.type?.displayValue||'').toLowerCase().replace(/\s+/g,'')}
-function filterByCategory(list,cat){if(cat==='all')return list;return list.filter(x=>categoryValue(x)===cat)}
-function filterByLego(list,kind){
-  if(kind==='lego')return list.filter(x=>categoryValue(x).includes('lego')||String(x?.id||'').toLowerCase().startsWith('lego'));
-  if(kind==='lego_kits')return list.filter(x=>String(x?.id||'').toLowerCase().includes('legokit')||categoryValue(x).includes('kit'));
-  return list;
+/* ---------- toast ---------- */
+function toast(msg){
+  var el = $('#toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(el._t);
+  el._t = setTimeout(function(){el.classList.remove('show')}, 3500);
 }
-function filterByFestival(list,kind){
-  if(kind==='tracks')return list.filter(x=>categoryValue(x)==='music'||String(x?.id||'').toLowerCase().startsWith('sid_')||x?.track);
-  if(kind==='instruments')return list.filter(x=>categoryValue(x).includes('instrument'));
-  return list;
-}
-function filterVehicles(list){return list.filter(x=>categoryValue(x).includes('vehicle')||categoryValue(x)==='car'||categoryValue(x)==='cars')}
-function filterBeans(list){return list.filter(x=>categoryValue(x).includes('bean')||String(x?.id||'').toLowerCase().startsWith('bean'))}
 
-/* ---------- stats ---------- */
-function shopEntries(){return DATA.shop?.data?.entries||DATA.shop?.entries||[]}
+/* ---------- time helpers ---------- */
+function agoText(ms){
+  var s = Math.max(0, Math.round((Date.now()-ms)/1000));
+  if (s < 5) return 'just now';
+  if (s < 60) return s + 's ago';
+  var m = Math.round(s/60);
+  if (m < 60) return m + 'm ago';
+  return Math.round(m/60) + 'h ago';
+}
+function updateSyncLabels(){
+  var brEl = $('#brSyncLabel');
+  if (brEl) brEl.textContent = arr('br').length.toLocaleString() + ' items · ' + (repoLastSynced ? agoText(repoLastSynced) : 'loading');
+  var o = $('#outfitSync');
+  if (o) o.textContent = repoLastSynced ? 'repo ' + arr('br').length + ' items · ' + agoText(repoLastSynced) : '';
+  var sh = $('#shopSync');
+  if (sh) sh.textContent = repoLastSynced ? 'synced ' + agoText(repoLastSynced) : 'syncing';
+  var ls = $('#settingsLastSync');
+  if (ls) ls.textContent = repoLastSynced ? new Date(repoLastSynced).toLocaleString() : '—';
+}
+
+/* ---------- fetch ---------- */
+function fetchJson(url){
+  var sep = url.indexOf('?') >= 0 ? '&' : '?';
+  return fetch(url + sep + '_=' + Date.now(), {cache:'no-store'}).then(function(r){
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' — ' + url);
+    return r.json();
+  });
+}
+function load(key, force){
+  if (DATA[key] && !force) return Promise.resolve(DATA[key]);
+  return fetchJson(DATASETS[key]).then(function(json){
+    DATA[key] = json;
+    return json;
+  }).catch(function(e){
+    console.warn('[repo] ' + key + ' failed: ' + e.message);
+    DATA[key] = key === 'weapons' ? {weapons:[]} : null;
+    return null;
+  });
+}
+function loadAll(force){
+  var keys = Object.keys(DATASETS);
+  return Promise.all(keys.map(function(k){return load(k, force)})).then(function(){
+    if (force) repoLastSynced = Date.now();
+    updateSyncLabels();
+  });
+}
+
+/* ============================================================
+   RENDERERS
+   ============================================================ */
+
 function renderStats(){
-  const stats=[
-    ['BR Cosmetics',arr('br').length,'cyan'],
-    ['Shop offers',shopEntries().length,'yellow'],
-    ['Weapons',arr('weapons').length,'pink'],
-    ['Playlists',arr('playlists').length,'green'],
+  var stats = [
+    ['BR Cosmetics', arr('br').length, 'cyan'],
+    ['Shop offers',  shopEntries().length, 'yellow'],
+    ['Weapons',      arr('weapons').length, 'pink'],
+    ['Playlists',    arr('playlists').length, 'green']
   ];
-  $('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');
-  const lego=filterByLego(arr('br'),'lego').length;
-  const tracks=filterByFestival(arr('br'),'tracks').length;
-  const cars=filterVehicles(arr('br')).length;
-  const beans=filterBeans(arr('br')).length;
-  $('#explore').innerHTML=[
-    ['Outfits',filterByCategory(arr('br'),'outfit').length,'outfits'],
-    ['All cosmetics',arr('br').length,'cosmetics'],
-    ['Weapons',arr('weapons').length,'weapons'],
-    ['LEGO',lego,'lego'],
-    ['Jam tracks',tracks,'festival'],
-    ['Cars',cars,'vehicles'],
-    ['Fall Guys',beans,'beans'],
-    ['Banners',arr('banners').length,'banners'],
-  ].map(x=>`<button class="stat" data-explore="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');
-  $$('#explore [data-explore]').forEach(b=>b.addEventListener('click',()=>DZ.setView(b.dataset.explore)));
+  var el = $('#stats');
+  if (el) el.innerHTML = stats.map(function(x){
+    return '<div class="stat ' + x[2] + '"><label>' + x[0] + '</label><strong>' + money(x[1]) + '</strong></div>';
+  }).join('');
+
+  var legoCount = filterLego(arr('br'), 'lego').length;
+  var legoKitsCount = filterLego(arr('br'), 'lego_kits').length;
+  var tracksCount = filterFestival(arr('br'), 'tracks').length;
+  var instrumentsCount = filterFestival(arr('br'), 'instruments').length;
+  var carsCount = filterVehicles(arr('br')).length;
+  var beansCount = filterBeans(arr('br')).length;
+
+  var exploreItems = [
+    ['Outfits',    filterByCategory(arr('br'), 'outfit').length, 'outfits'],
+    ['All cosmetics', arr('br').length, 'cosmetics'],
+    ['Weapons',    arr('weapons').length, 'weapons'],
+    ['LEGO',       legoCount + legoKitsCount, 'lego'],
+    ['Jam tracks', tracksCount, 'festival'],
+    ['Instruments',instrumentsCount, 'festival'],
+    ['Cars',       carsCount, 'vehicles'],
+    ['Fall Guys',  beansCount, 'beans'],
+    ['Banners',    arr('banners').length, 'banners'],
+    ['Modes',      arr('playlists').length, 'modes'],
+    ['Shop',       shopEntries().length, 'shop'],
+    ['News',       newsItems().length, 'news']
+  ];
+  var exEl = $('#explore');
+  if (exEl) {
+    exEl.innerHTML = exploreItems.map(function(x){
+      return '<button class="stat" data-explore="' + x[2] + '" style="text-align:left"><label>' + x[0] + '</label><strong>' + money(x[1]) + '</strong></button>';
+    }).join('');
+    $$('#explore [data-explore]').forEach(function(b){
+      b.addEventListener('click', function(){ setView(b.dataset.explore) });
+    });
+  }
 }
 
 /* ---------- news ---------- */
 function newsItems(){
-  const br=DATA.news?.data?.br?.motds||DATA.news?.br?.motds||[];
-  const stw=DATA.news?.data?.stw?.messages||DATA.news?.stw?.messages||[];
-  return [...br,...stw].filter(x=>!x.hidden).sort((a,b)=>(b.sortingPriority||0)-(a.sortingPriority||0));
+  var d = DATA.news || {};
+  var br = (d.data && d.data.br && d.data.br.motds) || (d.br && d.br.motds) || [];
+  var stw = (d.data && d.data.stw && d.data.stw.messages) || (d.stw && d.stw.messages) || [];
+  var creative = (d.data && d.data.creative && d.data.creative.messages) || [];
+  return br.concat(stw).concat(creative)
+    .filter(function(x){return !x.hidden})
+    .sort(function(a,b){return (b.sortingPriority||0) - (a.sortingPriority||0)});
 }
-function newsCard(x){const index=NEWS_CACHE.push(x)-1;return `<article class="newsCard" role="button" tabindex="0" data-news-index="${index}">${x.image||x.tileImage?`<img loading="lazy" src="${esc(x.tileImage||x.image)}" alt="">`:''}<div class="newsText"><small>FORTNITE NEWS</small><h3>${esc(x.title||x.tabTitle||'Latest update')}</h3></div></article>`}
-function renderNews(){const items=newsItems();$('#newsPreview').innerHTML=items.slice(0,3).map(newsCard).join('')||'<div class="empty">No news available.</div>';$('#newsAll').innerHTML=items.map(newsCard).join('')||'<div class="empty">No news available.</div>'}
+function newsCard(x){
+  var index = NEWS_CACHE.push(x) - 1;
+  var img = x.image || x.tileImage || '';
+  return '<article class="newsCard" role="button" tabindex="0" data-news-index="' + index + '" onclick="DZ.openNews(' + index + ')">' +
+    (img ? '<img loading="lazy" src="' + esc(img) + '" alt="">' : '') +
+    '<div class="newsText"><small>FORTNITE NEWS</small><h3>' + esc(x.title || x.tabTitle || 'Latest update') + '</h3></div>' +
+  '</article>';
+}
+function renderNews(){
+  var items = newsItems();
+  var prev = $('#newsPreview');
+  if (prev) prev.innerHTML = items.slice(0,3).map(newsCard).join('') || '<div class="empty">No news available.</div>';
+  var all = $('#newsAll');
+  if (all) all.innerHTML = items.map(newsCard).join('') || '<div class="empty">No news available.</div>';
+}
 
-/* ---------- catalog renderers ---------- */
-function renderGrid(target,list,type='Item'){
-  const el=$(target);if(!el)return;
-  const withFlags=withNewFlags(list);
-  el.innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,type,isNew)).join('')||'<div class="empty">No records match.</div>';
+/* ---------- generic grid ---------- */
+function renderGrid(targetSelector, list, type){
+  var el = $(targetSelector);
+  if (!el) return;
+  if (!list.length) { el.innerHTML = '<div class="empty">No records match.</div>'; return; }
+  var withFlags = withNewFlags(list);
+  el.innerHTML = withFlags.slice(0, 240).map(function(item){
+    return interactiveCard(item.item, type, item.isNew);
+  }).join('');
 }
+
+/* ---------- outfits ---------- */
 function renderOutfits(){
-  const list=filterByCategory(arr('br'),'outfit').filter(matches);
-  $('#outfitCount').textContent=`${list.length.toLocaleString()} outfits`;
-  renderGrid('#outfitGrid',list,'Outfit');
+  var list = filterByCategory(arr('br'), 'outfit').filter(matches);
+  var c = $('#outfitCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' outfits';
+  renderGrid('#outfitGrid', list, 'Outfit');
 }
+
+/* ---------- cosmetics with tabs ---------- */
 function renderCosmeticTabs(){
-  const tabs=$('#cosmeticTabs');if(!tabs)return;
-  tabs.innerHTML=CATEGORY_LIST.map(c=>`<button class="catTab ${state.category===c.value?'active':''}" data-cat="${c.value}">${c.label}</button>`).join('');
-  tabs.querySelectorAll('.catTab').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.cat;renderCosmetics()}));
+  var tabs = $('#cosmeticTabs');
+  if (!tabs) return;
+  tabs.innerHTML = CATEGORY_LIST.map(function(c){
+    return '<button class="catTab ' + (state.category === c.value ? 'active' : '') + '" data-cat="' + c.value + '">' + c.label + '</button>';
+  }).join('');
+  tabs.querySelectorAll('.catTab').forEach(function(b){
+    b.addEventListener('click', function(){
+      state.category = b.dataset.cat;
+      renderCosmetics();
+    });
+  });
 }
 function renderCosmetics(){
   renderCosmeticTabs();
-  const list=filterByCategory(arr('br'),state.category).filter(matches);
-  $('#cosmeticCount').textContent=`${list.length.toLocaleString()} items`;
-  renderGrid('#cosmeticGrid',list,'Cosmetic');
+  var list = filterByCategory(arr('br'), state.category).filter(matches);
+  var c = $('#cosmeticCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' items';
+  renderGrid('#cosmeticGrid', list, 'Cosmetic');
 }
+
+/* ---------- lego ---------- */
 function renderLego(){
-  const list=filterByLego(arr('br'),state.legoFilter).filter(matches);
-  $('#legoCount').textContent=`${list.length.toLocaleString()} items`;
-  renderGrid('#legoGrid',list,'LEGO');
+  var list = filterLego(arr('br'), state.legoFilter).filter(matches);
+  var c = $('#legoCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' items';
+  renderGrid('#legoGrid', list, 'LEGO');
 }
+
+/* ---------- festival ---------- */
 function renderFestival(){
-  const list=filterByFestival(arr('br'),state.festivalFilter).filter(matches);
-  $('#festivalCount').textContent=`${list.length.toLocaleString()} items`;
-  renderGrid('#festivalGrid',list,'Festival');
+  var list = filterFestival(arr('br'), state.festivalFilter).filter(matches);
+  var c = $('#festivalCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' items';
+  renderGrid('#festivalGrid', list, 'Festival');
 }
+
+/* ---------- vehicles ---------- */
 function renderVehicles(){
-  const list=filterVehicles(arr('br')).filter(matches);
-  $('#vehiclesCount').textContent=`${list.length.toLocaleString()} cars`;
-  renderGrid('#vehiclesGrid',list,'Vehicle');
+  var list = filterVehicles(arr('br')).filter(matches);
+  var c = $('#vehiclesCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' cars';
+  renderGrid('#vehiclesGrid', list, 'Vehicle');
 }
+
+/* ---------- beans ---------- */
 function renderBeans(){
-  const list=filterBeans(arr('br')).filter(matches);
-  $('#beansCount').textContent=`${list.length.toLocaleString()} beans`;
-  renderGrid('#beansGrid',list,'Bean');
+  var list = filterBeans(arr('br')).filter(matches);
+  var c = $('#beansCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' beans';
+  renderGrid('#beansGrid', list, 'Bean');
 }
+
+/* ---------- banners ---------- */
 function renderBanners(){
-  const list=arr('banners').filter(matches);
-  $('#bannersCount').textContent=`${list.length.toLocaleString()} banners`;
-  renderGrid('#bannersGrid',list,'Banner');
+  var list = arr('banners').filter(matches);
+  var c = $('#bannersCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' banners';
+  renderGrid('#bannersGrid', list, 'Banner');
+}
+
+/* ---------- dream locker ---------- */
+function dreamFilterByType(type, list){
+  var cv = type.toLowerCase().replace(/\s+/g,'');
+  return list.filter(function(x){
+    var v = categoryValue(x);
+    if (cv === 'outfit') return v === 'outfit';
+    if (cv === 'backbling') return v === 'backpack' || v === 'backbling';
+    if (cv === 'pickaxe') return v === 'pickaxe';
+    if (cv === 'glider') return v === 'glider';
+    if (cv === 'wrap') return v === 'wrap' || v === 'wraps';
+    if (cv === 'emote') return v === 'emote';
+    return v === cv;
+  });
 }
 function renderDreamStage(){
-  const outfit=state.dreamLoadout['Outfit'];
-  const previewImg=outfit?image(outfit):'';
-  $('#dreamOutfitPreview').innerHTML=previewImg?`<img src="${esc(previewImg)}" alt="${esc(name(outfit))}">`:'<span class="placeholder">Pick an Outfit to start your dream loadout</span>';
-  $('#dreamSlots').innerHTML=DREAM_SLOTS.map(type=>{
-    const item=state.dreamLoadout[type];
-    return `<button class="dreamSlot ${item?'filled':''} ${state.dreamCategory===type?'active':''}" data-dream-cat="${esc(type)}" type="button">${item?`<img src="${esc(image(item))}" alt="${esc(name(item))}">`:`<span class="dreamSlotIcon">${DREAM_GLYPHS[type]||'?'}</span>`}<small>${esc(type)}</small></button>`;
+  var outfit = state.dreamLoadout['Outfit'];
+  var previewImg = outfit ? image(outfit) : '';
+  var el = $('#dreamOutfitPreview');
+  if (el) {
+    el.innerHTML = previewImg
+      ? '<img src="' + esc(previewImg) + '" alt="' + esc(name(outfit)) + '">'
+      : '<span class="placeholder">Pick an Outfit to start your dream loadout</span>';
+  }
+  var slots = $('#dreamSlots');
+  if (slots) {
+    slots.innerHTML = DREAM_SLOTS.map(function(type){
+      var item = state.dreamLoadout[type];
+      var cls = (item ? 'filled ' : '') + (state.dreamCategory === type ? 'active' : '');
+      var inner = item
+        ? '<img src="' + esc(image(item)) + '" alt="' + esc(name(item)) + '">'
+        : '<span class="dreamSlotIcon">' + (DREAM_GLYPHS[type]||'?') + '</span>';
+      return '<button class="dreamSlot ' + cls + '" data-dream-cat="' + esc(type) + '" type="button">' + inner + '<small>' + esc(type) + '</small></button>';
+    }).join('');
+  }
+}
+function renderDreamTools(){
+  var el = $('#dreamTools');
+  if (!el) return;
+  el.innerHTML = DREAM_SLOTS.map(function(t){
+    return '<button class="control ' + (state.dreamCategory === t ? 'active' : '') + '" data-dream-cat="' + esc(t) + '" type="button">' + esc(t) + '</button>';
   }).join('');
 }
-function renderDreamTools(){$('#dreamTools').innerHTML=DREAM_SLOTS.map(t=>`<button class="control ${state.dreamCategory===t?'active':''}" data-dream-cat="${esc(t)}" type="button">${esc(t)}</button>`).join('');}
 function renderDreamGrid(){
-  const type=state.dreamCategory;
-  const cat=type.toLowerCase().replace(/\s+/g,'');
-  const list=arr('br').filter(x=>{
-    const cv=categoryValue(x);
-    if(cat==='backbling')return cv==='backpack';
-    if(cat==='pickaxe')return cv==='pickaxe';
-    if(cat==='glider')return cv==='glider';
-    if(cat==='wrap')return cv==='wrap';
-    if(cat==='emote')return cv==='emote';
-    if(cat==='outfit')return cv==='outfit';
-    return cv===cat;
-  }).filter(matches);
-  $('#dreamLockerCount').textContent=`${list.length.toLocaleString()} ${type.toLowerCase()} options`;
-  const withFlags=withNewFlags(list);
-  $('#dreamGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>{
-    const index=cacheItem(item);
-    const equipped=state.dreamLoadout[type]&&state.dreamLoadout[type].id===item.id;
-    const base=card(item,type,isNew);
-    return base.replace('<article class="item"',`<article class="item dreamPick${equipped?' equipped':''}" role="button" tabindex="0" onclick="DZ.equipDream(${index},'${type.replace(/'/g,'')}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.equipDream(${index},'${type.replace(/'/g,'')}')}"`);
-  }).join('')||'<div class="empty">No cosmetics of this type.</div>';
+  var type = state.dreamCategory;
+  var list = dreamFilterByType(type, arr('br')).filter(matches);
+  var c = $('#dreamLockerCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' ' + type.toLowerCase() + ' options';
+  var withFlags = withNewFlags(list);
+  var el = $('#dreamGrid');
+  if (!el) return;
+  el.innerHTML = withFlags.slice(0, 240).map(function(entry){
+    var item = entry.item;
+    var index = cacheItem(item);
+    var equipped = state.dreamLoadout[type] && state.dreamLoadout[type].id === item.id;
+    var cls = 'dreamPick' + (equipped ? ' equipped' : '');
+    var safeType = type.replace(/'/g, '');
+    return cardHTML(item, type, entry.isNew).replace(
+      '<article class="item"',
+      '<article class="item ' + cls + '" role="button" tabindex="0" onclick="DZ.equipDream(' + index + ',\'' + safeType + '\')" onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();DZ.equipDream(' + index + ',\'' + safeType + '\')}"'
+    );
+  }).join('') || '<div class="empty">No cosmetics of this type.</div>';
 }
-function renderDreamLocker(){renderDreamTools();renderDreamStage();renderDreamGrid();}
+function renderDreamLocker(){
+  renderDreamTools();
+  renderDreamStage();
+  renderDreamGrid();
+}
 
 /* ---------- shop ---------- */
-function shopItemForEntry(x){return x.brItems?.[0]||x.tracks?.[0]||x.instruments?.[0]||x.vehicleSkins?.[0]||x.legoKits?.[0]||x}
-function shopImage(x){return image(shopItemForEntry(x))}
-function shopEntryType(x){const raw=JSON.stringify(x).toLowerCase();if(x.bundle||x.layout?.displayType==='bundle')return'Bundle';if(raw.includes('outfit'))return'Outfit';if(raw.includes('pickaxe'))return'Pickaxe';if(raw.includes('emote'))return'Emote';if(raw.includes('wrap'))return'Wrap';if(raw.includes('glider'))return'Glider';if(raw.includes('backpack'))return'Back Bling';return x.layout?.displayType||'Offer'}
-function shopCategoryName(x){return x.layout?.name||shopEntryType(x)||'Featured'}
-function renderShopOrganizer(entries){
-  const box=$('#shopOrganizer');if(!box)return;
-  const counts={};entries.forEach(x=>{const k=shopCategoryName(x);counts[k]=(counts[k]||0)+1});
-  const cats=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
-  box.innerHTML=`<button class="control active" data-shop-organizer="all">All sections</button>`+cats.map(([k,n])=>`<button class="control" data-shop-organizer="${esc(k)}">${esc(k)} <span style="opacity:.55">${n}</span></button>`).join('');
-  box.querySelectorAll('[data-shop-organizer]').forEach(b=>b.onclick=()=>{box.querySelectorAll('.control').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderShop(b.dataset.shopOrganizer==='all'?null:b.dataset.shopOrganizer)});
+function shopItemForEntry(x){
+  return (x.brItems && x.brItems[0]) || (x.tracks && x.tracks[0]) || (x.instruments && x.instruments[0]) ||
+         (x.vehicleSkins && x.vehicleSkins[0]) || (x.legoKits && x.legoKits[0]) || x;
 }
-function renderShop(sectionFilter=null){
-  let entries=shopEntries().filter(matches);
-  const filter=state.shopFilter;
-  if(filter!=='all')entries=entries.filter(x=>filter==='bundle'?x.bundle||x.layout?.displayType==='bundle':JSON.stringify(x).toLowerCase().includes(filter));
+function shopImage(x){return image(shopItemForEntry(x))}
+function shopEntryType(x){
+  var raw = '';
+  try { raw = JSON.stringify(x).toLowerCase(); } catch(e){}
+  if (x.bundle || (x.layout && x.layout.displayType === 'bundle')) return 'Bundle';
+  if (raw.indexOf('outfit') >= 0) return 'Outfit';
+  if (raw.indexOf('pickaxe') >= 0) return 'Pickaxe';
+  if (raw.indexOf('emote') >= 0) return 'Emote';
+  if (raw.indexOf('wrap') >= 0) return 'Wrap';
+  if (raw.indexOf('glider') >= 0) return 'Glider';
+  if (raw.indexOf('backpack') >= 0) return 'Back Bling';
+  return (x.layout && x.layout.displayType) || 'Offer';
+}
+function shopCategoryName(x){return (x.layout && x.layout.name) || shopEntryType(x) || 'Featured'}
+function renderShopOrganizer(entries){
+  var box = $('#shopOrganizer');
+  if (!box) return;
+  var counts = {};
+  entries.forEach(function(x){
+    var k = shopCategoryName(x);
+    counts[k] = (counts[k]||0) + 1;
+  });
+  var cats = Object.keys(counts).map(function(k){return [k, counts[k]]}).sort(function(a,b){return b[1]-a[1]});
+  box.innerHTML = '<button class="control active" data-shop-organizer="all">All sections</button>' +
+    cats.map(function(c){
+      return '<button class="control" data-shop-organizer="' + esc(c[0]) + '">' + esc(c[0]) + ' <span style="opacity:.55">' + c[1] + '</span></button>';
+    }).join('');
+  box.querySelectorAll('[data-shop-organizer]').forEach(function(b){
+    b.onclick = function(){
+      box.querySelectorAll('.control').forEach(function(x){x.classList.remove('active')});
+      b.classList.add('active');
+      renderShop(b.dataset.shopOrganizer === 'all' ? null : b.dataset.shopOrganizer);
+    };
+  });
+}
+function renderShop(sectionFilter){
+  var entries = shopEntries().filter(matches);
+  var filter = state.shopFilter;
+  if (filter !== 'all') {
+    entries = entries.filter(function(x){
+      if (filter === 'bundle') return x.bundle || (x.layout && x.layout.displayType === 'bundle');
+      return JSON.stringify(x).toLowerCase().indexOf(filter) >= 0;
+    });
+  }
   renderShopOrganizer(entries);
-  if(sectionFilter)entries=entries.filter(x=>shopCategoryName(x)===sectionFilter);
-  const groups={};entries.forEach(x=>{const k=shopCategoryName(x);(groups[k]??=[]).push(x)});
-  const d=DATA.shop?.data?.date||DATA.shop?.date;
-  $('#shopDate').textContent=d?new Date(d).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}):'snapshot unavailable';
-  $('#shopSections').innerHTML=Object.entries(groups).map(([title,items])=>`<div class="shopSection"><div class="shopSectionHead"><h3>${esc(title)}</h3><span>${items.length} offers</span></div><div class="shopGrid">${items.map(x=>{
-    const item=shopItemForEntry(x),i=cacheItem(item),im=shopImage(x);
-    const price=x.finalPrice||x.price?.finalPrice||x.price?.regularPrice||'--';
-    return `<article class="shopItem" role="button" tabindex="0" onclick="DZ.openItem(${i})"><div class="shopImage">${im?`<img loading="lazy" src="${esc(im)}" alt="${esc(name(item))}">`:'<span class="placeholder">FN</span>'}</div><div class="shopBody"><b>${esc(name(item))}</b><div class="shopPriceRow"><small>${esc(shopEntryType(x))}</small><strong>${money(price)} V-Bucks</strong></div></div></article>`;
-  }).join('')}</div></div>`).join('')||'<div class="empty">No offers.</div>';
+  if (sectionFilter) entries = entries.filter(function(x){return shopCategoryName(x) === sectionFilter});
+
+  var groups = {};
+  entries.forEach(function(x){
+    var k = shopCategoryName(x);
+    if (!groups[k]) groups[k] = [];
+    groups[k].push(x);
+  });
+
+  var d = (DATA.shop && DATA.shop.data && DATA.shop.data.date) || (DATA.shop && DATA.shop.date);
+  var dateEl = $('#shopDate');
+  if (dateEl) dateEl.textContent = d ? new Date(d).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}) : 'snapshot unavailable';
+
+  var sections = $('#shopSections');
+  if (!sections) return;
+  sections.innerHTML = Object.keys(groups).map(function(title){
+    var items = groups[title];
+    return '<div class="shopSection"><div class="shopSectionHead"><h3>' + esc(title) + '</h3><span>' + items.length + ' offers</span></div><div class="shopGrid">' +
+      items.map(function(x){
+        var item = shopItemForEntry(x);
+        var i = cacheItem(item);
+        var im = shopImage(x);
+        var price = x.finalPrice || (x.price && (x.price.finalPrice || x.price.regularPrice)) || '--';
+        return '<article class="shopItem" role="button" tabindex="0" onclick="DZ.openItem(' + i + ')">' +
+          '<div class="shopImage">' + (im ? '<img loading="lazy" src="' + esc(im) + '" alt="' + esc(name(item)) + '">' : '<span class="placeholder">FN</span>') + '</div>' +
+          '<div class="shopBody"><b>' + esc(name(item)) + '</b>' +
+            '<div class="shopPriceRow"><small>' + esc(shopEntryType(x)) + '</small><strong>' + money(price) + ' V-Bucks</strong></div>' +
+          '</div>' +
+        '</article>';
+      }).join('') +
+    '</div></div>';
+  }).join('') || '<div class="empty">No offers.</div>';
 }
 function shopResetTarget(){
-  const d=DATA.shop?.data||DATA.shop||{};
-  const c=[d.nextRefresh,d.nextRefreshDate,d.nextReset,d.nextResetDate,d.expiration,d.expiresAt,d.endDate,d.endTime].map(v=>{
-    if(v==null||v==='')return null;
-    if(typeof v==='number')return v<1e11?v*1000:v;
-    const n=Date.parse(v);return Number.isFinite(n)?n:null;
-  }).filter(v=>Number.isFinite(v)&&v>Date.now());
-  if(c.length)return Math.min(...c);
-  const now=new Date();
-  return Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+1,0,0,0,0);
+  var d = (DATA.shop && DATA.shop.data) || DATA.shop || {};
+  var raw = [d.nextRefresh,d.nextRefreshDate,d.nextReset,d.nextResetDate,d.expiration,d.expiresAt,d.endDate,d.endTime];
+  var candidates = raw.map(function(v){
+    if (v == null || v === '') return null;
+    if (typeof v === 'number') return v < 1e11 ? v*1000 : v;
+    var n = Date.parse(v);
+    return Number.isFinite(n) ? n : null;
+  }).filter(function(v){return Number.isFinite(v) && v > Date.now()});
+  if (candidates.length) return Math.min.apply(null, candidates);
+  var now = new Date();
+  return Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()+1, 0, 0, 0, 0);
 }
 function updateShopCountdown(){
-  const el=$('#shopCountdown');if(!el)return;
-  const target=shopResetTarget(),diff=Math.max(0,target-Date.now()),sec=Math.floor(diff/1000);
-  const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
-  el.textContent=`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-  const r=$('#shopResetText');if(r)r.textContent=new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'});
+  var el = $('#shopCountdown');
+  if (!el) return;
+  var target = shopResetTarget();
+  var diff = Math.max(0, target - Date.now());
+  var sec = Math.floor(diff / 1000);
+  var h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60), s = sec%60;
+  el.textContent = pad(h) + ':' + pad(m) + ':' + pad(s);
+  var r = $('#shopResetText');
+  if (r) r.textContent = new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'});
 }
+function pad(n){return n<10 ? '0'+n : String(n)}
 
 /* ---------- weapons ---------- */
-function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
+function weaponCategory(item){
+  var text = (name(item) + ' ' + (item.id||'') + ' ' + ((item.gameplayTags||[]).join(' '))).toLowerCase();
+  if (/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text)) return 'collabs';
+  if (/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)/.test(text)) return 'heals';
+  if (/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text)) return 'grenades';
+  if (/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield/.test(text)) return 'utility';
+  if (/trait\.vehicle|vehicle|turret|biplane/.test(text)) return 'vehicles';
+  if (/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text)) return 'melee';
+  return 'weapons';
+}
 function renderWeapons(){
-  const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];
-  const toolbar=$('#weaponsTable').previousElementSibling;
-  if(toolbar&&!$('#weaponCategory')){
-    const select=document.createElement('select');select.id='weaponCategory';select.className='control';
-    select.innerHTML=filters.map(([v,l])=>`<option value="${v}">${l}</option>`).join('');
-    select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});
-    toolbar.insertBefore(select,toolbar.firstChild);
+  var category = state.weaponCategory;
+  var list = arr('weapons').filter(matches)
+    .filter(function(x){return state.weaponRarity === 'all' || (x.rarity && x.rarity.name === state.weaponRarity)})
+    .filter(function(x){return category === 'all' || weaponCategory(x) === category});
+  list.sort(function(a,b){
+    if (state.damageSort) return ((b.stats && b.stats.DmgPB) || 0) - ((a.stats && a.stats.DmgPB) || 0);
+    return name(a).localeCompare(name(b));
+  });
+  var c = $('#weaponsCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' of ' + arr('weapons').length.toLocaleString() + ' items';
+  var tbl = $('#weaponsTable');
+  if (!tbl) return;
+  if (!list.length) {
+    tbl.innerHTML = '<div class="empty">No weapons in the current snapshot. The Fortnite-Datamining repo does not publish a weapons table — this panel will populate when one is available.</div>';
+    return;
   }
-  const category=state.weaponCategory||'all';
-  const list=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);
-  list.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));
-  $('#weaponsCount').textContent=`${list.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;
-  $('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${list.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>`;
+  tbl.innerHTML = '<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>' +
+    list.slice(0,500).map(function(x){
+      return '<tr>' +
+        '<td><div class="weaponName">' + (x.imageUrl ? '<img class="weaponIcon" loading="lazy" src="' + esc(x.imageUrl) + '" alt="">' : '') + esc(name(x)) + '</div></td>' +
+        '<td>' + esc(weaponCategory(x)) + '</td>' +
+        '<td>' + esc((x.rarity && x.rarity.name) || 'Unknown') + '</td>' +
+        '<td>' + ((x.stats && x.stats.DmgPB) != null ? x.stats.DmgPB : '--') + '</td>' +
+        '<td>' + ((x.stats && x.stats.FiringRate) != null ? x.stats.FiringRate : '--') + '</td>' +
+        '<td>' + ((x.stats && x.stats.ClipSize) != null ? x.stats.ClipSize : '--') + '</td>' +
+      '</tr>';
+    }).join('') +
+  '</tbody></table>';
 }
 
 /* ---------- modes ---------- */
 function renderModes(){
-  const list=arr('playlists').filter(matches).filter(x=>{
-    if(state.modeFilter==='all')return true;
-    const s=JSON.stringify(x).toLowerCase();
-    return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle');
+  var list = arr('playlists').filter(matches).filter(function(x){
+    if (state.modeFilter === 'all') return true;
+    var s = '';
+    try { s = JSON.stringify(x).toLowerCase(); } catch(e){}
+    if (state.modeFilter === 'creative') return s.indexOf('creative') >= 0;
+    if (state.modeFilter === 'team') return s.indexOf('team') >= 0 || s.indexOf('squad') >= 0;
+    return s.indexOf('pvp') >= 0 || s.indexOf('battle') >= 0;
   });
-  $('#modesCount').textContent=`${list.length.toLocaleString()} playlists`;
-  $('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th></tr></thead><tbody>${list.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td></tr>`).join('')}</tbody></table>`;
+  var c = $('#modesCount');
+  if (c) c.textContent = list.length.toLocaleString() + ' playlists';
+  var tbl = $('#modesTable');
+  if (!tbl) return;
+  tbl.innerHTML = '<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th></tr></thead><tbody>' +
+    list.slice(0,260).map(function(x){
+      return '<tr><td><b>' + esc(name(x)) + '</b></td>' +
+        '<td>' + esc(x.gameType || x.type || x.category || 'Battle Royale') + '</td>' +
+        '<td>' + esc(x.maxPlayers || x.maxTeamPlayers || '--') + '</td></tr>';
+    }).join('') +
+  '</tbody></table>';
 }
 
 /* ---------- map ---------- */
 function renderMap(){
-  const d=DATA.map?.data||DATA.map||{};
-  const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map||d.image;
-  $('#mapImage').src=url||'';
-  const dt=d.date||d.updatedAt;
-  $('#mapMeta').textContent=dt?`Updated ${new Date(dt).toLocaleDateString()}`:'current map snapshot';
+  var d = (DATA.map && DATA.map.data) || DATA.map || {};
+  var imgs = d.images || {};
+  var url = imgs.blank || imgs.pois || imgs.poisBig || imgs.map || d.image;
+  var img = $('#mapImage');
+  if (img) img.src = url || '';
+  var dt = d.date || d.updatedAt;
+  var meta = $('#mapMeta');
+  if (meta) meta.textContent = dt ? 'Updated ' + new Date(dt).toLocaleDateString() : 'current map snapshot';
 }
 
 /* ---------- player ---------- */
-async function playerJson(url){
-  const r=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
-  const t=await r.text();
-  try{return JSON.parse(t)}catch{return null}
-}
 function renderPlayerResult(){
-  const el=$('#playerResult');if(!el)return;
-  if(!playerState.account){el.innerHTML='<div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div>';return}
-  const a=playerState.account;
-  const details=a.accountDetails||a.details||a;
-  const display=firstDefined(details.epic?.displayName,details.epic?.name,details.displayName,details.name,a.displayName,a.name)||'Unknown player';
-  const id=firstDefined(a.accountId,a.id,details.accountId,details.epic?.accountId,details.epic?.id)||'Unavailable';
-  el.innerHTML=`<div class="playerIdentity"><div><div class="eyebrow">Epic account</div><h2>${esc(display)}</h2><div class="playerId">Epic ID: ${esc(id)}</div></div><div class="playerStatus private">RESOLVED</div></div>`;
-}
-async function lookupPlayer(name){
-  const el=$('#playerResult');const q=String(name||'').trim();
-  if(!q)return toast('Enter a name first.');
-  el.innerHTML='<div class="playerLoading">Resolving Epic account…</div>';
-  try{
-    const url=`https://dev.fnapi.osirion.gg/v1/accounts/lookup-by-display-name?displayName=${encodeURIComponent(q)}&platform=epic`;
-    const r=await playerJson(url);
-    const cand=r?.accounts?.[0]||r?.data?.accounts?.[0]||r?.data?.account||r?.account||r;
-    if(!cand)throw Error('No account returned');
-    playerState.account=cand;
-    renderPlayerResult();
-  }catch(e){
-    el.innerHTML=`<div class="playerNotice"><b>${esc(e.message||'Lookup failed.')}</b><br><small>Try again in a moment.</small></div>`;
+  var el = $('#playerResult');
+  if (!el) return;
+  if (!playerState.account) {
+    el.innerHTML = '<div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div>';
+    return;
   }
+  var a = playerState.account;
+  var details = a.accountDetails || a.details || a;
+  var epic = details.epic || {};
+  var display = firstDefined(epic.displayName, epic.name, details.displayName, details.name, a.displayName, a.name) || 'Unknown player';
+  var id = firstDefined(a.accountId, a.id, details.accountId, epic.accountId, epic.id) || 'Unavailable';
+  el.innerHTML = '<div class="playerIdentity"><div><div class="eyebrow">Epic account</div><h2>' + esc(display) + '</h2><div class="playerId">Epic ID: ' + esc(id) + '</div></div><div class="playerStatus">RESOLVED</div></div>';
+}
+function lookupPlayer(nameIn){
+  var el = $('#playerResult');
+  if (!el) return;
+  var q = String(nameIn||'').trim();
+  if (!q) return toast('Enter a name first.');
+  el.innerHTML = '<div class="playerLoading">Resolving Epic account…</div>';
+  var url = 'https://dev.fnapi.osirion.gg/v1/accounts/lookup-by-display-name?displayName=' + encodeURIComponent(q) + '&platform=epic';
+  fetch(url, {headers:{'Accept':'application/json'}, cache:'no-store'})
+    .then(function(r){return r.text().then(function(t){try{return JSON.parse(t)}catch(e){return null}})})
+    .then(function(r){
+      var cand = (r && r.accounts && r.accounts[0]) || (r && r.data && r.data.accounts && r.data.accounts[0]) || (r && r.data && r.data.account) || (r && r.account) || r;
+      if (!cand) throw new Error('No account returned');
+      playerState.account = cand;
+      renderPlayerResult();
+    })
+    .catch(function(e){
+      el.innerHTML = '<div class="playerNotice"><b>' + esc(e.message || 'Lookup failed.') + '</b><br><small>Try again in a moment.</small></div>';
+    });
 }
 
-/* ---------- detail ---------- */
+/* ---------- item detail ---------- */
 function openItem(index){
-  const item=ITEM_CACHE[index];if(!item)return;
-  activeItemIndex=index;
-  $('#detailType').textContent=String(detailType(item)).toUpperCase();
-  $('#detailName').textContent=name(item);
-  $('#detailDescription').textContent=detailDescription(item);
-  $('#detailId').textContent=item.id||'—';
-  $('#detailRarity').textContent=detailRarity(item)||'—';
-  $('#detailSet').textContent=detailSet(item)||'—';
-  $('#detailAdded').textContent=formatDate(detailRelease(item));
-  $('#detailSeason').textContent=detailIntroduction(item)||'—';
-  $('#detailSeries').textContent=detailSeries(item)||'—';
-  $('#detailIntroduction').textContent=detailIntroduction(item)||'—';
-  $('#detailMeta').textContent=[
-    metaPath(item,['rarity.backendValue'])&&`Rarity: ${metaPath(item,['rarity.backendValue'])}`,
-    metaPath(item,['set.backendValue'])&&`Set: ${metaPath(item,['set.backendValue'])}`,
-    item.gameplayTags?.length&&`${item.gameplayTags.length} tags`,
-    item.variants?.length&&`${item.variants.length} variants`,
-  ].filter(Boolean).join(' · ')||'No additional metadata.';
-  const media=image(item);
-  $('#detailMedia').innerHTML=media?`<img src="${esc(media)}" alt="${esc(name(item))}">`:'<span class="placeholder">NO PREVIEW</span>';
-  $('#detailJson').textContent=JSON.stringify(item,null,2);
-  $('#detailJson').style.display='none';
-  $('#detailRaw').textContent='Show raw JSON';
-  $('#detailRaw').onclick=()=>{const raw=$('#detailJson');const open=raw.style.display==='block';raw.style.display=open?'none':'block';$('#detailRaw').textContent=open?'Show raw JSON':'Hide raw JSON'};
-  $('#detailFullscreen').onclick=()=>DZ.openFullscreen(index);
-  $('#detailLocker').onclick=()=>DZ.toggleLocker(index);
-  $('#detailBackdrop').classList.add('open');
+  var item = ITEM_CACHE[index];
+  if (!item) return;
+  activeItemIndex = index;
+  setText('#detailType', String(detailType(item)).toUpperCase());
+  setText('#detailName', name(item));
+  setText('#detailDescription', detailDescription(item));
+  setText('#detailId', item.id || '—');
+  setText('#detailRarity', detailRarity(item) || '—');
+  setText('#detailSet', detailSet(item) || '—');
+  setText('#detailAdded', formatDate(detailRelease(item)));
+  setText('#detailSeason', detailIntroduction(item) || '—');
+  setText('#detailSeries', detailSeries(item) || '—');
+  setText('#detailIntroduction', detailIntroduction(item) || '—');
+  var metaParts = [];
+  if (metaPath(item, ['rarity.backendValue'])) metaParts.push('Rarity: ' + metaPath(item, ['rarity.backendValue']));
+  if (metaPath(item, ['set.backendValue'])) metaParts.push('Set: ' + metaPath(item, ['set.backendValue']));
+  if (item.gameplayTags && item.gameplayTags.length) metaParts.push(item.gameplayTags.length + ' tags');
+  if (item.variants && item.variants.length) metaParts.push(item.variants.length + ' variants');
+  setText('#detailMeta', metaParts.join(' · ') || 'No additional metadata.');
+
+  var media = image(item);
+  var mediaEl = $('#detailMedia');
+  if (mediaEl) mediaEl.innerHTML = media
+    ? '<img src="' + esc(media) + '" alt="' + esc(name(item)) + '">'
+    : '<span class="placeholder">NO PREVIEW</span>';
+
+  var json = $('#detailJson');
+  if (json) { json.textContent = JSON.stringify(item, null, 2); json.style.display = 'none'; }
+  var raw = $('#detailRaw');
+  if (raw) {
+    raw.textContent = 'Show raw JSON';
+    raw.onclick = function(){
+      var j = $('#detailJson'); if (!j) return;
+      var isOpen = j.style.display === 'block';
+      j.style.display = isOpen ? 'none' : 'block';
+      raw.textContent = isOpen ? 'Show raw JSON' : 'Hide raw JSON';
+    };
+  }
+  var fs = $('#detailFullscreen');
+  if (fs) fs.onclick = function(){ openFullscreen(index) };
+  var lk = $('#detailLocker');
+  if (lk) lk.onclick = function(){ toggleLocker(index) };
+  var bd = $('#detailBackdrop');
+  if (bd) { bd.classList.add('open'); bd.setAttribute('aria-hidden','false'); }
+  renderStyles(item);
   updateLockerButton();
 }
+function setText(sel, v){var el = $(sel); if (el) el.textContent = v;}
+
 function openFullscreen(index){
-  const item=ITEM_CACHE[index];if(!item)return;
-  const media=image(item);
-  if(!media)return toast('No preview image.');
-  activeItemIndex=index;
-  $('#viewerTitle').textContent=name(item);
-  $('#viewerImage').src=media;
-  $('#viewerImage').alt=name(item);
-  $('#fullscreenViewer').classList.add('open');
-  $('#detailBackdrop').classList.remove('open');
+  var item = ITEM_CACHE[index];
+  if (!item) return;
+  var media = image(item);
+  if (!media) return toast('No preview image.');
+  activeItemIndex = index;
+  setText('#viewerTitle', name(item));
+  var img = $('#viewerImage');
+  if (img) { img.src = media; img.alt = name(item); }
+  var fv = $('#fullscreenViewer');
+  if (fv) fv.classList.add('open');
+  var bd = $('#detailBackdrop');
+  if (bd) bd.classList.remove('open');
+  renderViewerInfo(item);
 }
 function viewerNav(dir){
-  const next=activeItemIndex+dir;
-  if(next<0||next>=ITEM_CACHE.length)return;
-  const item=ITEM_CACHE[next];if(!item||!image(item))return;
-  activeItemIndex=next;
-  $('#viewerTitle').textContent=name(item);
-  $('#viewerImage').src=image(item);
+  var next = activeItemIndex + dir;
+  if (next < 0 || next >= ITEM_CACHE.length) return;
+  var item = ITEM_CACHE[next];
+  if (!item || !image(item)) return;
+  activeItemIndex = next;
+  setText('#viewerTitle', name(item));
+  var img = $('#viewerImage');
+  if (img) { img.src = image(item); img.alt = name(item); }
+  renderViewerInfo(item);
+}
+function renderViewerInfo(item){
+  var box = $('#viewerInfo');
+  if (!box) return;
+  box.innerHTML = '<div class="viewerInfoTitle">' + esc(name(item)) + '</div>' +
+    '<div class="viewerInfoDesc">' + esc(detailDescription(item)) + '</div>' +
+    '<div class="viewerInfoMeta">' +
+      '<span><b>ID</b>' + esc(item.id||'—') + '</span>' +
+      '<span><b>Rarity</b>' + esc(detailRarity(item)||'—') + '</span>' +
+      '<span><b>Set</b>' + esc(detailSet(item)||'—') + '</span>' +
+      '<span><b>Release</b>' + esc(formatDate(detailRelease(item))) + '</span>' +
+      '<span><b>Season</b>' + esc(detailIntroduction(item)||'—') + '</span>' +
+      '<span><b>Series</b>' + esc(detailSeries(item)||'—') + '</span>' +
+    '</div>';
 }
 function closeOverlay(){
-  $('#detailBackdrop').classList.remove('open');
-  $('#fullscreenViewer').classList.remove('open');
-  const img=$('#viewerImage');if(img)img.removeAttribute('src');
+  var bd = $('#detailBackdrop'); if (bd) bd.classList.remove('open');
+  var fv = $('#fullscreenViewer'); if (fv) fv.classList.remove('open');
+  var img = $('#viewerImage'); if (img) img.removeAttribute('src');
+  var ab = $('#authModal'); if (ab) ab.classList.remove('open');
 }
-function updateLockerButton(){
-  const b=$('#detailLocker');if(!b)return;
-  const saved=activeItemIndex>=0&&lockerItems.some(x=>x.id===ITEM_CACHE[activeItemIndex]?.id);
-  b.textContent=saved?'Remove from locker':'Add to locker';
+function renderStyles(item){
+  var panel = $('#styleGallery');
+  if (!panel) return;
+  var variants = [];
+  (item.variants || []).forEach(function(group){
+    (group.options || []).forEach(function(opt){
+      var copy = {};
+      for (var k in opt) copy[k] = opt[k];
+      copy.channel = group.channel || 'Style';
+      variants.push(copy);
+    });
+  });
+  if (!variants.length) {
+    panel.innerHTML = '<div class="detailLabel">Styles & variants</div><div class="detailValue">No alternate styles are exposed for this cosmetic.</div>';
+    return;
+  }
+  panel.innerHTML = '<div class="detailLabel">Styles & variants (' + variants.length + ')</div><div class="styleGrid">' +
+    variants.map(function(opt, index){
+      return '<button class="styleOption" data-style-index="' + index + '" title="' + esc(opt.name||opt.tag||'Style') + '">' +
+        (opt.image ? '<img src="' + esc(opt.image) + '" alt="' + esc(opt.name||opt.tag||'Style') + '">' : '<span>NO PREVIEW</span>') +
+        '<b>' + esc(opt.name||opt.tag||'Style') + '</b><small>' + esc(opt.channel) + '</small>' +
+      '</button>';
+    }).join('') + '</div>';
+  panel.querySelectorAll('.styleOption').forEach(function(btn, i){
+    btn.addEventListener('click', function(){
+      var opt = variants[i];
+      if (!opt || !opt.image) return;
+      var vimg = $('#viewerImage');
+      if (vimg) { vimg.src = opt.image; vimg.alt = opt.name || 'Style'; }
+      setText('#viewerTitle', opt.name || opt.tag || 'Style');
+      var fv = $('#fullscreenViewer'); if (fv) fv.classList.add('open');
+      var bd = $('#detailBackdrop'); if (bd) bd.classList.remove('open');
+    });
+  });
+}
+
+/* ---------- locker ---------- */
+function renderLocker(){
+  var grid = $('#lockerGrid');
+  var counter = $('.lockerCount');
+  if (counter) counter.textContent = lockerItems.length + ' saved cosmetics';
+  if (grid) {
+    grid.innerHTML = lockerItems.map(function(item){return interactiveCard(item, 'Locker')}).join('') || '<div class="empty">Your locker is empty.</div>';
+  }
 }
 function toggleLocker(index){
-  if(!currentUser)return;
-  const item=ITEM_CACHE[index];if(!item?.id)return;
-  const i=lockerItems.findIndex(x=>x.id===item.id);
-  if(i>=0)lockerItems.splice(i,1);else lockerItems.push(item);
-  safeStorage.setItem('dropzone_locker',JSON.stringify(lockerItems));
-  toast(i>=0?'Removed':'Added');
+  if (!currentUser) return openAuth();
+  var item = ITEM_CACHE[index];
+  if (!item || !item.id) return;
+  var i = -1;
+  for (var j=0;j<lockerItems.length;j++) if (lockerItems[j].id === item.id) {i = j; break;}
+  if (i >= 0) lockerItems.splice(i, 1);
+  else lockerItems.push(item);
+  safeStorage.setItem('dropzone_locker', JSON.stringify(lockerItems));
   updateLockerButton();
+  renderLocker();
+  updateAccountUI();
+  toast(i >= 0 ? 'Removed from locker' : 'Added to locker');
+}
+function updateLockerButton(){
+  var b = $('#detailLocker'); if (!b) return;
+  var current = ITEM_CACHE[activeItemIndex];
+  var saved = current && lockerItems.some(function(x){return x.id === current.id});
+  b.textContent = saved ? 'Remove from locker' : 'Add to locker';
+}
+function openAuth(){var m = $('#authModal'); if (m) m.classList.add('open')}
+function closeAuth(){var m = $('#authModal'); if (m) m.classList.remove('open')}
+function updateAccountUI(){
+  var signedIn = !!currentUser;
+  var b = $('#accountButton'); if (b) b.textContent = signedIn ? currentUser : 'Sign in';
+  var n = $('#lockerNavCount'); if (n) n.textContent = signedIn ? String(lockerItems.length) : 'LOCKED';
+  var u = $('#settingsUser'); if (u) u.textContent = signedIn ? ('Signed in as ' + currentUser) : 'Not signed in';
+  var a = $('#settingsAuth'); if (a) a.textContent = signedIn ? 'Sign out' : 'Sign in';
+  var g = $('#lockerGreeting'); if (g) g.textContent = signedIn ? (currentUser + "'s locker") : 'Sign in to build your locker';
+  updateLockerButton();
+}
+function signOut(){
+  currentUser = '';
+  safeStorage.removeItem('dropzone_user');
+  updateAccountUI();
+  setView('home');
+  toast('Signed out');
 }
 
 /* ---------- view switching ---------- */
 function renderView(){
-  ITEM_CACHE.length=0;Object.keys(SHOP_CONTEXT).forEach(k=>delete SHOP_CONTEXT[k]);
-  const v=state.view;
-  $$('.view').forEach(x=>x.classList.toggle('active',x.id===v));
-  $$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));
-  if(v==='shop')renderShop();
-  else if(v==='news')renderNews();
-  else if(v==='playerstats')renderPlayerResult();
-  else if(v==='map')renderMap();
-  else if(v==='outfits')renderOutfits();
-  else if(v==='dreamlocker')renderDreamLocker();
-  else if(v==='cosmetics')renderCosmetics();
-  else if(v==='lego')renderLego();
-  else if(v==='festival')renderFestival();
-  else if(v==='vehicles')renderVehicles();
-  else if(v==='beans')renderBeans();
-  else if(v==='banners')renderBanners();
-  else if(v==='weapons')renderWeapons();
-  else if(v==='modes')renderModes();
-  window.scrollTo({top:0,behavior:'smooth'});
-  $('#sidebar').classList.remove('open');
+  resetItemCache();
+  var v = state.view;
+  $$('.view').forEach(function(x){x.classList.toggle('active', x.id === v)});
+  $$('.navItem').forEach(function(x){x.classList.toggle('active', x.dataset.view === v)});
+  try {
+    if (v === 'shop') renderShop();
+    else if (v === 'news') renderNews();
+    else if (v === 'playerstats') renderPlayerResult();
+    else if (v === 'map') renderMap();
+    else if (v === 'outfits') renderOutfits();
+    else if (v === 'dreamlocker') renderDreamLocker();
+    else if (v === 'cosmetics') renderCosmetics();
+    else if (v === 'lego') renderLego();
+    else if (v === 'festival') renderFestival();
+    else if (v === 'vehicles') renderVehicles();
+    else if (v === 'beans') renderBeans();
+    else if (v === 'banners') renderBanners();
+    else if (v === 'weapons') renderWeapons();
+    else if (v === 'modes') renderModes();
+    else if (v === 'locker') renderLocker();
+    else if (v === 'settings') updateAccountUI();
+    else if (v === 'home') { renderStats(); renderNews(); }
+  } catch(e){ fatal('render failed for ' + v + ': ' + e.message); console.error(e); }
+  window.scrollTo({top:0, behavior:'smooth'});
+  var sb = $('#sidebar'); if (sb) sb.classList.remove('open');
 }
-function setView(v){state.view=v;renderView()}
+function setView(v){
+  state.view = v;
+  renderView();
+}
 
 /* ---------- public API ---------- */
-Object.assign(window.DZ,{
-  setView, openItem, openFullscreen, viewerNav, closeOverlay, toggleLocker,
-  equipDream:(index,type)=>{const item=ITEM_CACHE[index];if(!item)return;const cur=state.dreamLoadout[type];state.dreamLoadout[type]=(cur&&cur.id===item.id)?null:item;renderDreamStage();renderDreamGrid()},
-  refreshAll:async()=>{toast('Refreshing from repo…');await loadAll(true);renderStats();renderNews();renderView();toast('Refreshed')},
+Object.assign(window.DZ, {
+  setView: setView,
+  openItem: openItem,
+  openFullscreen: openFullscreen,
+  viewerNav: viewerNav,
+  closeOverlay: closeOverlay,
+  closeAuth: closeAuth,
+  toggleLocker: toggleLocker,
+  equipDream: function(index, type){
+    var item = ITEM_CACHE[index]; if (!item) return;
+    var cur = state.dreamLoadout[type];
+    state.dreamLoadout[type] = (cur && cur.id === item.id) ? null : item;
+    renderDreamStage();
+    renderDreamGrid();
+  },
+  openNews: function(index){
+    var item = NEWS_CACHE[index]; if (!item) return;
+    toast((item.title || item.tabTitle || 'News') + ' — open in-game for full text.');
+  },
+  refreshAll: function(){
+    toast('Refreshing from repo…');
+    loadAll(true).then(function(){
+      renderStats(); renderNews();
+      if (state.view !== 'home') renderView(); else updateSyncLabels();
+      toast('Refreshed');
+    });
+  }
 });
 
-/* ---------- boot & auto refresh ---------- */
+/* ---------- wire UI ---------- */
 function wireUI(){
-  $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{setView(x.dataset.view)}));
-  $('#menu')?.addEventListener('click',()=>$('#sidebar').classList.toggle('open'));
-  $('#search')?.addEventListener('input',e=>{state.query=e.target.value.trim();if(state.view==='home'){renderNews();renderStats()}else renderView()});
-  $$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-shop-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.shopFilter=x.dataset.shopFilter;renderShop()}));
-  $$('[data-lego-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-lego-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.legoFilter=x.dataset.legoFilter;renderLego()}));
-  $$('[data-festival-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-festival-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.festivalFilter=x.dataset.festivalFilter;renderFestival()}));
-  $$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.modeFilter=x.dataset.modeFilter;renderModes()}));
-  $('#weaponRarity')?.addEventListener('change',e=>{state.weaponRarity=e.target.value;renderWeapons()});
-  $('#damageSort')?.addEventListener('click',()=>{state.damageSort=!state.damageSort;$('#damageSort').classList.toggle('active',state.damageSort);renderWeapons()});
-  $('#outfitRefreshBtn')?.addEventListener('click',()=>DZ.refreshAll());
-  $('#shopRefreshBtn')?.addEventListener('click',()=>DZ.refreshAll());
-  $('#detailBackdrop')?.addEventListener('click',e=>{if(e.target.id==='detailBackdrop')closeOverlay()});
-  document.addEventListener('keydown',e=>{
-    if(e.key==='Escape')closeOverlay();
-    if($('#fullscreenViewer')?.classList.contains('open')){
-      if(e.key==='ArrowLeft')viewerNav(-1);
-      if(e.key==='ArrowRight')viewerNav(1);
+  $$('[data-view]').forEach(function(x){
+    x.addEventListener('click', function(){ setView(x.dataset.view) });
+  });
+  var menu = $('#menu'); if (menu) menu.addEventListener('click', function(){ $('#sidebar').classList.toggle('open') });
+
+  var search = $('#search');
+  if (search) search.addEventListener('input', function(e){
+    state.query = e.target.value.trim();
+    if (state.view === 'home') { renderNews(); renderStats(); }
+    else renderView();
+  });
+
+  $$('[data-shop-filter]').forEach(function(x){
+    x.addEventListener('click', function(){
+      $$('[data-shop-filter]').forEach(function(b){b.classList.remove('active')});
+      x.classList.add('active');
+      state.shopFilter = x.dataset.shopFilter;
+      renderShop();
+    });
+  });
+
+  $$('[data-lego-filter]').forEach(function(x){
+    x.addEventListener('click', function(){
+      $$('[data-lego-filter]').forEach(function(b){b.classList.remove('active')});
+      x.classList.add('active');
+      state.legoFilter = x.dataset.legoFilter;
+      renderLego();
+    });
+  });
+
+  $$('[data-festival-filter]').forEach(function(x){
+    x.addEventListener('click', function(){
+      $$('[data-festival-filter]').forEach(function(b){b.classList.remove('active')});
+      x.classList.add('active');
+      state.festivalFilter = x.dataset.festivalFilter;
+      renderFestival();
+    });
+  });
+
+  $$('[data-mode-filter]').forEach(function(x){
+    x.addEventListener('click', function(){
+      $$('[data-mode-filter]').forEach(function(b){b.classList.remove('active')});
+      x.classList.add('active');
+      state.modeFilter = x.dataset.modeFilter;
+      renderModes();
+    });
+  });
+
+  var wr = $('#weaponRarity');
+  if (wr) wr.addEventListener('change', function(e){ state.weaponRarity = e.target.value; renderWeapons(); });
+  var wc = $('#weaponCategory');
+  if (wc) wc.addEventListener('change', function(e){ state.weaponCategory = e.target.value; renderWeapons(); });
+  var ds = $('#damageSort');
+  if (ds) ds.addEventListener('click', function(){
+    state.damageSort = !state.damageSort;
+    ds.classList.toggle('active', state.damageSort);
+    renderWeapons();
+  });
+
+  var orBtn = $('#outfitRefreshBtn'); if (orBtn) orBtn.addEventListener('click', function(){ window.DZ.refreshAll() });
+  var srBtn = $('#shopRefreshBtn'); if (srBtn) srBtn.addEventListener('click', function(){ window.DZ.refreshAll() });
+  var stBtn = $('#settingsRefresh'); if (stBtn) stBtn.addEventListener('click', function(){ window.DZ.refreshAll() });
+
+  var bd = $('#detailBackdrop');
+  if (bd) bd.addEventListener('click', function(e){ if (e.target.id === 'detailBackdrop') closeOverlay(); });
+
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') closeOverlay();
+    var fv = $('#fullscreenViewer');
+    if (fv && fv.classList.contains('open')) {
+      if (e.key === 'ArrowLeft') viewerNav(-1);
+      if (e.key === 'ArrowRight') viewerNav(1);
     }
   });
-  $('#dreamRandomize')?.addEventListener('click',()=>{
-    DREAM_SLOTS.forEach(type=>{
-      const cat=type.toLowerCase().replace(/\s+/g,'');
-      const pool=arr('br').filter(x=>{
-        const cv=categoryValue(x);
-        if(cat==='backbling')return cv==='backpack';
-        return cv===cat;
-      });
-      if(pool.length)state.dreamLoadout[type]=pool[Math.floor(Math.random()*pool.length)];
+
+  var rand = $('#dreamRandomize');
+  if (rand) rand.addEventListener('click', function(){
+    DREAM_SLOTS.forEach(function(type){
+      var pool = dreamFilterByType(type, arr('br'));
+      if (pool.length) state.dreamLoadout[type] = pool[Math.floor(Math.random()*pool.length)];
     });
-    renderDreamStage();renderDreamGrid();toast('Randomized');
+    renderDreamStage(); renderDreamGrid();
+    toast('Randomized');
   });
-  $('#dreamClear')?.addEventListener('click',()=>{
-    DREAM_SLOTS.forEach(t=>state.dreamLoadout[t]=null);
-    renderDreamStage();renderDreamGrid();toast('Cleared');
+  var clr = $('#dreamClear');
+  if (clr) clr.addEventListener('click', function(){
+    DREAM_SLOTS.forEach(function(t){state.dreamLoadout[t] = null});
+    renderDreamStage(); renderDreamGrid();
+    toast('Cleared');
   });
-  document.addEventListener('click',e=>{
-    const btn=e.target.closest('[data-dream-cat]');if(!btn)return;
-    state.dreamCategory=btn.dataset.dreamCat;
-    renderDreamTools();renderDreamStage();renderDreamGrid();
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest && e.target.closest('[data-dream-cat]');
+    if (!btn) return;
+    state.dreamCategory = btn.dataset.dreamCat;
+    renderDreamTools(); renderDreamStage(); renderDreamGrid();
   });
-  $('#playerLookupForm')?.addEventListener('submit',e=>{e.preventDefault();lookupPlayer($('#playerLookupInput').value)});
-  /* map pan/zoom */
-  const canvas=$('#mapCanvas');
-  if(canvas){
-    let m={scale:1,x:0,y:0,drag:false,sx:0,sy:0};
-    const apply=()=>{ $('#mapImage').style.transform=`translate(calc(-50% + ${m.x}px),calc(-50% + ${m.y}px)) scale(${m.scale})` };
-    canvas.addEventListener('wheel',e=>{e.preventDefault();m.scale=Math.max(.55,Math.min(2.4,m.scale+(e.deltaY<0?.1:-.1)));apply()},{passive:false});
-    canvas.addEventListener('pointerdown',e=>{m.drag=true;m.sx=e.clientX-m.x;m.sy=e.clientY-m.y;canvas.setPointerCapture(e.pointerId)});
-    canvas.addEventListener('pointermove',e=>{if(m.drag){m.x=e.clientX-m.sx;m.y=e.clientY-m.sy;apply()}});
-    canvas.addEventListener('pointerup',()=>m.drag=false);
+
+  var pf = $('#playerLookupForm');
+  if (pf) pf.addEventListener('submit', function(e){
+    e.preventDefault();
+    lookupPlayer($('#playerLookupInput').value);
+  });
+
+  var ab = $('#accountButton');
+  if (ab) ab.addEventListener('click', function(){
+    if (currentUser) setView('settings'); else openAuth();
+  });
+  var auth = $('#authForm');
+  if (auth) auth.addEventListener('submit', function(e){
+    e.preventDefault();
+    var inp = auth.querySelector('input');
+    var u = inp ? inp.value.trim() : '';
+    if (!u) { if (inp) inp.focus(); return; }
+    currentUser = u;
+    safeStorage.setItem('dropzone_user', u);
+    closeAuth();
+    updateAccountUI();
+    setView('locker');
+  });
+  var sa = $('#settingsAuth');
+  if (sa) sa.addEventListener('click', function(){ if (currentUser) signOut(); else openAuth(); });
+  var cl = $('#clearLocker');
+  if (cl) cl.addEventListener('click', function(){
+    lockerItems = [];
+    safeStorage.setItem('dropzone_locker', '[]');
+    renderLocker();
+    updateAccountUI();
+    toast('Locker cleared');
+  });
+
+  // map pan/zoom
+  var canvas = $('#mapCanvas');
+  if (canvas) {
+    var m = {scale:1, x:0, y:0, drag:false, sx:0, sy:0};
+    function apply(){var img = $('#mapImage'); if (img) img.style.transform = 'translate(calc(-50% + ' + m.x + 'px),calc(-50% + ' + m.y + 'px)) scale(' + m.scale + ')';}
+    canvas.addEventListener('wheel', function(e){
+      e.preventDefault();
+      m.scale = Math.max(0.55, Math.min(2.4, m.scale + (e.deltaY < 0 ? 0.1 : -0.1)));
+      apply();
+    }, {passive:false});
+    canvas.addEventListener('pointerdown', function(e){
+      m.drag = true; m.sx = e.clientX - m.x; m.sy = e.clientY - m.y;
+      try { canvas.setPointerCapture(e.pointerId); } catch(err){}
+    });
+    canvas.addEventListener('pointermove', function(e){
+      if (!m.drag) return;
+      m.x = e.clientX - m.sx; m.y = e.clientY - m.sy; apply();
+    });
+    canvas.addEventListener('pointerup', function(){ m.drag = false; });
   }
 }
-async function boot(){
-  try{
-    $('#updated').textContent='Fetching from Fortnite-Datamining…';
-    await loadAll(true);
-    const b=DATA.build?.build||DATA.build?.data?.build||'unknown build';
-    $('#buildHero').textContent=b.replace(/^\+\+\w+\+Release-/,'RELEASE ');
-    $('#buildSide').textContent=b;
-    $('#updated').textContent='Fortnite-Datamining repo · auto-refresh 15m';
-    const keys=Object.keys(DATASETS),loaded=keys.filter(k=>DATA[k]).length;
-    $('#health').textContent=`${loaded}/${keys.length} sources`;
-    $('#healthBar').style.width=`${loaded/keys.length*100}%`;
-    $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
-    renderStats();renderNews();renderView();updateSyncLabels();updateShopCountdown();
-  }catch(e){
-    showFatal('Boot failed: '+e.message);
+
+/* ---------- boot ---------- */
+function boot(){
+  var upd = $('#updated');
+  if (upd) upd.textContent = 'Fetching from Fortnite-Datamining…';
+  return loadAll(true).then(function(){
+    var b = (DATA.build && (DATA.build.build || (DATA.build.data && DATA.build.data.build))) || 'unknown build';
+    setText('#buildHero', String(b).replace(/^\+\+\w+\+Release-/,'RELEASE '));
+    setText('#buildSide', b);
+    if (upd) upd.textContent = 'Fortnite-Datamining · refresh every 15 min';
+    var keys = Object.keys(DATASETS);
+    var loaded = keys.filter(function(k){return DATA[k]}).length;
+    setText('#health', loaded + '/' + keys.length + ' sources');
+    var hb = $('#healthBar'); if (hb) hb.style.width = (loaded/keys.length*100) + '%';
+    var hs = $('#heroShopCount'); if (hs) hs.textContent = shopEntries().length.toLocaleString();
+    renderStats(); renderNews(); renderView();
+    updateSyncLabels(); updateShopCountdown();
+  }).catch(function(e){
+    fatal('Boot failed: ' + e.message);
     console.error(e);
-  }
+  });
 }
+
+/* ---------- auto refresh ---------- */
 function startAutoRefresh(){
-  setInterval(async()=>{
-    await loadAll(true);
-    renderStats();renderNews();
-    if(state.view!=='home')renderView();
-    else updateSyncLabels();
-    updateSyncLabels();updateShopCountdown();
-  },REFRESH_MS);
-  setInterval(()=>{updateSyncLabels();updateShopCountdown()},1000);
-  document.addEventListener('visibilitychange',()=>{
-    if(document.visibilityState==='visible'&&Date.now()-repoLastSynced>REFRESH_MS){
-      loadAll(true).then(()=>{renderStats();renderNews();renderView();updateSyncLabels()});
+  setInterval(function(){
+    loadAll(true).then(function(){
+      renderStats(); renderNews();
+      if (state.view !== 'home') renderView(); else updateSyncLabels();
+      updateSyncLabels(); updateShopCountdown();
+    });
+  }, REFRESH_MS);
+  setInterval(function(){ updateSyncLabels(); updateShopCountdown(); }, 1000);
+  document.addEventListener('visibilitychange', function(){
+    if (document.visibilityState === 'visible' && Date.now() - repoLastSynced > REFRESH_MS) {
+      loadAll(true).then(function(){ renderStats(); renderNews(); renderView(); updateSyncLabels(); });
     }
   });
 }
 
 /* ---------- init ---------- */
-try{wireUI()}catch(e){showFatal('UI wiring failed: '+e.message);console.error(e)}
-try{boot().then(()=>startAutoRefresh())}catch(e){showFatal('Boot failed: '+e.message);console.error(e)}
+try { wireUI(); } catch(e){ fatal('UI wiring failed: ' + e.message); console.error(e); }
+try {
+  boot().then(function(){ startAutoRefresh(); }).catch(function(e){ fatal('Startup failed: ' + e.message); console.error(e); });
+} catch(e){ fatal('Init failed: ' + e.message); console.error(e); }
+
+})();
 </script>
-</body></html>
+</body>
+</html>
