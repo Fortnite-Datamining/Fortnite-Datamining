@@ -27303,6 +27303,23 @@
       "vehicleId": "VCID_Booster_mooncake"
     },
     {
+      "added": "2026-10-01T17:02:01Z",
+      "description": "The universal constant.",
+      "id": "ID_Booster_MVP01",
+      "name": "Light Speed",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_MVP01"
+    },
+    {
       "added": "2024-09-04T14:56:23Z",
       "description": "Earn the fright of way.",
       "id": "ID_Booster_Necromancer",
@@ -30350,6 +30367,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_Mooncake"
+    },
+    {
+      "added": "2026-10-01T17:02:01Z",
+      "description": "The universal constant.",
+      "id": "ID_DriftTrail_MVP01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_mvp01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_mvp01/small.png"
+      },
+      "name": "Light Speed",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_MVP01"
     },
     {
       "added": "2024-09-04T14:56:23Z",
@@ -35682,7 +35720,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpointse/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_hardpointse/small.png"
       },
-      "name": "Drillbit: Remix",
+      "name": "Drillbit: Remixed",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -41331,7 +41369,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport80se/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sport80se/small.png"
       },
-      "name": "Scepter SE",
+      "name": "Scepter: Infinite",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
