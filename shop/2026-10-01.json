@@ -3,6 +3,142 @@
     "date": "2026-10-01T08:00:00Z",
     "entries": [
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "It's hare-raisin'!",
+            "dynamicPakId": "1013",
+            "id": "Backpack_TearErrand_Bass",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Blazin' Guitar",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "It's hare-raisin'!",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_TearErrand_Bass",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Blazin' Guitar",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "441548ff",
+          "color3": "c745d5ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Bonnie's Blazin' Guitar, 1 x Bonnie's Blazin' Guitar, 1 x Bonnie's Blazin' Guitar for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "It's hare-raisin'!",
+            "id": "Sparks_TearErrand_Bass",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_tearerrand_bass/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_tearerrand_bass/small.png"
+            },
+            "name": "Bonnie's Blazin' Guitar",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Common",
+              "value": "common"
+            },
+            "type": {
+              "backendValue": "SparksBass",
+              "displayValue": "Bass",
+              "value": "bass"
+            }
+          }
+        ],
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_TearErrand_Bass",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__3848cfe013ab3004_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/3848cfe013ab3004/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Sparks_TearErrand_Bass",
+        "offerId": "v2:/25672d94feefe857a6769a931258f100d5808a973a7130300d9fbff07ffe314a",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "88c5ffff",
           "color2": "42a8ffff",
@@ -365,6 +501,97 @@
         "sortPriority": -1,
         "tileBackgroundMaterial": "ShopTile_Glitch",
         "tileSize": "Size_2_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "The last concert you'll ever see.",
+            "dynamicPakId": "1013",
+            "id": "EID_GuardHence",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "The Fazbear Band",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "441548ff",
+          "color3": "c745d5ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x The Fazbear Band for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.98",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_GuardHence",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__7f530ae5ba41ef3c_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7f530ae5ba41ef3c/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_eid_guardhence",
+        "offerId": "v2:/2c6965bdff112596afd93f2de1626cedb37b594f53e09487fac1e7a82d9bef69",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -1085,7 +1312,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it classic.",
-            "dynamicPakId": "1016",
             "id": "Pickaxe_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoonhike/featured.png",
@@ -2082,11 +2308,341 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Someone's hungry.",
+            "dynamicPakId": "1013",
+            "id": "Character_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SushiAware"
+            ],
+            "name": "Chica the Chicken",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "What's got you so wound up?",
+            "dynamicPakId": "1013",
+            "id": "Backpack_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chica Chicake",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "380003ff",
+          "color3": "9a3e5eff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Chica the Chicken, 1 x Chica Chicake for -1 MtxCurrency",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_SushiAware",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__7e9826fc008efb83_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e9826fc008efb83/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__7e9826fc008efb83_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e9826fc008efb83/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_sushiaware",
+        "offerId": "v2:/6011f20f4abf130e918f66a42d5159298adf540b46b352c3e3b7d6d76027f644",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "This rabbit's hare-raisin'.",
+            "dynamicPakId": "1013",
+            "id": "Character_TearErrand",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie the Rabbit",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Ready to wail.",
+            "dynamicPakId": "1013",
+            "id": "Backpack_TearErrand",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Guitar Case",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "661257ff",
+          "color3": "e238b0ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Bonnie the Rabbit, 1 x Bonnie's Guitar Case for -1 MtxCurrency",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_TearErrand",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__57bdcd29ed9ced17_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/57bdcd29ed9ced17/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__57bdcd29ed9ced17_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/57bdcd29ed9ced17/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_tearerrand",
+        "offerId": "v2:/8ceefeda6f8b47c1dec96261989c457be83744850bda8c8184cb4d026977b297",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Grunge",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Take your heart!",
-            "dynamicPakId": "1018",
             "id": "Backpack_CosmicTrellis_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cosmictrellis_guitar/featured.png",
@@ -2130,7 +2686,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Take your heart!",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_CosmicTrellis_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cosmictrellis_guitar/featured.png",
@@ -3899,7 +4454,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "No more holding back!",
-            "dynamicPakId": "1030",
             "id": "Backpack_DebitScent_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_debitscent_mic/featured.png",
@@ -3943,7 +4497,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "No more holding back!",
-            "dynamicPakId": "1030",
             "id": "Pickaxe_DebitScent_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_debitscent_mic/featured.png",
@@ -4037,6 +4590,17 @@
           "useWidePreview": false
         },
         "layoutId": "Persona5.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_debitscent_Mic",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "sparks-debitscent-mic-0-br-2048x2048-6b0596603525.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b18d084072199b86/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Sparks_debitscent_Mic",
         "offerId": "v2:/f1955da658af63d55fe3b20386d9548c6ab302270b3409a54359b936d9ec0515",
         "outDate": "2026-10-05T23:59:59.999Z",
@@ -4051,7 +4615,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Two Keyblades; one radiant with light, one black as darkness.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/featured.png",
@@ -4095,7 +4658,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Two Keyblades; one radiant with light, one black as darkness.",
-            "dynamicPakId": "1027",
             "id": "Backpack_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/featured.png",
@@ -4178,6 +4740,98 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Ready to wail.",
+            "dynamicPakId": "1013",
+            "id": "Backpack_TearErrand",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Guitar Case",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "661257ff",
+          "color3": "e238b0ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Bonnie's Guitar Case for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_TearErrand",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__a728657ccbbf1cad_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a728657ccbbf1cad/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_tearerrand",
+        "offerId": "v2:/9a0328c7d244f15c175cf27a69d879cb470b7785e081e8cf34f263a97b2a363a",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Grunge",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -4231,7 +4885,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Keyblade hero who uses the power of friendship to fight.",
-            "dynamicPakId": "1027",
             "id": "Character_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/featured.png",
@@ -4304,7 +4957,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique weapon in the shape of a key.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/featured.png",
@@ -4351,7 +5003,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique weapon in the shape of a key.",
-            "dynamicPakId": "1027",
             "id": "Backpack_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/featured.png",
@@ -4398,7 +5049,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A triumphant victory pose using the Keyblade.",
-            "dynamicPakId": "1027",
             "id": "EID_SpireTend",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/icon.png",
@@ -5097,6 +5747,98 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "What's got you so wound up?",
+            "dynamicPakId": "1013",
+            "id": "Backpack_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chica Chicake",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "71001bff",
+          "color3": "78236fff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Chica Chicake for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_SushiAware",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__824015dc62fe3cdd_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/824015dc62fe3cdd/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_sushiaware",
+        "offerId": "v2:/dd1d1b373da188c9bd1faecb5091e146a071a0044be169a189e1389b5d440bb5",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_NoSmile",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2023-06-27T12:21:59Z",
@@ -5321,7 +6063,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Show your style.",
-            "dynamicPakId": "1016",
             "id": "Wrap_MistTycoon",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_misttycoon/featured.png",
@@ -6364,7 +7105,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Ready to strike.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cosmictrellis/featured.png",
@@ -6451,7 +7191,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "The guide of the Phantom Thieves of Hearts.",
-            "dynamicPakId": "1030",
             "id": "Companion_ListDizzy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/companion_listdizzy/featured.png",
@@ -6508,7 +7247,7 @@
                 "options": [
                   {
                     "image": "https://fortnite-api.com/images/cosmetics/br/companion_listdizzy/variants/outfit/stage1.png",
-                    "name": "Morgana (Persona 5)",
+                    "name": "Morgana (P5R)",
                     "tag": "Stage1"
                   },
                   {
@@ -7004,7 +7743,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Demon queen off-duty. When the stream ends, the jammies come out.",
-            "dynamicPakId": "1020",
             "id": "Character_FeelUnionMoo",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_feelunionmoo/featured.png",
@@ -7020,8 +7758,20 @@
             "name": "Decora Ironmouse",
             "rarity": {
               "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -7072,7 +7822,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Would you still stream me if I was a worm?",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionMoo",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionmoo/featured.png",
@@ -7088,8 +7837,20 @@
             "name": "Ironmouse Worm",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -7230,7 +7991,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Travel on a lil' Gummi Ship.",
-            "dynamicPakId": "1027",
             "id": "EID_SpireTendFlight",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretendflight/icon.png",
@@ -7317,7 +8077,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Show your style.",
-            "dynamicPakId": "1030",
             "id": "Wrap_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_debitscent/featured.png",
@@ -7600,7 +8359,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Show your style.",
-            "dynamicPakId": "1030",
             "id": "Wrap_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_cosmictrellis/featured.png",
@@ -8523,7 +9281,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique weapon in the shape of a key.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/featured.png",
@@ -8570,7 +9327,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique weapon in the shape of a key.",
-            "dynamicPakId": "1027",
             "id": "Backpack_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/featured.png",
@@ -8845,7 +9601,6 @@
               "EID_CosmicTrellis"
             ],
             "description": "Head of the Phantom Thieves of Hearts.",
-            "dynamicPakId": "1018",
             "id": "Character_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_cosmictrellis/featured.png",
@@ -8892,7 +9647,7 @@
                 "options": [
                   {
                     "image": "https://fortnite-api.com/images/cosmetics/br/character_cosmictrellis/variants/parts/stage1.png",
-                    "name": "Joker (Persona 5)",
+                    "name": "Joker (P5R)",
                     "tag": "Stage1"
                   },
                   {
@@ -8924,7 +9679,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Change the Hearts of Corrupted Adults!",
-            "dynamicPakId": "1018",
             "id": "Backpack_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cosmictrellis/featured.png",
@@ -8968,7 +9722,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Ready to strike.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cosmictrellis/featured.png",
@@ -9012,7 +9765,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "The Phantom Thieves' talented (?) actress.",
-            "dynamicPakId": "1030",
             "id": "Character_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_debitscent/featured.png",
@@ -9080,7 +9832,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Dance Carmen!",
-            "dynamicPakId": "1030",
             "id": "Backpack_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_debitscent/featured.png",
@@ -9124,7 +9875,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Listen to your heart.",
-            "dynamicPakId": "1030",
             "id": "Pickaxe_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_debitscent/featured.png",
@@ -9168,7 +9918,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "The guide of the Phantom Thieves of Hearts.",
-            "dynamicPakId": "1030",
             "id": "Companion_ListDizzy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/companion_listdizzy/featured.png",
@@ -9225,7 +9974,7 @@
                 "options": [
                   {
                     "image": "https://fortnite-api.com/images/cosmetics/br/companion_listdizzy/variants/outfit/stage1.png",
-                    "name": "Morgana (Persona 5)",
+                    "name": "Morgana (P5R)",
                     "tag": "Stage1"
                   },
                   {
@@ -9241,7 +9990,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1012",
             "id": "Shoes_Cosmictrelliswand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_cosmictrelliswand/featured.png",
@@ -9285,10 +10033,8 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Fight with flourish.",
-            "dynamicPakId": "1030",
             "id": "EID_DebitScent",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_debitscent/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_debitscent/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_debitscent/smallicon.png"
             },
@@ -9330,7 +10076,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "No more holding back!",
-            "dynamicPakId": "1030",
             "id": "Backpack_DebitScent_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_debitscent_mic/featured.png",
@@ -9374,7 +10119,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "No more holding back!",
-            "dynamicPakId": "1030",
             "id": "Pickaxe_DebitScent_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_debitscent_mic/featured.png",
@@ -9418,7 +10162,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Take your heart!",
-            "dynamicPakId": "1018",
             "id": "Backpack_CosmicTrellis_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cosmictrellis_guitar/featured.png",
@@ -9462,7 +10205,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Take your heart!",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_CosmicTrellis_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cosmictrellis_guitar/featured.png",
@@ -9506,7 +10248,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Show your style.",
-            "dynamicPakId": "1030",
             "id": "Wrap_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_debitscent/featured.png",
@@ -9550,7 +10291,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Show your style.",
-            "dynamicPakId": "1030",
             "id": "Wrap_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_cosmictrellis/featured.png",
@@ -10593,11 +11333,102 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1006",
+            "id": "Shoes_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy Slippers",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "71001bff",
+          "color3": "a6106aff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Freddy Slippers for 1000 MtxCurrency",
+        "finalPrice": 1000,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Shoes_GuardHence",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__5a875494e46b7cdf_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5a875494e46b7cdf/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_shoes_guardhence",
+        "offerId": "v2:/99d893cebdd4f75655de67fff561e81de3e759f03cbe9eb0c8a9832058a20530",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1000,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_FNMares26",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Demonic and darling!",
-            "dynamicPakId": "1020",
             "id": "Pickaxe_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_feelunionski/featured.png",
@@ -10613,8 +11444,20 @@
             "name": "Ironmouse's Blade of Love",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -10656,11 +11499,6 @@
             {
               "fileName": "cosmo__ff8cf40ecc5e3381_29c0c4191e61fb71.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff8cf40ecc5e3381/renderimage_0.png",
-              "productTag": "Product.BR"
-            },
-            {
-              "fileName": "cosmo__ff8cf40ecc5e3381_d2e71b6320aa32c2.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/ff8cf40ecc5e3381/renderimage_1.png",
               "productTag": "Product.BR"
             }
           ]
@@ -10867,7 +11705,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Dance, reprobates!",
-            "dynamicPakId": "1020",
             "id": "EID_FeelUnionMoo",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_feelunionmoo/icon.png",
@@ -10882,8 +11719,20 @@
             "name": "Hell Again",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -10944,7 +11793,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it close like a locket.",
-            "dynamicPakId": "1016",
             "id": "Backpack_MistTycoon_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoon_mic/featured.png",
@@ -10989,7 +11837,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it close like a locket.",
-            "dynamicPakId": "1016",
             "id": "Pickaxe_MistTycoon_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoon_mic/featured.png",
@@ -11086,6 +11933,17 @@
           "useWidePreview": false
         },
         "layoutId": "MadisonBeer.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_misttycoon_Mic",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "sparks-misttycoon-mic-0-br-2048x2048-92a8d3af3ac1.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/53079abf62e646ce/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Sparks_misttycoon_Mic",
         "offerId": "v2:/b41b7134f0c2e3adde3bad83d9a09aa3a931d93c568c925d5f88034dba29ee08",
         "outDate": "2026-10-04T23:59:59.999Z",
@@ -13542,7 +14400,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Singer. VTuber. Demon queen.",
-            "dynamicPakId": "1020",
             "id": "Character_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_feelunionski/featured.png",
@@ -13558,8 +14415,20 @@
             "name": "Ironmouse",
             "rarity": {
               "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -13594,7 +14463,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Demonic and darling!",
-            "dynamicPakId": "1020",
             "id": "Pickaxe_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_feelunionski/featured.png",
@@ -13610,8 +14478,20 @@
             "name": "Ironmouse's Blade of Love",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -14424,10 +15304,8 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Fight with flourish.",
-            "dynamicPakId": "1030",
             "id": "EID_DebitScent",
             "images": {
-              "featured": "https://fortnite-api.com/images/cosmetics/br/eid_debitscent/featured.png",
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_debitscent/icon.png",
               "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_debitscent/smallicon.png"
             },
@@ -14487,12 +15365,11 @@
         },
         "layoutId": "Persona5.96",
         "newDisplayAsset": {
-          "cosmeticId": "EID_DebitScent",
           "id": "DAv2_EID_DebitScent",
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_AthenaEmotes_DebitScent",
+              "fileName": "cosmo__5f5e61406f456e22_cd3a8537e25993a6.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5f5e61406f456e22/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -14648,7 +15525,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A powerful weapon that reacts to dark power.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/featured.png",
@@ -14710,7 +15586,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A powerful weapon that reacts to dark power.",
-            "dynamicPakId": "1027",
             "id": "Backpack_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/featured.png",
@@ -15001,7 +15876,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Would you still stream me if I was a worm?",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionMoo",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionmoo/featured.png",
@@ -15017,8 +15891,20 @@
             "name": "Ironmouse Worm",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -15078,7 +15964,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Prince of suffering and torment.",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionski/featured.png",
@@ -15094,8 +15979,20 @@
             "name": "Bubi",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -15286,7 +16183,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Sora and Riku’s childhood friend, a girl with a radiant heart.",
-            "dynamicPakId": "1027",
             "id": "Character_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/featured.png",
@@ -15304,6 +16200,9 @@
               "season": "4",
               "text": "Introduced in Chapter 7, Season 4."
             },
+            "metaTags": [
+              "Cosmetics.Emote.CharacterGroup.Skirts"
+            ],
             "name": "Kairi",
             "rarity": {
               "backendValue": "EFortRarity::Epic",
@@ -15336,7 +16235,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique Keyblade with a design of flowers in full bloom.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/featured.png",
@@ -15380,7 +16278,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique Keyblade with a design of flowers in full bloom.",
-            "dynamicPakId": "1027",
             "id": "Backpack_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/featured.png",
@@ -15552,6 +16449,98 @@
         "refundable": false,
         "regularPrice": 300,
         "sortPriority": -2,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Show some respect.",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Mr. Cupcake",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "380003ff",
+          "color3": "9a3e5eff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Mr. Cupcake for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Pickaxe_SushiAware",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__a94659168f611056_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/a94659168f611056/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_pickaxe_sushiaware",
+        "offerId": "v2:/0ee668bd89d76316c06a9f677bd94dd201f777b0c47291357f9a48222c1875ca",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -15761,7 +16750,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Listen to your heart.",
-            "dynamicPakId": "1030",
             "id": "Pickaxe_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_debitscent/featured.png",
@@ -16086,7 +17074,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Demon queen off-duty. When the stream ends, the jammies come out.",
-            "dynamicPakId": "1020",
             "id": "Character_FeelUnionMoo",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_feelunionmoo/featured.png",
@@ -16102,8 +17089,20 @@
             "name": "Decora Ironmouse",
             "rarity": {
               "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16154,7 +17153,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Would you still stream me if I was a worm?",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionMoo",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionmoo/featured.png",
@@ -16170,8 +17168,20 @@
             "name": "Ironmouse Worm",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16187,7 +17197,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Singer. VTuber. Demon queen.",
-            "dynamicPakId": "1020",
             "id": "Character_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_feelunionski/featured.png",
@@ -16203,8 +17212,20 @@
             "name": "Ironmouse",
             "rarity": {
               "backendValue": "EFortRarity::Epic",
-              "displayValue": "Epic",
-              "value": "epic"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16239,7 +17260,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Demonic and darling!",
-            "dynamicPakId": "1020",
             "id": "Pickaxe_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_feelunionski/featured.png",
@@ -16255,8 +17275,20 @@
             "name": "Ironmouse's Blade of Love",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16272,7 +17304,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Prince of suffering and torment.",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionSki",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionski/featured.png",
@@ -16288,8 +17319,20 @@
             "name": "Bubi",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16305,7 +17348,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Let's see those tears.",
-            "dynamicPakId": "1020",
             "id": "EID_FeelUnionSki",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_feelunionski/icon.png",
@@ -16320,8 +17362,20 @@
             "name": "Cry For Me",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16338,7 +17392,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Dance, reprobates!",
-            "dynamicPakId": "1020",
             "id": "EID_FeelUnionMoo",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_feelunionmoo/icon.png",
@@ -16353,8 +17406,20 @@
             "name": "Hell Again",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16371,7 +17436,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Show your style.",
-            "dynamicPakId": "1020",
             "id": "Wrap_FeelUnion",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_feelunion/featured.png",
@@ -16387,8 +17451,20 @@
             "name": "Mouse Mode",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16404,7 +17480,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Straight from... well, you know where.",
-            "dynamicPakId": "1020",
             "id": "Pickaxe_FeelUnionMoo_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_feelunionmoo_mic/featured.png",
@@ -16420,8 +17495,20 @@
             "name": "Ironmouse's Bubi Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16437,7 +17524,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Straight from... well, you know where.",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionMoo_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionmoo_mic/featured.png",
@@ -16453,8 +17539,20 @@
             "name": "Ironmouse's Bubi Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16470,7 +17568,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Time for a little anarchy.",
-            "dynamicPakId": "1020",
             "id": "LoadingScreen_FeelUnionKeyArt",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_feelunionkeyart/featured.png",
@@ -16489,8 +17586,20 @@
             "name": "Headstones and an Ironmouse",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -16691,7 +17800,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "You belong to her.",
-            "dynamicPakId": "1007",
             "id": "Character_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_misttycoonhike/featured.png",
@@ -16742,7 +17850,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it classic.",
-            "dynamicPakId": "1016",
             "id": "Pickaxe_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoonhike/featured.png",
@@ -18215,7 +19322,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Let's see those tears.",
-            "dynamicPakId": "1020",
             "id": "EID_FeelUnionSki",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_feelunionski/icon.png",
@@ -18230,8 +19336,20 @@
             "name": "Cry For Me",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
-              "displayValue": "Uncommon",
-              "value": "uncommon"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -19399,6 +20517,97 @@
       },
       {
         "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Show your style.",
+            "id": "Wrap_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy Fazbear's Pizza",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "71001bff",
+          "color3": "a6106aff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Freddy Fazbear's Pizza for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Wrap_GuardHence",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__b7f70f421cb02ec7_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b7f70f421cb02ec7/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_wrap_guardhence",
+        "offerId": "v2:/1c5b3603cc7aea688602247f93893755705fdfe82236e2d239962d79c2f15f60",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_FNMares26",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
           "backendValue": "AmountOff",
           "intensity": "Low",
           "value": "800 V-Bucks Off"
@@ -20071,7 +21280,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique Keyblade with a design of flowers in full bloom.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/featured.png",
@@ -20115,7 +21323,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique Keyblade with a design of flowers in full bloom.",
-            "dynamicPakId": "1027",
             "id": "Backpack_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/featured.png",
@@ -20256,7 +21463,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Keyblade hero who uses the power of friendship to fight.",
-            "dynamicPakId": "1027",
             "id": "Character_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_spiretend/featured.png",
@@ -20329,7 +21535,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique weapon in the shape of a key.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_spiretend/featured.png",
@@ -20376,7 +21581,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique weapon in the shape of a key.",
-            "dynamicPakId": "1027",
             "id": "Backpack_SpireTend",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretend/featured.png",
@@ -20423,7 +21627,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A triumphant victory pose using the Keyblade.",
-            "dynamicPakId": "1027",
             "id": "EID_SpireTend",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/icon.png",
@@ -20467,7 +21670,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A boy who suffers from inner darkness but supports his friends.",
-            "dynamicPakId": "1027",
             "id": "Character_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/featured.png",
@@ -20517,7 +21719,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A powerful weapon that reacts to dark power.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/featured.png",
@@ -20579,7 +21780,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A powerful weapon that reacts to dark power.",
-            "dynamicPakId": "1027",
             "id": "Backpack_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/featured.png",
@@ -20641,7 +21841,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Sora's Nobody and member of Organization XIII.",
-            "dynamicPakId": "1027",
             "id": "Character_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/featured.png",
@@ -20691,7 +21890,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Two Keyblades; one radiant with light, one black as darkness.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/featured.png",
@@ -20735,7 +21933,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Two Keyblades; one radiant with light, one black as darkness.",
-            "dynamicPakId": "1027",
             "id": "Backpack_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/featured.png",
@@ -20779,7 +21976,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Sora and Riku’s childhood friend, a girl with a radiant heart.",
-            "dynamicPakId": "1027",
             "id": "Character_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_waningcacti/featured.png",
@@ -20797,6 +21993,9 @@
               "season": "4",
               "text": "Introduced in Chapter 7, Season 4."
             },
+            "metaTags": [
+              "Cosmetics.Emote.CharacterGroup.Skirts"
+            ],
             "name": "Kairi",
             "rarity": {
               "backendValue": "EFortRarity::Epic",
@@ -20829,7 +22028,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique Keyblade with a design of flowers in full bloom.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_waningcacti/featured.png",
@@ -20873,7 +22071,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A unique Keyblade with a design of flowers in full bloom.",
-            "dynamicPakId": "1027",
             "id": "Backpack_WaningCacti",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_waningcacti/featured.png",
@@ -20917,7 +22114,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Travel on a lil' Gummi Ship.",
-            "dynamicPakId": "1027",
             "id": "EID_SpireTendFlight",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretendflight/icon.png",
@@ -20961,7 +22157,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1012",
             "id": "Shoes_SpireTendBeen",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/featured.png",
@@ -21005,7 +22200,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "It's salty... but sweet, too.",
-            "dynamicPakId": "1027",
             "id": "Backpack_SpireTendFlair",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/featured.png",
@@ -21049,7 +22243,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Another side, another solo...",
-            "dynamicPakId": "1027",
             "id": "Backpack_FaunaPike_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/featured.png",
@@ -21093,7 +22286,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Another side, another solo...",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_FaunaPike_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/featured.png",
@@ -21137,7 +22329,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Take the keys of the kingdom.",
-            "dynamicPakId": "1027",
             "id": "LoadingScreen_SpireTendKeyArt",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_spiretendkeyart/featured.png",
@@ -21842,6 +23033,170 @@
         ]
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Aww, you look down. Would you like a hug?",
+            "dynamicPakId": "1013",
+            "id": "Character_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy Fazbear",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Sing along to the Fazbear Band!",
+            "dynamicPakId": "1013",
+            "id": "Backpack_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy-oke Machine",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "661257ff",
+          "color3": "e238b0ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Freddy Fazbear, 1 x Freddy-oke Machine for -1 MtxCurrency",
+        "finalPrice": 1500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_GuardHence",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__5654347b9826047c_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5654347b9826047c/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__5654347b9826047c_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/5654347b9826047c/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_guardhence",
+        "offerId": "v2:/13321abe2a580914f1ac1d00f0ac0ccfa3a6352abc1e4df31ee5ddb07dd92bd7",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1500,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Grunge",
+        "tileSize": "Size_2_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2026-02-05T15:01:36Z",
@@ -22080,7 +23435,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Sora's Nobody and member of Organization XIII.",
-            "dynamicPakId": "1027",
             "id": "Character_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_faunapike/featured.png",
@@ -22130,7 +23484,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Two Keyblades; one radiant with light, one black as darkness.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike/featured.png",
@@ -22174,7 +23527,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Two Keyblades; one radiant with light, one black as darkness.",
-            "dynamicPakId": "1027",
             "id": "Backpack_FaunaPike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike/featured.png",
@@ -22359,6 +23711,142 @@
             "title": "Hey Brother"
           }
         ]
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Can you survive five songs?",
+            "dynamicPakId": "1013",
+            "id": "Backpack_GuardHence_Mic",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy's Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Can you survive five songs?",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_GuardHence_Mic",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy's Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "71001bff",
+          "color3": "78236fff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Freddy's Mic, 1 x Freddy's Mic, 1 x Freddy's Mic for 800 MtxCurrency",
+        "finalPrice": 800,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Can you survive five songs?",
+            "id": "Sparks_GuardHence_Mic",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_guardhence_mic/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_guardhence_mic/small.png"
+            },
+            "name": "Freddy's Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Common",
+              "value": "common"
+            },
+            "type": {
+              "backendValue": "SparksMic",
+              "displayValue": "Microphone",
+              "value": "mic"
+            }
+          }
+        ],
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_GuardHence_Mic",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__60d423fedf232ed7_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/60d423fedf232ed7/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Sparks_GuardHence_Mic",
+        "offerId": "v2:/658c18732129288e9abc0f0efb21f4b5d3287b4cf982469830b8205c854a1d79",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 800,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_NoSmile",
+        "tileSize": "Size_1_x_1"
       },
       {
         "brItems": [
@@ -23400,6 +24888,227 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Never underestimate the cunning of a pirate-slash-fox.",
+            "dynamicPakId": "1013",
+            "id": "Character_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy The Pirate",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Fit for a fox and a pirate alike.",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy's Hook",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Mesh",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/variants/mesh/stage1.png",
+                    "name": "Universal",
+                    "tag": "Stage1"
+                  }
+                ],
+                "type": "TEMP DEV ONLY"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Sorry, out of order.",
+            "dynamicPakId": "1013",
+            "id": "Backpack_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy's Side Stage",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "71001bff",
+          "color3": "a6106aff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Foxy The Pirate, 1 x Foxy's Hook, 1 x Foxy's Side Stage for -1 MtxCurrency",
+        "finalPrice": 1600,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Character_JigsawWaste",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__9921e0cd06ad493b_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9921e0cd06ad493b/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__9921e0cd06ad493b_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/9921e0cd06ad493b/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_character_jigsawwaste",
+        "offerId": "v2:/ea957928816bbaacab4ea580bb400fd8aecc5f00446500dcbf21ed877f81669f",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 1600,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_FNMares26",
+        "tileSize": "Size_1_x_1"
+      },
+      {
         "brItems": [
           {
             "added": "2024-10-12T06:22:57Z",
@@ -24078,7 +25787,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Show your style.",
-            "dynamicPakId": "1020",
             "id": "Wrap_FeelUnion",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_feelunion/featured.png",
@@ -24094,8 +25802,20 @@
             "name": "Mouse Mode",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -24575,7 +26295,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "It's a yes from me, baby.",
-            "dynamicPakId": "1007",
             "id": "EID_MistTycoonHike",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_misttycoonhike/icon.png",
@@ -25080,6 +26799,1010 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "High",
+          "value": "6500 V-Bucks Off"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Aww, you look down. Would you like a hug?",
+            "dynamicPakId": "1013",
+            "id": "Character_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy Fazbear",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Sing along to the Fazbear Band!",
+            "dynamicPakId": "1013",
+            "id": "Backpack_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy-oke Machine",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Never underestimate the cunning of a pirate-slash-fox.",
+            "dynamicPakId": "1013",
+            "id": "Character_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy The Pirate",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Fit for a fox and a pirate alike.",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy's Hook",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            },
+            "variants": [
+              {
+                "channel": "Mesh",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/variants/mesh/stage1.png",
+                    "name": "Universal",
+                    "tag": "Stage1"
+                  }
+                ],
+                "type": "TEMP DEV ONLY"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Sorry, out of order.",
+            "dynamicPakId": "1013",
+            "id": "Backpack_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy's Side Stage",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Someone's hungry.",
+            "dynamicPakId": "1013",
+            "id": "Character_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "metaTags": [
+              "Cosmetics.MetaTags.SushiAware"
+            ],
+            "name": "Chica the Chicken",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "What's got you so wound up?",
+            "dynamicPakId": "1013",
+            "id": "Backpack_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Chica Chicake",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "This rabbit's hare-raisin'.",
+            "dynamicPakId": "1013",
+            "id": "Character_TearErrand",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie the Rabbit",
+            "rarity": {
+              "backendValue": "EFortRarity::Epic",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaCharacter",
+              "displayValue": "Outfit",
+              "value": "outfit"
+            },
+            "variants": [
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/variants/parts/stage1.png",
+                    "name": "on",
+                    "tag": "Stage1"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/variants/parts/stage2.png",
+                    "name": "off",
+                    "tag": "Stage2"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/variants/parts/stage3.png",
+                    "name": "full damage",
+                    "tag": "Stage3"
+                  }
+                ],
+                "type": "reactivity"
+              }
+            ]
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Ready to wail.",
+            "dynamicPakId": "1013",
+            "id": "Backpack_TearErrand",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Guitar Case",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "The last concert you'll ever see.",
+            "dynamicPakId": "1013",
+            "id": "EID_GuardHence",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "The Fazbear Band",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Wait, what was that?",
+            "dynamicPakId": "1013",
+            "id": "EID_TearErrand",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Surveillance Feed Floater",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Show 'em off.",
+            "dynamicPakId": "1006",
+            "id": "Shoes_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy Slippers",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "CosmeticShoes",
+              "displayValue": "Shoes",
+              "value": "shoe"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Show some respect.",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_SushiAware",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Mr. Cupcake",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Can you survive five songs?",
+            "dynamicPakId": "1013",
+            "id": "Backpack_GuardHence_Mic",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy's Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Can you survive five songs?",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_GuardHence_Mic",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy's Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "It's hare-raisin'!",
+            "dynamicPakId": "1013",
+            "id": "Backpack_TearErrand_Bass",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Blazin' Guitar",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "It's hare-raisin'!",
+            "dynamicPakId": "1013",
+            "id": "Pickaxe_TearErrand_Bass",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Bonnie's Blazin' Guitar",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Rare",
+              "value": "rare"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaPickaxe",
+              "displayValue": "Pickaxe",
+              "value": "pickaxe"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Show your style.",
+            "id": "Wrap_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy Fazbear's Pizza",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaItemWrap",
+              "displayValue": "Wrap",
+              "value": "wrap"
+            }
+          }
+        ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6fa3331da4923afb/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Five Nights at Freddy's Bundle"
+        },
+        "colors": {
+          "color1": "441548ff",
+          "color3": "c745d5ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Freddy Fazbear, 1 x Freddy-oke Machine, 1 x Foxy The Pirate, 1 x Foxy's Hook, 1 x Foxy's Side Stage, 1 x Chica the Chicken, 1 x Chica Chicake, 1 x Bonnie the Rabbit, 1 x Bonnie's Guitar Case, 1 x The Fazbear Band, 1 x Surveillance Feed Floater, 1 x Freddy Slippers, 1 x Mr. Cupcake, 1 x Freddy's Mic, 1 x Freddy's Mic, 1 x Freddy's Mic, 1 x Bonnie's Blazin' Guitar, 1 x Bonnie's Blazin' Guitar, 1 x Bonnie's Blazin' Guitar, 1 x Freddy Fazbear's Pizza for -1 MtxCurrency",
+        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Guardhence_Bundle",
+        "finalPrice": 4500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "instruments": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Can you survive five songs?",
+            "id": "Sparks_GuardHence_Mic",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_guardhence_mic/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_guardhence_mic/small.png"
+            },
+            "name": "Freddy's Mic",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Common",
+              "value": "common"
+            },
+            "type": {
+              "backendValue": "SparksMic",
+              "displayValue": "Microphone",
+              "value": "mic"
+            }
+          },
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "It's hare-raisin'!",
+            "id": "Sparks_TearErrand_Bass",
+            "images": {
+              "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_tearerrand_bass/large.png",
+              "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_tearerrand_bass/small.png"
+            },
+            "name": "Bonnie's Blazin' Guitar",
+            "rarity": {
+              "backendValue": "EFortRarity::Common",
+              "displayValue": "Common",
+              "value": "common"
+            },
+            "type": {
+              "backendValue": "SparksBass",
+              "displayValue": "Bass",
+              "value": "bass"
+            }
+          }
+        ],
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "billboard",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "stringMetadata": [
+            {
+              "key": "alignment",
+              "value": "left"
+            },
+            {
+              "key": "highlightEnabled",
+              "value": "true"
+            },
+            {
+              "key": "parallaxEnabled",
+              "value": "true"
+            },
+            {
+              "key": "titleColorA",
+              "value": "FFFFFF"
+            },
+            {
+              "key": "titleColorB",
+              "value": "FFFFFF"
+            }
+          ],
+          "textMetadata": [
+            {
+              "key": "cta",
+              "value": "View Offer"
+            },
+            {
+              "key": "subtitle",
+              "value": "16 Item Bundle"
+            }
+          ],
+          "textureMetadata": [
+            {
+              "key": "background",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_GuardHence_BG-8b7153d8.png"
+            },
+            {
+              "key": "foreground",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_GuardHence_Character-5d005fdb.png"
+            },
+            {
+              "key": "bodyImage",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_GuardHence_ItemStak-156810fa.png"
+            },
+            {
+              "key": "titleImage",
+              "value": "https://cdn2.unrealengine.com/sk-Billboard_GuardHence_Logo-b6e2f99c.png"
+            }
+          ],
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_GuardHence",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__6fa3331da4923afb_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6fa3331da4923afb/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__6fa3331da4923afb_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6fa3331da4923afb/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_Bundle_Featured_Guardhence",
+        "offerId": "v2:/525d82b23b454c38b8fd0e4f7a0d59d1b66f73d6ede0db3eb1586834abc94898",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 11000,
+        "sortPriority": -1,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
+        "tileSize": "Size_4_x_1"
+      },
+      {
         "colors": {
           "color1": "3a306cff",
           "color3": "5e40ceff",
@@ -25424,7 +28147,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1012",
             "id": "Shoes_SpireTendBeen",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_spiretendbeen/featured.png",
@@ -25504,6 +28226,97 @@
         "regularPrice": 1000,
         "sortPriority": -2,
         "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Wait, what was that?",
+            "dynamicPakId": "1013",
+            "id": "EID_TearErrand",
+            "images": {
+              "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tearerrand/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_tearerrand/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Surveillance Feed Floater",
+            "rarity": {
+              "backendValue": "EFortRarity::Uncommon",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaDance",
+              "displayValue": "Emote",
+              "value": "emote"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "441548ff",
+          "color3": "c745d5ff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Surveillance Feed Floater for 500 MtxCurrency",
+        "finalPrice": 500,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.95",
+        "newDisplayAsset": {
+          "id": "DAv2_EID_TearErrand",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__31c141f826e569f7_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/31c141f826e569f7/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_eid_tearerrand",
+        "offerId": "v2:/41a245ce425ba0b219d634e3ccc5d8d388bdceefb4b096fb929435f7ca771a4c",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 500,
+        "sortPriority": -3,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -26369,7 +29182,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Change the Hearts of Corrupted Adults!",
-            "dynamicPakId": "1018",
             "id": "Backpack_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cosmictrellis/featured.png",
@@ -26456,7 +29268,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Straight from... well, you know where.",
-            "dynamicPakId": "1020",
             "id": "Backpack_FeelUnionMoo_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_feelunionmoo_mic/featured.png",
@@ -26472,8 +29283,20 @@
             "name": "Ironmouse's Bubi Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -26489,7 +29312,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Straight from... well, you know where.",
-            "dynamicPakId": "1020",
             "id": "Pickaxe_FeelUnionMoo_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_feelunionmoo_mic/featured.png",
@@ -26505,8 +29327,20 @@
             "name": "Ironmouse's Bubi Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Icon Series",
+              "value": "icon"
+            },
+            "series": {
+              "backendValue": "CreatorCollabSeries",
+              "colors": [
+                "5cf2f3ff",
+                "2bc9caff",
+                "004c71ff",
+                "025253ff",
+                "000f2bff"
+              ],
+              "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+              "value": "Icon Series"
             },
             "set": {
               "backendValue": "FastSaturn",
@@ -26562,6 +29396,17 @@
           "useWidePreview": false
         },
         "layoutId": "IronMouse2.96",
+        "newDisplayAsset": {
+          "id": "DAv2_Sparks_feelunionmoo_Mic",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "sparks-feelunionmoo-mic-0-br-2048x2048-f941609d16ad.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/b328e86dec5ae0d4/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S41/DAv2_Sparks_feelunionmoo_Mic",
         "offerId": "v2:/52078d8c222347df807e4693dd6b492ea1594e80ff080fa01eec6e9a210ea8b1",
         "outDate": "2026-10-02T23:59:59.999Z",
@@ -27002,7 +29847,6 @@
               "EID_CosmicTrellis"
             ],
             "description": "Head of the Phantom Thieves of Hearts.",
-            "dynamicPakId": "1018",
             "id": "Character_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_cosmictrellis/featured.png",
@@ -27049,7 +29893,7 @@
                 "options": [
                   {
                     "image": "https://fortnite-api.com/images/cosmetics/br/character_cosmictrellis/variants/parts/stage1.png",
-                    "name": "Joker (Persona 5)",
+                    "name": "Joker (P5R)",
                     "tag": "Stage1"
                   },
                   {
@@ -27081,7 +29925,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Change the Hearts of Corrupted Adults!",
-            "dynamicPakId": "1018",
             "id": "Backpack_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cosmictrellis/featured.png",
@@ -27125,7 +29968,6 @@
           {
             "added": "2026-09-24T16:00:38Z",
             "description": "Ready to strike.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_CosmicTrellis",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cosmictrellis/featured.png",
@@ -27657,7 +30499,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A triumphant victory pose using the Keyblade.",
-            "dynamicPakId": "1027",
             "id": "EID_SpireTend",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_spiretend/icon.png",
@@ -28257,7 +31098,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Su-purr supportive squadmates.",
-            "dynamicPakId": "1007",
             "id": "Backpack_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonhike/featured.png",
@@ -28488,7 +31328,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Bitter is better with a little sweet.",
-            "dynamicPakId": "1007",
             "id": "EID_MistTycoonLife",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_misttycoonlife/icon.png",
@@ -29291,7 +32130,7 @@
         },
         "layoutId": "Kpop2Newest.99",
         "newDisplayAsset": {
-          "cosmeticId": "EID_TurnVortex_Leader",
+          "cosmeticId": "EID_TurnVortex_Joiner",
           "id": "DAv2_EID_TurnVortex",
           "materialInstances": [],
           "renderImages": [
@@ -30052,7 +32891,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Feather-soft wings that wow.",
-            "dynamicPakId": "1007",
             "id": "Backpack_MistTycoonLife",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonlife/featured.png",
@@ -30156,6 +32994,103 @@
         "refundable": false,
         "regularPrice": 500,
         "sortPriority": -3,
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Sing along to the Fazbear Band!",
+            "dynamicPakId": "1013",
+            "id": "Backpack_GuardHence",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Freddy-oke Machine",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "252241ff",
+          "color3": "55398aff",
+          "textBackgroundColor": "170825ff"
+        },
+        "devName": "[VIRTUAL]1 x Freddy-oke Machine for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.98",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_GuardHence",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__7dc181c272418052_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7dc181c272418052/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__7dc181c272418052_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7dc181c272418052/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_guardhence",
+        "offerId": "v2:/c0a308f601e09603177b6a379ceb3349d8652117bb14ef1995e2b460600c4526",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -2,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_Static",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -30449,7 +33384,6 @@
           {
             "added": "2026-09-17T16:17:14Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1012",
             "id": "Shoes_Cosmictrelliswand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_cosmictrelliswand/featured.png",
@@ -30529,6 +33463,103 @@
         "regularPrice": 1000,
         "sortPriority": -4,
         "tileBackgroundMaterial": "ShopTile_Glitch",
+        "tileSize": "Size_1_x_1"
+      },
+      {
+        "banner": {
+          "backendValue": "New",
+          "intensity": "High",
+          "value": "New"
+        },
+        "brItems": [
+          {
+            "added": "2026-10-01T08:00:00Z",
+            "description": "Sorry, out of order.",
+            "dynamicPakId": "1013",
+            "id": "Backpack_JigsawWaste",
+            "images": {
+              "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/featured.png",
+              "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/icon.png",
+              "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/smallicon.png"
+            },
+            "introduction": {
+              "backendValue": 42,
+              "chapter": "7",
+              "season": "4",
+              "text": "Introduced in Chapter 7, Season 4."
+            },
+            "name": "Foxy's Side Stage",
+            "rarity": {
+              "backendValue": "EFortRarity::Rare",
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
+            },
+            "set": {
+              "backendValue": "GracefulBadger",
+              "text": "Part of the Five Nights at Freddy's set.",
+              "value": "Five Nights at Freddy's"
+            },
+            "type": {
+              "backendValue": "AthenaBackpack",
+              "displayValue": "Back Bling",
+              "value": "backpack"
+            }
+          }
+        ],
+        "colors": {
+          "color1": "71001bff",
+          "color3": "78236fff",
+          "textBackgroundColor": "1a0014ff"
+        },
+        "devName": "[VIRTUAL]1 x Foxy's Side Stage for 300 MtxCurrency",
+        "finalPrice": 300,
+        "giftable": true,
+        "inDate": "2026-10-01T00:00:00Z",
+        "layout": {
+          "category": "Fortnitemares",
+          "displayType": "tileGrid",
+          "id": "5Nights1",
+          "index": 18,
+          "name": "Five Nights at Freddy's",
+          "rank": 198,
+          "showIneligibleOffers": "always",
+          "useWidePreview": false
+        },
+        "layoutId": "5Nights1.97",
+        "newDisplayAsset": {
+          "id": "DAv2_Backpack_JigsawWaste",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "cosmo__81d34610afa3b91a_29c0c4191e61fb71.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/81d34610afa3b91a/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__81d34610afa3b91a_d2e71b6320aa32c2.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/81d34610afa3b91a/renderimage_1.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
+        "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_jigsawwaste",
+        "offerId": "v2:/48bbde0343ef4807e76b3979340ab7974b6d686b2cb44593889dd3c5b3e80fbc",
+        "outDate": "2026-10-31T23:59:59.999Z",
+        "refundable": false,
+        "regularPrice": 300,
+        "sortPriority": -4,
+        "tileBackgroundMaterial": "ShopTile_FNMares26_NoSmile",
         "tileSize": "Size_1_x_1"
       },
       {
@@ -30959,7 +33990,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Beautifully bittersweet.",
-            "dynamicPakId": "1007",
             "id": "Character_MistTycoonLife",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_misttycoonlife/featured.png",
@@ -31028,7 +34058,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Feather-soft wings that wow.",
-            "dynamicPakId": "1007",
             "id": "Backpack_MistTycoonLife",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonlife/featured.png",
@@ -31202,7 +34231,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "You belong to her.",
-            "dynamicPakId": "1007",
             "id": "Character_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_misttycoonhike/featured.png",
@@ -31253,7 +34281,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it classic.",
-            "dynamicPakId": "1016",
             "id": "Pickaxe_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoonhike/featured.png",
@@ -31298,7 +34325,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Beautifully bittersweet.",
-            "dynamicPakId": "1007",
             "id": "Character_MistTycoonLife",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_misttycoonlife/featured.png",
@@ -31367,7 +34393,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Feather-soft wings that wow.",
-            "dynamicPakId": "1007",
             "id": "Backpack_MistTycoonLife",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonlife/featured.png",
@@ -31430,7 +34455,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Su-purr supportive squadmates.",
-            "dynamicPakId": "1007",
             "id": "Backpack_MistTycoonHike",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoonhike/featured.png",
@@ -31475,7 +34499,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "Bitter is better with a little sweet.",
-            "dynamicPakId": "1007",
             "id": "EID_MistTycoonLife",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_misttycoonlife/icon.png",
@@ -31520,7 +34543,6 @@
           {
             "added": "2026-09-23T16:31:22Z",
             "description": "It's a yes from me, baby.",
-            "dynamicPakId": "1007",
             "id": "EID_MistTycoonHike",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_misttycoonhike/icon.png",
@@ -31565,7 +34587,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it close like a locket.",
-            "dynamicPakId": "1016",
             "id": "Pickaxe_MistTycoon_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_misttycoon_mic/featured.png",
@@ -31610,7 +34631,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Keep it close like a locket.",
-            "dynamicPakId": "1016",
             "id": "Backpack_MistTycoon_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_misttycoon_mic/featured.png",
@@ -31655,7 +34675,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "Show your style.",
-            "dynamicPakId": "1016",
             "id": "Wrap_MistTycoon",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_misttycoon/featured.png",
@@ -31700,7 +34719,6 @@
           {
             "added": "2026-09-24T13:00:55Z",
             "description": "She does as she pleases.",
-            "dynamicPakId": "1016",
             "id": "LoadingScreen_MistTycoonKeyArt",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_misttycoonkeyart/featured.png",
@@ -31983,7 +35001,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "It's salty... but sweet, too.",
-            "dynamicPakId": "1027",
             "id": "Backpack_SpireTendFlair",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_spiretendflair/featured.png",
@@ -32218,7 +35235,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A boy who suffers from inner darkness but supports his friends.",
-            "dynamicPakId": "1027",
             "id": "Character_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_vealcadet/featured.png",
@@ -32268,7 +35284,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A powerful weapon that reacts to dark power.",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_vealcadet/featured.png",
@@ -32330,7 +35345,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "A powerful weapon that reacts to dark power.",
-            "dynamicPakId": "1027",
             "id": "Backpack_VealCadet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_vealcadet/featured.png",
@@ -32441,7 +35455,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Another side, another solo...",
-            "dynamicPakId": "1027",
             "id": "Backpack_FaunaPike_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_faunapike_guitar/featured.png",
@@ -32485,7 +35498,6 @@
           {
             "added": "2026-09-17T08:00:00Z",
             "description": "Another side, another solo...",
-            "dynamicPakId": "1027",
             "id": "Pickaxe_FaunaPike_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_faunapike_guitar/featured.png",
@@ -32786,7 +35798,7 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Vehicle_Web_OpticOrange",
+              "fileName": "cosmo__1020505ca5d07d1f_b17be11e7fb29d10.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/1020505ca5d07d1f/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -33468,7 +36480,7 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "T_UI_Vehicle_Web_UmbraGenesis",
+              "fileName": "cosmo__47704401e719a72d_d25bb06f57697dbf.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/47704401e719a72d/renderimage_0.png",
               "productTag": "Product.BR"
             }
@@ -33488,7 +36500,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "The Phantom Thieves' talented (?) actress.",
-            "dynamicPakId": "1030",
             "id": "Character_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_debitscent/featured.png",
@@ -33556,7 +36567,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Dance Carmen!",
-            "dynamicPakId": "1030",
             "id": "Backpack_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_debitscent/featured.png",
@@ -33600,7 +36610,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Listen to your heart.",
-            "dynamicPakId": "1030",
             "id": "Pickaxe_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_debitscent/featured.png",
@@ -33844,7 +36853,6 @@
           {
             "added": "2026-09-25T13:00:42Z",
             "description": "Dance Carmen!",
-            "dynamicPakId": "1030",
             "id": "Backpack_DebitScent",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_debitscent/featured.png",
