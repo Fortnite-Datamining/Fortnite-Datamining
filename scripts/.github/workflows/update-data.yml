@@ -1,0 +1,52 @@
+name: Update Fortnite data snapshots
+
+on:
+  schedule:
+    # 4× a day — 06:00, 12:00, 18:00, 00:00 UTC
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Comma-separated subset (news,map,playlists,build,banners,stats,weapons)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-fortnite-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch fresh Fortnite data
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            node scripts/update-data.mjs --only=${{ inputs.only }}
+          else
+            node scripts/update-data.mjs
+          fi
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "dropzone-bot"
+          git config user.email "dropzone-bot@users.noreply.github.com"
+          if [ -z "$(git status --porcelain data/)" ]; then
+            echo "No data changes — nothing to commit."
+            exit 0
+          fi
+          git add data/
+          git commit -m "chore(data): refresh Fortnite snapshots $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
