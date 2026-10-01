@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "fetch": "tsx src/fetch.ts",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "data:update": "node scripts/update-data.mjs"
   },
   "repository": {
     "type": "git",
