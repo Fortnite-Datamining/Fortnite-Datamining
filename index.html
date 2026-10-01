@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#111a2b">
-<meta name="description" content="A precise, searchable Fortnite data browser powered by public API snapshots.">
+<meta name="description" content="Dropzone — Fortnite data browser sourced from Fortnite-Datamining.">
 <title>Dropzone | Fortnite data browser</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
@@ -47,8 +47,6 @@
 .viewerHint{padding:10px;text-align:center;color:var(--dim);font-size:11px;background:#07101b;border-top:1px solid #263750}
 .loadingViewer .viewerStage{padding:0;background:#000}.loadingViewer .viewerStage img{width:100%;height:100%;max-width:none;object-fit:contain}
 @media(max-width:900px){.detailPanel{grid-template-columns:1fr;padding:17px}.detailMedia{min-height:260px}.detailGrid{grid-template-columns:1fr}.viewerArrow{width:40px;height:58px}}
-
-
 .detailDescriptionBox{margin-top:16px;padding:14px 16px;border:1px solid #29445c;border-radius:8px;background:#0a1522}
 .detailDescriptionBox .detailLabel{margin-top:0}.detailDescriptionBox .detailValue{font-size:13px;color:#d6e2ef}
 .viewerInfo{width:min(900px,calc(100% - 32px));margin:0 auto 12px;padding:12px 15px;border:1px solid #29445c;border-radius:8px;background:#07111ddf;backdrop-filter:blur(8px)}
@@ -57,7 +55,6 @@
 .viewerInfoMeta{display:flex;flex-wrap:wrap;gap:7px;margin:9px 0}
 .viewerInfoMeta span{padding:6px 8px;border:1px solid #23384d;border-radius:5px;background:#0b1724;color:#dce8f3;font-size:10px}
 .viewerInfoMeta b{display:block;color:#71859a;font-size:8px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
-
 .shopLiveBar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 18px;padding:12px 14px;border:1px solid #29445c;border-radius:9px;background:linear-gradient(90deg,#0d1b2a,#101a28)}
 .shopCountdown{font:800 25px 'Barlow Condensed';letter-spacing:.05em;color:var(--cyan)}
 .shopCountdownLabel{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}
@@ -68,6 +65,8 @@
 .shopItem{cursor:pointer;transition:transform .16s,border-color .16s,box-shadow .16s}.shopItem:hover{transform:translateY(-3px);border-color:#4dbbe8;box-shadow:0 12px 30px #0006}
 .shopSub{display:flex;justify-content:space-between;gap:8px;margin-top:6px;color:var(--muted);font-size:10px}
 .shopPriceRow{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px}.shopPriceRow strong{color:var(--yellow);font-size:16px}.shopPriceRow small{color:var(--muted);font-size:9px}
+.catTabs{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+.catTab{height:32px;padding:0 10px;border:1px solid var(--line);border-radius:6px;background:#0f1a29;color:#a9b8c9;font-size:11px}.catTab:hover,.catTab.active{border-color:#3c6d87;background:#183044;color:#fff}
 </style>
 <style>.styleGallery{flex:0 0 100%;width:100%}.styleGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:8px;margin-top:8px}.styleOption{min-width:0;padding:6px;border:1px solid var(--line);border-radius:7px;background:#0b1522;color:#dce7f3;text-align:left}.styleOption:hover{border-color:var(--cyan);background:#15283a}.styleOption img{display:block;width:100%;aspect-ratio:1;object-fit:contain;background:#09111b;border-radius:4px}.styleOption b,.styleOption small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.styleOption b{margin-top:6px;font-size:10px}.styleOption small{margin-top:3px;color:var(--muted);font-size:9px}</style>
 <style>
@@ -124,32 +123,25 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 .dreamPick.equipped .itemImage:after{content:'✓ EQUIPPED';position:absolute;left:8px;bottom:8px;padding:3px 6px;border-radius:4px;background:#66ddffe6;color:#07121d;font:800 9px 'Space Grotesk'}
 @media(max-width:900px){.dreamLocker{grid-template-columns:1fr}.dreamOutfitPreview{aspect-ratio:1.1}}
 @media(max-width:900px){.onlinePill{display:none}}
-
 .playerLookup{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;margin:18px 0}
 .playerLookup input{height:46px;padding:0 14px;border:1px solid var(--line);border-radius:8px;background:#0a111c;color:#fff;outline:0}
 .playerLookup input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #66ddff1b}
-.playerLookup button{height:46px}
 .playerResult{margin-top:16px}
-.playerIdentity{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:22px;border:1px solid #31516b;border-radius:12px;background:linear-gradient(135deg,#13283a,#101926);box-shadow:var(--shadow)}
+.playerIdentity{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;padding:22px;border:1px solid #31516b;border-radius:12px;background:linear-gradient(135deg,#13283a,#101926)}
 .playerIdentity h2{margin:3px 0 8px;font-size:40px}
 .playerId{color:var(--muted);font:11px/1.5 monospace;word-break:break-all}
-.playerPlatformList{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
-.playerPlatform{padding:5px 8px;border:1px solid #355269;border-radius:999px;background:#0d1925;color:#bfe7f5;font-size:10px;text-transform:uppercase;letter-spacing:.06em}
 .playerStatus{padding:8px 10px;border:1px solid #2fd88a55;border-radius:7px;background:#0f2a20;color:#bfeed4;font-size:11px;white-space:nowrap}
 .playerStatus.private{border-color:#ff769f55;background:#2a1320;color:#ffc1d2}
 .playerStatsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
 .playerStatCard{padding:16px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
 .playerStatCard label{display:block;color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.12em}
 .playerStatCard strong{display:block;margin-top:7px;font:800 30px/1 'Barlow Condensed'}
-.playerStatCard small{display:block;margin-top:6px;color:var(--muted);font-size:10px}
 .playerModePanel{margin-top:12px;padding:17px;border:1px solid var(--line);border-radius:9px;background:#101a2a}
 .playerModePanel h3{margin-bottom:12px;font:700 22px 'Barlow Condensed';text-transform:uppercase}
 .playerModeGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
 .playerMode{padding:13px;border:1px solid #263750;border-radius:8px;background:#0d1724}
 .playerMode b{display:block;color:#fff;font-size:12px}
 .playerMode span{display:block;margin-top:5px;color:var(--muted);font-size:10px;line-height:1.5}
-.playerRaw{margin-top:12px}
-.playerRaw pre{max-height:330px;overflow:auto;padding:14px;border:1px solid var(--line);border-radius:8px;background:#080f18;color:#9fb2c9;font:11px/1.5 monospace;white-space:pre-wrap}
 .playerActions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .playerLoading{padding:28px;text-align:center;border:1px dashed #355269;border-radius:9px;color:var(--muted)}
 .playerNotice{margin-top:12px;padding:13px 15px;border:1px solid #5a4250;border-radius:8px;background:#211722;color:#d9bfca;font-size:12px;line-height:1.55}
@@ -159,6 +151,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 .brSync:before{content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan);animation:pulseDot 1.6s infinite}
 #fatalError{position:fixed;left:12px;bottom:12px;z-index:99;max-width:520px;padding:12px 14px;border:1px solid #ff769f66;border-radius:8px;background:#2a1320;color:#ffd1dd;font:12px/1.5 monospace;display:none}
 #fatalError.show{display:block}
+.repoBadge{display:inline-flex;align-items:center;gap:5px;padding:3px 7px;border:1px solid #2fd88a55;border-radius:5px;background:#0f2a20;color:#bfeed4;font:600 9px 'Space Grotesk';letter-spacing:.05em;text-transform:uppercase}
 </style>
 </head>
 <body>
@@ -167,31 +160,32 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <aside class="sidebar" id="sidebar">
   <div class="logo"><span class="logoMark">F</span><div>DROPZONE<small>FORTNITE DATA LAB</small></div></div>
   <nav>
-    <div class="navGroup"><div class="navLabel">Live intelligence</div><button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button><button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button><button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button><button class="navItem" data-view="fallguys"><span class="navIcon">🫘</span>Fall Guys</button><button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button><button class="navItem" data-view="playerstats"><span class="navIcon">◉</span>Player Stats</button></div>
-    <div class="navGroup"><div class="navLabel">Battle Royale</div><button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button><button class="navItem" data-view="dreamlocker"><span class="navIcon">▣</span>Dream Locker</button><button class="navItem" data-view="cosmetics" data-cosmetic-type="Emote"><span class="navIcon">✦</span>Emotes</button><button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button><button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button><button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button></div>
-    <div class="navGroup"><div class="navLabel">More collections</div><button class="navItem" data-view="lego"><span class="navIcon">▦</span>LEGO</button><button class="navItem" data-view="festival"><span class="navIcon">♫</span>Festival & tracks</button><button class="navItem" data-view="vehicles"><span class="navIcon">▰</span>Cars</button><button class="navItem" data-view="banners"><span class="navIcon">⚑</span>Banners</button></div>
+    <div class="navGroup"><div class="navLabel">Live intelligence</div><button class="navItem active" data-view="home"><span class="navIcon">⌂</span>Overview</button><button class="navItem" data-view="shop"><span class="navIcon">◈</span>Item shop <span class="navCount liveCount">LIVE</span></button><button class="navItem" data-view="news"><span class="navIcon">▣</span>News feed</button><button class="navItem" data-view="map"><span class="navIcon">⊙</span>Island map</button><button class="navItem" data-view="playerstats"><span class="navIcon">◉</span>Player Stats</button></div>
+    <div class="navGroup"><div class="navLabel">Battle Royale</div><button class="navItem" data-view="outfits"><span class="navIcon">◆</span>Outfits</button><button class="navItem" data-view="cosmetics"><span class="navIcon">◇</span>All cosmetics</button><button class="navItem" data-view="dreamlocker"><span class="navIcon">▣</span>Dream Locker</button><button class="navItem" data-view="weapons"><span class="navIcon">⌁</span>Weapons</button><button class="navItem" data-view="modes"><span class="navIcon">▤</span>Modes & playlists</button></div>
+    <div class="navGroup"><div class="navLabel">More collections</div><button class="navItem" data-view="lego"><span class="navIcon">▦</span>LEGO</button><button class="navItem" data-view="festival"><span class="navIcon">♫</span>Festival & tracks</button><button class="navItem" data-view="vehicles"><span class="navIcon">▰</span>Cars</button><button class="navItem" data-view="beans"><span class="navIcon">🫘</span>Fall Guys</button><button class="navItem" data-view="banners"><span class="navIcon">⚑</span>Banners</button></div>
   </nav>
-  <div class="sideFoot">PUBLIC SNAPSHOTS<br><span id="buildSide">Loading build...</span><br>Total visits tracked <strong id="totalVisitsSide">–</strong></div>
+  <div class="sideFoot">SOURCE<br><span class="repoBadge">Fortnite-Datamining</span><br><span id="buildSide">Loading build...</span><br>Total visits <strong id="totalVisitsSide">–</strong></div>
 </aside>
 <main class="main">
-<header class="topbar"><button class="mobileMenu" id="menu">☰</button><div class="search"><input id="search" placeholder="Search the vault: skins, IDs, sets, weapons..." autocomplete="off"><span>⌕</span></div><div class="onlinePill" title="Real shared visitor count, powered by CountAPI"><span class="onlineDot"></span><strong id="onlineNowTop">–</strong> browsing now</div><div class="liveDot"><i></i><span id="updated">Syncing local snapshot</span></div></header>
+<header class="topbar"><button class="mobileMenu" id="menu">☰</button><div class="search"><input id="search" placeholder="Search the vault: skins, IDs, sets, weapons..." autocomplete="off"><span>⌕</span></div><div class="onlinePill"><span class="onlineDot"></span><strong id="onlineNowTop">–</strong> browsing now</div><div class="liveDot"><i></i><span id="updated">Syncing from repo</span></div></header>
 <div class="content">
-<section id="home" class="view active"><div class="hero"><div class="heroCopy"><div class="eyebrow">Fortnite intelligence / current snapshot</div><h1>Know the island.<br>Know the drop.</h1><p>A high-signal browser for cosmetics, the live shop, weapons, modes, map intelligence and the raw public data behind them.</p><span class="heroTag" id="buildHero">BUILD LOADING</span></div><div class="signal"><h3>Today in Fortnite</h3><strong id="heroShopCount">--</strong><p>offers indexed in the current item shop.</p><div class="sectionHead" style="margin-top:32px"><span>Data health</span><span id="health">Checking...</span></div><div style="height:5px;background:#263750;border-radius:5px"><div id="healthBar" style="height:100%;width:0;background:var(--green);border-radius:5px;transition:width .6s"></div></div><div class="sectionHead" style="margin-top:18px"><span>Cosmetics sync</span><span id="brSyncLabel" class="brSync">loading…</span></div><div class="sectionHead" style="margin-top:18px"><span>Community</span><span>real, shared counter</span></div><div class="liveStatsRow"><div><strong id="onlineNowStat">–</strong><small>online now</small></div><div><strong id="totalVisitsHero">–</strong><small>total visits</small></div></div></div></div><div class="stats" id="stats"></div><div class="sectionHead"><h2>Latest intel</h2><button class="control" data-view="news">View all news →</button></div><div id="newsPreview" class="newsGrid"></div><div class="sectionHead"><h2>Explore the vault</h2><span>curated from tracked APIs</span></div><div id="explore" class="stats"></div></section>
+<section id="home" class="view active"><div class="hero"><div class="heroCopy"><div class="eyebrow">Fortnite intelligence / repo snapshot</div><h1>Know the island.<br>Know the drop.</h1><p>A high-signal browser for cosmetics, the live shop, weapons, modes, map intelligence and the raw public data behind them — sourced from Fortnite-Datamining.</p><span class="heroTag" id="buildHero">BUILD LOADING</span></div><div class="signal"><h3>Today in Fortnite</h3><strong id="heroShopCount">--</strong><p>offers indexed in the current item shop.</p><div class="sectionHead" style="margin-top:32px"><span>Data health</span><span id="health">Checking...</span></div><div style="height:5px;background:#263750;border-radius:5px"><div id="healthBar" style="height:100%;width:0;background:var(--green);border-radius:5px;transition:width .6s"></div></div><div class="sectionHead" style="margin-top:18px"><span>Repo sync</span><span id="brSyncLabel" class="brSync">loading…</span></div><div class="sectionHead" style="margin-top:18px"><span>Community</span><span>real, shared counter</span></div><div class="liveStatsRow"><div><strong id="onlineNowStat">–</strong><small>online now</small></div><div><strong id="totalVisitsHero">–</strong><small>total visits</small></div></div></div></div><div class="stats" id="stats"></div><div class="sectionHead"><h2>Latest intel</h2><button class="control" data-view="news">View all news →</button></div><div id="newsPreview" class="newsGrid"></div><div class="sectionHead"><h2>Explore the vault</h2><span>curated from the repo</span></div><div id="explore" class="stats"></div></section>
 <section id="shop" class="view"><div class="eyebrow">Live intelligence</div><div class="sectionHead"><h2>Item shop</h2><div class="shopSyncWrap"><span id="shopDate">Loading...</span><span id="shopSync" class="shopSync">syncing</span><button class="control" id="shopRefreshBtn" type="button">⟳ Refresh now</button></div></div><div class="shopLiveBar"><span class="shopStatusDot"></span><span class="shopCountdownLabel">Shop resets in</span><strong id="shopCountdown" class="shopCountdown">--:--:--</strong><span id="shopResetText" class="shopCountdownLabel">calculating...</span></div><div class="toolbar"><button class="control active" data-shop-filter="all">All offers</button><button class="control" data-shop-filter="outfit">Outfits</button><button class="control" data-shop-filter="pickaxe">Pickaxes</button><button class="control" data-shop-filter="emote">Emotes</button><button class="control" data-shop-filter="wrap">Wraps</button><button class="control" data-shop-filter="glider">Gliders</button><button class="control" data-shop-filter="bundle">Bundles</button></div><div id="shopOrganizer" class="shopOrganizer"></div><div id="shopSections" class="shopSections"></div></section>
 <section id="news" class="view"><div class="eyebrow">Epic content feed</div><div class="sectionHead"><h2>News feed</h2><span>Battle Royale / Save the World</span></div><div id="newsAll" class="newsGrid"></div></section>
-<section id="fallguys" class="view"><div class="eyebrow">Fall Guys crossover / bean styles</div><div class="sectionHead"><h2>Fall Guys</h2><span id="fallguysCount"></span></div><div id="fallguysGrid" class="catalogGrid"></div></section>
-<section id="playerstats" class="view"><div class="eyebrow">Epic account intelligence</div><div class="sectionHead"><h2>Player Stats</h2><span>Search an Epic display name</span></div><p style="color:var(--muted);font-size:12px;line-height:1.6;max-width:760px">Enter a Fortnite/Epic display name. Dropzone will resolve the matching account, show the Epic account ID, then load public Battle Royale statistics when the player has stats visibility enabled.</p><form class="playerLookup" id="playerLookupForm"><input id="playerLookupInput" maxlength="32" autocomplete="off" placeholder="Enter a Fortnite player name..." aria-label="Fortnite player name"><button class="control primary" type="submit">Search player</button></form><div id="playerResult" class="playerResult"><div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div></div></section>
+<section id="playerstats" class="view"><div class="eyebrow">Epic account intelligence</div><div class="sectionHead"><h2>Player Stats</h2><span>Search an Epic display name</span></div><p style="color:var(--muted);font-size:12px;line-height:1.6;max-width:760px">Enter a Fortnite/Epic display name. Dropzone resolves the account and loads public Battle Royale statistics when available.</p><form class="playerLookup" id="playerLookupForm"><input id="playerLookupInput" maxlength="32" autocomplete="off" placeholder="Enter a Fortnite player name..."><button class="control primary" type="submit">Search player</button></form><div id="playerResult" class="playerResult"><div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div></div></section>
 <section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
-<section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"><button class="control" id="outfitRefreshBtn" type="button">⟳ Refresh cosmetics</button><span style="align-self:center;color:var(--dim);font-size:11px" id="outfitSync"></span></div><div id="outfitGrid" class="catalogGrid"></div></section>
+<section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar"><button class="control" id="outfitRefreshBtn" type="button">⟳ Refresh outfits</button><span style="align-self:center;color:var(--dim);font-size:11px" id="outfitSync"></span></div><div id="outfitGrid" class="catalogGrid"></div></section>
+<section id="cosmetics" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div><div class="catTabs" id="cosmeticTabs"></div><div id="cosmeticGrid" class="catalogGrid"></div></section>
 <section id="dreamlocker" class="view"><div class="eyebrow">Battle Royale / build your loadout</div><div class="sectionHead"><h2>Dream Locker</h2><span id="dreamLockerCount"></span></div><div class="dreamLocker"><div class="dreamStage"><div class="dreamStageGlow"></div><div class="dreamOutfitPreview" id="dreamOutfitPreview"><span class="placeholder">Pick an Outfit to start your dream loadout</span></div><div class="dreamSlots" id="dreamSlots"></div><div class="dreamStageFoot"><button class="control primary" id="dreamRandomize" type="button">🎲 Randomize</button><button class="control" id="dreamClear" type="button">Clear all</button></div></div><div class="dreamPicker"><div class="toolbar" id="dreamTools"></div><div id="dreamGrid" class="catalogGrid"></div></div></div></section>
-<section id="cosmetics" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div><div class="toolbar" id="cosmeticTools"></div><div id="cosmeticGrid" class="catalogGrid"></div></section>
-<section id="lego" class="view"><div class="eyebrow">More collections</div><div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div><div class="toolbar"><button class="control active" data-collection="lego">LEGO cosmetics</button><button class="control" data-collection="lego_kits">Kits</button></div><div id="legoGrid" class="catalogGrid"></div></section>
-<section id="festival" class="view"><div class="eyebrow">Festival / music</div><div class="sectionHead"><h2>Festival library</h2><span id="festivalCount"></span></div><div class="toolbar"><button class="control active" data-collection="tracks">Jam tracks</button><button class="control" data-collection="instruments">Instruments</button></div><div id="festivalGrid" class="catalogGrid"></div></section>
+<section id="lego" class="view"><div class="eyebrow">More collections</div><div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div><div class="toolbar"><button class="control active" data-lego-filter="lego">LEGO cosmetics</button><button class="control" data-lego-filter="lego_kits">Kits</button></div><div id="legoGrid" class="catalogGrid"></div></section>
+<section id="festival" class="view"><div class="eyebrow">Festival / music</div><div class="sectionHead"><h2>Festival library</h2><span id="festivalCount"></span></div><div class="toolbar"><button class="control active" data-festival-filter="tracks">Jam tracks</button><button class="control" data-festival-filter="instruments">Instruments</button></div><div id="festivalGrid" class="catalogGrid"></div></section>
 <section id="vehicles" class="view"><div class="eyebrow">Garage / loadout</div><div class="sectionHead"><h2>Cars</h2><span id="vehiclesCount"></span></div><div id="vehiclesGrid" class="catalogGrid"></div></section>
+<section id="beans" class="view"><div class="eyebrow">Fall Guys crossover / bean styles</div><div class="sectionHead"><h2>Fall Guys</h2><span id="beansCount"></span></div><div id="beansGrid" class="catalogGrid"></div></section>
 <section id="banners" class="view"><div class="eyebrow">Locker data</div><div class="sectionHead"><h2>Banner archive</h2><span id="bannersCount"></span></div><div id="bannersGrid" class="catalogGrid"></div></section>
-<section id="weapons" class="view"><div class="eyebrow">Battle Royale / combat</div><div class="sectionHead"><h2>Weapon vault</h2><span id="weaponsCount"></span></div><div class="toolbar"><select class="control" id="weaponRarity"><option value="all">All rarities</option><option>Common</option><option>Uncommon</option><option>Rare</option><option>Epic</option><option>Legendary</option></select><button class="control active" id="damageSort">Sort by damage</button></div><div id="weaponsTable"></div></section>
+<section id="weapons" class="view"><div class="eyebrow">Battle Royale / combat</div><div class="sectionHead"><h2>Weapon vault</h2><span id="weaponsCount"></span></div><div class="toolbar"><select class="control" id="weaponRarity"><option value="all">All rarities</option><option>Common</option><option>Uncommon</option><option>Rare</option><option>Epic</option><option>Legendary</option><option>Mythic</option></select><button class="control active" id="damageSort">Sort by damage</button></div><div id="weaponsTable"></div></section>
 <section id="modes" class="view"><div class="eyebrow">Battle Royale / game modes</div><div class="sectionHead"><h2>Modes & playlists</h2><span id="modesCount"></span></div><div class="toolbar"><button class="control active" data-mode-filter="all">All modes</button><button class="control" data-mode-filter="pvp">PvP</button><button class="control" data-mode-filter="team">Team modes</button><button class="control" data-mode-filter="creative">Creative</button></div><div id="modesTable"></div></section>
-</div></main></div><div id="detailBackdrop" class="detailBackdrop" aria-hidden="true">
+</div></main></div>
+<div id="detailBackdrop" class="detailBackdrop" aria-hidden="true">
 <article class="detailPanel">
 <button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close">×</button>
 <div class="detailMedia" id="detailMedia"></div>
@@ -212,7 +206,6 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <div class="detailActions">
 <button class="detailButton primary" id="detailFullscreen">Open Infinity Viewer</button>
 <button class="detailButton" id="detailLocker">Add to locker</button>
-<button class="detailButton" id="detailShowcase">Showcase video</button>
 <button class="detailButton" id="detailRaw">Show raw JSON</button>
 </div>
 <pre class="jsonData" id="detailJson"></pre>
@@ -235,55 +228,71 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <div id="fatalError"></div>
 <script>
 /* ============================================================
-   Dropzone — global dispatcher
-   Every inline onclick/onkeydown calls through window.DZ so
-   that a partial init failure can't leave dead buttons.
+   Dropzone — all data from Fortnite-Datamining repo (raw URLs)
+   Auto-refresh every 15 minutes.
    ============================================================ */
 window.DZ = window.DZ || {};
-function showFatal(msg){
-  const el=document.getElementById('fatalError');
-  if(!el)return;
-  el.textContent='⚠ '+msg;
-  el.classList.add('show');
-  console.error(msg);
-}
+function showFatal(msg){const el=document.getElementById('fatalError');if(!el)return;el.textContent='⚠ '+msg;el.classList.add('show');console.error(msg)}
 
-/* ---------- preferences (defined BEFORE anything uses them) ---------- */
-const safeStorage = {
-  getItem(k){ try{return localStorage.getItem(k)}catch{return null} },
-  setItem(k,v){ try{localStorage.setItem(k,v)}catch{} },
-  removeItem(k){ try{localStorage.removeItem(k)}catch{} },
-};
-const preferenceDefaults={theme:'ocean',density:'comfortable',cardSize:'standard',imageFit:'contain',showIds:true,showMetadata:true,compactShop:false,showSource:true,reduceMotion:false,highContrast:false,largeText:false,confirmLocker:false,rememberView:true,autoFocusSearch:false,showBuild:true,showEmpty:true,animateCards:true,loadImages:true,rememberFilters:true,showRarity:true,dataSource:'auto',customText:'#f5f7fb',customBackground:'#0b111b',font:'Space Grotesk',backgroundMedia:''};
+/* ---------- preferences (defined early) ---------- */
+const safeStorage={getItem(k){try{return localStorage.getItem(k)}catch{return null}},setItem(k,v){try{localStorage.setItem(k,v)}catch{}},removeItem(k){try{localStorage.removeItem(k)}catch{}}};
+const preferenceDefaults={theme:'ocean',reduceMotion:false,highContrast:false,largeText:false,animateCards:true,showRarity:true,dataSource:'repo',customText:'#f5f7fb',customBackground:'#0b111b',font:'Space Grotesk'};
 let preferences={...preferenceDefaults};
 try{preferences={...preferenceDefaults,...JSON.parse(safeStorage.getItem('dropzone_preferences')||'{}')}}catch{}
 
 /* ---------- constants ---------- */
+const REPO='https://raw.githubusercontent.com/Fortnite-Datamining/Fortnite-Datamining/main';
 const DATA={};
-const PLAYER_API='https://dev.fnapi.osirion.gg/v1';
-const PLAYER_PROXY='https://r.jina.ai/';
-const PLAYER_ACCOUNT_LOOKUP=(name,platform='epic')=>`${PLAYER_API}/accounts/lookup-by-display-name?displayName=${encodeURIComponent(name)}&platform=${encodeURIComponent(platform)}`;
-const PLAYER_STATS_LOOKUP=(id)=>`${PLAYER_API}/stats/account?accountId=${encodeURIComponent(id)}`;
-const FD_BR='https://raw.githubusercontent.com/Fortnite-Datamining/Fortnite-Datamining/main/data/cosmetics/br.json';
-const FORTNITE_API_BR='https://fortnite-api.com/v2/cosmetics/br';
-const DATASETS={br:FD_BR,shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
-const DATASET_API_FALLBACKS={br:FORTNITE_API_BR,shop:'https://fortnite-api.com/v2/shop',news:'https://fortnite-api.com/v2/news',map:'https://fortnite-api.com/v2/map',weapons:null,playlists:'https://fortnite-api.com/v2/playlists',stats:null,build:'https://fortnite-api.com/v2/aes',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'https://fortnite-api.com/v2/cosmetics/banners'};
-const SHOP_REFRESH_MS=3*60*1000;
-const COSMETICS_REFRESH_MS=30*60*1000;
+const DATASETS={
+  br:         `${REPO}/data/cosmetics/br.json`,
+  shop:       `${REPO}/data/shop/current.json`,
+  news:       `${REPO}/data/news/current.json`,
+  playlists:  `${REPO}/data/playlists/current.json`,
+  map:        `${REPO}/data/map/current.json`,
+  build:      `${REPO}/data/meta/build_info.json`,
+  stats:      `${REPO}/data/meta/stats.json`,
+  banners:    `${REPO}/data/banners/current.json`,
+  aes:        `${REPO}/data/aes/current.json`,
+  weapons:    `${REPO}/data/weapons/current.json`,
+  epic:       `${REPO}/data/epic/content.json`,
+  registry:   `${REPO}/data/items/registry.json`,
+};
+const REFRESH_MS=15*60*1000;   // 15 minutes
 const NEW_WINDOW_MS=3*24*60*60*1000;
 const DREAM_SLOTS=['Outfit','Back Bling','Pickaxe','Glider','Wrap','Emote'];
 const DREAM_GLYPHS={'Outfit':'◆','Back Bling':'▣','Pickaxe':'⛏','Glider':'⛅','Wrap':'▧','Emote':'✦'};
-
-let shopLastSynced=0;
-let cosmeticsLastSynced=0;
-const BR_SOURCE_INFO={repo:0,api:0,merged:0,newFromApi:0,updatedAt:0};
+const CATEGORY_LIST=[
+  {label:'All',           value:'all'},
+  {label:'Outfits',       value:'outfit'},
+  {label:'Back Bling',    value:'backpack'},
+  {label:'Pickaxes',      value:'pickaxe'},
+  {label:'Emotes',        value:'emote'},
+  {label:'Gliders',       value:'glider'},
+  {label:'Contrails',     value:'contrail'},
+  {label:'Wraps',         value:'wrap'},
+  {label:'Loading Screens',value:'loadingscreen'},
+  {label:'Sprays',        value:'spray'},
+  {label:'Emoticons',     value:'emoticon'},
+  {label:'Music',         value:'music'},
+  {label:'Banners',       value:'banner'},
+  {label:'Shoes',         value:'shoes'},
+  {label:'Sidekicks',     value:'sidekick'},
+  {label:'Auras',         value:'aura'},
+  {label:'Pets',          value:'pet'},
+  {label:'Toys',          value:'toy'},
+  {label:'Vehicles',      value:'vehicle'},
+];
+const playerState={account:null,stats:null,raw:null};
+const state={view:'home',query:'',category:'all',shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,legoFilter:'lego',festivalFilter:'tracks',dreamCategory:'Outfit',dreamLoadout:{},dataSource:'repo'};
+const ITEM_CACHE=[];
+const SHOP_CONTEXT={};
+const NEWS_CACHE=[];
 let activeItemIndex=-1;
 let currentUser=safeStorage.getItem('dropzone_user')||'';
-let lockerItems=[];
-try{const p=JSON.parse(safeStorage.getItem('dropzone_locker')||'[]');lockerItems=Array.isArray(p)?p:[]}catch{lockerItems=[]}
-const playerState={account:null,stats:null,raw:null};
-const state={view:'home',query:'',collection:{lego:'lego',festival:'tracks',vehicles:'cars'},shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,cosmeticType:'all',dreamCategory:'Outfit',dreamLoadout:{}};
-const ITEM_CACHE=[];const SHOP_CONTEXT={};const NEWS_CACHE=[];
+let lockerItems=[];try{const p=JSON.parse(safeStorage.getItem('dropzone_locker')||'[]');lockerItems=Array.isArray(p)?p:[]}catch{lockerItems=[]}
+let repoLastSynced=0;
+const REPO_INFO={counts:{},updatedAt:0};
+
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const arr=(key)=>{const d=DATA[key];if(Array.isArray(d))return d;if(Array.isArray(d?.data))return d.data;if(Array.isArray(d?.items))return d.items;if(Array.isArray(d?.weapons))return d.weapons;if(Array.isArray(d?.cosmetics))return d.cosmetics;return []};
@@ -292,73 +301,38 @@ const name=x=>x?.name||x?.title||x?.displayName||x?.id||'Unknown item';
 const money=x=>Number.isFinite(Number(x))?Number(x).toLocaleString():'--';
 
 /* ---------- data loading ---------- */
-function unwrapCosmeticList(j){
+function unwrapList(j){
   if(Array.isArray(j))return j;
   if(Array.isArray(j?.data))return j.data;
   if(Array.isArray(j?.items))return j.items;
+  if(Array.isArray(j?.weapons))return j.weapons;
   if(Array.isArray(j?.cosmetics))return j.cosmetics;
   return [];
 }
-let _brMergePromise=null;
-async function loadBRMerged(force=false){
-  if(DATA.br && !force) return DATA.br;
-  if(_brMergePromise && !force) return _brMergePromise;
-  _brMergePromise=(async()=>{
-    const sources=[FD_BR,FORTNITE_API_BR];
-    const results=await Promise.all(sources.map(async url=>{
-      try{
-        const sep=url.includes('?')?'&':'?';
-        const r=await fetch(`${url}${sep}_=${Date.now()}`,{cache:'no-store'});
-        if(!r.ok) throw Error(`HTTP ${r.status}`);
-        return unwrapCosmeticList(await r.json());
-      }catch(e){console.warn('BR source failed:',url,e);return []}
-    }));
-    const [repo,api]=results;
-    const map=new Map();
-    repo.forEach(x=>x&&x.id&&map.set(x.id,x));
-    api.forEach(x=>x&&x.id&&map.set(x.id,x));
-    const merged=[...map.values()];
-    merged.sort((a,b)=>{
-      const ta=Date.parse(a?.added||a?.introduction?.date||'')||0;
-      const tb=Date.parse(b?.added||b?.introduction?.date||'')||0;
-      return tb-ta;
-    });
-    Object.assign(BR_SOURCE_INFO,{repo:repo.length,api:api.length,merged:merged.length,newFromApi:Math.max(0,api.length-repo.length),updatedAt:Date.now()});
-    cosmeticsLastSynced=Date.now();
-    DATA.br=merged;
-    DATA['_src_br']='merged';
-    console.log(`[br] repo=${repo.length} api=${api.length} merged=${merged.length} (${BR_SOURCE_INFO.newFromApi} new from API)`);
-    updateBrSyncLabel();
-    return merged;
-  })().finally(()=>{_brMergePromise=null});
-  return _brMergePromise;
+async function fetchJson(url){
+  const sep=url.includes('?')?'&':'?';
+  const r=await fetch(`${url}${sep}_=${Date.now()}`,{cache:'no-store'});
+  if(!r.ok)throw Error(`HTTP ${r.status} — ${url}`);
+  return r.json();
 }
 async function load(key,force=false){
-  if(key==='br')return loadBRMerged(force);
   if(DATA[key]&&!force)return DATA[key];
-  const repoSource=DATASETS[key];
-  const apiSource=DATASET_API_FALLBACKS[key];
-  const pref=preferences.dataSource||'auto';
-  const isRemote=u=>/^https?:/.test(u);
-  const doFetch=async url=>{
-    const sep=url.includes('?')?'&':'?';
-    const finalUrl=isRemote(url)?`${url}${sep}_=${Date.now()}`:url;
-    const r=await fetch(finalUrl,{cache:'no-store'});
-    if(!r.ok)throw Error(`HTTP ${r.status}`);
-    return await r.json();
-  };
-  let sources;
-  if(pref==='api')sources=[apiSource].filter(Boolean);
-  else if(pref==='repo')sources=[repoSource].filter(Boolean);
-  else sources=[repoSource,apiSource].filter(Boolean);
-  if(!sources.length)sources=[repoSource].filter(Boolean);
-  let lastError=null;
-  for(const src of sources){
-    try{const data=await doFetch(src);DATA[key]=data;DATA[`_src_${key}`]=src===apiSource?'api':'repo';return data}
-    catch(e){lastError=e}
+  try{
+    const json=await fetchJson(DATASETS[key]);
+    DATA[key]=json;
+    return json;
+  }catch(e){
+    console.warn(`[repo] ${key} failed:`,e.message);
+    // weapons has no public endpoint — silently empty rather than toast-spam
+    if(key!=='weapons')console.warn(`[repo] ${key} — showing empty state`);
+    DATA[key]=key==='weapons'?{weapons:[]}:null;
+    return null;
   }
-  toast(`Could not load ${key}: ${lastError?.message||'unknown error'}`);
-  return null;
+}
+async function loadAll(force=false){
+  const keys=Object.keys(DATASETS);
+  await Promise.all(keys.map(k=>load(k,force)));
+  if(force)repoLastSynced=Date.now();
 }
 
 /* ---------- UI helpers ---------- */
@@ -367,48 +341,22 @@ function toast(message){
   el.textContent=message;el.classList.add('show');
   clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
-function countUp(el,target){
-  if(!el)return;target=Number(target)||0;
-  const dur=900,t0=performance.now();
-  const step=t=>{
-    const p=Math.min(1,(t-t0)/dur);
-    const v=Math.round(target*(1-Math.pow(1-p,3)));
-    el.textContent=v.toLocaleString();
-    if(p<1)requestAnimationFrame(step);
-  };
-  requestAnimationFrame(step);
-}
 function agoText(ms){const s=Math.max(0,Math.round((Date.now()-ms)/1000));if(s<5)return'just now';if(s<60)return`${s}s ago`;const m=Math.round(s/60);if(m<60)return`${m}m ago`;return`${Math.round(m/60)}h ago`}
-function updateShopSyncLabel(){const el=$('#shopSync');if(el)el.textContent=shopLastSynced?`synced ${agoText(shopLastSynced)}`:'syncing';}
-function updateBrSyncLabel(){
-  const el=$('#brSyncLabel');if(!el)return;
-  if(!BR_SOURCE_INFO.updatedAt){el.textContent='loading…';return}
-  el.textContent=`${BR_SOURCE_INFO.merged.toLocaleString()} items · ${BR_SOURCE_INFO.newFromApi} new · ${agoText(BR_SOURCE_INFO.updatedAt)}`;
-  const o=$('#outfitSync');if(o)o.textContent=`repo ${BR_SOURCE_INFO.repo} + api ${BR_SOURCE_INFO.api} → merged ${BR_SOURCE_INFO.merged}`;
+function updateSyncLabels(){
+  const el=$('#brSyncLabel');
+  if(el)el.textContent=`${arr('br').length.toLocaleString()} items · ${repoLastSynced?agoText(repoLastSynced):'loading'}`;
+  const o=$('#outfitSync');
+  if(o)o.textContent=repoLastSynced?`repo ${arr('br').length} items · ${agoText(repoLastSynced)}`:'';
+  const sh=$('#shopSync');if(sh)sh.textContent=repoLastSynced?`synced ${agoText(repoLastSynced)}`:'syncing';
 }
+function countUp(el,target){if(!el)return;target=Number(target)||0;const dur=900,t0=performance.now();const step=t=>{const p=Math.min(1,(t-t0)/dur);el.textContent=Math.round(target*(1-Math.pow(1-p,3))).toLocaleString();if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
 
-/* ---------- field extraction ---------- */
+/* ---------- field helpers ---------- */
 function firstDefined(...vals){for(const v of vals)if(v!==undefined&&v!==null&&v!=='')return v;return ''}
-function textValue(v){
-  if(v===undefined||v===null)return '';
-  if(typeof v==='string'||typeof v==='number')return String(v);
-  if(Array.isArray(v))return v.map(textValue).filter(Boolean).join(', ');
-  return firstDefined(v.displayValue,v.displayName,v.text,v.name,v.value,v.backendValue,v.label,'');
-}
-function metaPath(item,paths){
-  for(const path of paths){
-    let cur=item;
-    for(const key of path.split('.')){if(cur==null)break;cur=cur[key]}
-    const val=textValue(cur);if(val)return val;
-  }
-  return '';
-}
-function formatDate(v){
-  if(!v)return '—';
-  const d=new Date(v);
-  return Number.isNaN(d.getTime())?String(v):d.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'});
-}
-function detailDescription(item){return metaPath(item,['description.displayValue','description.text','description.value','description','shortDescription.displayValue','shortDescription.text','longDescription.displayValue','longDescription.text'])||'No description available for this item.'}
+function textValue(v){if(v===undefined||v===null)return '';if(typeof v==='string'||typeof v==='number')return String(v);if(Array.isArray(v))return v.map(textValue).filter(Boolean).join(', ');return firstDefined(v.displayValue,v.displayName,v.text,v.name,v.value,v.backendValue,v.label,'')}
+function metaPath(item,paths){for(const path of paths){let cur=item;for(const key of path.split('.')){if(cur==null)break;cur=cur[key]}const val=textValue(cur);if(val)return val}return ''}
+function formatDate(v){if(!v)return '—';const d=new Date(v);return Number.isNaN(d.getTime())?String(v):d.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'})}
+function detailDescription(item){return metaPath(item,['description.displayValue','description.text','description.value','description','shortDescription.displayValue','shortDescription.text','longDescription.displayValue','longDescription.text'])||'No description available.'}
 function detailRarity(item){return metaPath(item,['rarity.displayValue','rarity.name','rarity.value','rarity.backendValue','rarity'])}
 function detailSet(item){return metaPath(item,['set.text','set.displayValue','set.name','set.value','set.backendValue','set'])}
 function detailSeries(item){return metaPath(item,['series.displayValue','series.name','series.value','series.backendValue','series'])}
@@ -423,64 +371,120 @@ function detailRelease(item){return firstDefined(item.added,item.releaseDate,ite
 function detailType(item,fallback='Cosmetic'){return metaPath(item,['type.displayValue','type.name','type.value','type.backendValue','type'])||fallback}
 function releaseTime(item){const d=detailRelease(item);if(!d)return 0;const t=Date.parse(d);return Number.isFinite(t)?t:0}
 function sortNewestFirst(list){return [...list].sort((a,b)=>releaseTime(b)-releaseTime(a))}
-function withNewFlags(list){
-  const sorted=sortNewestFirst(list);
-  const newestTime=sorted.length?releaseTime(sorted[0]):0;
-  return sorted.map(item=>({item,isNew:newestTime>0&&releaseTime(item)>0&&(newestTime-releaseTime(item))<=NEW_WINDOW_MS}));
-}
-const isLoadingScreen=x=>String(x?.type?.value||x?.type?.displayValue||x?.type||'').toLowerCase().includes('loading');
+function withNewFlags(list){const sorted=sortNewestFirst(list);const newestTime=sorted.length?releaseTime(sorted[0]):0;return sorted.map(item=>({item,isNew:newestTime>0&&releaseTime(item)>0&&(newestTime-releaseTime(item))<=NEW_WINDOW_MS}))}
 const cacheItem=x=>{ITEM_CACHE.push(x);return ITEM_CACHE.length-1};
-const cacheShopItem=(x,o)=>{const i=cacheItem(x);SHOP_CONTEXT[i]=o;return i};
 function matches(x){if(!state.query)return true;return JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())}
 
 /* ---------- card rendering ---------- */
 function card(x,type='Item',isNew=false){
-  return `<article class="item"><div class="itemImage">${isNew?'<span class="newBadge">NEW</span>':''}${image(x)?`<img loading="lazy" src="${esc(image(x))}" alt="${esc(name(x))}">`:'<span class="placeholder">FN</span>'}<span class="badge">${esc(x?.rarity?.displayValue||x?.rarity?.name||x?.type?.displayValue||type)}</span></div><div class="itemBody"><div class="itemName" title="${esc(name(x))}">${esc(name(x))}</div><div class="itemMeta"><span>${esc(x?.set?.value||x?.artist||x?.category||x?.id||'')}</span><span>${esc(x?.introduction?.text||x?.releaseYear||'')}</span></div></div></article>`;
+  const rarity=x?.rarity?.displayValue||x?.rarity?.name||x?.type?.displayValue||type;
+  const setv=x?.set?.value||x?.artist||x?.category||x?.id||'';
+  const intro=x?.introduction?.text||x?.releaseYear||'';
+  return `<article class="item"><div class="itemImage">${isNew?'<span class="newBadge">NEW</span>':''}${image(x)?`<img loading="lazy" src="${esc(image(x))}" alt="${esc(name(x))}">`:'<span class="placeholder">FN</span>'}<span class="badge">${esc(rarity)}</span></div><div class="itemBody"><div class="itemName" title="${esc(name(x))}">${esc(name(x))}</div><div class="itemMeta"><span>${esc(setv)}</span><span>${esc(intro)}</span></div></div></article>`;
 }
 function interactiveCard(x,type,isNew=false){
   const index=cacheItem(x);
-  const action=isLoadingScreen(x)?`DZ.openLoadingScreen(${index})`:`DZ.openItem(${index})`;
-  return card(x,type,isNew).replace('<article class="item"',`<article class="item" role="button" tabindex="0" onclick="${action}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();${action}}"`);
+  return card(x,type,isNew).replace('<article class="item"',`<article class="item" role="button" tabindex="0" onclick="DZ.openItem(${index})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.openItem(${index})}"`);
 }
 
-/* ---------- stats + explore ---------- */
-function shopEntries(){return DATA.shop?.data?.entries||[]}
+/* ---------- filtering helpers ---------- */
+function categoryValue(x){return (x?.type?.value||x?.type?.backendValue||x?.type?.displayValue||'').toLowerCase().replace(/\s+/g,'')}
+function filterByCategory(list,cat){if(cat==='all')return list;return list.filter(x=>categoryValue(x)===cat)}
+function filterByLego(list,kind){
+  if(kind==='lego')return list.filter(x=>categoryValue(x).includes('lego')||String(x?.id||'').toLowerCase().startsWith('lego'));
+  if(kind==='lego_kits')return list.filter(x=>String(x?.id||'').toLowerCase().includes('legokit')||categoryValue(x).includes('kit'));
+  return list;
+}
+function filterByFestival(list,kind){
+  if(kind==='tracks')return list.filter(x=>categoryValue(x)==='music'||String(x?.id||'').toLowerCase().startsWith('sid_')||x?.track);
+  if(kind==='instruments')return list.filter(x=>categoryValue(x).includes('instrument'));
+  return list;
+}
+function filterVehicles(list){return list.filter(x=>categoryValue(x).includes('vehicle')||categoryValue(x)==='car'||categoryValue(x)==='cars')}
+function filterBeans(list){return list.filter(x=>categoryValue(x).includes('bean')||String(x?.id||'').toLowerCase().startsWith('bean'))}
+
+/* ---------- stats ---------- */
+function shopEntries(){return DATA.shop?.data?.entries||DATA.shop?.entries||[]}
 function renderStats(){
-  const c=DATA.stats?.counts||{};
-  const stats=[['BR Cosmetics',arr('br').length,'cyan'],['Shop offers',shopEntries().length,'yellow'],['Weapons',arr('weapons').length,'pink'],['Playlists',c.Playlists||arr('playlists').length,'green']];
+  const stats=[
+    ['BR Cosmetics',arr('br').length,'cyan'],
+    ['Shop offers',shopEntries().length,'yellow'],
+    ['Weapons',arr('weapons').length,'pink'],
+    ['Playlists',arr('playlists').length,'green'],
+  ];
   $('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');
-  $('#explore').innerHTML=[['Outfits',arr('br').length,'outfits'],['Weapons',arr('weapons').length,'weapons'],['LEGO',c['LEGO Cosmetics']||arr('lego').length,'lego'],['Jam tracks',c['Jam Tracks']||arr('tracks').length,'festival']].map(x=>`<button class="stat" data-view="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');
-  $$('#explore [data-view]').forEach(x=>x.addEventListener('click',()=>DZ.setView(x.dataset.view)));
+  const lego=filterByLego(arr('br'),'lego').length;
+  const tracks=filterByFestival(arr('br'),'tracks').length;
+  const cars=filterVehicles(arr('br')).length;
+  const beans=filterBeans(arr('br')).length;
+  $('#explore').innerHTML=[
+    ['Outfits',filterByCategory(arr('br'),'outfit').length,'outfits'],
+    ['All cosmetics',arr('br').length,'cosmetics'],
+    ['Weapons',arr('weapons').length,'weapons'],
+    ['LEGO',lego,'lego'],
+    ['Jam tracks',tracks,'festival'],
+    ['Cars',cars,'vehicles'],
+    ['Fall Guys',beans,'beans'],
+    ['Banners',arr('banners').length,'banners'],
+  ].map(x=>`<button class="stat" data-explore="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');
+  $$('#explore [data-explore]').forEach(b=>b.addEventListener('click',()=>DZ.setView(b.dataset.explore)));
 }
 
 /* ---------- news ---------- */
-function newsItems(){const br=DATA.news?.data?.br?.motds||[],stw=DATA.news?.data?.stw?.messages||[];return [...br,...stw].filter(x=>!x.hidden).sort((a,b)=>(b.sortingPriority||0)-(a.sortingPriority||0))}
+function newsItems(){
+  const br=DATA.news?.data?.br?.motds||DATA.news?.br?.motds||[];
+  const stw=DATA.news?.data?.stw?.messages||DATA.news?.stw?.messages||[];
+  return [...br,...stw].filter(x=>!x.hidden).sort((a,b)=>(b.sortingPriority||0)-(a.sortingPriority||0));
+}
 function newsCard(x){const index=NEWS_CACHE.push(x)-1;return `<article class="newsCard" role="button" tabindex="0" data-news-index="${index}">${x.image||x.tileImage?`<img loading="lazy" src="${esc(x.tileImage||x.image)}" alt="">`:''}<div class="newsText"><small>FORTNITE NEWS</small><h3>${esc(x.title||x.tabTitle||'Latest update')}</h3></div></article>`}
-function renderNews(){const items=newsItems();$('#newsPreview').innerHTML=items.slice(0,3).map(newsCard).join('')||'<div class="empty">No news snapshot available.</div>';$('#newsAll').innerHTML=items.map(newsCard).join('')||'<div class="empty">No news snapshot available.</div>'}
+function renderNews(){const items=newsItems();$('#newsPreview').innerHTML=items.slice(0,3).map(newsCard).join('')||'<div class="empty">No news available.</div>';$('#newsAll').innerHTML=items.map(newsCard).join('')||'<div class="empty">No news available.</div>'}
 
-/* ---------- catalogs ---------- */
-function renderCatalog(key,target,type='Item'){
-  const data=arr(key).filter(matches);
-  const withFlags=withNewFlags(data);
+/* ---------- catalog renderers ---------- */
+function renderGrid(target,list,type='Item'){
   const el=$(target);if(!el)return;
-  const head=el.previousElementSibling?.querySelector('span');
-  if(head)head.textContent=`${data.length.toLocaleString()} records`;
-  el.innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,type,isNew)).join('')||'<div class="empty">No records match your search.</div>';
+  const withFlags=withNewFlags(list);
+  el.innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,type,isNew)).join('')||'<div class="empty">No records match.</div>';
 }
 function renderOutfits(){
-  const data=arr('br').filter(x=>x.type?.value==='outfit'||x.type?.displayValue==='Outfit').filter(matches);
-  const withFlags=withNewFlags(data);
-  $('#outfitCount').textContent=`${data.length.toLocaleString()} records`;
-  $('#outfitGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,'Outfit',isNew)).join('')||'<div class="empty">No outfits match your search.</div>';
+  const list=filterByCategory(arr('br'),'outfit').filter(matches);
+  $('#outfitCount').textContent=`${list.length.toLocaleString()} outfits`;
+  renderGrid('#outfitGrid',list,'Outfit');
+}
+function renderCosmeticTabs(){
+  const tabs=$('#cosmeticTabs');if(!tabs)return;
+  tabs.innerHTML=CATEGORY_LIST.map(c=>`<button class="catTab ${state.category===c.value?'active':''}" data-cat="${c.value}">${c.label}</button>`).join('');
+  tabs.querySelectorAll('.catTab').forEach(b=>b.addEventListener('click',()=>{state.category=b.dataset.cat;renderCosmetics()}));
 }
 function renderCosmetics(){
-  const types=['all','Outfit','Back Bling','Pickaxe','Emote','Spray','Wrap','Loading Screen','Emoticon','Glider','Shoes','Sidekick','Contrail','Lobby Music','Aura','Pet'];
-  $('#cosmeticTools').innerHTML=types.map(type=>`<button class="control ${state.cosmeticType===type?'active':''}" data-cosmetic-type="${esc(type)}">${type==='all'?'Every cosmetic':type}</button>`).join('');
-  $$('#cosmeticTools [data-cosmetic-type]').forEach(b=>b.addEventListener('click',()=>{state.cosmeticType=b.dataset.cosmeticType;renderCosmetics()}));
-  const data=arr('br').filter(x=>state.cosmeticType==='all'||(x.type?.displayValue||x.type?.value)===state.cosmeticType).filter(matches);
-  const withFlags=withNewFlags(data);
-  $('#cosmeticCount').textContent=`${data.length.toLocaleString()} records`;
-  $('#cosmeticGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,'Cosmetic',isNew)).join('')||'<div class="empty">No records match your search.</div>';
+  renderCosmeticTabs();
+  const list=filterByCategory(arr('br'),state.category).filter(matches);
+  $('#cosmeticCount').textContent=`${list.length.toLocaleString()} items`;
+  renderGrid('#cosmeticGrid',list,'Cosmetic');
+}
+function renderLego(){
+  const list=filterByLego(arr('br'),state.legoFilter).filter(matches);
+  $('#legoCount').textContent=`${list.length.toLocaleString()} items`;
+  renderGrid('#legoGrid',list,'LEGO');
+}
+function renderFestival(){
+  const list=filterByFestival(arr('br'),state.festivalFilter).filter(matches);
+  $('#festivalCount').textContent=`${list.length.toLocaleString()} items`;
+  renderGrid('#festivalGrid',list,'Festival');
+}
+function renderVehicles(){
+  const list=filterVehicles(arr('br')).filter(matches);
+  $('#vehiclesCount').textContent=`${list.length.toLocaleString()} cars`;
+  renderGrid('#vehiclesGrid',list,'Vehicle');
+}
+function renderBeans(){
+  const list=filterBeans(arr('br')).filter(matches);
+  $('#beansCount').textContent=`${list.length.toLocaleString()} beans`;
+  renderGrid('#beansGrid',list,'Bean');
+}
+function renderBanners(){
+  const list=arr('banners').filter(matches);
+  $('#bannersCount').textContent=`${list.length.toLocaleString()} banners`;
+  renderGrid('#bannersGrid',list,'Banner');
 }
 function renderDreamStage(){
   const outfit=state.dreamLoadout['Outfit'];
@@ -491,19 +495,28 @@ function renderDreamStage(){
     return `<button class="dreamSlot ${item?'filled':''} ${state.dreamCategory===type?'active':''}" data-dream-cat="${esc(type)}" type="button">${item?`<img src="${esc(image(item))}" alt="${esc(name(item))}">`:`<span class="dreamSlotIcon">${DREAM_GLYPHS[type]||'?'}</span>`}<small>${esc(type)}</small></button>`;
   }).join('');
 }
-function dreamCard(x,type,isNew=false){
-  const index=cacheItem(x);
-  const equipped=state.dreamLoadout[type]&&state.dreamLoadout[type].id===x.id;
-  const safeType=type.replace(/'/g,'');
-  return card(x,type,isNew).replace('<article class="item"',`<article class="item dreamPick${equipped?' equipped':''}" role="button" tabindex="0" onclick="DZ.equipDream(${index},'${safeType}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.equipDream(${index},'${safeType}')}"`);
-}
 function renderDreamTools(){$('#dreamTools').innerHTML=DREAM_SLOTS.map(t=>`<button class="control ${state.dreamCategory===t?'active':''}" data-dream-cat="${esc(t)}" type="button">${esc(t)}</button>`).join('');}
 function renderDreamGrid(){
   const type=state.dreamCategory;
-  const data=arr('br').filter(x=>(x.type?.displayValue||x.type?.value)===type).filter(matches);
-  const withFlags=withNewFlags(data);
-  $('#dreamLockerCount').textContent=`${data.length.toLocaleString()} ${type.toLowerCase()} options`;
-  $('#dreamGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>dreamCard(item,type,isNew)).join('')||'<div class="empty">No cosmetics of this type in the current snapshot.</div>';
+  const cat=type.toLowerCase().replace(/\s+/g,'');
+  const list=arr('br').filter(x=>{
+    const cv=categoryValue(x);
+    if(cat==='backbling')return cv==='backpack';
+    if(cat==='pickaxe')return cv==='pickaxe';
+    if(cat==='glider')return cv==='glider';
+    if(cat==='wrap')return cv==='wrap';
+    if(cat==='emote')return cv==='emote';
+    if(cat==='outfit')return cv==='outfit';
+    return cv===cat;
+  }).filter(matches);
+  $('#dreamLockerCount').textContent=`${list.length.toLocaleString()} ${type.toLowerCase()} options`;
+  const withFlags=withNewFlags(list);
+  $('#dreamGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>{
+    const index=cacheItem(item);
+    const equipped=state.dreamLoadout[type]&&state.dreamLoadout[type].id===item.id;
+    const base=card(item,type,isNew);
+    return base.replace('<article class="item"',`<article class="item dreamPick${equipped?' equipped':''}" role="button" tabindex="0" onclick="DZ.equipDream(${index},'${type.replace(/'/g,'')}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.equipDream(${index},'${type.replace(/'/g,'')}')}"`);
+  }).join('')||'<div class="empty">No cosmetics of this type.</div>';
 }
 function renderDreamLocker(){renderDreamTools();renderDreamStage();renderDreamGrid();}
 
@@ -526,11 +539,16 @@ function renderShop(sectionFilter=null){
   renderShopOrganizer(entries);
   if(sectionFilter)entries=entries.filter(x=>shopCategoryName(x)===sectionFilter);
   const groups={};entries.forEach(x=>{const k=shopCategoryName(x);(groups[k]??=[]).push(x)});
-  $('#shopDate').textContent=DATA.shop?.data?.date?new Date(DATA.shop.data.date).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}):'snapshot unavailable';
-  $('#shopSections').innerHTML=Object.entries(groups).map(([title,items])=>`<div class="shopSection"><div class="shopSectionHead"><h3>${esc(title)}</h3><span>${items.length} offers</span></div><div class="shopGrid">${items.map(x=>{const item=shopItemForEntry(x),i=cacheShopItem(item,x),im=shopImage(x),rarity=textValue(item?.rarity)||'',setv=textValue(item?.set)||'';return `<article class="shopItem" role="button" tabindex="0" onclick="DZ.openItem(${i})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.openItem(${i})}"><div class="shopImage">${im?`<img loading="lazy" src="${esc(im)}" alt="${esc(name(item))}">`:'<span class="placeholder">FN</span>'}</div><div class="shopBody"><b>${esc(name(item))}</b><div class="shopSub"><span>${esc(rarity||shopEntryType(x))}</span><span>${esc(setv)}</span></div><div class="shopPriceRow"><small>${x.giftable?'Giftable':'Offer'} · ${esc(shopEntryType(x))}</small><strong>${money(x.finalPrice)} <small>V-Bucks</small></strong></div></div></article>`}).join('')}</div></div>`).join('')||'<div class="empty">No offers match this filter.</div>';
+  const d=DATA.shop?.data?.date||DATA.shop?.date;
+  $('#shopDate').textContent=d?new Date(d).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}):'snapshot unavailable';
+  $('#shopSections').innerHTML=Object.entries(groups).map(([title,items])=>`<div class="shopSection"><div class="shopSectionHead"><h3>${esc(title)}</h3><span>${items.length} offers</span></div><div class="shopGrid">${items.map(x=>{
+    const item=shopItemForEntry(x),i=cacheItem(item),im=shopImage(x);
+    const price=x.finalPrice||x.price?.finalPrice||x.price?.regularPrice||'--';
+    return `<article class="shopItem" role="button" tabindex="0" onclick="DZ.openItem(${i})"><div class="shopImage">${im?`<img loading="lazy" src="${esc(im)}" alt="${esc(name(item))}">`:'<span class="placeholder">FN</span>'}</div><div class="shopBody"><b>${esc(name(item))}</b><div class="shopPriceRow"><small>${esc(shopEntryType(x))}</small><strong>${money(price)} V-Bucks</strong></div></div></article>`;
+  }).join('')}</div></div>`).join('')||'<div class="empty">No offers.</div>';
 }
 function shopResetTarget(){
-  const d=DATA.shop?.data||{};
+  const d=DATA.shop?.data||DATA.shop||{};
   const c=[d.nextRefresh,d.nextRefreshDate,d.nextReset,d.nextResetDate,d.expiration,d.expiresAt,d.endDate,d.endTime].map(v=>{
     if(v==null||v==='')return null;
     if(typeof v==='number')return v<1e11?v*1000:v;
@@ -545,36 +563,11 @@ function updateShopCountdown(){
   const target=shopResetTarget(),diff=Math.max(0,target-Date.now()),sec=Math.floor(diff/1000);
   const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
   el.textContent=`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-  const r=$('#shopResetText');if(r)r.textContent=`${new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'})}`;
-}
-async function refreshShop(auto){
-  try{
-    const r=await fetch(`${DATASETS.shop}?_=${Date.now()}`,{cache:'no-store'});
-    if(!r.ok)throw Error(r.status);
-    DATA.shop=await r.json();
-    shopLastSynced=Date.now();
-    $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
-    updateShopSyncLabel();updateShopCountdown();
-    if(state.view==='shop')renderShop();
-    if(!auto)toast('Item shop refreshed');
-  }catch(e){if(!auto)toast(`Shop refresh failed: ${e.message}`)}
-}
-async function refreshCosmetics(auto){
-  try{
-    await loadBRMerged(true);
-    if(state.view==='outfits')renderOutfits();
-    if(state.view==='cosmetics')renderCosmetics();
-    if(state.view==='dreamlocker')renderDreamLocker();
-    renderStats();
-    const keys=Object.keys(DATASETS),loaded=keys.filter(k=>DATA[k]).length;
-    $('#health').textContent=`${loaded}/${keys.length} sources`;
-    $('#healthBar').style.width=`${loaded/keys.length*100}%`;
-    if(!auto)toast(`Cosmetics merged: ${BR_SOURCE_INFO.merged} items (${BR_SOURCE_INFO.newFromApi} new from API)`);
-  }catch(e){if(!auto)toast(`Cosmetics refresh failed: ${e.message}`)}
+  const r=$('#shopResetText');if(r)r.textContent=new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit'});
 }
 
-/* ---------- weapons & modes ---------- */
-function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)|preferredslottype\.consumable/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
+/* ---------- weapons ---------- */
+function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
 function renderWeapons(){
   const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];
   const toolbar=$('#weaponsTable').previousElementSibling;
@@ -585,76 +578,64 @@ function renderWeapons(){
     toolbar.insertBefore(select,toolbar.firstChild);
   }
   const category=state.weaponCategory||'all';
-  const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);
-  data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));
-  $('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;
-  $('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>`;
+  const list=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);
+  list.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));
+  $('#weaponsCount').textContent=`${list.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;
+  $('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${list.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>`;
 }
+
+/* ---------- modes ---------- */
 function renderModes(){
-  const data=arr('playlists').filter(matches).filter(x=>{
+  const list=arr('playlists').filter(matches).filter(x=>{
     if(state.modeFilter==='all')return true;
     const s=JSON.stringify(x).toLowerCase();
     return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle');
   });
-  $('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;
-  $('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td></tr>`).join('')}</tbody></table>`;
+  $('#modesCount').textContent=`${list.length.toLocaleString()} playlists`;
+  $('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th></tr></thead><tbody>${list.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td></tr>`).join('')}</tbody></table>`;
 }
 
 /* ---------- map ---------- */
-async function renderMap(){
-  const d=DATA.map?.data||{};
-  const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map;
+function renderMap(){
+  const d=DATA.map?.data||DATA.map||{};
+  const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map||d.image;
   $('#mapImage').src=url||'';
-  $('#mapMeta').textContent=d.date?`Updated ${new Date(d.date).toLocaleDateString()}`:'current map snapshot';
+  const dt=d.date||d.updatedAt;
+  $('#mapMeta').textContent=dt?`Updated ${new Date(dt).toLocaleDateString()}`:'current map snapshot';
 }
 
 /* ---------- player ---------- */
-async function playerJson(url,{allowProxy=true}={}){
-  try{
-    const r=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
-    const text=await r.text();
-    let data=null;try{data=JSON.parse(text)}catch{}
-    if(r.ok)return data??text;
-    const err=new Error(`HTTP ${r.status}`);err.status=r.status;throw err;
-  }catch(directError){
-    if(!allowProxy||directError?.status===400||directError?.status===404)throw directError;
-    const r=await fetch(`${PLAYER_PROXY}${url}`,{headers:{'Accept':'application/json'},cache:'no-store'});
-    const text=await r.text();
-    if(!r.ok)throw Error(`Proxy HTTP ${r.status}`);
-    let data=null;try{data=JSON.parse(text)}catch{}
-    if(data?.content&&typeof data.content==='string'){try{data=JSON.parse(data.content)}catch{}}
-    if(data)return data;
-    throw Error('Unreadable player response.');
-  }
+async function playerJson(url){
+  const r=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
+  const t=await r.text();
+  try{return JSON.parse(t)}catch{return null}
 }
 function renderPlayerResult(){
   const el=$('#playerResult');if(!el)return;
   if(!playerState.account){el.innerHTML='<div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div>';return}
-  const a=playerState.account;const details=a.accountDetails||a.details||a;
+  const a=playerState.account;
+  const details=a.accountDetails||a.details||a;
   const display=firstDefined(details.epic?.displayName,details.epic?.name,details.displayName,details.name,a.displayName,a.name)||'Unknown player';
-  const accountId=firstDefined(a.accountId,a.id,details.accountId,details.epic?.accountId,details.epic?.id)||'Unavailable';
-  const st=playerState.stats;
-  el.innerHTML=`<div class="playerIdentity"><div><div class="eyebrow">Epic account resolved</div><h2>${esc(display)}</h2><div class="playerId">Epic Account ID: ${esc(accountId)}</div></div><div class="playerStatus ${st?'':'private'}">${st?'STATS FOUND':'ACCOUNT FOUND'}</div></div>${st?'':'<div class="playerNotice">Public stats were not returned. The player may have visibility disabled.</div>'}`;
+  const id=firstDefined(a.accountId,a.id,details.accountId,details.epic?.accountId,details.epic?.id)||'Unavailable';
+  el.innerHTML=`<div class="playerIdentity"><div><div class="eyebrow">Epic account</div><h2>${esc(display)}</h2><div class="playerId">Epic ID: ${esc(id)}</div></div><div class="playerStatus private">RESOLVED</div></div>`;
 }
 async function lookupPlayer(name){
-  const el=$('#playerResult');const query=String(name||'').trim();
-  if(!query)return toast('Enter a Fortnite display name first.');
+  const el=$('#playerResult');const q=String(name||'').trim();
+  if(!q)return toast('Enter a name first.');
   el.innerHTML='<div class="playerLoading">Resolving Epic account…</div>';
-  playerState.account=null;playerState.stats=null;
   try{
-    const account=await playerJson(PLAYER_ACCOUNT_LOOKUP(query));
-    const candidate=account?.accounts?.[0]||account?.data?.accounts?.[0]||account?.data?.account||account?.account||account;
-    if(!candidate)throw Error('No matching Epic account returned.');
-    playerState.account=candidate;renderPlayerResult();
-    const id=firstDefined(candidate.accountId,candidate.id,candidate.accountDetails?.accountId,candidate.accountDetails?.epic?.accountId);
-    if(!id)return;
-    try{playerState.stats=await playerJson(PLAYER_STATS_LOOKUP(id));renderPlayerResult()}catch{renderPlayerResult()}
+    const url=`https://dev.fnapi.osirion.gg/v1/accounts/lookup-by-display-name?displayName=${encodeURIComponent(q)}&platform=epic`;
+    const r=await playerJson(url);
+    const cand=r?.accounts?.[0]||r?.data?.accounts?.[0]||r?.data?.account||r?.account||r;
+    if(!cand)throw Error('No account returned');
+    playerState.account=cand;
+    renderPlayerResult();
   }catch(e){
-    el.innerHTML=`<div class="playerNotice"><b>${esc(e?.status===404?'Player not found.':(e?.message||'Lookup failed.'))}</b></div>`;
+    el.innerHTML=`<div class="playerNotice"><b>${esc(e.message||'Lookup failed.')}</b><br><small>Try again in a moment.</small></div>`;
   }
 }
 
-/* ---------- item detail / viewer ---------- */
+/* ---------- detail ---------- */
 function openItem(index){
   const item=ITEM_CACHE[index];if(!item)return;
   activeItemIndex=index;
@@ -672,7 +653,7 @@ function openItem(index){
     metaPath(item,['rarity.backendValue'])&&`Rarity: ${metaPath(item,['rarity.backendValue'])}`,
     metaPath(item,['set.backendValue'])&&`Set: ${metaPath(item,['set.backendValue'])}`,
     item.gameplayTags?.length&&`${item.gameplayTags.length} tags`,
-    item.variants?.length&&`${item.variants.length} variants`
+    item.variants?.length&&`${item.variants.length} variants`,
   ].filter(Boolean).join(' · ')||'No additional metadata.';
   const media=image(item);
   $('#detailMedia').innerHTML=media?`<img src="${esc(media)}" alt="${esc(name(item))}">`:'<span class="placeholder">NO PREVIEW</span>';
@@ -680,21 +661,19 @@ function openItem(index){
   $('#detailJson').style.display='none';
   $('#detailRaw').textContent='Show raw JSON';
   $('#detailRaw').onclick=()=>{const raw=$('#detailJson');const open=raw.style.display==='block';raw.style.display=open?'none':'block';$('#detailRaw').textContent=open?'Show raw JSON':'Hide raw JSON'};
-  $('#detailFullscreen').onclick=()=>openFullscreen(index);
-  $('#detailLocker').onclick=()=>toggleLocker(index);
+  $('#detailFullscreen').onclick=()=>DZ.openFullscreen(index);
+  $('#detailLocker').onclick=()=>DZ.toggleLocker(index);
   $('#detailBackdrop').classList.add('open');
-  $('#detailBackdrop').setAttribute('aria-hidden','false');
   updateLockerButton();
 }
 function openFullscreen(index){
   const item=ITEM_CACHE[index];if(!item)return;
   const media=image(item);
-  if(!media)return toast('No preview image for this item.');
+  if(!media)return toast('No preview image.');
   activeItemIndex=index;
   $('#viewerTitle').textContent=name(item);
   $('#viewerImage').src=media;
   $('#viewerImage').alt=name(item);
-  $('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));
   $('#fullscreenViewer').classList.add('open');
   $('#detailBackdrop').classList.remove('open');
 }
@@ -705,164 +684,72 @@ function viewerNav(dir){
   activeItemIndex=next;
   $('#viewerTitle').textContent=name(item);
   $('#viewerImage').src=image(item);
-  $('#viewerImage').alt=name(item);
-  $('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));
 }
 function closeOverlay(){
   $('#detailBackdrop').classList.remove('open');
   $('#fullscreenViewer').classList.remove('open');
   const img=$('#viewerImage');if(img)img.removeAttribute('src');
-  $('#detailBackdrop').setAttribute('aria-hidden','true');
 }
 function updateLockerButton(){
-  const button=$('#detailLocker');if(!button)return;
+  const b=$('#detailLocker');if(!b)return;
   const saved=activeItemIndex>=0&&lockerItems.some(x=>x.id===ITEM_CACHE[activeItemIndex]?.id);
-  button.textContent=saved?'Remove from locker':'Add to locker';
-  button.classList.toggle('lockerAdded',saved);
+  b.textContent=saved?'Remove from locker':'Add to locker';
 }
 function toggleLocker(index){
-  if(!currentUser)return openAuth();
+  if(!currentUser)return;
   const item=ITEM_CACHE[index];if(!item?.id)return;
   const i=lockerItems.findIndex(x=>x.id===item.id);
   if(i>=0)lockerItems.splice(i,1);else lockerItems.push(item);
   safeStorage.setItem('dropzone_locker',JSON.stringify(lockerItems));
-  updateAccountUI();renderLocker();
-  toast(i>=0?'Removed from locker':'Added to locker');
-}
-function openAuth(){const m=$('#authModal');if(m){m.classList.add('open');const i=m.querySelector('input');i&&i.focus()}}
-function closeAuth(){const m=$('#authModal');if(m)m.classList.remove('open')}
-function openShowcase(){toast('No showcase video available for this item.')}
-
-/* ---------- locker / account ---------- */
-function renderLocker(){
-  const page=$('#locker');if(!page)return;
-  const grid=page.querySelector('.catalogGrid');
-  const counter=page.querySelector('.lockerCount');
-  if(counter)counter.textContent=`${lockerItems.length} saved cosmetics`;
-  if(grid)grid.innerHTML=lockerItems.map(item=>interactiveCard(item,'Locker')).join('')||'<div class="empty">Your locker is empty.</div>';
-}
-function updateAccountUI(){
-  const signedIn=Boolean(currentUser);
-  const b=$('#accountButton');if(b)b.textContent=signedIn?currentUser:'Sign in';
-  const n=$('#lockerNavCount');if(n)n.textContent=signedIn?String(lockerItems.length):'LOCKED';
-  const u=$('#settingsUser');if(u)u.textContent=signedIn?`Signed in as ${currentUser}`:'Not signed in';
-  const a=$('#settingsAuth');if(a)a.textContent=signedIn?'Sign out':'Sign in';
-  const g=$('#lockerGreeting');if(g)g.textContent=signedIn?`${currentUser}'s locker`:'Sign in to build your locker';
+  toast(i>=0?'Removed':'Added');
   updateLockerButton();
 }
-function signOut(){currentUser='';safeStorage.removeItem('dropzone_user');setView('home');updateAccountUI();toast('Signed out')}
 
 /* ---------- view switching ---------- */
-function resetItemCache(){ITEM_CACHE.length=0;Object.keys(SHOP_CONTEXT).forEach(k=>delete SHOP_CONTEXT[k])}
 function renderView(){
-  resetItemCache();
+  ITEM_CACHE.length=0;Object.keys(SHOP_CONTEXT).forEach(k=>delete SHOP_CONTEXT[k]);
   const v=state.view;
   $$('.view').forEach(x=>x.classList.toggle('active',x.id===v));
   $$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));
   if(v==='shop')renderShop();
   else if(v==='news')renderNews();
-  else if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');
   else if(v==='playerstats')renderPlayerResult();
   else if(v==='map')renderMap();
   else if(v==='outfits')renderOutfits();
   else if(v==='dreamlocker')renderDreamLocker();
   else if(v==='cosmetics')renderCosmetics();
-  else if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');
-  else if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');
-  else if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');
-  else if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');
+  else if(v==='lego')renderLego();
+  else if(v==='festival')renderFestival();
+  else if(v==='vehicles')renderVehicles();
+  else if(v==='beans')renderBeans();
+  else if(v==='banners')renderBanners();
   else if(v==='weapons')renderWeapons();
   else if(v==='modes')renderModes();
-  else if(v==='locker')renderLocker();
   window.scrollTo({top:0,behavior:'smooth'});
   $('#sidebar').classList.remove('open');
 }
-function setView(v){
-  state.view=v;renderView();
-  const refreshKey={outfits:'br',cosmetics:'br',lego:'lego',festival:'tracks',vehicles:'cars',fallguys:'beans',banners:'banners',weapons:'weapons',modes:'playlists'}[v];
-  if(refreshKey)load(refreshKey,true).then(()=>{if(state.view===v)renderView()}).catch(()=>{});
-}
+function setView(v){state.view=v;renderView()}
 
-/* ---------- expose public dispatcher ---------- */
+/* ---------- public API ---------- */
 Object.assign(window.DZ,{
-  setView,
-  openItem,
-  openLoadingScreen:openFullscreen,
-  openFullscreen,
-  viewerNav,
-  closeOverlay,
+  setView, openItem, openFullscreen, viewerNav, closeOverlay, toggleLocker,
   equipDream:(index,type)=>{const item=ITEM_CACHE[index];if(!item)return;const cur=state.dreamLoadout[type];state.dreamLoadout[type]=(cur&&cur.id===item.id)?null:item;renderDreamStage();renderDreamGrid()},
-  lookupPlayer,
+  refreshAll:async()=>{toast('Refreshing from repo…');await loadAll(true);renderStats();renderNews();renderView();toast('Refreshed')},
 });
 
-/* ---------- boot ---------- */
-let shopCountdownTimer=null,shopRefreshTimer=null,cosmeticsRefreshTimer=null,syncLabelTimer=null;
-function startAutoRefresh(){
-  clearInterval(shopCountdownTimer);
-  clearInterval(shopRefreshTimer);
-  clearInterval(cosmeticsRefreshTimer);
-  clearInterval(syncLabelTimer);
-  $('#shopRefreshBtn')?.addEventListener('click',()=>refreshShop(false));
-  shopRefreshTimer=setInterval(()=>refreshShop(true),SHOP_REFRESH_MS);
-  shopCountdownTimer=setInterval(updateShopCountdown,1000);
-  cosmeticsRefreshTimer=setInterval(()=>refreshCosmetics(true),COSMETICS_REFRESH_MS);
-  syncLabelTimer=setInterval(()=>{updateShopSyncLabel();updateBrSyncLabel()},1000);
-  updateShopCountdown();
-  document.addEventListener('visibilitychange',()=>{
-    if(document.visibilityState==='visible'){
-      updateShopCountdown();
-      if(Date.now()-shopLastSynced>SHOP_REFRESH_MS)refreshShop(true);
-      if(Date.now()-cosmeticsLastSynced>COSMETICS_REFRESH_MS)refreshCosmetics(true);
-    }
-  });
-}
-function wireGlobalUI(){
-  /* nav */
-  $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{
-    if(x.dataset.cosmeticType)state.cosmeticType=x.dataset.cosmeticType;
-    setView(x.dataset.view);
-  }));
+/* ---------- boot & auto refresh ---------- */
+function wireUI(){
+  $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{setView(x.dataset.view)}));
   $('#menu')?.addEventListener('click',()=>$('#sidebar').classList.toggle('open'));
-  $('#search')?.addEventListener('input',e=>{
-    state.query=e.target.value.trim();
-    if(state.view!=='home')renderView();
-    else{renderNews();renderStats()}
-  });
-  $$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{
-    $$('[data-shop-filter]').forEach(b=>b.classList.remove('active'));
-    x.classList.add('active');
-    state.shopFilter=x.dataset.shopFilter;renderShop();
-  }));
-  $$('[data-collection]').forEach(x=>x.addEventListener('click',()=>{
-    const parent=x.closest('.view').id;
-    $$('[data-collection]').filter(b=>b.closest('.view')===x.closest('.view')).forEach(b=>b.classList.remove('active'));
-    x.classList.add('active');
-    state.collection[parent]=x.dataset.collection;renderView();
-  }));
-  $$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{
-    $$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));
-    x.classList.add('active');
-    state.modeFilter=x.dataset.modeFilter;renderModes();
-  }));
+  $('#search')?.addEventListener('input',e=>{state.query=e.target.value.trim();if(state.view==='home'){renderNews();renderStats()}else renderView()});
+  $$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-shop-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.shopFilter=x.dataset.shopFilter;renderShop()}));
+  $$('[data-lego-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-lego-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.legoFilter=x.dataset.legoFilter;renderLego()}));
+  $$('[data-festival-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-festival-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.festivalFilter=x.dataset.festivalFilter;renderFestival()}));
+  $$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.modeFilter=x.dataset.modeFilter;renderModes()}));
   $('#weaponRarity')?.addEventListener('change',e=>{state.weaponRarity=e.target.value;renderWeapons()});
   $('#damageSort')?.addEventListener('click',()=>{state.damageSort=!state.damageSort;$('#damageSort').classList.toggle('active',state.damageSort);renderWeapons()});
-  $('#dreamRandomize')?.addEventListener('click',()=>{
-    DREAM_SLOTS.forEach(type=>{
-      const pool=arr('br').filter(x=>(x.type?.displayValue||x.type?.value)===type);
-      if(pool.length)state.dreamLoadout[type]=pool[Math.floor(Math.random()*pool.length)];
-    });
-    renderDreamStage();renderDreamGrid();toast('Randomized your dream loadout');
-  });
-  $('#dreamClear')?.addEventListener('click',()=>{
-    DREAM_SLOTS.forEach(t=>state.dreamLoadout[t]=null);
-    renderDreamStage();renderDreamGrid();toast('Loadout cleared');
-  });
-  document.addEventListener('click',e=>{
-    const btn=e.target.closest('[data-dream-cat]');if(!btn)return;
-    state.dreamCategory=btn.dataset.dreamCat;
-    renderDreamTools();renderDreamStage();renderDreamGrid();
-  });
-  $('#outfitRefreshBtn')?.addEventListener('click',()=>refreshCosmetics(false));
+  $('#outfitRefreshBtn')?.addEventListener('click',()=>DZ.refreshAll());
+  $('#shopRefreshBtn')?.addEventListener('click',()=>DZ.refreshAll());
   $('#detailBackdrop')?.addEventListener('click',e=>{if(e.target.id==='detailBackdrop')closeOverlay()});
   document.addEventListener('keydown',e=>{
     if(e.key==='Escape')closeOverlay();
@@ -871,98 +758,75 @@ function wireGlobalUI(){
       if(e.key==='ArrowRight')viewerNav(1);
     }
   });
+  $('#dreamRandomize')?.addEventListener('click',()=>{
+    DREAM_SLOTS.forEach(type=>{
+      const cat=type.toLowerCase().replace(/\s+/g,'');
+      const pool=arr('br').filter(x=>{
+        const cv=categoryValue(x);
+        if(cat==='backbling')return cv==='backpack';
+        return cv===cat;
+      });
+      if(pool.length)state.dreamLoadout[type]=pool[Math.floor(Math.random()*pool.length)];
+    });
+    renderDreamStage();renderDreamGrid();toast('Randomized');
+  });
+  $('#dreamClear')?.addEventListener('click',()=>{
+    DREAM_SLOTS.forEach(t=>state.dreamLoadout[t]=null);
+    renderDreamStage();renderDreamGrid();toast('Cleared');
+  });
+  document.addEventListener('click',e=>{
+    const btn=e.target.closest('[data-dream-cat]');if(!btn)return;
+    state.dreamCategory=btn.dataset.dreamCat;
+    renderDreamTools();renderDreamStage();renderDreamGrid();
+  });
+  $('#playerLookupForm')?.addEventListener('submit',e=>{e.preventDefault();lookupPlayer($('#playerLookupInput').value)});
   /* map pan/zoom */
   const canvas=$('#mapCanvas');
   if(canvas){
-    let map={scale:1,x:0,y:0,drag:false,sx:0,sy:0};
-    const t=()=>{ $('#mapImage').style.transform=`translate(calc(-50% + ${map.x}px),calc(-50% + ${map.y}px)) scale(${map.scale})` };
-    canvas.addEventListener('wheel',e=>{e.preventDefault();map.scale=Math.max(.55,Math.min(2.4,map.scale+(e.deltaY<0?.1:-.1)));t()},{passive:false});
-    canvas.addEventListener('pointerdown',e=>{map.drag=true;map.sx=e.clientX-map.x;map.sy=e.clientY-map.y;canvas.setPointerCapture(e.pointerId)});
-    canvas.addEventListener('pointermove',e=>{if(map.drag){map.x=e.clientX-map.sx;map.y=e.clientY-map.sy;t()}});
-    canvas.addEventListener('pointerup',()=>map.drag=false);
+    let m={scale:1,x:0,y:0,drag:false,sx:0,sy:0};
+    const apply=()=>{ $('#mapImage').style.transform=`translate(calc(-50% + ${m.x}px),calc(-50% + ${m.y}px)) scale(${m.scale})` };
+    canvas.addEventListener('wheel',e=>{e.preventDefault();m.scale=Math.max(.55,Math.min(2.4,m.scale+(e.deltaY<0?.1:-.1)));apply()},{passive:false});
+    canvas.addEventListener('pointerdown',e=>{m.drag=true;m.sx=e.clientX-m.x;m.sy=e.clientY-m.y;canvas.setPointerCapture(e.pointerId)});
+    canvas.addEventListener('pointermove',e=>{if(m.drag){m.x=e.clientX-m.sx;m.y=e.clientY-m.sy;apply()}});
+    canvas.addEventListener('pointerup',()=>m.drag=false);
   }
-}
-function setupAccountPanel(){
-  const topbar=$('.topbar');
-  if(topbar&&!$('#accountButton'))topbar.insertAdjacentHTML('beforeend','<button class="accountButton" id="accountButton">Sign in</button>');
-  const nav=$('nav');
-  if(nav&&!$('[data-account-view]'))nav.insertAdjacentHTML('beforeend','<div class="navGroup"><div class="navLabel">Your space</div><button class="navItem" data-account-view="locker"><span class="navIcon">▣</span>Locker <span class="navCount" id="lockerNavCount">LOCKED</span></button><button class="navItem" data-account-view="settings"><span class="navIcon">⚙</span>Settings</button></div>');
-  const content=$('.content');
-  if(content&&!$('#locker'))content.insertAdjacentHTML('beforeend','<section id="locker" class="view"><div class="eyebrow">Private local collection</div><div class="sectionHead"><h2>Locker</h2><span class="lockerCount">0 saved cosmetics</span></div><div class="lockerHero"><h3 id="lockerGreeting">Sign in to build your locker</h3><p style="color:var(--muted);font-size:12px;line-height:1.5">Save cosmetics you are tracking to this browser.</p></div><div class="catalogGrid" style="margin-top:16px"></div></section>');
-  if(content&&!$('#settings'))content.insertAdjacentHTML('beforeend','<section id="settings" class="view"><div class="eyebrow">Account & preferences</div><div class="sectionHead"><h2>Settings</h2><span>stored on this browser</span></div><div class="settingsList"><div class="settingsRow"><div><b>Account</b><small id="settingsUser">Not signed in</small></div><button class="detailButton" id="settingsAuth">Sign in</button></div><div class="settingsRow"><div><b>Saved locker</b><small>Private to this browser</small></div><button class="detailButton" id="clearLocker">Clear locker</button></div><div class="settingsRow"><div><b>Data source</b><small>Where Dropzone pulls live data from</small></div><select class="control" id="dataSourceSelect"><option value="auto">Auto · repo → API</option><option value="repo">Repository only</option><option value="api">Fortnite API (live) only</option></select></div></div></section>');
-  if(!$('#authModal'))document.body.insertAdjacentHTML('beforeend','<div class="authBackdrop" id="authModal"><form class="authPanel" id="authForm"><button type="button" class="closeOverlay" onclick="DZ.closeAuth&&DZ.closeAuth()" aria-label="Close">×</button><div class="eyebrow">Dropzone account</div><h2>Sign in</h2><p>This local profile keeps your locker on this browser.</p><input required maxlength="40" placeholder="Display name" autocomplete="nickname"><div class="detailActions"><button type="button" class="detailButton" onclick="document.getElementById(\'authModal\').classList.remove(\'open\')">Cancel</button><button class="detailButton primary" type="submit">Continue</button></div></form></div>');
-  /* style injection */
-  if(!$('#accountStyles')){
-    const s=document.createElement('style');s.id='accountStyles';
-    s.textContent='.accountButton{height:38px;padding:0 12px;border:1px solid #36516a;border-radius:7px;background:#14283b;color:#fff;font-size:12px;font-weight:700}.accountButton:hover{border-color:var(--cyan)}.authBackdrop{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(12px)}.authBackdrop.open{display:grid}.authPanel{position:relative;width:min(410px,100%);padding:25px;border:1px solid #3a536d;border-radius:12px;background:#111c2b;box-shadow:var(--shadow)}.authPanel h2{margin-bottom:8px}.authPanel p{color:var(--muted);font-size:12px;line-height:1.5}.authPanel input{width:100%;height:42px;margin:12px 0;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#fff}.lockerHero{padding:20px;border:1px solid var(--line);border-radius:9px;background:#111c2b}.settingsList{display:grid;gap:10px;max-width:600px}.settingsRow{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px;border:1px solid var(--line);border-radius:8px;background:#111c2b;color:#c8d5e4;font-size:13px}.settingsRow small{display:block;color:var(--muted);margin-top:4px;font-size:11px}.detailButton.lockerAdded{background:#294c3d;border-color:#4b8e68;color:#a7f0c0}';
-    document.head.appendChild(s);
-  }
-  $('#accountButton')?.addEventListener('click',()=>currentUser?setView('settings'):openAuth());
-  $('#authForm')?.addEventListener('submit',e=>{
-    e.preventDefault();
-    const inp=e.target.querySelector('input');
-    const u=(inp?inp.value.trim():'');
-    if(!u){inp&&inp.focus();return}
-    currentUser=u;safeStorage.setItem('dropzone_user',u);
-    closeAuth();updateAccountUI();setView('locker');
-  });
-  $$('[data-account-view]').forEach(b=>b.addEventListener('click',()=>{
-    if(b.dataset.accountView==='locker'&&!currentUser)return openAuth();
-    setView(b.dataset.accountView);
-  }));
-  $('#settingsAuth')?.addEventListener('click',()=>currentUser?signOut():openAuth());
-  $('#clearLocker')?.addEventListener('click',()=>{
-    lockerItems=[];safeStorage.setItem('dropzone_locker','[]');
-    renderLocker();updateAccountUI();toast('Locker cleared');
-  });
-  const ds=$('#dataSourceSelect');
-  if(ds){
-    ds.value=preferences.dataSource||'auto';
-    ds.addEventListener('change',async()=>{
-      preferences.dataSource=ds.value;
-      safeStorage.setItem('dropzone_preferences',JSON.stringify(preferences));
-      toast(`Switching to ${ds.options[ds.selectedIndex].text}…`);
-      Object.keys(DATA).forEach(k=>{if(!k.startsWith('_'))delete DATA[k]});
-      const keys=Object.keys(DATASETS);
-      await Promise.all(keys.map(k=>load(k)));
-      const loaded=keys.filter(k=>DATA[k]).length;
-      $('#health').textContent=`${loaded}/${keys.length} sources`;
-      $('#healthBar').style.width=`${loaded/keys.length*100}%`;
-      $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
-      updateShopSyncLabel();updateBrSyncLabel();updateShopCountdown();
-      renderStats();renderNews();renderView();
-    });
-  }
-  updateAccountUI();renderLocker();
 }
 async function boot(){
   try{
-    const keys=Object.keys(DATASETS);
-    await Promise.all(keys.map(k=>load(k).catch(()=>null)));
-    const build=DATA.build||{};
-    const b=build.build||'unknown build';
-    $('#buildHero').textContent=b.replace(/^\+\+Fortnite\+Release-/,'RELEASE ');
+    $('#updated').textContent='Fetching from Fortnite-Datamining…';
+    await loadAll(true);
+    const b=DATA.build?.build||DATA.build?.data?.build||'unknown build';
+    $('#buildHero').textContent=b.replace(/^\+\+\w+\+Release-/,'RELEASE ');
     $('#buildSide').textContent=b;
-    const srcMode=preferences.dataSource||'auto';
-    $('#updated').textContent=srcMode==='api'?'Fortnite API (live)':srcMode==='repo'?'Repository snapshot':'Auto · repo → Fortnite API';
-    const loaded=keys.filter(k=>DATA[k]).length;
+    $('#updated').textContent='Fortnite-Datamining repo · auto-refresh 15m';
+    const keys=Object.keys(DATASETS),loaded=keys.filter(k=>DATA[k]).length;
     $('#health').textContent=`${loaded}/${keys.length} sources`;
     $('#healthBar').style.width=`${loaded/keys.length*100}%`;
     $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
-    if(DATA.shop)shopLastSynced=Date.now();
-    updateShopSyncLabel();updateBrSyncLabel();updateShopCountdown();
-    renderStats();renderNews();renderView();
-    startAutoRefresh();
+    renderStats();renderNews();renderView();updateSyncLabels();updateShopCountdown();
   }catch(e){
     showFatal('Boot failed: '+e.message);
     console.error(e);
   }
 }
+function startAutoRefresh(){
+  setInterval(async()=>{
+    await loadAll(true);
+    renderStats();renderNews();
+    if(state.view!=='home')renderView();
+    else updateSyncLabels();
+    updateSyncLabels();updateShopCountdown();
+  },REFRESH_MS);
+  setInterval(()=>{updateSyncLabels();updateShopCountdown()},1000);
+  document.addEventListener('visibilitychange',()=>{
+    if(document.visibilityState==='visible'&&Date.now()-repoLastSynced>REFRESH_MS){
+      loadAll(true).then(()=>{renderStats();renderNews();renderView();updateSyncLabels()});
+    }
+  });
+}
 
-/* ---------- wire everything with try/catch so one failure can't kill the rest ---------- */
-function safe(name,fn){try{fn()}catch(e){showFatal(`${name} failed: ${e.message}`);console.error(name,e)}}
-safe('wireGlobalUI',wireGlobalUI);
-safe('setupAccountPanel',setupAccountPanel);
-safe('boot',boot);
+/* ---------- init ---------- */
+try{wireUI()}catch(e){showFatal('UI wiring failed: '+e.message);console.error(e)}
+try{boot().then(()=>startAutoRefresh())}catch(e){showFatal('Boot failed: '+e.message);console.error(e)}
 </script>
 </body></html>
