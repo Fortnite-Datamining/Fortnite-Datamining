@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#111a2b">
 <meta name="description" content="A precise, searchable Fortnite data browser powered by public API snapshots.">
-<title>Dropzone | Fortnite data browser</title>
+<title>Dropzone | Fortnite Data Browser</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 :root{--ink:#f5f7fb;--muted:#91a0b6;--dim:#60708a;--bg:#0b111b;--panel:#111a29;--panel2:#172338;--line:#263750;--cyan:#66ddff;--yellow:#ffd166;--green:#75e0a0;--pink:#ff769f;--radius:12px;--shadow:0 18px 55px #03070e88}
@@ -178,7 +178,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <section id="fallguys" class="view"><div class="eyebrow">Fall Guys crossover / bean styles</div><div class="sectionHead"><h2>Fall Guys</h2><span id="fallguysCount"></span></div><div id="fallguysGrid" class="catalogGrid"></div></section>
 <section id="playerstats" class="view"><div class="eyebrow">Epic account intelligence</div><div class="sectionHead"><h2>Player Stats</h2><span>Search an Epic display name</span></div><p style="color:var(--muted);font-size:12px;line-height:1.6;max-width:760px">Enter a Fortnite/Epic display name. Dropzone will resolve the matching account, show the Epic account ID, then load public Battle Royale statistics when the player has stats visibility enabled.</p><form class="playerLookup" id="playerLookupForm"><input id="playerLookupInput" maxlength="32" autocomplete="off" placeholder="Enter a Fortnite player name..." aria-label="Fortnite player name"><button class="control primary" type="submit">Search player</button></form><div id="playerResult" class="playerResult"><div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div></div></section>
 <section id="map" class="view"><div class="eyebrow">Island intelligence</div><div class="sectionHead"><h2>Island map</h2><span id="mapMeta">Loading...</span></div><div class="mapFrame"><div class="mapCanvas" id="mapCanvas"><img id="mapImage" alt="Current Fortnite island map"></div><div class="mapLegend"><span><i class="legendDot"></i>Named location</span><span><i class="legendDot pink"></i>Landmark</span><span>Scroll to zoom · drag to pan</span></div></div></section>
-<section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"></div><div id="outfitGrid" class="catalogGrid"></div></section>
+<section id="outfits" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>Outfits</h2><span id="outfitCount"></span></div><div class="toolbar" id="outfitTools"><button class="control" id="outfitRefreshBtn" type="button">⟳ Refresh cosmetics</button></div><div id="outfitGrid" class="catalogGrid"></div></section>
 <section id="dreamlocker" class="view"><div class="eyebrow">Battle Royale / build your loadout</div><div class="sectionHead"><h2>Dream Locker</h2><span id="dreamLockerCount"></span></div><div class="dreamLocker"><div class="dreamStage"><div class="dreamStageGlow"></div><div class="dreamOutfitPreview" id="dreamOutfitPreview"><span class="placeholder">Pick an Outfit to start your dream loadout</span></div><div class="dreamSlots" id="dreamSlots"></div><div class="dreamStageFoot"><button class="control primary" id="dreamRandomize" type="button">🎲 Randomize</button><button class="control" id="dreamClear" type="button">Clear all</button></div></div><div class="dreamPicker"><div class="toolbar" id="dreamTools"></div><div id="dreamGrid" class="catalogGrid"></div></div></div></section>
 <section id="cosmetics" class="view"><div class="eyebrow">Battle Royale / cosmetics</div><div class="sectionHead"><h2>All cosmetics</h2><span id="cosmeticCount"></span></div><div class="toolbar" id="cosmeticTools"></div><div id="cosmeticGrid" class="catalogGrid"></div></section>
 <section id="lego" class="view"><div class="eyebrow">More collections</div><div class="sectionHead"><h2>LEGO library</h2><span id="legoCount"></span></div><div class="toolbar"><button class="control active" data-collection="lego">LEGO cosmetics</button><button class="control" data-collection="lego_kits">Kits</button></div><div id="legoGrid" class="catalogGrid"></div></section>
@@ -259,11 +259,13 @@ async function playerJson(url,{allowProxy=true}={}){
     }
   }
 }
-const DATASETS={br:'https://fortnite-api.com/v2/cosmetics/br',shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
 
-// Live Fortnite-API endpoints used as a fallback (or as the primary source when
-// the "Fortnite API (live)" data-source option is selected in Settings).
-// `null` means no public endpoint exists — that dataset stays repo-only.
+// Fortnite-Datamining repo raw URL — the bot commits fresh cosmetics here.
+// GitHub blob pages can't be fetched directly; always use raw.githubusercontent.com.
+const FD_BR='https://raw.githubusercontent.com/Fortnite-Datamining/Fortnite-Datamining/main/data/cosmetics/br.json';
+
+const DATASETS={br:FD_BR,shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
+
 const DATASET_API_FALLBACKS={
   br:'https://fortnite-api.com/v2/cosmetics/br',
   shop:'https://fortnite-api.com/v2/shop',
@@ -282,17 +284,33 @@ const DATASET_API_FALLBACKS={
   banners:'https://fortnite-api.com/v2/cosmetics/banners'
 };
 
-const SHOP_REFRESH_MS=3*60*1000;let shopLastSynced=0;
+const SHOP_REFRESH_MS=3*60*1000;
+// Cosmetics refresh every 30 minutes from the Fortnite-Datamining repo.
+const COSMETICS_REFRESH_MS=30*60*1000;
+let shopLastSynced=0;
+let cosmeticsLastSynced=0;
 const playerState={account:null,stats:null,raw:null};
 const state={view:'home',query:'',collection:{lego:'lego',festival:'tracks',vehicles:'cars'},shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,cosmeticType:'all',dreamCategory:'Outfit',dreamLoadout:{}};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const arr=(key)=>{const d=DATA[key];return Array.isArray(d?.data)?d.data:Array.isArray(d?.weapons)?d.weapons:Array.isArray(d)?d:[]};
+
+// Hardened array extractor — handles {data:[...]}, {items:[...]}, {weapons:[...]}, or a bare array.
+const arr=(key)=>{
+  const d=DATA[key];
+  if(Array.isArray(d))return d;
+  if(Array.isArray(d?.data))return d.data;
+  if(Array.isArray(d?.items))return d.items;
+  if(Array.isArray(d?.weapons))return d.weapons;
+  if(Array.isArray(d?.cosmetics))return d.cosmetics;
+  return [];
+};
+
 const image=x=>x?.images?.featured||x?.images?.large||x?.images?.wide||x?.images?.icon||x?.images?.small||x?.images?.smallIcon||x?.imageUrl||x?.smallImageUrl||x?.albumArt||x?.image||'';
 const name=x=>x?.name||x?.title||x?.displayName||x?.id||'Unknown item';
 const money=x=>Number.isFinite(Number(x))?Number(x).toLocaleString():'--';
 function card(x,type='Item',isNew=false){return `<article class="item"><div class="itemImage">${isNew?'<span class="newBadge">NEW</span>':''}${image(x)?`<img loading="lazy" src="${esc(image(x))}" alt="${esc(name(x))}">`:'<span class="placeholder">FN</span>'}<span class="badge">${esc(x?.rarity?.displayValue||x?.rarity?.name||x?.type?.displayValue||type)}</span></div><div class="itemBody"><div class="itemName" title="${esc(name(x))}">${esc(name(x))}</div><div class="itemMeta"><span>${esc(x?.set?.value||x?.artist||x?.category||x?.id||'')}</span><span>${esc(x?.introduction?.text||x?.releaseYear||'')}</span></div></div></article>`}
 const ITEM_CACHE=[];const SHOP_CONTEXT={};const cacheItem=x=>{ITEM_CACHE.push(x);return ITEM_CACHE.length-1};const cacheShopItem=(x,o)=>{const i=cacheItem(x);SHOP_CONTEXT[i]=o;return i};const isLoadingScreen=x=>String(x?.type?.value||x?.type?.displayValue||x?.type||'').toLowerCase().includes('loading');function interactiveCard(x,type,isNew=false){const index=cacheItem(x);const action=isLoadingScreen(x)?`openLoadingScreen(${index})`:`openItem(${index})`;return card(x,type,isNew).replace('<article class="item"',`<article class="item" role="button" tabindex="0" onclick="${action}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();${action}}"`)}
+
 async function load(key,force=false){
   if(DATA[key]&&!force)return DATA[key];
   const repoSource=DATASETS[key];
@@ -300,7 +318,9 @@ async function load(key,force=false){
   const pref=(typeof preferences!=='undefined'&&preferences&&preferences.dataSource)||'auto';
   const isRemote=u=>/^https?:/.test(u);
   const doFetch=async url=>{
-    const finalUrl=isRemote(url)?`${url}${url.includes('?')?'&':'?'}_=${Date.now()}`:url;
+    // GitHub raw URLs already have query strings in some cases; append a cache-buster carefully.
+    const sep=url.includes('?')?'&':'?';
+    const finalUrl=isRemote(url)?`${url}${sep}_=${Date.now()}`:url;
     const r=await fetch(finalUrl,{cache:'no-store'});
     if(!r.ok)throw Error(`HTTP ${r.status}`);
     return await r.json();
@@ -309,7 +329,7 @@ async function load(key,force=false){
   if(pref==='api')sources=[apiSource].filter(Boolean);
   else if(pref==='repo')sources=[repoSource].filter(Boolean);
   else sources=[repoSource,apiSource].filter(Boolean);
-  if(!sources.length)sources=[repoSource].filter(Boolean); // safety net
+  if(!sources.length)sources=[repoSource].filter(Boolean);
   let lastError=null;
   for(const src of sources){
     try{
@@ -322,6 +342,7 @@ async function load(key,force=false){
   toast(`Could not load ${key}: ${lastError?.message||'unknown error'}`);
   return null;
 }
+
 function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),3500)}
 function countUp(el,target){if(!el)return;target=Number(target)||0;const start=0;const dur=900;const t0=performance.now();const step=t=>{const p=Math.min(1,(t-t0)/dur);const v=Math.round(start+(target-start)*(1-Math.pow(1-p,3)));el.textContent=v.toLocaleString();if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
 const LIVE_NS='dropzone-fortnite-datalab-v1';let onlineJoined=false;
@@ -333,10 +354,12 @@ async function initLiveCounter(){
 function leaveLiveCounter(){if(!onlineJoined)return;onlineJoined=false;try{fetch(`https://api.countapi.xyz/update/${LIVE_NS}/online-now?amount=-1`,{keepalive:true})}catch(e){}}
 window.addEventListener('pagehide',leaveLiveCounter);
 function matches(x){if(!state.query)return true;return JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())}
-function renderStats(){const s=DATA.stats||{},c=s.counts||{};const stats=[['BR Cosmetics',c['BR Cosmetics'],'cyan'],['Shop offers',shopEntries().length,'yellow'],['Weapons',arr('weapons').length,'pink'],['Playlists',c.Playlists||arr('playlists').length,'green']];$('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');$('#explore').innerHTML=[['Outfits',c['BR Cosmetics']||0,'outfits'],['Weapons',arr('weapons').length,'weapons'],['LEGO',c['LEGO Cosmetics']||arr('lego').length,'lego'],['Jam tracks',c['Jam Tracks']||arr('tracks').length,'festival']].map(x=>`<button class="stat" data-view="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');$$('#explore [data-view]').forEach(x=>x.addEventListener('click',()=>setView(x.dataset.view)))}
+function renderStats(){const s=DATA.stats||{},c=s.counts||{};const stats=[['BR Cosmetics',arr('br').length,'cyan'],['Shop offers',shopEntries().length,'yellow'],['Weapons',arr('weapons').length,'pink'],['Playlists',c.Playlists||arr('playlists').length,'green']];$('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');$('#explore').innerHTML=[['Outfits',arr('br').length,'outfits'],['Weapons',arr('weapons').length,'weapons'],['LEGO',c['LEGO Cosmetics']||arr('lego').length,'lego'],['Jam tracks',c['Jam Tracks']||arr('tracks').length,'festival']].map(x=>`<button class="stat" data-view="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');$$('#explore [data-view]').forEach(x=>x.addEventListener('click',()=>setView(x.dataset.view)))}
 function shopEntries(){return DATA.shop?.data?.entries||[]}
 function agoText(ms){const s=Math.max(0,Math.round((Date.now()-ms)/1000));if(s<5)return'just now';if(s<60)return`${s}s ago`;const m=Math.round(s/60);if(m<60)return`${m}m ago`;return`${Math.round(m/60)}h ago`}
 function updateShopSyncLabel(){const el=$('#shopSync');if(!el)return;el.textContent=shopLastSynced?`synced ${agoText(shopLastSynced)}`:'syncing';}
+function updateCosmeticsSyncLabel(){/* placeholder for future UI */}
+
 function shopResetTarget(){
  const d=DATA.shop?.data||{};
  const rawCandidates=[d.nextRefresh,d.nextRefreshDate,d.nextReset,d.nextResetDate,d.expiration,d.expiresAt,d.endDate,d.endTime];
@@ -347,8 +370,6 @@ function shopResetTarget(){
  }).filter(v=>Number.isFinite(v)&&v>Date.now());
  if(candidates.length)return Math.min(...candidates);
  const now=new Date();
- // Fortnite's daily shop rotation is at 00:00 UTC (8 PM EDT / 7 PM EST).
- // Using UTC keeps the timer stable across browser timezones and DST.
  const nextUtcMidnight=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+1,0,0,0,0);
  return nextUtcMidnight;
 }
@@ -356,6 +377,22 @@ function updateShopCountdown(){
  const el=$('#shopCountdown');if(!el)return;const target=shopResetTarget(),diff=Math.max(0,target-Date.now()),sec=Math.floor(diff/1000);const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;el.textContent=`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;const r=$('#shopResetText');if(r)r.textContent=`${new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'})}`;if(diff<1200&&diff>0)el.style.color='var(--yellow)';else el.style.color='var(--cyan)';if(diff<=1000)refreshShop(true);
 }
 async function refreshShop(auto){try{const r=await fetch(`${DATASETS.shop}?_=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(r.status);DATA.shop=await r.json();shopLastSynced=Date.now();$('#heroShopCount').textContent=shopEntries().length.toLocaleString();updateShopSyncLabel();updateShopCountdown();if(state.view==='shop')renderShop();if(!auto)toast('Item shop refreshed')}catch(e){if(!auto)toast(`Shop refresh failed: ${e.message}`)}}
+
+// Refresh cosmetics from the Fortnite-Datamining repo (every 30 min or on demand).
+async function refreshCosmetics(auto){
+  try{
+    await load('br',true);
+    cosmeticsLastSynced=Date.now();
+    DATA[`_src_br`]='repo';
+    if(state.view==='outfits')renderOutfits();
+    if(state.view==='cosmetics')renderCosmetics();
+    if(state.view==='dreamlocker')renderDreamLocker();
+    renderStats();
+    $('#health')&&($('#health').textContent=`${Object.keys(DATASETS).filter(k=>DATA[k]).length}/${Object.keys(DATASETS).length} sources`);
+    if(!auto)toast('Cosmetics refreshed from Fortnite-Datamining');
+  }catch(e){if(!auto)toast(`Cosmetics refresh failed: ${e.message}`)}
+}
+
 function shopItemForEntry(x){return x.brItems?.[0]||x.tracks?.[0]||x.instruments?.[0]||x.vehicleSkins?.[0]||x.legoKits?.[0]||x}
 function shopImage(x){return image(shopItemForEntry(x))}
 function shopEntryType(x){const raw=JSON.stringify(x).toLowerCase();if(x.bundle||x.layout?.displayType==='bundle')return'Bundle';if(raw.includes('outfit'))return'Outfit';if(raw.includes('pickaxe'))return'Pickaxe';if(raw.includes('emote'))return'Emote';if(raw.includes('wrap'))return'Wrap';if(raw.includes('glider'))return'Glider';if(raw.includes('backpack'))return'Back Bling';return x.layout?.displayType||'Offer'}
@@ -490,10 +527,48 @@ $$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-sh
 $$('[data-collection]').forEach(x=>x.addEventListener('click',()=>{const parent=x.closest('.view').id;$$(`[data-collection]`).filter(b=>b.closest('.view')===x.closest('.view')).forEach(b=>b.classList.remove('active'));x.classList.add('active');state.collection[parent]=x.dataset.collection;renderView()}));
 $$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.modeFilter=x.dataset.modeFilter;renderModes()}));$('#weaponRarity').addEventListener('change',e=>{state.weaponRarity=e.target.value;renderWeapons()});$('#damageSort').addEventListener('click',()=>{state.damageSort=!state.damageSort;$('#damageSort').classList.toggle('active',state.damageSort);renderWeapons()});
 $('#dreamRandomize')?.addEventListener('click',randomizeDream);$('#dreamClear')?.addEventListener('click',clearDream);
+$('#outfitRefreshBtn')?.addEventListener('click',()=>refreshCosmetics(false));
 let map={scale:1,x:0,y:0,drag:false,sx:0,sy:0};const canvas=$('#mapCanvas');function mapTransform(){ $('#mapImage').style.transform=`translate(calc(-50% + ${map.x}px),calc(-50% + ${map.y}px)) scale(${map.scale})` }canvas.addEventListener('wheel',e=>{e.preventDefault();map.scale=Math.max(.55,Math.min(2.4,map.scale+(e.deltaY<0?.1:-.1)));mapTransform()},{passive:false});canvas.addEventListener('pointerdown',e=>{map.drag=true;map.sx=e.clientX-map.x;map.sy=e.clientY-map.y;canvas.setPointerCapture(e.pointerId)});canvas.addEventListener('pointermove',e=>{if(map.drag){map.x=e.clientX-map.sx;map.y=e.clientY-map.sy;mapTransform()}});canvas.addEventListener('pointerup',()=>map.drag=false);
-async function boot(){const keys=Object.keys(DATASETS);await Promise.all(keys.map(load));const build=DATA.build||{};const b=build.build||'unknown build';$('#buildHero').textContent=b.replace(/^\+\+Fortnite\+Release-/,'RELEASE ');$('#buildSide').textContent=b;const srcMode=preferences?.dataSource||'auto';
-$('#updated').textContent=srcMode==='api'?'Fortnite API (live)':srcMode==='repo'?'Repository snapshot':'Auto · repo → Fortnite API';const loaded=keys.filter(k=>DATA[k]).length;$('#health').textContent=`${loaded}/${keys.length} sources`;$('#healthBar').style.width=`${loaded/keys.length*100}%`;$('#heroShopCount').textContent=shopEntries().length.toLocaleString();if(DATA.shop)shopLastSynced=Date.now();updateShopSyncLabel();updateShopCountdown();renderStats();renderNews();renderView();startAutoRefresh();initLiveCounter()}
-let shopCountdownTimer=null;let shopRefreshTimer=null;function startAutoRefresh(){if(shopCountdownTimer)clearInterval(shopCountdownTimer);if(shopRefreshTimer)clearInterval(shopRefreshTimer);$('#shopRefreshBtn')?.addEventListener('click',()=>refreshShop(false));shopRefreshTimer=setInterval(()=>refreshShop(true),SHOP_REFRESH_MS);shopCountdownTimer=setInterval(updateShopCountdown,1000);setInterval(updateShopSyncLabel,1000);updateShopCountdown();document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){updateShopCountdown();if(Date.now()-shopLastSynced>SHOP_REFRESH_MS)refreshShop(true)}})}
+
+async function boot(){
+  const keys=Object.keys(DATASETS);
+  await Promise.all(keys.map(load));
+  if(DATA.br)cosmeticsLastSynced=Date.now();
+  const build=DATA.build||{};const b=build.build||'unknown build';
+  $('#buildHero').textContent=b.replace(/^\+\+Fortnite\+Release-/,'RELEASE ');
+  $('#buildSide').textContent=b;
+  const srcMode=preferences?.dataSource||'auto';
+  $('#updated').textContent=srcMode==='api'?'Fortnite API (live)':srcMode==='repo'?'Repository snapshot':'Auto · repo → Fortnite API';
+  const loaded=keys.filter(k=>DATA[k]).length;
+  $('#health').textContent=`${loaded}/${keys.length} sources`;
+  $('#healthBar').style.width=`${loaded/keys.length*100}%`;
+  $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
+  if(DATA.shop)shopLastSynced=Date.now();
+  updateShopSyncLabel();updateShopCountdown();renderStats();renderNews();renderView();
+  startAutoRefresh();initLiveCounter();
+}
+
+let shopCountdownTimer=null;let shopRefreshTimer=null;let cosmeticsRefreshTimer=null;
+function startAutoRefresh(){
+  if(shopCountdownTimer)clearInterval(shopCountdownTimer);
+  if(shopRefreshTimer)clearInterval(shopRefreshTimer);
+  if(cosmeticsRefreshTimer)clearInterval(cosmeticsRefreshTimer);
+  $('#shopRefreshBtn')?.addEventListener('click',()=>refreshShop(false));
+  shopRefreshTimer=setInterval(()=>refreshShop(true),SHOP_REFRESH_MS);
+  shopCountdownTimer=setInterval(updateShopCountdown,1000);
+  // Cosmetics auto-refresh every 30 minutes from the Fortnite-Datamining repo.
+  cosmeticsRefreshTimer=setInterval(()=>refreshCosmetics(true),COSMETICS_REFRESH_MS);
+  setInterval(updateShopSyncLabel,1000);
+  updateShopCountdown();
+  document.addEventListener('visibilitychange',()=>{
+    if(document.visibilityState==='visible'){
+      updateShopCountdown();
+      if(Date.now()-shopLastSynced>SHOP_REFRESH_MS)refreshShop(true);
+      if(Date.now()-cosmeticsLastSynced>COSMETICS_REFRESH_MS)refreshCosmetics(true);
+    }
+  });
+}
+
 function firstDefined(...vals){
   for(const v of vals) if(v!==undefined&&v!==null&&v!=='') return v;
   return '';
