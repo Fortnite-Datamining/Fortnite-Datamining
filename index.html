@@ -157,6 +157,8 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 @media(max-width:560px){.playerLookup{grid-template-columns:1fr}.playerStatsGrid{grid-template-columns:1fr 1fr}.playerIdentity h2{font-size:33px}}
 .brSync{display:flex;align-items:center;gap:6px;color:var(--cyan);font-size:11px}
 .brSync:before{content:'';width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 8px var(--cyan);animation:pulseDot 1.6s infinite}
+#fatalError{position:fixed;left:12px;bottom:12px;z-index:99;max-width:520px;padding:12px 14px;border:1px solid #ff769f66;border-radius:8px;background:#2a1320;color:#ffd1dd;font:12px/1.5 monospace;display:none}
+#fatalError.show{display:block}
 </style>
 </head>
 <body>
@@ -191,7 +193,7 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 <section id="modes" class="view"><div class="eyebrow">Battle Royale / game modes</div><div class="sectionHead"><h2>Modes & playlists</h2><span id="modesCount"></span></div><div class="toolbar"><button class="control active" data-mode-filter="all">All modes</button><button class="control" data-mode-filter="pvp">PvP</button><button class="control" data-mode-filter="team">Team modes</button><button class="control" data-mode-filter="creative">Creative</button></div><div id="modesTable"></div></section>
 </div></main></div><div id="detailBackdrop" class="detailBackdrop" aria-hidden="true">
 <article class="detailPanel">
-<button class="closeOverlay" onclick="closeOverlay()" aria-label="Close">×</button>
+<button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close">×</button>
 <div class="detailMedia" id="detailMedia"></div>
 <div class="detailContent">
 <div class="eyebrow" id="detailType">COSMETIC</div>
@@ -219,97 +221,77 @@ body.reduceMotion .auroraBg,body.reduceMotion .catalogGrid .item{animation:none}
 </article>
 </div>
 <div id="fullscreenViewer" class="fullscreenViewer">
-<div class="viewerBar"><strong id="viewerTitle">Cosmetic</strong><button class="closeOverlay" onclick="closeOverlay()" aria-label="Close fullscreen">×</button></div>
+<div class="viewerBar"><strong id="viewerTitle">Cosmetic</strong><button class="closeOverlay" onclick="DZ.closeOverlay()" aria-label="Close fullscreen">×</button></div>
 <div class="viewerStage">
-<button class="viewerArrow left" onclick="viewerNav(-1)" aria-label="Previous">‹</button>
+<button class="viewerArrow left" onclick="DZ.viewerNav(-1)" aria-label="Previous">‹</button>
 <img id="viewerImage" alt="">
-<button class="viewerArrow right" onclick="viewerNav(1)" aria-label="Next">›</button>
+<button class="viewerArrow right" onclick="DZ.viewerNav(1)" aria-label="Next">›</button>
 <div class="viewerDots" id="viewerDots"></div>
 </div>
 <div id="viewerInfo" class="viewerInfo"></div>
 <div class="viewerHint">← / → browse cosmetics · Escape closes</div>
 </div>
 <div id="toast" class="toast"></div>
+<div id="fatalError"></div>
 <script>
+/* ============================================================
+   Dropzone — global dispatcher
+   Every inline onclick/onkeydown calls through window.DZ so
+   that a partial init failure can't leave dead buttons.
+   ============================================================ */
+window.DZ = window.DZ || {};
+function showFatal(msg){
+  const el=document.getElementById('fatalError');
+  if(!el)return;
+  el.textContent='⚠ '+msg;
+  el.classList.add('show');
+  console.error(msg);
+}
+
+/* ---------- preferences (defined BEFORE anything uses them) ---------- */
+const safeStorage = {
+  getItem(k){ try{return localStorage.getItem(k)}catch{return null} },
+  setItem(k,v){ try{localStorage.setItem(k,v)}catch{} },
+  removeItem(k){ try{localStorage.removeItem(k)}catch{} },
+};
+const preferenceDefaults={theme:'ocean',density:'comfortable',cardSize:'standard',imageFit:'contain',showIds:true,showMetadata:true,compactShop:false,showSource:true,reduceMotion:false,highContrast:false,largeText:false,confirmLocker:false,rememberView:true,autoFocusSearch:false,showBuild:true,showEmpty:true,animateCards:true,loadImages:true,rememberFilters:true,showRarity:true,dataSource:'auto',customText:'#f5f7fb',customBackground:'#0b111b',font:'Space Grotesk',backgroundMedia:''};
+let preferences={...preferenceDefaults};
+try{preferences={...preferenceDefaults,...JSON.parse(safeStorage.getItem('dropzone_preferences')||'{}')}}catch{}
+
+/* ---------- constants ---------- */
 const DATA={};
 const PLAYER_API='https://dev.fnapi.osirion.gg/v1';
 const PLAYER_PROXY='https://r.jina.ai/';
 const PLAYER_ACCOUNT_LOOKUP=(name,platform='epic')=>`${PLAYER_API}/accounts/lookup-by-display-name?displayName=${encodeURIComponent(name)}&platform=${encodeURIComponent(platform)}`;
-const PLAYER_STATS_LOOKUP=(accountId)=>`${PLAYER_API}/stats/account?accountId=${encodeURIComponent(accountId)}`;
-async function playerJson(url,{allowProxy=true}={}){
-  try{
-    const r=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
-    const text=await r.text();
-    let data=null;try{data=JSON.parse(text)}catch{}
-    if(r.ok)return data??text;
-    const err=new Error(`HTTP ${r.status}`);err.status=r.status;throw err;
-  }catch(directError){
-    if(!allowProxy||directError?.status===400||directError?.status===404)throw directError;
-    const proxyUrl=`${PLAYER_PROXY}${url}`;
-    try{
-      const r=await fetch(proxyUrl,{headers:{'Accept':'application/json'},cache:'no-store'});
-      const text=await r.text();
-      if(!r.ok)throw Error(`Proxy HTTP ${r.status}`);
-      let data=null;try{data=JSON.parse(text)}catch{}
-      if(data?.content&&typeof data.content==='string'){try{data=JSON.parse(data.content)}catch{}}
-      if(!data){const m=text.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);if(m)try{data=JSON.parse(m[1])}catch{}}
-      if(data)return data;
-      throw Error('The player service returned an unreadable response.');
-    }catch(proxyError){
-      const err=new Error(directError?.message||proxyError.message||'Player API request failed.');
-      err.status=directError?.status;err.proxyError=proxyError;throw err;
-    }
-  }
-}
-
-// Fortnite-Datamining repo raw URL — the bot commits fresh cosmetics here periodically.
-// GitHub blob pages can't be fetched directly; always use raw.githubusercontent.com.
+const PLAYER_STATS_LOOKUP=(id)=>`${PLAYER_API}/stats/account?accountId=${encodeURIComponent(id)}`;
 const FD_BR='https://raw.githubusercontent.com/Fortnite-Datamining/Fortnite-Datamining/main/data/cosmetics/br.json';
 const FORTNITE_API_BR='https://fortnite-api.com/v2/cosmetics/br';
-
 const DATASETS={br:FD_BR,shop:'https://fortnite-api.com/v2/shop',news:'data/news/current.json',map:'data/map/current.json',weapons:'data/weapons/current.json',playlists:'data/playlists/current.json',stats:'data/meta/stats.json',build:'data/meta/build_info.json',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'data/banners/current.json'};
-
-const DATASET_API_FALLBACKS={
-  br:FORTNITE_API_BR,
-  shop:'https://fortnite-api.com/v2/shop',
-  news:'https://fortnite-api.com/v2/news',
-  map:'https://fortnite-api.com/v2/map',
-  weapons:null,
-  playlists:'https://fortnite-api.com/v2/playlists',
-  stats:null,
-  build:'https://fortnite-api.com/v2/aes',
-  lego:'https://fortnite-api.com/v2/cosmetics/lego',
-  lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',
-  tracks:'https://fortnite-api.com/v2/cosmetics/tracks',
-  instruments:'https://fortnite-api.com/v2/cosmetics/instruments',
-  cars:'https://fortnite-api.com/v2/cosmetics/cars',
-  beans:'https://fortnite-api.com/v2/cosmetics/beans',
-  banners:'https://fortnite-api.com/v2/cosmetics/banners'
-};
-
+const DATASET_API_FALLBACKS={br:FORTNITE_API_BR,shop:'https://fortnite-api.com/v2/shop',news:'https://fortnite-api.com/v2/news',map:'https://fortnite-api.com/v2/map',weapons:null,playlists:'https://fortnite-api.com/v2/playlists',stats:null,build:'https://fortnite-api.com/v2/aes',lego:'https://fortnite-api.com/v2/cosmetics/lego',lego_kits:'https://fortnite-api.com/v2/cosmetics/lego/kits',tracks:'https://fortnite-api.com/v2/cosmetics/tracks',instruments:'https://fortnite-api.com/v2/cosmetics/instruments',cars:'https://fortnite-api.com/v2/cosmetics/cars',beans:'https://fortnite-api.com/v2/cosmetics/beans',banners:'https://fortnite-api.com/v2/cosmetics/banners'};
 const SHOP_REFRESH_MS=3*60*1000;
-// Cosmetics merge repo + live API every 30 minutes so brand-new drops always appear.
 const COSMETICS_REFRESH_MS=30*60*1000;
+const NEW_WINDOW_MS=3*24*60*60*1000;
+const DREAM_SLOTS=['Outfit','Back Bling','Pickaxe','Glider','Wrap','Emote'];
+const DREAM_GLYPHS={'Outfit':'◆','Back Bling':'▣','Pickaxe':'⛏','Glider':'⛅','Wrap':'▧','Emote':'✦'};
+
 let shopLastSynced=0;
 let cosmeticsLastSynced=0;
 const BR_SOURCE_INFO={repo:0,api:0,merged:0,newFromApi:0,updatedAt:0};
+let activeItemIndex=-1;
+let currentUser=safeStorage.getItem('dropzone_user')||'';
+let lockerItems=[];
+try{const p=JSON.parse(safeStorage.getItem('dropzone_locker')||'[]');lockerItems=Array.isArray(p)?p:[]}catch{lockerItems=[]}
 const playerState={account:null,stats:null,raw:null};
 const state={view:'home',query:'',collection:{lego:'lego',festival:'tracks',vehicles:'cars'},shopFilter:'all',modeFilter:'all',weaponRarity:'all',damageSort:true,cosmeticType:'all',dreamCategory:'Outfit',dreamLoadout:{}};
+const ITEM_CACHE=[];const SHOP_CONTEXT={};const NEWS_CACHE=[];
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const arr=(key)=>{const d=DATA[key];if(Array.isArray(d))return d;if(Array.isArray(d?.data))return d.data;if(Array.isArray(d?.items))return d.items;if(Array.isArray(d?.weapons))return d.weapons;if(Array.isArray(d?.cosmetics))return d.cosmetics;return []};
+const image=x=>x?.images?.featured||x?.images?.large||x?.images?.wide||x?.images?.icon||x?.images?.small||x?.images?.smallIcon||x?.imageUrl||x?.smallImageUrl||x?.albumArt||x?.image||'';
+const name=x=>x?.name||x?.title||x?.displayName||x?.id||'Unknown item';
+const money=x=>Number.isFinite(Number(x))?Number(x).toLocaleString():'--';
 
-// Hardened array extractor — handles {data:[...]}, {items:[...]}, {weapons:[...]}, {cosmetics:[...]}, or a bare array.
-const arr=(key)=>{
-  const d=DATA[key];
-  if(Array.isArray(d))return d;
-  if(Array.isArray(d?.data))return d.data;
-  if(Array.isArray(d?.items))return d.items;
-  if(Array.isArray(d?.weapons))return d.weapons;
-  if(Array.isArray(d?.cosmetics))return d.cosmetics;
-  return [];
-};
-
-// Unwrap any known wrapper shape into a plain array.
+/* ---------- data loading ---------- */
 function unwrapCosmeticList(j){
   if(Array.isArray(j))return j;
   if(Array.isArray(j?.data))return j.data;
@@ -317,10 +299,6 @@ function unwrapCosmeticList(j){
   if(Array.isArray(j?.cosmetics))return j.cosmetics;
   return [];
 }
-
-// Fetch both the repo snapshot and the live API in parallel, merge by id.
-// API wins on collision — so brand-new Fortnitemare items always appear,
-// and every entry keeps its full stats (rarity, set, series, introduction).
 let _brMergePromise=null;
 async function loadBRMerged(force=false){
   if(DATA.br && !force) return DATA.br;
@@ -332,29 +310,20 @@ async function loadBRMerged(force=false){
         const sep=url.includes('?')?'&':'?';
         const r=await fetch(`${url}${sep}_=${Date.now()}`,{cache:'no-store'});
         if(!r.ok) throw Error(`HTTP ${r.status}`);
-        const j=await r.json();
-        return unwrapCosmeticList(j);
-      }catch(e){
-        console.warn('BR source failed:',url,e);
-        return [];
-      }
+        return unwrapCosmeticList(await r.json());
+      }catch(e){console.warn('BR source failed:',url,e);return []}
     }));
     const [repo,api]=results;
     const map=new Map();
-    repo.forEach(x=>x&&x.id&&map.set(x.id,x));   // repo first
-    api.forEach(x=>x&&x.id&&map.set(x.id,x));    // API overrides (fresher stats)
+    repo.forEach(x=>x&&x.id&&map.set(x.id,x));
+    api.forEach(x=>x&&x.id&&map.set(x.id,x));
     const merged=[...map.values()];
-    // Preserve the fastest "newest first" ordering used everywhere else.
     merged.sort((a,b)=>{
       const ta=Date.parse(a?.added||a?.introduction?.date||'')||0;
       const tb=Date.parse(b?.added||b?.introduction?.date||'')||0;
       return tb-ta;
     });
-    BR_SOURCE_INFO.repo=repo.length;
-    BR_SOURCE_INFO.api=api.length;
-    BR_SOURCE_INFO.merged=merged.length;
-    BR_SOURCE_INFO.newFromApi=Math.max(0,api.length-repo.length);
-    BR_SOURCE_INFO.updatedAt=Date.now();
+    Object.assign(BR_SOURCE_INFO,{repo:repo.length,api:api.length,merged:merged.length,newFromApi:Math.max(0,api.length-repo.length),updatedAt:Date.now()});
     cosmeticsLastSynced=Date.now();
     DATA.br=merged;
     DATA['_src_br']='merged';
@@ -364,13 +333,12 @@ async function loadBRMerged(force=false){
   })().finally(()=>{_brMergePromise=null});
   return _brMergePromise;
 }
-
 async function load(key,force=false){
   if(key==='br')return loadBRMerged(force);
   if(DATA[key]&&!force)return DATA[key];
   const repoSource=DATASETS[key];
   const apiSource=DATASET_API_FALLBACKS[key];
-  const pref=(typeof preferences!=='undefined'&&preferences&&preferences.dataSource)||'auto';
+  const pref=preferences.dataSource||'auto';
   const isRemote=u=>/^https?:/.test(u);
   const doFetch=async url=>{
     const sep=url.includes('?')?'&':'?';
@@ -386,99 +354,148 @@ async function load(key,force=false){
   if(!sources.length)sources=[repoSource].filter(Boolean);
   let lastError=null;
   for(const src of sources){
-    try{
-      const data=await doFetch(src);
-      DATA[key]=data;
-      DATA[`_src_${key}`]=src===apiSource?'api':'repo';
-      return data;
-    }catch(e){lastError=e}
+    try{const data=await doFetch(src);DATA[key]=data;DATA[`_src_${key}`]=src===apiSource?'api':'repo';return data}
+    catch(e){lastError=e}
   }
   toast(`Could not load ${key}: ${lastError?.message||'unknown error'}`);
   return null;
 }
 
-function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),3500)}
-function countUp(el,target){if(!el)return;target=Number(target)||0;const start=0;const dur=900;const t0=performance.now();const step=t=>{const p=Math.min(1,(t-t0)/dur);const v=Math.round(start+(target-start)*(1-Math.pow(1-p,3)));el.textContent=v.toLocaleString();if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)}
-const LIVE_NS='dropzone-fortnite-datalab-v1';let onlineJoined=false;
-async function initLiveCounter(){
-  const localVisits=Number(safeStorage.getItem('dropzone_local_visits')||0)+1;safeStorage.setItem('dropzone_local_visits',String(localVisits));countUp($('#totalVisitsSide'),localVisits);countUp($('#totalVisitsHero'),localVisits);
-  try{const badge=await fetch(`https://api.visitorbadge.io/api/visitors?path=${encodeURIComponent(location.hostname||LIVE_NS)}&format=json`,{cache:'no-store'}).then(r=>r.ok?r.json():null);const value=Number(badge?.value||badge?.count);if(Number.isFinite(value)){$('#totalVisitsSide').title='Shared visits';$('#totalVisitsHero').title='Shared visits';countUp($('#totalVisitsSide'),value);countUp($('#totalVisitsHero'),value)}}catch(e){}
-  const visitors=Number(safeStorage.getItem('dropzone_session_visitors')||0)+1;safeStorage.setItem('dropzone_session_visitors',String(visitors));countUp($('#onlineNowTop'),visitors);countUp($('#onlineNowStat'),visitors);
+/* ---------- UI helpers ---------- */
+function toast(message){
+  const el=$('#toast');if(!el)return;
+  el.textContent=message;el.classList.add('show');
+  clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
-function leaveLiveCounter(){if(!onlineJoined)return;onlineJoined=false;try{fetch(`https://api.countapi.xyz/update/${LIVE_NS}/online-now?amount=-1`,{keepalive:true})}catch(e){}}
-window.addEventListener('pagehide',leaveLiveCounter);
-function matches(x){if(!state.query)return true;return JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())}
-function renderStats(){const s=DATA.stats||{},c=s.counts||{};const stats=[['BR Cosmetics',arr('br').length,'cyan'],['Shop offers',shopEntries().length,'yellow'],['Weapons',arr('weapons').length,'pink'],['Playlists',c.Playlists||arr('playlists').length,'green']];$('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');$('#explore').innerHTML=[['Outfits',arr('br').length,'outfits'],['Weapons',arr('weapons').length,'weapons'],['LEGO',c['LEGO Cosmetics']||arr('lego').length,'lego'],['Jam tracks',c['Jam Tracks']||arr('tracks').length,'festival']].map(x=>`<button class="stat" data-view="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');$$('#explore [data-view]').forEach(x=>x.addEventListener('click',()=>setView(x.dataset.view)))}
-function shopEntries(){return DATA.shop?.data?.entries||[]}
+function countUp(el,target){
+  if(!el)return;target=Number(target)||0;
+  const dur=900,t0=performance.now();
+  const step=t=>{
+    const p=Math.min(1,(t-t0)/dur);
+    const v=Math.round(target*(1-Math.pow(1-p,3)));
+    el.textContent=v.toLocaleString();
+    if(p<1)requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
 function agoText(ms){const s=Math.max(0,Math.round((Date.now()-ms)/1000));if(s<5)return'just now';if(s<60)return`${s}s ago`;const m=Math.round(s/60);if(m<60)return`${m}m ago`;return`${Math.round(m/60)}h ago`}
-function updateShopSyncLabel(){const el=$('#shopSync');if(!el)return;el.textContent=shopLastSynced?`synced ${agoText(shopLastSynced)}`:'syncing';}
+function updateShopSyncLabel(){const el=$('#shopSync');if(el)el.textContent=shopLastSynced?`synced ${agoText(shopLastSynced)}`:'syncing';}
 function updateBrSyncLabel(){
   const el=$('#brSyncLabel');if(!el)return;
   if(!BR_SOURCE_INFO.updatedAt){el.textContent='loading…';return}
   el.textContent=`${BR_SOURCE_INFO.merged.toLocaleString()} items · ${BR_SOURCE_INFO.newFromApi} new · ${agoText(BR_SOURCE_INFO.updatedAt)}`;
   const o=$('#outfitSync');if(o)o.textContent=`repo ${BR_SOURCE_INFO.repo} + api ${BR_SOURCE_INFO.api} → merged ${BR_SOURCE_INFO.merged}`;
 }
-function shopResetTarget(){
- const d=DATA.shop?.data||{};
- const rawCandidates=[d.nextRefresh,d.nextRefreshDate,d.nextReset,d.nextResetDate,d.expiration,d.expiresAt,d.endDate,d.endTime];
- const candidates=rawCandidates.map(v=>{
-   if(v==null||v==='')return null;
-   if(typeof v==='number')return v<1e11?v*1000:v;
-   const n=Date.parse(v);return Number.isFinite(n)?n:null;
- }).filter(v=>Number.isFinite(v)&&v>Date.now());
- if(candidates.length)return Math.min(...candidates);
- const now=new Date();
- const nextUtcMidnight=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+1,0,0,0,0);
- return nextUtcMidnight;
-}
-function updateShopCountdown(){
- const el=$('#shopCountdown');if(!el)return;const target=shopResetTarget(),diff=Math.max(0,target-Date.now()),sec=Math.floor(diff/1000);const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;el.textContent=`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;const r=$('#shopResetText');if(r)r.textContent=`${new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'})}`;if(diff<1200&&diff>0)el.style.color='var(--yellow)';else el.style.color='var(--cyan)';if(diff<=1000)refreshShop(true);
-}
-async function refreshShop(auto){try{const r=await fetch(`${DATASETS.shop}?_=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(r.status);DATA.shop=await r.json();shopLastSynced=Date.now();$('#heroShopCount').textContent=shopEntries().length.toLocaleString();updateShopSyncLabel();updateShopCountdown();if(state.view==='shop')renderShop();if(!auto)toast('Item shop refreshed')}catch(e){if(!auto)toast(`Shop refresh failed: ${e.message}`)}}
 
-async function refreshCosmetics(auto){
-  try{
-    await loadBRMerged(true);
-    if(state.view==='outfits')renderOutfits();
-    if(state.view==='cosmetics')renderCosmetics();
-    if(state.view==='dreamlocker')renderDreamLocker();
-    renderStats();
-    const loaded=Object.keys(DATASETS).filter(k=>DATA[k]).length;
-    const hp=$('#health'),hb=$('#healthBar');
-    if(hp)hp.textContent=`${loaded}/${Object.keys(DATASETS).length} sources`;
-    if(hb)hb.style.width=`${loaded/Object.keys(DATASETS).length*100}%`;
-    if(!auto)toast(`Cosmetics merged: ${BR_SOURCE_INFO.merged} items (${BR_SOURCE_INFO.newFromApi} new from API)`);
-  }catch(e){if(!auto)toast(`Cosmetics refresh failed: ${e.message}`)}
+/* ---------- field extraction ---------- */
+function firstDefined(...vals){for(const v of vals)if(v!==undefined&&v!==null&&v!=='')return v;return ''}
+function textValue(v){
+  if(v===undefined||v===null)return '';
+  if(typeof v==='string'||typeof v==='number')return String(v);
+  if(Array.isArray(v))return v.map(textValue).filter(Boolean).join(', ');
+  return firstDefined(v.displayValue,v.displayName,v.text,v.name,v.value,v.backendValue,v.label,'');
+}
+function metaPath(item,paths){
+  for(const path of paths){
+    let cur=item;
+    for(const key of path.split('.')){if(cur==null)break;cur=cur[key]}
+    const val=textValue(cur);if(val)return val;
+  }
+  return '';
+}
+function formatDate(v){
+  if(!v)return '—';
+  const d=new Date(v);
+  return Number.isNaN(d.getTime())?String(v):d.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'});
+}
+function detailDescription(item){return metaPath(item,['description.displayValue','description.text','description.value','description','shortDescription.displayValue','shortDescription.text','longDescription.displayValue','longDescription.text'])||'No description available for this item.'}
+function detailRarity(item){return metaPath(item,['rarity.displayValue','rarity.name','rarity.value','rarity.backendValue','rarity'])}
+function detailSet(item){return metaPath(item,['set.text','set.displayValue','set.name','set.value','set.backendValue','set'])}
+function detailSeries(item){return metaPath(item,['series.displayValue','series.name','series.value','series.backendValue','series'])}
+function detailIntroduction(item){
+  const intro=metaPath(item,['introduction.text','introduction.displayValue','introduction.name','introduction.value','introduction']);
+  const chapter=metaPath(item,['introduction.chapter','chapter']);
+  const season=metaPath(item,['introduction.season','season']);
+  if(chapter||season)return `Chapter ${chapter||'—'} · Season ${season||'—'}`;
+  return intro;
+}
+function detailRelease(item){return firstDefined(item.added,item.releaseDate,item.release_date,item.release,item.firstSeen,item.firstSeenDate,item.introduction?.date)}
+function detailType(item,fallback='Cosmetic'){return metaPath(item,['type.displayValue','type.name','type.value','type.backendValue','type'])||fallback}
+function releaseTime(item){const d=detailRelease(item);if(!d)return 0;const t=Date.parse(d);return Number.isFinite(t)?t:0}
+function sortNewestFirst(list){return [...list].sort((a,b)=>releaseTime(b)-releaseTime(a))}
+function withNewFlags(list){
+  const sorted=sortNewestFirst(list);
+  const newestTime=sorted.length?releaseTime(sorted[0]):0;
+  return sorted.map(item=>({item,isNew:newestTime>0&&releaseTime(item)>0&&(newestTime-releaseTime(item))<=NEW_WINDOW_MS}));
+}
+const isLoadingScreen=x=>String(x?.type?.value||x?.type?.displayValue||x?.type||'').toLowerCase().includes('loading');
+const cacheItem=x=>{ITEM_CACHE.push(x);return ITEM_CACHE.length-1};
+const cacheShopItem=(x,o)=>{const i=cacheItem(x);SHOP_CONTEXT[i]=o;return i};
+function matches(x){if(!state.query)return true;return JSON.stringify(x).toLowerCase().includes(state.query.toLowerCase())}
+
+/* ---------- card rendering ---------- */
+function card(x,type='Item',isNew=false){
+  return `<article class="item"><div class="itemImage">${isNew?'<span class="newBadge">NEW</span>':''}${image(x)?`<img loading="lazy" src="${esc(image(x))}" alt="${esc(name(x))}">`:'<span class="placeholder">FN</span>'}<span class="badge">${esc(x?.rarity?.displayValue||x?.rarity?.name||x?.type?.displayValue||type)}</span></div><div class="itemBody"><div class="itemName" title="${esc(name(x))}">${esc(name(x))}</div><div class="itemMeta"><span>${esc(x?.set?.value||x?.artist||x?.category||x?.id||'')}</span><span>${esc(x?.introduction?.text||x?.releaseYear||'')}</span></div></div></article>`;
+}
+function interactiveCard(x,type,isNew=false){
+  const index=cacheItem(x);
+  const action=isLoadingScreen(x)?`DZ.openLoadingScreen(${index})`:`DZ.openItem(${index})`;
+  return card(x,type,isNew).replace('<article class="item"',`<article class="item" role="button" tabindex="0" onclick="${action}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();${action}}"`);
 }
 
-function shopItemForEntry(x){return x.brItems?.[0]||x.tracks?.[0]||x.instruments?.[0]||x.vehicleSkins?.[0]||x.legoKits?.[0]||x}
-function shopImage(x){return image(shopItemForEntry(x))}
-function shopEntryType(x){const raw=JSON.stringify(x).toLowerCase();if(x.bundle||x.layout?.displayType==='bundle')return'Bundle';if(raw.includes('outfit'))return'Outfit';if(raw.includes('pickaxe'))return'Pickaxe';if(raw.includes('emote'))return'Emote';if(raw.includes('wrap'))return'Wrap';if(raw.includes('glider'))return'Glider';if(raw.includes('backpack'))return'Back Bling';return x.layout?.displayType||'Offer'}
-function shopCategoryName(x){return x.layout?.name||shopEntryType(x)||'Featured'}
-function renderShopOrganizer(entries){const box=$('#shopOrganizer');if(!box)return;const counts={};entries.forEach(x=>{const k=shopCategoryName(x);counts[k]=(counts[k]||0)+1});const cats=Object.entries(counts).sort((a,b)=>b[1]-a[1]);box.innerHTML=`<button class="control active" data-shop-organizer="all">All sections</button>`+cats.map(([k,n])=>`<button class="control" data-shop-organizer="${esc(k)}">${esc(k)} <span style="opacity:.55">${n}</span></button>`).join('');box.querySelectorAll('[data-shop-organizer]').forEach(b=>b.onclick=()=>{box.querySelectorAll('.control').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderShop(b.dataset.shopOrganizer==='all'?null:b.dataset.shopOrganizer)})}
-function renderShop(sectionFilter=null){let entries=shopEntries().filter(matches);const filter=state.shopFilter;if(filter!=='all')entries=entries.filter(x=>filter==='bundle'?x.bundle||x.layout?.displayType==='bundle':JSON.stringify(x).toLowerCase().includes(filter));renderShopOrganizer(entries);if(sectionFilter)entries=entries.filter(x=>shopCategoryName(x)===sectionFilter);const groups={};entries.forEach(x=>{const k=shopCategoryName(x);(groups[k]??=[]).push(x)});$('#shopDate').textContent=DATA.shop?.data?.date?new Date(DATA.shop.data.date).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}):'snapshot unavailable';$('#shopSections').innerHTML=Object.entries(groups).map(([title,items])=>`<div class="shopSection"><div class="shopSectionHead"><h3>${esc(title)}</h3><span>${items.length} offers</span></div><div class="shopGrid">${items.map(x=>{const item=shopItemForEntry(x),i=cacheShopItem?cacheShopItem(item,x):cacheItem(item),im=shopImage(x),rarity=textValue(item?.rarity)||'' ,setv=textValue(item?.set)||'';return `<article class="shopItem" role="button" tabindex="0" onclick="openItem(${i})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openItem(${i})}"><div class="shopImage">${im?`<img loading="lazy" src="${esc(im)}" alt="${esc(name(item))}">`:'<span class="placeholder">FN</span>'}</div><div class="shopBody"><b>${esc(name(item))}</b><div class="shopSub"><span>${esc(rarity||shopEntryType(x))}</span><span>${esc(setv)}</span></div><div class="shopPriceRow"><small>${x.giftable?'Giftable':'Offer'} · ${esc(shopEntryType(x))}</small><strong>${money(x.finalPrice)} <small>V-Bucks</small></strong></div></div></article>`}).join('')}</div></div>`).join('')||'<div class="empty">No offers match this filter.</div>'}
+/* ---------- stats + explore ---------- */
+function shopEntries(){return DATA.shop?.data?.entries||[]}
+function renderStats(){
+  const c=DATA.stats?.counts||{};
+  const stats=[['BR Cosmetics',arr('br').length,'cyan'],['Shop offers',shopEntries().length,'yellow'],['Weapons',arr('weapons').length,'pink'],['Playlists',c.Playlists||arr('playlists').length,'green']];
+  $('#stats').innerHTML=stats.map(x=>`<div class="stat ${x[2]}"><label>${x[0]}</label><strong>${money(x[1])}</strong></div>`).join('');
+  $('#explore').innerHTML=[['Outfits',arr('br').length,'outfits'],['Weapons',arr('weapons').length,'weapons'],['LEGO',c['LEGO Cosmetics']||arr('lego').length,'lego'],['Jam tracks',c['Jam Tracks']||arr('tracks').length,'festival']].map(x=>`<button class="stat" data-view="${x[2]}" style="text-align:left"><label>${x[0]}</label><strong>${money(x[1])}</strong></button>`).join('');
+  $$('#explore [data-view]').forEach(x=>x.addEventListener('click',()=>DZ.setView(x.dataset.view)));
+}
+
+/* ---------- news ---------- */
 function newsItems(){const br=DATA.news?.data?.br?.motds||[],stw=DATA.news?.data?.stw?.messages||[];return [...br,...stw].filter(x=>!x.hidden).sort((a,b)=>(b.sortingPriority||0)-(a.sortingPriority||0))}
-const NEWS_CACHE=[];function newsCard(x){const index=NEWS_CACHE.push(x)-1;return `<article class="newsCard" role="button" tabindex="0" data-news-index="${index}">${x.image||x.tileImage?`<img loading="lazy" src="${esc(x.tileImage||x.image)}" alt="">`:''}<div class="newsText"><small>FORTNITE NEWS</small><h3>${esc(x.title||x.tabTitle||'Latest update')}</h3></div></article>`}
+function newsCard(x){const index=NEWS_CACHE.push(x)-1;return `<article class="newsCard" role="button" tabindex="0" data-news-index="${index}">${x.image||x.tileImage?`<img loading="lazy" src="${esc(x.tileImage||x.image)}" alt="">`:''}<div class="newsText"><small>FORTNITE NEWS</small><h3>${esc(x.title||x.tabTitle||'Latest update')}</h3></div></article>`}
 function renderNews(){const items=newsItems();$('#newsPreview').innerHTML=items.slice(0,3).map(newsCard).join('')||'<div class="empty">No news snapshot available.</div>';$('#newsAll').innerHTML=items.map(newsCard).join('')||'<div class="empty">No news snapshot available.</div>'}
-function renderCatalog(key,target,type='Item'){let data=arr(key).filter(matches);const withFlags=withNewFlags(data);const el=$(target);el.previousElementSibling?.querySelector('span')&&(el.previousElementSibling.querySelector('span').textContent=`${data.length.toLocaleString()} records`);el.innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,type,isNew)).join('')||'<div class="empty">No records match your search.</div>';if(data.length>240)el.insertAdjacentHTML('afterend',`<div class="empty" style="padding:18px;margin-top:12px">Showing 240 of ${data.length.toLocaleString()} records. Refine your search to explore more.</div>`) }
-function renderCosmetics(){const types=['all','Outfit','Back Bling','Pickaxe','Emote','Spray','Wrap','Loading Screen','Emoticon','Glider','Shoes','Sidekick','Contrail','Lobby Music','Aura','Pet'];$('#cosmeticTools').innerHTML=types.map(type=>`<button class="control ${state.cosmeticType===type?'active':''}" data-cosmetic-type="${esc(type)}">${type==='all'?'Every cosmetic':type}</button>`).join('');$$('#cosmeticTools [data-cosmetic-type]').forEach(button=>button.addEventListener('click',()=>{state.cosmeticType=button.dataset.cosmeticType;renderCosmetics()}));let data=arr('br').filter(x=>state.cosmeticType==='all'||(x.type?.displayValue||x.type?.value)===state.cosmeticType).filter(matches);const withFlags=withNewFlags(data);$('#cosmeticCount').textContent=`${data.length.toLocaleString()} records`;$('#cosmeticGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,'Cosmetic',isNew)).join('')||'<div class="empty">No records match your search.</div>'}
-function renderOutfits(){let data=arr('br').filter(x=>x.type?.value==='outfit'||x.type?.displayValue==='Outfit').filter(matches);const withFlags=withNewFlags(data);$('#outfitCount').textContent=`${data.length.toLocaleString()} records`;$('#outfitGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,'Outfit',isNew)).join('')||'<div class="empty">No outfits match your search.</div>'}
-const DREAM_SLOTS=['Outfit','Back Bling','Pickaxe','Glider','Wrap','Emote'];
-const DREAM_GLYPHS={'Outfit':'◆','Back Bling':'▣','Pickaxe':'⛏','Glider':'⛅','Wrap':'▧','Emote':'✦'};
+
+/* ---------- catalogs ---------- */
+function renderCatalog(key,target,type='Item'){
+  const data=arr(key).filter(matches);
+  const withFlags=withNewFlags(data);
+  const el=$(target);if(!el)return;
+  const head=el.previousElementSibling?.querySelector('span');
+  if(head)head.textContent=`${data.length.toLocaleString()} records`;
+  el.innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,type,isNew)).join('')||'<div class="empty">No records match your search.</div>';
+}
+function renderOutfits(){
+  const data=arr('br').filter(x=>x.type?.value==='outfit'||x.type?.displayValue==='Outfit').filter(matches);
+  const withFlags=withNewFlags(data);
+  $('#outfitCount').textContent=`${data.length.toLocaleString()} records`;
+  $('#outfitGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,'Outfit',isNew)).join('')||'<div class="empty">No outfits match your search.</div>';
+}
+function renderCosmetics(){
+  const types=['all','Outfit','Back Bling','Pickaxe','Emote','Spray','Wrap','Loading Screen','Emoticon','Glider','Shoes','Sidekick','Contrail','Lobby Music','Aura','Pet'];
+  $('#cosmeticTools').innerHTML=types.map(type=>`<button class="control ${state.cosmeticType===type?'active':''}" data-cosmetic-type="${esc(type)}">${type==='all'?'Every cosmetic':type}</button>`).join('');
+  $$('#cosmeticTools [data-cosmetic-type]').forEach(b=>b.addEventListener('click',()=>{state.cosmeticType=b.dataset.cosmeticType;renderCosmetics()}));
+  const data=arr('br').filter(x=>state.cosmeticType==='all'||(x.type?.displayValue||x.type?.value)===state.cosmeticType).filter(matches);
+  const withFlags=withNewFlags(data);
+  $('#cosmeticCount').textContent=`${data.length.toLocaleString()} records`;
+  $('#cosmeticGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>interactiveCard(item,'Cosmetic',isNew)).join('')||'<div class="empty">No records match your search.</div>';
+}
 function renderDreamStage(){
   const outfit=state.dreamLoadout['Outfit'];
   const previewImg=outfit?image(outfit):'';
   $('#dreamOutfitPreview').innerHTML=previewImg?`<img src="${esc(previewImg)}" alt="${esc(name(outfit))}">`:'<span class="placeholder">Pick an Outfit to start your dream loadout</span>';
   $('#dreamSlots').innerHTML=DREAM_SLOTS.map(type=>{
     const item=state.dreamLoadout[type];
-    return `<button class="dreamSlot ${item?'filled':''} ${state.dreamCategory===type?'active':''}" data-dream-cat="${esc(type)}" title="${esc(type)}" type="button">${item?`<img src="${esc(image(item))}" alt="${esc(name(item))}">`:`<span class="dreamSlotIcon">${DREAM_GLYPHS[type]||'?'}</span>`}<small>${esc(type)}</small></button>`;
+    return `<button class="dreamSlot ${item?'filled':''} ${state.dreamCategory===type?'active':''}" data-dream-cat="${esc(type)}" type="button">${item?`<img src="${esc(image(item))}" alt="${esc(name(item))}">`:`<span class="dreamSlotIcon">${DREAM_GLYPHS[type]||'?'}</span>`}<small>${esc(type)}</small></button>`;
   }).join('');
 }
 function dreamCard(x,type,isNew=false){
   const index=cacheItem(x);
   const equipped=state.dreamLoadout[type]&&state.dreamLoadout[type].id===x.id;
   const safeType=type.replace(/'/g,'');
-  return card(x,type,isNew).replace('<article class="item"',`<article class="item dreamPick${equipped?' equipped':''}" role="button" tabindex="0" onclick="equipDream(${index},'${safeType}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();equipDream(${index},'${safeType}')}"`);
+  return card(x,type,isNew).replace('<article class="item"',`<article class="item dreamPick${equipped?' equipped':''}" role="button" tabindex="0" onclick="DZ.equipDream(${index},'${safeType}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.equipDream(${index},'${safeType}')}"`);
 }
 function renderDreamTools(){$('#dreamTools').innerHTML=DREAM_SLOTS.map(t=>`<button class="control ${state.dreamCategory===t?'active':''}" data-dream-cat="${esc(t)}" type="button">${esc(t)}</button>`).join('');}
 function renderDreamGrid(){
@@ -489,132 +506,307 @@ function renderDreamGrid(){
   $('#dreamGrid').innerHTML=withFlags.slice(0,240).map(({item,isNew})=>dreamCard(item,type,isNew)).join('')||'<div class="empty">No cosmetics of this type in the current snapshot.</div>';
 }
 function renderDreamLocker(){renderDreamTools();renderDreamStage();renderDreamGrid();}
-function equipDream(index,type){const item=ITEM_CACHE[index];if(!item)return;const current=state.dreamLoadout[type];state.dreamLoadout[type]=(current&&current.id===item.id)?null:item;renderDreamStage();renderDreamGrid();}
-function randomizeDream(){DREAM_SLOTS.forEach(type=>{const pool=arr('br').filter(x=>(x.type?.displayValue||x.type?.value)===type);if(pool.length)state.dreamLoadout[type]=pool[Math.floor(Math.random()*pool.length)]});renderDreamStage();renderDreamGrid();toast('Randomized your dream loadout')}
-function clearDream(){DREAM_SLOTS.forEach(t=>state.dreamLoadout[t]=null);renderDreamStage();renderDreamGrid();toast('Loadout cleared')}
-document.addEventListener('click',e=>{const btn=e.target.closest('[data-dream-cat]');if(!btn)return;state.dreamCategory=btn.dataset.dreamCat;renderDreamTools();renderDreamStage();renderDreamGrid()});
-function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)|preferredslottype\.consumable/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield|utility/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
-function renderWeapons(){const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];const toolbar=$('#weaponsTable').previousElementSibling;if(toolbar&&!$('#weaponCategory')){const select=document.createElement('select');select.id='weaponCategory';select.className='control';select.innerHTML=filters.map(([value,label])=>`<option value="${value}">${label}</option>`).join('');select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});toolbar.insertBefore(select,toolbar.firstChild)}const category=state.weaponCategory||'all';const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));$('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;$('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>${data.length>500?`<div class="empty" style="padding:18px;margin-top:12px">Showing 500 of ${data.length.toLocaleString()} items. Refine your search or category.</div>`:''}`}
-function renderModes(){let data=arr('playlists').filter(matches).filter(x=>{if(state.modeFilter==='all')return true;const s=JSON.stringify(x).toLowerCase();return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle')});$('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;$('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th><th>Tags</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b><br><small style="color:var(--dim)">${esc(x.id||'')}</small></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td><td>${esc((x.gameplayTags||x.tags||[]).slice(0,3).join(', '))}</td></tr>`).join('')}</tbody></table>`}
-async function renderMap(){const d=DATA.map?.data||{};const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map;$('#mapImage').src=url||'';$('#mapMeta').textContent=d.date?`Updated ${new Date(d.date).toLocaleDateString()}`:'current map snapshot';if(!url)$('#mapImage').alt='Map image unavailable'}
-function firstDefined(...values){return values.find(v=>v!==undefined&&v!==null&&v!=='')}
-function deepFind(obj,keys,seen=new Set()){
-  if(!obj||typeof obj!=='object'||seen.has(obj))return undefined;seen.add(obj);
-  for(const key of keys)if(Object.prototype.hasOwnProperty.call(obj,key)&&obj[key]!==null&&obj[key]!==undefined)return obj[key];
-  for(const value of Object.values(obj)){const found=deepFind(value,keys,seen);if(found!==undefined)return found}
-  return undefined;
+
+/* ---------- shop ---------- */
+function shopItemForEntry(x){return x.brItems?.[0]||x.tracks?.[0]||x.instruments?.[0]||x.vehicleSkins?.[0]||x.legoKits?.[0]||x}
+function shopImage(x){return image(shopItemForEntry(x))}
+function shopEntryType(x){const raw=JSON.stringify(x).toLowerCase();if(x.bundle||x.layout?.displayType==='bundle')return'Bundle';if(raw.includes('outfit'))return'Outfit';if(raw.includes('pickaxe'))return'Pickaxe';if(raw.includes('emote'))return'Emote';if(raw.includes('wrap'))return'Wrap';if(raw.includes('glider'))return'Glider';if(raw.includes('backpack'))return'Back Bling';return x.layout?.displayType||'Offer'}
+function shopCategoryName(x){return x.layout?.name||shopEntryType(x)||'Featured'}
+function renderShopOrganizer(entries){
+  const box=$('#shopOrganizer');if(!box)return;
+  const counts={};entries.forEach(x=>{const k=shopCategoryName(x);counts[k]=(counts[k]||0)+1});
+  const cats=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+  box.innerHTML=`<button class="control active" data-shop-organizer="all">All sections</button>`+cats.map(([k,n])=>`<button class="control" data-shop-organizer="${esc(k)}">${esc(k)} <span style="opacity:.55">${n}</span></button>`).join('');
+  box.querySelectorAll('[data-shop-organizer]').forEach(b=>b.onclick=()=>{box.querySelectorAll('.control').forEach(x=>x.classList.remove('active'));b.classList.add('active');renderShop(b.dataset.shopOrganizer==='all'?null:b.dataset.shopOrganizer)});
 }
-function numText(v){return typeof v==='number'&&Number.isFinite(v)?v.toLocaleString():String(v??'--')}
-function statValue(raw,names){const v=deepFind(raw,names);return typeof v==='object'&&v!==null?firstDefined(v.value,v.total,v.amount):v}
-function findModeStats(raw){
-  const out=[];
-  const visit=(x,path=[])=>{
-    if(!x||typeof x!=='object')return;
-    if(!Array.isArray(x)){
-      const keys=Object.keys(x);
-      const hasStats=keys.some(k=>/wins?|kills|matches|deaths|kd|winRate|winpercentage|matchesplayed/i.test(k));
-      if(hasStats){
-        const label=path.filter(Boolean).slice(-2).join(' / ')||'Overall';
-        if(!out.some(a=>a.label===label))out.push({label,data:x});
-      }
-      Object.entries(x).forEach(([k,v])=>visit(v,[...path,k]));
-    }else x.forEach((v,i)=>visit(v,[...path,String(i)]));
-  };
-  visit(raw);
-  return out.slice(0,9);
+function renderShop(sectionFilter=null){
+  let entries=shopEntries().filter(matches);
+  const filter=state.shopFilter;
+  if(filter!=='all')entries=entries.filter(x=>filter==='bundle'?x.bundle||x.layout?.displayType==='bundle':JSON.stringify(x).toLowerCase().includes(filter));
+  renderShopOrganizer(entries);
+  if(sectionFilter)entries=entries.filter(x=>shopCategoryName(x)===sectionFilter);
+  const groups={};entries.forEach(x=>{const k=shopCategoryName(x);(groups[k]??=[]).push(x)});
+  $('#shopDate').textContent=DATA.shop?.data?.date?new Date(DATA.shop.data.date).toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'}):'snapshot unavailable';
+  $('#shopSections').innerHTML=Object.entries(groups).map(([title,items])=>`<div class="shopSection"><div class="shopSectionHead"><h3>${esc(title)}</h3><span>${items.length} offers</span></div><div class="shopGrid">${items.map(x=>{const item=shopItemForEntry(x),i=cacheShopItem(item,x),im=shopImage(x),rarity=textValue(item?.rarity)||'',setv=textValue(item?.set)||'';return `<article class="shopItem" role="button" tabindex="0" onclick="DZ.openItem(${i})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();DZ.openItem(${i})}"><div class="shopImage">${im?`<img loading="lazy" src="${esc(im)}" alt="${esc(name(item))}">`:'<span class="placeholder">FN</span>'}</div><div class="shopBody"><b>${esc(name(item))}</b><div class="shopSub"><span>${esc(rarity||shopEntryType(x))}</span><span>${esc(setv)}</span></div><div class="shopPriceRow"><small>${x.giftable?'Giftable':'Offer'} · ${esc(shopEntryType(x))}</small><strong>${money(x.finalPrice)} <small>V-Bucks</small></strong></div></div></article>`}).join('')}</div></div>`).join('')||'<div class="empty">No offers match this filter.</div>';
 }
-function modeMetric(d,names){return statValue(d,names)}
+function shopResetTarget(){
+  const d=DATA.shop?.data||{};
+  const c=[d.nextRefresh,d.nextRefreshDate,d.nextReset,d.nextResetDate,d.expiration,d.expiresAt,d.endDate,d.endTime].map(v=>{
+    if(v==null||v==='')return null;
+    if(typeof v==='number')return v<1e11?v*1000:v;
+    const n=Date.parse(v);return Number.isFinite(n)?n:null;
+  }).filter(v=>Number.isFinite(v)&&v>Date.now());
+  if(c.length)return Math.min(...c);
+  const now=new Date();
+  return Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+1,0,0,0,0);
+}
+function updateShopCountdown(){
+  const el=$('#shopCountdown');if(!el)return;
+  const target=shopResetTarget(),diff=Math.max(0,target-Date.now()),sec=Math.floor(diff/1000);
+  const h=Math.floor(sec/3600),m=Math.floor((sec%3600)/60),s=sec%60;
+  el.textContent=`${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  const r=$('#shopResetText');if(r)r.textContent=`${new Date(target).toLocaleString(undefined,{weekday:'short',hour:'numeric',minute:'2-digit',timeZoneName:'short'})}`;
+}
+async function refreshShop(auto){
+  try{
+    const r=await fetch(`${DATASETS.shop}?_=${Date.now()}`,{cache:'no-store'});
+    if(!r.ok)throw Error(r.status);
+    DATA.shop=await r.json();
+    shopLastSynced=Date.now();
+    $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
+    updateShopSyncLabel();updateShopCountdown();
+    if(state.view==='shop')renderShop();
+    if(!auto)toast('Item shop refreshed');
+  }catch(e){if(!auto)toast(`Shop refresh failed: ${e.message}`)}
+}
+async function refreshCosmetics(auto){
+  try{
+    await loadBRMerged(true);
+    if(state.view==='outfits')renderOutfits();
+    if(state.view==='cosmetics')renderCosmetics();
+    if(state.view==='dreamlocker')renderDreamLocker();
+    renderStats();
+    const keys=Object.keys(DATASETS),loaded=keys.filter(k=>DATA[k]).length;
+    $('#health').textContent=`${loaded}/${keys.length} sources`;
+    $('#healthBar').style.width=`${loaded/keys.length*100}%`;
+    if(!auto)toast(`Cosmetics merged: ${BR_SOURCE_INFO.merged} items (${BR_SOURCE_INFO.newFromApi} new from API)`);
+  }catch(e){if(!auto)toast(`Cosmetics refresh failed: ${e.message}`)}
+}
+
+/* ---------- weapons & modes ---------- */
+function weaponCategory(item){const text=`${name(item)} ${item.id||''} ${(item.gameplayTags||[]).join(' ')}`.toLowerCase();if(/lightsaber|saber|deku|smash|kamehameha|hadouken|blaster|wookiee|captain america|iron man|doctor doom|mandalorian|starwars|marvel|anime|turtle|donatello|leonardo|michelangelo|raphael|harley quinn|batman|zeus|force /.test(text))return 'collabs';if(/trait\.restoration|heal|med-mist|medkit|chug|shield keg|shieldgenerator|fizzycloud|consumable.*(heal|shield)|preferredslottype\.consumable/.test(text))return 'heals';if(/grenade|rocket|launcher|throwable|boogie|shockwave|impulse|smoke cloud/.test(text))return 'grenades';if(/utility|grappl|hookgun|grapple|jetpack|broom|shieldweapon|ballisticshield/.test(text))return 'utility';if(/trait\.vehicle|vehicle|turret|biplane/.test(text))return 'vehicles';if(/melee|katana|staff|sai|nunchaku|blade|fists|gauntlet/.test(text))return 'melee';return 'weapons'}
+function renderWeapons(){
+  const filters=[['all','All items'],['weapons','Guns'],['collabs','Collabs & mythics'],['heals','Heals & shields'],['utility','Utility'],['grenades','Grenades & launchers'],['melee','Melee'],['vehicles','Vehicles & turrets']];
+  const toolbar=$('#weaponsTable').previousElementSibling;
+  if(toolbar&&!$('#weaponCategory')){
+    const select=document.createElement('select');select.id='weaponCategory';select.className='control';
+    select.innerHTML=filters.map(([v,l])=>`<option value="${v}">${l}</option>`).join('');
+    select.addEventListener('change',e=>{state.weaponCategory=e.target.value;renderWeapons()});
+    toolbar.insertBefore(select,toolbar.firstChild);
+  }
+  const category=state.weaponCategory||'all';
+  const data=arr('weapons').filter(matches).filter(x=>state.weaponRarity==='all'||x.rarity?.name===state.weaponRarity).filter(x=>category==='all'||weaponCategory(x)===category);
+  data.sort((a,b)=>state.damageSort?(b.stats?.DmgPB||0)-(a.stats?.DmgPB||0):name(a).localeCompare(name(b)));
+  $('#weaponsCount').textContent=`${data.length.toLocaleString()} of ${arr('weapons').length.toLocaleString()} items`;
+  $('#weaponsTable').innerHTML=`<table class="dataTable"><thead><tr><th>Item</th><th>Category</th><th>Rarity</th><th>Damage</th><th>Fire rate</th><th>Magazine</th></tr></thead><tbody>${data.slice(0,500).map(x=>`<tr><td><div class="weaponName">${x.imageUrl?`<img class="weaponIcon" loading="lazy" src="${esc(x.imageUrl)}" alt="">`:''}${esc(name(x))}</div></td><td>${esc(weaponCategory(x))}</td><td>${esc(x.rarity?.name||'Unknown')}</td><td>${x.stats?.DmgPB??'--'}</td><td>${x.stats?.FiringRate??'--'}</td><td>${x.stats?.ClipSize??'--'}</td></tr>`).join('')}</tbody></table>`;
+}
+function renderModes(){
+  const data=arr('playlists').filter(matches).filter(x=>{
+    if(state.modeFilter==='all')return true;
+    const s=JSON.stringify(x).toLowerCase();
+    return state.modeFilter==='creative'?s.includes('creative'):state.modeFilter==='team'?s.includes('team')||s.includes('squad'):s.includes('pvp')||s.includes('battle');
+  });
+  $('#modesCount').textContent=`${data.length.toLocaleString()} playlists`;
+  $('#modesTable').innerHTML=`<table class="dataTable"><thead><tr><th>Playlist</th><th>Mode</th><th>Players</th></tr></thead><tbody>${data.slice(0,260).map(x=>`<tr><td><b>${esc(name(x))}</b></td><td>${esc(x.gameType||x.type||x.category||'Battle Royale')}</td><td>${esc(x.maxPlayers||x.maxTeamPlayers||'--')}</td></tr>`).join('')}</tbody></table>`;
+}
+
+/* ---------- map ---------- */
+async function renderMap(){
+  const d=DATA.map?.data||{};
+  const url=d.images?.blank||d.images?.pois||d.images?.poisBig||d.images?.map;
+  $('#mapImage').src=url||'';
+  $('#mapMeta').textContent=d.date?`Updated ${new Date(d.date).toLocaleDateString()}`:'current map snapshot';
+}
+
+/* ---------- player ---------- */
+async function playerJson(url,{allowProxy=true}={}){
+  try{
+    const r=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
+    const text=await r.text();
+    let data=null;try{data=JSON.parse(text)}catch{}
+    if(r.ok)return data??text;
+    const err=new Error(`HTTP ${r.status}`);err.status=r.status;throw err;
+  }catch(directError){
+    if(!allowProxy||directError?.status===400||directError?.status===404)throw directError;
+    const r=await fetch(`${PLAYER_PROXY}${url}`,{headers:{'Accept':'application/json'},cache:'no-store'});
+    const text=await r.text();
+    if(!r.ok)throw Error(`Proxy HTTP ${r.status}`);
+    let data=null;try{data=JSON.parse(text)}catch{}
+    if(data?.content&&typeof data.content==='string'){try{data=JSON.parse(data.content)}catch{}}
+    if(data)return data;
+    throw Error('Unreadable player response.');
+  }
+}
 function renderPlayerResult(){
   const el=$('#playerResult');if(!el)return;
   if(!playerState.account){el.innerHTML='<div class="empty">Search a player to view their public Epic account and Battle Royale stats.</div>';return}
   const a=playerState.account;const details=a.accountDetails||a.details||a;
-  const display=firstDefined(details.epic?.displayName,details.epic?.name,details.displayName,details.name,a.displayName,a.name,$('#playerLookupInput')?.value)||'Unknown player';
-  const platformNames=Object.entries(details).filter(([k,v])=>v&&typeof v==='object'&&/displayname|name|id/i.test(JSON.stringify(v))).map(([k])=>k).filter(k=>!['epic'].includes(k));
+  const display=firstDefined(details.epic?.displayName,details.epic?.name,details.displayName,details.name,a.displayName,a.name)||'Unknown player';
   const accountId=firstDefined(a.accountId,a.id,details.accountId,details.epic?.accountId,details.epic?.id)||'Unavailable';
   const st=playerState.stats;
-  let top=[];
-  const lifetime=st?.lifetime||st?.data?.lifetime||st?.stats?.all?.overall||st?.data?.stats?.all?.overall||st?.groupedStats?.all?.overall||st?.groupedStats?.all||st?.data?.groupedStats?.all?.overall||st?.data?.groupedStats?.all||st;
-  const kills=modeMetric(lifetime,['kills','eliminations']);
-  const deaths=modeMetric(lifetime,['deaths']);
-  const kd=modeMetric(lifetime,['kd','k/d','kdr','killDeathRatio']);
-  const wins=modeMetric(lifetime,['wins','victories']);
-  const matches=modeMetric(lifetime,['matches','matchesplayed','matchesPlayed','gamesPlayed']);
-  const winRate=modeMetric(lifetime,['winRate','winrate','winpercentage','winPercentage']);
-  const timePlayed=modeMetric(lifetime,['timePlayed','timeplayed','minutesPlayed','minutesplayed']);
-  const fallbackKD=(kd===undefined||kd===null||kd==='')&&(kills!=null&&deaths!=null)?(Number(deaths)?(Number(kills)/Number(deaths)).toFixed(2):'--'):kd;
-  top=[['K/D',fallbackKD,'green'],['Kills',kills,'cyan'],['Wins',wins,'yellow'],['Matches',matches,'pink']];
-  const modes=findModeStats(st);
-  el.innerHTML=`<div class="playerIdentity"><div><div class="eyebrow">Epic account resolved</div><h2>${esc(display)}</h2><div class="playerId">Epic Account ID: ${esc(accountId)}</div>${platformNames.length?`<div class="playerPlatformList">${platformNames.map(x=>`<span class="playerPlatform">${esc(x)}</span>`).join('')}</div>`:''}</div><div class="playerStatus ${st?'':'private'}">${st?'PUBLIC STATS FOUND':'ACCOUNT FOUND'}</div></div>${st?`<div class="playerStatsGrid">${top.map(([label,value,color])=>`<div class="playerStatCard"><label>${esc(label)}</label><strong style="color:var(--${color})">${esc(numText(value))}</strong></div>`).join('')}</div><div class="playerStatsGrid">${[['Win rate',winRate],['Deaths',deaths],['Time played',timePlayed],['Lifetime score',statValue(lifetime,['score','points'])]].map(([label,value])=>`<div class="playerStatCard"><label>${esc(label)}</label><strong>${esc(numText(value))}</strong></div>`).join('')}</div>${modes.length?`<div class="playerModePanel"><h3>Mode breakdown</h3><div class="playerModeGrid">${modes.map(m=>{const d=m.data;const mk=modeMetric(d,['kills','eliminations']);const mw=modeMetric(d,['wins','victories']);const mm=modeMetric(d,['matches','matchesplayed','matchesPlayed']);const mkd=modeMetric(d,['kd','k/d','kdr','killDeathRatio']);return `<div class="playerMode"><b>${esc(m.label)}</b><span>K/D: ${esc(numText(mkd))} · Kills: ${esc(numText(mk))}<br>Wins: ${esc(numText(mw))} · Matches: ${esc(numText(mm))}</span></div>`}).join('')}</div></div>`:''}`:'<div class="playerNotice">The Epic account was found, but public Battle Royale stats were not returned. The player may have career/stat visibility disabled, or the stats service may not have data for this account.</div>'}<div class="playerActions"><button class="control" type="button" onclick="copyPlayerId()">Copy Epic ID</button><button class="control" type="button" onclick="document.querySelector('#playerRaw').open=!document.querySelector('#playerRaw').open">Show raw response</button><button class="control" type="button" onclick="clearPlayerStats()">Clear</button></div><details class="playerRaw" id="playerRaw"><summary class="control" style="display:inline-block">Raw API JSON</summary><pre>${esc(JSON.stringify({account:playerState.account,stats:playerState.stats},null,2))}</pre></details>`;
+  el.innerHTML=`<div class="playerIdentity"><div><div class="eyebrow">Epic account resolved</div><h2>${esc(display)}</h2><div class="playerId">Epic Account ID: ${esc(accountId)}</div></div><div class="playerStatus ${st?'':'private'}">${st?'STATS FOUND':'ACCOUNT FOUND'}</div></div>${st?'':'<div class="playerNotice">Public stats were not returned. The player may have visibility disabled.</div>'}`;
 }
-async function lookupPlayer(displayName){
-  const input=$('#playerLookupInput');const el=$('#playerResult');const query=String(displayName||'').trim();
+async function lookupPlayer(name){
+  const el=$('#playerResult');const query=String(name||'').trim();
   if(!query)return toast('Enter a Fortnite display name first.');
-  if(query.length>32)return toast('Epic display names can be up to 32 characters.');
-  el.innerHTML='<div class="playerLoading">Resolving Epic account…</div>';playerState.account=null;playerState.stats=null;playerState.raw=null;
+  el.innerHTML='<div class="playerLoading">Resolving Epic account…</div>';
+  playerState.account=null;playerState.stats=null;
   try{
     const account=await playerJson(PLAYER_ACCOUNT_LOOKUP(query));
-    playerState.raw={account};
     const candidate=account?.accounts?.[0]||account?.data?.accounts?.[0]||account?.data?.account||account?.account||account;
-    if(!candidate)throw Error('No matching Epic account was returned.');
+    if(!candidate)throw Error('No matching Epic account returned.');
     playerState.account=candidate;renderPlayerResult();
-    const accountId=firstDefined(candidate.accountId,candidate.id,candidate.accountDetails?.accountId,candidate.accountDetails?.epic?.accountId,candidate.accountDetails?.epic?.id);
-    if(!accountId)return;
-    try{
-      el.querySelector('.playerStatus')?.replaceChildren(document.createTextNode('LOADING STATS…'));
-      try{
-        playerState.stats=await playerJson(PLAYER_STATS_LOOKUP(accountId));
-        playerState.raw.stats=playerState.stats;
-        renderPlayerResult();
-      }catch(statsErr){console.warn('Player stats request:',statsErr);renderPlayerResult()}
-    }catch(statsErr){console.warn('Player stats request:',statsErr);renderPlayerResult()}
+    const id=firstDefined(candidate.accountId,candidate.id,candidate.accountDetails?.accountId,candidate.accountDetails?.epic?.accountId);
+    if(!id)return;
+    try{playerState.stats=await playerJson(PLAYER_STATS_LOOKUP(id));renderPlayerResult()}catch{renderPlayerResult()}
   }catch(e){
-    const message=e?.status===404?'Player not found.':(e?.message||'Player lookup failed.');
-    el.innerHTML=`<div class="playerNotice"><b>${esc(message)}</b><br><small>The public player service could not complete this lookup. Try the name again in a moment.</small></div>`;
+    el.innerHTML=`<div class="playerNotice"><b>${esc(e?.status===404?'Player not found.':(e?.message||'Lookup failed.'))}</b></div>`;
   }
 }
-function copyPlayerId(){const a=playerState.account||{};const id=firstDefined(a.accountId,a.id,a.accountDetails?.accountId,a.accountDetails?.epic?.accountId,a.accountDetails?.epic?.id);if(!id)return toast('No Epic ID available.');navigator.clipboard?.writeText(String(id)).then(()=>toast('Epic ID copied')).catch(()=>toast(String(id)))}
-function clearPlayerStats(){playerState.account=null;playerState.stats=null;playerState.raw=null;renderPlayerResult();$('#playerLookupInput').focus()}
-$('#playerLookupForm')?.addEventListener('submit',e=>{e.preventDefault();lookupPlayer($('#playerLookupInput').value)});
 
-function resetItemCache(){ITEM_CACHE.length=0;Object.keys(SHOP_CONTEXT).forEach(key=>delete SHOP_CONTEXT[key])}
-function renderView(){resetItemCache();const v=state.view;$$('.view').forEach(x=>x.classList.toggle('active',x.id===v));$$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));if(v==='shop')renderShop();if(v==='news')renderNews();if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');if(v==='playerstats')renderPlayerResult();if(v==='map')renderMap();if(v==='outfits')renderOutfits();if(v==='dreamlocker')renderDreamLocker();if(v==='cosmetics')renderCosmetics();if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');if(v==='weapons')renderWeapons();if(v==='modes')renderModes();if(v==='locker')renderLocker();window.scrollTo({top:0,behavior:'smooth'});$('#sidebar').classList.remove('open')}
-function setView(v){state.view=v;renderView();const refreshKey={outfits:'br',cosmetics:'br',lego:'lego',festival:'tracks',vehicles:'cars',fallguys:'beans',banners:'banners',weapons:'weapons',modes:'playlists'}[v];if(refreshKey)load(refreshKey,true).then(()=>{if(state.view===v)renderView()})}
-$$('[data-view]').forEach(x=>x.addEventListener('click',()=>{if(x.dataset.cosmeticType)state.cosmeticType=x.dataset.cosmeticType;setView(x.dataset.view)}));
-$('#menu').addEventListener('click',()=>$('#sidebar').classList.toggle('open'));$('#search').addEventListener('input',e=>{state.query=e.target.value.trim();if(state.view!=='home')renderView();else{renderNews();renderStats()}});
-$$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-shop-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.shopFilter=x.dataset.shopFilter;renderShop()}));
-$$('[data-collection]').forEach(x=>x.addEventListener('click',()=>{const parent=x.closest('.view').id;$$(`[data-collection]`).filter(b=>b.closest('.view')===x.closest('.view')).forEach(b=>b.classList.remove('active'));x.classList.add('active');state.collection[parent]=x.dataset.collection;renderView()}));
-$$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{$$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));x.classList.add('active');state.modeFilter=x.dataset.modeFilter;renderModes()}));$('#weaponRarity').addEventListener('change',e=>{state.weaponRarity=e.target.value;renderWeapons()});$('#damageSort').addEventListener('click',()=>{state.damageSort=!state.damageSort;$('#damageSort').classList.toggle('active',state.damageSort);renderWeapons()});
-$('#dreamRandomize')?.addEventListener('click',randomizeDream);$('#dreamClear')?.addEventListener('click',clearDream);
-$('#outfitRefreshBtn')?.addEventListener('click',()=>refreshCosmetics(false));
-let map={scale:1,x:0,y:0,drag:false,sx:0,sy:0};const canvas=$('#mapCanvas');function mapTransform(){ $('#mapImage').style.transform=`translate(calc(-50% + ${map.x}px),calc(-50% + ${map.y}px)) scale(${map.scale})` }canvas.addEventListener('wheel',e=>{e.preventDefault();map.scale=Math.max(.55,Math.min(2.4,map.scale+(e.deltaY<0?.1:-.1)));mapTransform()},{passive:false});canvas.addEventListener('pointerdown',e=>{map.drag=true;map.sx=e.clientX-map.x;map.sy=e.clientY-map.y;canvas.setPointerCapture(e.pointerId)});canvas.addEventListener('pointermove',e=>{if(map.drag){map.x=e.clientX-map.sx;map.y=e.clientY-map.sy;mapTransform()}});canvas.addEventListener('pointerup',()=>map.drag=false);
+/* ---------- item detail / viewer ---------- */
+function openItem(index){
+  const item=ITEM_CACHE[index];if(!item)return;
+  activeItemIndex=index;
+  $('#detailType').textContent=String(detailType(item)).toUpperCase();
+  $('#detailName').textContent=name(item);
+  $('#detailDescription').textContent=detailDescription(item);
+  $('#detailId').textContent=item.id||'—';
+  $('#detailRarity').textContent=detailRarity(item)||'—';
+  $('#detailSet').textContent=detailSet(item)||'—';
+  $('#detailAdded').textContent=formatDate(detailRelease(item));
+  $('#detailSeason').textContent=detailIntroduction(item)||'—';
+  $('#detailSeries').textContent=detailSeries(item)||'—';
+  $('#detailIntroduction').textContent=detailIntroduction(item)||'—';
+  $('#detailMeta').textContent=[
+    metaPath(item,['rarity.backendValue'])&&`Rarity: ${metaPath(item,['rarity.backendValue'])}`,
+    metaPath(item,['set.backendValue'])&&`Set: ${metaPath(item,['set.backendValue'])}`,
+    item.gameplayTags?.length&&`${item.gameplayTags.length} tags`,
+    item.variants?.length&&`${item.variants.length} variants`
+  ].filter(Boolean).join(' · ')||'No additional metadata.';
+  const media=image(item);
+  $('#detailMedia').innerHTML=media?`<img src="${esc(media)}" alt="${esc(name(item))}">`:'<span class="placeholder">NO PREVIEW</span>';
+  $('#detailJson').textContent=JSON.stringify(item,null,2);
+  $('#detailJson').style.display='none';
+  $('#detailRaw').textContent='Show raw JSON';
+  $('#detailRaw').onclick=()=>{const raw=$('#detailJson');const open=raw.style.display==='block';raw.style.display=open?'none':'block';$('#detailRaw').textContent=open?'Show raw JSON':'Hide raw JSON'};
+  $('#detailFullscreen').onclick=()=>openFullscreen(index);
+  $('#detailLocker').onclick=()=>toggleLocker(index);
+  $('#detailBackdrop').classList.add('open');
+  $('#detailBackdrop').setAttribute('aria-hidden','false');
+  updateLockerButton();
+}
+function openFullscreen(index){
+  const item=ITEM_CACHE[index];if(!item)return;
+  const media=image(item);
+  if(!media)return toast('No preview image for this item.');
+  activeItemIndex=index;
+  $('#viewerTitle').textContent=name(item);
+  $('#viewerImage').src=media;
+  $('#viewerImage').alt=name(item);
+  $('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));
+  $('#fullscreenViewer').classList.add('open');
+  $('#detailBackdrop').classList.remove('open');
+}
+function viewerNav(dir){
+  const next=activeItemIndex+dir;
+  if(next<0||next>=ITEM_CACHE.length)return;
+  const item=ITEM_CACHE[next];if(!item||!image(item))return;
+  activeItemIndex=next;
+  $('#viewerTitle').textContent=name(item);
+  $('#viewerImage').src=image(item);
+  $('#viewerImage').alt=name(item);
+  $('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));
+}
+function closeOverlay(){
+  $('#detailBackdrop').classList.remove('open');
+  $('#fullscreenViewer').classList.remove('open');
+  const img=$('#viewerImage');if(img)img.removeAttribute('src');
+  $('#detailBackdrop').setAttribute('aria-hidden','true');
+}
+function updateLockerButton(){
+  const button=$('#detailLocker');if(!button)return;
+  const saved=activeItemIndex>=0&&lockerItems.some(x=>x.id===ITEM_CACHE[activeItemIndex]?.id);
+  button.textContent=saved?'Remove from locker':'Add to locker';
+  button.classList.toggle('lockerAdded',saved);
+}
+function toggleLocker(index){
+  if(!currentUser)return openAuth();
+  const item=ITEM_CACHE[index];if(!item?.id)return;
+  const i=lockerItems.findIndex(x=>x.id===item.id);
+  if(i>=0)lockerItems.splice(i,1);else lockerItems.push(item);
+  safeStorage.setItem('dropzone_locker',JSON.stringify(lockerItems));
+  updateAccountUI();renderLocker();
+  toast(i>=0?'Removed from locker':'Added to locker');
+}
+function openAuth(){const m=$('#authModal');if(m){m.classList.add('open');const i=m.querySelector('input');i&&i.focus()}}
+function closeAuth(){const m=$('#authModal');if(m)m.classList.remove('open')}
+function openShowcase(){toast('No showcase video available for this item.')}
 
-async function boot(){
-  const keys=Object.keys(DATASETS);
-  await Promise.all(keys.map(load));
-  const build=DATA.build||{};const b=build.build||'unknown build';
-  $('#buildHero').textContent=b.replace(/^\+\+Fortnite\+Release-/,'RELEASE ');
-  $('#buildSide').textContent=b;
-  const srcMode=preferences?.dataSource||'auto';
-  $('#updated').textContent=srcMode==='api'?'Fortnite API (live)':srcMode==='repo'?'Repository snapshot':'Auto · repo → Fortnite API';
-  const loaded=keys.filter(k=>DATA[k]).length;
-  $('#health').textContent=`${loaded}/${keys.length} sources`;
-  $('#healthBar').style.width=`${loaded/keys.length*100}%`;
-  $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
-  if(DATA.shop)shopLastSynced=Date.now();
-  updateShopSyncLabel();updateBrSyncLabel();updateShopCountdown();renderStats();renderNews();renderView();
-  startAutoRefresh();initLiveCounter();
+/* ---------- locker / account ---------- */
+function renderLocker(){
+  const page=$('#locker');if(!page)return;
+  const grid=page.querySelector('.catalogGrid');
+  const counter=page.querySelector('.lockerCount');
+  if(counter)counter.textContent=`${lockerItems.length} saved cosmetics`;
+  if(grid)grid.innerHTML=lockerItems.map(item=>interactiveCard(item,'Locker')).join('')||'<div class="empty">Your locker is empty.</div>';
+}
+function updateAccountUI(){
+  const signedIn=Boolean(currentUser);
+  const b=$('#accountButton');if(b)b.textContent=signedIn?currentUser:'Sign in';
+  const n=$('#lockerNavCount');if(n)n.textContent=signedIn?String(lockerItems.length):'LOCKED';
+  const u=$('#settingsUser');if(u)u.textContent=signedIn?`Signed in as ${currentUser}`:'Not signed in';
+  const a=$('#settingsAuth');if(a)a.textContent=signedIn?'Sign out':'Sign in';
+  const g=$('#lockerGreeting');if(g)g.textContent=signedIn?`${currentUser}'s locker`:'Sign in to build your locker';
+  updateLockerButton();
+}
+function signOut(){currentUser='';safeStorage.removeItem('dropzone_user');setView('home');updateAccountUI();toast('Signed out')}
+
+/* ---------- view switching ---------- */
+function resetItemCache(){ITEM_CACHE.length=0;Object.keys(SHOP_CONTEXT).forEach(k=>delete SHOP_CONTEXT[k])}
+function renderView(){
+  resetItemCache();
+  const v=state.view;
+  $$('.view').forEach(x=>x.classList.toggle('active',x.id===v));
+  $$('.navItem').forEach(x=>x.classList.toggle('active',x.dataset.view===v));
+  if(v==='shop')renderShop();
+  else if(v==='news')renderNews();
+  else if(v==='fallguys')renderCatalog('beans','#fallguysGrid','Bean');
+  else if(v==='playerstats')renderPlayerResult();
+  else if(v==='map')renderMap();
+  else if(v==='outfits')renderOutfits();
+  else if(v==='dreamlocker')renderDreamLocker();
+  else if(v==='cosmetics')renderCosmetics();
+  else if(v==='lego')renderCatalog(state.collection.lego,'#legoGrid','LEGO');
+  else if(v==='festival')renderCatalog(state.collection.festival,'#festivalGrid','Festival');
+  else if(v==='vehicles')renderCatalog(state.collection.vehicles,'#vehiclesGrid','Collection');
+  else if(v==='banners')renderCatalog('banners','#bannersGrid','Banner');
+  else if(v==='weapons')renderWeapons();
+  else if(v==='modes')renderModes();
+  else if(v==='locker')renderLocker();
+  window.scrollTo({top:0,behavior:'smooth'});
+  $('#sidebar').classList.remove('open');
+}
+function setView(v){
+  state.view=v;renderView();
+  const refreshKey={outfits:'br',cosmetics:'br',lego:'lego',festival:'tracks',vehicles:'cars',fallguys:'beans',banners:'banners',weapons:'weapons',modes:'playlists'}[v];
+  if(refreshKey)load(refreshKey,true).then(()=>{if(state.view===v)renderView()}).catch(()=>{});
 }
 
-let shopCountdownTimer=null;let shopRefreshTimer=null;let cosmeticsRefreshTimer=null;
+/* ---------- expose public dispatcher ---------- */
+Object.assign(window.DZ,{
+  setView,
+  openItem,
+  openLoadingScreen:openFullscreen,
+  openFullscreen,
+  viewerNav,
+  closeOverlay,
+  equipDream:(index,type)=>{const item=ITEM_CACHE[index];if(!item)return;const cur=state.dreamLoadout[type];state.dreamLoadout[type]=(cur&&cur.id===item.id)?null:item;renderDreamStage();renderDreamGrid()},
+  lookupPlayer,
+});
+
+/* ---------- boot ---------- */
+let shopCountdownTimer=null,shopRefreshTimer=null,cosmeticsRefreshTimer=null,syncLabelTimer=null;
 function startAutoRefresh(){
-  if(shopCountdownTimer)clearInterval(shopCountdownTimer);
-  if(shopRefreshTimer)clearInterval(shopRefreshTimer);
-  if(cosmeticsRefreshTimer)clearInterval(cosmeticsRefreshTimer);
+  clearInterval(shopCountdownTimer);
+  clearInterval(shopRefreshTimer);
+  clearInterval(cosmeticsRefreshTimer);
+  clearInterval(syncLabelTimer);
   $('#shopRefreshBtn')?.addEventListener('click',()=>refreshShop(false));
   shopRefreshTimer=setInterval(()=>refreshShop(true),SHOP_REFRESH_MS);
   shopCountdownTimer=setInterval(updateShopCountdown,1000);
   cosmeticsRefreshTimer=setInterval(()=>refreshCosmetics(true),COSMETICS_REFRESH_MS);
-  setInterval(()=>{updateShopSyncLabel();updateBrSyncLabel()},1000);
+  syncLabelTimer=setInterval(()=>{updateShopSyncLabel();updateBrSyncLabel()},1000);
   updateShopCountdown();
   document.addEventListener('visibilitychange',()=>{
     if(document.visibilityState==='visible'){
@@ -624,236 +816,153 @@ function startAutoRefresh(){
     }
   });
 }
+function wireGlobalUI(){
+  /* nav */
+  $$('[data-view]').forEach(x=>x.addEventListener('click',()=>{
+    if(x.dataset.cosmeticType)state.cosmeticType=x.dataset.cosmeticType;
+    setView(x.dataset.view);
+  }));
+  $('#menu')?.addEventListener('click',()=>$('#sidebar').classList.toggle('open'));
+  $('#search')?.addEventListener('input',e=>{
+    state.query=e.target.value.trim();
+    if(state.view!=='home')renderView();
+    else{renderNews();renderStats()}
+  });
+  $$('[data-shop-filter]').forEach(x=>x.addEventListener('click',()=>{
+    $$('[data-shop-filter]').forEach(b=>b.classList.remove('active'));
+    x.classList.add('active');
+    state.shopFilter=x.dataset.shopFilter;renderShop();
+  }));
+  $$('[data-collection]').forEach(x=>x.addEventListener('click',()=>{
+    const parent=x.closest('.view').id;
+    $$('[data-collection]').filter(b=>b.closest('.view')===x.closest('.view')).forEach(b=>b.classList.remove('active'));
+    x.classList.add('active');
+    state.collection[parent]=x.dataset.collection;renderView();
+  }));
+  $$('[data-mode-filter]').forEach(x=>x.addEventListener('click',()=>{
+    $$('[data-mode-filter]').forEach(b=>b.classList.remove('active'));
+    x.classList.add('active');
+    state.modeFilter=x.dataset.modeFilter;renderModes();
+  }));
+  $('#weaponRarity')?.addEventListener('change',e=>{state.weaponRarity=e.target.value;renderWeapons()});
+  $('#damageSort')?.addEventListener('click',()=>{state.damageSort=!state.damageSort;$('#damageSort').classList.toggle('active',state.damageSort);renderWeapons()});
+  $('#dreamRandomize')?.addEventListener('click',()=>{
+    DREAM_SLOTS.forEach(type=>{
+      const pool=arr('br').filter(x=>(x.type?.displayValue||x.type?.value)===type);
+      if(pool.length)state.dreamLoadout[type]=pool[Math.floor(Math.random()*pool.length)];
+    });
+    renderDreamStage();renderDreamGrid();toast('Randomized your dream loadout');
+  });
+  $('#dreamClear')?.addEventListener('click',()=>{
+    DREAM_SLOTS.forEach(t=>state.dreamLoadout[t]=null);
+    renderDreamStage();renderDreamGrid();toast('Loadout cleared');
+  });
+  document.addEventListener('click',e=>{
+    const btn=e.target.closest('[data-dream-cat]');if(!btn)return;
+    state.dreamCategory=btn.dataset.dreamCat;
+    renderDreamTools();renderDreamStage();renderDreamGrid();
+  });
+  $('#outfitRefreshBtn')?.addEventListener('click',()=>refreshCosmetics(false));
+  $('#detailBackdrop')?.addEventListener('click',e=>{if(e.target.id==='detailBackdrop')closeOverlay()});
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape')closeOverlay();
+    if($('#fullscreenViewer')?.classList.contains('open')){
+      if(e.key==='ArrowLeft')viewerNav(-1);
+      if(e.key==='ArrowRight')viewerNav(1);
+    }
+  });
+  /* map pan/zoom */
+  const canvas=$('#mapCanvas');
+  if(canvas){
+    let map={scale:1,x:0,y:0,drag:false,sx:0,sy:0};
+    const t=()=>{ $('#mapImage').style.transform=`translate(calc(-50% + ${map.x}px),calc(-50% + ${map.y}px)) scale(${map.scale})` };
+    canvas.addEventListener('wheel',e=>{e.preventDefault();map.scale=Math.max(.55,Math.min(2.4,map.scale+(e.deltaY<0?.1:-.1)));t()},{passive:false});
+    canvas.addEventListener('pointerdown',e=>{map.drag=true;map.sx=e.clientX-map.x;map.sy=e.clientY-map.y;canvas.setPointerCapture(e.pointerId)});
+    canvas.addEventListener('pointermove',e=>{if(map.drag){map.x=e.clientX-map.sx;map.y=e.clientY-map.sy;t()}});
+    canvas.addEventListener('pointerup',()=>map.drag=false);
+  }
+}
+function setupAccountPanel(){
+  const topbar=$('.topbar');
+  if(topbar&&!$('#accountButton'))topbar.insertAdjacentHTML('beforeend','<button class="accountButton" id="accountButton">Sign in</button>');
+  const nav=$('nav');
+  if(nav&&!$('[data-account-view]'))nav.insertAdjacentHTML('beforeend','<div class="navGroup"><div class="navLabel">Your space</div><button class="navItem" data-account-view="locker"><span class="navIcon">▣</span>Locker <span class="navCount" id="lockerNavCount">LOCKED</span></button><button class="navItem" data-account-view="settings"><span class="navIcon">⚙</span>Settings</button></div>');
+  const content=$('.content');
+  if(content&&!$('#locker'))content.insertAdjacentHTML('beforeend','<section id="locker" class="view"><div class="eyebrow">Private local collection</div><div class="sectionHead"><h2>Locker</h2><span class="lockerCount">0 saved cosmetics</span></div><div class="lockerHero"><h3 id="lockerGreeting">Sign in to build your locker</h3><p style="color:var(--muted);font-size:12px;line-height:1.5">Save cosmetics you are tracking to this browser.</p></div><div class="catalogGrid" style="margin-top:16px"></div></section>');
+  if(content&&!$('#settings'))content.insertAdjacentHTML('beforeend','<section id="settings" class="view"><div class="eyebrow">Account & preferences</div><div class="sectionHead"><h2>Settings</h2><span>stored on this browser</span></div><div class="settingsList"><div class="settingsRow"><div><b>Account</b><small id="settingsUser">Not signed in</small></div><button class="detailButton" id="settingsAuth">Sign in</button></div><div class="settingsRow"><div><b>Saved locker</b><small>Private to this browser</small></div><button class="detailButton" id="clearLocker">Clear locker</button></div><div class="settingsRow"><div><b>Data source</b><small>Where Dropzone pulls live data from</small></div><select class="control" id="dataSourceSelect"><option value="auto">Auto · repo → API</option><option value="repo">Repository only</option><option value="api">Fortnite API (live) only</option></select></div></div></section>');
+  if(!$('#authModal'))document.body.insertAdjacentHTML('beforeend','<div class="authBackdrop" id="authModal"><form class="authPanel" id="authForm"><button type="button" class="closeOverlay" onclick="DZ.closeAuth&&DZ.closeAuth()" aria-label="Close">×</button><div class="eyebrow">Dropzone account</div><h2>Sign in</h2><p>This local profile keeps your locker on this browser.</p><input required maxlength="40" placeholder="Display name" autocomplete="nickname"><div class="detailActions"><button type="button" class="detailButton" onclick="document.getElementById(\'authModal\').classList.remove(\'open\')">Cancel</button><button class="detailButton primary" type="submit">Continue</button></div></form></div>');
+  /* style injection */
+  if(!$('#accountStyles')){
+    const s=document.createElement('style');s.id='accountStyles';
+    s.textContent='.accountButton{height:38px;padding:0 12px;border:1px solid #36516a;border-radius:7px;background:#14283b;color:#fff;font-size:12px;font-weight:700}.accountButton:hover{border-color:var(--cyan)}.authBackdrop{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(12px)}.authBackdrop.open{display:grid}.authPanel{position:relative;width:min(410px,100%);padding:25px;border:1px solid #3a536d;border-radius:12px;background:#111c2b;box-shadow:var(--shadow)}.authPanel h2{margin-bottom:8px}.authPanel p{color:var(--muted);font-size:12px;line-height:1.5}.authPanel input{width:100%;height:42px;margin:12px 0;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#fff}.lockerHero{padding:20px;border:1px solid var(--line);border-radius:9px;background:#111c2b}.settingsList{display:grid;gap:10px;max-width:600px}.settingsRow{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px;border:1px solid var(--line);border-radius:8px;background:#111c2b;color:#c8d5e4;font-size:13px}.settingsRow small{display:block;color:var(--muted);margin-top:4px;font-size:11px}.detailButton.lockerAdded{background:#294c3d;border-color:#4b8e68;color:#a7f0c0}';
+    document.head.appendChild(s);
+  }
+  $('#accountButton')?.addEventListener('click',()=>currentUser?setView('settings'):openAuth());
+  $('#authForm')?.addEventListener('submit',e=>{
+    e.preventDefault();
+    const inp=e.target.querySelector('input');
+    const u=(inp?inp.value.trim():'');
+    if(!u){inp&&inp.focus();return}
+    currentUser=u;safeStorage.setItem('dropzone_user',u);
+    closeAuth();updateAccountUI();setView('locker');
+  });
+  $$('[data-account-view]').forEach(b=>b.addEventListener('click',()=>{
+    if(b.dataset.accountView==='locker'&&!currentUser)return openAuth();
+    setView(b.dataset.accountView);
+  }));
+  $('#settingsAuth')?.addEventListener('click',()=>currentUser?signOut():openAuth());
+  $('#clearLocker')?.addEventListener('click',()=>{
+    lockerItems=[];safeStorage.setItem('dropzone_locker','[]');
+    renderLocker();updateAccountUI();toast('Locker cleared');
+  });
+  const ds=$('#dataSourceSelect');
+  if(ds){
+    ds.value=preferences.dataSource||'auto';
+    ds.addEventListener('change',async()=>{
+      preferences.dataSource=ds.value;
+      safeStorage.setItem('dropzone_preferences',JSON.stringify(preferences));
+      toast(`Switching to ${ds.options[ds.selectedIndex].text}…`);
+      Object.keys(DATA).forEach(k=>{if(!k.startsWith('_'))delete DATA[k]});
+      const keys=Object.keys(DATASETS);
+      await Promise.all(keys.map(k=>load(k)));
+      const loaded=keys.filter(k=>DATA[k]).length;
+      $('#health').textContent=`${loaded}/${keys.length} sources`;
+      $('#healthBar').style.width=`${loaded/keys.length*100}%`;
+      $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
+      updateShopSyncLabel();updateBrSyncLabel();updateShopCountdown();
+      renderStats();renderNews();renderView();
+    });
+  }
+  updateAccountUI();renderLocker();
+}
+async function boot(){
+  try{
+    const keys=Object.keys(DATASETS);
+    await Promise.all(keys.map(k=>load(k).catch(()=>null)));
+    const build=DATA.build||{};
+    const b=build.build||'unknown build';
+    $('#buildHero').textContent=b.replace(/^\+\+Fortnite\+Release-/,'RELEASE ');
+    $('#buildSide').textContent=b;
+    const srcMode=preferences.dataSource||'auto';
+    $('#updated').textContent=srcMode==='api'?'Fortnite API (live)':srcMode==='repo'?'Repository snapshot':'Auto · repo → Fortnite API';
+    const loaded=keys.filter(k=>DATA[k]).length;
+    $('#health').textContent=`${loaded}/${keys.length} sources`;
+    $('#healthBar').style.width=`${loaded/keys.length*100}%`;
+    $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
+    if(DATA.shop)shopLastSynced=Date.now();
+    updateShopSyncLabel();updateBrSyncLabel();updateShopCountdown();
+    renderStats();renderNews();renderView();
+    startAutoRefresh();
+  }catch(e){
+    showFatal('Boot failed: '+e.message);
+    console.error(e);
+  }
+}
 
-function firstDefined(...vals){
-  for(const v of vals) if(v!==undefined&&v!==null&&v!=='') return v;
-  return '';
-}
-function textValue(v){
-  if(v===undefined||v===null)return '';
-  if(typeof v==='string'||typeof v==='number')return String(v);
-  if(Array.isArray(v))return v.map(textValue).filter(Boolean).join(', ');
-  return firstDefined(v.displayValue,v.displayName,v.text,v.name,v.value,v.backendValue,v.label,'');
-}
-function metaPath(item, paths){
-  for(const path of paths){
-    let cur=item;
-    for(const key of path.split('.')){if(cur==null)break;cur=cur[key]}
-    const val=textValue(cur);
-    if(val)return val;
-  }
-  return '';
-}
-function formatDate(v){
-  if(!v)return '—';
-  const d=new Date(v);
-  return Number.isNaN(d.getTime())?String(v):d.toLocaleDateString(undefined,{year:'numeric',month:'long',day:'numeric'});
-}
-function detailDescription(item){
-  return metaPath(item,[
-    'description','description.displayValue','description.text','description.value',
-    'shortDescription','shortDescription.displayValue','shortDescription.text',
-    'longDescription','longDescription.displayValue','longDescription.text'
-  ])||'No description available for this item.';
-}
-function detailRarity(item){
-  return metaPath(item,['rarity.displayValue','rarity.name','rarity.value','rarity.backendValue','rarity']);
-}
-function detailSet(item){
-  return metaPath(item,['set.text','set.displayValue','set.name','set.value','set.backendValue','set']);
-}
-function detailSeries(item){
-  return metaPath(item,['series.displayValue','series.name','series.value','series.backendValue','series']);
-}
-function detailIntroduction(item){
-  const intro=metaPath(item,['introduction.text','introduction.displayValue','introduction.name','introduction.value','introduction']);
-  const chapter=metaPath(item,['introduction.chapter','chapter']);
-  const season=metaPath(item,['introduction.season','season']);
-  if(chapter||season)return `Chapter ${chapter||'—'} · Season ${season||'—'}`;
-  return intro;
-}
-function detailRelease(item){
-  return firstDefined(
-    item.added,item.releaseDate,item.release_date,item.release,
-    item.firstSeen,item.firstSeenDate,item.introduction?.date
-  );
-}
-function detailType(item,fallback='Cosmetic'){
-  return metaPath(item,['type.displayValue','type.name','type.value','type.backendValue','type'])||fallback;
-}
-function releaseTime(item){
-  const d=detailRelease(item);
-  if(!d)return 0;
-  const t=Date.parse(d);
-  return Number.isFinite(t)?t:0;
-}
-function sortNewestFirst(list){
-  return [...list].sort((a,b)=>releaseTime(b)-releaseTime(a));
-}
-const NEW_WINDOW_MS=3*24*60*60*1000;
-function withNewFlags(list){
-  const sorted=sortNewestFirst(list);
-  const newestTime=sorted.length?releaseTime(sorted[0]):0;
-  return sorted.map(item=>({item,isNew:newestTime>0&&releaseTime(item)>0&&(newestTime-releaseTime(item))<=NEW_WINDOW_MS}));
-}
-function renderViewerInfo(item){
-  const box=$('#viewerInfo'); if(!box)return;
-  box.innerHTML=`<div class="viewerInfoTitle">${esc(name(item))}</div>
-  <div class="viewerInfoDesc">${esc(detailDescription(item))}</div>
-  <div class="viewerInfoMeta">
-    <span><b>ID</b>${esc(item.id||'—')}</span>
-    <span><b>Rarity</b>${esc(detailRarity(item)||'—')}</span>
-    <span><b>Set</b>${esc(detailSet(item)||'—')}</span>
-    <span><b>Release</b>${esc(formatDate(detailRelease(item)))}</span>
-    <span><b>Season</b>${esc(detailIntroduction(item)||'—')}</span>
-    <span><b>Series</b>${esc(detailSeries(item)||'—')}</span>
-  </div>
-  <button class="detailButton" onclick="closeOverlay();openItem(activeItemIndex)">Open full details</button>`;
-}
-function openItem(index){
-  const item=ITEM_CACHE[index]; if(!item)return;
-  activeItemIndex=index;
-  const type=detailType(item);
-  $('#detailType').textContent=String(type).toUpperCase();
-  $('#detailName').textContent=name(item);
-  $('#detailDescription').textContent=detailDescription(item);
-  $('#detailId').textContent=item.id||metaPath(item,['cosmeticId','backendId'])||'—';
-  $('#detailRarity').textContent=detailRarity(item)||'—';
-  $('#detailSet').textContent=detailSet(item)||'—';
-  $('#detailAdded').textContent=formatDate(detailRelease(item));
-  $('#detailSeason').textContent=detailIntroduction(item)||'—';
-  $('#detailSeries').textContent=detailSeries(item)||'—';
-  $('#detailIntroduction').textContent=detailIntroduction(item)||'—';
-  const metadata=[
-    metaPath(item,['rarity.backendValue'])?`Rarity code: ${metaPath(item,['rarity.backendValue'])}`:'',
-    metaPath(item,['set.backendValue'])?`Set code: ${metaPath(item,['set.backendValue'])}`:'',
-    metaPath(item,['series.backendValue'])?`Series code: ${metaPath(item,['series.backendValue'])}`:'',
-    item.gameplayTags?.length?`${item.gameplayTags.length} gameplay tags`:'',
-    item.variants?.length?`${item.variants.length} variant groups`:''
-  ].filter(Boolean);
-  $('#detailMeta').textContent=metadata.join(' · ')||'No additional metadata.';
-  const media=image(item);
-  $('#detailMedia').innerHTML=media?`<img src="${esc(media)}" alt="${esc(name(item))}">`:'<span class="placeholder">NO PREVIEW</span>';
-  $('#detailJson').textContent=JSON.stringify(item,null,2);
-  $('#detailJson').style.display='none';
-  $('#detailRaw').textContent='Show raw JSON';
-  $('#detailRaw').onclick=()=>{
-    const raw=$('#detailJson'),open=raw.style.display==='block';
-    raw.style.display=open?'none':'block';
-    $('#detailRaw').textContent=open?'Show raw JSON':'Hide raw JSON';
-  };
-  $('#detailFullscreen').onclick=()=>openFullscreen(index);
-  $('#detailBackdrop').classList.add('open');
-  $('#detailBackdrop').setAttribute('aria-hidden','false');
-  renderStyles(item);
-  updateLockerButton();
-}
-function openFullscreen(index){
-  const item=ITEM_CACHE[index]; if(!item)return;
-  activeItemIndex=index;
-  const media=image(item);
-  if(!media)return toast('This item has no preview image in the snapshot.');
-  $('#viewerTitle').textContent=name(item);
-  $('#viewerImage').src=media;
-  $('#viewerImage').alt=name(item);
-  $('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));
-  $('#fullscreenViewer').classList.add('open');
-  $('#detailBackdrop').classList.remove('open');
-  renderViewerInfo(item);
-}
-function viewerNav(dir){
-  const next=activeItemIndex+dir;
-  if(next<0||next>=ITEM_CACHE.length)return;
-  const item=ITEM_CACHE[next];
-  if(!item||!image(item))return;
-  activeItemIndex=next;
-  $('#viewerTitle').textContent=name(item);
-  $('#viewerImage').src=image(item);
-  $('#viewerImage').alt=name(item);
-  $('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));
-  renderViewerInfo(item);
-}
-function openLoadingScreen(index){openFullscreen(index)}
-function closeOverlay(){
-  $('#detailBackdrop').classList.remove('open');
-  $('#fullscreenViewer').classList.remove('open');
-  const img=$('#viewerImage');if(img)img.removeAttribute('src');
-  $('#detailBackdrop').setAttribute('aria-hidden','true');
-}
-document.addEventListener('keydown',e=>{
-  if(e.key==='Escape')closeOverlay();
-  if($('#fullscreenViewer')?.classList.contains('open')){
-    if(e.key==='ArrowLeft')viewerNav(-1);
-    if(e.key==='ArrowRight')viewerNav(1);
-  }
-});
-$('#detailBackdrop').addEventListener('click',e=>{if(e.target.id==='detailBackdrop')closeOverlay()});
-let activeItemIndex=-1;
-const safeStorage = {
-  getItem(key) {
-    try { return typeof localStorage !== 'undefined' ? localStorage.getItem(key) : null; }
-    catch { return null; }
-  },
-  setItem(key, value) {
-    try { if (typeof localStorage !== 'undefined') localStorage.setItem(key, value); }
-    catch {}
-  },
-  removeItem(key) {
-    try { if (typeof localStorage !== 'undefined') localStorage.removeItem(key); }
-    catch {}
-  },
-};
-let currentUser = safeStorage.getItem('dropzone_user') || '';
-let lockerItems = [];
-try {
-  const raw = safeStorage.getItem('dropzone_locker');
-  const parsed = raw ? JSON.parse(raw) : [];
-  lockerItems = Array.isArray(parsed) ? parsed : [];
-} catch {
-  lockerItems = [];
-  safeStorage.setItem('dropzone_locker', JSON.stringify([]));
-}
-function renderLocker(){const page=$('#locker');if(!page)return;const grid=page.querySelector('.catalogGrid');const counter=page.querySelector('.lockerCount');if(counter)counter.textContent=`${lockerItems.length} saved cosmetics`;if(grid)grid.innerHTML=lockerItems.map(item=>interactiveCard(item,'Locker')).join('')||'<div class="empty">Your locker is empty. Open a cosmetic and choose Add to locker.</div>'}
-function toggleLocker(index){if(!currentUser)return openAuth();const item=ITEM_CACHE[index];if(!item?.id)return;const existing=lockerItems.findIndex(x=>x.id===item.id);if(existing>=0)lockerItems.splice(existing,1);else lockerItems.push(item);safeStorage.setItem('dropzone_locker',JSON.stringify(lockerItems));updateAccountUI();renderLocker();toast(existing>=0?'Removed from locker':'Added to locker')}
-function openAuth(){const modal=$('#authModal');if(!modal)return;modal.classList.add('open');const input=modal.querySelector('input');if(input)input.focus()}
-function closeAuth(){const modal=$('#authModal');if(modal)modal.classList.remove('open')}
-function setupAccount(){const style=document.createElement('style');style.textContent=('.accountButton{height:38px;padding:0 12px;border:1px solid #36516a;border-radius:7px;background:#14283b;color:#fff;font-size:12px;font-weight:700}.accountButton:hover{border-color:var(--cyan)}.authBackdrop{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:18px;background:#050a12dd;backdrop-filter:blur(12px)}.authBackdrop.open{display:grid}.authPanel{width:min(410px,100%);padding:25px;border:1px solid #3a536d;border-radius:12px;background:#111c2b;box-shadow:var(--shadow)}.authPanel h2{margin-bottom:8px}.authPanel p{color:var(--muted);font-size:12px;line-height:1.5}.authPanel input{width:100%;height:42px;margin:12px 0;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:#09111b;color:#fff}.lockerHero{padding:20px;border:1px solid var(--line);border-radius:9px;background:#111c2b}.settingsList{display:grid;gap:10px;max-width:600px}.settingsRow{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:15px;border:1px solid var(--line);border-radius:8px;background:#111c2b;color:#c8d5e4;font-size:13px}.settingsRow small{display:block;color:var(--muted);margin-top:4px;font-size:11px}.settingsActions{display:flex;gap:8px;flex-wrap:wrap}.detailButton.lockerAdded{background:#294c3d;border-color:#4b8e68;color:#a7f0c0}');document.head.appendChild(style);const topbar=$('.topbar');if(topbar)topbar.insertAdjacentHTML('beforeend','<button class="accountButton" id="accountButton">Sign in</button>');const nav=$('nav');if(nav)nav.insertAdjacentHTML('beforeend','<div class="navGroup"><div class="navLabel">Your space</div><button class="navItem" data-account-view="locker"><span class="navIcon">▣</span>Locker <span class="navCount" id="lockerNavCount">LOCKED</span></button><button class="navItem" data-account-view="settings"><span class="navIcon">⚙</span>Settings</button></div>');const content=$('.content');if(content)content.insertAdjacentHTML('beforeend','<section id="locker" class="view"><div class="eyebrow">Private local collection</div><div class="sectionHead"><h2>Locker</h2><span class="lockerCount">0 saved cosmetics</span></div><div class="lockerHero"><h3 id="lockerGreeting">Sign in to build your locker</h3><p style="color:var(--muted);font-size:12px;line-height:1.5">Save cosmetics you are tracking to this browser. Your collection is only available after signing in.</p></div><div class="catalogGrid" style="margin-top:16px"></div></section><section id="settings" class="view"><div class="eyebrow">Account & preferences</div><div class="sectionHead"><h2>Settings</h2><span>stored on this browser</span></div><div class="settingsList"><div class="settingsRow"><div><b>Account</b><small id="settingsUser">Not signed in</small></div><button class="detailButton" id="settingsAuth">Sign in</button></div><div class="settingsRow"><div><b>Saved locker</b><small>Private to this browser</small></div><button class="detailButton" id="clearLocker">Clear locker</button></div></div></section>');document.body.insertAdjacentHTML('beforeend','<div class="authBackdrop" id="authModal"><form class="authPanel" id="authForm"><button type="button" class="closeOverlay" onclick="closeAuth()" aria-label="Close">×</button><div class="eyebrow">Dropzone account</div><h2>Sign in</h2><p>This local profile keeps your locker on this browser. No password or external account is collected.</p><input required maxlength="40" placeholder="Display name" autocomplete="nickname"><div class="detailActions"><button type="button" class="detailButton" onclick="closeAuth()">Cancel</button><button class="detailButton primary">Continue</button></div></form></div>');const accountButton=$('#accountButton');if(accountButton)accountButton.addEventListener('click',()=>currentUser?setView('settings'):openAuth());const authForm=$('#authForm');if(authForm)authForm.addEventListener('submit',e=>{e.preventDefault();const input=authForm.querySelector('input');const nextUser=(input?input.value.trim():'').trim();if(!nextUser){if(input)input.focus();return;}currentUser=nextUser;safeStorage.setItem('dropzone_user',currentUser);closeAuth();updateAccountUI();setView('locker')});$$('[data-account-view]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.accountView==='locker'&&!currentUser)return openAuth();setView(button.dataset.accountView)}));const settingsAuth=$('#settingsAuth');if(settingsAuth)settingsAuth.addEventListener('click',()=>currentUser?signOut():openAuth());const clearLockerBtn=$('#clearLocker');if(clearLockerBtn)clearLockerBtn.addEventListener('click',()=>{lockerItems=[];safeStorage.setItem('dropzone_locker','[]');renderLocker();updateAccountUI();toast('Locker cleared')});const originalOpenItem=openItem;openItem=index=>{activeItemIndex=index;originalOpenItem(index);updateLockerButton()};const originalOpenLoadingScreen=openLoadingScreen;openLoadingScreen=index=>{activeItemIndex=index;originalOpenLoadingScreen(index)};updateAccountUI();renderLocker();$('#detailLocker')?.addEventListener('click',()=>toggleLocker(activeItemIndex))}
-function updateLockerButton(){const button=$('#detailLocker');if(!button)return;const saved=activeItemIndex>=0&&lockerItems.some(x=>x.id===ITEM_CACHE[activeItemIndex]?.id);button.textContent=saved?'Remove from locker':'Add to locker';button.classList.toggle('lockerAdded',saved)}
-function renderStyles(item){let panel=$('#styleGallery');if(!panel){panel=document.createElement('div');panel.id='styleGallery';panel.className='styleGallery';const target=$('#detailFullscreen')?.parentElement;if(target)target.parentElement.insertBefore(panel,target)}const variants=(item?.variants||[]).flatMap(group=>(group.options||[]).map(option=>({...option,channel:group.channel||'Style'})));panel.innerHTML=variants.length?`<div class="detailLabel">Styles & variants (${variants.length})</div><div class="styleGrid">${variants.map((option,index)=>`<button class="styleOption" data-style-index="${index}" title="${esc(option.name||option.tag||'Style')}">${option.image?`<img src="${esc(option.image)}" alt="${esc(option.name||option.tag||'Style')}">`:'<span>NO PREVIEW</span>'}<b>${esc(option.name||option.tag||'Style')}</b><small>${esc(option.channel)}</small></button>`).join('')}</div>`:'<div class="detailLabel">Styles & variants</div><div class="detailValue">No alternate styles are exposed for this cosmetic.</div>';panel.querySelectorAll('.styleOption').forEach((button,index)=>button.addEventListener('click',()=>{const option=variants[index];if(option?.image){$('#viewerTitle').textContent=option.name||option.tag||'Style';$('#viewerImage').src=option.image;$('#viewerImage').alt=option.name||option.tag||'Style';$('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));$('#fullscreenViewer').classList.add('open');$('#detailBackdrop').classList.remove('open')}}))}
-document.addEventListener('click',event=>{if(event.target.closest('.item')&&activeItemIndex>=0)setTimeout(()=>renderStyles(ITEM_CACHE[activeItemIndex]),0)});
-function previewStyle(item,option){if(!option?.image)return;const label=option.name||option.tag||'Style';$('#detailMedia').innerHTML=`<img src="${esc(option.image)}" alt="${esc(label)}">`;const fullscreen=$('#detailFullscreen');if(fullscreen)fullscreen.onclick=()=>{ $('#viewerTitle').textContent=label;$('#viewerImage').src=option.image;$('#viewerImage').alt=label;$('#fullscreenViewer').classList.toggle('loadingViewer',isLoadingScreen(item));$('#fullscreenViewer').classList.add('open');$('#detailBackdrop').classList.remove('open')};toast(`Previewing ${label}`)}
-document.addEventListener('click',event=>{const button=event.target.closest?.('.styleOption');if(!button||activeItemIndex<0)return;event.preventDefault();event.stopImmediatePropagation();const variants=(ITEM_CACHE[activeItemIndex]?.variants||[]).flatMap(group=>(group.options||[]).map(option=>({...option,channel:group.channel||'Style'})));previewStyle(ITEM_CACHE[activeItemIndex],variants[Number(button.dataset.styleIndex)])},true);
-function updateAccountUI(){const signedIn=Boolean(currentUser);const accountButton=$('#accountButton');const lockerNavCount=$('#lockerNavCount');const settingsUser=$('#settingsUser');const settingsAuth=$('#settingsAuth');const lockerGreeting=$('#lockerGreeting');if(accountButton)accountButton.textContent=signedIn?currentUser:'Sign in';if(lockerNavCount)lockerNavCount.textContent=signedIn?String(lockerItems.length):'LOCKED';if(settingsUser)settingsUser.textContent=signedIn?`Signed in as ${currentUser}`:'Not signed in';if(settingsAuth)settingsAuth.textContent=signedIn?'Sign out':'Sign in';if(lockerGreeting)lockerGreeting.textContent=signedIn?`${currentUser}'s locker`:'Sign in to build your locker';updateLockerButton()}
-function signOut(){currentUser='';safeStorage.removeItem('dropzone_user');setView('home');updateAccountUI();toast('Signed out')}
-document.addEventListener('click',e=>{if(e.target.id==='authModal')closeAuth();if(e.target.closest?.('#newsBackdrop .closeOverlay'))$('#newsBackdrop')?.classList.remove('open')});
-const preferenceDefaults={theme:'ocean',density:'comfortable',cardSize:'standard',imageFit:'contain',showIds:true,showMetadata:true,compactShop:false,showSource:true,reduceMotion:false,highContrast:false,largeText:false,confirmLocker:false,rememberView:true,autoFocusSearch:false,showBuild:true,showEmpty:true,animateCards:true,loadImages:true,rememberFilters:true,showRarity:true,dataSource:'auto',customText:'#f5f7fb',customBackground:'#0b111b',font:'Space Grotesk',backgroundMedia:''};let preferences={...preferenceDefaults};try{preferences={...preferenceDefaults,...JSON.parse(safeStorage.getItem('dropzone_preferences')||'{}')}}catch{}
-function applyPreferences(){preferences.customText=validHex(preferences.customText)||preferenceDefaults.customText;preferences.customBackground=validHex(preferences.customBackground)||preferenceDefaults.customBackground;document.body.dataset.theme=preferences.theme;document.body.dataset.density=preferences.density;document.body.dataset.cardSize=preferences.cardSize;document.body.dataset.imageFit=preferences.imageFit;document.body.classList.toggle('reduceMotion',preferences.reduceMotion||!preferences.animateCards);document.body.classList.toggle('highContrast',preferences.highContrast);document.body.classList.toggle('largeText',preferences.largeText);document.documentElement.style.setProperty('--custom-text',preferences.customText);document.documentElement.style.setProperty('--custom-background',preferences.customBackground);document.documentElement.style.setProperty('--ink',preferences.customText);document.documentElement.style.setProperty('--bg',preferences.customBackground);document.documentElement.style.setProperty('--font-body',`'${preferences.font||'Space Grotesk'}',sans-serif`);if(preferences.rememberView)safeStorage.setItem('dropzone_last_view',state.view);if(preferences.autoFocusSearch)$('#search')?.focus();applyBackgroundMedia()}
-function setupPreferences(){const settings=$('#settings');if(!settings)return;settings.querySelector('.settingsList').insertAdjacentHTML('beforeend','<div class="settingsRow"><div><b>Appearance</b><small>Choose how Dropzone feels</small></div><div class="settingsActions"><select class="control" data-pref="theme"><option value="ocean">Ocean</option><option value="ember">Ember</option><option value="forest">Forest</option><option value="mono">Monochrome</option></select><select class="control" data-pref="density"><option value="comfortable">Comfortable</option><option value="compact">Compact</option><option value="spacious">Spacious</option></select><select class="control" data-pref="cardSize"><option value="standard">Standard cards</option><option value="large">Large cards</option><option value="small">Small cards</option></select></div></div><div class="settingsRow"><div><b>Media</b><small>Control how collection art is shown</small></div><div class="settingsActions"><select class="control" data-pref="imageFit"><option value="contain">Fit artwork</option><option value="cover">Fill cards</option></select><label><input type="checkbox" data-pref="loadImages"> Load images</label></div></div><div class="settingsRow"><div><b>Catalog display</b><small>Keep the details you use visible</small></div><div class="settingsActions"><label><input type="checkbox" data-pref="showIds"> IDs</label><label><input type="checkbox" data-pref="showMetadata"> Metadata</label><label><input type="checkbox" data-pref="showSource"> Source labels</label><label><input type="checkbox" data-pref="showEmpty"> Empty states</label></div></div><div class="settingsRow"><div><b>Navigation</b><small>Shape repeated browsing workflows</small></div><div class="settingsActions"><label><input type="checkbox" data-pref="compactShop"> Compact shop</label><label><input type="checkbox" data-pref="rememberView"> Remember view</label><label><input type="checkbox" data-pref="rememberFilters"> Remember filters</label><label><input type="checkbox" data-pref="autoFocusSearch"> Focus search on launch</label></div></div><div class="settingsRow"><div><b>Data source</b><small>Where Dropzone pulls live data from</small></div><div class="settingsActions"><select class="control" data-pref="dataSource"><option value="auto">Auto · repo, then Fortnite API</option><option value="repo">Repository snapshots only</option><option value="api">Fortnite API (live) only</option></select></div></div><div class="settingsRow"><div><b>Accessibility</b><small>Make the interface easier to scan</small></div><div class="settingsActions"><label><input type="checkbox" data-pref="reduceMotion"> Reduce motion</label><label><input type="checkbox" data-pref="highContrast"> High contrast</label><label><input type="checkbox" data-pref="largeText"> Large text</label><label><input type="checkbox" data-pref="animateCards"> Card animation</label></div></div><div class="settingsRow"><div><b>Locker behavior</b><small>Decide how saved cosmetics are handled</small></div><div class="settingsActions"><label><input type="checkbox" data-pref="confirmLocker"> Confirm add/remove</label><label><input type="checkbox" data-pref="showBuild"> Show build metadata</label></div></div>');const save=()=>{Object.entries(preferences).forEach(([key,value])=>{const controls=$$(`[data-pref="${key}"]`);controls.forEach(control=>{if(control.type==='checkbox')control.checked=value;else control.value=value})});try{localStorage.setItem('dropzone_preferences',JSON.stringify(preferences))}catch{}applyPreferences()};$$('[data-pref]').forEach(control=>control.addEventListener('change',()=>{preferences[control.dataset.pref]=control.type==='checkbox'?control.checked:control.value;save()}));
-$$('[data-pref="dataSource"]').forEach(control=>control.addEventListener('change',async()=>{
-  const label=control.value==='api'?'Fortnite API (live)':control.value==='repo'?'repository snapshots':'auto (repo → API)';
-  toast(`Switching to ${label}…`);
-  Object.keys(DATA).forEach(k=>{if(!k.startsWith('_'))delete DATA[k]});
-  const keys=Object.keys(DATASETS);
-  await Promise.all(keys.map(k=>load(k)));
-  const loaded=keys.filter(k=>DATA[k]).length;
-  $('#health').textContent=`${loaded}/${keys.length} sources`;
-  $('#healthBar').style.width=`${loaded/keys.length*100}%`;
-  $('#heroShopCount').textContent=shopEntries().length.toLocaleString();
-  if(DATA.shop)shopLastSynced=Date.now();
-  updateShopSyncLabel();updateBrSyncLabel();updateShopCountdown();
-  renderStats();renderNews();renderView();
-  toast(`Data source: ${label}`);
-}));
-save()}
-function applyBackgroundMedia(){let layer=$('#customBackgroundMedia');if(!preferences.backgroundMedia){layer?.remove();return}if(!layer){layer=document.createElement('div');layer.id='customBackgroundMedia';document.body.prepend(layer)}layer.innerHTML='';const isVideo=preferences.backgroundMedia.startsWith('data:video/');const media=document.createElement(isVideo?'video':'img');media.src=preferences.backgroundMedia;media.setAttribute('aria-hidden','true');if(isVideo){media.autoplay=true;media.loop=true;media.muted=true;media.playsInline=true}layer.appendChild(media)}
-function validHex(value){return /^#[0-9a-f]{6}$/i.test(value)?value:null}
-function setupCustomAppearance(){const list=$('#settings')?.querySelector('.settingsList');if(!list)return;list.insertAdjacentHTML('beforeend','<div class="settingsRow customAppearance"><div><b>Custom appearance</b><small>Choose exact colors, type, and a background from your device</small></div><div class="settingsActions appearanceControls"><label>Text <input type="color" data-custom-color="customText"><input class="hexInput" data-custom-color-text="customText" maxlength="7" spellcheck="false"></label><label>Background <input type="color" data-custom-color="customBackground"><input class="hexInput" data-custom-color-text="customBackground" maxlength="7" spellcheck="false"></label><select class="control" id="customFont"><option>Space Grotesk</option><option>Barlow Condensed</option><option>Georgia</option><option>Trebuchet MS</option><option>Courier New</option></select><label class="fileButton">Background media<input id="backgroundMedia" type="file" accept="image/*,video/*"></label><button class="control" id="clearBackground" type="button">Clear media</button></div><div class="paletteRow" aria-label="Color palettes"><button type="button" data-palette="#f5f7fb,#0b111b">Ocean</button><button type="button" data-palette="#fff4e6,#25120b">Sunset</button><button type="button" data-palette="#e9fff3,#081b13">Meadow</button><button type="button" data-palette="#171717,#f0f0f0">Invert</button></div></div>');const save=()=>{safeStorage.setItem('dropzone_preferences',JSON.stringify(preferences));applyPreferences()};const syncColor=key=>{const value=validHex(preferences[key])||preferenceDefaults[key];const color=$(`[data-custom-color="${key}"]`),text=$(`[data-custom-color-text="${key}"]`);if(color)color.value=value;if(text)text.value=value};['customText','customBackground'].forEach(key=>{syncColor(key);$(`[data-custom-color="${key}"]`).addEventListener('input',event=>{preferences[key]=event.target.value;syncColor(key);save()});$(`[data-custom-color-text="${key}"]`).addEventListener('change',event=>{const value=validHex(event.target.value.trim());if(!value)return syncColor(key);preferences[key]=value;syncColor(key);save()})});const font=$('#customFont');font.value=preferences.font;font.addEventListener('change',()=>{preferences.font=font.value;save()});$('#clearBackground').addEventListener('click',()=>{preferences.backgroundMedia='';save();toast('Custom background cleared')});$('#backgroundMedia').addEventListener('change',event=>{const file=event.target.files?.[0];if(!file)return;if(!file.type.startsWith('image/')&&!file.type.startsWith('video/'))return toast('Choose an image or video file.');const reader=new FileReader();reader.onload=()=>{preferences.backgroundMedia=String(reader.result);save();toast('Custom background applied')};reader.onerror=()=>toast('Could not read that background file.');reader.readAsDataURL(file)});list.querySelectorAll('[data-palette]').forEach(button=>button.addEventListener('click',()=>{const [text,background]=button.dataset.palette.split(',');preferences.customText=text;preferences.customBackground=background;syncColor('customText');syncColor('customBackground');save()}));syncColor('customText');syncColor('customBackground')}
-function setupPreferenceStyles(){const style=document.createElement('style');style.textContent='body[data-theme="ember"]{--cyan:#ffad66;--green:#a7e06f;--yellow:#ffd166;--line:#4a3029;--bg:#17100e;--panel:#241713;--panel2:#332019}body[data-theme="forest"]{--cyan:#82e6b0;--green:#a5f28a;--yellow:#f4dc79;--line:#27483b;--bg:#091612;--panel:#10231c;--panel2:#17362a}body[data-theme="mono"]{--cyan:#e4e8ee;--green:#c7ccd4;--yellow:#f0f0f0;--pink:#c4cad3;--line:#38414d;--bg:#101215;--panel:#1b1f25;--panel2:#252b33}body[data-density="compact"] .itemBody,body[data-density="compact"] .shopBody{padding:8px}body[data-density="spacious"] .itemBody,body[data-density="spacious"] .shopBody{padding:16px}body[data-card-size="large"] .catalogGrid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}body[data-card-size="small"] .catalogGrid{grid-template-columns:repeat(auto-fill,minmax(135px,1fr))}body[data-image-fit="cover"] .itemImage img,body[data-image-fit="cover"] .shopImage img{object-fit:cover}body.reduceMotion *,body.reduceMotion *:before,body.reduceMotion *:after{animation-duration:0.001ms!important;transition-duration:0.001ms!important}body.highContrast{--muted:#c5d0df;--dim:#a9b8c9;--line:#5f7893}body.largeText{font-size:1.08em}body{font-family:var(--font-body,"Space Grotesk",sans-serif);color:var(--custom-text,var(--ink));background-color:var(--custom-background,var(--bg))}.content,.sidebar,.topbar{color:var(--custom-text,var(--ink))}.customAppearance{align-items:flex-start;flex-wrap:wrap}.appearanceControls{justify-content:flex-end}.appearanceControls label{display:flex;align-items:center;gap:5px;font-size:11px}.appearanceControls input[type="color"]{width:31px;height:31px;padding:2px;border:1px solid var(--line);border-radius:5px;background:transparent}.hexInput{width:78px;height:31px;padding:0 7px;border:1px solid var(--line);border-radius:5px;background:#09111b;color:#fff;font:11px monospace}.fileButton{position:relative;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:#14283b;color:#fff;cursor:pointer}.fileButton input{position:absolute;width:1px;height:1px;opacity:0}.paletteRow{display:flex;gap:6px;flex-basis:100%;justify-content:flex-end}.paletteRow button{width:28px;height:28px;border:1px solid #fff8;border-radius:50%;background:var(--palette-bg,#0b111b);box-shadow:inset 8px 0 var(--palette-text,#f5f7fb);font-size:0;cursor:pointer}.paletteRow button[data-palette="#fff4e6,#25120b"]{--palette-text:#fff4e6;--palette-bg:#25120b}.paletteRow button[data-palette="#e9fff3,#081b13"]{--palette-text:#e9fff3;--palette-bg:#081b13}.paletteRow button[data-palette="#171717,#f0f0f0"]{--palette-text:#171717;--palette-bg:#f0f0f0}#customBackgroundMedia{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:var(--custom-background,#0b111b)}#customBackgroundMedia img,#customBackgroundMedia video{width:100%;height:100%;object-fit:cover;opacity:.3}';document.head.appendChild(style)}
-function setupRarityPreference(){const list=$('#settings')?.querySelector('.settingsList');if(!list)return;list.insertAdjacentHTML('beforeend','<div class="settingsRow"><div><b>Rarity labels</b><small>Keep rarity badges on catalog cards</small></div><label><input type="checkbox" id="showRarityPreference"> Show rarity</label></div>');const control=$('#showRarityPreference');control.checked=preferences.showRarity;control.addEventListener('change',()=>{preferences.showRarity=control.checked;try{localStorage.setItem('dropzone_preferences',JSON.stringify(preferences))}catch{}document.body.classList.toggle('hideRarity',!control.checked)})}
-function openShowcase(){const item=ITEM_CACHE[activeItemIndex];if(!item?.showcaseVideo)return toast('No showcase video is available for this cosmetic.');$('#viewerTitle').textContent=`${name(item)} showcase`;$('#viewerStage').innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(item.showcaseVideo)}?autoplay=1" title="${esc(name(item))} showcase" allow="autoplay; fullscreen" allowfullscreen></iframe>`;$('#fullscreenViewer').classList.remove('loadingViewer');$('#fullscreenViewer').classList.add('open');$('#detailBackdrop').classList.remove('open')}
-function setupMediaControls(){const detailActions=$('#detailFullscreen')?.parentElement;if(detailActions&&!$('#detailShowcase')){const button=document.createElement('button');button.className='detailButton';button.id='detailShowcase';button.textContent='Showcase video';button.addEventListener('click',openShowcase);detailActions.insertBefore(button,$('#detailFullscreen'))}const newsBackdrop=document.createElement('div');newsBackdrop.id='newsBackdrop';newsBackdrop.className='detailBackdrop';newsBackdrop.innerHTML='<article class="detailPanel newsDetailPanel"><button class="closeOverlay" onclick="closeOverlay()" aria-label="Close">×</button><div class="detailMedia" id="newsDetailMedia"></div><div class="detailContent"><div class="eyebrow">FORTNITE NEWS</div><h2 id="newsDetailTitle"></h2><div class="detailValue" id="newsDetailBody"></div></div></article>';document.body.appendChild(newsBackdrop);document.addEventListener('click',event=>{const card=event.target.closest?.('.newsCard');if(!card)return;const item=NEWS_CACHE[Number(card.dataset.newsIndex)];if(!item)return;$('#newsDetailTitle').textContent=item.title||item.tabTitle||'Latest update';$('#newsDetailBody').textContent=item.body||'No article body is available in this snapshot.';$('#newsDetailMedia').innerHTML=item.image||item.tileImage?`<img src="${esc(item.image||item.tileImage)}" alt="">`:'';newsBackdrop.classList.add('open')});document.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.closest?.('.newsCard')){event.preventDefault();event.target.click()}})}
-function setupMediaStyles(){const style=document.createElement('style');style.textContent='.viewerStage iframe{width:min(1100px,100%);height:min(680px,78vh);border:0;border-radius:8px}.newsDetailPanel{grid-template-columns:1fr 1fr}.newsDetailPanel .detailValue{font-size:15px;line-height:1.75}@media(max-width:900px){.newsDetailPanel{grid-template-columns:1fr}}';document.head.appendChild(style)}
-function setupCustomAppearanceStyles(){const style=document.createElement('style');style.textContent='body{background:var(--custom-background,var(--bg))!important;color:var(--custom-text,var(--ink))!important}body *{font-family:var(--font-body,"Space Grotesk",sans-serif)}body .itemName,body .detailContent h2,body .viewerBar strong{color:var(--custom-text,var(--ink))}.sidebar,.topbar,.content,.view,.settingsRow,.detailPanel,.authPanel,.lockerHero{color:var(--custom-text,var(--ink))}#customBackgroundMedia{z-index:0!important}';document.head.appendChild(style)}
-setupAccount();setupPreferences();setupCustomAppearance();setupRarityPreference();setupPreferenceStyles();setupCustomAppearanceStyles();applyPreferences();document.body.classList.toggle('hideRarity',!preferences.showRarity);setupMediaStyles();setupMediaControls();boot();
+/* ---------- wire everything with try/catch so one failure can't kill the rest ---------- */
+function safe(name,fn){try{fn()}catch(e){showFatal(`${name} failed: ${e.message}`);console.error(name,e)}}
+safe('wireGlobalUI',wireGlobalUI);
+safe('setupAccountPanel',setupAccountPanel);
+safe('boot',boot);
 </script>
 </body></html>
