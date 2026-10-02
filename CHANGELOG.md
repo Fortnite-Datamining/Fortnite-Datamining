@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-02
+- **02:24** Item Shop, News - +42 new (Peekaboo, Zappy-Go-Backy, Ceremonial Gong, Widow's Lace, It's True, +37 more) - -69 removed
+
 ## 2026-10-01
 - **23:18** Item Shop, Epic Content Pages
 - **19:13** Build update: `++Fortnite+Release-42.30-CL-58557680`
