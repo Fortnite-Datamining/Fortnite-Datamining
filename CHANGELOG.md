@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-02
+- **08:47** Item Shop, Banners
 - **02:24** Item Shop, News - +42 new (Peekaboo, Zappy-Go-Backy, Ceremonial Gong, Widow's Lace, It's True, +37 more) - -69 removed
 
 ## 2026-10-01
