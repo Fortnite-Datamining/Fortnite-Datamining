@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-02
+- **15:17** BR Cosmetics, Instruments, Item Shop, AES Keys, Banners - +8 new (Freddy's Back Boiler, Freddy's Boilermaker, Freddy Krueger, Freddy's Coming, Freddy's Glove, +3 more)
 - **08:47** Item Shop, Banners
 - **02:24** Item Shop, News - +42 new (Peekaboo, Zappy-Go-Backy, Ceremonial Gong, Widow's Lace, It's True, +37 more) - -69 removed
 
