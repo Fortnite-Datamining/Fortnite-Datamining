@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-02
+- **23:55** Item Shop, Epic Content Pages
 - **20:03** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **15:17** BR Cosmetics, Instruments, Item Shop, AES Keys, Banners - +8 new (Freddy's Back Boiler, Freddy's Boilermaker, Freddy Krueger, Freddy's Coming, Freddy's Glove, +3 more)
 - **08:47** Item Shop, Banners
