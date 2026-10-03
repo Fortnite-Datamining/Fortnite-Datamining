@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-03
+- **14:31** BR Cosmetics, Cars, LEGO Cosmetics, AES Keys - +27 new (Asta's Grimoire, Asta's Devil Wings, Noelle's Grimoire, Yuno's Grimoire, Asta, +22 more)
 - **03:32** Item Shop, News - +16 new (Freddy's Back Boiler, Krueger Specials, Freddy Krueger, Cate Meowdy, Studded Axe, +11 more) - -20 removed
 
 ## 2026-10-02

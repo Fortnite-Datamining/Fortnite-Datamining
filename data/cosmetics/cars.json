@@ -2128,6 +2128,27 @@
       "vehicleId": "VCID_Body_Retro"
     },
     {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Fanatically tuned.",
+      "id": "CarBody_RevivalLine",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_revivalline/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_revivalline/small.png"
+      },
+      "name": "Nissan GT-R Nismo",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_RevivalLine"
+    },
+    {
       "added": "2025-03-26T00:00:00Z",
       "description": "Nothing is out of reach.",
       "id": "CarBody_Rio",
@@ -18910,6 +18931,132 @@
       "vehicleId": "VCID_Skin_RetroSunsetstrip"
     },
     {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Nissan GT-R Nismo custom decal.",
+      "id": "CarSkin_RevivalLineFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineflames/small.png"
+      },
+      "name": "Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_RevivalLineFlames"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Nissan GT-R Nismo custom decal.",
+      "id": "CarSkin_RevivalLineLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallinelivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallinelivery01/small.png"
+      },
+      "name": "Steel Line",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_RevivalLineLivery01"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Nissan GT-R Nismo custom decal.",
+      "id": "CarSkin_RevivalLineLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallinelivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallinelivery02/small.png"
+      },
+      "name": "High Line",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_RevivalLineLivery02"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Nissan GT-R Nismo custom decal.",
+      "id": "CarSkin_RevivalLineLuckyOnyx01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineluckyonyx01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineluckyonyx01/small.png"
+      },
+      "name": "Black Bulls Asta",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_RevivalLineLuckyOnyx01"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Nissan GT-R Nismo custom decal.",
+      "id": "CarSkin_RevivalLineLuckyOnyx02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineluckyonyx02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineluckyonyx02/small.png"
+      },
+      "name": "Golden Dawn Yuno",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_RevivalLineLuckyOnyx02"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Nissan GT-R Nismo custom decal.",
+      "id": "CarSkin_RevivalLineLuckyOnyx03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineluckyonyx03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_revivallineluckyonyx03/small.png"
+      },
+      "name": "Black Bulls Noelle",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_RevivalLineLuckyOnyx03"
+    },
+    {
       "added": "2025-03-26T00:00:00Z",
       "description": "Follow your gut feeling. Ram custom decal.",
       "id": "CarSkin_RioLivery1",
@@ -27114,6 +27261,27 @@
       "vehicleId": "VCID_Booster_LPFire"
     },
     {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "The power of the devil.",
+      "id": "ID_Booster_LuckyOnyx01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_luckyonyx01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_luckyonyx01/small.png"
+      },
+      "name": "Anti-Magic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_LuckyOnyx01"
+    },
+    {
       "added": "2026-03-26T13:00:50Z",
       "description": "Drive is everything.",
       "id": "ID_Booster_LuminousAirplaneLTE01",
@@ -30241,6 +30409,27 @@
         "value": "drifttrail"
       },
       "vehicleId": "VCID_DriftTrail_LPFire"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "The power of the devil.",
+      "id": "ID_DriftTrail_LuckyOnyx01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_luckyonyx01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_luckyonyx01/small.png"
+      },
+      "name": "Anti-Magic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_LuckyOnyx01"
     },
     {
       "added": "2024-05-24T08:10:18Z",
@@ -36435,6 +36624,27 @@
       "vehicleId": "VCID_Wheel_Lionsmane01"
     },
     {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "The power of the devil.",
+      "id": "Wheel_LuckyOnyx01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_luckyonyx01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_luckyonyx01/small.png"
+      },
+      "name": "Anti-Magic",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_LuckyOnyx01"
+    },
+    {
       "added": "2026-03-26T13:00:50Z",
       "description": "Jump into action.",
       "id": "Wheel_LuminousAirplane01",
@@ -37650,6 +37860,48 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Remo"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Fanatically tuned.",
+      "id": "Wheel_RevivalLine01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_revivalline01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_revivalline01/small.png"
+      },
+      "name": "Nissan GT-R Nismo",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RevivalLine01"
+    },
+    {
+      "added": "2026-10-03T13:00:46Z",
+      "description": "Fanatically gilded.",
+      "id": "Wheel_RevivalLine02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_revivalline02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_revivalline02/small.png"
+      },
+      "name": "Nissan GT-R Nismo - Gold",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RevivalLine02"
     },
     {
       "added": "2025-06-07T19:00:27Z",
