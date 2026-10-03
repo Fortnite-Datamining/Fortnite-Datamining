@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-03
+- **03:32** Item Shop, News - +16 new (Freddy's Back Boiler, Krueger Specials, Freddy Krueger, Cate Meowdy, Studded Axe, +11 more) - -20 removed
+
 ## 2026-10-02
 - **23:55** Item Shop, Epic Content Pages
 - **20:03** News - +1 new (Keep Collecting and Mastering) - -1 removed
