@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-04
+- **00:19** BR Cosmetics, Item Shop, Epic Content Pages - +39 new (Asta's Devil Wings, Yuno, Shadow Stuffie, Asta's Grimoire, King's Piece, +34 more) - -32 removed
+
 ## 2026-10-03
 - **21:41** News - +1 new (Five Nights at Freddy's Gameplay) - -1 removed
 - **18:30** News - +1 new (Boosted Bounty Hunter Sprites in Power Hour) - -1 removed
