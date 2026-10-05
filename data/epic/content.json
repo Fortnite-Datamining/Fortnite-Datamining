@@ -2170,7 +2170,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-10-04T23:48:07.417Z",
+  "lastModified": "2026-10-05T17:36:12.949Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -11845,7 +11845,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-09-30T22:05:32.581Z",
+    "lastModified": "2026-10-02T17:28:59.823Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -26576,6 +26576,11 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lucky Locator",
+              "textID": "Lucky Locator"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sprite Dust",
               "textID": "Sprite Dust"
             },
@@ -38804,7 +38809,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-10-01T02:16:44.863Z",
+    "lastModified": "2026-10-05T17:36:12.949Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -42738,6 +42743,26 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Seeing what my friends are playing in Discover helps me decide what to play.",
+              "textID": "Seeing what my friends are playing in Discover helps me decide what to play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I often find a game to play in Discover because I saw my friends playing it.",
+              "textID": "I often find a game to play in Discover because I saw my friends playing it."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It is easy to see what my friends are playing in Discover.",
+              "textID": "It is easy to see what my friends are playing in Discover."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It is easy to find my favorite games in Discover (the page where you can find experiences made by various developers or Epic Games).",
+              "textID": "It is easy to find my favorite games in Discover (the page where you can find experiences made by various developers or Epic Games)."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "The games shown to me in Discover match what I enjoy playing.",
               "textID": "The games shown to me in Discover match what I enjoy playing."
             }
@@ -43324,6 +43349,11 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Lucky Locator (an item that helps you find a location containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale",
+              "textID": "the Lucky Locator (an item that helps you find a location containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Gold Sprite variant is now available in Fortnite Battle Royale",
               "textID": "the Gold Sprite variant is now available in Fortnite Battle Royale"
             },
@@ -43828,6 +43858,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I enjoy finding Sprites out in the world as I play.",
               "textID": "I enjoy finding Sprites out in the world as I play."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When I use a Lucky Locator, it's easy to find the Sprite location it points me to.",
+              "textID": "When I use a Lucky Locator, it's easy to find the Sprite location it points me to."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
