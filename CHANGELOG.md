@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-05
+- **02:13** Item Shop, Epic Content Pages - +33 new (adidas Anthony Edwards 2 Low 'Acid Orange', Scanline, Meow-Soles, Voltaria, Ravina, +28 more) - -43 removed
+
 ## 2026-10-04
 - **06:09** Item Shop, News
 - **00:19** BR Cosmetics, Item Shop, Epic Content Pages - +39 new (Asta's Devil Wings, Yuno, Shadow Stuffie, Asta's Grimoire, King's Piece, +34 more) - -32 removed
