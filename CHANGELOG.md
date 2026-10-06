@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-06
+- **00:33** Item Shop, Epic Content Pages - +50 new (Instinct, Dual Drillbit, Thunder Crash, Marshall Never More, bb belt, +45 more) - -49 removed
+
 ## 2026-10-05
 - **18:42** BR Cosmetics, Cars, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Banners, Epic Content Pages - +4 new (Jack the Clown in the Box, Jack the Clown, Chainsaw Balloon, Jack's Menacing Mallet)
 - **02:13** Item Shop, Epic Content Pages - +33 new (adidas Anthony Edwards 2 Low 'Acid Orange', Scanline, Meow-Soles, Voltaria, Ravina, +28 more) - -43 removed
