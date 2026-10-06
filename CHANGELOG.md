@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-06
+- **14:20** BR Cosmetics, Item Shop, AES Keys, Banners - +4 new (Hallownest Grub, The Knight, The Knight's Nail, Banner Icon)
 - **00:33** Item Shop, Epic Content Pages - +50 new (Instinct, Dual Drillbit, Thunder Crash, Marshall Never More, bb belt, +45 more) - -49 removed
 
 ## 2026-10-05
