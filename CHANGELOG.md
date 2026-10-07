@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-07
+- **03:59** BR Cosmetics, Beans, Item Shop, Playlists, Banners - +35 new (Vanquisher's Oath, Party Diva, Party MVP, Lachlan Bundle, Buckle Up, +30 more) - -28 removed
+
 ## 2026-10-06
 - **23:31** Item Shop, Epic Content Pages
 - **19:39** Jam Tracks - +2 new (OMG, What's Up?)
