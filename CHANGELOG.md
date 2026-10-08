@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-08
+- **21:46** BR Cosmetics, LEGO Cosmetics, AES Keys, Epic Content Pages - +10 new (Hadoken To Go, World Warrior Tournament Token, Ryu (Street Fighter 2026), Chun-Li (Street Fighter 2026), Car Smash, +5 more)
 - **16:44** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +5 new (Save the Deer Sack, The Deer, Taming Flame, Old Axe, The Deer's Eyes)
 - **02:25** BR Cosmetics, Item Shop, AES Keys - +30 new (Dracula, The Knight's Nail, Dracula, IDK, Kim's Kit, +25 more) - -16 removed
 
