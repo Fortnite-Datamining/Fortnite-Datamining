@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-08
+- **16:44** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +5 new (Save the Deer Sack, The Deer, Taming Flame, Old Axe, The Deer's Eyes)
 - **02:25** BR Cosmetics, Item Shop, AES Keys - +30 new (Dracula, The Knight's Nail, Dracula, IDK, Kim's Kit, +25 more) - -16 removed
 
 ## 2026-10-07
