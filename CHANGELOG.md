@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-09
+- **01:41** BR Cosmetics, Item Shop, Epic Content Pages - +44 new (EsDeeKid, Hoagie Hitter, Sarah Ravencroft's Spellbook, Shaggy & Scooby-Doo Bundle, Glowing Blossom, +39 more) - -12 removed
+
 ## 2026-10-08
 - **21:46** BR Cosmetics, LEGO Cosmetics, AES Keys, Epic Content Pages - +10 new (Hadoken To Go, World Warrior Tournament Token, Ryu (Street Fighter 2026), Chun-Li (Street Fighter 2026), Car Smash, +5 more)
 - **16:44** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +5 new (Save the Deer Sack, The Deer, Taming Flame, Old Axe, The Deer's Eyes)
