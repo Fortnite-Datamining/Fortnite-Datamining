@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-09
+- **08:23** Item Shop, Banners
 - **01:41** BR Cosmetics, Item Shop, Epic Content Pages - +44 new (EsDeeKid, Hoagie Hitter, Sarah Ravencroft's Spellbook, Shaggy & Scooby-Doo Bundle, Glowing Blossom, +39 more) - -12 removed
 
 ## 2026-10-08
