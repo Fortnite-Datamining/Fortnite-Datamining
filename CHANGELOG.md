@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-10
+- **06:10** News - +1 new (Earn the Peril Peak Mali Style) - -1 removed
 - **00:11** BR Cosmetics, Item Shop, News, Epic Content Pages - +38 new (Adeline, Blade Bundle, Torment, Dark Wings, Tá OK, +33 more) - -39 removed
 
 ## 2026-10-09
