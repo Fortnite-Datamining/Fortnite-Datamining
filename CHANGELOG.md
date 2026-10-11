@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-11
+- **00:18** Item Shop, AES Keys - +31 new (The SavageMike's Locker Bundle, Metalhead Meow Skulls, Munitions Expert, Field Machete, Bladed Cage, +26 more) - -33 removed
+
 ## 2026-10-10
 - **21:04** Item Shop, Epic Content Pages
 - **06:10** News - +1 new (Earn the Peril Peak Mali Style) - -1 removed
