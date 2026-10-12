@@ -364363,6 +364363,45 @@
       }
     },
     {
+      "added": "2026-10-12T00:00:00Z",
+      "description": "Let the haters feel it.",
+      "dynamicPakId": "1024",
+      "id": "EID_SadEyes",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_sadeyes/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_sadeyes/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "BIG FEELING",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:42Z",
       "description": "Womp womp.",
       "id": "EID_SadTrombone",
