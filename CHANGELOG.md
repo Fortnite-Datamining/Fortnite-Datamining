@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-12
+- **17:17** BR Cosmetics, Item Shop, Epic Content Pages
 - **01:30** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +39 new (BIG FEELING, Grave Robber, Sea Wolf, BIG FEELING, Never Gonna, +34 more) - -22 removed
 
 ## 2026-10-11
