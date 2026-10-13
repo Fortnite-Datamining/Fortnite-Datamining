@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-13
+- **05:11** Item Shop - +64 new (Hattie Chirps, Midnight Ops, Wrist Rocket, Madcap, Upside Down Alphabet, +59 more) - -47 removed
+
 ## 2026-10-12
 - **23:43** Item Shop, Epic Content Pages
 - **17:17** BR Cosmetics, Item Shop, Epic Content Pages
