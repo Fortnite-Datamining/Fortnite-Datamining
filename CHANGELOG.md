@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-13
+- **23:34** Item Shop, News, Epic Content Pages - +1 new (Live - Elite Kado Thorne Cup) - -1 removed
 - **19:43** Epic Content Pages
 - **05:11** Item Shop - +64 new (Hattie Chirps, Midnight Ops, Wrist Rocket, Madcap, Upside Down Alphabet, +59 more) - -47 removed
 
