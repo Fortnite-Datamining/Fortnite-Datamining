@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-15
+- **19:19** News - +1 new (Horrors Worth Facing Together) - -1 removed
 - **15:28** Build update: `++Fortnite+Release-42.40-CL-59086525`
 - **10:46** Jam Tracks, Item Shop, Epic Content Pages - +4 new (If We Being Rëal, Monëy so big, Gët Busy, HeliMan)
 - **00:42** Item Shop, Epic Content Pages - +55 new (Rick Prime & Pickle Rick Bundle, Galaxy Scout, Galaxy Grappler Bundle, Starry Sneakers, Machete Paddle, +50 more) - -17 removed
