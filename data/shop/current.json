@@ -56,7 +56,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "It's hare-raisin'!",
-            "dynamicPakId": "1013",
             "id": "Backpack_TearErrand_Bass",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/featured.png",
@@ -72,8 +71,19 @@
             "name": "Bonnie's Blazin' Guitar",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -89,7 +99,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "It's hare-raisin'!",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_TearErrand_Bass",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/featured.png",
@@ -105,8 +114,19 @@
             "name": "Bonnie's Blazin' Guitar",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -141,8 +161,19 @@
             "name": "Bonnie's Blazin' Guitar",
             "rarity": {
               "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "type": {
               "backendValue": "SparksBass",
@@ -244,6 +275,7 @@
         },
         "layoutId": "VV101426.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_StopTraffic",
           "id": "DAv2_EID_StopTraffic",
           "materialInstances": [],
           "renderImages": [
@@ -356,6 +388,7 @@
         },
         "layoutId": "RickandMortyAll.94",
         "newDisplayAsset": {
+          "cosmeticId": "Character_RubySnapper",
           "id": "DAv2_Character_RubySnapper",
           "materialInstances": [],
           "renderImages": [
@@ -643,14 +676,14 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__df9f9ec750dd7006_b7ad8ad79992bbeb.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/df9f9ec750dd7006/renderimage_1.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__df9f9ec750dd7006_43cc397b31a7455c.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/df9f9ec750dd7006/renderimage_0.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__df9f9ec750dd7006_b7ad8ad79992bbeb.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/df9f9ec750dd7006/renderimage_1.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -1062,7 +1095,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "The last concert you'll ever see.",
-            "dynamicPakId": "1013",
             "id": "EID_GuardHence",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_guardhence/icon.png",
@@ -1125,7 +1157,7 @@
         },
         "layoutId": "5Nights.98",
         "newDisplayAsset": {
-          "cosmeticId": "EID_GuardHence_Joiner1",
+          "cosmeticId": "EID_GuardHence_Joiner2",
           "id": "DAv2_EID_GuardHence",
           "materialInstances": [],
           "renderImages": [
@@ -1220,6 +1252,7 @@
         },
         "layoutId": "FNMFrank.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_676_CritterFrenzyMale_B21OE",
           "id": "DAv2_Pickaxe_ID_676_CritterFrenzyMale_B21OE",
           "materialInstances": [],
           "renderImages": [
@@ -1852,6 +1885,7 @@
         },
         "layoutId": "FNM101526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Character_PointyTemper",
           "id": "DAv2_Character_PointyTemper",
           "materialInstances": [],
           "renderImages": [
@@ -1943,6 +1977,7 @@
         },
         "layoutId": "VV101426.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Adapter",
           "id": "DAv2_EID_Adapter",
           "materialInstances": [],
           "renderImages": [
@@ -2037,7 +2072,6 @@
           {
             "added": "2026-10-12T00:00:00Z",
             "description": "Let the haters feel it.",
-            "dynamicPakId": "1024",
             "id": "EID_SadEyes",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_sadeyes/icon.png",
@@ -2503,6 +2537,7 @@
         },
         "layoutId": "Poppy.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_ShyTurkey",
           "id": "DAv2_Backpack_ShyTurkey",
           "materialInstances": [],
           "renderImages": [
@@ -2638,6 +2673,7 @@
         },
         "layoutId": "Poppy.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ShyTurkey",
           "id": "DAv2_Pickaxe_ShyTurkey",
           "materialInstances": [],
           "renderImages": [
@@ -2818,7 +2854,7 @@
         },
         "layoutId": "NoSweat101326.99",
         "newDisplayAsset": {
-          "cosmeticId": "Character_TacticKale_B",
+          "cosmeticId": "Character_TacticKale_E",
           "id": "DAv2_Character_TacticKale",
           "materialInstances": [],
           "renderImages": [
@@ -3030,6 +3066,7 @@
         },
         "layoutId": "VV101426.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_NeverGonna",
           "id": "DAv2_EID_NeverGonna",
           "materialInstances": [],
           "renderImages": [
@@ -3053,7 +3090,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Someone's hungry.",
-            "dynamicPakId": "1013",
             "id": "Character_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
@@ -3124,7 +3160,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "What's got you so wound up?",
-            "dynamicPakId": "1013",
             "id": "Backpack_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/featured.png",
@@ -3217,7 +3252,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "This rabbit's hare-raisin'.",
-            "dynamicPakId": "1013",
             "id": "Character_TearErrand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
@@ -3285,7 +3319,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Ready to wail.",
-            "dynamicPakId": "1013",
             "id": "Backpack_TearErrand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/featured.png",
@@ -3489,6 +3522,7 @@
         },
         "layoutId": "FNM101526.92",
         "newDisplayAsset": {
+          "cosmeticId": "Character_PlumedStare",
           "id": "DAv2_Character_Plumedstare",
           "materialInstances": [],
           "renderImages": [
@@ -3672,6 +3706,7 @@
         },
         "layoutId": "Friday.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_GnatGala_Pancake",
           "id": "DAv2_EID_GnatGala_Pancake",
           "materialInstances": [],
           "renderImages": [
@@ -3866,6 +3901,7 @@
         },
         "layoutId": "Deadmau5RF.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_FareSpore",
           "id": "DAv2_Character_FareSpore",
           "materialInstances": [],
           "renderImages": [
@@ -4034,8 +4070,7 @@
         "brItems": [
           {
             "added": "2026-10-08T13:00:54Z",
-            "description": "The Deer will remember your help.",
-            "dynamicPakId": "1004",
+            "description": "A sack full of supplies to help you survive the night.",
             "id": "Backpack_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_terrybroke/featured.png",
@@ -4048,7 +4083,7 @@
               "season": "4",
               "text": "Introduced in Chapter 7, Season 4."
             },
-            "name": "Save the Deer Sack",
+            "name": "Old Sack",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
               "displayValue": "Gaming Legends Series",
@@ -4098,6 +4133,7 @@
         },
         "layoutId": "99Nights2.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_TerryBroke",
           "id": "DAv2_Backpack_TerryBroke",
           "materialInstances": [],
           "renderImages": [
@@ -4171,6 +4207,7 @@
         },
         "layoutId": "Ninjago.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_TicketPoke",
           "id": "DAv2_EID_TicketPoke",
           "materialInstances": [],
           "renderImages": [
@@ -4244,6 +4281,7 @@
         },
         "layoutId": "RickandMortyAll.94",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_RubySnapper",
           "id": "DAv2_Backpack_RubySnapper",
           "materialInstances": [],
           "renderImages": [
@@ -4563,14 +4601,14 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__c22d725684d6b178_b9f620f9e04d5bbd.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c22d725684d6b178/renderimage_1.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__c22d725684d6b178_21eeb9302e72eabf.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c22d725684d6b178/renderimage_0.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__c22d725684d6b178_b9f620f9e04d5bbd.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/c22d725684d6b178/renderimage_1.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -4641,6 +4679,7 @@
         },
         "layoutId": "Galaxy1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_228_CelestialFemale",
           "id": "DAv2_Glider_ID_228_CelestialFemale",
           "materialInstances": [],
           "renderImages": [
@@ -5234,7 +5273,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Ready to wail.",
-            "dynamicPakId": "1013",
             "id": "Backpack_TearErrand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/featured.png",
@@ -5421,6 +5459,7 @@
         },
         "layoutId": "RickandMortyAll.93",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_RubySnapper",
           "id": "DAv2_Pickaxe_RubySnapper",
           "materialInstances": [],
           "renderImages": [
@@ -5539,6 +5578,7 @@
         },
         "layoutId": "FNM101526.92",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CorvidStomp",
           "id": "DAv2_Character_CorvidStomp",
           "materialInstances": [],
           "renderImages": [
@@ -6041,6 +6081,7 @@
         },
         "layoutId": "Ninjago.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_BlessFlan",
           "id": "DAv2_Pickaxe_BlessFlan",
           "materialInstances": [],
           "renderImages": [
@@ -6229,6 +6270,7 @@
         },
         "layoutId": "Friday.99",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_GnatGala",
           "id": "DAv2_Wrap_GnatGala",
           "materialInstances": [],
           "renderImages": [
@@ -6362,7 +6404,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "What's got you so wound up?",
-            "dynamicPakId": "1013",
             "id": "Backpack_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/featured.png",
@@ -6503,6 +6544,7 @@
         },
         "layoutId": "FNM101526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_163_Scarecrow_Female",
           "id": "DAv2_Wrap_163_Scarecrow_Female",
           "materialInstances": [],
           "renderImages": [
@@ -6672,6 +6714,7 @@
         },
         "layoutId": "FNMFrank.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_683_CritterManiacMale_S4I63",
           "id": "DAv2_Pickaxe_ID_683_CritterManiacMale_S4I63",
           "materialInstances": [],
           "renderImages": [
@@ -6923,6 +6966,7 @@
         },
         "layoutId": "RickandMortyAll.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_387_RuckusMini_6I5DM",
           "id": "DAv2_Wrap_387_RuckusMini_6I5DM",
           "materialInstances": [],
           "renderImages": [
@@ -6999,6 +7043,7 @@
         },
         "layoutId": "FNM101526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_164_Scarecrow_Male",
           "id": "DAv2_Wrap_164_Scarecrow_Male",
           "materialInstances": [],
           "renderImages": [
@@ -7226,7 +7271,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "A portable power plant fueled by nightmares.",
-            "dynamicPakId": "1007",
             "id": "Backpack_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_apronchow/featured.png",
@@ -7745,7 +7789,6 @@
           {
             "added": "2026-10-01T18:37:28Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_apronchow/featured.png",
@@ -8814,7 +8857,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "One, two, Freddy's coming for you.",
-            "dynamicPakId": "1007",
             "id": "Character_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_apronchow/featured.png",
@@ -8848,7 +8890,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Elm Street isn't ready for you.",
-            "dynamicPakId": "1007",
             "id": "Pickaxe_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_apronchow/featured.png",
@@ -8881,7 +8922,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "A walking nightmare you can count on.",
-            "dynamicPakId": "1007",
             "id": "EID_ApronChow",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_apronchow/icon.png",
@@ -8914,7 +8954,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "A portable power plant fueled by nightmares.",
-            "dynamicPakId": "1007",
             "id": "Backpack_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_apronchow/featured.png",
@@ -8965,7 +9004,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Show your style.",
-            "dynamicPakId": "1007",
             "id": "Wrap_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_apronchow/featured.png",
@@ -8998,7 +9036,6 @@
           {
             "added": "2026-10-01T18:37:28Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_apronchow/featured.png",
@@ -9031,7 +9068,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Don't forget the finger picks.",
-            "dynamicPakId": "1007",
             "id": "Backpack_ApronChow_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_apronchow_guitar/featured.png",
@@ -9064,7 +9100,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Don't forget the finger picks.",
-            "dynamicPakId": "1007",
             "id": "Pickaxe_ApronChow_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_apronchow_guitar/featured.png",
@@ -10936,7 +10971,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Charged with the power of Hadouken.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hadtummy/featured.png",
@@ -11015,6 +11049,7 @@
         },
         "layoutId": "StreetFighterLA.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_HadTummy",
           "id": "DAv2_Pickaxe_HadTummy",
           "materialInstances": [],
           "renderImages": [
@@ -11642,7 +11677,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "The Deer is hungry tonight...",
-            "dynamicPakId": "1004",
             "id": "Character_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_terrybroke/featured.png",
@@ -11720,8 +11754,7 @@
           },
           {
             "added": "2026-10-08T13:00:54Z",
-            "description": "The Deer will remember your help.",
-            "dynamicPakId": "1004",
+            "description": "A sack full of supplies to help you survive the night.",
             "id": "Backpack_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_terrybroke/featured.png",
@@ -11734,7 +11767,7 @@
               "season": "4",
               "text": "Introduced in Chapter 7, Season 4."
             },
-            "name": "Save the Deer Sack",
+            "name": "Old Sack",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
               "displayValue": "Gaming Legends Series",
@@ -11784,6 +11817,7 @@
         },
         "layoutId": "99Nights2.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_TerryBroke",
           "id": "DAv2_Character_TerryBroke",
           "materialInstances": [],
           "renderImages": [
@@ -12016,6 +12050,7 @@
         },
         "layoutId": "VV101426.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Quantity_39X5D",
           "id": "DAv2_EID_Quantity_39X5D",
           "materialInstances": [],
           "renderImages": [
@@ -12134,6 +12169,7 @@
         },
         "layoutId": "BR101526.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_MachStare",
           "id": "DAv2_Shoes_MachStare",
           "materialInstances": [],
           "renderImages": [
@@ -12237,6 +12273,7 @@
         },
         "layoutId": "RickandMortyAll.96",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BirthMitten",
           "id": "DAv2_Companion_BirthMitten",
           "materialInstances": [],
           "renderImages": [
@@ -12393,6 +12430,7 @@
         },
         "layoutId": "Ninjago.96",
         "newDisplayAsset": {
+          "cosmeticId": "Character_ScallopLava",
           "id": "DAv2_Character_ScallopLava",
           "materialInstances": [],
           "renderImages": [
@@ -12478,6 +12516,7 @@
         },
         "layoutId": "RickandMortyAll.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_659_RuckusMini_O051M",
           "id": "DAv2_Pickaxe_ID_659_RuckusMini_O051M",
           "materialInstances": [],
           "renderImages": [
@@ -12511,7 +12550,6 @@
           {
             "added": "2026-10-01T18:37:28Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_RallyShinySleet",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_rallyshinysleet/featured.png",
@@ -12563,6 +12601,7 @@
         },
         "layoutId": "FNM101526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_RallyShinySleet",
           "id": "DAv2_Shoes_RallyShinySleet",
           "materialInstances": [],
           "renderImages": [
@@ -12835,6 +12874,7 @@
         },
         "layoutId": "Ninjago.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_OvenDrastic",
           "id": "DAv2_EID_OvenDrastic",
           "materialInstances": [],
           "renderImages": [
@@ -13474,6 +13514,7 @@
         },
         "layoutId": "FNM101526.91",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_CorvidStomp",
           "id": "DAv2_Wrap_CorvidStomp",
           "materialInstances": [],
           "renderImages": [
@@ -13598,7 +13639,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/featured.png",
@@ -13872,6 +13912,7 @@
         },
         "layoutId": "VV101426.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_SuperNova",
           "id": "DAv2_EID_SuperNova",
           "materialInstances": [],
           "renderImages": [
@@ -13982,6 +14023,7 @@
         },
         "layoutId": "RickandMortyAll.92",
         "newDisplayAsset": {
+          "cosmeticId": "Character_GeniusBlob",
           "id": "DAv2_Character_GeniusBlob",
           "materialInstances": [],
           "renderImages": [
@@ -14408,7 +14450,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Don't forget the finger picks.",
-            "dynamicPakId": "1007",
             "id": "Backpack_ApronChow_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_apronchow_guitar/featured.png",
@@ -14441,7 +14482,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Don't forget the finger picks.",
-            "dynamicPakId": "1007",
             "id": "Pickaxe_ApronChow_Guitar",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_apronchow_guitar/featured.png",
@@ -14591,6 +14631,7 @@
         },
         "layoutId": "FNM101526.92",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_PlumedStare",
           "id": "DAv2_Pickaxe_Plumedstare",
           "materialInstances": [],
           "renderImages": [
@@ -14665,6 +14706,7 @@
         },
         "layoutId": "RickandMortyAll.93",
         "newDisplayAsset": {
+          "cosmeticId": "EID_RubySnapper",
           "id": "DAv2_EID_RubySnapper",
           "materialInstances": [],
           "renderImages": [
@@ -15439,7 +15481,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Only one can be the best.",
-            "dynamicPakId": "1001",
             "id": "Backpack_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pongoquell/featured.png",
@@ -15501,6 +15542,7 @@
         },
         "layoutId": "StreetFighterLA.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_PongoQuell",
           "id": "DAv2_Backpack_PongoQuell",
           "materialInstances": [],
           "renderImages": [
@@ -15624,6 +15666,7 @@
         },
         "layoutId": "FNM101526.91",
         "newDisplayAsset": {
+          "cosmeticId": "Character_ClawedRaven",
           "id": "DAv2_Character_ClawedRaven",
           "materialInstances": [],
           "renderImages": [
@@ -15902,6 +15945,7 @@
         },
         "layoutId": "BR101526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_065_SpeedyRed",
           "id": "DAv2_Pickaxe_ID_065_SpeedyRed",
           "materialInstances": [],
           "renderImages": [
@@ -16350,6 +16394,7 @@
         },
         "layoutId": "FNMFrank.99",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_409_CritterManiac_1B4II",
           "id": "DAv2_Wrap_409_CritterManiac_1B4II",
           "materialInstances": [],
           "renderImages": [
@@ -16374,7 +16419,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "Not a bad axe to start with.",
-            "dynamicPakId": "1004",
             "id": "Pickaxe_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_terrybroke/featured.png",
@@ -16437,6 +16481,7 @@
         },
         "layoutId": "99Nights2.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_TerryBroke",
           "id": "DAv2_Pickaxe_TerryBroke",
           "materialInstances": [],
           "renderImages": [
@@ -16732,6 +16777,7 @@
         },
         "layoutId": "RickandMortyAll.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_RuckusMini_HW9YF",
           "id": "DAv2_EID_RuckusMini_HW9YF",
           "materialInstances": [],
           "renderImages": [
@@ -16885,7 +16931,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "One, two, Freddy's coming for you.",
-            "dynamicPakId": "1007",
             "id": "Character_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_apronchow/featured.png",
@@ -16919,7 +16964,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Elm Street isn't ready for you.",
-            "dynamicPakId": "1007",
             "id": "Pickaxe_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_apronchow/featured.png",
@@ -17169,7 +17213,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Show some respect.",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/featured.png",
@@ -17409,7 +17452,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "The strongest woman in the world.",
-            "dynamicPakId": "1001",
             "id": "Character_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_pongoquell/featured.png",
@@ -17458,7 +17500,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Only one can be the best.",
-            "dynamicPakId": "1001",
             "id": "Backpack_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pongoquell/featured.png",
@@ -17502,7 +17543,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "To live is to fight. To fight is to live.",
-            "dynamicPakId": "1018",
             "id": "Character_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_hadtummy/featured.png",
@@ -17569,7 +17609,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Ready to attack at a moment's notice.",
-            "dynamicPakId": "1018",
             "id": "Backpack_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_hadtummy/featured.png",
@@ -17631,7 +17670,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Chun-Li's newest favorite weapon.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pongoquell/featured.png",
@@ -17675,7 +17713,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Charged with the power of Hadouken.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hadtummy/featured.png",
@@ -17736,7 +17773,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "That car deserved it.",
-            "dynamicPakId": "1018",
             "id": "EID_PongoQuell",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_pongoquell/icon.png",
@@ -18492,14 +18528,14 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "cosmo__6691b0d3f125c42d_2fe71378473efea5.png",
-              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6691b0d3f125c42d/renderimage_1.png",
-              "productTag": "Product.Juno"
-            },
-            {
               "fileName": "cosmo__6691b0d3f125c42d_9cc5422d0c10b06c.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6691b0d3f125c42d/renderimage_0.png",
               "productTag": "Product.BR"
+            },
+            {
+              "fileName": "cosmo__6691b0d3f125c42d_2fe71378473efea5.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/6691b0d3f125c42d/renderimage_1.png",
+              "productTag": "Product.Juno"
             }
           ]
         },
@@ -18677,7 +18713,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "To live is to fight. To fight is to live.",
-            "dynamicPakId": "1018",
             "id": "Character_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_hadtummy/featured.png",
@@ -18744,7 +18779,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Ready to attack at a moment's notice.",
-            "dynamicPakId": "1018",
             "id": "Backpack_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_hadtummy/featured.png",
@@ -18824,6 +18858,7 @@
         },
         "layoutId": "StreetFighterLA.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_HadTummy",
           "id": "DAv2_Character_HadTummy",
           "materialInstances": [],
           "renderImages": [
@@ -18960,6 +18995,7 @@
         },
         "layoutId": "FNM101526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_082_Scarecrow",
           "id": "DAv2_Glider_ID_082_Scarecrow",
           "materialInstances": [],
           "renderImages": [
@@ -19039,7 +19075,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Elm Street isn't ready for you.",
-            "dynamicPakId": "1007",
             "id": "Pickaxe_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_apronchow/featured.png",
@@ -19116,7 +19151,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "The strongest woman in the world.",
-            "dynamicPakId": "1001",
             "id": "Character_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_pongoquell/featured.png",
@@ -19165,7 +19199,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Only one can be the best.",
-            "dynamicPakId": "1001",
             "id": "Backpack_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_pongoquell/featured.png",
@@ -19227,6 +19260,7 @@
         },
         "layoutId": "StreetFighterLA.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_PongoQuell",
           "id": "DAv2_Character_PongoQuell",
           "materialInstances": [],
           "renderImages": [
@@ -19935,6 +19969,7 @@
         },
         "layoutId": "BR101526.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_124_Feathers",
           "id": "DAv2_Pickaxe_ID_124_Feathers",
           "materialInstances": [],
           "renderImages": [
@@ -20587,7 +20622,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Ready to attack at a moment's notice.",
-            "dynamicPakId": "1018",
             "id": "Backpack_HadTummy",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_hadtummy/featured.png",
@@ -20667,6 +20701,7 @@
         },
         "layoutId": "StreetFighterLA.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_HadTummy",
           "id": "DAv2_Backpack_HadTummy",
           "materialInstances": [],
           "renderImages": [
@@ -20927,6 +20962,7 @@
         },
         "layoutId": "RickandMortyAll.93",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_QuartzSqueak",
           "id": "DAv2_Pickaxe_QuartzSqueak",
           "materialInstances": [],
           "renderImages": [
@@ -21091,6 +21127,7 @@
         },
         "layoutId": "Poppy.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_ShyTurkey",
           "id": "DAv2_Character_ShyTurkey",
           "materialInstances": [],
           "renderImages": [
@@ -21216,6 +21253,7 @@
         },
         "layoutId": "FNMFrank.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_404_CritterFrenzy_SNXC0",
           "id": "DAv2_Wrap_404_CritterFrenzy_SNXC0",
           "materialInstances": [],
           "renderImages": [
@@ -21240,7 +21278,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "A walking nightmare you can count on.",
-            "dynamicPakId": "1007",
             "id": "EID_ApronChow",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_apronchow/icon.png",
@@ -21490,7 +21527,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "Chun-Li's newest favorite weapon.",
-            "dynamicPakId": "1018",
             "id": "Pickaxe_PongoQuell",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_pongoquell/featured.png",
@@ -21552,6 +21588,7 @@
         },
         "layoutId": "StreetFighterLA.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_PongoQuell",
           "id": "DAv2_Pickaxe_PongoQuell",
           "materialInstances": [],
           "renderImages": [
@@ -21740,6 +21777,7 @@
         },
         "layoutId": "RickandMortyAll.93",
         "newDisplayAsset": {
+          "cosmeticId": "Character_QuartzSqueak",
           "id": "DAv2_Character_QuartzSqueak",
           "materialInstances": [],
           "renderImages": [
@@ -21820,6 +21858,7 @@
         },
         "layoutId": "RickandMortyAll.92",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_GeniusBlob",
           "id": "DAv2_Glider_GeniusBlob",
           "materialInstances": [],
           "renderImages": [
@@ -22361,6 +22400,7 @@
         },
         "layoutId": "VV101426.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Egocentric",
           "id": "DAv2_EID_Egocentric",
           "materialInstances": [],
           "renderImages": [
@@ -22384,7 +22424,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "Behind you!",
-            "dynamicPakId": "1004",
             "id": "EID_TerryBroke",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_terrybroke/icon.png",
@@ -22446,6 +22485,7 @@
         },
         "layoutId": "99Nights2.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_TerryBroke",
           "id": "DAv2_EID_TerryBroke",
           "materialInstances": [],
           "renderImages": [
@@ -22684,6 +22724,7 @@
         },
         "layoutId": "RickandMortyAll.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_Genius",
           "id": "DAv2_Pickaxe_Genius",
           "materialInstances": [],
           "renderImages": [
@@ -23142,6 +23183,7 @@
         },
         "layoutId": "Ninjago.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_OvenDrastic",
           "id": "DAv2_Character_OvenDrastic",
           "materialInstances": [],
           "renderImages": [
@@ -23356,6 +23398,7 @@
         },
         "layoutId": "Ninjago.96",
         "newDisplayAsset": {
+          "cosmeticId": "Character_TicketPoke",
           "id": "DAv2_Character_TicketPoke",
           "materialInstances": [],
           "renderImages": [
@@ -23442,6 +23485,7 @@
         },
         "layoutId": "Galaxy1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_429_CelestialFemale1H",
           "id": "DAv2_Pickaxe_ID_429_CelestialFemale1H",
           "materialInstances": [],
           "renderImages": [
@@ -23466,7 +23510,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Aww, you look down. Would you like a hug?",
-            "dynamicPakId": "1013",
             "id": "Character_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
@@ -23534,7 +23577,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Sing along to the Fazbear Band!",
-            "dynamicPakId": "1013",
             "id": "Backpack_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/featured.png",
@@ -24029,6 +24071,7 @@
         },
         "layoutId": "Deadmau5RF.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_FareSporeMilk",
           "id": "DAv2_EID_FareSporeMilk",
           "materialInstances": [],
           "renderImages": [
@@ -24538,7 +24581,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Can you survive five songs?",
-            "dynamicPakId": "1013",
             "id": "Backpack_GuardHence_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/featured.png",
@@ -24554,8 +24596,19 @@
             "name": "Freddy's Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -24571,7 +24624,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Can you survive five songs?",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_GuardHence_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/featured.png",
@@ -24587,8 +24639,19 @@
             "name": "Freddy's Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -24623,8 +24686,19 @@
             "name": "Freddy's Mic",
             "rarity": {
               "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "type": {
               "backendValue": "SparksMic",
@@ -24772,7 +24846,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Never underestimate the cunning of a pirate-slash-fox.",
-            "dynamicPakId": "1013",
             "id": "Character_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
@@ -24840,7 +24913,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Fit for a fox and a pirate alike.",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/featured.png",
@@ -24897,7 +24969,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Sorry, out of order.",
-            "dynamicPakId": "1013",
             "id": "Backpack_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/featured.png",
@@ -25147,6 +25218,7 @@
         },
         "layoutId": "Friday.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_GnatGala",
           "id": "DAv2_Character_GnatGala",
           "materialInstances": [],
           "renderImages": [
@@ -25555,6 +25627,7 @@
         },
         "layoutId": "RickandMortyAll.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_Genius",
           "id": "DAv2_Character_Genius",
           "materialInstances": [],
           "renderImages": [
@@ -25634,6 +25707,7 @@
         },
         "layoutId": "BR101526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_ChasmTrystWish",
           "id": "DAv2_Shoes_ChasmTrystWish",
           "materialInstances": [],
           "renderImages": [
@@ -25719,6 +25793,7 @@
         },
         "layoutId": "Poppy.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ShyTurkey",
           "id": "DAv2_EID_ShyTurkey",
           "materialInstances": [],
           "renderImages": [
@@ -25794,6 +25869,7 @@
         },
         "layoutId": "RickandMortyAll.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_Genius",
           "id": "DAv2_Glider_Genius",
           "materialInstances": [],
           "renderImages": [
@@ -25973,6 +26049,7 @@
         },
         "layoutId": "Friday.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_GnatGala",
           "id": "DAv2_Pickaxe_GnatGala",
           "materialInstances": [],
           "renderImages": [
@@ -26154,6 +26231,7 @@
         },
         "layoutId": "FNM101526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_PointyTemper",
           "id": "DAv2_Pickaxe_PointyTemper",
           "materialInstances": [],
           "renderImages": [
@@ -26234,6 +26312,7 @@
         },
         "layoutId": "VV101426.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_YouthFlume",
           "id": "DAv2_EID_YouthFlume",
           "materialInstances": [],
           "renderImages": [
@@ -26649,6 +26728,22 @@
                   }
                 ],
                 "type": "Scar"
+              },
+              {
+                "channel": "Parts",
+                "options": [
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_burgleboss/variants/parts/stage0.png",
+                    "name": "On",
+                    "tag": "Stage0"
+                  },
+                  {
+                    "image": "https://fortnite-api.com/images/cosmetics/br/companion_burgleboss/variants/parts/stage1.png",
+                    "name": "Off",
+                    "tag": "Stage1"
+                  }
+                ],
+                "type": "Reactivity"
               }
             ]
           }
@@ -26858,6 +26953,7 @@
         },
         "layoutId": "BR101526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_TabletSoilTray",
           "id": "DAv2_Shoes_TabletSoilTray",
           "materialInstances": [],
           "renderImages": [
@@ -27519,7 +27615,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "The Deer is hungry tonight...",
-            "dynamicPakId": "1004",
             "id": "Character_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_terrybroke/featured.png",
@@ -27597,8 +27692,7 @@
           },
           {
             "added": "2026-10-08T13:00:54Z",
-            "description": "The Deer will remember your help.",
-            "dynamicPakId": "1004",
+            "description": "A sack full of supplies to help you survive the night.",
             "id": "Backpack_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_terrybroke/featured.png",
@@ -27611,7 +27705,7 @@
               "season": "4",
               "text": "Introduced in Chapter 7, Season 4."
             },
-            "name": "Save the Deer Sack",
+            "name": "Old Sack",
             "rarity": {
               "backendValue": "EFortRarity::Uncommon",
               "displayValue": "Gaming Legends Series",
@@ -27642,7 +27736,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "Not a bad axe to start with.",
-            "dynamicPakId": "1004",
             "id": "Pickaxe_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_terrybroke/featured.png",
@@ -27686,7 +27779,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "Behind you!",
-            "dynamicPakId": "1004",
             "id": "EID_TerryBroke",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_terrybroke/icon.png",
@@ -27729,7 +27821,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "Show your style.",
-            "dynamicPakId": "1004",
             "id": "Wrap_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_terrybroke/featured.png",
@@ -27932,6 +28023,7 @@
         },
         "layoutId": "RickandMortyAll.99",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_LentilAnise",
           "id": "DAv2_Backpack_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -28037,6 +28129,7 @@
         },
         "layoutId": "Deadmau5RF.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_FareSpore",
           "id": "DAv2_Backpack_FareSpore",
           "materialInstances": [],
           "renderImages": [
@@ -28114,7 +28207,6 @@
           {
             "added": "2026-10-08T17:00:54Z",
             "description": "That car deserved it.",
-            "dynamicPakId": "1018",
             "id": "EID_PongoQuell",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_pongoquell/icon.png",
@@ -28176,6 +28268,7 @@
         },
         "layoutId": "StreetFighterLA.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_PongoQuell",
           "id": "DAv2_EID_PongoQuell",
           "materialInstances": [],
           "renderImages": [
@@ -28382,6 +28475,7 @@
         },
         "layoutId": "Deadmau5RF.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_FareSpore",
           "id": "DAv2_Wrap_FareSpore",
           "materialInstances": [],
           "renderImages": [
@@ -28585,7 +28679,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Aww, you look down. Would you like a hug?",
-            "dynamicPakId": "1013",
             "id": "Character_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_guardhence/featured.png",
@@ -28653,7 +28746,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Sing along to the Fazbear Band!",
-            "dynamicPakId": "1013",
             "id": "Backpack_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/featured.png",
@@ -28697,7 +28789,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Never underestimate the cunning of a pirate-slash-fox.",
-            "dynamicPakId": "1013",
             "id": "Character_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_jigsawwaste/featured.png",
@@ -28765,7 +28856,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Fit for a fox and a pirate alike.",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_jigsawwaste/featured.png",
@@ -28822,7 +28912,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Sorry, out of order.",
-            "dynamicPakId": "1013",
             "id": "Backpack_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/featured.png",
@@ -28866,7 +28955,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Someone's hungry.",
-            "dynamicPakId": "1013",
             "id": "Character_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_sushiaware/featured.png",
@@ -28937,7 +29025,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "What's got you so wound up?",
-            "dynamicPakId": "1013",
             "id": "Backpack_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_sushiaware/featured.png",
@@ -28981,7 +29068,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "This rabbit's hare-raisin'.",
-            "dynamicPakId": "1013",
             "id": "Character_TearErrand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/character_tearerrand/featured.png",
@@ -29049,7 +29135,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Ready to wail.",
-            "dynamicPakId": "1013",
             "id": "Backpack_TearErrand",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand/featured.png",
@@ -29093,7 +29178,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "The last concert you'll ever see.",
-            "dynamicPakId": "1013",
             "id": "EID_GuardHence",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_guardhence/icon.png",
@@ -29137,7 +29221,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Wait, what was that?",
-            "dynamicPakId": "1013",
             "id": "EID_TearErrand",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tearerrand/icon.png",
@@ -29181,7 +29264,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_guardhence/featured.png",
@@ -29225,7 +29307,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Show some respect.",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_SushiAware",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_sushiaware/featured.png",
@@ -29269,7 +29350,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Can you survive five songs?",
-            "dynamicPakId": "1013",
             "id": "Backpack_GuardHence_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence_mic/featured.png",
@@ -29285,8 +29365,19 @@
             "name": "Freddy's Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -29302,7 +29393,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Can you survive five songs?",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_GuardHence_Mic",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_guardhence_mic/featured.png",
@@ -29318,8 +29408,19 @@
             "name": "Freddy's Mic",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -29335,7 +29436,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "It's hare-raisin'!",
-            "dynamicPakId": "1013",
             "id": "Backpack_TearErrand_Bass",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tearerrand_bass/featured.png",
@@ -29351,8 +29451,19 @@
             "name": "Bonnie's Blazin' Guitar",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -29368,7 +29479,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "It's hare-raisin'!",
-            "dynamicPakId": "1013",
             "id": "Pickaxe_TearErrand_Bass",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tearerrand_bass/featured.png",
@@ -29384,8 +29494,19 @@
             "name": "Bonnie's Blazin' Guitar",
             "rarity": {
               "backendValue": "EFortRarity::Rare",
-              "displayValue": "Rare",
-              "value": "rare"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "set": {
               "backendValue": "GracefulBadger",
@@ -29469,8 +29590,19 @@
             "name": "Freddy's Mic",
             "rarity": {
               "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "type": {
               "backendValue": "SparksMic",
@@ -29489,8 +29621,19 @@
             "name": "Bonnie's Blazin' Guitar",
             "rarity": {
               "backendValue": "EFortRarity::Common",
-              "displayValue": "Common",
-              "value": "common"
+              "displayValue": "Gaming Legends Series",
+              "value": "gaminglegends"
+            },
+            "series": {
+              "backendValue": "PlatformSeries",
+              "colors": [
+                "8078ffff",
+                "5328d6ff",
+                "3e1398ff",
+                "28085fff",
+                "0d0027ff"
+              ],
+              "value": "Gaming Legends Series"
             },
             "type": {
               "backendValue": "SparksBass",
@@ -29730,6 +29873,7 @@
         },
         "layoutId": "Friday.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_GnatGala",
           "id": "DAv2_EID_GnatGala",
           "materialInstances": [],
           "renderImages": [
@@ -29754,7 +29898,6 @@
           {
             "added": "2026-10-01T18:37:28Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_BulkHusked",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_bulkhusked/featured.png",
@@ -29805,6 +29948,7 @@
         },
         "layoutId": "BR101526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_BulkHusked",
           "id": "DAv2_Shoes_BulkHusked",
           "materialInstances": [],
           "renderImages": [
@@ -29882,6 +30026,7 @@
         },
         "layoutId": "FNM101526.91",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_CorvidStomp",
           "id": "DAv2_Pickaxe_CorvidStomp",
           "materialInstances": [],
           "renderImages": [
@@ -30154,7 +30299,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Wait, what was that?",
-            "dynamicPakId": "1013",
             "id": "EID_TearErrand",
             "images": {
               "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tearerrand/icon.png",
@@ -30390,6 +30534,7 @@
         },
         "layoutId": "Ninjago.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_BlessFlan",
           "id": "DAv2_EID_BlessFlan",
           "materialInstances": [],
           "renderImages": [
@@ -30771,6 +30916,7 @@
         },
         "layoutId": "Ninjago.97",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ScallopLava",
           "id": "DAv2_EID_ScallopLava",
           "materialInstances": [],
           "renderImages": [
@@ -31432,6 +31578,7 @@
         },
         "layoutId": "Deadmau5RF.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_FareSporeCookie",
           "id": "DAv2_EID_FareSporeCookie",
           "materialInstances": [],
           "renderImages": [
@@ -32126,6 +32273,7 @@
         },
         "layoutId": "BR101526.99",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_BrineBite",
           "id": "DAv2_Shoes_BrineBite",
           "materialInstances": [],
           "renderImages": [
@@ -32831,7 +32979,6 @@
           {
             "added": "2026-10-08T13:00:54Z",
             "description": "Show your style.",
-            "dynamicPakId": "1004",
             "id": "Wrap_TerryBroke",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_terrybroke/featured.png",
@@ -32894,6 +33041,7 @@
         },
         "layoutId": "99Nights2.97",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_TerryBroke",
           "id": "DAv2_Wrap_TerryBroke",
           "materialInstances": [],
           "renderImages": [
@@ -33929,7 +34077,6 @@
           {
             "added": "2026-10-01T18:37:28Z",
             "description": "Show 'em off.",
-            "dynamicPakId": "1006",
             "id": "Shoes_PatchPump",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_patchpump/featured.png",
@@ -34385,7 +34532,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Sing along to the Fazbear Band!",
-            "dynamicPakId": "1013",
             "id": "Backpack_GuardHence",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_guardhence/featured.png",
@@ -34619,7 +34765,6 @@
           {
             "added": "2026-10-02T13:00:13Z",
             "description": "Show your style.",
-            "dynamicPakId": "1007",
             "id": "Wrap_ApronChow",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_apronchow/featured.png",
@@ -34745,7 +34890,6 @@
           {
             "added": "2026-10-01T08:00:00Z",
             "description": "Sorry, out of order.",
-            "dynamicPakId": "1013",
             "id": "Backpack_JigsawWaste",
             "images": {
               "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_jigsawwaste/featured.png",
@@ -35340,6 +35484,7 @@
         },
         "layoutId": "RickandMortyAll.96",
         "newDisplayAsset": {
+          "cosmeticId": "Character_LentilAnise",
           "id": "DAv2_Character_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -35730,6 +35875,7 @@
         },
         "layoutId": "BR101526.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_CarmineFae",
           "id": "DAv2_Character_CarmineFae",
           "materialInstances": [],
           "renderImages": [
@@ -35858,6 +36004,7 @@
         },
         "layoutId": "RickandMortyAll.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_LentilAnise",
           "id": "DAv2_Pickaxe_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -36126,6 +36273,7 @@
         },
         "layoutId": "FNM101526.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_451_DarkEaglePurple",
           "id": "DAv2_Pickaxe_ID_451_DarkEaglePurple",
           "materialInstances": [],
           "renderImages": [
@@ -36199,6 +36347,7 @@
         },
         "layoutId": "RickandMortyAll.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_LentilAnise",
           "id": "DAv2_EID_LentilAnise",
           "materialInstances": [],
           "renderImages": [
@@ -36276,6 +36425,7 @@
         },
         "layoutId": "FNM101526.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_105_Scarecrow",
           "id": "DAv2_Pickaxe_ID_105_Scarecrow",
           "materialInstances": [],
           "renderImages": [
@@ -36615,6 +36765,7 @@
         },
         "layoutId": "FNM101526.95",
         "newDisplayAsset": {
+          "cosmeticId": "Character_PocketScrunchie",
           "id": "DAv2_Character_PocketScrunchie",
           "materialInstances": [],
           "renderImages": [
@@ -37396,6 +37547,7 @@
         },
         "layoutId": "RickandMortyAll.95",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_ElixirFret",
           "id": "DAv2_Companion_ElixirFret",
           "materialInstances": [],
           "renderImages": [
@@ -37508,6 +37660,7 @@
         },
         "layoutId": "RickandMortyAll.95",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_AboutJury",
           "id": "DAv2_Companion_AboutJury",
           "materialInstances": [],
           "renderImages": [

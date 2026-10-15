@@ -3001,8 +3001,19 @@
       "name": "Freddy's Mic",
       "rarity": {
         "backendValue": "EFortRarity::Common",
-        "displayValue": "Common",
-        "value": "common"
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
       },
       "type": {
         "backendValue": "SparksMic",
@@ -6747,6 +6758,26 @@
       }
     },
     {
+      "added": "2026-10-15T11:24:13Z",
+      "description": "No more talking.",
+      "id": "Sparks_RadarDigit_Mic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/instruments/sparks_radardigit_mic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/instruments/sparks_radardigit_mic/small.png"
+      },
+      "name": "Up 2 Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "SparksMic",
+        "displayValue": "Microphone",
+        "value": "mic"
+      }
+    },
+    {
       "added": "2025-12-18T10:36:34Z",
       "description": "A treasured lute.",
       "id": "Sparks_RainbowHouse_Guitar",
@@ -7334,8 +7365,19 @@
       "name": "Bonnie's Blazin' Guitar",
       "rarity": {
         "backendValue": "EFortRarity::Common",
-        "displayValue": "Common",
-        "value": "common"
+        "displayValue": "Gaming Legends Series",
+        "value": "gaminglegends"
+      },
+      "series": {
+        "backendValue": "PlatformSeries",
+        "colors": [
+          "8078ffff",
+          "5328d6ff",
+          "3e1398ff",
+          "28085fff",
+          "0d0027ff"
+        ],
+        "value": "Gaming Legends Series"
       },
       "type": {
         "backendValue": "SparksBass",
