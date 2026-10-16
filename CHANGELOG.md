@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-16
+- **00:58** Instruments, Item Shop - +58 new (GEEK TIMË, Games Guard, Human Bill Booties, DIABOLICAL BUNDLE, Burning Blades, +53 more) - -36 removed
+
 ## 2026-10-15
 - **22:33** Item Shop, News, Epic Content Pages - +1 new (Horrors Worth Facing Together) - -1 removed
 - **19:19** News - +1 new (Horrors Worth Facing Together) - -1 removed
