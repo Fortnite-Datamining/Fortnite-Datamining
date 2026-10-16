@@ -100,6 +100,90 @@
       }
     },
     {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Tune on in.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_AcidWhale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Alastor's Radio",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale/variants/material/mat0.png",
+              "name": "On",
+              "tag": "Mat0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale/variants/material/mat1.png",
+              "name": "Off",
+              "tag": "Mat1"
+            }
+          ],
+          "type": "Reactivity"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Shredding with a smile!",
+      "dynamicPakId": "1018",
+      "id": "Backpack_AcidWhale_Keytar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale_keytar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale_keytar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_acidwhale_keytar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Alastor's Ivories",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2026-06-12T13:01:03Z",
       "description": "Candy is dandy but Gummigoo is... Candy... wait that doesn't work...",
       "id": "Backpack_AgarBelly",
@@ -52550,6 +52634,72 @@
       }
     },
     {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "A cat, a key, and a hotel all at once.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_SmoothGriffin",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_smoothgriffin/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_smoothgriffin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_smoothgriffin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "KeeKee",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Hear my hope, let it echo!",
+      "dynamicPakId": "1018",
+      "id": "Backpack_SmoothGriffin_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_smoothgriffin_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_smoothgriffin_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_smoothgriffin_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Morningstar's Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-05-16T08:50:37Z",
       "description": "The ultimate brain drain.",
       "id": "Backpack_SmoothSuede",
@@ -65253,6 +65403,39 @@
         "backendValue": "SuddenBoundary",
         "text": "Part of the Original Trilogy set.",
         "value": "Original Trilogy"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "They are out of love.",
+      "dynamicPakId": "1018",
+      "id": "Backpack_WidowFoam",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_widowfoam/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_widowfoam/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_widowfoam/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Vagatha's Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -110896,6 +111079,57 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Also known as the Radio Demon.",
+      "dynamicPakId": "1018",
+      "id": "Character_AcidWhale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_acidwhale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_acidwhale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_acidwhale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Alastor",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_acidwhale/variants/parts/stage1.png",
+              "name": "Alastor",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_acidwhale/variants/parts/stage2.png",
+              "name": "Demon Form",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2025-12-18T10:38:26Z",
@@ -187148,6 +187382,39 @@
       }
     },
     {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Princess of Hell. Founder of Hazbin Hotel.",
+      "dynamicPakId": "1018",
+      "id": "Character_SmoothGriffin",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_smoothgriffin/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_smoothgriffin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_smoothgriffin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Princess Charlie Morningstar",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2025-05-16T08:50:37Z",
       "description": "Not every game is meant to be won.",
       "id": "Character_SmoothSuede",
@@ -207027,6 +207294,39 @@
           "type": "harness"
         }
       ]
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Fallen-angel-turned-hotel-manager.",
+      "dynamicPakId": "1018",
+      "id": "Character_WidowFoam",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_widowfoam/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_widowfoam/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_widowfoam/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Vagatha",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2025-05-16T08:50:37Z",
@@ -315826,6 +316126,38 @@
       }
     },
     {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Alastor pulls all the strings.",
+      "dynamicPakId": "1018",
+      "id": "EID_AcidWhale",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_acidwhale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_acidwhale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Alastor's Scheme",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:46Z",
       "description": "Take it for a spin.",
       "id": "EID_AcrobaticSuperhero",
@@ -362859,6 +363191,7 @@
         "text": "Part of the Yeat set.",
         "value": "Yeat"
       },
+      "showcaseVideo": "-4rsbDez3fo",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -362891,6 +363224,7 @@
         "text": "Part of the Yeat set.",
         "value": "Yeat"
       },
+      "showcaseVideo": "amCZj9mfa6E",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -370007,6 +370341,38 @@
         "value": "uncommon"
       },
       "showcaseVideo": "E6snvHN3u8c",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Another happy day in... you know where.",
+      "dynamicPakId": "1018",
+      "id": "EID_SmoothGriffin",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_smoothgriffin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_smoothgriffin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "A Happy Day...",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -484179,6 +484545,72 @@
       }
     },
     {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "It's kinda just a microphone.",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_AcidWhale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_acidwhale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_acidwhale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_acidwhale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Alastor's Staff",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Shredding with a smile!",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_AcidWhale_Keytar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_acidwhale_keytar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_acidwhale_keytar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_acidwhale_keytar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Alastor's Ivories",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2026-06-12T13:01:03Z",
       "description": "Bubble's got a foul mouth",
       "id": "Pickaxe_AgarBelly",
@@ -564950,6 +565382,72 @@
       }
     },
     {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Stab Stab Stab!",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_SmoothGriffin",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_smoothgriffin/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_smoothgriffin/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_smoothgriffin/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Charlie's Trident",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Hear my hope, let it echo!",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_SmoothGriffin_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_smoothgriffin_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_smoothgriffin_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_smoothgriffin_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Morningstar's Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2025-05-16T08:50:37Z",
       "description": "Snap to it.",
       "id": "Pickaxe_SmoothSuede",
@@ -575583,6 +576081,39 @@
         "backendValue": "SuddenBoundary",
         "text": "Part of the Original Trilogy set.",
         "value": "Original Trilogy"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Righteously sharp.",
+      "dynamicPakId": "1018",
+      "id": "Pickaxe_WidowFoam",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_widowfoam/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_widowfoam/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_widowfoam/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Vagatha's Spear",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -656433,6 +656964,39 @@
         "backendValue": "HidingTime",
         "text": "Part of the Sneaking set.",
         "value": "Sneaking"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-10-16T13:01:19Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1018",
+      "id": "Wrap_AcidWhale",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_acidwhale/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_acidwhale/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_acidwhale/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Hazbin Grin",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrowdOrganic",
+        "text": "Part of the Hazbin Hotel set.",
+        "value": "Hazbin Hotel"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
