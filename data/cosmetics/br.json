@@ -6939,6 +6939,39 @@
       }
     },
     {
+      "added": "2026-10-16T17:53:19Z",
+      "description": "Has a 12-hour battery life.",
+      "dynamicPakId": "1025",
+      "id": "Backpack_CarryMazeFlap",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_carrymazeflap/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_carrymazeflap/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_carrymazeflap/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Purge Drone",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BendNote",
+        "text": "Part of the The Purge set.",
+        "value": "The Purge"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-08-10T00:00:00Z",
       "description": "A one-man army in a bag.",
       "id": "Backpack_CashewRoll",
@@ -121652,6 +121685,57 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-10-16T17:53:19Z",
+      "description": "A truly patriotic Purge participant.",
+      "dynamicPakId": "1025",
+      "id": "Character_CarryMazeFlap",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_carrymazeflap/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_carrymazeflap/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_carrymazeflap/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Lady Liberty",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "BendNote",
+        "text": "Part of the The Purge set.",
+        "value": "The Purge"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_carrymazeflap/variants/material/mat1.png",
+              "name": "On",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_carrymazeflap/variants/material/mat2.png",
+              "name": "Off",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "Splatter"
+        }
+      ]
     },
     {
       "added": "2024-08-10T00:00:00Z",
@@ -325283,6 +325367,38 @@
       }
     },
     {
+      "added": "2026-10-16T17:53:19Z",
+      "description": "Stay shocking.",
+      "dynamicPakId": "1025",
+      "id": "EID_CarryMazeFlap",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_carrymazeflap/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_carrymazeflap/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Electrified Flex",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BendNote",
+        "text": "Part of the The Purge set.",
+        "value": "The Purge"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:45Z",
       "description": "Head over heels. ",
       "id": "EID_Cartwheel",
@@ -402769,6 +402885,37 @@
         "backendValue": "CircleImage",
         "text": "Part of the Omega Engage set.",
         "value": "Omega Engage"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-10-16T17:53:19Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1025",
+      "id": "Emoticon_CarryMaze",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_carrymaze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Purge Mask",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BendNote",
+        "text": "Part of the The Purge set.",
+        "value": "The Purge"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -491383,6 +491530,39 @@
         "value": "Loki"
       },
       "showcaseVideo": "z5T5ZP1Kgcw",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-16T16:00:46Z",
+      "description": "For the free and the brave.",
+      "dynamicPakId": "1015",
+      "id": "Pickaxe_CarryMazeFlap",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_carrymazeflap/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_carrymazeflap/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_carrymazeflap/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 35,
+        "chapter": "6",
+        "season": "3",
+        "text": "Introduced in Chapter 6, Season 3."
+      },
+      "name": "Liberty's Purge Torch",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BendNote",
+        "text": "Part of the The Purge set.",
+        "value": "The Purge"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -659946,6 +660126,39 @@
         "backendValue": "CircleImage",
         "text": "Part of the Omega Engage set.",
         "value": "Omega Engage"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-10-16T16:00:46Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1015",
+      "id": "Wrap_CarryMaze",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_carrymaze/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_carrymaze/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_carrymaze/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Purge Counter",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BendNote",
+        "text": "Part of the The Purge set.",
+        "value": "The Purge"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
