@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-17
+- **23:17** News - +1 new (Live - Lady Liberty Cup) - -1 removed
 - **16:06** BR Cosmetics, Item Shop
 - **04:47** Item Shop
 - **00:07** BR Cosmetics, Item Shop, Epic Content Pages - +51 new (Mime Time, Alastor's Radio, KeeKee, Vagatha's Spear, Parasail Purse, +46 more) - -40 removed
