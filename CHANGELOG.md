@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-18
+- **06:17** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **01:20** Item Shop - +24 new (Birdshot, Oblivion, Snow Globe, Crackdown, Tower Recon Specialist, +19 more) - -69 removed
 
 ## 2026-10-17
