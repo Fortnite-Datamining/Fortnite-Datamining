@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-18
+- **01:20** Item Shop - +24 new (Birdshot, Oblivion, Snow Globe, Crackdown, Tower Recon Specialist, +19 more) - -69 removed
+
 ## 2026-10-17
 - **23:17** News - +1 new (Live - Lady Liberty Cup) - -1 removed
 - **16:06** BR Cosmetics, Item Shop
