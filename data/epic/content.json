@@ -2170,7 +2170,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-10-16T22:10:07.017Z",
+  "lastModified": "2026-10-19T22:00:07.033Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -68753,10 +68753,26 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-10-09T22:03:09.700Z",
+    "lastModified": "2026-10-19T22:00:07.033Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/image-bundle-featured-holidaytime-br-1024x1024-78e3f2463189.png"
+            },
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.Juno",
+              "renderImage": "https://cdn2.unrealengine.com/image-bundle-featured-holidaytime-jn-2048x2048-a6cc2a41fb23.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_HolidayTime.DAv2_Bundle_Featured_HolidayTime"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [
