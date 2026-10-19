@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-19
+- **05:38** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **00:43** Item Shop, News - +40 new (Chomp Sr., Kane, Wednesday's Dance, Chomp Stompers, Yule Trooper Bundle, +35 more) - -51 removed
 
 ## 2026-10-18
