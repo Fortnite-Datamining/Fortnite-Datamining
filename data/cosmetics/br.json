@@ -21412,6 +21412,39 @@
       }
     },
     {
+      "added": "2026-10-19T15:00:33Z",
+      "description": "Ensnare their attention.",
+      "dynamicPakId": "1019",
+      "id": "Backpack_FonduePaper",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_fonduepaper/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_fonduepaper/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_fonduepaper/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Tentacles of the Slender Man",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "NoisyBirds",
+        "text": "Part of the The Slender Man set.",
+        "value": "The Slender Man"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-01-14T09:36:24Z",
       "description": "He's one happy flapper.",
       "id": "Backpack_ForestBath",
@@ -139093,6 +139126,57 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-10-19T15:00:33Z",
+      "description": "Be careful in the forest.",
+      "dynamicPakId": "1019",
+      "id": "Character_FonduePaper",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_fonduepaper/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_fonduepaper/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_fonduepaper/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "The Slender Man",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "NoisyBirds",
+        "text": "Part of the The Slender Man set.",
+        "value": "The Slender Man"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_fonduepaper/variants/parts/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_fonduepaper/variants/parts/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "defined face"
+        }
+      ]
     },
     {
       "added": "2025-01-14T09:36:24Z",
@@ -503032,6 +503116,52 @@
       }
     },
     {
+      "added": "2026-10-19T15:00:33Z",
+      "description": "Surprise the unsuspecting.",
+      "dynamicPakId": "1019",
+      "id": "Pickaxe_FonduePaper",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_fonduepaper/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_fonduepaper/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_fonduepaper/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Slender Tendrils",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "NoisyBirds",
+        "text": "Part of the The Slender Man set.",
+        "value": "The Slender Man"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Mesh",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_fonduepaper/variants/mesh/stage1.png",
+              "name": "Universal",
+              "tag": "Stage1"
+            }
+          ],
+          "type": "TEMP DEV ONLY"
+        }
+      ]
+    },
+    {
       "added": "2025-01-14T09:36:24Z",
       "description": "Imbued with the blessing of an ancient kitsune.",
       "id": "Pickaxe_ForestBath",
@@ -613557,6 +613687,41 @@
         "backendValue": "FNCS",
         "text": "Part of the FNCS set.",
         "value": "FNCS"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-10-19T15:00:33Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1019",
+      "id": "Spray_FonduePaper",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_fonduepaper/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_fonduepaper/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_fonduepaper/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "The Slender Man Was Here",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "NoisyBirds",
+        "text": "Part of the The Slender Man set.",
+        "value": "The Slender Man"
       },
       "type": {
         "backendValue": "AthenaSpray",
