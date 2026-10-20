@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-20
+- **23:16** Item Shop, News, Epic Content Pages - +1 new (Live - Slender Man Cup) - -1 removed
 - **20:15** BR Cosmetics, Jam Tracks, Item Shop, Banners - +2 new (Kryptonite, Suavemente)
 - **16:36** BR Cosmetics, Item Shop, AES Keys - +4 new (One Wish Willow, Nikki, No No No..., Nikki's Broken Bottle)
 - **06:29** Item Shop
