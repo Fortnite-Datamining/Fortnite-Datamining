@@ -6864,6 +6864,39 @@
       }
     },
     {
+      "added": "2026-10-20T13:01:18Z",
+      "description": "You only get one wish.",
+      "dynamicPakId": "1009",
+      "id": "Backpack_CargoLying",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cargolying/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_cargolying/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_cargolying/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "One Wish Willow",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "SquareRule",
+        "text": "Part of the Obsession set.",
+        "value": "Obsession"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2024-06-22T08:21:26Z",
       "description": "You're gonna feel this one later.",
       "id": "Backpack_CarolinaChili",
@@ -121565,6 +121598,57 @@
         "displayValue": "Outfit",
         "value": "outfit"
       }
+    },
+    {
+      "added": "2026-10-20T13:01:18Z",
+      "description": "Be careful who you wish for...",
+      "dynamicPakId": "1009",
+      "id": "Character_CargoLying",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Nikki",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "SquareRule",
+        "text": "Part of the Obsession set.",
+        "value": "Obsession"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/variants/material/mat1.png",
+              "name": "off",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cargolying/variants/material/mat2.png",
+              "name": "on",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "splatter"
+        }
+      ]
     },
     {
       "added": "2024-09-04T14:57:46Z",
@@ -325413,6 +325497,38 @@
       }
     },
     {
+      "added": "2026-10-20T13:01:18Z",
+      "description": "Don't do that!",
+      "dynamicPakId": "1009",
+      "id": "EID_CargoLying",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_cargolying/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_cargolying/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "No No No...",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "SquareRule",
+        "text": "Part of the Obsession set.",
+        "value": "Obsession"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2024-05-05T16:03:20Z",
       "description": "Keep them guessing so they don't see it coming.",
       "id": "EID_CarrotCake",
@@ -491543,6 +491659,39 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-20T13:01:18Z",
+      "description": "Don't make her use it.",
+      "dynamicPakId": "1009",
+      "id": "Pickaxe_CargoLying",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cargolying/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cargolying/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cargolying/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Nikki's Broken Bottle",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "SquareRule",
+        "text": "Part of the Obsession set.",
+        "value": "Obsession"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
