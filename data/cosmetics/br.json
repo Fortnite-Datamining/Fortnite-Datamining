@@ -121601,7 +121601,7 @@
     },
     {
       "added": "2026-10-20T13:01:18Z",
-      "description": "Be careful who you wish for...",
+      "description": "Be Careful What You Wish For",
       "dynamicPakId": "1009",
       "id": "Character_CargoLying",
       "images": {
@@ -176932,6 +176932,17 @@
             }
           ],
           "type": "Sunglasses"
+        },
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_radardigitortho/variants/emissive/emissive1.png",
+              "name": "on",
+              "tag": "Emissive1"
+            }
+          ],
+          "type": "goatee"
         }
       ]
     },
