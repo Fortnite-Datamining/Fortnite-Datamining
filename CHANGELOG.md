@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-20
+- **01:29** Item Shop, Epic Content Pages - +56 new (Toshiro's Carapace, Opal, Star Assassin, Goodie Gourd, The Mothman Bundle, +51 more) - -56 removed
+
 ## 2026-10-19
 - **22:32** Epic Content Pages
 - **18:24** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +4 new (Tentacles of the Slender Man, The Slender Man, Slender Tendrils, The Slender Man Was Here)
