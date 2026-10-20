@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-20
+- **06:29** Item Shop
 - **01:29** Item Shop, Epic Content Pages - +56 new (Toshiro's Carapace, Opal, Star Assassin, Goodie Gourd, The Mothman Bundle, +51 more) - -56 removed
 
 ## 2026-10-19
