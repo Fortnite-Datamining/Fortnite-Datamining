@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-21
+- **01:49** Item Shop, News - +41 new (Underdome Megaphone, Jack-O'-Cat, The Ron-troller, Psycho Bandit, Aerobic Assassin, +36 more) - -50 removed
+
 ## 2026-10-20
 - **23:16** Item Shop, News, Epic Content Pages - +1 new (Live - Slender Man Cup) - -1 removed
 - **20:15** BR Cosmetics, Jam Tracks, Item Shop, Banners - +2 new (Kryptonite, Suavemente)
