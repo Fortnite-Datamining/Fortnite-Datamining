@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-22
+- **00:05** Item Shop, Epic Content Pages - +26 new (Ultima Carver, Obsession Bundle, Battle Tiger, Innovator Slone, Gourd's Aegis, +21 more) - -38 removed
+
 ## 2026-10-21
 - **01:49** Item Shop, News - +41 new (Underdome Megaphone, Jack-O'-Cat, The Ron-troller, Psycho Bandit, Aerobic Assassin, +36 more) - -50 removed
 
