@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-22
+- **19:21** Epic Content Pages
 - **15:27** BR Cosmetics, Jam Tracks, Item Shop, Epic Content Pages - +6 new (Five Nights At Freddy's, Lachryma, Somebody's Watching Me (Urban Renewal Project Remix), Werewolves of London, Halloweentown Theme, +1 more)
 - **00:05** Item Shop, Epic Content Pages - +26 new (Ultima Carver, Obsession Bundle, Battle Tiger, Innovator Slone, Gourd's Aegis, +21 more) - -38 removed
 

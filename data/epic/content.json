@@ -2170,7 +2170,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-10-21T22:35:40.458Z",
+  "lastModified": "2026-10-22T19:16:15.391Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -39281,7 +39281,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-10-09T18:06:49.997Z",
+    "lastModified": "2026-10-22T19:16:15.391Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -42580,6 +42580,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "Game_Elements_FNBR",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sprite Variants (e.g., Gold, Gummy)",
+              "textID": "Sprite Variants (e.g., Gold, Gummy)"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Arcade machines",
