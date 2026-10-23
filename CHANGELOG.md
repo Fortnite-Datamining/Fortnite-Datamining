@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-23
+- **01:09** BR Cosmetics, Item Shop - +38 new (Patch Patroller, The Batman Who Laughs, Clover Case, Shadow Kintsugi, Bring It, +33 more) - -42 removed
+
 ## 2026-10-22
 - **22:35** Epic Content Pages
 - **19:21** Epic Content Pages
