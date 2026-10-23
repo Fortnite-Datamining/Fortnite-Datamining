@@ -2021,6 +2021,90 @@
       ]
     },
     {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "It's showtime!",
+      "dynamicPakId": "1026",
+      "id": "Backpack_AsideDepot",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Beetlejuice's Marquee",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "The most musical alien on all of Saturn's 274 moons.",
+      "dynamicPakId": "1026",
+      "id": "Backpack_AsideDepot_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_asidedepot_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Six-Stringed Sandworm",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-11-02T20:05:32Z",
       "description": "Cultivate a reputation for style.",
       "id": "Backpack_AsterOrder",
@@ -113150,6 +113234,44 @@
           "type": "super levels"
         }
       ]
+    },
+    {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "Say his name three times.",
+      "dynamicPakId": "1026",
+      "id": "Character_AsideDepot",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_asidedepot/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_asidedepot/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_asidedepot/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_asidedepot/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_asidedepot/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_asidedepot/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Beetlejuice",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2025-11-02T20:05:32Z",
@@ -318695,6 +318817,70 @@
       }
     },
     {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "A dance for the recently deceased.",
+      "dynamicPakId": "1026",
+      "id": "EID_AsideDepot",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_asidedepot/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_asidedepot/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Day-o",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "Take a ride to the Afterlife.",
+      "dynamicPakId": "1026",
+      "id": "EID_AsideDepotStair",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_asidedepotstair/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_asidedepotstair/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Sandworm Surfer",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2024-03-26T08:30:33Z",
       "description": "Don't blow it.",
       "id": "EID_Aspire",
@@ -486798,6 +486984,72 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "That's one way to change a lightbulb.",
+      "dynamicPakId": "1026",
+      "id": "Pickaxe_AsideDepot",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Marquee Masher",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "The most musical alien on all of Saturn's 274 moons.",
+      "dynamicPakId": "1026",
+      "id": "Pickaxe_AsideDepot_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_asidedepot_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Six-Stringed Sandworm",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
     },
     {
       "added": "2025-04-08T08:41:18Z",
@@ -658198,6 +658450,39 @@
         "backendValue": "SingleGun",
         "text": "Part of the One Man Army set.",
         "value": "One Man Army"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-10-23T13:01:22Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1026",
+      "id": "Wrap_AsideDepot",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_asidedepot/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_asidedepot/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_asidedepot/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Beetlejuice Spirals",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ChannelFrogs",
+        "text": "Part of the Beetlejuice set.",
+        "value": "Beetlejuice"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
