@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-23
+- **23:18** Cars, Item Shop, AES Keys, Epic Content Pages - +2 new (Freddy Fazbear, Faz-Token)
 - **16:20** BR Cosmetics, Instruments, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Epic Content Pages - +12 new (Beetlejuice's Marquee, Six-Stringed Sandworm, Beetlejuice, Day-o, Sandworm Surfer, +7 more)
 - **11:54** Item Shop, Banners
 - **01:09** BR Cosmetics, Item Shop - +38 new (Patch Patroller, The Batman Who Laughs, Clover Case, Shadow Kintsugi, Bring It, +33 more) - -42 removed

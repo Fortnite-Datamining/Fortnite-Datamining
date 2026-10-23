@@ -16737,6 +16737,27 @@
       "vehicleId": "VCID_Skin_OctaneSticky04"
     },
     {
+      "added": "2026-10-23T20:29:33Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneSunsetEffigy01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanesunseteffigy01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanesunseteffigy01/small.png"
+      },
+      "name": "Freddy Fazbear",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_OctaneSunsetEffigy01"
+    },
+    {
       "added": "2024-06-15T20:48:58Z",
       "description": "YOU GOT THIS. Octane custom decal.",
       "id": "CarSkin_OctaneThunder01",
@@ -42361,6 +42382,27 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Stuffed"
+    },
+    {
+      "added": "2026-10-23T20:29:33Z",
+      "description": "Fazbear's favorite.",
+      "id": "Wheel_SunsetEffigyLTE01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sunseteffigylte01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sunseteffigylte01/small.png"
+      },
+      "name": "Faz-Token",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_SunsetEffigyLTE01"
     },
     {
       "added": "2025-01-31T14:24:26Z",

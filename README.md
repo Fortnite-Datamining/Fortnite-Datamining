@@ -25,7 +25,7 @@ Current build: `++Fortnite+Release-42.40-CL-59086525`
 | Category | Items |
 |----------|-------|
 | BR Cosmetics | 16,615 |
-| Cars | 1,796 |
+| Cars | 1,798 |
 | Instruments | 316 |
 | LEGO Cosmetics | 2,510 |
 | LEGO Kits | 469 |
