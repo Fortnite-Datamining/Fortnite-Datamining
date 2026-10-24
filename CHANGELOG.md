@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-24
+- **15:17** BR Cosmetics, News, AES Keys - +5 new (HamiKuma's Bucket of Treats, HamiKuma, HamiKuma's Paws, HamiKuma Was Here, Live - Mobile Series Championship) - -1 removed
 - **01:46** BR Cosmetics, Item Shop, AES Keys - +34 new (Texas Primadonna, Jack O'Sassin, JT Coming, Battle Barn, Beetlejuice Spirals, +29 more) - -26 removed
 
 ## 2026-10-23

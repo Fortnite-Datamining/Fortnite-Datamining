@@ -66558,6 +66558,39 @@
       ]
     },
     {
+      "added": "2026-10-24T13:00:30Z",
+      "description": "Overflowing with sinister sweetness.",
+      "dynamicPakId": "1039",
+      "id": "Backpack_ZenithPair",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_zenithpair/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_zenithpair/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_zenithpair/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "HamiKuma's Bucket of Treats",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DustyTower",
+        "text": "Part of the Halloween Horror Nights set.",
+        "value": "Halloween Horror Nights"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-06-12T21:47:52Z",
       "description": "Shards pulsing with psychic resonance.",
       "id": "Backpack_ZirconSweep",
@@ -208980,6 +209013,42 @@
           "type": "super level"
         }
       ]
+    },
+    {
+      "added": "2026-10-24T13:00:30Z",
+      "description": "So cute, it's scary.",
+      "dynamicPakId": "1039",
+      "id": "Character_ZenithPair",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_zenithpair/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_zenithpair/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_zenithpair/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.Special.Large"
+      ],
+      "name": "HamiKuma",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DustyTower",
+        "text": "Part of the Halloween Horror Nights set.",
+        "value": "Halloween Horror Nights"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2023-06-12T21:47:52Z",
@@ -577686,6 +577755,39 @@
       ]
     },
     {
+      "added": "2026-10-24T13:00:30Z",
+      "description": "Shreds with ease.",
+      "dynamicPakId": "1039",
+      "id": "Pickaxe_ZenithPair",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_zenithpair/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_zenithpair/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_zenithpair/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "HamiKuma's Paws",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "DustyTower",
+        "text": "Part of the Halloween Horror Nights set.",
+        "value": "Halloween Horror Nights"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2023-06-12T21:47:52Z",
       "description": "A gift from storm and desert.",
       "id": "Pickaxe_ZirconSweep",
@@ -634156,6 +634258,41 @@
         "backendValue": "BreakFall",
         "text": "Part of the Stunt Master set.",
         "value": "Stunt Master"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-10-24T13:00:30Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1039",
+      "id": "Spray_ZenithPair",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_zenithpair/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_zenithpair/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_zenithpair/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "HamiKuma Was Here",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DustyTower",
+        "text": "Part of the Halloween Horror Nights set.",
+        "value": "Halloween Horror Nights"
       },
       "type": {
         "backendValue": "AthenaSpray",
