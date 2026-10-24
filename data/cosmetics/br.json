@@ -29540,6 +29540,57 @@
       }
     },
     {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Ace is along for the journey.",
+      "dynamicPakId": "1029",
+      "id": "Backpack_IvoryDwell",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_ivorydwell/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_ivorydwell/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Ace's Cozy Pack",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_ivorydwell/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_ivorydwell/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
+    },
+    {
       "added": "2023-04-11T10:06:45Z",
       "description": "Tip the scales.",
       "id": "Backpack_IvyCross",
@@ -152894,6 +152945,78 @@
             }
           ],
           "type": "mask"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Petit pas par petit pas.",
+      "dynamicPakId": "1029",
+      "id": "Character_IvoryDwell",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_ivorydwell/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_ivorydwell/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_ivorydwell/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Inoxtag",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/variants/material/mat1.png",
+              "name": "Inoxtag",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/variants/material/mat2.png",
+              "name": "Kaizen Inoxtag",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "style"
+        },
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/variants/parts/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_ivorydwell/variants/parts/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Gear"
         }
       ]
     },
@@ -348133,6 +348256,38 @@
       }
     },
     {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Your lil' quad awaits.",
+      "dynamicPakId": "1029",
+      "id": "EID_IvoryDwell",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_ivorydwell/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Lil' 4x4",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2025-08-27T16:19:21Z",
       "description": "Unleash Terrible Tornado's devasting psychic powers.",
       "id": "EID_IvyStub",
@@ -445259,6 +445414,42 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-10-24T20:00:22Z",
+      "description": "Enjoy the view from the top.",
+      "dynamicPakId": "1027",
+      "id": "LoadingScreen_IvoryDwell",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ivorydwell/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ivorydwell/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ivorydwell/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Inoxtag's Vista",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -544635,6 +544826,39 @@
       }
     },
     {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Take it one slice at a time.",
+      "dynamicPakId": "1029",
+      "id": "Pickaxe_IvoryDwell",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ivorydwell/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ivorydwell/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Kaizen Mountain Axes",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2023-04-11T10:06:45Z",
       "description": "It's fangtastic!",
       "id": "Pickaxe_IvyCross",
@@ -616829,6 +617053,76 @@
       }
     },
     {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1029",
+      "id": "Spray_IvoryDwell",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_ivorydwell/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_ivorydwell/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Team Croutons",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Leave your mark.",
+      "dynamicPakId": "1029",
+      "id": "Spray_IvoryDwell2",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_ivorydwell2/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_ivorydwell2/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_ivorydwell2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Believe in Your Dreams",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2023-09-26T14:25:42Z",
       "description": "Leave your mark.",
       "id": "Spray_IWD",
@@ -668569,6 +668863,39 @@
         "backendValue": "TinyDark",
         "text": "Part of the In the Shadows set.",
         "value": "In the Shadows"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-10-24T20:12:27Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1029",
+      "id": "Wrap_IvoryDwell",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_ivorydwell/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_ivorydwell/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_ivorydwell/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Inoxtag'd",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "ElegantCut",
+        "text": "Part of the Set_01 set.",
+        "value": "Set_01"
       },
       "type": {
         "backendValue": "AthenaItemWrap",

@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-24
+- **21:02** BR Cosmetics, LEGO Cosmetics, AES Keys, Epic Content Pages - +9 new (Ace's Cozy Pack, Inoxtag, Lil' 4x4, Inoxtag's Vista, Kaizen Mountain Axes, +4 more)
 - **18:16** News, AES Keys - +1 new (Keep Collecting and Mastering) - -1 removed
 - **15:17** BR Cosmetics, News, AES Keys - +5 new (HamiKuma's Bucket of Treats, HamiKuma, HamiKuma's Paws, HamiKuma Was Here, Live - Mobile Series Championship) - -1 removed
 - **01:46** BR Cosmetics, Item Shop, AES Keys - +34 new (Texas Primadonna, Jack O'Sassin, JT Coming, Battle Barn, Beetlejuice Spirals, +29 more) - -26 removed
