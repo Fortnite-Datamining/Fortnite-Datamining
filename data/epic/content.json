@@ -2170,7 +2170,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-10-23T22:30:00.731Z",
+  "lastModified": "2026-10-23T22:45:39.145Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -71278,15 +71278,26 @@
     }
   },
   "shopoffervisuals": {
-    "_activeDate": "2026-05-30T00:00:00.000Z",
+    "_activeDate": "2026-10-24T22:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-10-19T22:00:07.033Z",
+    "lastModified": "2026-10-23T22:45:39.145Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/image-backpack-zenithpair-0-br-2048x2048-9d2b7330f4a4.png"
+            }
+          ],
+          "visualId": "/OfferCatalog/NewDisplayAssets/S42/DAv2_backpack_zenithpair.DAv2_backpack_zenithpair"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [
