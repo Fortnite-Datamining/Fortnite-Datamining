@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-25
+- **17:09** News - +1 new (Live - Mobile Series Championship) - -1 removed
 - **02:56** Item Shop, News - +38 new (Magmatic Carver, Air Jordan 1 Retro High OG 'Shattered Backboard 3.0', Longhorn, Shadow Slip-Ons, Eggman's E-TAR, +33 more) - -43 removed
 
 ## 2026-10-24
