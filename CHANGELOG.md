@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-25
+- **02:56** Item Shop, News - +38 new (Magmatic Carver, Air Jordan 1 Retro High OG 'Shattered Backboard 3.0', Longhorn, Shadow Slip-Ons, Eggman's E-TAR, +33 more) - -43 removed
+
 ## 2026-10-24
 - **23:30** News, Epic Content Pages - +1 new (Live - HamiKuma Cup) - -1 removed
 - **21:02** BR Cosmetics, LEGO Cosmetics, AES Keys, Epic Content Pages - +9 new (Ace's Cozy Pack, Inoxtag, Lil' 4x4, Inoxtag's Vista, Kaizen Mountain Axes, +4 more)
