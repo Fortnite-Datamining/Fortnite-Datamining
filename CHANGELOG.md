@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-26
+- **22:59** Item Shop, News, Banners, Epic Content Pages - +1 new (Live - NAC - FNCS Solos Finals) - -1 removed
 - **18:46** Cars, Item Shop, News, AES Keys, Epic Content Pages - +8 new (NASCAR Next Gen Ford Mustang, NASCAR Next Gen Ford Mustang, NASCAR Classic, Team Penske, Wood Brothers Racing, +3 more) - -1 removed
 - **05:43** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **00:31** Item Shop, News - +72 new (Firebrand, Gold Cutters, Dynamo Dancer, Rhinestoned, Borrowed Power Cell, +67 more) - -45 removed
