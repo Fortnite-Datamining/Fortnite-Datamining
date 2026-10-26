@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-26
+- **00:31** Item Shop, News - +72 new (Firebrand, Gold Cutters, Dynamo Dancer, Rhinestoned, Borrowed Power Cell, +67 more) - -45 removed
+
 ## 2026-10-25
 - **19:50** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **17:09** News - +1 new (Live - Mobile Series Championship) - -1 removed
