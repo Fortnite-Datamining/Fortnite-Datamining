@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-27
+- **22:49** Item Shop, News, Epic Content Pages - +1 new (Live - NAC - FNCS Solos Finals) - -1 removed
 - **18:51** BR Cosmetics, Item Shop, News, Banners - +1 new (Live - EU - FNCS Solos Finals) - -1 removed
 - **07:26** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **01:57** Item Shop - +35 new (Sugar Skull, Inoxtag Bundle, Shadow Ops, Snowstrike, Remembrance Salvador, +30 more) - -52 removed
