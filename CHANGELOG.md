@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-27
+- **01:57** Item Shop - +35 new (Sugar Skull, Inoxtag Bundle, Shadow Ops, Snowstrike, Remembrance Salvador, +30 more) - -52 removed
+
 ## 2026-10-26
 - **22:59** Item Shop, News, Banners, Epic Content Pages - +1 new (Live - NAC - FNCS Solos Finals) - -1 removed
 - **18:46** Cars, Item Shop, News, AES Keys, Epic Content Pages - +8 new (NASCAR Next Gen Ford Mustang, NASCAR Next Gen Ford Mustang, NASCAR Classic, Team Penske, Wood Brothers Racing, +3 more) - -1 removed
