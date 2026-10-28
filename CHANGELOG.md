@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-28
+- **01:59** BR Cosmetics, Item Shop - +31 new (Putrid Polarity, Surgical Scalpel, Nurse Lenore, Splinterstrike, Jolterror, +26 more) - -25 removed
+
 ## 2026-10-27
 - **22:49** Item Shop, News, Epic Content Pages - +1 new (Live - NAC - FNCS Solos Finals) - -1 removed
 - **18:51** BR Cosmetics, Item Shop, News, Banners - +1 new (Live - EU - FNCS Solos Finals) - -1 removed
