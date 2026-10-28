@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-28
+- **15:17** BR Cosmetics, Item Shop, AES Keys - +4 new (Thia, Dek, Predator's Sword Slash, Dek's Plasma Sword)
 - **08:15** News - +1 new (Keep Collecting and Mastering) - -1 removed
 - **01:59** BR Cosmetics, Item Shop - +31 new (Putrid Polarity, Surgical Scalpel, Nurse Lenore, Splinterstrike, Jolterror, +26 more) - -25 removed
 

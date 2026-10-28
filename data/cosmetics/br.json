@@ -877,6 +877,39 @@
       }
     },
     {
+      "added": "2026-10-28T13:00:47Z",
+      "description": "Property of the  Weyland-Yutani Corporation.",
+      "dynamicPakId": "1035",
+      "id": "Backpack_AltoGorgon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_altogorgon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_altogorgon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_altogorgon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Thia",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "IceIdea",
+        "text": "Part of the Predator Badlands set.",
+        "value": "Predator Badlands"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-02-14T09:00:00Z",
       "description": "Hard-hearted and stylishly sharp.",
       "id": "Backpack_Amour",
@@ -112148,6 +112181,57 @@
             }
           ],
           "type": "style"
+        }
+      ]
+    },
+    {
+      "added": "2026-10-28T13:00:47Z",
+      "description": "Dek of the Yautja.",
+      "dynamicPakId": "1035",
+      "id": "Character_AltoGorgon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Dek",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "IceIdea",
+        "text": "Part of the Predator Badlands set.",
+        "value": "Predator Badlands"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/variants/parts/stage1.png",
+              "name": "off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_altogorgon/variants/parts/stage2.png",
+              "name": "on",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Helmet"
         }
       ]
     },
@@ -317778,6 +317862,38 @@
       }
     },
     {
+      "added": "2026-10-28T13:00:47Z",
+      "description": "For the honor of the Yautja.",
+      "dynamicPakId": "1035",
+      "id": "EID_AltoGorgon",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_altogorgon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_altogorgon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Predator's Sword Slash",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "IceIdea",
+        "text": "Part of the Predator Badlands set.",
+        "value": "Predator Badlands"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2020-12-21T11:37:15Z",
       "description": "Wakanda Forever.",
       "id": "EID_AmazingForever_Q68W0",
@@ -486151,6 +486267,39 @@
         "backendValue": "LowBee",
         "text": "Part of the John Wick (Pen & Ink) set.",
         "value": "John Wick (Pen & Ink)"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-10-28T13:00:47Z",
+      "description": "The Yautja's sword of choice.",
+      "dynamicPakId": "1035",
+      "id": "Pickaxe_AltoGorgon",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_altogorgon/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_altogorgon/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_altogorgon/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "Dek's Plasma Sword",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "IceIdea",
+        "text": "Part of the Predator Badlands set.",
+        "value": "Predator Badlands"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
