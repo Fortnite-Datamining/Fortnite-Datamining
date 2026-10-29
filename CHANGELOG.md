@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-29
+- **23:28** Item Shop, Epic Content Pages
 - **19:08** BR Cosmetics, Item Shop
 - **06:09** Item Shop
 - **00:11** Item Shop, Epic Content Pages - +34 new (Dek, Dark Grasp, Siren, Reflex Blades, Technician Naya, +29 more) - -17 removed
