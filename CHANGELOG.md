@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-29
+- **00:11** Item Shop, Epic Content Pages - +34 new (Dek, Dark Grasp, Siren, Reflex Blades, Technician Naya, +29 more) - -17 removed
+
 ## 2026-10-28
 - **20:26** BR Cosmetics, Item Shop, News, Epic Content Pages - +4 new (Two Ways to Play, Land Smart to Start Strong, Play Defense with Health and Shields, Open Chests for the Best Loot) - -4 removed
 - **15:17** BR Cosmetics, Item Shop, AES Keys - +4 new (Thia, Dek, Predator's Sword Slash, Dek's Plasma Sword)
