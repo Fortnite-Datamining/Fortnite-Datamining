@@ -330186,6 +330186,46 @@
       }
     },
     {
+      "added": "2026-10-30T00:00:00Z",
+      "description": "Just... calm down, okay?",
+      "dynamicPakId": "1036",
+      "id": "EID_CreatureComfort",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_creaturecomfort/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_creaturecomfort/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 42,
+        "chapter": "7",
+        "season": "4",
+        "text": "Introduced in Chapter 7, Season 4."
+      },
+      "name": "She Bugging (Whatchu Gonna Do)",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "showcaseVideo": "BGC-6M6Oqck",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2026-07-16T08:00:00Z",
       "description": "This plant needs plenty of sun.",
       "id": "EID_CrimpPerfume",
