@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-31
+- **17:50** News - +1 new (The Horror Is Here) - -1 removed
 - **00:35** Item Shop, Epic Content Pages - +23 new (Bull Shield, Xenomorph Tail, Ripley & Xenomorph Bundle, Space Gear Bundle, Pestilent Parasol, +18 more) - -29 removed
 
 ## 2026-10-30
