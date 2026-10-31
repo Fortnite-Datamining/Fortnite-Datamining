@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-10-31
+- **20:54** News, Epic Content Pages - +4 new (Bring Your Squad Back From the Brink, Rarer Color, Better Weapons!, Five Nights at Freddy's Gameplay, Treasure Hunters - November 1) - -4 removed
 - **17:50** News - +1 new (The Horror Is Here) - -1 removed
 - **00:35** Item Shop, Epic Content Pages - +23 new (Bull Shield, Xenomorph Tail, Ripley & Xenomorph Bundle, Space Gear Bundle, Pestilent Parasol, +18 more) - -29 removed
 
