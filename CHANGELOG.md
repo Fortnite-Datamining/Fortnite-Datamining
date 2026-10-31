@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-10-31
+- **00:35** Item Shop, Epic Content Pages - +23 new (Bull Shield, Xenomorph Tail, Ripley & Xenomorph Bundle, Space Gear Bundle, Pestilent Parasol, +18 more) - -29 removed
+
 ## 2026-10-30
 - **20:59** Item Shop, Banners
 - **02:49** BR Cosmetics, Item Shop, AES Keys - +40 new (She Bugging (Whatchu Gonna Do), Rex, Art the Clown Bundle, Fixation, Moose, +35 more) - -45 removed
