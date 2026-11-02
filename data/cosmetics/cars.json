@@ -306,6 +306,27 @@
       "vehicleId": "VCID_Body_Brick"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "null",
+      "id": "CarBody_Brigand",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_brigand/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_brigand/small.png"
+      },
+      "name": "Brigand",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Brigand"
+    },
+    {
       "added": "2024-10-15T12:11:52Z",
       "description": "Race inspired F1 icon.",
       "id": "CarBody_Bullet",
@@ -1042,6 +1063,27 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_Garage"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Next level tek.",
+      "id": "CarBody_Gilliam",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_gilliam/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_gilliam/small.png"
+      },
+      "name": "Vulcan",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Gilliam"
     },
     {
       "added": "2025-12-18T10:36:36Z",
@@ -2329,6 +2371,27 @@
       "vehicleId": "VCID_Body_SandScreen"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Stronger than limits.",
+      "id": "CarBody_SandTote",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_sandtote/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_sandtote/small.png"
+      },
+      "name": "Mercedes-AMG G 63 'G-Wagon'",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_SandTote"
+    },
+    {
       "added": "2024-06-25T00:00:00Z",
       "description": "Focus on the drive.",
       "id": "CarBody_Sassy",
@@ -2380,6 +2443,27 @@
         "value": "body"
       },
       "vehicleId": "VCID_Body_ScarA"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "null",
+      "id": "CarBody_Scarab",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_scarab/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_scarab/small.png"
+      },
+      "name": "Scarab",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Scarab"
     },
     {
       "added": "2026-05-14T10:11:56Z",
@@ -2816,6 +2900,38 @@
       "vehicleId": "VCID_Body_Takumiii"
     },
     {
+      "added": "2025-10-02T12:09:47Z",
+      "description": "Blank",
+      "id": "CarBody_Ten",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_ten/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_ten/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Ten"
+    },
+    {
       "added": "2024-04-09T08:37:33Z",
       "description": "It's lit!",
       "id": "CarBody_Thrice",
@@ -2917,7 +3033,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_trackspice/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_trackspice/small.png"
       },
-      "name": "Mercedes 190E Evo II",
+      "name": "Mercedes-Benz 190 E Evo II FN",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -5776,7 +5892,7 @@
     },
     {
       "added": "2026-09-10T13:00:47Z",
-      "description": "Cadillac CT5-V Blackwing custom decal.",
+      "description": "Cadillac CT5-V Blackwing custom decal. ",
       "id": "CarSkin_BurnishedRavenLivery01",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_burnishedravenlivery01/large.png",
@@ -9597,6 +9713,132 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_Garage04"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Vulcan custom decal.",
+      "id": "CarSkin_gilliamarctype",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamarctype/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamarctype/small.png"
+      },
+      "name": "ARC",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_gilliamarctype"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Vulcan custom decal.",
+      "id": "CarSkin_gilliamflames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamflames/small.png"
+      },
+      "name": "Cryo-Flames",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_gilliamflames"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Vulcan custom decal.",
+      "id": "CarSkin_gilliammedic",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliammedic/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliammedic/small.png"
+      },
+      "name": "Medic",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_gilliammedic"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Vulcan custom decal.",
+      "id": "CarSkin_gilliamspaceworm",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamspaceworm/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamspaceworm/small.png"
+      },
+      "name": "Space Worm",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_gilliamspaceworm"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Vulcan custom decal.",
+      "id": "CarSkin_GilliamStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamstripes/small.png"
+      },
+      "name": "Combat",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_GilliamStripes"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Vulcan custom decal.",
+      "id": "CarSkin_GilliamUFO",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamufo/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_gilliamufo/small.png"
+      },
+      "name": "Armada",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_GilliamUFO"
     },
     {
       "added": "2026-04-09T13:00:49Z",
@@ -15016,6 +15258,27 @@
       "vehicleId": "VCID_Skin_OctaneHHBanjoLTE01"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneHonDuel01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanehonduel01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octanehonduel01/small.png"
+      },
+      "name": "LCV Steel",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_OctaneHonDuel01"
+    },
+    {
       "added": "2024-04-09T08:37:33Z",
       "description": "Aang Octane decal.",
       "id": "CarSkin_OctaneIceBurg",
@@ -15540,6 +15803,48 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_OctaneReaper"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneRoutineBarley01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneroutinebarley01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneroutinebarley01/small.png"
+      },
+      "name": "Monkey D. Luffy",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_OctaneRoutineBarley01"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Octane custom decal.",
+      "id": "CarSkin_OctaneRoutineBarley02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneroutinebarley02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_octaneroutinebarley02/small.png"
+      },
+      "name": "Going Merry",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_OctaneRoutineBarley02"
     },
     {
       "added": "2025-09-18T13:07:46Z",
@@ -20219,6 +20524,153 @@
       "vehicleId": "VCID_CarSkin_SandScreen04"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotelivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotelivery01/small.png"
+      },
+      "name": "Baroque",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SandToteLivery01"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotelivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotelivery02/small.png"
+      },
+      "name": "Selfie Snap",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SandToteLivery02"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteLivery03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotelivery03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotelivery03/small.png"
+      },
+      "name": "Marble Surge",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SandToteLivery03"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteRoutineBarley01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtoteroutinebarley01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtoteroutinebarley01/small.png"
+      },
+      "name": "Monkey D. Luffy",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandToteRoutineBarley01"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteRoutineBarley02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtoteroutinebarley02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtoteroutinebarley02/small.png"
+      },
+      "name": "Going Merry",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandToteRoutineBarley02"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteRoutineBarley03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtoteroutinebarley03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtoteroutinebarley03/small.png"
+      },
+      "name": "Straw Hat Gold",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_SandToteRoutineBarley03"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Mercedes-AMG G 63 'G-Wagon' custom decal.",
+      "id": "CarSkin_SandToteTreasureHunt01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotetreasurehunt01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_sandtotetreasurehunt01/small.png"
+      },
+      "name": "Golden Llama Crew",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_SandToteTreasureHunt01"
+    },
+    {
       "added": "2024-06-25T00:00:00Z",
       "description": "Nissan Z Performance custom decal.",
       "id": "CarSkin_SassyFlames",
@@ -20831,7 +21283,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Flames",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2flames/large.png",
@@ -20852,7 +21304,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Frosted",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2frosted/large.png",
@@ -20873,7 +21325,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Liberty",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2liberty/large.png",
@@ -20894,7 +21346,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Lightning",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2lightning/large.png",
@@ -20915,7 +21367,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Simon",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2simon/large.png",
@@ -20936,7 +21388,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Stripes",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2stripes/large.png",
@@ -20957,7 +21409,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Nissan Silvia RLE custom decal.",
+      "description": "Nissan Silvia RLE Custom Decal",
       "id": "CarSkin_SeasaltT2Wings",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_seasaltt2wings/large.png",
@@ -23276,6 +23728,230 @@
       "vehicleId": "VCID_CarSkin_TakumiiiTechArrows"
     },
     {
+      "added": "2025-10-02T12:09:47Z",
+      "description": "Blank",
+      "id": "CarSkin_TenFlames",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenflames/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenflames/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TenFlames"
+    },
+    {
+      "added": "2025-10-02T12:09:47Z",
+      "description": "Blank",
+      "id": "CarSkin_TenLightning",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlightning/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlightning/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TenLightning"
+    },
+    {
+      "added": "2025-10-02T12:09:47Z",
+      "description": "Blank",
+      "id": "CarSkin_TenLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlivery01/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TenLivery01"
+    },
+    {
+      "added": "2025-08-26T08:17:18Z",
+      "description": "Blank",
+      "id": "CarSkin_TenLivery02",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlivery02/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlivery02/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TenLivery02"
+    },
+    {
+      "added": "2025-08-26T08:17:18Z",
+      "description": "Blank",
+      "id": "CarSkin_TenLivery03",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlivery03/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenlivery03/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_TenLivery03"
+    },
+    {
+      "added": "2025-10-02T12:09:47Z",
+      "description": "Blank",
+      "id": "CarSkin_TenStripes",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenstripes/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenstripes/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TenStripes"
+    },
+    {
+      "added": "2025-10-02T12:09:47Z",
+      "description": "Blank",
+      "id": "CarSkin_TenWings",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenwings/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_tenwings/small.png"
+      },
+      "name": "Blank",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "series": {
+        "backendValue": "Series_Bugatti",
+        "colors": [
+          "ffffffff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff",
+          "db1c30ff"
+        ],
+        "value": "BUGATTI SERIES"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_TenWings"
+    },
+    {
       "added": "2024-04-09T08:37:33Z",
       "description": "Fuse custom decal.",
       "id": "CarSkin_ThriceFlamesAll",
@@ -23810,7 +24486,7 @@
     },
     {
       "added": "2026-08-24T13:00:27Z",
-      "description": "Mercedes-Benz 190E Evo II custom decal.",
+      "description": "Mercedes-Benz 190 E Evo II FN custom decal.",
       "id": "CarSkin_TrackSpice01",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_trackspice01/large.png",
@@ -23831,7 +24507,7 @@
     },
     {
       "added": "2026-08-24T13:00:27Z",
-      "description": "Mercedes-Benz 190E Evo II custom decal.",
+      "description": "Mercedes-Benz 190 E Evo II FN custom decal.",
       "id": "CarSkin_TrackSpice02",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_trackspice02/large.png",
@@ -23852,7 +24528,7 @@
     },
     {
       "added": "2026-08-24T13:00:27Z",
-      "description": "Mercedes-Benz 190E Evo II custom decal.",
+      "description": "Mercedes-Benz 190 E Evo II FN custom decal.",
       "id": "CarSkin_TrackSpice03",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_trackspice03/large.png",
@@ -23873,7 +24549,7 @@
     },
     {
       "added": "2026-08-24T13:00:27Z",
-      "description": "Mercedes-Benz 190E Evo II custom decal.",
+      "description": "Mercedes-Benz 190 E Evo II FN custom decal.",
       "id": "CarSkin_TrackSpice04",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_trackspice04/large.png",
@@ -26200,23 +26876,6 @@
       "vehicleId": "VCID_Booster_CelestialSpark"
     },
     {
-      "added": "2026-06-06T03:03:15Z",
-      "description": "null",
-      "id": "ID_Booster_CherryBlossom",
-      "name": "TBD",
-      "rarity": {
-        "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
-      },
-      "type": {
-        "backendValue": "VehicleCosmetics_Booster",
-        "displayValue": "Turbo",
-        "value": "booster"
-      },
-      "vehicleId": "VCID_Booster_CherryBlossom"
-    },
-    {
       "added": "2026-09-25T17:16:57Z",
       "description": "Color command.",
       "id": "ID_Booster_ChromaticAberration",
@@ -28494,6 +29153,27 @@
         "value": "booster"
       },
       "vehicleId": "VCID_Booster_RLCSRaleigh"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Freedom on the Blue Sea.",
+      "id": "ID_Booster_RoutineBarley01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_booster_routinebarley01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_booster_routinebarley01/small.png"
+      },
+      "name": "Straw Hat Crew",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Booster",
+        "displayValue": "Turbo",
+        "value": "booster"
+      },
+      "vehicleId": "VCID_Booster_RoutineBarley01"
     },
     {
       "added": "2024-12-18T12:18:27Z",
@@ -31318,6 +31998,27 @@
       "vehicleId": "VCID_DriftTrail_RoadSparks"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "From Syrup to the open seas!",
+      "id": "ID_DriftTrail_RoutineBarley01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_routinebarley01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_drifttrail_routinebarley01/small.png"
+      },
+      "name": "Going Merry Sea Trail",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_DriftTrail",
+        "displayValue": "Trail",
+        "value": "drifttrail"
+      },
+      "vehicleId": "VCID_DriftTrail_RoutineBarley01"
+    },
+    {
       "added": "2025-06-07T19:00:27Z",
       "description": "Perfect ten.",
       "id": "ID_DriftTrail_RP10Year",
@@ -32242,6 +32943,27 @@
         "value": "skin"
       },
       "vehicleId": "VCID_Skin_Octane_Stripes"
+    },
+    {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Octane custom decal.",
+      "id": "ID_Skin_Octane_T",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/id_skin_octane_t/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/id_skin_octane_t/small.png"
+      },
+      "name": "T",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_Skin_Octane_T"
     },
     {
       "added": "2024-01-05T21:55:08Z",
@@ -35857,6 +36579,27 @@
       "vehicleId": "VCID_Wheel_GildedVersaillesSE"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Next level tek.",
+      "id": "Wheel_Gilliam",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_gilliam/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_gilliam/small.png"
+      },
+      "name": "Vulcan",
+      "rarity": {
+        "backendValue": "EFortRarity::Common",
+        "displayValue": "Common",
+        "value": "common"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Gilliam"
+    },
+    {
       "added": "2024-11-13T10:13:42Z",
       "description": "Good things come in threes.",
       "id": "Wheel_Glassy",
@@ -38245,7 +38988,7 @@
     },
     {
       "added": "2026-10-03T13:00:46Z",
-      "description": "Fanatically tuned.",
+      "description": "Fanatically treaded.",
       "id": "Wheel_RevivalLine01",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_revivalline01/large.png",
@@ -40695,6 +41438,27 @@
       "vehicleId": "VCID_Wheel_Rose"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Take the wheel!",
+      "id": "Wheel_RoutineBarley01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_routinebarley01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_routinebarley01/small.png"
+      },
+      "name": "Straw Hats' Jolly Roger",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_RoutineBarley01"
+    },
+    {
       "added": "2025-09-18T13:07:46Z",
       "description": "On the run.",
       "id": "Wheel_RPGoldenLychee",
@@ -41158,6 +41922,27 @@
       "vehicleId": "VCID_Wheel_SandScreen02"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Stronger than limits.",
+      "id": "Wheel_SandTote01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandtote01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_sandtote01/small.png"
+      },
+      "name": "Mercedes-AMG G 63 'G-Wagon'",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_SandTote01"
+    },
+    {
       "added": "2024-06-25T00:00:00Z",
       "description": "Driven to excellence.",
       "id": "Wheel_SassyA",
@@ -41254,7 +42039,7 @@
     },
     {
       "added": "2026-08-23T11:46:51Z",
-      "description": "Precision drifting.",
+      "description": "Precision Drifting.",
       "id": "Wheel_SeasaltT2",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_seasaltt2/large.png",
@@ -42606,13 +43391,13 @@
     },
     {
       "added": "2025-10-02T12:09:47Z",
-      "description": "Reminiscence of an icon.",
+      "description": "Blank",
       "id": "Wheel_Ten",
       "images": {
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_ten/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_ten/small.png"
       },
-      "name": "Bugatti Centodieci",
+      "name": "Blank",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -42781,6 +43566,27 @@
       "vehicleId": "VCID_Wheel_Tomb"
     },
     {
+      "added": "2026-11-01T23:10:43Z",
+      "description": "Custom Wheel.",
+      "id": "Wheel_TondiInverted",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_tondiinverted/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_tondiinverted/small.png"
+      },
+      "name": "Agasaya: Inverted",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_TondiInverted"
+    },
+    {
       "added": "2025-08-26T08:17:18Z",
       "description": "A supernova spinner.",
       "id": "Wheel_Toonxbg",
@@ -42882,7 +43688,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_trackspice01/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_trackspice01/small.png"
       },
-      "name": "Mercedes-Benz 190E Evo II",
+      "name": "Mercedes-Benz 190 E Evo II FN",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -42903,7 +43709,7 @@
         "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_trackspice02/large.png",
         "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_trackspice02/small.png"
       },
-      "name": "Mercedes-Benz 190E Evo II Redux",
+      "name": "Mercedes-Benz 190 E Evo II FN Redux",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
