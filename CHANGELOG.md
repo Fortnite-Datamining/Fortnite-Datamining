@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-02
+- **17:19** BR Cosmetics, News, Epic Content Pages - +1 new (Keep Tabs on the Adventure!) - -1 removed
 - **00:57** Build update: `++Fortnite+Release-43.00-CL-59596594`
 
 ## 2026-11-01

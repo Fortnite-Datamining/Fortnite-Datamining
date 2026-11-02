@@ -24314,11 +24314,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Auto Shotgun",
-              "textID": "Auto Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Meat on a Stick",
               "textID": "Meat on a Stick"
             },
@@ -24341,11 +24336,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Gum-Gum Fruit",
               "textID": "Gum-Gum Fruit"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Explosive Cannon Ball",
-              "textID": "Explosive Cannon Ball"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24912,11 +24902,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Gilded Dragoon Shotgun",
-              "textID": "Gilded Dragoon Shotgun"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Explosive Cannon Ball",
               "textID": "Explosive Cannon Ball"
             },
@@ -25099,6 +25084,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Hunting Rifle",
               "textID": "Hunting Rifle"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Heavy Assault Rifle",
+              "textID": "Heavy Assault Rifle"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -37108,12 +37098,12 @@
     }
   },
   "playersurveyv2Additions": {
-    "_activeDate": "2026-10-15T12:00:00.000Z",
+    "_activeDate": "2026-11-01T09:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-10-22T19:16:15.391Z",
+    "lastModified": "2026-10-31T16:28:14.556Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40429,11 +40419,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cheat Codes",
-              "textID": "Cheat Codes"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sprites",
               "textID": "Sprites"
             },
@@ -40441,16 +40426,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sprite Dust",
               "textID": "Sprite Dust"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Override consoles",
-              "textID": "Override consoles"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Different types of Overrides",
-              "textID": "Different types of Overrides"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -40468,6 +40443,66 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Sprite",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Transponder Snail Sprite",
+              "textID": "Transponder Snail Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Plundarrgh Sprite",
+              "textID": "Plundarrgh Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Kelper Sprite",
+              "textID": "Kelper Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lil' Squibbly Sprite",
+              "textID": "Lil' Squibbly Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Sweet Dreams Sprite",
+              "textID": "Sweet Dreams Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lil' Flacko Sprite",
+              "textID": "Lil' Flacko Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Wayfinder Sprite",
+              "textID": "Wayfinder Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Exmarks Sprite",
+              "textID": "Exmarks Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Chester Sprite",
+              "textID": "Chester Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Barry O'Fish Sprite",
+              "textID": "Barry O'Fish Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Re-Pete Sprite",
+              "textID": "Re-Pete Sprite"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Halfpeel'd Sprite",
+              "textID": "Halfpeel'd Sprite"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Honey Sprite",
@@ -40848,23 +40883,13 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "A Cheat Code is a code you enter on walls or graffiti tiles to spawn a Sprite",
-              "textID": "A Cheat Code is a code you enter on walls or graffiti tiles to spawn a Sprite"
+              "localizedText": "You need keys to open treasure chests",
+              "textID": "You need keys to open treasure chests"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "A Loot Hack is how you make certain items appear more often in your chests",
-              "textID": "A Loot Hack is how you make certain items appear more often in your chests"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "A Cheat Code is how you make certain items appear more often in your chests",
-              "textID": "A Cheat Code is how you make certain items appear more often in your chests"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "A Loot Hack is a code you enter on walls or graffiti tiles to spawn a Sprite",
-              "textID": "A Loot Hack is a code you enter on walls or graffiti tiles to spawn a Sprite"
+              "localizedText": "Treasures you find in chests stay with you after the match",
+              "textID": "Treasures you find in chests stay with you after the match"
             }
           ]
         },
@@ -41343,6 +41368,96 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, the Greatest Adventure of All Time is happening in Fortnite Battle Royale (each week introduces new gameplay items, quests, bosses, landmarks, and Sprites)",
+              "textID": "in this season, the Greatest Adventure of All Time is happening in Fortnite Battle Royale (each week introduces new gameplay items, quests, bosses, landmarks, and Sprites)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "A$AP Rocky has arrived in Fortnite Battle Royale",
+              "textID": "A$AP Rocky has arrived in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can find Devil Fruits in Fortnite Battle Royale (fruits that transform you into a One Piece character and give you their powers)",
+              "textID": "in this season, you can find Devil Fruits in Fortnite Battle Royale (fruits that transform you into a One Piece character and give you their powers)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Fortune Sprite variant is now available in Fortnite Battle Royale",
+              "textID": "the Fortune Sprite variant is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Transponder Snail Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Transponder Snail Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Plundarrgh Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Plundarrgh Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Kelper Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Kelper Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Lil' Squibbly Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Lil' Squibbly Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Sweet Dreams Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Sweet Dreams Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Lil' Flacko Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Lil' Flacko Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Wayfinder Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Wayfinder Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Exmarks Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Exmarks Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Chester Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Chester Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Barry O'Fish Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Barry O'Fish Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Re-Pete Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Re-Pete Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "the Halfpeel'd Sprite is now available in Fortnite Battle Royale",
+              "textID": "the Halfpeel'd Sprite is now available in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "in this season, you can find treasures in Battle Royale by opening some chests",
+              "textID": "in this season, you can find treasures in Battle Royale by opening some chests"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "some of the treasures you can find in chests change every week",
+              "textID": "some of the treasures you can find in chests change every week"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "in this season, some Sprites are Quack variants, which share half the Sprite XP they earn with the other Sprites in your inventory",
               "textID": "in this season, some Sprites are Quack variants, which share half the Sprite XP they earn with the other Sprites in your inventory"
             },
@@ -41355,46 +41470,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Honey Sprite is now available in Fortnite Battle Royale",
               "textID": "the Honey Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Big Loot Override (which makes chests more likely to drop Epic or Legendary loot) at an Override Console",
-              "textID": "in this season, you can activate the Big Loot Override (which makes chests more likely to drop Epic or Legendary loot) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Overshield Override (which gives you an Overshield, or more of it if you already have one) at an Override Console",
-              "textID": "in this season, you can activate the Overshield Override (which gives you an Overshield, or more of it if you already have one) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Infinite Stamina Override (which gives you unlimited stamina) at an Override Console",
-              "textID": "in this season, you can activate the Infinite Stamina Override (which gives you unlimited stamina) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Big Fish Override (which turns every fishing hole on the map golden) at an Override Console",
-              "textID": "in this season, you can activate the Big Fish Override (which turns every fishing hole on the map golden) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Extra Life Override (which lets you and your squad respawn once when eliminated) at an Override Console",
-              "textID": "in this season, you can activate the Extra Life Override (which lets you and your squad respawn once when eliminated) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Loot Hack Override (which guarantees a Loot Hack item in the next chest you open) at an Override Console",
-              "textID": "in this season, you can activate the Loot Hack Override (which guarantees a Loot Hack item in the next chest you open) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the More XP Override (which gives you more XP for the rest of the match) at an Override Console",
-              "textID": "in this season, you can activate the More XP Override (which gives you more XP for the rest of the match) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Sonic Speed Override (which makes you sprint faster) at an Override Console",
-              "textID": "in this season, you can activate the Sonic Speed Override (which makes you sprint faster) at an Override Console"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -41433,31 +41508,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Pumpkin Launching Override (which fires a pumpkin rocket from time to time when you shoot) at an Override Console",
-              "textID": "in this season, you can activate the Pumpkin Launching Override (which fires a pumpkin rocket from time to time when you shoot) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Sugar Rush Override (which makes candy heal more and boost your speed and jumps) at an Override Console",
-              "textID": "in this season, you can activate the Sugar Rush Override (which makes candy heal more and boost your speed and jumps) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Berserk Override (which makes you deal more damage when your health is lower) at an Override Console",
-              "textID": "in this season, you can activate the Berserk Override (which makes you deal more damage when your health is lower) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the No Shield Override (which removes your shield and doubles your health) at an Override Console",
-              "textID": "in this season, you can activate the No Shield Override (which removes your shield and doubles your health) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Spooky Sprinter Override (which cloaks you while you sprint) at an Override Console",
-              "textID": "in this season, you can activate the Spooky Sprinter Override (which cloaks you while you sprint) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "in this season, you can wear an animatronic suit by defeating one of the four animatronics at Freddy Fazbear's Pizzeria (Freddy, Chica, Bonnie, or Foxy)",
               "textID": "in this season, you can wear an animatronic suit by defeating one of the four animatronics at Freddy Fazbear's Pizzeria (Freddy, Chica, Bonnie, or Foxy)"
             },
@@ -41493,51 +41543,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Recovery Override (it spawns healing orbs each time you eliminate an enemy) at an Override Console",
-              "textID": "in this season, you can activate the Recovery Override (it spawns healing orbs each time you eliminate an enemy) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Level Up Override (which gives you Mythic Kingdom Keys) at an Override Console",
-              "textID": "in this season, you can activate the Level Up Override (which gives you Mythic Kingdom Keys) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Health Siphon Override (which gives you back part of the damage you deal as health) at an Override Console",
-              "textID": "in this season, you can activate the Health Siphon Override (which gives you back part of the damage you deal as health) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Healing Overdrive Override (which gives you Overdrive when you heal) at an Override Console",
-              "textID": "in this season, you can activate the Healing Overdrive Override (which gives you Overdrive when you heal) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Suppressing Fire Override (which gives you increased ammo capacity) at an Override Console",
-              "textID": "in this season, you can activate the Suppressing Fire Override (which gives you increased ammo capacity) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Big Boom Override (which stops fall damage and sets off an explosion when you land, bigger the longer you fall) at an Override Console",
-              "textID": "in this season, you can activate the Big Boom Override (which stops fall damage and sets off an explosion when you land, bigger the longer you fall) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Super Shot Override (which makes your next bullet deal extra damage from time to time) at an Override Console",
-              "textID": "in this season, you can activate the Super Shot Override (which makes your next bullet deal extra damage from time to time) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Dynamic Storm Override (which makes the storm close in faster than usual) at an Override Console",
-              "textID": "in this season, you can activate the Dynamic Storm Override (which makes the storm close in faster than usual) at an Override Console"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, some Sprites are Loot Hacker variants, which increase the chance of items spawning from your Loot Hacks",
-              "textID": "in this season, some Sprites are Loot Hacker variants, which increase the chance of items spawning from your Loot Hacks"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "in this season, you can earn rewards from quests for the Sprites you master",
               "textID": "in this season, you can earn rewards from quests for the Sprites you master"
             },
@@ -41565,41 +41570,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Mega Man Sprite is now available in Fortnite Battle Royale",
               "textID": "the Mega Man Sprite is now available in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Sharpshooter Override at an Override Console (which increases weapon accuracy and reduces recoil and bloom)",
-              "textID": "in this season, you can activate the Sharpshooter Override at an Override Console (which increases weapon accuracy and reduces recoil and bloom)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Action Hero Override at an Override Console (which lets you enter Hangtime and deal extra damage while aiming in the air)",
-              "textID": "in this season, you can activate the Action Hero Override at an Override Console (which lets you enter Hangtime and deal extra damage while aiming in the air)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Hunter Scavenger Override at an Override Console (which marks nearby enemies from time to time, and marks eliminated enemies on the map for a short time)",
-              "textID": "in this season, you can activate the Hunter Scavenger Override at an Override Console (which marks nearby enemies from time to time, and marks eliminated enemies on the map for a short time)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Big Head Mode Override at an Override Console (which gives players a much larger head)",
-              "textID": "in this season, you can activate the Big Head Mode Override at an Override Console (which gives players a much larger head)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Storm Override at an Override Console (which makes the storm close in on that location)",
-              "textID": "in this season, you can activate the Storm Override at an Override Console (which makes the storm close in on that location)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate the Prop Hunt Override at an Override Console (which lets you crouch and hold still for a few seconds to turn into a prop)",
-              "textID": "in this season, you can activate the Prop Hunt Override at an Override Console (which lets you crouch and hold still for a few seconds to turn into a prop)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can enter Cheat Codes (arrow inputs found on walls and ground graffiti tiles) in order to spawn Sprites",
-              "textID": "in this season, you can enter Cheat Codes (arrow inputs found on walls and ground graffiti tiles) in order to spawn Sprites"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -41658,31 +41628,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can enter Lobby Hacks (codes from events and socials that earn rewards like Sprites, Sprite Dust, and XP) in the Fortnite Admin Panel (which is located on the right side of the lobby screen)",
-              "textID": "in this season, you can enter Lobby Hacks (codes from events and socials that earn rewards like Sprites, Sprite Dust, and XP) in the Fortnite Admin Panel (which is located on the right side of the lobby screen)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can set up a Loot Hack in the lobby (i.e., you can spend Sprite Dust to make certain items drop more often and at higher rarities)",
-              "textID": "in this season, you can set up a Loot Hack in the lobby (i.e., you can spend Sprite Dust to make certain items drop more often and at higher rarities)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, some Overrides are Squad Overrides, which affect only the picker and their teammates (they do not affect other players in the match)",
-              "textID": "in this season, some Overrides are Squad Overrides, which affect only the picker and their teammates (they do not affect other players in the match)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, some Overrides are Match Overrides, which affect every player in the match (when one player picks it, the effect applies to everyone — their team and enemies alike)",
-              "textID": "in this season, some Overrides are Match Overrides, which affect every player in the match (when one player picks it, the effect applies to everyone — their team and enemies alike)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, you can activate Overrides on Override Consoles (consoles sit on the map offline and come online as the match progresses — the first player to reach one picks an effect that lasts the rest of the match)",
-              "textID": "in this season, you can activate Overrides on Override Consoles (consoles sit on the map offline and come online as the match progresses — the first player to reach one picks an effect that lasts the rest of the match)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "the Lucky Locator (an item that helps you find a location containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale",
               "textID": "the Lucky Locator (an item that helps you find a location containing a Sprite you haven't collected yet) is available in Fortnite Battle Royale"
             },
@@ -41720,6 +41665,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "extracting Sprites earns you Sprite Dust",
               "textID": "extracting Sprites earns you Sprite Dust"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "mastering a Sprite advances the Sprite Mastery reward track",
+              "textID": "mastering a Sprite advances the Sprite Mastery reward track"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -41909,11 +41859,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "in this season, Fortnitemares is happening in Fortnite Battle Royale until November 1 (with Halloween Overrides, weapons, and bosses)",
-              "textID": "in this season, Fortnitemares is happening in Fortnite Battle Royale until November 1 (with Halloween Overrides, weapons, and bosses)"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "you can use an emote to change how the Geno Battle Pass outfit looks during a match",
               "textID": "you can use an emote to change how the Geno Battle Pass outfit looks during a match"
             },
@@ -42050,18 +41995,33 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Devil Fruits make my matches less fair.",
+              "textID": "Devil Fruits make my matches less fair."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I understood what the Flame-Flame Fruit does.",
+              "textID": "I understood what the Flame-Flame Fruit does."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I understood what the Gum-Gum Fruit does.",
+              "textID": "I understood what the Gum-Gum Fruit does."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "It was clear what to do with a Devil Fruit once I picked one up.",
+              "textID": "It was clear what to do with a Devil Fruit once I picked one up."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When I use a Sprite Treasure Map, it's easy to find the Sprite location it points me to.",
+              "textID": "When I use a Sprite Treasure Map, it's easy to find the Sprite location it points me to."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I like when an item or consumable temporarily changes my appearance in Fortnite Battle Royale",
               "textID": "I like when an item or consumable temporarily changes my appearance in Fortnite Battle Royale"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "New Overrides are taking too long to drop into the rotation. If you have not picked an Override recently, please skip the question.",
-              "textID": "New Overrides are taking too long to drop into the rotation. If you have not picked an Override recently, please skip the question."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "New Overrides are dropping into the rotation at about the right pace. If you have not picked an Override recently, please skip the question.",
-              "textID": "New Overrides are dropping into the rotation at about the right pace. If you have not picked an Override recently, please skip the question."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -42130,11 +42090,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Overrides make my matches less fair.",
-              "textID": "Overrides make my matches less fair."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I'm frustrated that my Sprite progress resets when a new season starts.",
               "textID": "I'm frustrated that my Sprite progress resets when a new season starts."
             },
@@ -42142,11 +42097,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I know what I get when I level up a Sprite",
               "textID": "I know what I get when I level up a Sprite"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "It was easy to enter a Cheat Code",
-              "textID": "It was easy to enter a Cheat Code"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -42160,11 +42110,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "I enjoy finding Sprites with Cheat Codes as I play.",
-              "textID": "I enjoy finding Sprites with Cheat Codes as I play."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "I have enough Sprite Dust to make the upgrades I care about.",
               "textID": "I have enough Sprite Dust to make the upgrades I care about."
             },
@@ -42172,16 +42117,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "It is worth it to me to invest my Sprite Dust in loot upgrades.",
               "textID": "It is worth it to me to invest my Sprite Dust in loot upgrades."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "It was clear who would be affected by the Override I chose — my squad or the whole match. If you have not picked an Override recently, please skip the question.",
-              "textID": "It was clear who would be affected by the Override I chose — my squad or the whole match. If you have not picked an Override recently, please skip the question."
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "The Override I picked did what I expected it to do. If you have not picked an Override recently, please skip the question.",
-              "textID": "The Override I picked did what I expected it to do. If you have not picked an Override recently, please skip the question."
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -42604,58 +42539,13 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "99 Nights in the Forest",
-              "textID": "99 Nights in the Forest"
+              "localizedText": "A$AP Rocky",
+              "textID": "A$AP Rocky"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "A Nightmare on Elm Street",
-              "textID": "A Nightmare on Elm Street"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Five Nights at Freddy's",
-              "textID": "Five Nights at Freddy's"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Kingdom Hearts",
-              "textID": "Kingdom Hearts"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Cyberpunk: Edgerunners",
-              "textID": "Cyberpunk: Edgerunners"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Persona 5",
-              "textID": "Persona 5"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Crash Bandicoot",
-              "textID": "Crash Bandicoot"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Pac-Man",
-              "textID": "Pac-Man"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Tetris",
-              "textID": "Tetris"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Mega Man",
-              "textID": "Mega Man"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Sonic the Hedgehog",
-              "textID": "Sonic the Hedgehog"
+              "localizedText": "One Piece",
+              "textID": "One Piece"
             }
           ]
         },
@@ -42988,6 +42878,48 @@
           "_type": "Player Survey V2 - Survey",
           "bRandomizeQuestionOrder": false,
           "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "Global_Modular_Rate",
+            "Global_Cooldown",
+            "Seasonal_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "On a scale from 1-5, how would you rate the {Seasonal_IP} content in Fortnite?",
+                  "textID": "On a scale from 1-5, how would you rate the {Seasonal_IP} content in Fortnite?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Dislike",
+                    "textID": "Strongly Dislike"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Like",
+                    "textID": "Strongly Like"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_Seasonal_IPRating",
+          "surveyTags": [
+            "Seasonal_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": false,
+          "conditionGroupIDs": [
             "FNBR_All",
             "FNBR_Main_Rate",
             "Global_Cooldown",
@@ -43006,6 +42938,66 @@
                   "textID": "Out of the following Sprite types, which is the coolest?"
                 },
                 "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Transponder Snail Sprite",
+                    "textID": "Transponder Snail Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Plundarrgh Sprite",
+                    "textID": "Plundarrgh Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Kelper Sprite",
+                    "textID": "Kelper Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Squibbly Sprite",
+                    "textID": "Lil' Squibbly Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sweet Dreams Sprite",
+                    "textID": "Sweet Dreams Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Flacko Sprite",
+                    "textID": "Lil' Flacko Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Wayfinder Sprite",
+                    "textID": "Wayfinder Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Exmarks Sprite",
+                    "textID": "Exmarks Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Chester Sprite",
+                    "textID": "Chester Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Barry O'Fish Sprite",
+                    "textID": "Barry O'Fish Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Halfpeel'd Sprite",
+                    "textID": "Halfpeel'd Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Re-Pete Sprite",
+                    "textID": "Re-Pete Sprite"
+                  },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Honey Sprite",
@@ -43298,6 +43290,66 @@
                   "textID": "Out of the following Sprite types, which one looks the best?"
                 },
                 "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Transponder Snail Sprite",
+                    "textID": "Transponder Snail Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Plundarrgh Sprite",
+                    "textID": "Plundarrgh Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Kelper Sprite",
+                    "textID": "Kelper Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Squibbly Sprite",
+                    "textID": "Lil' Squibbly Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sweet Dreams Sprite",
+                    "textID": "Sweet Dreams Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Flacko Sprite",
+                    "textID": "Lil' Flacko Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Wayfinder Sprite",
+                    "textID": "Wayfinder Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Exmarks Sprite",
+                    "textID": "Exmarks Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Chester Sprite",
+                    "textID": "Chester Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Barry O'Fish Sprite",
+                    "textID": "Barry O'Fish Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Halfpeel'd Sprite",
+                    "textID": "Halfpeel'd Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Re-Pete Sprite",
+                    "textID": "Re-Pete Sprite"
+                  },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Honey Sprite",
@@ -44906,6 +44958,66 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Transponder Snail Sprite",
+                    "textID": "Transponder Snail Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Plundarrgh Sprite",
+                    "textID": "Plundarrgh Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Kelper Sprite",
+                    "textID": "Kelper Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Squibbly Sprite",
+                    "textID": "Lil' Squibbly Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sweet Dreams Sprite",
+                    "textID": "Sweet Dreams Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Flacko Sprite",
+                    "textID": "Lil' Flacko Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Wayfinder Sprite",
+                    "textID": "Wayfinder Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Exmarks Sprite",
+                    "textID": "Exmarks Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Chester Sprite",
+                    "textID": "Chester Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Barry O'Fish Sprite",
+                    "textID": "Barry O'Fish Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Halfpeel'd Sprite",
+                    "textID": "Halfpeel'd Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Re-Pete Sprite",
+                    "textID": "Re-Pete Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Honey Sprite",
                     "textID": "Honey Sprite"
                   },
@@ -45786,6 +45898,66 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Transponder Snail Sprite",
+                    "textID": "Transponder Snail Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Plundarrgh Sprite",
+                    "textID": "Plundarrgh Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Kelper Sprite",
+                    "textID": "Kelper Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Squibbly Sprite",
+                    "textID": "Lil' Squibbly Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Sweet Dreams Sprite",
+                    "textID": "Sweet Dreams Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Lil' Flacko Sprite",
+                    "textID": "Lil' Flacko Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Wayfinder Sprite",
+                    "textID": "Wayfinder Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Exmarks Sprite",
+                    "textID": "Exmarks Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Chester Sprite",
+                    "textID": "Chester Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Barry O'Fish Sprite",
+                    "textID": "Barry O'Fish Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Halfpeel'd Sprite",
+                    "textID": "Halfpeel'd Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Re-Pete Sprite",
+                    "textID": "Re-Pete Sprite"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
                     "localizedText": "Honey Sprite",
                     "textID": "Honey Sprite"
                   },
@@ -46532,13 +46704,8 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Upgrading Loot Hacks",
-                    "textID": "Upgrading Loot Hacks"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Getting Sprites by using Cheat Codes",
-                    "textID": "Getting Sprites by using Cheat Codes"
+                    "localizedText": "Following Sprite Treasure Maps",
+                    "textID": "Following Sprite Treasure Maps"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -46629,13 +46796,8 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Upgrading Loot Hacks",
-                    "textID": "Upgrading Loot Hacks"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Getting Sprites by using Cheat Codes",
-                    "textID": "Getting Sprites by using Cheat Codes"
+                    "localizedText": "Following Sprite Treasure Maps",
+                    "textID": "Following Sprite Treasure Maps"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -46726,13 +46888,8 @@
                 "responses": [
                   {
                     "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Upgrading Loot Hacks",
-                    "textID": "Upgrading Loot Hacks"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Getting Sprites by using Cheat Codes",
-                    "textID": "Getting Sprites by using Cheat Codes"
+                    "localizedText": "Following Sprite Treasure Maps",
+                    "textID": "Following Sprite Treasure Maps"
                   },
                   {
                     "_type": "Player Survey V2 - Localizable Text",
@@ -46797,6 +46954,63 @@
           "surveyID": "FNBR_SpriteSystem_Likes_MC",
           "surveyTags": [
             "FNBR_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Main_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How many V-Bucks does Fortnite Crew grant you per month?",
+                  "textID": "How many V-Bucks does Fortnite Crew grant you per month?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "I don't know",
+                    "textID": "I don't know"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "1200",
+                    "textID": "1200"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "1000",
+                    "textID": "1000"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "800",
+                    "textID": "800"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "500",
+                    "textID": "500"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_CrewVBucksAmount",
+          "surveyTags": [
+            "BPCrew_Main_Surveys"
           ]
         },
         {
@@ -50816,6 +51030,365 @@
           "surveyID": "XP_EaseofEarning",
           "surveyTags": [
             "XP_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Main_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which Battle Pass did you like the most in the previous chapter?",
+                  "textID": "Which Battle Pass did you like the most in the previous chapter?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 1: Hunters",
+                    "textID": "Season 1: Hunters"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 2: Lawless",
+                    "textID": "Season 2: Lawless"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 3: Super",
+                    "textID": "Season 3: Super"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 4: Shock N' Awesome",
+                    "textID": "Season 4: Shock N' Awesome"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Fortnite Star Wars Galactic Battle",
+                    "textID": "Fortnite Star Wars Galactic Battle"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Fortnite The Simpsons",
+                    "textID": "Fortnite The Simpsons"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_FavBPLastYear",
+          "surveyTags": [
+            "BPCrew_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Main_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which Battle Pass did you like the most in this chapter?",
+                  "textID": "Which Battle Pass did you like the most in this chapter?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 4: Override",
+                    "textID": "Season 4: Override"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 3: Runners",
+                    "textID": "Season 3: Runners"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 2: Showdown",
+                    "textID": "Season 2: Showdown"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Season 1: Pacific Break",
+                    "textID": "Season 1: Pacific Break"
+                  }
+                ],
+                "type": "SingleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_FavBPThisYear",
+          "surveyTags": [
+            "BPCrew_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Main_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How much do you like/dislike Crew this season?",
+                  "textID": "How much do you like/dislike Crew this season?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Dislike",
+                    "textID": "Strongly Dislike"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Like",
+                    "textID": "Strongly Like"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_CrewLike",
+          "surveyTags": [
+            "BPCrew_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Main_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How much do you like/dislike this season's Battle Pass?",
+                  "textID": "How much do you like/dislike this season's Battle Pass?"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Dislike",
+                    "textID": "Strongly Dislike"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Like",
+                    "textID": "Strongly Like"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_BPLike",
+          "surveyTags": [
+            "BPCrew_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Main_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": true,
+                "numberOfOptions": 9,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "Which of the following would be appealing to you if they were added to Fortnite Crew? Please select all that apply.",
+                  "textID": "Which of the following would be appealing to you if they were added to Fortnite Crew? Please select all that apply."
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "More Cosmetics",
+                    "textID": "More Cosmetics"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "More Battle Pass Levels",
+                    "textID": "More Battle Pass Levels"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "More Vbucks",
+                    "textID": "More Vbucks"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Exclusive Emotes",
+                    "textID": "Exclusive Emotes"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Upgradable Cosmetics",
+                    "textID": "Upgradable Cosmetics"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Exclusive Quests",
+                    "textID": "Exclusive Quests"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Multi-Month Subscriptions",
+                    "textID": "Multi-Month Subscriptions"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Giftable Subscriptions",
+                    "textID": "Giftable Subscriptions"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Instant Unlocks",
+                    "textID": "Instant Unlocks"
+                  }
+                ],
+                "type": "MultipleChoice"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_CrewNewFeatures",
+          "surveyTags": [
+            "BPCrew_Main_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Modular_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How much do you agree with the following statement? {BPCrew_Likert_Agreement}",
+                  "textID": "How much do you agree with the following statement? {BPCrew_Likert_Agreement}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Disagree",
+                    "textID": "Strongly Disagree"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Strongly Agree",
+                    "textID": "Strongly Agree"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_Likert_Agreement",
+          "surveyTags": [
+            "BPCrew_Modular_Surveys"
+          ]
+        },
+        {
+          "_type": "Player Survey V2 - Survey",
+          "bRandomizeQuestionOrder": true,
+          "conditionGroupIDs": [
+            "Ecosystem_Playlists",
+            "BPCrew_Modular_Rate",
+            "Global_Cooldown",
+            "BPCrew_Cooldown"
+          ],
+          "questions": [
+            {
+              "_type": "Player Survey V2 - Question Container",
+              "question": {
+                "_type": "Player Survey V2 - Question",
+                "bRandomizeResponseOrder": false,
+                "numberOfOptions": 5,
+                "questionText": {
+                  "_type": "Player Survey V2 - Localizable Text (Long)",
+                  "localizedText": "How important is the following to you? {BPCrew_Likert_Importance}",
+                  "textID": "How important is the following to you? {BPCrew_Likert_Importance}"
+                },
+                "responses": [
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Not Important At All",
+                    "textID": "Not Important At All"
+                  },
+                  {
+                    "_type": "Player Survey V2 - Localizable Text",
+                    "localizedText": "Very Important",
+                    "textID": "Very Important"
+                  }
+                ],
+                "type": "Rating"
+              }
+            }
+          ],
+          "surveyID": "Ecosystem_BPCrew_Likert_Importance",
+          "surveyTags": [
+            "BPCrew_Modular_Surveys"
           ]
         },
         {
@@ -55719,9 +56292,9 @@
       "seasons": [
         {
           "_type": "Season Display Info",
-          "season_display_id": "br-combined_42",
-          "season_lobbybackground_url": "https://cdn2.unrealengine.com/mkart-ch7s4-lobby-3840x2022-18226aaf44c6.jpg",
-          "season_tile_url": "https://cdn2.unrealengine.com/cdn-uploader-EN_FNBR_42-00_C7S4_Hacking_Ranked_DiscoverTile_SocialLeaderboard_-480x270-91d25989.png"
+          "season_display_id": "br-combined_43",
+          "season_lobbybackground_url": "https://cdn2.unrealengine.com/mkart-ch7ms1-lobby-bg-lighting-v10-1-2026-10-22-conclusion-nofx-1-resized-3840x2022-14bce37f0988.jpg",
+          "season_tile_url": "https://cdn2.unrealengine.com/links-admin-FNBR_43-00_MSEE_BP_BR_DiscoverTile_480x270-ecef6077.jpg"
         },
         {
           "_type": "Season Display Info",
@@ -55770,9 +56343,9 @@
         },
         {
           "_type": "Season Display Info",
-          "season_display_id": "br-combined/zb_42",
-          "season_lobbybackground_url": "https://cdn2.unrealengine.com/mkart-ch7s4-lobby-3840x2022-18226aaf44c6.jpg",
-          "season_tile_url": "https://cdn2.unrealengine.com/cdn-uploader-EN_FNBR_42-00_C7S4_Hacking_Ranked_DiscoverTile_SocialLeaderboard_-480x270-91d25989.png"
+          "season_display_id": "br-combined/zb_43",
+          "season_lobbybackground_url": "https://cdn2.unrealengine.com/mkart-ch7ms1-lobby-bg-lighting-v10-1-2026-10-22-conclusion-nofx-1-resized-3840x2022-14bce37f0988.jpg",
+          "season_tile_url": "https://cdn2.unrealengine.com/links-admin-FNBR_43-00_MSEE_BP_BR_DiscoverTile_480x270-ecef6077.jpg"
         }
       ]
     }
