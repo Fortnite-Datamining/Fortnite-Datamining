@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-03
+- **05:55** BR Cosmetics, Item Shop, AES Keys - +65 new (Crocs Echo Clog ‘Black’, Air Jordan 11 Retro OG ‘Space Jam’, Vans x Lil Uzi Vert LX Old Skool 36, Kappa Kappa Cuties, Nemia's Slippers, +60 more) - -43 removed
+
 ## 2026-11-02
 - **23:58** BR Cosmetics, Item Shop, News, Epic Content Pages - +1 new (Adventure Awaits!) - -1 removed
 - **17:19** BR Cosmetics, News, Epic Content Pages - +1 new (Keep Tabs on the Adventure!) - -1 removed
