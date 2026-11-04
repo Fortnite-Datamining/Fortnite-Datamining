@@ -561,7 +561,7 @@
                 "color1Hex": "0744AC",
                 "color2Hex": "45D2F5",
                 "color4Hex": "09081A",
-                "description": "Crew-exclusive cosmetics that unlock a new stage every month that you are an active subscriber to the Fortnite Crew.",
+                "description": "Discontinued Jan 1, 2027",
                 "secondaryTileImageURL": "https://cdn2.unrealengine.com/2026november-fneco-43-00-november-crew-auric-displaytile-260x160-260x160-5dcbf7517894.png",
                 "tag": "AvailableUntilBenefit",
                 "tileImageURL": "https://cdn2.unrealengine.com/2026november-fneco-43-00-november-crew-auric-displaytile-260x160-260x160-5dcbf7517894.png",
@@ -593,7 +593,7 @@
               "_type": "Crew Tile Data",
               "bHasNextCrewPackDetails": false,
               "bIsBenefitEnding": false,
-              "column": 5,
+              "column": 4,
               "columnSpan": 1,
               "details": {
                 "_type": "Crew Tile Details Data",
@@ -617,15 +617,16 @@
               "_type": "Crew Tile Data",
               "bHasNextCrewPackDetails": false,
               "bIsBenefitEnding": false,
-              "column": 4,
+              "column": 5,
               "columnSpan": 1,
               "details": {
                 "_type": "Crew Tile Details Data",
                 "color1Hex": "C870FF",
                 "color2Hex": "442372",
-                "description": "Crew-exclusive cosmetics that unlock a new stage while you’re subscribed.",
-                "tag": "None",
-                "tileImageURL": "https://cdn2.unrealengine.com/2026november-t-ui-bp-4300-crewstyles-512x512-c0a0002fd2a7.png",
+                "description": "Come back later",
+                "tag": "AvailableUntilBenefit",
+                "tagText": "Coming Dec 5",
+                "tileImageURL": "https://cdn2.unrealengine.com/t-ui-bp-4300-upcoming-512x512-05addbdfb40d.png",
                 "title": "Crew Styles"
               },
               "nextDetails": {
@@ -636,7 +637,7 @@
               },
               "row": 1,
               "rowSpan": 1,
-              "tileLabel": "Crew Styles",
+              "tileLabel": "More Crew Benefits",
               "tileType": "Basic"
             },
             {
@@ -700,7 +701,8 @@
                 "color1Hex": "47D4EB",
                 "color2Hex": "1775A8",
                 "description": "Claim premium rewards from the OG Pass while subscribed.",
-                "tag": "None",
+                "tag": "AvailableUntilBenefit",
+                "tagText": "Discontinued after Dec 4",
                 "tileImageURL": "https://cdn2.unrealengine.com/t-ui-bp-4210-ogpass-benefit-526x512-f28f7312d316-526x512-ba64cce6ae18.png",
                 "title": "OG Pass"
               },
@@ -780,7 +782,8 @@
                 "color1Hex": "FF94B1",
                 "color2Hex": "79274F",
                 "description": "Get the Monarcha Outfit, Back Bling, and Pickaxe!",
-                "tag": "None",
+                "tag": "AvailableUntilBenefit",
+                "tagText": "Discontinued Jan 1, 2027",
                 "tileImageURL": "https://cdn2.unrealengine.com/2026november-t-ui-bp-4300-crewpack-512x512-2e93bd8cdda1.png",
                 "title": "November Crew Pack"
               },
@@ -1424,7 +1427,7 @@
       "bPassOnlyInUpsell": false,
       "bUseNewUpsellFormat": true,
       "backgroundURL": "https://cdn2.unrealengine.com/t-ui-bento-4300-fullsize-2048x512-b8fc238e3d95.png",
-      "description": "The Battle Pass and All Fortnite Passes\n14 Outfits and 150+ Rewards\n800 V-Bucks",
+      "description": "The Battle Pass, Music Pass, LEGO Pass & Rocket Pass Premium\n7 Outfits and 90+ Rewards\n800 V-Bucks\n\nMore coming soon",
       "overrideUpsellPass": "",
       "shortDescription": "Get the current season’s Battle Pass and other benefits! Select the tiles to learn more!",
       "subscribedBackgroundURL": "https://cdn2.unrealengine.com/t-ui-bp-4300-crewbackground-1920x1080-d33b391e6737.png",
@@ -1462,7 +1465,7 @@
         }
       ]
     },
-    "lastModified": "2026-11-01T08:28:58.509Z",
+    "lastModified": "2026-11-04T13:25:07.497Z",
     "progressiveInfo": {
       "_type": "SubscriptionProgressiveInfo",
       "infoModalEntries": [
@@ -1764,12 +1767,14 @@
             {
               "_type": "Fortnite - Subscription Simple Benefit",
               "imageUrl": "https://cdn2.unrealengine.com/t-ui-upsellscreen-benefits-allpasses-88x88-0bf40ff21c30.png",
-              "label": "Access to All Passes"
+              "label": "Access to All Passes",
+              "subText": "OG Pass Discontinued after Dec 4"
             },
             {
               "_type": "Fortnite - Subscription Simple Benefit",
               "imageUrl": "https://cdn2.unrealengine.com/2026november-t-ui-upsellscreen-benefits-crew-4300-v2-88x88-1110c7caa769.png",
-              "label": "Fortnite Crew Exclusive Outfit"
+              "label": "Fortnite Crew Exclusive Outfit",
+              "subText": "Discontinued Jan 1, 2027"
             }
           ],
           "label": "Instantly Claim:"
@@ -1786,8 +1791,8 @@
             {
               "_type": "Fortnite - Subscription Simple Benefit",
               "imageUrl": "https://cdn2.unrealengine.com/t-ui-upsell-content9-4210-88x88-639526c76a59.png",
-              "label": "13 Outfits",
-              "subText": "Over 30 additional Styles"
+              "label": "7 Outfits and 90+ Rewards",
+              "subText": ""
             },
             {
               "_type": "Fortnite - Subscription Simple Benefit",
@@ -1797,9 +1802,9 @@
             },
             {
               "_type": "Fortnite - Subscription Simple Benefit",
-              "imageUrl": "https://cdn2.unrealengine.com/4300-upsell-content3-88x88-401b22940183.png",
-              "label": "250+ Rewards",
-              "subText": "60 Rewards in Free Track"
+              "imageUrl": "https://cdn2.unrealengine.com/upsell-content-future-88x88-58860dc5561a.png",
+              "label": "More Crew Benefits",
+              "subText": "Coming Dec 5"
             }
           ],
           "label": "Earn Up To:"
@@ -2170,7 +2175,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-11-03T21:42:55.205Z",
+  "lastModified": "2026-11-04T13:25:07.497Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
