@@ -2175,7 +2175,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-11-04T13:25:07.497Z",
+  "lastModified": "2026-11-04T14:57:55.086Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -11116,7 +11116,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-11-02T17:22:17.839Z",
+    "lastModified": "2026-11-04T14:54:16.463Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -23286,11 +23286,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Storm Surfing",
-              "textID": "Storm Surfing"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Sidekicks",
               "textID": "Sidekicks"
             },
@@ -23956,11 +23951,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Jam Track Player",
               "textID": "Jam Track Player"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Storm Surfing",
-              "textID": "Storm Surfing"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -24989,11 +24979,6 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Moving while Downed",
               "textID": "Moving while Downed"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Storm Surfing",
-              "textID": "Storm Surfing"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -36276,7 +36261,7 @@
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-11-02T18:02:26.095Z",
+    "lastModified": "2026-11-04T14:57:55.086Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -48464,58 +48449,6 @@
           "surveyID": "Shooters_AmountofGameElements",
           "surveyTags": [
             "Shooters_Modular_Surveys"
-          ]
-        },
-        {
-          "_type": "Player Survey V2 - Survey",
-          "bRandomizeQuestionOrder": false,
-          "conditionGroupIDs": [
-            "Shooters_Playlists",
-            "ModeBased_Main_Rate",
-            "Global_Cooldown",
-            "Shooters_Cooldown"
-          ],
-          "questions": [
-            {
-              "_type": "Player Survey V2 - Question Container",
-              "question": {
-                "_type": "Player Survey V2 - Question",
-                "bRandomizeResponseOrder": true,
-                "numberOfOptions": 4,
-                "questionText": {
-                  "_type": "Player Survey V2 - Localizable Text (Long)",
-                  "localizedText": "Do you prefer starting a match by Storm Surfing or dropping from the Battle Bus?",
-                  "textID": "Do you prefer starting a match by Storm Surfing or dropping from the Battle Bus?"
-                },
-                "responses": [
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Storm Surfing",
-                    "textID": "Storm Surfing"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Battle Bus",
-                    "textID": "Battle Bus"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Both",
-                    "textID": "Both"
-                  },
-                  {
-                    "_type": "Player Survey V2 - Localizable Text",
-                    "localizedText": "Neither",
-                    "textID": "Neither"
-                  }
-                ],
-                "type": "SingleChoice"
-              }
-            }
-          ],
-          "surveyID": "Shooters_StormSurfingorBattleBus",
-          "surveyTags": [
-            "Shooters_Main_Surveys"
           ]
         },
         {
