@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-04
+- **00:45** Item Shop, News, Epic Content Pages - +37 new (Surging Edge, Vibrodagger & Personal Shield, Rumi's Sain-Geom, Mira's Ramyeon, Serge, +32 more) - -17 removed
+
 ## 2026-11-03
 - **20:23** News, Banners - +3 new (Keep Tabs on the Adventure!, Going Merry Glider, SCALE) - -3 removed
 - **13:34** Item Shop, Banners
