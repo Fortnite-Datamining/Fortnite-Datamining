@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-05
+- **01:57** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +52 new (Aperture, Omni-Man, Day Shift Monitor, Barry Pinkums, Aperture, +47 more) - -53 removed
+
 ## 2026-11-04
 - **21:41** Banners, Epic Content Pages
 - **15:38** Item Shop, News, Banners, Epic Content Pages - +1 new (Devil Fruits Across the Island) - -1 removed
