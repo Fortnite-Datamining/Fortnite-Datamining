@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-05
+- **17:31** BR Cosmetics, Instruments, Jam Tracks, Item Shop, News, AES Keys, Epic Content Pages - +17 new (Hi-Fi Jets, Rocky's BOOM Mic, A$AP Rockets, Helicopter Flacko, null, +12 more) - -1 removed
 - **01:57** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +52 new (Aperture, Omni-Man, Day Shift Monitor, Barry Pinkums, Aperture, +47 more) - -53 removed
 
 ## 2026-11-04
