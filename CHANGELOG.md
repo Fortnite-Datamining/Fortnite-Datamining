@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-07
+- **20:40** News - +1 new (Fortune Sprite Variants - November 7) - -1 removed
 - **16:56** BR Cosmetics, Item Shop
 - **04:21** Item Shop, News - +49 new (Ben 10 Bundle, Nemia's Slippers, Mr. Brightside, Class President Nemia, Jack's Sled, +44 more) - -64 removed
 
