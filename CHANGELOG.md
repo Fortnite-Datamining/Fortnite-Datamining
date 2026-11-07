@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-07
+- **04:21** Item Shop, News - +49 new (Ben 10 Bundle, Nemia's Slippers, Mr. Brightside, Class President Nemia, Jack's Sled, +44 more) - -64 removed
+
 ## 2026-11-06
 - **23:36** BR Cosmetics, Item Shop, Epic Content Pages
 - **18:48** BR Cosmetics, Cars, Item Shop, Epic Content Pages
