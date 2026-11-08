@@ -831,22 +831,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-biomehose-2048x2048-3618481b27af.png",
+              "fileName": "cosmo__256832804691668d_3f41cb9567e2f2b2.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/256832804691668d/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-biomehose-husk-2048x2048-0b2b7f9116bd.png",
+              "fileName": "cosmo__256832804691668d_c603d9efaa2be56b.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/256832804691668d/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-biomehose-scamp-2048x2048-7fb08d7bc4d5.png",
+              "fileName": "cosmo__256832804691668d_f99f44147324da8d.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/256832804691668d/renderimage_2.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-ui-featured-figure-biomehose-2048x2048-de90fdf7e995.png",
+              "fileName": "cosmo__256832804691668d_c28222d4d9428757.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/256832804691668d/renderimage_3.png",
               "productTag": "Product.Juno"
             }
@@ -1897,6 +1897,7 @@
         },
         "layoutId": "DPMash.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Donut2",
           "id": "DAv2_EID_Donut2",
           "materialInstances": [],
           "renderImages": [
@@ -2329,6 +2330,7 @@
         },
         "layoutId": "VV1107261.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Masquerade",
           "id": "DAv2_EID_Masquerade",
           "materialInstances": [],
           "renderImages": [
@@ -2422,6 +2424,7 @@
         },
         "layoutId": "THPocket1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_PocketBobble",
           "id": "DAv2_Backpack_PocketBobble",
           "materialInstances": [],
           "renderImages": [
@@ -2593,6 +2596,7 @@
         },
         "layoutId": "AsapRocky.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_TonicMailYam",
           "id": "DAv2_Pickaxe_TonicMailYam",
           "materialInstances": [],
           "renderImages": [
@@ -3980,6 +3984,16 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "Low",
+          "value": "400 V-Bucks Off"
+        },
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/70430592f272d175/renderimage_0.png",
+          "info": "Bundle",
+          "name": "A$AP Rocky Jam Bundle"
+        },
         "colors": {
           "color1": "b93034ff",
           "color2": "660103ff",
@@ -4001,6 +4015,17 @@
           "useWidePreview": false
         },
         "layoutId": "AsapRocky.95",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_Jam_tonicmail",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "image-bundle-featured-jam-tonicmail-0-br-2048x2048-a6620d42a58b.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/70430592f272d175/renderimage_0.png",
+              "productTag": "Product.BR"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S43/DAv2_Bundle_Featured_Jam_tonicmail",
         "offerId": "v2:/635977ecb3fec7101c9d449e86d323d262bdac96804519f288feee5cb341c4a7",
         "outDate": "2026-12-06T23:59:59.999Z",
@@ -4186,6 +4211,7 @@
         },
         "layoutId": "FND110826.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_LazarusUntold",
           "id": "DAv2_Character_LazarusUntold",
           "materialInstances": [],
           "renderImages": [
@@ -4871,6 +4897,7 @@
         },
         "layoutId": "ConclusionB110826NEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "Character_InsightBawl",
           "id": "DAv2_Character_InsightBawl",
           "materialInstances": [],
           "renderImages": [
@@ -6179,6 +6206,7 @@
         },
         "layoutId": "ConclusionB110826NEW.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_BrandCreed",
           "id": "DAv2_Backpack_BrandCreed",
           "materialInstances": [],
           "renderImages": [
@@ -8665,6 +8693,7 @@
         },
         "layoutId": "BR110826.99",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_SteamMarauder",
           "id": "DAv2_Pickaxe_SteamMarauder",
           "materialInstances": [],
           "renderImages": [
@@ -8914,6 +8943,7 @@
         },
         "layoutId": "AsapRocky.96",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_TonicMailNote",
           "id": "DAv2_Shoes_TonicMailNote",
           "materialInstances": [],
           "renderImages": [
@@ -9126,17 +9156,17 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenasoldiers-wordunity-2048x2048-4b3b6881b903.png",
+              "fileName": "cosmo__0b917a2ca144c020_7f6ffbaba243d56b.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0b917a2ca144c020/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenasoldiers-wordunity-phrase-2048x2048-c4b67a511b9f.png",
+              "fileName": "cosmo__0b917a2ca144c020_69f7ffd90db5bc1a.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0b917a2ca144c020/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-ui-featured-figure-wordunity-2048x2048-48f82d472d82.png",
+              "fileName": "cosmo__0b917a2ca144c020_ec8e014b8bac2915.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/0b917a2ca144c020/renderimage_2.png",
               "productTag": "Product.Juno"
             }
@@ -9832,6 +9862,7 @@
         },
         "layoutId": "AsapRocky.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_TonicMailYam",
           "id": "DAv2_Character_TonicMailYam",
           "materialInstances": [],
           "renderImages": [
@@ -10362,6 +10393,7 @@
         },
         "layoutId": "FND110826.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_LazarusUntold",
           "id": "DAv2_Pickaxe_LazarusUntold",
           "materialInstances": [],
           "renderImages": [
@@ -10524,6 +10556,7 @@
         },
         "layoutId": "AsapRocky.97",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_TonicMailWeb",
           "id": "DAv2_Glider_TonicMailWeb",
           "materialInstances": [],
           "renderImages": [
@@ -10704,6 +10737,7 @@
         },
         "layoutId": "FND110826.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_LazarusUntold",
           "id": "DAv2_Backpack_LazarusUntold",
           "materialInstances": [],
           "renderImages": [
@@ -10906,6 +10940,7 @@
         },
         "layoutId": "AsapRocky.97",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_TonicMailLetter",
           "id": "DAv2_Shoes_TonicMailLetter",
           "materialInstances": [],
           "renderImages": [
@@ -11116,6 +11151,7 @@
         },
         "layoutId": "BR110826.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_StrandModeLychee",
           "id": "DAv2_Shoes_StrandModeLychee",
           "materialInstances": [],
           "renderImages": [
@@ -11670,6 +11706,7 @@
         },
         "layoutId": "DPMash.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Donut1",
           "id": "DAv2_EID_Donut1",
           "materialInstances": [],
           "renderImages": [
@@ -12217,6 +12254,7 @@
         },
         "layoutId": "THPocket1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_PocketBobble",
           "id": "DAv2_Wrap_PocketBobble",
           "materialInstances": [],
           "renderImages": [
@@ -12439,6 +12477,7 @@
         },
         "layoutId": "THPocket1.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_PocketBobble",
           "id": "DAv2_EID_PocketBobble",
           "materialInstances": [],
           "renderImages": [
@@ -12708,6 +12747,7 @@
         },
         "layoutId": "BR110826.94",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_StrandModeAcai",
           "id": "DAv2_Shoes_StrandModeAcai",
           "materialInstances": [],
           "renderImages": [
@@ -13620,6 +13660,7 @@
         },
         "layoutId": "BR110826.99",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_SteamMarauder",
           "id": "DAv2_Wrap_SteamMarauder",
           "materialInstances": [],
           "renderImages": [
@@ -14500,6 +14541,7 @@
         },
         "layoutId": "BR110826.95",
         "newDisplayAsset": {
+          "cosmeticId": "Character_Boredom",
           "id": "DAv2_Character_Boredom",
           "materialInstances": [],
           "renderImages": [
@@ -16008,6 +16050,7 @@
         },
         "layoutId": "AsapRocky.96",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_TonicMail",
           "id": "DAv2_Wrap_TonicMail",
           "materialInstances": [],
           "renderImages": [
@@ -16095,6 +16138,7 @@
         },
         "layoutId": "AsapRocky.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_TonicMailWeb",
           "id": "DAv2_EID_TonicMailWeb",
           "materialInstances": [],
           "renderImages": [
@@ -16754,6 +16798,7 @@
         },
         "layoutId": "VV1107261.99",
         "newDisplayAsset": {
+          "cosmeticId": "EID_Phantom",
           "id": "DAv2_EID_Phantom",
           "materialInstances": [],
           "renderImages": [
@@ -17412,6 +17457,7 @@
         },
         "layoutId": "BR110826.95",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_YukonGladTube",
           "id": "DAv2_Shoes_YukonGladTube",
           "materialInstances": [],
           "renderImages": [
@@ -17547,6 +17593,7 @@
         },
         "layoutId": "BR110826.96",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_NinjaWarrior",
           "id": "DAv2_Pickaxe_NinjaWarrior",
           "materialInstances": [],
           "renderImages": [
@@ -17748,6 +17795,7 @@
         },
         "layoutId": "AsapRocky.98",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_TonicMailYam",
           "id": "DAv2_Backpack_TonicMailYam",
           "materialInstances": [],
           "renderImages": [
@@ -18025,6 +18073,7 @@
         },
         "layoutId": "ConclusionB110826NEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "Companion_BloomScar",
           "id": "DAv2_Companion_BloomScar",
           "materialInstances": [],
           "renderImages": [
@@ -19155,6 +19204,7 @@
         },
         "layoutId": "THPocket1.98",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_SnugDemon",
           "id": "DAv2_Shoes_SnugDemon",
           "materialInstances": [],
           "renderImages": [
@@ -19231,6 +19281,7 @@
         },
         "layoutId": "FND110826.98",
         "newDisplayAsset": {
+          "cosmeticId": "Wrap_LazarusUntold",
           "id": "DAv2_Wrap_LazarusUntold",
           "materialInstances": [],
           "renderImages": [
@@ -19414,6 +19465,7 @@
         },
         "layoutId": "BR110826.96",
         "newDisplayAsset": {
+          "cosmeticId": "Character_NinjaWarrior",
           "id": "DAv2_Character_NinjaWarrior",
           "materialInstances": [],
           "renderImages": [
@@ -22183,6 +22235,7 @@
         },
         "layoutId": "BR110826.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_ShallWe",
           "id": "DAv2_EID_ShallWe",
           "materialInstances": [],
           "renderImages": [
@@ -22986,6 +23039,7 @@
         },
         "layoutId": "BR110826.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_SteamMarauder",
           "id": "DAv2_Character_SteamMarauder",
           "materialInstances": [],
           "renderImages": [
@@ -23191,6 +23245,7 @@
         },
         "layoutId": "THPocket1.99",
         "newDisplayAsset": {
+          "cosmeticId": "Character_PocketBobble",
           "id": "DAv2_Character_PocketBobble",
           "materialInstances": [],
           "renderImages": [
@@ -23829,6 +23884,7 @@
         },
         "layoutId": "AsapRocky.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_TonicMailWeb",
           "id": "DAv2_Character_TonicMailWeb",
           "materialInstances": [],
           "renderImages": [
@@ -24104,6 +24160,7 @@
         },
         "layoutId": "VV1107261.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_SummitReedMolt",
           "id": "DAv2_EID_SummitReedMolt",
           "materialInstances": [],
           "renderImages": [
@@ -24563,6 +24620,7 @@
         },
         "layoutId": "ConclusionB110826NEW.97",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_InsightBawl",
           "id": "DAv2_Pickaxe_InsightBawl",
           "materialInstances": [],
           "renderImages": [
@@ -24886,6 +24944,7 @@
         },
         "layoutId": "ConclusionB110826NEW.98",
         "newDisplayAsset": {
+          "cosmeticId": "EID_BrandCreed",
           "id": "DAv2_EID_BrandCreed",
           "materialInstances": [],
           "renderImages": [
@@ -25203,6 +25262,7 @@
         },
         "layoutId": "DPMash.98",
         "newDisplayAsset": {
+          "cosmeticId": "Glider_ID_206_Donut",
           "id": "DAv2_Glider_ID_206_Donut",
           "materialInstances": [],
           "renderImages": [
@@ -25292,6 +25352,7 @@
         },
         "layoutId": "AsapRocky.97",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_TonicMailWeb",
           "id": "DAv2_Backpack_TonicMailWeb",
           "materialInstances": [],
           "renderImages": [
@@ -28802,6 +28863,7 @@
         },
         "layoutId": "ConclusionB110826NEW.98",
         "newDisplayAsset": {
+          "cosmeticId": "Character_BrandCreed",
           "id": "DAv2_Character_BrandCreed",
           "materialInstances": [],
           "renderImages": [
@@ -29009,6 +29071,7 @@
         },
         "layoutId": "DPMash.98",
         "newDisplayAsset": {
+          "cosmeticId": "Pickaxe_ID_382_Donut1H",
           "id": "DAv2_Pickaxe_ID_382_Donut1h",
           "materialInstances": [],
           "renderImages": [
@@ -29503,6 +29566,7 @@
         },
         "layoutId": "BR110826.94",
         "newDisplayAsset": {
+          "cosmeticId": "Shoes_DinkySplit",
           "id": "DAv2_Shoes_DinkySplit",
           "materialInstances": [],
           "renderImages": [
@@ -30211,22 +30275,22 @@
           "materialInstances": [],
           "renderImages": [
             {
-              "fileName": "t-athenabundles-loanfloat-br-01-2048x2048-d479b777c318.png",
+              "fileName": "cosmo__7e8546d10a373dc7_303a6684acde3431.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e8546d10a373dc7/renderimage_0.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-loanfloat-br-02-2048x2048-92c1482a0127.png",
+              "fileName": "cosmo__7e8546d10a373dc7_f5b48e59c92cd501.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e8546d10a373dc7/renderimage_1.png",
               "productTag": "Product.BR"
             },
             {
-              "fileName": "t-athenabundles-loanfloat-jn-01-2048x2048-c12db6e1b091.png",
+              "fileName": "cosmo__7e8546d10a373dc7_ae9152ca04625fb0.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e8546d10a373dc7/renderimage_2.png",
               "productTag": "Product.Juno"
             },
             {
-              "fileName": "t-athenabundles-loanfloat-jn-02-2048x2048-3460a8c34110.png",
+              "fileName": "cosmo__7e8546d10a373dc7_f5b48e59c92cd501.png",
               "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7e8546d10a373dc7/renderimage_3.png",
               "productTag": "Product.Juno"
             }
@@ -31115,6 +31179,7 @@
         },
         "layoutId": "AsapRocky.96",
         "newDisplayAsset": {
+          "cosmeticId": "EID_TonicMailYam",
           "id": "DAv2_EID_TonicMailYam",
           "materialInstances": [],
           "renderImages": [
@@ -31588,6 +31653,7 @@
         },
         "layoutId": "BR110826.96",
         "newDisplayAsset": {
+          "cosmeticId": "Backpack_NinjaWarrior",
           "id": "DAv2_Backpack_NinjaWarrior",
           "materialInstances": [],
           "renderImages": [

@@ -49012,6 +49012,39 @@
       }
     },
     {
+      "added": "2026-11-08T13:30:02Z",
+      "description": "Flooded the backbling.",
+      "dynamicPakId": "1024",
+      "id": "Backpack_RumbaShowyReward",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rumbashowyreward/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rumbashowyreward/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_rumbashowyreward/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Diamond and Gold",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2026-04-16T08:20:44Z",
       "description": "The weight of the storm.",
       "id": "Backpack_RumbleBeat",
@@ -183801,6 +183834,39 @@
         "value": "Restless Dead"
       },
       "showcaseVideo": "1DmDFxDshyI",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-11-08T13:30:02Z",
+      "description": "Diamonds and gold, a classic combo.",
+      "dynamicPakId": "1024",
+      "id": "Character_RumbaShowy",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_rumbashowy/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_rumbashowy/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_rumbashowy/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Solid Gold Lil Uzi Vert",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
       "type": {
         "backendValue": "AthenaCharacter",
         "displayValue": "Outfit",
@@ -444849,6 +444915,42 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-11-08T13:30:02Z",
+      "description": "Powerful in pink.\n\nArt by Golden Wolf.",
+      "dynamicPakId": "1024",
+      "id": "loadingscreen_delilahthw2",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw2/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw2/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw2/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "So Kawaii",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "IcyRosebud",
+        "text": "Part of the Beary Kawaii set.",
+        "value": "Beary Kawaii"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
