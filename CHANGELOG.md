@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-08
+- **00:08** Item Shop, News - +24 new (Alistair Chews, Dragacorn, Chimichanga!, Violet Tentacles, Pixellator, +19 more) - -38 removed
+
 ## 2026-11-07
 - **20:40** News - +1 new (Fortune Sprite Variants - November 7) - -1 removed
 - **16:56** BR Cosmetics, Item Shop
