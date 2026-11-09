@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-09
+- **02:19** Item Shop - +53 new (Vader's Katana, Chigusa, Vader Samurai, Rebel Authority, Hatchback, +48 more) - -58 removed
+
 ## 2026-11-08
 - **22:38** Item Shop, Epic Content Pages
 - **18:37** BR Cosmetics, Cars, Item Shop, News, Banners, Epic Content Pages - +1 new (Lil Uzi Vert Drops Anchor) - -1 removed
