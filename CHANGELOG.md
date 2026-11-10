@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-10
+- **03:07** Item Shop, AES Keys, Epic Content Pages - +52 new (Herald's Wand, Driver, Dark Tricera Ops, Jacob's Pierogi Locker Bundle, Skeletor, +47 more) - -43 removed
+
 ## 2026-11-09
 - **20:55** Item Shop, News, Epic Content Pages - +1 new (Keep Tabs on the Adventure!) - -1 removed
 - **02:19** Item Shop - +53 new (Vader's Katana, Chigusa, Vader Samurai, Rebel Authority, Hatchback, +48 more) - -58 removed
