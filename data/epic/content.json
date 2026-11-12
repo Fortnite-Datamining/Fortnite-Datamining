@@ -1885,37 +1885,9 @@
     "_templateName": "FortniteGameMOTD",
     "_title": "emergencynoticev2",
     "emergencynotices": {
-      "_type": "Emergency Notices",
-      "emergencynotices": [
-        {
-          "_type": "CommonUI Emergency Notice Base",
-          "body": "Downtime for v43.10 begins at 4 AM ET (9 AM UTC). Matchmaking will end shortly beforehand.",
-          "hidden": false,
-          "playlists": [
-            "playlist_pilgrimquickplay",
-            "playlist_fmclubisland "
-          ],
-          "title": "Fortnite Festival Downtime"
-        },
-        {
-          "_type": "CommonUI Emergency Notice Base",
-          "body": "Downtime for v43.10 begins at 4 AM ET (9 AM UTC). Matchmaking will end shortly beforehand.",
-          "hidden": false,
-          "playlists": [
-            "playlist_juno",
-            "playlist_sprout"
-          ],
-          "title": "LEGO Fortnite Downtime"
-        },
-        {
-          "_type": "CommonUI Emergency Notice Base",
-          "body": "Downtime for v43.10 begins at 4 AM ET (9 AM UTC). Matchmaking will end shortly beforehand.",
-          "hidden": false,
-          "title": "Scheduled Downtime"
-        }
-      ]
+      "_type": "Emergency Notices"
     },
-    "lastModified": "2026-11-11T22:49:26.240Z"
+    "lastModified": "2026-11-12T08:02:03.819Z"
   },
   "eventscreens": {
     "_activeDate": "2024-04-12T12:20:00.000Z",
@@ -2203,7 +2175,7 @@
     },
     "lastModified": "2018-11-07T06:37:42.201Z"
   },
-  "lastModified": "2026-11-11T22:49:26.240Z",
+  "lastModified": "2026-11-12T09:34:30.471Z",
   "leaderboardinformation": {
     "_activeDate": "2025-10-12T06:01:00.000Z",
     "_locale": "en-US",
@@ -7014,6 +6986,26 @@
       ]
     }
   },
+  "lockerseasonalfilter": {
+    "_activeDate": "2026-11-11T00:31:00.704Z",
+    "_locale": "en-US",
+    "_noIndex": false,
+    "_templateName": "LockerSeasonalFilterTemplate",
+    "_title": "lockerseasonalfilter",
+    "displayName": "Winterfest",
+    "endDate": "2027-01-08T06:00:00.000Z",
+    "eventId": "winterfest_event_filter",
+    "filter": {
+      "_type": "MP Locker - Tags",
+      "tags": [
+        "winterfest",
+        "christmas",
+        "winter"
+      ]
+    },
+    "lastModified": "2026-11-11T20:45:00.765Z",
+    "startDate": "2026-11-11T14:00:00.000Z"
+  },
   "loginmessage": {
     "_activeDate": "2017-07-19T13:14:04.490Z",
     "_locale": "en-US",
@@ -7062,391 +7054,31 @@
     "unlicensedId": "QWGQAynCdixzoLIdJl"
   },
   "mpItemShop": {
-    "_activeDate": "2026-11-11T22:42:42.408Z",
+    "_activeDate": "2026-11-12T09:32:11.391Z",
     "_locale": "en-US",
     "_metaTags": "",
     "_noIndex": false,
     "_suggestedPrefetch": [],
     "_templateName": "FortniteGameMPItemShop",
     "_title": "mp-item-shop",
-    "lastModified": "2026-11-11T22:42:42.408Z",
+    "lastModified": "2026-11-12T09:32:11.391Z",
     "shopData": {
       "_type": "MP Item Shop - Data Root",
       "sections": [
         {
           "_type": "MP Item Shop - Section",
-          "displayName": "Groove Moves",
+          "category": "Locker Bundles",
+          "displayName": "Jacob's Pierogi Locker ",
           "metadata": {
             "_type": "MP Item Shop - Section Metadata",
             "background": {
               "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_VictoryVibes_SectionBG-edae1985.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 195,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 193,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 182,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 193,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "VV1111261"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "category": "Start Your Engines",
-          "displayName": "Vulcan ",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_FlintTwirl_BG-0a47b4ef.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": true,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 179,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 177,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 195,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 177,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 179,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 177,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 195,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 177,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "Vulcan2"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "category": "Start Your Engines",
-          "displayName": "Vehicle Accessories",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Bawu_SectionBG-4811098e.png",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Season3600_SectionBG-d0c062ed.png",
               "type": "Light"
             },
             "offerGroups": [
               {
                 "_type": "MP Item Shop - Row",
-                "bUseWidePreview": true,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 177,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 175,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 193,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 175,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 177,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 175,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 193,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 175,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "twistaWheel/BellSaverBoost/ToonHydroTrail"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Curated Picks",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-ForTheStars_BG-cdcd307f.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "scrollableList",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "1",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 196,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 196,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 192,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 195,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 196,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 195,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 190,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 195,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "ForYou",
-          "subtitle": "Based on your interactions"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Peak Style",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_SectionBG-e7e140ff.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
                 "bUseWidePreview": false,
                 "displayType": "tileGrid",
                 "metadata": {
@@ -7480,78 +7112,6 @@
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "96",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 96,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "95",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 95,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "94",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 94,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
               }
             ],
             "showIneligibleOffers": "always",
@@ -7560,34 +7120,33 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 185,
+                "stackRankValue": 181,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 189,
+                "stackRankValue": 184,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 184,
+                "stackRankValue": 177,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 188,
+                "stackRankValue": 181,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
-          "sectionID": "BR111226",
-          "subtitle": "Your locker. Your rules."
+          "sectionID": "JacobP"
         },
         {
           "_type": "MP Item Shop - Section",
@@ -7758,35 +7317,7 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 193,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 182,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 189,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 198,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 192,
+                "stackRankValue": 191,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
@@ -7800,14 +7331,14 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 188,
+                "stackRankValue": 189,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 198,
+                "stackRankValue": 194,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
@@ -7816,19 +7347,19 @@
         },
         {
           "_type": "MP Item Shop - Section",
-          "displayName": "Fortnite Crew and Passes",
+          "displayName": "Today's Best Sellers",
           "metadata": {
             "_type": "MP Item Shop - Section Metadata",
             "background": {
               "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
-              "type": "Light"
+              "customTexture": "https://cdn2.unrealengine.com/sk-Bestsellers_SectionBG-e1b29339.png",
+              "type": "Dark"
             },
             "offerGroups": [
               {
                 "_type": "MP Item Shop - Row",
                 "bUseWidePreview": false,
-                "displayType": "tileGrid",
+                "displayType": "scrollableList",
                 "metadata": {
                   "_type": "MP Item Shop - Offer Group Metadata"
                 },
@@ -7838,225 +7369,7 @@
                     "_type": "MP Item Shop - Stack Rank",
                     "context": "battleRoyale",
                     "productTag": "Product.BR",
-                    "stackRankValue": 6,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "2",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 5,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "3",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 4,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "4",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 3,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "5",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 2,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "6",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 1,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "OnlyGiftable",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 176,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 184,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 176,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 181,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 176,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 184,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 176,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 181,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "BattlePassCrew"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Marvel",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_Cave2-355962cd.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
                     "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
@@ -8068,7 +7381,7 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 194,
+                "stackRankValue": 197,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
@@ -8082,99 +7395,45 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 183,
+                "stackRankValue": 198,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 187,
+                "stackRankValue": 196,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
-          "sectionID": "FantasticSurfer"
+          "sectionID": "BestSellers"
         },
         {
           "_type": "MP Item Shop - Section",
-          "displayName": "Signal Boost",
+          "displayName": "Curated Picks",
           "metadata": {
             "_type": "MP Item Shop - Section Metadata",
             "background": {
               "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/default-nexus-sectionbg-v1-1920x1080-7f860f6e2d7f.png",
-              "type": "Light"
+              "customTexture": "https://cdn2.unrealengine.com/sk-ForTheStars_BG-cdcd307f.png",
+              "type": "Dark"
             },
             "offerGroups": [
               {
                 "_type": "MP Item Shop - Row",
                 "bUseWidePreview": false,
-                "displayType": "tileGrid",
+                "displayType": "scrollableList",
                 "metadata": {
                   "_type": "MP Item Shop - Offer Group Metadata"
                 },
-                "offerGroupId": "99",
+                "offerGroupId": "1",
                 "stackRanks": [
                   {
                     "_type": "MP Item Shop - Stack Rank",
                     "context": "battleRoyale",
                     "productTag": "Product.BR",
                     "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "96",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 96,
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
@@ -8186,44 +7445,43 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 191,
-                "startDate": "2026-11-11T00:00:00.000Z"
+                "stackRankValue": 195,
+                "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 191,
-                "startDate": "2026-11-11T00:00:00.000Z"
+                "stackRankValue": 192,
+                "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 191,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
                 "stackRankValue": 190,
-                "startDate": "2026-11-11T00:00:00.000Z"
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 193,
+                "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
-          "sectionID": "FND111126",
-          "subtitle": "Big vibes broadcasting now."
+          "sectionID": "ForYou",
+          "subtitle": "Based on your interactions"
         },
         {
           "_type": "MP Item Shop - Section",
-          "category": "Start Your Engines",
-          "displayName": "Twinzer",
+          "displayName": "Kernel Hearts",
           "metadata": {
             "_type": "MP Item Shop - Section Metadata",
             "background": {
               "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Default_BG_0009_Purple-Rays-9ecc8840.png",
+              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_IslandOverlook-a84f12aa.png",
               "type": "Light"
             },
             "offerGroups": [
@@ -8252,61 +7510,197 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 181,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 179,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 197,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 179,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 181,
+                "stackRankValue": 196,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 179,
+                "stackRankValue": 181,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 197,
+                "stackRankValue": 192,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 179,
+                "stackRankValue": 187,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
-          "sectionID": "Twinzer"
+          "sectionID": "KernelHearts"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Star Wars",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Shop_Background_Progression_BG-b600e914.jpg",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 183,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 186,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 181,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 183,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "SamuraiSW"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Groove Moves",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_VictoryVibes_SectionBG-edae1985.png",
+              "type": "Dark"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 194,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 189,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 182,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 192,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "VV111126"
         },
         {
           "_type": "MP Item Shop - Section",
@@ -8523,56 +7917,28 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 194,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 194,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 184,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
                 "stackRankValue": 192,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 193,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 198,
+                "stackRankValue": 196,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 189,
+                "stackRankValue": 183,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 192,
+                "stackRankValue": 191,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
@@ -8581,18 +7947,19 @@
         },
         {
           "_type": "MP Item Shop - Section",
-          "displayName": "Main Stage Moment",
+          "category": "Start Your Engines",
+          "displayName": "Vehicle Accessories",
           "metadata": {
             "_type": "MP Item Shop - Section Metadata",
             "background": {
               "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_EWC-c298b0f1.png",
-              "type": "Dark"
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Bawu_SectionBG-4811098e.png",
+              "type": "Light"
             },
             "offerGroups": [
               {
                 "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
+                "bUseWidePreview": true,
                 "displayType": "tileGrid",
                 "metadata": {
                   "_type": "MP Item Shop - Offer Group Metadata"
@@ -8607,78 +7974,6 @@
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "96",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 96,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "95",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 95,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
               }
             ],
             "showIneligibleOffers": "always",
@@ -8687,62 +7982,33 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 197,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 195,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 185,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 196,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 188,
+                "stackRankValue": 176,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 191,
+                "stackRankValue": 174,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 185,
+                "stackRankValue": 193,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 196,
+                "stackRankValue": 174,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
-          "sectionID": "LatinGram",
-          "subtitle": "Where music's biggest names shine"
+          "sectionID": "twistaWheel/BellSaverBoost/ToonHydroTrail"
         },
         {
           "_type": "MP Item Shop - Section",
@@ -8834,56 +8100,28 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 183,
-                "startDate": "2026-11-11T00:00:00.000Z"
+                "stackRankValue": 182,
+                "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 186,
-                "startDate": "2026-11-11T00:00:00.000Z"
+                "stackRankValue": 185,
+                "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
                 "stackRankValue": 188,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 194,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 183,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 187,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 187,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 194,
+                "stackRankValue": 195,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
@@ -8892,270 +8130,12 @@
         },
         {
           "_type": "MP Item Shop - Section",
-          "category": "Start Your Engines",
-          "displayName": "RAM 1500 RHO",
+          "displayName": "Fortnite Crew and Passes",
           "metadata": {
             "_type": "MP Item Shop - Section Metadata",
             "background": {
               "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Rio_SectionBG-f250fe24.jpg",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": true,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 178,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 176,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 194,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 176,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 178,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 176,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 194,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 176,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "DodgeRam-SYE"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Signal Boost",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Hexes_SectionBG-2f51702a.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 189,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 188,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 178,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 182,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "FND111226",
-          "subtitle": "Big vibes broadcasting now."
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Groove Moves",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_VictoryVibes_SectionBG-edae1985.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 195,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 193,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 182,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 193,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "VV111126"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Treasure Hunters ",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_Cave2-355962cd.png",
+              "customTexture": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
               "type": "Light"
             },
             "offerGroups": [
@@ -9163,428 +8143,6 @@
                 "_type": "MP Item Shop - Row",
                 "bUseWidePreview": false,
                 "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "96",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 96,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "95",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 95,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 191,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 196,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 191,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 191,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "GoldThemePocket",
-          "subtitle": "The Greatest Adventure of All Time "
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Star Wars",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Shop_Background_Progression_BG-b600e914.jpg",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 184,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 189,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 181,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 185,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 184,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 186,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 181,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 186,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "SamuraiSW"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "category": "Start Your Engines",
-          "displayName": "Bugatti Centodieci",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_GoalsandGlory_BG-af32dde9.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": true,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 180,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 178,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 196,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 178,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "BugCento"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "No Sweat",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Default_BG_0000_Pyschadelic-Rays-1dcd8a80.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 188,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 187,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 187,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 188,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 186,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 190,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 186,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 189,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "NoSweat111026"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Today's Best Sellers",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Bestsellers_SectionBG-e1b29339.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "scrollableList",
                 "metadata": {
                   "_type": "MP Item Shop - Offer Group Metadata"
                 },
@@ -9594,163 +8152,7 @@
                     "_type": "MP Item Shop - Stack Rank",
                     "context": "battleRoyale",
                     "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 198,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 198,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 198,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 197,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 198,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 197,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 198,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 197,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "BestSellers"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Kernel Hearts",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_IslandOverlook-a84f12aa.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": true,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 197,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 181,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 192,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 190,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "KernelHearts"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Masters of the Universe",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Jumble_BG-63f3be57.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
+                    "stackRankValue": 6,
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
@@ -9762,13 +8164,13 @@
                 "metadata": {
                   "_type": "MP Item Shop - Offer Group Metadata"
                 },
-                "offerGroupId": "98",
+                "offerGroupId": "2",
                 "stackRanks": [
                   {
                     "_type": "MP Item Shop - Stack Rank",
                     "context": "battleRoyale",
                     "productTag": "Product.BR",
-                    "stackRankValue": 98,
+                    "stackRankValue": 5,
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
@@ -9780,480 +8182,105 @@
                 "metadata": {
                   "_type": "MP Item Shop - Offer Group Metadata"
                 },
-                "offerGroupId": "97",
+                "offerGroupId": "3",
                 "stackRanks": [
                   {
                     "_type": "MP Item Shop - Stack Rank",
                     "context": "battleRoyale",
                     "productTag": "Product.BR",
-                    "stackRankValue": 97,
+                    "stackRankValue": 4,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "4",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 3,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "5",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 2,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "6",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 1,
                     "startDate": "2023-01-01T00:00:00.000Z"
                   }
                 ]
               }
             ],
-            "showIneligibleOffers": "always",
+            "showIneligibleOffers": "OnlyGiftable",
             "stackRanks": [
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 189,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 181,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 178,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 183,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 187,
+                "stackRankValue": 175,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 182,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 179,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
                 "stackRankValue": 183,
                 "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "MastersUniverse"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Mega Man",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_IslandOverlook-a84f12aa.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 192,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 192,
-                "startDate": "2026-11-11T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 179,
-                "startDate": "2026-11-11T00:00:00.000Z"
+                "stackRankValue": 175,
+                "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 189,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 190,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 192,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
                 "stackRankValue": 180,
                 "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 185,
-                "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
-          "sectionID": "Megaman"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Peak Style",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_SectionBG-e7e140ff.png",
-              "type": "Dark"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "97",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 97,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "96",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 96,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "95",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 95,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "94",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 94,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "93",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 93,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "92",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 92,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 186,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 188,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 180,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 184,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "BR111126",
-          "subtitle": "Your locker. Your rules."
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Honkai Star Rail",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_IslandOverlook-a84f12aa.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 187,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 190,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 186,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 187,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "Honkai"
+          "sectionID": "BattlePassCrew"
         },
         {
           "_type": "MP Item Shop - Section",
@@ -10399,61 +8426,774 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 175,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 183,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 175,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 180,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 175,
+                "stackRankValue": 174,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 183,
+                "stackRankValue": 182,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 175,
+                "stackRankValue": 174,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "sparks",
                 "productTag": "Product.Sparks",
-                "stackRankValue": 180,
+                "stackRankValue": 179,
                 "startDate": "2026-11-12T00:00:00.000Z"
               }
             ]
           },
           "sectionID": "LimitedTime"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "category": "Start Your Engines",
+          "displayName": "RAM 1500 RHO",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Rio_SectionBG-f250fe24.jpg",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": true,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 177,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 175,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 194,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 176,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "DodgeRam-SYE"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Marvel",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_Cave2-355962cd.png",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "97",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 97,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 193,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 193,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 184,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 189,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "FantasticSurfer"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Music Pass",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/default-sparks-sectionbg-v1-1920x1080-9b27879ce008.jpg",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "1",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 1,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "OnlyGiftable",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 198,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 198,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 176,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 198,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "MusicPassFeature"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Mega Man",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_IslandOverlook-a84f12aa.png",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "97",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 97,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 189,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 191,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 180,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 185,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "Megaman"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "category": "Start Your Engines",
+          "displayName": "Twinzer",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Default_BG_0009_Purple-Rays-9ecc8840.png",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": true,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 180,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 177,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 197,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 178,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "Twinzer"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "category": "Start Your Engines",
+          "displayName": "Bugatti Centodieci",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_GoalsandGlory_BG-af32dde9.png",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": true,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 179,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 176,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 196,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 177,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "BugCento2"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Main Stage Moment",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_EWC-c298b0f1.png",
+              "type": "Dark"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "97",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 97,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "96",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 96,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "95",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 95,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 187,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 190,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 186,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 197,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "LatinGram",
+          "subtitle": "Where music's biggest names shine"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "No Sweat",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Default_BG_0000_Pyschadelic-Rays-1dcd8a80.png",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 185,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 188,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 187,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 186,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "NoSweat111026"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Welcome Offer",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "1",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 1,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "OnlyGiftable",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 199,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 199,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 199,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 199,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "TestLimitedTime"
         },
         {
           "_type": "MP Item Shop - Section",
@@ -10464,6 +9204,391 @@
               "_type": "MP Item Shop - Background",
               "customTexture": "https://cdn2.unrealengine.com/sk-SectionBG_Cave2-355962cd.png",
               "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "97",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 97,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "96",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 96,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "95",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 95,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 190,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 195,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 191,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 190,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "GoldThemePocket",
+          "subtitle": "The Greatest Adventure of All Time "
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Signal Boost",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Hexes_SectionBG-2f51702a.png",
+              "type": "Dark"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 188,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 197,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 178,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 188,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "FND111226",
+          "subtitle": "Big vibes broadcasting now."
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Masters of the Universe",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Jumble_BG-63f3be57.png",
+              "type": "Light"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "98",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 98,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              },
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": false,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "97",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 97,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 186,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 179,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 179,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 182,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "MastersUniverse"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "category": "Start Your Engines",
+          "displayName": "Vulcan ",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_FlintTwirl_BG-0a47b4ef.png",
+              "type": "Dark"
+            },
+            "offerGroups": [
+              {
+                "_type": "MP Item Shop - Row",
+                "bUseWidePreview": true,
+                "displayType": "tileGrid",
+                "metadata": {
+                  "_type": "MP Item Shop - Offer Group Metadata"
+                },
+                "offerGroupId": "99",
+                "stackRanks": [
+                  {
+                    "_type": "MP Item Shop - Stack Rank",
+                    "context": "battleRoyale",
+                    "productTag": "Product.BR",
+                    "stackRankValue": 99,
+                    "startDate": "2023-01-01T00:00:00.000Z"
+                  }
+                ]
+              }
+            ],
+            "showIneligibleOffers": "always",
+            "stackRanks": [
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "battleRoyale",
+                "productTag": "Product.BR",
+                "stackRankValue": 178,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "juno",
+                "productTag": "Product.Juno",
+                "stackRankValue": 178,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "delMar",
+                "productTag": "Product.DelMar",
+                "stackRankValue": 195,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              },
+              {
+                "_type": "MP Item Shop - Stack Rank",
+                "context": "sparks",
+                "productTag": "Product.Sparks",
+                "stackRankValue": 175,
+                "startDate": "2026-11-12T00:00:00.000Z"
+              }
+            ]
+          },
+          "sectionID": "Vulcan2"
+        },
+        {
+          "_type": "MP Item Shop - Section",
+          "displayName": "Peak Style",
+          "metadata": {
+            "_type": "MP Item Shop - Section Metadata",
+            "background": {
+              "_type": "MP Item Shop - Background",
+              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Beacon_SectionBG-e7e140ff.png",
+              "type": "Dark"
             },
             "offerGroups": [
               {
@@ -10581,133 +9706,21 @@
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "battleRoyale",
                 "productTag": "Product.BR",
-                "stackRankValue": 190,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 197,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 190,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 191,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "GoldTheme",
-          "subtitle": "The Greatest Adventure of All Time "
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "category": "Locker Bundles",
-          "displayName": "Jacob's Pierogi Locker ",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_Season3600_SectionBG-d0c062ed.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 182,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 185,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 177,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 182,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 182,
+                "stackRankValue": 184,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "juno",
                 "productTag": "Product.Juno",
-                "stackRankValue": 185,
+                "stackRankValue": 187,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
                 "_type": "MP Item Shop - Stack Rank",
                 "context": "delMar",
                 "productTag": "Product.DelMar",
-                "stackRankValue": 177,
+                "stackRankValue": 185,
                 "startDate": "2026-11-12T00:00:00.000Z"
               },
               {
@@ -10719,245 +9732,8 @@
               }
             ]
           },
-          "sectionID": "JacobP"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Deadpool Mashups",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/31-40-billboard-steaksting-sectionbg-v1-1920x1080-d040917a2948.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              },
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "98",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 98,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 185,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 180,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 183,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 186,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "DPMash"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "displayName": "Welcome Offer",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": false,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "1",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 1,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "OnlyGiftable",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 199,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 199,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 199,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 199,
-                "startDate": "2026-11-11T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 199,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 199,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 199,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 199,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "TestLimitedTime"
-        },
-        {
-          "_type": "MP Item Shop - Section",
-          "category": "Start Your Engines",
-          "displayName": "Bugatti Centodieci",
-          "metadata": {
-            "_type": "MP Item Shop - Section Metadata",
-            "background": {
-              "_type": "MP Item Shop - Background",
-              "customTexture": "https://cdn2.unrealengine.com/sk-Billboard_GoalsandGlory_BG-af32dde9.png",
-              "type": "Light"
-            },
-            "offerGroups": [
-              {
-                "_type": "MP Item Shop - Row",
-                "bUseWidePreview": true,
-                "displayType": "tileGrid",
-                "metadata": {
-                  "_type": "MP Item Shop - Offer Group Metadata"
-                },
-                "offerGroupId": "99",
-                "stackRanks": [
-                  {
-                    "_type": "MP Item Shop - Stack Rank",
-                    "context": "battleRoyale",
-                    "productTag": "Product.BR",
-                    "stackRankValue": 99,
-                    "startDate": "2023-01-01T00:00:00.000Z"
-                  }
-                ]
-              }
-            ],
-            "showIneligibleOffers": "always",
-            "stackRanks": [
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "battleRoyale",
-                "productTag": "Product.BR",
-                "stackRankValue": 180,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "juno",
-                "productTag": "Product.Juno",
-                "stackRankValue": 178,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "delMar",
-                "productTag": "Product.DelMar",
-                "stackRankValue": 196,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              },
-              {
-                "_type": "MP Item Shop - Stack Rank",
-                "context": "sparks",
-                "productTag": "Product.Sparks",
-                "stackRankValue": 178,
-                "startDate": "2026-11-12T00:00:00.000Z"
-              }
-            ]
-          },
-          "sectionID": "BugCento2"
+          "sectionID": "BR111226",
+          "subtitle": "Your locker. Your rules."
         }
       ]
     }
@@ -11025,12 +9801,12 @@
     }
   },
   "playersurveyv2": {
-    "_activeDate": "2026-11-01T09:00:00.000Z",
+    "_activeDate": "2026-11-12T12:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2",
     "_title": "playersurveyv2",
-    "lastModified": "2026-11-08T16:18:41.111Z",
+    "lastModified": "2026-11-11T21:03:44.938Z",
     "surveyData": {
       "_type": "Player Survey V2 - Data Root",
       "additionalDataPages": [
@@ -23371,6 +22147,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Special Buggy Ball",
+              "textID": "Special Buggy Ball"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Golden Fireworks",
               "textID": "Golden Fireworks"
             },
@@ -23478,6 +22259,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Spicy Fish",
               "textID": "Spicy Fish"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lever Action Shotgun",
+              "textID": "Lever Action Shotgun"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -25097,6 +23883,11 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Buggy",
+              "textID": "Buggy"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Lil Uzi Vert",
               "textID": "Lil Uzi Vert"
             },
@@ -25137,6 +23928,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "POIC",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Buggy's Beachhead",
+              "textID": "Buggy's Beachhead"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Lil' Uzi's Stronghold",
@@ -25184,11 +23980,6 @@
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
-              "localizedText": "Loot Lagoon",
-              "textID": "Loot Lagoon"
-            },
-            {
-              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "The $.$. Rocky",
               "textID": "The $.$. Rocky"
             },
@@ -25203,6 +23994,11 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "ITEMDC",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Special Buggy Ball",
+              "textID": "Special Buggy Ball"
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Lil' Uzi Vert Jr. Sprite",
@@ -25382,6 +24178,11 @@
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Spicy Fish",
               "textID": "Spicy Fish"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Lever Action Shotgun",
+              "textID": "Lever Action Shotgun"
             },
             {
               "_type": "Player Survey V2 - Localizable Text",
@@ -36205,12 +35006,12 @@
     }
   },
   "playersurveyv2Additions": {
-    "_activeDate": "2026-11-01T09:00:00.000Z",
+    "_activeDate": "2026-11-12T12:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGamePlayerSurveyV2AdditionalData",
     "_title": "playersurveyv2-additions",
-    "lastModified": "2026-11-08T16:29:37.259Z",
+    "lastModified": "2026-11-11T20:09:09.603Z",
     "surveyData": {
       "_type": "Player Survey V2 - Additional Data Root",
       "conditionGroups": [
@@ -40485,6 +39286,16 @@
           "textReplacementValues": [
             {
               "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "a new Adventure tab has been added to Fortnite (it shows information about upcoming releases)",
+              "textID": "a new Adventure tab has been added to Fortnite (it shows information about upcoming releases)"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "Buggy from One Piece has arrived in Fortnite Battle Royale",
+              "textID": "Buggy from One Piece has arrived in Fortnite Battle Royale"
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "in this season, the Greatest Adventure of All Time is happening in Fortnite Battle Royale (each week introduces new gameplay items, quests, bosses, landmarks, and Sprites)",
               "textID": "in this season, the Greatest Adventure of All Time is happening in Fortnite Battle Royale (each week introduces new gameplay items, quests, bosses, landmarks, and Sprites)"
             },
@@ -41100,6 +39911,26 @@
           "_type": "Player Survey V2 - Custom Text Replacements",
           "textReplacementTag": "FNBR_Likert_Agreement",
           "textReplacementValues": [
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "The information in the Adventure tab is easy to understand. If you have not seen the Adventure tab, please skip the question.",
+              "textID": "The information in the Adventure tab is easy to understand. If you have not seen the Adventure tab, please skip the question."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "I find it useful to see upcoming release info in the Adventure tab.",
+              "textID": "I find it useful to see upcoming release info in the Adventure tab."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When playing Fortnite Battle Royale, I enjoy collecting a new variant of a Sprite I already have (like a Gummy or Fortune version).",
+              "textID": "When playing Fortnite Battle Royale, I enjoy collecting a new variant of a Sprite I already have (like a Gummy or Fortune version)."
+            },
+            {
+              "_type": "Player Survey V2 - Localizable Text",
+              "localizedText": "When playing Fortnite Battle Royale, I enjoy collecting a new type of Sprite that I did not have before.",
+              "textID": "When playing Fortnite Battle Royale, I enjoy collecting a new type of Sprite that I did not have before."
+            },
             {
               "_type": "Player Survey V2 - Localizable Text",
               "localizedText": "Devil Fruits make my matches less fair.",
@@ -60229,10 +59060,21 @@
     "_noIndex": true,
     "_templateName": "FortniteGameShopOfferVisuals",
     "_title": "shopOfferVisuals",
-    "lastModified": "2026-11-06T22:35:53.631Z",
+    "lastModified": "2026-11-12T09:34:30.471Z",
     "visualsList": {
       "_type": "ShopOfferVisualList",
       "offerPresentations": [
+        {
+          "_type": "ShopOfferPresentationData",
+          "presentations": [
+            {
+              "_type": "ShopOfferPresentation",
+              "productTag": "Product.BR",
+              "renderImage": "https://cdn2.unrealengine.com/t-ui-mp-4310-itemshop-tile-v2-2048x2048-20a3a54aa39f.png"
+            }
+          ],
+          "visualId": "/MusicPassS16/UI/ShopFiles/DAv2_MusicPassS16.DAv2_MusicPassS16"
+        },
         {
           "_type": "ShopOfferPresentationData",
           "presentations": [
@@ -65511,6 +64353,51 @@
           "title_line_2": "Zero Build",
           "tournament_display_id": "s43_zoro_zb",
           "tournament_view_background_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-zoro-competetab-grouptexture-1560x1024-1560x1024-e23be54be3d1.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "004776",
+          "background_right_color": "1A83BE",
+          "background_text_color": "161616",
+          "details_description": "Set sail for glory. Duo up and embrace the chaos of the legendary pirate in the One Piece: Buggy Cup for a chance to earn exclusive Buggy cosmetic rewards and Fortnite x One Piece: Treasure Box. Show off your skills, outsmart your opponents, and make your way to victory together. Good luck and have fun!",
+          "long_format_title": "One Piece: Buggy Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnbr-43-00-msee-competitive-buggy-discovertile-1920x1080-1920x1080-da1bb64efa35.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-buggy-competetab-solotexture-800x800-800x800-3b918732d052.jpg",
+          "title_line_1": "One Piece: Buggy Cup",
+          "title_line_2": "Battle Royale",
+          "tournament_display_id": "s43_buggy",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-buggy-competetab-grouptexture-1560x1024-1560x1024-c9f0592aacb4.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "004776",
+          "background_right_color": "1A83BE",
+          "background_text_color": "161616",
+          "details_description": "Set sail for glory. Embrace the chaos of the legendary pirate in the One Piece: Buggy Cup for a chance to earn exclusive Buggy cosmetic rewards and Fortnite x One Piece: Treasure Box. Show off your skills, outsmart your opponents, and make your way to victory together. Good luck and have fun!",
+          "long_format_title": "One Piece: Buggy Mobile Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnbr-43-00-msee-competitive-buggy-mobile-discovertile-1920x1080-1920x1080-97514ee3a07e.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-buggy-competetab-solotexture-800x800-800x800-3b918732d052.jpg",
+          "title_line_1": "One Piece: Buggy Mobile Cup",
+          "title_line_2": "",
+          "tournament_display_id": "s43_buggy_mobile",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-buggy-competetab-grouptexture-1560x1024-1560x1024-c9f0592aacb4.jpg"
+        },
+        {
+          "_type": "Tournament Display Info",
+          "background_left_color": "004776",
+          "background_right_color": "1A83BE",
+          "background_text_color": "161616",
+          "details_description": "Set sail for glory. Duo up and embrace the chaos of the legendary pirate in the One Piece: Buggy Cup for a chance to earn exclusive Buggy cosmetic rewards and Fortnite x One Piece: Treasure Box. Show off your skills, outsmart your opponents, and make your way to victory together. Good luck and have fun!",
+          "long_format_title": "One Piece: Buggy Cup",
+          "playlist_tile_image": "https://cdn2.unrealengine.com/en-fnbr-43-00-msee-competitive-buggy-zb-discovertile-1920x1080-1920x1080-1912318e0ecd.jpg",
+          "primary_color": "977EA5",
+          "square_poster_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-buggy-competetab-solotexture-800x800-800x800-3b918732d052.jpg",
+          "title_line_1": "One Piece: Buggy Cup",
+          "title_line_2": "Zero Build",
+          "tournament_display_id": "s43_buggy_zb",
+          "tournament_view_background_image": "https://cdn2.unrealengine.com/fnbr-43-00-msee-competitive-buggy-competetab-grouptexture-1560x1024-1560x1024-c9f0592aacb4.jpg"
         },
         {
           "_type": "Tournament Display Info",

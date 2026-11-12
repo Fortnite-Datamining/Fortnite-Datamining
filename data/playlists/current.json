@@ -6325,6 +6325,35 @@
     },
     {
       "accumulateToProfileStats": false,
+      "added": "2025-11-20T17:18:55Z",
+      "description": "Testing An Event",
+      "gameType": "EFortGameType::BRLTM",
+      "gameplayTags": [
+        "Athena.Playlist.DefaultXP",
+        "Athena.Playlist.Default",
+        "Athena.Playlist.Core",
+        "Athena.Playlist.Solo",
+        "Athena.Plugin.GameMod.Gasket",
+        "Athena.Quests.NoBuild.Exclude",
+        "Behavior.Playlist.UseTimeSlicedWorldReady",
+        "Product.EventTest"
+      ],
+      "id": "Playlist_EventTest",
+      "isDefault": false,
+      "isLargeTeamGame": false,
+      "isLimitedTimeMode": false,
+      "isTournament": false,
+      "maxPlayers": 32,
+      "maxSquadSize": 4,
+      "maxSquads": 12,
+      "maxTeamSize": 32,
+      "maxTeams": 2,
+      "minPlayers": 1,
+      "name": "Event Test",
+      "path": "FortniteGame/Plugins/GameFeatures/SpecialEvent/EventTest/Content/Playlist/Playlist_EventTest"
+    },
+    {
+      "accumulateToProfileStats": false,
       "added": "2025-03-25T17:24:16Z",
       "description": "Two teams of 50 players. Massive forts.",
       "gameType": "EFortGameType::Figment",
@@ -13324,7 +13353,9 @@
         "Athena.Playlist.RespawnRumble",
         "Plugin.Playlist.Exclude.YokeHop",
         "Plugin.Playlist.Exclude.YokeHopUnkind",
-        "Plugin.Playlist.Exclude.HazelnutSpread"
+        "Plugin.Playlist.Exclude.HazelnutSpread",
+        "Plugin.Playlist.Exclude.Extraction",
+        "Plugin.Playlist.Exclude.Delilah.LootTables"
       ],
       "id": "Playlist_Respawn_Alt_MiniMobile",
       "isDefault": false,

@@ -4744,6 +4744,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -5229,6 +5234,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -6196,6 +6206,50 @@
         "value": "Guardians of the Globe"
       },
       "showcaseVideo": "vgONFm7X0wc",
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Why is it? Where did it come from? … Nobody knows, but it's Pearto.",
+      "id": "Backpack_CactusBait",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_cactusbait/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_cactusbait/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_cactusbait/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Pearto",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -7607,6 +7661,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -11396,6 +11455,38 @@
         "backendValue": "FastTruck",
         "text": "Part of the SpongeBob SquarePants set.",
         "value": "SpongeBob SquarePants"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Tiny but mighty.",
+      "id": "Backpack_CovertShadow",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_covertshadow/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_covertshadow/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_covertshadow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Hope's Underworld Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrookedBishop",
+        "text": "Part of the Treasure Hunter Hope set.",
+        "value": "Treasure Hunter Hope"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -19704,6 +19795,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "BriefChariot",
+        "text": "Part of the Big Cat Hunter set.",
+        "value": "Big Cat Hunter"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -20273,6 +20369,7 @@
     {
       "added": "2026-11-01T23:10:43Z",
       "description": "Worn by the one and only Buggy the Star Clown.",
+      "dynamicPakId": "1030",
       "id": "Backpack_FlipperBalm",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_flipperbalm/featured.png",
@@ -27067,6 +27164,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -27822,6 +27924,93 @@
         "displayValue": "Back Bling",
         "value": "backpack"
       }
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Pspsps.",
+      "id": "Backpack_HoodieBlast_Meow",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "K.I.T.I.",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "LazyLotus",
+        "text": "Part of the N.E.K.O. set.",
+        "value": "N.E.K.O."
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/variants/material/mat1.png",
+              "name": "K.I.T.I.",
+              "tag": "Mat1",
+              "unlockRequirements": "K.I.T.I."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/variants/material/mat2.png",
+              "name": "C.U.B.",
+              "tag": "Mat2",
+              "unlockRequirements": "K.I.T.I."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/variants/material/mat3.png",
+              "name": "C.O.I.N.",
+              "tag": "Mat3",
+              "unlockRequirements": "K.I.T.I."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/variants/material/mat4.png",
+              "name": "S.H.I.M.M.E.R.",
+              "tag": "Mat4",
+              "unlockRequirements": "K.I.T.I."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/variants/material/mat5.png",
+              "name": "C.H.I.P.",
+              "tag": "Mat5",
+              "unlockRequirements": "K.I.T.I."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_hoodieblast_meow/variants/material/mat6.png",
+              "name": "S.T.A.R.",
+              "tag": "Mat6",
+              "unlockRequirements": "K.I.T.I."
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2023-11-03T09:12:39Z",
@@ -29470,6 +29659,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -30859,6 +31053,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "BleakBee",
+        "text": "Part of the Finders, Keepers set.",
+        "value": "Finders, Keepers"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -33418,6 +33617,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
       },
       "type": {
         "backendValue": "AthenaBackpack",
@@ -45692,8 +45896,20 @@
       "name": "Up 2 Mic",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "set": {
         "backendValue": "GluePurple",
@@ -48258,6 +48474,141 @@
       }
     },
     {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Who flyer?",
+      "dynamicPakId": "1041",
+      "id": "Backpack_RookGeckoRod",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorod/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorod/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorod/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Uzi's Wings",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Never out of rotation.",
+      "dynamicPakId": "1041",
+      "id": "Backpack_RookGeckoRye",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorye/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorye/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorye/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Lil Uzi Star",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Wanna rock?",
+      "dynamicPakId": "1041",
+      "id": "Backpack_RookGeckoRye_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorye_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorye_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_rookgeckorye_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Uzi's Tour Guitar",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2023-08-08T08:00:00Z",
       "description": "For Nobara's innate technique.",
       "id": "Backpack_RoosterMelt",
@@ -49014,7 +49365,6 @@
     {
       "added": "2026-11-08T13:30:02Z",
       "description": "Flooded the backbling.",
-      "dynamicPakId": "1024",
       "id": "Backpack_RumbaShowyReward",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_rumbashowyreward/featured.png",
@@ -61302,7 +61652,7 @@
           "options": [
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/material/particle1.png",
-              "name": "Sprite Strongbox",
+              "name": "Sprite Mastery Strongbox",
               "tag": "Particle1"
             },
             {
@@ -61339,8 +61689,183 @@
           "options": [
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/stage0.png",
-              "name": "Sprite Strongbox",
+              "name": "Sprite Mastery Strongbox",
               "tag": "Stage0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat1.png",
+              "name": "Halfpeel'd Sprite Mastery Strongbox",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat2.png",
+              "name": "Fortune Halfpeel'd Sprite Mastery Strongbox",
+              "tag": "Mat2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat3.png",
+              "name": "Cursed Halfpeel'd Sprite Mastery Strongbox",
+              "tag": "Mat3"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat4.png",
+              "name": "Re-Pete Sprite Mastery Strongbox",
+              "tag": "Mat4"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat5.png",
+              "name": "Fortune Re-Pete Sprite Mastery Strongbox",
+              "tag": "Mat5"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat6.png",
+              "name": "Cursed Re-Pete Sprite Mastery Strongbox",
+              "tag": "Mat6"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat7.png",
+              "name": "Barry O'Fish Sprite Mastery Strongbox",
+              "tag": "Mat7"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat8.png",
+              "name": "Fortune Barry O'Fish Sprite Mastery Strongbox",
+              "tag": "Mat8"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat9.png",
+              "name": "Cursed Barry O'Fish Sprite Mastery Strongbox",
+              "tag": "Mat9"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat10.png",
+              "name": "Wayfinder Sprite Mastery Strongbox",
+              "tag": "Mat10"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat11.png",
+              "name": "Fortune Wayfinder Sprite Mastery Strongbox",
+              "tag": "Mat11"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat12.png",
+              "name": "Cursed Wayfinder Sprite Mastery Strongbox",
+              "tag": "Mat12"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat13.png",
+              "name": "Chester Sprite Mastery Strongbox",
+              "tag": "Mat13"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat14.png",
+              "name": "Fortune Chester Sprite Mastery Strongbox",
+              "tag": "Mat14"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat15.png",
+              "name": "Cursed Chester Sprite Mastery Strongbox",
+              "tag": "Mat15"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat16.png",
+              "name": "Kelper Sprite Mastery Strongbox",
+              "tag": "Mat16"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat17.png",
+              "name": "Fortune Kelper Sprite Mastery Strongbox",
+              "tag": "Mat17"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat18.png",
+              "name": "Cursed Kelper Sprite Mastery Strongbox",
+              "tag": "Mat18"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat19.png",
+              "name": "Exmarks Sprite Mastery Strongbox",
+              "tag": "Mat19"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat20.png",
+              "name": "Fortune Exmarks Sprite Mastery Strongbox",
+              "tag": "Mat20"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat21.png",
+              "name": "Cursed Exmarks Sprite Mastery Strongbox",
+              "tag": "Mat21"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat22.png",
+              "name": "Transponder Snail Sprite Mastery Strongbox",
+              "tag": "Mat22"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat23.png",
+              "name": "Lil' Squibbly Sprite Mastery Strongbox",
+              "tag": "Mat23"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat24.png",
+              "name": "Fortune Lil' Squibbly Sprite Mastery Strongbox",
+              "tag": "Mat24"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat25.png",
+              "name": "Cursed Lil' Squibbly Sprite Mastery Strongbox",
+              "tag": "Mat25"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat26.png",
+              "name": "Lil' Flacko Sprite Mastery Strongbox",
+              "tag": "Mat26"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat27.png",
+              "name": "Fortune Lil' Flacko Sprite Mastery Strongbox",
+              "tag": "Mat27"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat28.png",
+              "name": "Cursed Lil' Flacko Sprite Mastery Strongbox",
+              "tag": "Mat28"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat29.png",
+              "name": "Lil' Lil' Uzi Vert Sprite Mastery Strongbox",
+              "tag": "Mat29"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat30.png",
+              "name": "Fortune Lil' Lil' Uzi Vert Sprite Mastery Strongbox",
+              "tag": "Mat30"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat31.png",
+              "name": "Cursed Lil' Lil' Uzi Vert Sprite Mastery Strongbox",
+              "tag": "Mat31"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat32.png",
+              "name": "Plundarrgh Sprite Mastery Strongbox",
+              "tag": "Mat32"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat33.png",
+              "name": "Fortune Plundarrgh Sprite Mastery Strongbox",
+              "tag": "Mat33"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat34.png",
+              "name": "Cursed Plundarrgh Sprite Mastery Strongbox",
+              "tag": "Mat34"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_tinystash/variants/mesh/mat35.png",
+              "name": "Sweet Dreams Sprite Mastery Strongbox",
+              "tag": "Mat35"
             }
           ],
           "type": "Sprite"
@@ -61652,7 +62177,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "High above the clouds.",
-      "dynamicPakId": "1017",
       "id": "Backpack_TonicMailWeb",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tonicmailweb/featured.png",
@@ -61697,7 +62221,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Blow up the mic.",
-      "dynamicPakId": "1017",
       "id": "Backpack_TonicMailWeb_Mic",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tonicmailweb_mic/featured.png",
@@ -61742,7 +62265,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "The crew doesn't travel light.",
-      "dynamicPakId": "1017",
       "id": "Backpack_TonicMailYam",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_tonicmailyam/featured.png",
@@ -62503,7 +63025,6 @@
     {
       "added": "2026-11-01T05:00:00Z",
       "description": "Never underestimate the power of music.",
-      "dynamicPakId": "1035",
       "id": "Backpack_TrioDodge_Guitar",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_triododge_guitar/featured.png",
@@ -66519,6 +67040,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -66699,6 +67225,9 @@
         "season": "4",
         "text": "Introduced in Chapter 7, Season 4."
       },
+      "metaTags": [
+        "Cosmetics.MetaTags.WidowFoam_Backpack"
+      ],
       "name": "Vagatha's Wings",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
@@ -93218,7 +93747,7 @@
     {
       "added": "2020-09-23T08:28:55Z",
       "description": "Protected by an unbreakable vow.",
-      "id": "bid_614_myth",
+      "id": "BID_614_Myth",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/bid_614_myth/icon.png",
@@ -121842,6 +122371,77 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Your favorite chimera on the mic!",
+      "id": "Character_CactusBait",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_cactusbait/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_cactusbait/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_cactusbait/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_cactusbait/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_cactusbait/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_cactusbait/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "metaTags": [
+        "Cosmetics.Emote.CharacterGroup.Skirts"
+      ],
+      "name": "Kasane Teto",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "showcaseVideo": "k-fjaF1mbf0",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cactusbait/variants/emissive/emissive0.png",
+              "name": "Off",
+              "tag": "Emissive0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_cactusbait/variants/emissive/emissive1.png",
+              "name": "On",
+              "tag": "Emissive1"
+            }
+          ],
+          "type": "Reactivity"
+        }
+      ]
+    },
+    {
       "added": "2026-07-30T13:11:09Z",
       "description": "Calm the waters.",
       "id": "Character_CadetFrog_Slide",
@@ -127946,6 +128546,65 @@
             }
           ],
           "type": "accessory"
+        }
+      ]
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "The hunter always finds her prey.",
+      "id": "Character_CovertShadow",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_covertshadow/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_covertshadow/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_covertshadow/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_covertshadow/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_covertshadow/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_covertshadow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "metaTags": [
+        "Cosmetics.Emote.CharacterGroup.Skirts"
+      ],
+      "name": "Treasure Hunter Hope",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "CrookedBishop",
+        "text": "Part of the Treasure Hunter Hope set.",
+        "value": "Treasure Hunter Hope"
+      },
+      "showcaseVideo": "rtLON4jFqkY",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_covertshadow/variants/material/mat1.png",
+              "name": "on",
+              "tag": "Mat1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_covertshadow/variants/material/mat2.png",
+              "name": "off",
+              "tag": "Mat2"
+            }
+          ],
+          "type": "ears"
         }
       ]
     },
@@ -136560,10 +137219,6 @@
       "description": "Standard issue Island combatant. ",
       "id": "Character_F_Placeholder_C",
       "images": {
-        "bean": {
-          "large": "https://fortnite-api.com/images/cosmetics/beans/bean_placeholder/large.png",
-          "small": "https://fortnite-api.com/images/cosmetics/beans/bean_placeholder/small.png"
-        },
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_f_placeholder_c/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_f_placeholder_c/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_f_placeholder_c/smallicon.png"
@@ -136616,6 +137271,10 @@
       "description": "Standard issue Island combatant. ",
       "id": "Character_F_Placeholder_E",
       "images": {
+        "bean": {
+          "large": "https://fortnite-api.com/images/cosmetics/beans/bean_placeholder/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/beans/bean_placeholder/small.png"
+        },
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_f_placeholder_e/featured.png",
         "icon": "https://fortnite-api.com/images/cosmetics/br/character_f_placeholder_e/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_f_placeholder_e/smallicon.png"
@@ -148761,6 +149420,116 @@
       ]
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Rawr! UwU.",
+      "id": "Character_HoodieBlast_Meow",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_hoodieblast_meow/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_hoodieblast_meow/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_hoodieblast_meow/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "metaTags": [
+        "Cosmetics.MetaTags.Special.BodySwap.Full",
+        "Cosmetics.MetaTags.Special.BodySwap.Medium",
+        "Cosmetics.MetaTags.Special.ReplaceFace",
+        "Cosmetics.Emote.CharacterGroup.Skirts"
+      ],
+      "name": "N.E.K.O.",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "CrewSeries",
+        "colors": [
+          "bacaf2ff",
+          "bacaf2ff",
+          "b30102ff",
+          "3f386dff",
+          "3f386dff"
+        ],
+        "value": "CREW SERIES"
+      },
+      "set": {
+        "backendValue": "LazyLotus",
+        "text": "Part of the N.E.K.O. set.",
+        "value": "N.E.K.O."
+      },
+      "showcaseVideo": "8i-aT6YG43M",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Material",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/material/mat1.png",
+              "name": "N.E.K.O.",
+              "tag": "Mat1",
+              "unlockRequirements": "N.E.K.O."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/material/mat2.png",
+              "name": "T.Y.G.R.",
+              "tag": "Mat2",
+              "unlockRequirements": "N.E.K.O."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/material/mat3.png",
+              "name": "G.O.L.D.I.E.",
+              "tag": "Mat3",
+              "unlockRequirements": "N.E.K.O."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/material/mat4.png",
+              "name": "P.E.A.R.L.",
+              "tag": "Mat4",
+              "unlockRequirements": "N.E.K.O."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/material/mat5.png",
+              "name": "I.C.Y.",
+              "tag": "Mat5",
+              "unlockRequirements": "N.E.K.O."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/material/mat6.png",
+              "name": "O.R.I.O.N.",
+              "tag": "Mat6",
+              "unlockRequirements": "N.E.K.O."
+            }
+          ],
+          "type": "Style"
+        },
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_hoodieblast_meow/variants/parts/stage0.png",
+              "name": "On",
+              "tag": "Stage0"
+            }
+          ],
+          "type": "Hood"
+        }
+      ]
+    },
+    {
       "added": "2023-11-03T09:12:39Z",
       "description": "There can only be one true harbinger of fate.",
       "id": "Character_HornedJudgment_Midgard",
@@ -157743,7 +158512,7 @@
             },
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/character_lethalpoison/variants/material/mat2.png",
-              "name": "outline gradient",
+              "name": "outlined gradient",
               "tag": "Mat2"
             },
             {
@@ -157753,6 +158522,22 @@
             }
           ],
           "type": "shading"
+        },
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_lethalpoison/variants/particle/particle1.png",
+              "name": "Off",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_lethalpoison/variants/particle/particle2.png",
+              "name": "On",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Super Level"
         }
       ]
     },
@@ -171698,6 +172483,77 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "All aboard the friend ship!",
+      "id": "Character_PeonyPizza",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_peonypizza/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_peonypizza/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_peonypizza/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_peonypizza/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_peonypizza/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_peonypizza/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "metaTags": [
+        "Cosmetics.Emote.CharacterGroup.Skirts"
+      ],
+      "name": "Cap'n Hatsune Miku",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "CoarseCaravan",
+        "text": "Part of the Miku Sets Sail! set.",
+        "value": "Miku Sets Sail!"
+      },
+      "showcaseVideo": "I4clf571seM",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_peonypizza/variants/emissive/emissive0.png",
+              "name": "On",
+              "tag": "Emissive0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_peonypizza/variants/emissive/emissive1.png",
+              "name": "Off",
+              "tag": "Emissive1"
+            }
+          ],
+          "type": "Reactivity"
+        }
+      ]
+    },
+    {
       "added": "2025-09-18T13:08:36Z",
       "description": "The black sheep of the flock.",
       "id": "Character_PepperBilly",
@@ -180415,6 +181271,22 @@
             }
           ],
           "type": "shading"
+        },
+        {
+          "channel": "1",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_raspberrypaw_gummy/variants/1/particle1.png",
+              "name": "Off",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_raspberrypaw_gummy/variants/1/particle2.png",
+              "name": "On",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Super Level"
         }
       ]
     },
@@ -182559,8 +183431,73 @@
       ]
     },
     {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Uzi vs. the Island.",
+      "dynamicPakId": "1041",
+      "id": "Character_RookGeckoRod",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorod/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorod/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorod/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Lil Uzi Vert",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "showcaseVideo": "gdhv9FOxpFQ",
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      },
+      "variants": [
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorod/variants/emissive/emissive0.png",
+              "name": "On",
+              "tag": "Emissive0"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorod/variants/emissive/emissive1.png",
+              "name": "Off",
+              "tag": "Emissive1"
+            }
+          ],
+          "type": "Reactivity"
+        }
+      ]
+    },
+    {
       "added": "2026-11-01T23:10:43Z",
       "description": "Diamond in the rough.",
+      "dynamicPakId": "1041",
       "id": "Character_RookGeckoRye",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_rookgeckorye/featured.png",
@@ -183843,7 +184780,6 @@
     {
       "added": "2026-11-08T13:30:02Z",
       "description": "Diamonds and gold, a classic combo.",
-      "dynamicPakId": "1024",
       "id": "Character_RumbaShowy",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_rumbashowy/featured.png",
@@ -197394,6 +198330,22 @@
             }
           ],
           "type": "Shading"
+        },
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tacticalrecon_grit/variants/particle/particle1.png",
+              "name": "Off",
+              "tag": "Particle1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/character_tacticalrecon_grit/variants/particle/particle2.png",
+              "name": "On",
+              "tag": "Particle2"
+            }
+          ],
+          "type": "Super Level"
         }
       ]
     },
@@ -203069,7 +204021,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "N/A - Variant",
-      "dynamicPakId": "1017",
       "id": "Character_TonicMailWeb",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/character_tonicmailweb/featured.png",
@@ -210158,6 +211109,10 @@
         "season": "4",
         "text": "Introduced in Chapter 7, Season 4."
       },
+      "metaTags": [
+        "Cosmetics.MetaTags.WidowFoam_Backpack",
+        "Cosmetics.MetaTags.MelodicPullCape"
+      ],
       "name": "Vagatha",
       "rarity": {
         "backendValue": "EFortRarity::Epic",
@@ -308430,7 +309385,7 @@
           "options": [
             {
               "image": "https://fortnite-api.com/images/cosmetics/br/companion_bloomscar/variants/emote/companionemote0.png",
-              "name": "Cotton Candy Chopper",
+              "name": "Cotton Candy Lover - Chopper",
               "tag": "CompanionEmote0"
             }
           ],
@@ -310269,6 +311224,67 @@
             }
           ],
           "type": "Harness"
+        }
+      ]
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Aw, what a perfect little Sidekick.",
+      "id": "Companion_FuzzySock",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Cardamom",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      },
+      "variants": [
+        {
+          "channel": "Emote",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/variants/emote/companionemote0.png",
+              "name": "LEAF PILE!",
+              "tag": "CompanionEmote0"
+            }
+          ],
+          "type": "Sidekick Emote"
+        },
+        {
+          "channel": "Outfit",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/variants/outfit/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/variants/outfit/stage2.png",
+              "name": "Cardamom",
+              "tag": "Stage2"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_fuzzysock/variants/outfit/stage3.png",
+              "name": "Coriander",
+              "tag": "Stage3"
+            }
+          ],
+          "type": "Sweater"
         }
       ]
     },
@@ -313192,7 +314208,6 @@
     {
       "added": "2026-11-01T05:00:00Z",
       "description": "Who's a good spirit guide?",
-      "dynamicPakId": "1035",
       "id": "Companion_TrioDodge",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/companion_triododge/featured.png",
@@ -315844,6 +316859,38 @@
         "backendValue": "ColderCompete",
         "text": "Part of the Winterfest 2022 set.",
         "value": "Winterfest 2022"
+      },
+      "type": {
+        "backendValue": "AthenaSkyDiveContrail",
+        "displayValue": "Contrail",
+        "value": "contrail"
+      }
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Mark the spot, make the landing.",
+      "id": "Contrail_JuniperBurlap",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/contrail_juniperburlap/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/contrail_juniperburlap/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/contrail_juniperburlap/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Captain X's Contrails",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BleakBee",
+        "text": "Part of the Finders, Keepers set.",
+        "value": "Finders, Keepers"
       },
       "type": {
         "backendValue": "AthenaSkyDiveContrail",
@@ -327671,6 +328718,50 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "An expert in the absurd.",
+      "id": "EID_CactusBait",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_cactusbait/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_cactusbait/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "BIRDBRAIN",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "showcaseVideo": "0MS9z08sZQE",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:45Z",
       "description": "Completely inconspicuous.",
       "id": "EID_CactusTPose",
@@ -332481,6 +333572,38 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "The night? It's yours.",
+      "id": "EID_CovertShadow",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_covertshadow/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_covertshadow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Glowstar",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "CrookedBishop",
+        "text": "Part of the Treasure Hunter Hope set.",
+        "value": "Treasure Hunter Hope"
+      },
+      "showcaseVideo": "byHld9iHStI",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:45Z",
       "description": "Rustle up the rhythm.",
       "id": "EID_CowboyDance",
@@ -336482,6 +337605,12 @@
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_drum_japanesesamba/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_drum_japanesesamba/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 37,
+        "chapter": "6",
+        "season": "5",
+        "text": "Introduced in Chapter 6, Season 5."
       },
       "name": "Get Uptempo",
       "rarity": {
@@ -341867,6 +342996,12 @@
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_frostgalore/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_frostgalore/smallicon.png"
       },
+      "introduction": {
+        "backendValue": 38,
+        "chapter": "6",
+        "season": "6",
+        "text": "Introduced in Chapter 6, Season 6."
+      },
       "name": "Saxophone Solo",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
@@ -344471,6 +345606,12 @@
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_graftglint/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_graftglint/smallicon.png"
       },
+      "introduction": {
+        "backendValue": 38,
+        "chapter": "6",
+        "season": "6",
+        "text": "Introduced in Chapter 6, Season 6."
+      },
       "name": "Homer's Hedge Retreat",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
@@ -345504,6 +346645,12 @@
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_guitar_japanesesamba/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_guitar_japanesesamba/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 37,
+        "chapter": "6",
+        "season": "5",
+        "text": "Introduced in Chapter 6, Season 5."
       },
       "name": "Bossa Boogie",
       "rarity": {
@@ -354535,6 +355682,11 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "set": {
+        "backendValue": "BottleNinja",
+        "text": "Part of the Charlotte-Sensei set.",
+        "value": "Charlotte-Sensei"
+      },
       "showcaseVideo": "CoC0KOAq8Qg",
       "type": {
         "backendValue": "AthenaDance",
@@ -358403,6 +359555,12 @@
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_mic_micstandflip/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_mic_micstandflip/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 37,
+        "chapter": "6",
+        "season": "5",
+        "text": "Introduced in Chapter 6, Season 5."
       },
       "name": "Microflip",
       "rarity": {
@@ -367064,8 +368222,20 @@
       "name": "Luh Dumptruck",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "set": {
         "backendValue": "GluePurple",
@@ -367096,8 +368266,20 @@
       "name": "Aura Transfer",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
-        "displayValue": "Uncommon",
-        "value": "uncommon"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "set": {
         "backendValue": "GluePurple",
@@ -368499,7 +369681,7 @@
         "season": "5",
         "text": "Introduced in Chapter 6, Season 5."
       },
-      "name": "LIl' Magic Van",
+      "name": "Lil' Magic Van",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
@@ -369149,6 +370331,96 @@
         "value": "Becky Lynch"
       },
       "showcaseVideo": "JElrQVz8nfg",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Don't be afraid.",
+      "dynamicPakId": "1041",
+      "id": "EID_RookGeckoRod",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_rookgeckorod/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_rookgeckorod/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "XO Tour Llif3",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "showcaseVideo": "WwXFscJRdVw",
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Excuse my French.",
+      "dynamicPakId": "1041",
+      "id": "EID_RookGeckoRye",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_rookgeckorye/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_rookgeckorye/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "What You Saying",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "showcaseVideo": "2PY5W3WZdrg",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -373082,7 +374354,6 @@
     {
       "added": "2026-11-05T00:00:00Z",
       "description": "Open up and see the light.",
-      "dynamicPakId": "1032",
       "id": "EID_ShutterSpeed",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_shutterspeed/icon.png",
@@ -378244,6 +379515,12 @@
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_sundayspider/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_sundayspider/smallicon.png"
       },
+      "introduction": {
+        "backendValue": 38,
+        "chapter": "6",
+        "season": "6",
+        "text": "Introduced in Chapter 6, Season 6."
+      },
       "name": "Just a Girl",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
@@ -381757,7 +383034,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Step 1: Remove white tee, Step 2: Spin it.",
-      "dynamicPakId": "1017",
       "id": "EID_TonicMailWeb",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tonicmailweb/icon.png",
@@ -381769,7 +383045,7 @@
         "season": "5",
         "text": "Introduced in Chapter 7, Season 5."
       },
-      "name": "null",
+      "name": "Helicopter",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Icon Series",
@@ -381801,7 +383077,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Get your riot gear ready!",
-      "dynamicPakId": "1017",
       "id": "EID_TonicMailYam",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/eid_tonicmailyam/icon.png",
@@ -407743,6 +409018,7 @@
     {
       "added": "2026-11-01T23:10:43Z",
       "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1030",
       "id": "Emoticon_FlipperBalm",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_flipperbalm/smallicon.png"
@@ -411593,6 +412869,36 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Express yourself on the battlefield.",
+      "id": "Emoticon_S43MP",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_s43mp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Chibi Teto",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
       "added": "2025-06-18T09:06:01Z",
       "description": "Express yourself on the battlefield.",
       "id": "Emoticon_S9Festival",
@@ -412953,7 +414259,6 @@
     {
       "added": "2026-11-01T23:10:43Z",
       "description": "Express yourself on the battlefield.",
-      "dynamicPakId": "1035",
       "id": "Emoticon_TrioDodge",
       "images": {
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_triododge/smallicon.png"
@@ -417504,6 +418809,11 @@
         "backendValue": "EFortRarity::Epic",
         "displayValue": "Epic",
         "value": "epic"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
       },
       "type": {
         "backendValue": "AthenaGlider",
@@ -439478,7 +440788,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Make a statement.",
-      "dynamicPakId": "1017",
       "id": "Glider_TonicMailWeb",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/glider_tonicmailweb/featured.png",
@@ -440153,6 +441462,11 @@
         "backendValue": "EFortRarity::Epic",
         "displayValue": "Epic",
         "value": "epic"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
       },
       "type": {
         "backendValue": "AthenaGlider",
@@ -444893,6 +446207,35 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "The greatest adventure of all time.",
+      "id": "LoadingScreen_DelilahKA2",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahka2/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahka2/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahka2/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Treasure Hunters",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
       "added": "2026-11-01T23:10:43Z",
       "description": "Find your crew, find a fortune.\\r\\n\\r\\nArt by Golden Wolf.",
       "id": "loadingscreen_delilahthw",
@@ -444925,7 +446268,6 @@
     {
       "added": "2026-11-08T13:30:02Z",
       "description": "Powerful in pink.\n\nArt by Golden Wolf.",
-      "dynamicPakId": "1024",
       "id": "loadingscreen_delilahthw2",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw2/featured.png",
@@ -450538,6 +451880,11 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "set": {
+        "backendValue": "BottleNinja",
+        "text": "Part of the Charlotte-Sensei set.",
+        "value": "Charlotte-Sensei"
+      },
       "type": {
         "backendValue": "AthenaLoadingScreen",
         "displayValue": "Loading Screen",
@@ -455867,6 +457214,53 @@
         "backendValue": "ClimbingGold",
         "text": "Part of the The Rise of Midas set.",
         "value": "The Rise of Midas"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Feels like victory.\n\nArt by Pixmilk.",
+      "dynamicPakId": "1041",
+      "id": "LoadingScreen_RookGecko",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_rookgecko/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_rookgecko/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_rookgecko/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Cap'n Lil Uzi Vert",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
@@ -463420,7 +464814,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Guaranteed to make some noise. \n\nArt by Golden Wolf.",
-      "dynamicPakId": "1017",
       "id": "LoadingScreen_TonicMail",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_tonicmail/featured.png",
@@ -496190,6 +497583,45 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Crisp and flaky outside, warm and chewy inside!",
+      "id": "Pickaxe_CactusBait",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cactusbait/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cactusbait/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_cactusbait/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Teto's Baguette Bonker",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2026-07-30T13:11:09Z",
       "description": "For small ponds with big problems.",
       "id": "Pickaxe_CadetFrog",
@@ -507370,6 +508802,11 @@
         "displayValue": "Rare",
         "value": "rare"
       },
+      "set": {
+        "backendValue": "BriefChariot",
+        "text": "Part of the Big Cat Hunter set.",
+        "value": "Big Cat Hunter"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
@@ -507965,6 +509402,7 @@
     {
       "added": "2026-11-01T23:10:43Z",
       "description": "Throw them with flair.",
+      "dynamicPakId": "1030",
       "id": "Pickaxe_FlipperBalm",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_flipperbalm/featured.png",
@@ -514112,6 +515550,77 @@
         "displayValue": "Pickaxe",
         "value": "pickaxe"
       }
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Running diagnostics...",
+      "id": "Pickaxe_HoodieBlast_Meow",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "W.R.E.N.C.H.",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      },
+      "variants": [
+        {
+          "channel": "Particle",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/variants/particle/particle1.png",
+              "name": "Meow",
+              "tag": "Particle1",
+              "unlockRequirements": "W.R.E.N.C.H."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/variants/particle/particle2.png",
+              "name": "Meow Roar",
+              "tag": "Particle2",
+              "unlockRequirements": "W.R.E.N.C.H."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/variants/particle/particle3.png",
+              "name": "Auric Legacy",
+              "tag": "Particle3",
+              "unlockRequirements": "W.R.E.N.C.H."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/variants/particle/particle4.png",
+              "name": "Phase Legacy",
+              "tag": "Particle4",
+              "unlockRequirements": "W.R.E.N.C.H."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/variants/particle/particle5.png",
+              "name": "Rhimebound Legacy",
+              "tag": "Particle5",
+              "unlockRequirements": "W.R.E.N.C.H."
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/pickaxe_hoodieblast_meow/variants/particle/particle6.png",
+              "name": "Cosmic Galaxy",
+              "tag": "Particle6",
+              "unlockRequirements": "W.R.E.N.C.H."
+            }
+          ],
+          "type": "Style"
+        }
+      ]
     },
     {
       "added": "2023-11-03T09:12:39Z",
@@ -563907,8 +565416,20 @@
       "name": "Up 2 Mic",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "set": {
         "backendValue": "GluePurple",
@@ -563942,8 +565463,20 @@
       "name": "Bell Flail",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "set": {
         "backendValue": "GluePurple",
@@ -566393,6 +567926,96 @@
         "backendValue": "SlipJudge",
         "text": "Part of the Becky Lynch set.",
         "value": "Becky Lynch"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "The pickaxe from space.",
+      "dynamicPakId": "1041",
+      "id": "Pickaxe_RookGeckoRod",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rookgeckorod/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rookgeckorod/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rookgeckorod/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Picco-Axe",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Wanna rock?",
+      "dynamicPakId": "1041",
+      "id": "Pickaxe_RookGeckoRye_Guitar",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rookgeckorye_guitar/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rookgeckorye_guitar/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_rookgeckorye_guitar/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Uzi's Tour Guitar",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
       },
       "type": {
         "backendValue": "AthenaPickaxe",
@@ -578681,7 +580304,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Blow up the mic.",
-      "dynamicPakId": "1017",
       "id": "Pickaxe_TonicMailWeb_Mic",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tonicmailweb_mic/featured.png",
@@ -578726,7 +580348,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Not quite the Rugahand, but these will do.",
-      "dynamicPakId": "1017",
       "id": "Pickaxe_TonicMailYam",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tonicmailyam/featured.png",
@@ -579412,7 +581033,6 @@
     {
       "added": "2026-11-01T05:00:00Z",
       "description": "Never underestimate the power of music.",
-      "dynamicPakId": "1035",
       "id": "Pickaxe_TrioDodge_Guitar",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_triododge_guitar/featured.png",
@@ -585136,6 +586756,38 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Show 'em off.",
+      "id": "Shoes_CactusBait",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_cactusbait/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_cactusbait/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_cactusbait/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku & Teto Slippers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
       "added": "2026-02-21T00:00:00Z",
       "description": "Show 'em off.",
       "id": "Shoes_CascadeNectarBaste",
@@ -585224,7 +586876,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_CharmQuake",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_charmquake/featured.png",
@@ -585576,7 +587227,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_ChompZips",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_chompzips/featured.png",
@@ -590059,7 +591709,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_LemonJump",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_lemonjump/featured.png",
@@ -592790,7 +594439,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_RiverTrick",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_rivertrick/featured.png",
@@ -593468,7 +595116,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_SnugDemon",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_snugdemon/featured.png",
@@ -595036,7 +596683,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_TonicMailLetter",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_tonicmailletter/featured.png",
@@ -595069,7 +596715,6 @@
     {
       "added": "2026-11-03T00:00:00Z",
       "description": "Show 'em off.",
-      "dynamicPakId": "1037",
       "id": "Shoes_TonicMailNote",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/shoes_tonicmailnote/featured.png",
@@ -624935,6 +626580,11 @@
         "displayValue": "Uncommon",
         "value": "uncommon"
       },
+      "set": {
+        "backendValue": "BottleNinja",
+        "text": "Part of the Charlotte-Sensei set.",
+        "value": "Charlotte-Sensei"
+      },
       "type": {
         "backendValue": "AthenaSpray",
         "displayValue": "Spray",
@@ -624963,6 +626613,11 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "BottleNinja",
+        "text": "Part of the Charlotte-Sensei set.",
+        "value": "Charlotte-Sensei"
       },
       "type": {
         "backendValue": "AthenaSpray",
@@ -633729,6 +635384,40 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Leave your mark.",
+      "id": "Spray_S43MP",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/spray_s43mp/icon.png",
+        "other": {
+          "decal": "https://fortnite-api.com/images/cosmetics/br/spray_s43mp/decal.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/spray_s43mp/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Teto's Ready",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "type": {
+        "backendValue": "AthenaSpray",
+        "displayValue": "Spray",
+        "value": "spray"
+      }
+    },
+    {
       "added": "2026-11-01T23:10:43Z",
       "description": "Leave your mark.",
       "id": "spray_s43quest",
@@ -638917,7 +640606,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Leave your mark.",
-      "dynamicPakId": "1017",
       "id": "Spray_TonicMail",
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/spray_tonicmail/icon.png",
@@ -641534,6 +643222,12 @@
       "images": {
         "icon": "https://fortnite-api.com/images/cosmetics/br/toy_021_soccerball_creative/icon.png",
         "smallIcon": "https://fortnite-api.com/images/cosmetics/br/toy_021_soccerball_creative/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 17,
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7."
       },
       "name": "Soccer Ball",
       "rarity": {
@@ -667261,6 +668955,50 @@
       }
     },
     {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Show your style.",
+      "id": "Wrap_CactusBait",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_cactusbait/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_cactusbait/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_cactusbait/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "0401 Kasane Teto",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
       "added": "2022-11-01T13:50:36Z",
       "description": "Show your style.",
       "id": "Wrap_Calavera",
@@ -669743,6 +671481,38 @@
         "backendValue": "LatePebble",
         "text": "Part of the Persona 5 Royal set.",
         "value": "Persona 5 Royal"
+      },
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-11-12T13:09:30Z",
+      "description": "Show your style.",
+      "id": "Wrap_CovertShadow",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_covertshadow/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_covertshadow/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_covertshadow/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Treasure Hunter Hope",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "CrookedBishop",
+        "text": "Part of the Treasure Hunter Hope set.",
+        "value": "Treasure Hunter Hope"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -672302,6 +674072,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "BriefChariot",
+        "text": "Part of the Big Cat Hunter set.",
+        "value": "Big Cat Hunter"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -675946,6 +677721,11 @@
         "backendValue": "EFortRarity::Rare",
         "displayValue": "Rare",
         "value": "rare"
+      },
+      "set": {
+        "backendValue": "BottleNinja",
+        "text": "Part of the Charlotte-Sensei set.",
+        "value": "Charlotte-Sensei"
       },
       "type": {
         "backendValue": "AthenaItemWrap",
@@ -680180,8 +681960,20 @@
       "name": "A Dangerous Wrap",
       "rarity": {
         "backendValue": "EFortRarity::Rare",
-        "displayValue": "Rare",
-        "value": "rare"
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
       },
       "set": {
         "backendValue": "GluePurple",
@@ -681395,6 +683187,51 @@
         "value": "Chiton's Call"
       },
       "showcaseVideo": "qVVRMHpBawc",
+      "type": {
+        "backendValue": "AthenaItemWrap",
+        "displayValue": "Wrap",
+        "value": "wrap"
+      }
+    },
+    {
+      "added": "2026-11-12T14:00:23Z",
+      "description": "Show your style.",
+      "dynamicPakId": "1041",
+      "id": "Wrap_RookGecko",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_rookgecko/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/wrap_rookgecko/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/wrap_rookgecko/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Uzi On Tour",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "TwinWillow",
+        "text": "Part of the Lil Uzi Vert set.",
+        "value": "Lil Uzi Vert"
+      },
       "type": {
         "backendValue": "AthenaItemWrap",
         "displayValue": "Wrap",
@@ -686929,7 +688766,6 @@
     {
       "added": "2026-11-05T14:00:58Z",
       "description": "Show your style.",
-      "dynamicPakId": "1017",
       "id": "Wrap_TonicMail",
       "images": {
         "featured": "https://fortnite-api.com/images/cosmetics/br/wrap_tonicmail/featured.png",
