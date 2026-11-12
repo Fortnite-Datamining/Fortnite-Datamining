@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-12
+- **23:08** BR Cosmetics, Epic Content Pages
 - **17:40** Build update: `++Fortnite+Release-43.10-CL-60118918`
 - **09:10** Jam Tracks, Epic Content Pages - +4 new (Shut Up and Dance, BIRDBRAIN, Chronicles of Destiny, Sa-Sen!)
 - **01:46** Item Shop, Epic Content Pages - +17 new (Spidey Landing, The Black Cat, Caper, Moonlit Blades, Web Slicer, +12 more) - -40 removed
