@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-12
+- **01:46** Item Shop, Epic Content Pages - +17 new (Spidey Landing, The Black Cat, Caper, Moonlit Blades, Web Slicer, +12 more) - -40 removed
+
 ## 2026-11-11
 - **04:25** Item Shop, Banners - +44 new (Caliper, Celebrate Me, J Balvin, Mega Man X, Magnus, +39 more) - -43 removed
 
