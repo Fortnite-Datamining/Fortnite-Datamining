@@ -345,7 +345,7 @@
     }
   },
   "crewscreendata": {
-    "_activeDate": "2026-11-01T05:00:00.000Z",
+    "_activeDate": "2026-11-12T09:00:00.000Z",
     "_locale": "en-US",
     "_noIndex": false,
     "_templateName": "FortniteGameCrewScreenData",
@@ -434,13 +434,13 @@
               "bIsBenefitEnding": false,
               "details": {
                 "_type": "Crew Tile Details Data",
-                "backgroundImageURL": "https://cdn2.unrealengine.com/t-ui-mp-4130-crewbackground-1920x1080-21aa89fc7751.png",
+                "backgroundImageURL": "https://cdn2.unrealengine.com/4310-musicpass-512x512-6fe19082a339-512x512-6b648cc1fa57.png",
                 "color1Hex": "E27576",
                 "color2Hex": "A84143",
                 "color3Hex": "721269",
                 "color4Hex": "290C18",
                 "description": "While subscribed to Fortnite Crew, claim premium rewards from the Music Pass as you progress.",
-                "secondaryTileImageURL": "https://cdn2.unrealengine.com/t-ui-mp-4130-passtilefallback-312x192-17b9d0263e50.png",
+                "secondaryTileImageURL": "https://cdn2.unrealengine.com/4310-musicpass-512x512-6fe19082a339-512x512-6b648cc1fa57.png",
                 "tag": "SeasonLaunchBenefit",
                 "tileImageURL": "https://cdn2.unrealengine.com/t-ui-mp-4130-crewbenefitstile-260x160-db9452848a9a.png",
                 "title": "Music Pass"
@@ -728,7 +728,7 @@
                 "color2Hex": "842673",
                 "description": "Claim premium rewards from the Music Pass while subscribed.",
                 "tag": "None",
-                "tileImageURL": "https://cdn2.unrealengine.com/t-ui-bp-4200-musicpass-benefit-768x768-1a594d0f5547-768x768-dede4cbe4419.png",
+                "tileImageURL": "https://cdn2.unrealengine.com/4310-musicpass-512x512-6fe19082a339-512x512-6b648cc1fa57.png",
                 "title": "Music Pass"
               },
               "nextDetails": {
@@ -813,7 +813,7 @@
         }
       ]
     },
-    "crewDisclaimer": "Benefits subject to change. Auto-renews each month until cancelled. Cancel anytime. Territorial restrictions apply. Ability to claim Premium Rewards during active subscription only. Select \"Subscription Terms\" for more info.",
+    "crewDisclaimer": "Benefits subject to change. Auto-renews each month until cancelled. Cancel anytime. Territorial restrictions apply. Ability to claim Premium Rewards during active subscription only.",
     "crewModals": {
       "_type": "Subscription - Crew Modals",
       "cancellationInfoErrorStateModals": [
@@ -1426,11 +1426,11 @@
       "bDefaultShowBundle": true,
       "bPassOnlyInUpsell": false,
       "bUseNewUpsellFormat": true,
-      "backgroundURL": "https://cdn2.unrealengine.com/t-ui-bento-4300-fullsize-2048x512-b8fc238e3d95.png",
+      "backgroundURL": "https://cdn2.unrealengine.com/4310-rgb-2048x512-30c26fefc28d-2048x512-346d6e06733f.png",
       "description": "The Battle Pass, Music Pass, LEGO Pass & Rocket Pass Premium\n7 Outfits and 90+ Rewards\n800 V-Bucks\n\nMore coming soon",
       "overrideUpsellPass": "",
       "shortDescription": "Get the current season’s Battle Pass and other benefits! Select the tiles to learn more!",
-      "subscribedBackgroundURL": "https://cdn2.unrealengine.com/t-ui-bp-4300-crewbackground-1920x1080-d33b391e6737.png",
+      "subscribedBackgroundURL": "https://cdn2.unrealengine.com/4310-crewbackground-1920x1080-6f8493b84d01-1920x1080-6510a0b7ac27.png",
       "title": " "
     },
     "itemShopData": {
@@ -1442,8 +1442,8 @@
             "_type": "Crew Item Shop Tile Data",
             "itemShopTileImages": {
               "_type": "Crew Global Image",
-              "fallbackTileImageURL": "https://cdn2.unrealengine.com/t-ui-bento-4300-fullsize-2048x512-b8fc238e3d95.png",
-              "tileImageURL": "https://cdn2.unrealengine.com/t-ui-bento-4300-fullsize-2048x512-b8fc238e3d95.png"
+              "fallbackTileImageURL": "https://cdn2.unrealengine.com/4310-bento-perf-1024x1024-ea83a74a5bcb-1024x1024-e9d3b6bd8ec8.png",
+              "tileImageURL": "https://cdn2.unrealengine.com/4310-rgb-2048x512-30c26fefc28d-2048x512-346d6e06733f.png"
             },
             "nextViolatorIntensity": "High",
             "violatorIntensity": "High"
@@ -1465,7 +1465,7 @@
         }
       ]
     },
-    "lastModified": "2026-11-04T13:25:07.497Z",
+    "lastModified": "2026-11-10T19:16:38.804Z",
     "progressiveInfo": {
       "_type": "SubscriptionProgressiveInfo",
       "infoModalEntries": [
@@ -1810,7 +1810,7 @@
           "label": "Earn Up To:"
         }
       ],
-      "imageUrl": "https://cdn2.unrealengine.com/2026november-t-ui-upsellscreen-crew-4300-tile-560x328-922b7ee37a3c.png",
+      "imageUrl": "https://cdn2.unrealengine.com/4310-nov-560x328-a5bd6f1de094-560x328-f720c7e9c499.png",
       "themeColors": [
         {
           "_type": "Named Color",
