@@ -33547,6 +33547,69 @@
       ]
     },
     {
+      "added": "2026-11-13T14:01:03Z",
+      "description": "Good luck gold piece.",
+      "dynamicPakId": "1044",
+      "id": "Backpack_LocketSnug",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_locketsnug/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_locketsnug/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_locketsnug/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Speed's Coin",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "LimeWork",
+        "text": "Part of the IShowSpeed set.",
+        "value": "IShowSpeed"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      },
+      "variants": [
+        {
+          "channel": "Parts",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_locketsnug/variants/parts/stage1.png",
+              "name": "on",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/backpack_locketsnug/variants/parts/stage2.png",
+              "name": "off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "reactivity"
+        }
+      ]
+    },
+    {
       "added": "2025-03-11T08:32:47Z",
       "description": "Ready to ride... or riot.",
       "id": "Backpack_LoneDice",
@@ -160194,6 +160257,51 @@
           "type": "style"
         }
       ]
+    },
+    {
+      "added": "2026-11-13T14:01:03Z",
+      "description": "GIVE IT TO ME!",
+      "dynamicPakId": "1044",
+      "id": "Character_LocketSnug",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_locketsnug/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_locketsnug/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_locketsnug/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "PIRATE D. SPEEDY",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "LimeWork",
+        "text": "Part of the IShowSpeed set.",
+        "value": "IShowSpeed"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
     },
     {
       "added": "2025-03-11T08:32:47Z",
@@ -347451,6 +347559,7 @@
         "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
         "value": "Icon Series"
       },
+      "showcaseVideo": "aHOD9VbVnfA",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -356682,6 +356791,50 @@
       }
     },
     {
+      "added": "2026-11-13T14:01:03Z",
+      "description": "Minus the mousetrap.",
+      "dynamicPakId": "1044",
+      "id": "EID_LocketSnug",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_locketsnug/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_locketsnug/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "IShowFlip",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "LimeWork",
+        "text": "Part of the IShowSpeed set.",
+        "value": "IShowSpeed"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:48:10Z",
       "description": "Snap into place.",
       "id": "EID_LockItUp",
@@ -359541,6 +359694,7 @@
         "displayValue": "Common",
         "value": "common"
       },
+      "showcaseVideo": "BkAUDQBxbA8",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -370414,7 +370568,7 @@
         "text": "Part of the Lil Uzi Vert set.",
         "value": "Lil Uzi Vert"
       },
-      "showcaseVideo": "WwXFscJRdVw",
+      "showcaseVideo": "FcLAP8tI6mA",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -370459,7 +370613,7 @@
         "text": "Part of the Lil Uzi Vert set.",
         "value": "Lil Uzi Vert"
       },
-      "showcaseVideo": "2PY5W3WZdrg",
+      "showcaseVideo": "L75Zmb9Pg0M",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -554296,6 +554450,51 @@
           "type": "Style"
         }
       ]
+    },
+    {
+      "added": "2026-11-13T14:01:03Z",
+      "description": "Conquer the seas.",
+      "dynamicPakId": "1044",
+      "id": "Pickaxe_LocketSnug",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_locketsnug/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_locketsnug/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_locketsnug/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Speed's Pirate Blade",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "LimeWork",
+        "text": "Part of the IShowSpeed set.",
+        "value": "IShowSpeed"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
     },
     {
       "added": "2019-11-20T12:50:41Z",
