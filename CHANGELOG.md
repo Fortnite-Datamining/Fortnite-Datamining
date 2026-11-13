@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-13
+- **11:27** Item Shop, Epic Content Pages
 - **03:30** BR Cosmetics, Item Shop, AES Keys - +54 new (PINKY UP, Kitsune Slippers, Cozy Kitsune Cuties, Grouchy Gato Slippers, Nike Air Force 1 ‘Orange/Blue’, +49 more) - -41 removed
 
 ## 2026-11-12
