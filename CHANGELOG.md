@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-13
+- **03:30** BR Cosmetics, Item Shop, AES Keys - +54 new (PINKY UP, Kitsune Slippers, Cozy Kitsune Cuties, Grouchy Gato Slippers, Nike Air Force 1 ‘Orange/Blue’, +49 more) - -41 removed
+
 ## 2026-11-12
 - **23:08** BR Cosmetics, Epic Content Pages
 - **17:40** Build update: `++Fortnite+Release-43.10-CL-60118918`
