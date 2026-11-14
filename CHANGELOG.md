@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-14
+- **06:50** Cars, Item Shop, News - +1 new (Adventure Awaits!) - -1 removed
 - **00:07** Item Shop, News, Epic Content Pages - +16 new (Buggy Knives, Evidence Bag, Buggy's Coat, Guerilla, IShowFlip, +11 more) - -22 removed
 
 ## 2026-11-13
