@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-14
+- **00:07** Item Shop, News, Epic Content Pages - +16 new (Buggy Knives, Evidence Bag, Buggy's Coat, Guerilla, IShowFlip, +11 more) - -22 removed
+
 ## 2026-11-13
 - **18:40** BR Cosmetics, Item Shop, News, AES Keys - +5 new (Speed's Coin, PIRATE D. SPEEDY, IShowFlip, Speed's Pirate Blade, Adventure Awaits!) - -1 removed
 - **11:27** Item Shop, Epic Content Pages
