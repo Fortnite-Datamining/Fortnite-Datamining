@@ -20247,6 +20247,39 @@
       }
     },
     {
+      "added": "2026-11-14T14:00:30Z",
+      "description": "Filled with fun surprises.",
+      "dynamicPakId": "1040",
+      "id": "Backpack_FledGravelReward",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_fledgravelreward/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_fledgravelreward/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_fledgravelreward/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku's Takarabako",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "LifeForce",
+        "text": "Part of the Hatsune Miku set.",
+        "value": "Hatsune Miku"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2026-03-27T13:00:19Z",
       "description": "Drink every last drop.",
       "id": "Backpack_FlickLedge",
@@ -42008,6 +42041,96 @@
         "value": "Lawless Luxury"
       },
       "showcaseVideo": "fwzMKSpgxlM",
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-11-14T14:00:30Z",
+      "description": "The ultimate treasure is song!",
+      "dynamicPakId": "1040",
+      "id": "Backpack_PeonyPizza",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku's Treasure",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "CoarseCaravan",
+        "text": "Part of the Miku Sets Sail! set.",
+        "value": "Miku Sets Sail!"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
+      "added": "2026-11-14T14:00:30Z",
+      "description": "A voyage of song!",
+      "dynamicPakId": "1040",
+      "id": "Backpack_PeonyPizza_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_peonypizza_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku's Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "CoarseCaravan",
+        "text": "Part of the Miku Sets Sail! set.",
+        "value": "Miku Sets Sail!"
+      },
       "type": {
         "backendValue": "AthenaBackpack",
         "displayValue": "Back Bling",
@@ -364411,6 +364534,50 @@
       }
     },
     {
+      "added": "2026-11-14T14:00:30Z",
+      "description": "Get ready!",
+      "dynamicPakId": "1040",
+      "id": "EID_PeonyPizza",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_peonypizza/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_peonypizza/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku Miku ni Shite Ageru♪",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "CoarseCaravan",
+        "text": "Part of the Miku Sets Sail! set.",
+        "value": "Miku Sets Sail!"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2024-09-29T00:00:00Z",
       "description": "Watch out for this one.",
       "id": "EID_Perish",
@@ -561880,6 +562047,91 @@
         "value": "Lawless Luxury"
       },
       "showcaseVideo": "onuvE3R2PHc",
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-11-14T14:00:30Z",
+      "description": "Too buoyant to sink!",
+      "dynamicPakId": "1040",
+      "id": "Pickaxe_PeonyPizza",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peonypizza/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peonypizza/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peonypizza/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku's Anchor Floatie",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
+      "added": "2026-11-14T14:00:30Z",
+      "description": "A voyage of song!",
+      "dynamicPakId": "1040",
+      "id": "Pickaxe_PeonyPizza_Mic",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peonypizza_mic/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peonypizza_mic/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_peonypizza_mic/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Miku's Mic",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "set": {
+        "backendValue": "CoarseCaravan",
+        "text": "Part of the Miku Sets Sail! set.",
+        "value": "Miku Sets Sail!"
+      },
       "type": {
         "backendValue": "AthenaPickaxe",
         "displayValue": "Pickaxe",
