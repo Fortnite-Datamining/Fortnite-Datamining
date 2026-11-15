@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-15
+- **02:20** Item Shop, News - +23 new (Nike Air Force 1 'Berserker', 100% Pure Love, Miku's Mic, Hesper King Bundle, Radiant Striker, +18 more) - -27 removed
+
 ## 2026-11-14
 - **22:51** News, Epic Content Pages - +1 new (Cursed Sprite Variants - November 14) - -1 removed
 - **18:55** BR Cosmetics, Instruments, Jam Tracks, AES Keys - +8 new (Miku's Takarabako, Miku's Treasure, Miku's Mic, Miku Miku ni Shite Ageru♪, Miku's Anchor Floatie, +3 more)
