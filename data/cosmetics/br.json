@@ -140822,6 +140822,47 @@
       ]
     },
     {
+      "added": "2026-11-15T13:30:42Z",
+      "description": "Friendship is golden.",
+      "dynamicPakId": "1045",
+      "id": "Character_FledGravel",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_fledgravel/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_fledgravel/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_fledgravel/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_fledgravel/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_fledgravel/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_fledgravel/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "metaTags": [
+        "Cosmetics.Emote.CharacterGroup.Skirts"
+      ],
+      "name": "Solid Gold Miku",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "LifeForce",
+        "text": "Part of the Hatsune Miku set.",
+        "value": "Hatsune Miku"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2026-03-27T13:00:19Z",
       "builtInEmoteIds": [
         "EID_FlickLedge"
@@ -364571,6 +364612,7 @@
         "text": "Part of the Miku Sets Sail! set.",
         "value": "Miku Sets Sail!"
       },
+      "showcaseVideo": "3v954MHMoI8",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -446654,6 +446696,42 @@
         "backendValue": "IcyRosebud",
         "text": "Part of the Beary Kawaii set.",
         "value": "Beary Kawaii"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-11-15T13:30:42Z",
+      "description": "Slashin' for cash. \n\nArt by Golden Wolf.",
+      "dynamicPakId": "1045",
+      "id": "loadingscreen_delilahthw3",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw3/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw3/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw3/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw3/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "May Fortune Find You",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "TiredHarpie",
+        "text": "Part of the Jones on the Hunt set.",
+        "value": "Jones on the Hunt"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
