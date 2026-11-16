@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-16
+- **18:45** News - +1 new (More Sprite Dust and XP) - -1 removed
 - **01:16** Item Shop, Epic Content Pages - +73 new (Rebreather, Parrot Packer, Harley's Boogie Bat, Pack-sune Miku, Summer Snapper, +68 more) - -55 removed
 
 ## 2026-11-15
