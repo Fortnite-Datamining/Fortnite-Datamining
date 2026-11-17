@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-17
+- **19:37** Cars, Item Shop, News, AES Keys - +8 new (Jurassic Jeep® Wrangler, Staff Vehicle, Staff Vehicle - Blue, Tour Vehicle, Jurassic Jeep® Wrangler, +3 more) - -1 removed
 - **02:15** Item Shop, Epic Content Pages - +78 new (Surging Edge, Victoria Saint, Freezing Round Axes, Hit me!, Mind Reader, +73 more) - -40 removed
 
 ## 2026-11-16

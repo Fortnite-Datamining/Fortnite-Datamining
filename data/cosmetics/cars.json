@@ -1630,6 +1630,27 @@
       "vehicleId": "VCID_Body_Manual"
     },
     {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "The red stripe stops the triceratops from charging.",
+      "id": "CarBody_Maple",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carbody_maple/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carbody_maple/small.png"
+      },
+      "name": "Jurassic Jeep® Wrangler",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Body",
+        "displayValue": "Body",
+        "value": "body"
+      },
+      "vehicleId": "VCID_Body_Maple"
+    },
+    {
       "added": "2025-04-08T08:40:26Z",
       "description": "A serpentine blend of danger, grace, and power.",
       "id": "CarBody_Maser",
@@ -12837,6 +12858,69 @@
         "value": "skin"
       },
       "vehicleId": "VCID_CarSkin_ManualWings"
+    },
+    {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "Jurassic Jeep® Wrangler custom decal.",
+      "id": "CarSkin_MapleDefaultA",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_mapledefaulta/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_mapledefaulta/small.png"
+      },
+      "name": "Staff Vehicle",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_MapleDefaultA"
+    },
+    {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "Jurassic Jeep® Wrangler custom decal.",
+      "id": "CarSkin_MapleDefaultB",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_mapledefaultb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_mapledefaultb/small.png"
+      },
+      "name": "Staff Vehicle - Blue",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_MapleDefaultB"
+    },
+    {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "Jurassic Jeep® Wrangler custom decal.",
+      "id": "CarSkin_MapleLivery01",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/carskin_maplelivery01/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/carskin_maplelivery01/small.png"
+      },
+      "name": "Tour Vehicle",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Skin",
+        "displayValue": "Skin",
+        "value": "skin"
+      },
+      "vehicleId": "VCID_CarSkin_MapleLivery01"
     },
     {
       "added": "2025-04-08T08:40:26Z",
@@ -38343,6 +38427,69 @@
         "value": "wheel"
       },
       "vehicleId": "VCID_Wheel_Manual"
+    },
+    {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "The red stripe stops the triceratops from charging.",
+      "id": "Wheel_Maple",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_maple/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_maple/small.png"
+      },
+      "name": "Jurassic Jeep® Wrangler",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_Maple"
+    },
+    {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "Enjoy your tour!",
+      "id": "Wheel_MapleB",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_mapleb/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_mapleb/small.png"
+      },
+      "name": "Jurassic Jeep® Wrangler - Tour",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_MapleB"
+    },
+    {
+      "added": "2026-11-17T14:00:46Z",
+      "description": "Triceratops repellant.",
+      "id": "Wheel_MapleRed",
+      "images": {
+        "large": "https://fortnite-api.com/images/cosmetics/cars/wheel_maplered/large.png",
+        "small": "https://fortnite-api.com/images/cosmetics/cars/wheel_maplered/small.png"
+      },
+      "name": "Jurassic Jeep® Wrangler - Staff",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "VehicleCosmetics_Wheel",
+        "displayValue": "Wheel",
+        "value": "wheel"
+      },
+      "vehicleId": "VCID_Wheel_MapleRed"
     },
     {
       "added": "2025-09-18T13:07:46Z",
