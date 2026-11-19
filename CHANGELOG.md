@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-19
+- **18:26** BR Cosmetics, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Epic Content Pages - +12 new (Kiriko's Kitsune, Widow's Kiss, Kiriko, Widowmaker, Ofuda Whirlwind, +7 more)
 - **09:03** Item Shop
 - **01:00** Item Shop, Epic Content Pages - +36 new (Oooohhh!, Courage Shield, Maximum Glove, Agora Hills, Air Jordan 5 Retro 'Wolf Grey', +31 more) - -26 removed
 
