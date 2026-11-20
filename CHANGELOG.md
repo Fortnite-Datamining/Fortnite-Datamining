@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-20
+- **22:56** Epic Content Pages
 - **00:46** Item Shop, Epic Content Pages - +58 new (Love Wings, Red Tail Reaver, Hearts of Stone Bundle, Stone Gryphon, Kim's Kit, +53 more) - -21 removed
 
 ## 2026-11-19
