@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-20
+- **00:46** Item Shop, Epic Content Pages - +58 new (Love Wings, Red Tail Reaver, Hearts of Stone Bundle, Stone Gryphon, Kim's Kit, +53 more) - -21 removed
+
 ## 2026-11-19
 - **18:26** BR Cosmetics, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Epic Content Pages - +12 new (Kiriko's Kitsune, Widow's Kiss, Kiriko, Widowmaker, Ofuda Whirlwind, +7 more)
 - **09:03** Item Shop
