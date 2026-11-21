@@ -378816,6 +378816,45 @@
       }
     },
     {
+      "added": "2026-11-21T00:00:00Z",
+      "description": "I see you dancing.",
+      "dynamicPakId": "1032",
+      "id": "EID_StirredUp",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_stirredup/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_stirredup/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Shake It",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2026-03-12T09:00:38Z",
       "description": "Dance your way into outer space.",
       "id": "EID_StoneFly",

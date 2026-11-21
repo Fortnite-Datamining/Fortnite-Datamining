@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-21
+- **03:44** BR Cosmetics, Item Shop, News, AES Keys - +36 new (Shake It, Grill Sergeant, Nike Dunk Hi 'Pink Prime', Hippo Stompers, Nike Air Force 1 'Galaxy', +31 more) - -125 removed
+
 ## 2026-11-20
 - **22:56** Epic Content Pages
 - **00:46** Item Shop, Epic Content Pages - +58 new (Love Wings, Red Tail Reaver, Hearts of Stone Bundle, Stone Gryphon, Kim's Kit, +53 more) - -21 removed
