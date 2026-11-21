@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-21
+- **19:36** News - +1 new (Live - NAC - FNCS Solos Reload Finals) - -1 removed
 - **12:00** BR Cosmetics, Item Shop
 - **03:44** BR Cosmetics, Item Shop, News, AES Keys - +36 new (Shake It, Grill Sergeant, Nike Dunk Hi 'Pink Prime', Hippo Stompers, Nike Air Force 1 'Galaxy', +31 more) - -125 removed
 
