@@ -31143,6 +31143,39 @@
       }
     },
     {
+      "added": "2026-11-22T13:30:46Z",
+      "description": "Treasured blades made even more desirable.",
+      "dynamicPakId": "1022",
+      "id": "Backpack_JuniperBurlapGold",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_juniperburlapgold/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_juniperburlapgold/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_juniperburlapgold/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Solid Gold High Tide and Wavecutter",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "BleakBee",
+        "text": "Part of the Finders, Keepers set.",
+        "value": "Finders, Keepers"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-05-05T00:00:00Z",
       "description": "Carry the beat.",
       "id": "Backpack_JunkPunk_Drum",
@@ -212504,6 +212537,47 @@
       }
     },
     {
+      "added": "2026-11-22T13:30:46Z",
+      "description": "Your favorite chimera, all in gold!",
+      "dynamicPakId": "1022",
+      "id": "Character_YarnPuzzling",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_yarnpuzzling/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_yarnpuzzling/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_yarnpuzzling/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_yarnpuzzling/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_yarnpuzzling/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_yarnpuzzling/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "metaTags": [
+        "Cosmetics.Emote.CharacterGroup.Skirts"
+      ],
+      "name": "Solid Gold Kasane Teto",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "DapperGiant",
+        "text": "Part of the Teto's Here! set.",
+        "value": "Teto's Here!"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2024-08-10T00:00:00Z",
       "builtInEmoteIds": [
         "EID_YogaPatio"
@@ -341144,7 +341218,7 @@
         "text": "Part of the Big Cat Hunter set.",
         "value": "Big Cat Hunter"
       },
-      "showcaseVideo": "9erROh64mzA",
+      "showcaseVideo": "q07PLanUSRs",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -447004,6 +447078,37 @@
         "backendValue": "TiredHarpie",
         "text": "Part of the Jones on the Hunt set.",
         "value": "Jones on the Hunt"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-11-22T13:30:46Z",
+      "description": "Geno's personal privateer.\n\nArt by Golden Wolf.",
+      "dynamicPakId": "1022",
+      "id": "loadingscreen_delilahthw4",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw4/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw4/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw4/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw4/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Oscar's Wraps",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
