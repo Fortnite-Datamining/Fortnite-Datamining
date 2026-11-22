@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-22
+- **00:02** Item Shop, News, AES Keys, Epic Content Pages - +70 new (Ryū Ichimonji, Wilson Gear Bundle, Hush, Nine Lives Remaining, Crash's Wumpa Mace, +65 more) - -39 removed
+
 ## 2026-11-21
 - **19:36** News - +1 new (Live - NAC - FNCS Solos Reload Finals) - -1 removed
 - **12:00** BR Cosmetics, Item Shop
