@@ -1471,6 +1471,11 @@
         "tileSize": "Size_1_x_1"
       },
       {
+        "banner": {
+          "backendValue": "AmountOff",
+          "intensity": "Low",
+          "value": "1100 V-Bucks Off"
+        },
         "brItems": [
           {
             "added": "2019-11-20T12:51:18Z",
@@ -1709,6 +1714,11 @@
             }
           }
         ],
+        "bundle": {
+          "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7802d31331e85568/renderimage_0.png",
+          "info": "Bundle",
+          "name": "Martoz's Locker Bundle"
+        },
         "colors": {
           "color1": "b345e6ff",
           "color2": "420864ff",
@@ -1731,6 +1741,22 @@
           "useWidePreview": false
         },
         "layoutId": "Martoz'sLB.99",
+        "newDisplayAsset": {
+          "id": "DAv2_Bundle_Featured_Architect_CavalryBandit",
+          "materialInstances": [],
+          "renderImages": [
+            {
+              "fileName": "image-bundle-featured-architect-cavalrybandit-0-br-2048x2048-ff0bc286399b.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7802d31331e85568/renderimage_0.png",
+              "productTag": "Product.BR"
+            },
+            {
+              "fileName": "image-bundle-featured-architect-cavalrybandit-0-jn-2048x2048-f93225b6b658.png",
+              "image": "https://fortnite-api.com/images/cosmetics/br/newdisplayassets/7802d31331e85568/renderimage_1.png",
+              "productTag": "Product.Juno"
+            }
+          ]
+        },
         "newDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S43/DAv2_Bundle_Featured_Architect_CavalryBandit",
         "offerId": "v2:/dfcd6eff18d34c34dfc3bed6175b71d1d57c903dc35ff837cad989aad9f1d39f",
         "outDate": "2026-11-24T23:59:59.999Z",
