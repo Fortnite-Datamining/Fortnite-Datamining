@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-22
+- **21:10** Item Shop, News
 - **15:30** BR Cosmetics, Cars, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys - +6 new (Solid Gold High Tide and Wavecutter, Solid Gold Kasane Teto, Oscar's Wraps, Golden Llama Crew, JIDO_Character_YarnPuzzling, +1 more)
 - **00:02** Item Shop, News, AES Keys, Epic Content Pages - +70 new (Ryū Ichimonji, Wilson Gear Bundle, Hush, Nine Lives Remaining, Crash's Wumpa Mace, +65 more) - -39 removed
 
