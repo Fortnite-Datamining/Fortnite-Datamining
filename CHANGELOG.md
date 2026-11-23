@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-23
+- **01:53** Item Shop, Epic Content Pages - +83 new (Tower of Power, Gold Digger, Autumn Bundle, Buff Perry, Smashrooms, +78 more) - -24 removed
+
 ## 2026-11-22
 - **21:10** Item Shop, News
 - **15:30** BR Cosmetics, Cars, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys - +6 new (Solid Gold High Tide and Wavecutter, Solid Gold Kasane Teto, Oscar's Wraps, Golden Llama Crew, JIDO_Character_YarnPuzzling, +1 more)
