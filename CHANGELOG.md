@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-24
+- **06:13** Item Shop, News, Epic Content Pages - +68 new (Psychokinesis, 2-Ball, Modena Icon, Hensey, Get Flocked Bundle, +63 more) - -47 removed
+
 ## 2026-11-23
 - **22:08** News, Epic Content Pages - +1 new (Golden Week + Community Day) - -1 removed
 - **01:53** Item Shop, Epic Content Pages - +83 new (Tower of Power, Gold Digger, Autumn Bundle, Buff Perry, Smashrooms, +78 more) - -24 removed
