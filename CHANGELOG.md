@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-25
+- **02:41** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +73 new (SHE DID IT AGAIN, Balls of Power, 200 IQ, Crocs Classic Clog 'Orange Zing', Phantom Thieves Guitar, +68 more) - -67 removed
+
 ## 2026-11-24
 - **18:03** BR Cosmetics, Instruments, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys, Epic Content Pages - +19 new (Power of Love Portal, Scott's 1-UP!, Scott's Bass, Subspace Suitcase, Ramona's Drumsticks, +14 more)
 - **06:13** Item Shop, News, Epic Content Pages - +68 new (Psychokinesis, 2-Ball, Modena Icon, Hensey, Get Flocked Bundle, +63 more) - -47 removed

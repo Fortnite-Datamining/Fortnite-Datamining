@@ -328292,6 +328292,45 @@
       }
     },
     {
+      "added": "2026-11-25T00:00:00Z",
+      "description": "Try getting this one out of your head.",
+      "dynamicPakId": "1047",
+      "id": "EID_BrainFlame",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_brainflame/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_brainflame/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "SHE DID IT AGAIN",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Icon Series",
+        "value": "icon"
+      },
+      "series": {
+        "backendValue": "CreatorCollabSeries",
+        "colors": [
+          "5cf2f3ff",
+          "2bc9caff",
+          "004c71ff",
+          "025253ff",
+          "000f2bff"
+        ],
+        "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
+        "value": "Icon Series"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2024-03-26T08:30:33Z",
       "description": "Master the ability of standing so incredibly still that you become \"invisible\" to the eye.",
       "id": "EID_BrakePedal",
@@ -596362,7 +596401,7 @@
         "season": "5",
         "text": "Introduced in Chapter 7, Season 5."
       },
-      "name": "Mr. Whale Slippies",
+      "name": "Mr. Whale Slippers",
       "rarity": {
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
