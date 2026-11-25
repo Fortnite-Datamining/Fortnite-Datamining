@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-25
+- **21:53** BR Cosmetics, LEGO Cosmetics, Item Shop, AES Keys, Epic Content Pages - +8 new (Bounty in Boots, Death (Puss in Boots), Puss in Boots, Stalking Death, Puss in Boots, +3 more)
 - **02:41** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +73 new (SHE DID IT AGAIN, Balls of Power, 200 IQ, Crocs Classic Clog 'Orange Zing', Phantom Thieves Guitar, +68 more) - -67 removed
 
 ## 2026-11-24

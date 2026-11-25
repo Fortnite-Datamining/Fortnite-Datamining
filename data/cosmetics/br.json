@@ -62980,6 +62980,38 @@
       ]
     },
     {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "Eight lives down, one to go.",
+      "dynamicPakId": "1029",
+      "id": "Backpack_ToteYurt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_toteyurt/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_toteyurt/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Bounty in Boots",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "InfiniteMaple",
+        "text": "Part of the Puss in Boots set.",
+        "value": "Puss in Boots"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2026-07-30T13:11:09Z",
       "description": "Perfectly creepy.",
       "id": "Backpack_TouchToken",
@@ -205164,6 +205196,42 @@
       }
     },
     {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "He whistles. You run.",
+      "dynamicPakId": "1029",
+      "id": "Character_ToteYurt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_toteyurt/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_toteyurt/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_toteyurt/small.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_toteyurt/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Death (Puss in Boots)",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "set": {
+        "backendValue": "InfiniteMaple",
+        "text": "Part of the Puss in Boots set.",
+        "value": "Puss in Boots"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
       "added": "2025-06-07T19:01:48Z",
       "description": "He brought snacks.",
       "id": "Character_ToughPack",
@@ -312708,6 +312776,99 @@
       ]
     },
     {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "Fear him, if you dare!",
+      "dynamicPakId": "1029",
+      "id": "Companion_MarlinYeast",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Puss in Boots",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "InfiniteMaple",
+        "text": "Part of the Puss in Boots set.",
+        "value": "Puss in Boots"
+      },
+      "type": {
+        "backendValue": "CosmeticCompanion",
+        "displayValue": "Sidekick",
+        "value": "sidekick"
+      },
+      "variants": [
+        {
+          "channel": "Emote",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/emote/companionemote0.png",
+              "name": "Cute Eyes",
+              "tag": "CompanionEmote0"
+            }
+          ],
+          "type": "Sidekick Emote"
+        },
+        {
+          "channel": "Emissive",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/emissive/stage1.png",
+              "name": "On",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/emissive/stage2.png",
+              "name": "Off",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Hat"
+        },
+        {
+          "channel": "Outfit",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/outfit/stage1.png",
+              "name": "Off",
+              "tag": "Stage1"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/outfit/stage2.png",
+              "name": "On",
+              "tag": "Stage2"
+            }
+          ],
+          "type": "Beard"
+        },
+        {
+          "channel": "Pattern",
+          "options": [
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/pattern/stage6.png",
+              "name": "On",
+              "tag": "Stage6"
+            },
+            {
+              "image": "https://fortnite-api.com/images/cosmetics/br/companion_marlinyeast/variants/pattern/stage5.png",
+              "name": "Off",
+              "tag": "Stage5"
+            }
+          ],
+          "type": "Sword"
+        }
+      ]
+    },
+    {
       "added": "2026-06-29T13:01:06Z",
       "description": "A cute little creature from Neopia with a natural gift for magic!",
       "id": "Companion_MinkCalico",
@@ -328324,6 +328485,7 @@
         "image": "https://fortnite-api.com/images/cosmetics/series/creatorcollabseries.png",
         "value": "Icon Series"
       },
+      "showcaseVideo": "AtBjfhAEX34",
       "type": {
         "backendValue": "AthenaDance",
         "displayValue": "Emote",
@@ -384347,6 +384509,38 @@
       }
     },
     {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "You'll catch up. Sooner or later.",
+      "dynamicPakId": "1029",
+      "id": "EID_ToteYurt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/eid_toteyurt/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/eid_toteyurt/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Stalking Death",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "InfiniteMaple",
+        "text": "Part of the Puss in Boots set.",
+        "value": "Puss in Boots"
+      },
+      "type": {
+        "backendValue": "AthenaDance",
+        "displayValue": "Emote",
+        "value": "emote"
+      }
+    },
+    {
       "added": "2019-11-20T12:49:41Z",
       "description": "Celebrate a big play.",
       "id": "EID_Touchdown",
@@ -411329,6 +411523,37 @@
         "backendValue": "WideThought",
         "text": "Part of the Conspiracy Boarder set.",
         "value": "Conspiracy Boarder"
+      },
+      "type": {
+        "backendValue": "AthenaEmoji",
+        "displayValue": "Emoticon",
+        "value": "emoji"
+      }
+    },
+    {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "Express yourself on the battlefield.",
+      "dynamicPakId": "1029",
+      "id": "Emoticon_MarlinYeast",
+      "images": {
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/emoticon_marlinyeast/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Puss in Boots",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "InfiniteMaple",
+        "text": "Part of the Puss in Boots set.",
+        "value": "Puss in Boots"
       },
       "type": {
         "backendValue": "AthenaEmoji",
@@ -582171,6 +582396,33 @@
       ]
     },
     {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "Reap what you sow.",
+      "dynamicPakId": "1029",
+      "id": "Pickaxe_ToteYurt",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_toteyurt/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/pickaxe_toteyurt/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Death's Sickles",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "type": {
+        "backendValue": "AthenaPickaxe",
+        "displayValue": "Pickaxe",
+        "value": "pickaxe"
+      }
+    },
+    {
       "added": "2026-07-30T13:11:09Z",
       "description": "Unburied and back for revenge.",
       "id": "Pickaxe_TouchToken",
@@ -593986,6 +594238,38 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "CosmeticShoes",
+        "displayValue": "Shoes",
+        "value": "shoe"
+      }
+    },
+    {
+      "added": "2026-11-25T14:00:36Z",
+      "description": "Show 'em off.",
+      "dynamicPakId": "1029",
+      "id": "Shoes_MarlinYeast",
+      "images": {
+        "icon": "https://fortnite-api.com/images/cosmetics/br/shoes_marlinyeast/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/shoes_marlinyeast/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Puss in Slippers",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "InfiniteMaple",
+        "text": "Part of the Puss in Boots set.",
+        "value": "Puss in Boots"
       },
       "type": {
         "backendValue": "CosmeticShoes",
