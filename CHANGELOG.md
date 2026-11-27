@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-27
+- **04:44** Item Shop, Epic Content Pages - +89 new (Bomber bag, Esme's Heartstruck, Bounty in Boots, Ice Pop, Esme, +84 more) - -89 removed
+
 ## 2026-11-26
 - **22:31** Build update: `++Fortnite+Release-43.11-CL-60803671`
 - **13:29** AES Keys
