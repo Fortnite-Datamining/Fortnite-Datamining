@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-27
+- **14:38** BR Cosmetics, Item Shop, Epic Content Pages
 - **04:44** Item Shop, Epic Content Pages - +89 new (Bomber bag, Esme's Heartstruck, Bounty in Boots, Ice Pop, Esme, +84 more) - -89 removed
 
 ## 2026-11-26
