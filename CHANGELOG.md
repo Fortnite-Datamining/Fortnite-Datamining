@@ -2,6 +2,9 @@
 
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
+## 2026-11-28
+- **04:50** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +60 new (Yuri, Sayori, Monika, Natsuki, Oro, +55 more) - -42 removed
+
 ## 2026-11-27
 - **23:10** Item Shop, Epic Content Pages
 - **14:38** BR Cosmetics, Item Shop, Epic Content Pages
