@@ -3,6 +3,7 @@
 Auto-generated from each fetch run. Most recent first. Older months are archived under [changelog/](changelog/).
 
 ## 2026-11-28
+- **13:50** BR Cosmetics, Cars, LEGO Cosmetics, Jam Tracks, Item Shop, AES Keys - +6 new (Solid Gold Roasted Meat, Solid Gold Captain X, Jones and the Straw Hats, Blank, JIDO_Character_JuniperBurlapGold, +1 more)
 - **04:50** BR Cosmetics, Item Shop, AES Keys, Epic Content Pages - +60 new (Yuri, Sayori, Monika, Natsuki, Oro, +55 more) - -42 removed
 
 ## 2026-11-27

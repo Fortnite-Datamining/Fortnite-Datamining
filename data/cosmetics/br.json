@@ -38111,6 +38111,39 @@
       }
     },
     {
+      "added": "2026-11-28T13:30:13Z",
+      "description": "Eating not recommended.",
+      "dynamicPakId": "1037",
+      "id": "Backpack_MythCheeseReward",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/backpack_mythcheesereward/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/backpack_mythcheesereward/icon.png",
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/backpack_mythcheesereward/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Solid Gold Roasted Meat",
+      "rarity": {
+        "backendValue": "EFortRarity::Rare",
+        "displayValue": "Rare",
+        "value": "rare"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
+      },
+      "type": {
+        "backendValue": "AthenaBackpack",
+        "displayValue": "Back Bling",
+        "value": "backpack"
+      }
+    },
+    {
       "added": "2025-05-22T01:55:14Z",
       "description": "Ripe riffs and creamy grooves awail.",
       "id": "Backpack_Nana_Guitar",
@@ -157358,6 +157391,55 @@
         "backendValue": "EFortRarity::Epic",
         "displayValue": "Epic",
         "value": "epic"
+      },
+      "set": {
+        "backendValue": "BleakBee",
+        "text": "Part of the Finders, Keepers set.",
+        "value": "Finders, Keepers"
+      },
+      "type": {
+        "backendValue": "AthenaCharacter",
+        "displayValue": "Outfit",
+        "value": "outfit"
+      }
+    },
+    {
+      "added": "2026-11-28T13:30:13Z",
+      "description": "Goldest treasure hunter in any reality.",
+      "dynamicPakId": "1037",
+      "id": "Character_JuniperBurlapGold",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/character_juniperburlapgold/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/character_juniperburlapgold/icon.png",
+        "lego": {
+          "large": "https://fortnite-api.com/images/cosmetics/lego/character_juniperburlapgold/large.png",
+          "small": "https://fortnite-api.com/images/cosmetics/lego/character_juniperburlapgold/small.png",
+          "wide": "https://fortnite-api.com/images/cosmetics/lego/character_juniperburlapgold/wide.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/character_juniperburlapgold/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Solid Gold Captain X",
+      "rarity": {
+        "backendValue": "EFortRarity::Epic",
+        "displayValue": "Epic",
+        "value": "epic"
+      },
+      "series": {
+        "backendValue": "GoldenSeries",
+        "colors": [
+          "fdac3eff",
+          "d99334ff",
+          "b7760bff",
+          "7e5005ff",
+          "4b2e02ff"
+        ],
+        "value": "GOLDEN SERIES"
       },
       "set": {
         "backendValue": "BleakBee",
@@ -448102,6 +448184,42 @@
         "backendValue": "EFortRarity::Uncommon",
         "displayValue": "Uncommon",
         "value": "uncommon"
+      },
+      "type": {
+        "backendValue": "AthenaLoadingScreen",
+        "displayValue": "Loading Screen",
+        "value": "loadingscreen"
+      }
+    },
+    {
+      "added": "2026-11-28T13:30:13Z",
+      "description": "Adventure awaits! Jonesy meets new friends!",
+      "dynamicPakId": "1037",
+      "id": "loadingscreen_delilahthw5",
+      "images": {
+        "featured": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw5/featured.png",
+        "icon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw5/icon.png",
+        "other": {
+          "background": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw5/background.png"
+        },
+        "smallIcon": "https://fortnite-api.com/images/cosmetics/br/loadingscreen_delilahthw5/smallicon.png"
+      },
+      "introduction": {
+        "backendValue": 43,
+        "chapter": "7",
+        "season": "5",
+        "text": "Introduced in Chapter 7, Season 5."
+      },
+      "name": "Jones and the Straw Hats",
+      "rarity": {
+        "backendValue": "EFortRarity::Uncommon",
+        "displayValue": "Uncommon",
+        "value": "uncommon"
+      },
+      "set": {
+        "backendValue": "FrailShark",
+        "text": "Part of the One Piece set.",
+        "value": "One Piece"
       },
       "type": {
         "backendValue": "AthenaLoadingScreen",
